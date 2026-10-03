@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000622",
+  "transcript": "The reason I like to duck in the roundhouse, it makes it a lot easier for the head kick to come all the way up and go horizontal. My head is not up. If I do this, it's going to be hard. So I put my head down so my leg comes up. Boom. I'm going to step off to my right, duck my head. Boom. Boom. Boom. Boom. Duck.",
+  "acoustic_features": {
+    "mean_loudness": 0.9573,
+    "loudness_variability": 0.5955,
+    "mean_pitch": 36.7237,
+    "pitch_variability": 0.1175,
+    "spectral_flux": 0.5218,
+    "sound_level_db": -21.1028
+  },
+  "metadata_caption": "Superare",
+  "caption_priority": "low"
+}

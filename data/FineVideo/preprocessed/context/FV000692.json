@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000692",
+  "transcript": "I don't know what's going on this phone is not gonna let me do this in landscape damn it I'm not gonna keep fighting with this I'm just gonna leave it going I can't figure out how to get it in landscape mode I'm so stubborn though I'll keep turning it off and trying I'm gonna try this again",
+  "acoustic_features": {
+    "mean_loudness": 0.9138,
+    "loudness_variability": 0.7364,
+    "mean_pitch": 26.463,
+    "pitch_variability": 0.2232,
+    "spectral_flux": 0.5366,
+    "sound_level_db": -18.1932
+  },
+  "metadata_caption": "Boondocking Bash 1st Night Full Moo  Drum Circle",
+  "caption_priority": "low"
+}

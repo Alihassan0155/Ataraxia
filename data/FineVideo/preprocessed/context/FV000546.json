@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000546",
+  "transcript": "Have you noticed weird thoughts or feelings floating around in your head? Are you missing your parents? Or maybe you're generally unhappy about being at school and want to get out? Well, kids, that's not puberty. That's depression. Please remember, everyone, that our wonderful counselor is always here for you. Mental health is very important to us here at Wormwood. Yeah.",
+  "acoustic_features": {
+    "mean_loudness": 0.9475,
+    "loudness_variability": 0.5109,
+    "mean_pitch": 31.0346,
+    "pitch_variability": 0.2408,
+    "spectral_flux": 0.419,
+    "sound_level_db": -21.1629
+  },
+  "metadata_caption": "Depression PSA #shorts #analoghorror #depression",
+  "caption_priority": "low"
+}

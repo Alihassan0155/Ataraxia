@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000764",
+  "transcript": "Adhere is a revolutionary bone conduction hearing system. It is an adhesive non-surgical solution which avoids pressure onto the skin. It offers high wearing comfort and stays in an optimal position offering consistent access to sound. Adhere is simple and easy to use. The Adhere Adhesive Adapter is applied to the hairless area behind the ear. The Adhere Audio Processor is connected to the Adhesive Adapter via the snap connector. The Audio Processor picks up sound waves and converts them into vibrations. The Audio Processor transfers the vibrations via the Adhesive Adapter onto the skull. The bone conducts the vibrations to the inner ear where they are perceived as sound. The system has excellent cosmetic appeal and can be worn discreetly behind the ear. With this unique concept, Adhere provides a viable solution offering a life full of sound. Stick, click, hear, Adhere.",
+  "acoustic_features": {
+    "mean_loudness": 0.3711,
+    "loudness_variability": 1.0244,
+    "mean_pitch": 23.711,
+    "pitch_variability": 0.2079,
+    "spectral_flux": 0.1979,
+    "sound_level_db": -24.8181
+  },
+  "metadata_caption": "How ADHEAR works",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000758",
+  "transcript": "If you don't know one step sparring very well, we'll go nice and slow. Front row, step up. You're going to step up to this row of knots. Back row, step up. Set your distance. Step back in your stance. Step back in your stance. Front row, left leg forward, left leg forward. Announce, Oizuki Jodo. Back row, you're going to step in once to the upper body. Front row, same thing we were just doing. Step back, rising block reverse punch. Ready? One. Hey! Stand up.",
+  "acoustic_features": {
+    "mean_loudness": 0.2629,
+    "loudness_variability": 0.9985,
+    "mean_pitch": 33.3182,
+    "pitch_variability": 0.2165,
+    "spectral_flux": 0.2554,
+    "sound_level_db": -27.6664
+  },
+  "metadata_caption": "Sparring: Learning the Basics",
+  "caption_priority": "low"
+}

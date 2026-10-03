@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000397",
+  "transcript": "A lot has changed for New Yorkers and where we live has never been more important. We all want clean and comfortable. We want safety and security in every detail. We want the 15-minute city and a five-minute walk. That's Hudson Yards. Resilient. Adaptable. Built for change. We choose New York because we want it all. We choose Hudson Yards because we want the best. Your future begins at livehudsonyards.com",
+  "acoustic_features": {
+    "mean_loudness": 0.8812,
+    "loudness_variability": 0.3797,
+    "mean_pitch": 26.3247,
+    "pitch_variability": 0.1561,
+    "spectral_flux": 0.6656,
+    "sound_level_db": -19.61
+  },
+  "metadata_caption": "Live at Hudson Yards",
+  "caption_priority": "low"
+}

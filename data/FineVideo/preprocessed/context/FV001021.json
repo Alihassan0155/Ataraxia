@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001021",
+  "transcript": "Double crunch. Attention! Take care as this is a very advanced exercise. Make sure that your lumbar musculature is well trained before executing this exercise. Imagine a vertical line which starts from your pelvis. Contract your abdomen and bring your shoulders and knees towards the imaginary line. It is very important to keep the pelvis still during the exercise. Return to the starting position.",
+  "acoustic_features": {
+    "mean_loudness": 0.4632,
+    "loudness_variability": 0.8928,
+    "mean_pitch": 19.6972,
+    "pitch_variability": 0.2544,
+    "spectral_flux": 0.3328,
+    "sound_level_db": -22.3245
+  },
+  "metadata_caption": "Abs Workout - Double Crunch Exercise - Abs Workout",
+  "caption_priority": "low"
+}

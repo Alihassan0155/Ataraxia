@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000697",
+  "transcript": "I'm Frances Lucero and I'm with the King County Noxious Weed Control Program. We're at a site along the Cedar River where there's been a significant knotweed infestation. So all of these brown, dead canes behind me used to be living knotweed. And we were out here last year with a WCC crew and an EarthCorp crew that was funded by a King Conservation Grant. And we were able to treat this infestation. So we're looking at it one year after treatment. We're taking a look for how effective our treatment was. And we're also kind of looking at what other vegetation is coming back and what other vegetation was here when we treated. So we've got this nice guy right here, this salmonberry that looks like we didn't manage to kill. So that's a plus. And we've got this dead knotweed right behind me. Over the next couple of years we hope to see a lot of native plants come in. And we'll be back on this site in the next year or two to add some additional planting to that as we need to.",
+  "acoustic_features": {
+    "mean_loudness": 0.3368,
+    "loudness_variability": 0.6714,
+    "mean_pitch": 36.4585,
+    "pitch_variability": 0.088,
+    "spectral_flux": 0.0879,
+    "sound_level_db": -34.039
+  },
+  "metadata_caption": "King Conservation District awards grants to eradicate invasive knotweed on the Cedar River",
+  "caption_priority": "low"
+}

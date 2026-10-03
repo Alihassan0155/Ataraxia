@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000480",
+  "transcript": "I'm a great believer in what Charlie Chaplin said is that a life is a tragedy in close-up and a comedy in long shot. If you sit back visually on a situation it automatically becomes funnier and to be honest I preferred the simplicity and the cheapness if you like. I mentioned which is a French comedian called Jacques Tati who said that comedy begins in the legs. Making a character more real and more sympathetic and more identifiable doesn't necessarily make him funny because in many ways what's funny about Mr Bean for example is his complete sort of selfishness and he's a natural born anarchist so he's a child trapped in a man's body.",
+  "acoustic_features": {
+    "mean_loudness": 1.0716,
+    "loudness_variability": 0.5167,
+    "mean_pitch": 21.2125,
+    "pitch_variability": 0.2242,
+    "spectral_flux": 0.6005,
+    "sound_level_db": -18.2596
+  },
+  "metadata_caption": "BEANTALK 02",
+  "caption_priority": "low"
+}

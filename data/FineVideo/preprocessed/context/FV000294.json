@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000294",
+  "transcript": "What's the safest level in the backrooms? That question is pretty hard to answer, considering the entire backrooms is physically or psychologically dangerous, but there are a few levels that make the cut. Level 27, for example, is an underground hot spring that has rejuvenating and healing water in it. It has zero dangers at all, unless you hate water. There's also level zero. In the technical sense, it's safe, because there's minimal danger, except for the fact that you just got teleported to an alternate dimension and you're all alone forever. But I think that the safest backrooms level of all time is the pool rooms. It's got no danger, no entities, and a beautiful, serene environment that you can stay in forever. Nothing can go wrong here, unless you go too deep into it, of course. What do you think the safest level is? Let me know.",
+  "acoustic_features": {
+    "mean_loudness": 1.6009,
+    "loudness_variability": 0.5888,
+    "mean_pitch": 27.2448,
+    "pitch_variability": 0.168,
+    "spectral_flux": 0.9896,
+    "sound_level_db": -13.7369
+  },
+  "metadata_caption": "what's the safest Backrooms level?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000519",
+  "transcript": "If you want to rank up faster than 99% of people, you probably don't want to train what 99% of people are training. If you want to rank up fast, train backward saves, ground dribbles, power shots, simple fast aerials, and recoveries. You do that, man, you'll shoot up the champ, even GC.",
+  "acoustic_features": {
+    "mean_loudness": 0.8532,
+    "loudness_variability": 0.5157,
+    "mean_pitch": 28.4397,
+    "pitch_variability": 0.1385,
+    "spectral_flux": 0.5373,
+    "sound_level_db": -20.5433
+  },
+  "metadata_caption": "The 5 Must-Know Mechanics To Rank Up",
+  "caption_priority": "low"
+}

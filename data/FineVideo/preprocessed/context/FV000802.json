@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000802",
+  "transcript": "Okay, I'm about to go around the chair. I don't really feel like going around this chair. No. Alright, well you have a tree, so I'll try going around the chair. Alright, now I'm going down the chair. Now I sit. Yes, alright. Now what do I do? I don't know what to do. What do you want me to do? Oh, we're going down the chair again. Okay, well I can do that. Okay, going down the chair. Oh, but I have to sit again. Alright, well I will.",
+  "acoustic_features": {
+    "mean_loudness": 0.4211,
+    "loudness_variability": 0.9145,
+    "mean_pitch": 29.6125,
+    "pitch_variability": 0.1995,
+    "spectral_flux": 0.1097,
+    "sound_level_db": -30.5691
+  },
+  "metadata_caption": "Tick Training in session!",
+  "caption_priority": "low"
+}

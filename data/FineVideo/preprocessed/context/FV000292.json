@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000292",
+  "transcript": "For more information visit www.fema.org Thank you. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.6766,
+    "loudness_variability": 0.4767,
+    "mean_pitch": 24.4971,
+    "pitch_variability": 0.3522,
+    "spectral_flux": 0.3721,
+    "sound_level_db": -21.2569
+  },
+  "metadata_caption": "Drosophila Female Under the microscope",
+  "caption_priority": "low"
+}

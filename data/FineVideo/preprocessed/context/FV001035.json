@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001035",
+  "transcript": "Buddy Rich, magnificent as he was, was not in fact the godfather of all drummers. This guy was. Dee Dee Chandler. Down here is one of the most important inventions for modern music, the bass drum pedal. In 1896, when this photo was taken, he was one of the first snare drum guys to figure out how to play the bass drum at the same time by inventing a homemade foot pedal.",
+  "acoustic_features": {
+    "mean_loudness": 0.5787,
+    "loudness_variability": 0.4824,
+    "mean_pitch": 29.6618,
+    "pitch_variability": 0.2236,
+    "spectral_flux": 0.2327,
+    "sound_level_db": -26.3162
+  },
+  "metadata_caption": "Stewart Copeland | On Drums",
+  "caption_priority": "low"
+}

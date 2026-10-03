@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000908",
+  "transcript": "Thank you. Thank you. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.1462,
+    "loudness_variability": 0.8359,
+    "mean_pitch": 49.7868,
+    "pitch_variability": 0.162,
+    "spectral_flux": 0.3253,
+    "sound_level_db": -16.2189
+  },
+  "metadata_caption": "Baby Xylophone by BlackDevelopers",
+  "caption_priority": "low"
+}

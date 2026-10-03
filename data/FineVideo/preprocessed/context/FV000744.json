@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000744",
+  "transcript": "Boat Trip Salon I need a spa to relax before my trip. Awesome! In order to have a nice boat trip, Prevent Basque makeup is important. I'm so happy to wear my beautiful clothes on the romantic boat trip. Boyfriend's closet. Standing on the bow to blow, the sea wind feels good. Boat Trip Salon",
+  "acoustic_features": {
+    "mean_loudness": 0.9166,
+    "loudness_variability": 0.5306,
+    "mean_pitch": 32.2843,
+    "pitch_variability": 0.3339,
+    "spectral_flux": 0.5064,
+    "sound_level_db": -19.6597
+  },
+  "metadata_caption": "Summer Boat Trip: Beauty Salon",
+  "caption_priority": "low"
+}

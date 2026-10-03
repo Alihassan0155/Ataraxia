@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000377",
+  "transcript": "Do you want to learn how to get faster and turn quicker? Shuttle runs are a great way to practice. Start by bending your knees and push off your back leg. Get low when you change direction and push off your standing foot. Pump your arms and high knees to go fast. Now you need to go practice so you can get ready for the challenge.",
+  "acoustic_features": {
+    "mean_loudness": 0.4933,
+    "loudness_variability": 0.6144,
+    "mean_pitch": 24.108,
+    "pitch_variability": 0.4444,
+    "spectral_flux": 0.2253,
+    "sound_level_db": -24.8275
+  },
+  "metadata_caption": "Shuttle Run Technique on TopTekkers ⚽️📱",
+  "caption_priority": "low"
+}

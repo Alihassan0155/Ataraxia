@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000286",
+  "transcript": "Give me one random word. Umbrella. Okay, this is an improvised bartender skit about... Umbrella. Yeah, that's gonna be great. There's the guys that come in at last call on a Friday asking for 15 split bills. Like, figure out the math or just stay home. Oh, and don't get me started. Last week I had a guy, Can I get a virgin mojito with water instead of soda and hold the mint? So, you want a water with like some lime juice in there? Is that what you want? Is that what a virgin mojito sub water for soda is? God, people, you know? Like, they all come here complaining to us, the bartender. But where does the bartender go to unload? Oh, and don't get me started. Yesterday there was like a gentle rain outside and this lady goes, Would you mind walking me to my car with your umbrella? I've seemed to have forgotten my... No! No, I'm not walking you to your... What kind of a monster asks that? Hey, you know what I mean.",
+  "acoustic_features": {
+    "mean_loudness": 0.5219,
+    "loudness_variability": 0.7221,
+    "mean_pitch": 33.6608,
+    "pitch_variability": 0.2713,
+    "spectral_flux": 0.2143,
+    "sound_level_db": -26.4191
+  },
+  "metadata_caption": "Blame it on the alcoh...UMBRELLA?! #improvisation #comedy",
+  "caption_priority": "low"
+}

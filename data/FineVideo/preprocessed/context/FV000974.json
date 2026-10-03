@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000974",
+  "transcript": "Hey, this is Cycling Explorer welcoming you to our site. We're in the process of updating our site with an expected launch date of January 2023. Please stay tuned for that. In the meantime, check out some of our older videos as we're in the process of updating them as well. In the meantime, have a great day. Make sure you get on your bike as I have done today and letting you know I'm putting the hat back on. Enjoy the day. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.3711,
+    "loudness_variability": 1.09,
+    "mean_pitch": 32.2745,
+    "pitch_variability": 0.1184,
+    "spectral_flux": 0.1712,
+    "sound_level_db": -26.6354
+  },
+  "metadata_caption": "A Sneak Peek at our Upcoming Changes",
+  "caption_priority": "low"
+}

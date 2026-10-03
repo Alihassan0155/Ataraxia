@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000921",
+  "transcript": "bend over lateral raises bend your torso forward and bend your legs keep your back straight your hands should be in a straight line with your shoulders and your elbows slightly bent without changing the elbow angle bring your hands on axis with your shoulders return to the starting position",
+  "acoustic_features": {
+    "mean_loudness": 0.5107,
+    "loudness_variability": 1.0765,
+    "mean_pitch": 20.2982,
+    "pitch_variability": 0.2867,
+    "spectral_flux": 0.3854,
+    "sound_level_db": -19.8017
+  },
+  "metadata_caption": "Bent over lateral raises",
+  "caption_priority": "low"
+}

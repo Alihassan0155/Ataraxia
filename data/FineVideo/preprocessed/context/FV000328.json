@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000328",
+  "transcript": "What makes Greek summer so precious? It's not the sea. It's not the sun. It's more than that. Greek summer is a state of mind. Being with the people you love. Connecting with nature. Feeling free. That's Greek summer. So this year, enjoy your Greek summer, wherever you are.",
+  "acoustic_features": {
+    "mean_loudness": 0.8791,
+    "loudness_variability": 0.5236,
+    "mean_pitch": 25.2769,
+    "pitch_variability": 0.2879,
+    "spectral_flux": 0.3928,
+    "sound_level_db": -21.9987
+  },
+  "metadata_caption": "Greek Summer is a state of mind",
+  "caption_priority": "low"
+}

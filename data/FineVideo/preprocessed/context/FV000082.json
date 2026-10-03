@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000082",
+  "transcript": "There will be mountains that I have to climb. There will be battles that I have to fight. But the victory is up to me to decide. But how can I expect to win if I've never tried? I just can't give up now. I've come too far from my struggle. Nobody told me that the way would be if... I can't believe. You brought me this far to leave me. To leave you.",
+  "acoustic_features": {
+    "mean_loudness": 0.8297,
+    "loudness_variability": 0.7368,
+    "mean_pitch": 29.7924,
+    "pitch_variability": 0.2551,
+    "spectral_flux": 0.6573,
+    "sound_level_db": -18.5542
+  },
+  "metadata_caption": "Can't Give Up Now",
+  "caption_priority": "low"
+}

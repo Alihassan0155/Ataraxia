@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000280",
+  "transcript": "Have anybody ever tell you look like Beyonce? Nah, they usually tell me I look like Shalissa. Who the fuck is that? Me, nigga. Anybody ever tell you look like Shalissa? All the fucking time, bro. What you say? They give you what? Hard, oh soft tacos. What you wanted? Hard tacos, like Taco Bell. So you like hard? Yeah. Instead of soft? I prefer hard over soft. Well, I guess it depends on where they came from.",
+  "acoustic_features": {
+    "mean_loudness": 0.4699,
+    "loudness_variability": 1.1526,
+    "mean_pitch": 29.9224,
+    "pitch_variability": 0.2508,
+    "spectral_flux": 0.2072,
+    "sound_level_db": -25.0938
+  },
+  "metadata_caption": "Three Shalissa vines",
+  "caption_priority": "low"
+}

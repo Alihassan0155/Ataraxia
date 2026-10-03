@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000440",
+  "transcript": "Hehehe, too easy. Dude, stop! Don't eat him! Why not? He's easy prey! He is the main protagonist, you idiot! Get your head in the game! First, you gotta do a dramatic jump scare. Good, good. Now let him run away. Hey now, slow down, hotshot! Oh, but he's so slow! I could catch him so easily! Just keep pace, and make sure to stumble over every obstacle along the way! Oh, drat, I have tripped. Why are we still here? Just to suffer? Hehe, now you're getting it. Hey, isn't that the money-hungry villain? Are we allowed to eat him? Oh, yes. He must perish.",
+  "acoustic_features": {
+    "mean_loudness": 1.1847,
+    "loudness_variability": 0.5288,
+    "mean_pitch": 38.438,
+    "pitch_variability": 0.2929,
+    "spectral_flux": 0.6115,
+    "sound_level_db": -19.5102
+  },
+  "metadata_caption": "Oh no, I've Tripped",
+  "caption_priority": "low"
+}

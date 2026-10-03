@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000679",
+  "transcript": "Hey, hey, hey, can you hold the elevator for me? Oh, yeah, I got you. Close, close, close, close, close, close, close. Are you trying to close it? No, bro, I literally got you closed. Now what? Oh, it's a new law. You have to pay parking meters to get in elevators. You mind if I use your phone? Fine. Here. Thank you. Whoa, whoa. My bad.",
+  "acoustic_features": {
+    "mean_loudness": 1.7768,
+    "loudness_variability": 0.5257,
+    "mean_pitch": 38.8554,
+    "pitch_variability": 0.1625,
+    "spectral_flux": 1.2975,
+    "sound_level_db": -13.3754
+  },
+  "metadata_caption": "WHEN YOU TRY TO CLOSE THE ELEVATOR #shorts",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000227",
+  "transcript": "Daddy, why did you hate my fries? I bought them and they were mine. But you ate them, yeah you ate my fries. And I cried, but you didn't see me cry. Daddy, do you even love me? Well, I wish you'd show it, cause I wouldn't know it. What kind of daddy is his daughter's fries? And doesn't look her in the eyes. Daddy, there were tears there. If you saw me, would you even care?",
+  "acoustic_features": {
+    "mean_loudness": 1.3329,
+    "loudness_variability": 0.3466,
+    "mean_pitch": 32.708,
+    "pitch_variability": 0.1914,
+    "spectral_flux": 0.8734,
+    "sound_level_db": -14.7154
+  },
+  "metadata_caption": "Adventure Time - Daddy, why did you eat my fries (Marili Andre cover)",
+  "caption_priority": "low"
+}

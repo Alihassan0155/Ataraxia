@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000472",
+  "transcript": "Schaefter & Kirschhoff develops and supplies laser sources, fiber optic components and line scan cameras for a wide range of industrial and research applications. Color or black and white line scan cameras are ideal for scanning surfaces and texture analysis or for fully automated quality control. Laser line generators and laser micro focus generators are suitable for 3D measurement techniques, particle sizing and analysis. Fiber port clusters are designed for building compact and stable optical setups. Fiber coupled laser sources, either narrow band or broad band, are used for quantum optics, biophotonics, atmospheric physics and for outer space. Customized product developments prove themselves in harsh environments. The large area scan macroscope analyzes polar ice scores at 40 degrees below zero and reveals the history of former climates to help understand today's global changes. Chaefter & Kirschhof",
+  "acoustic_features": {
+    "mean_loudness": 1.1587,
+    "loudness_variability": 0.4962,
+    "mean_pitch": 26.1707,
+    "pitch_variability": 0.2925,
+    "spectral_flux": 0.6695,
+    "sound_level_db": -18.4279
+  },
+  "metadata_caption": "Schäfter + Kirchhoff Produkte",
+  "caption_priority": "low"
+}

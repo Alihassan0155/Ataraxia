@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000975",
+  "transcript": "So let's see here. SpikePatrick1970 asks, Is it true that Murdered by Numbers is widely regarded as one of the most difficult drum pieces to pay? Yes, it is so regarded, but it's actually not true. I mean, let's see a little Murdered by Numbers here. Piece of cake, right? What's really hard is spirits and the material. One, two. That's hard.",
+  "acoustic_features": {
+    "mean_loudness": 0.7652,
+    "loudness_variability": 0.7328,
+    "mean_pitch": 30.2287,
+    "pitch_variability": 0.1423,
+    "spectral_flux": 0.414,
+    "sound_level_db": -20.8243
+  },
+  "metadata_caption": "One of the most difficult drum pieces to play...",
+  "caption_priority": "low"
+}

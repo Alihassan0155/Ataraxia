@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000098",
+  "transcript": "For men are in the hospital waiting room because their wives are having babies. Congratulations. You're the father of twins. That's odd, answers the man. I work for the Minnesota Twins. A nurse says to the second guy, congratulations. You're the father of triplets. That's weird, answers the second man. I work for the 3M company. Nurse tells the third man, congratulations. You're the father of quadruplets. That's strange, he answers. I work for the Four Seasons Hotel. The last man is groaning and banging his head against the wall. What's wrong, the others ask. He said, I work for 7up.",
+  "acoustic_features": {
+    "mean_loudness": 1.8137,
+    "loudness_variability": 0.5886,
+    "mean_pitch": 30.395,
+    "pitch_variability": 0.1606,
+    "spectral_flux": 1.2959,
+    "sound_level_db": -11.4359
+  },
+  "metadata_caption": "Dad Jokes in the Delivery Room: A Comedy of Coincidences #dadjokes #funnyshorts #jokesvideo #jokes",
+  "caption_priority": "low"
+}

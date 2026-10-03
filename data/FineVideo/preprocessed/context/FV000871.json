@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000871",
+  "transcript": "Hello, welcome to the Vava Spa. We have an experienced massage worker. You no longer need to go out with a curing situation which is always jammed. Just surf the VavaSpa.com, call Miss Vava or WhatsApp plus 60126430905. We will come soon.",
+  "acoustic_features": {
+    "mean_loudness": 0.328,
+    "loudness_variability": 0.4754,
+    "mean_pitch": 36.9774,
+    "pitch_variability": 0.0945,
+    "spectral_flux": 0.1116,
+    "sound_level_db": -32.6391
+  },
+  "metadata_caption": "Outcall Massage Kuala Lumpur - The Wawa Spa",
+  "caption_priority": "low"
+}

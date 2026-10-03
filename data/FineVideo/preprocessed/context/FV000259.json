@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000259",
+  "transcript": "We overuse this phrase the most, that's the worst. You ever heard people say that? That's the worst. That's the worst. Really? That's the worst. That is the worst. My wife and I dropped our daughter off at the mall not too long ago. She was there to meet her friends, and her friends weren't there yet. My daughter was distraught. She was like, oh, my friends. My friends. That's not how she talks, but it's really funny. My friends. My friends aren't here. My friends aren't here yet. Now I can't go shopping. I have to wait for them until I get here, until I can't go shopping. My wife is like, I know, honey. That's the worst. Really? That's the worst?",
+  "acoustic_features": {
+    "mean_loudness": 0.7192,
+    "loudness_variability": 0.5325,
+    "mean_pitch": 29.4543,
+    "pitch_variability": 0.2079,
+    "spectral_flux": 0.2387,
+    "sound_level_db": -26.7163
+  },
+  "metadata_caption": "Tim Hawkins: That's The Worst. #standupcomedy",
+  "caption_priority": "low"
+}

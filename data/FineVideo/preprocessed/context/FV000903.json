@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000903",
+  "transcript": "Earth is a big place. If you could drive around the entire planet, it would take more than 16 days of non-stop driving at highway speeds. But compared to some of the planets in our solar system, it's pretty small. We often see planets displayed as similar in size, like this, to make details on smaller planets easier to see. In reality, the size of planets compared to each other looks more like this. Even though this shows the sizes of planets accurately, they aren't that close together. Because of the great distances between planets and the planet's relatively small sizes compared to those distances, it's practically impossible to create a visual representation on a screen or the page of a book that realistically represents the sizes of the planets and the distances between them. As a result, the best we can usually do is show the accurate sizes of the planets or the accurate distances between the planets. Remember, they aren't really lined up like this. In space, the planets' positions are constantly changing as they revolve around the sun. Thank you. One year...",
+  "acoustic_features": {
+    "mean_loudness": 0.1913,
+    "loudness_variability": 0.8675,
+    "mean_pitch": 25.9215,
+    "pitch_variability": 0.2595,
+    "spectral_flux": 0.0555,
+    "sound_level_db": -37.6741
+  },
+  "metadata_caption": "Solar System Size and Distance",
+  "caption_priority": "low"
+}

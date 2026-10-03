@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000099",
+  "transcript": "If you're feeling overwhelmed with your to-do list, here's what you should do. Take a look at everything you've got and rank them in order of how long they're going to take you. Sometimes it can be a really good motivation boost to complete a couple of those smaller tasks that you can check them off your list, you can look at it and see that you're making progress before you move on to those heavy lifts and those longer tasks to do.",
+  "acoustic_features": {
+    "mean_loudness": 0.4154,
+    "loudness_variability": 0.5232,
+    "mean_pitch": 25.4221,
+    "pitch_variability": 0.1845,
+    "spectral_flux": 0.1566,
+    "sound_level_db": -30.5987
+  },
+  "metadata_caption": "What To Do If You're Feeling Overwhelmed #shorts",
+  "caption_priority": "low"
+}

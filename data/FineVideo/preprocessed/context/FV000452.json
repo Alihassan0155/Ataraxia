@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000452",
+  "transcript": "Our shorelines are full of items that don't belong there. Plastic, metal, rubber, paper, textiles, and other human-made marine debris is found on beaches around the world every day. The National Oceanic and Atmospheric Administration is working to gather data on the amount and types of marine debris so we can keep our marine environment clean. You can help by joining NOAA's Marine Debris Monitoring and Assessment Project, or MDMAP. When you survey your local shoreline, you'll join a network of people who contribute to and use publicly available data to manage and prevent marine debris. Visit the MDMAP Monitoring Toolbox for resources to help you get going. Start collecting marine debris data and make a difference with MDMAP. See you out on the shore.",
+  "acoustic_features": {
+    "mean_loudness": 0.6613,
+    "loudness_variability": 0.4922,
+    "mean_pitch": 24.8291,
+    "pitch_variability": 0.2783,
+    "spectral_flux": 0.359,
+    "sound_level_db": -24.3506
+  },
+  "metadata_caption": "The NOAA Marine Debris Monitoring and Assessment Project",
+  "caption_priority": "low"
+}

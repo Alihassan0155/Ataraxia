@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000278",
+  "transcript": "Can I interest you in any careers? Can I get something where I go straight to the top because I'm special? Here's our millennial menu. How much for CEO? 20 years. Ooh! We do have a 15-year option, but you miss all your son's baseball games. I will have that. Your wife, sir. Thank you. Oh! Could you send her back, please? She's rich. Thank you. That'll be all. What does yours look like? It's cool. I thought you ordered three children. Yeah, they brought me another by accident. Okay, I've got four mortgages. Careful, they're heavy. What hobbies would you recommend? Wait, you already have a hobby. What you need is a job. Writing is my job! Order! Here are your Just Desserts. Is that best-selling novel? It paid off! And here are your grandkids. Oh, these look spoiled. You actually did that. That's right. Three more, please! I'll be right with you guys. Send them a round of wisdom. Our treat. And our national debt. There it is! There's that fisherman.",
+  "acoustic_features": {
+    "mean_loudness": 0.7426,
+    "loudness_variability": 0.559,
+    "mean_pitch": 37.7624,
+    "pitch_variability": 0.2088,
+    "spectral_flux": 0.2712,
+    "sound_level_db": -24.9857
+  },
+  "metadata_caption": "Restaurant of Life: Part 2",
+  "caption_priority": "low"
+}

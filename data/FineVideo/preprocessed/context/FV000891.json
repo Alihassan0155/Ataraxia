@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000891",
+  "transcript": "You may have heard of phantom limb pain, but I gotta tell you, phantom limb itch is like 10 times worse. Sometimes my body will decide that the foot that doesn't exist anymore has an itch and I cannot scratch it. Sometimes I try to like stimulate the skin, mess with the nerves, try to interrupt the signals. Yes, I have tried mirror therapy. Unfortunately, it doesn't work super well for me. And it's just gonna go away on its own when it feels like it. And until then, I'm gonna lose my little mind.",
+  "acoustic_features": {
+    "mean_loudness": 1.0732,
+    "loudness_variability": 0.5385,
+    "mean_pitch": 32.0745,
+    "pitch_variability": 0.1379,
+    "spectral_flux": 0.5464,
+    "sound_level_db": -18.2231
+  },
+  "metadata_caption": "Phantom Itch is a nightmare #Shorts",
+  "caption_priority": "low"
+}

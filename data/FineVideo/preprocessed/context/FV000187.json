@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000187",
+  "transcript": "Fun fact about the white-tailed deer, only the fawns have white spots on their backs. Hummingbirds are the only birds that can fly backwards. Rabbits are able to rotate their ears 180 degrees so they can pinpoint the exact location of a sound. Did you know that male mantises can continue mating with a female even after losing their head? Hmm. Butterflies can actually use their feet to taste and can... They... Uh... You haven't said a word all day. I'm boring you, aren't I? What? Of course not. I just like hearing you talk.",
+  "acoustic_features": {
+    "mean_loudness": 0.3136,
+    "loudness_variability": 0.7168,
+    "mean_pitch": 38.4685,
+    "pitch_variability": 0.2288,
+    "spectral_flux": 0.1057,
+    "sound_level_db": -28.0735
+  },
+  "metadata_caption": "Nature Walk With Plague Doctor GF | Bug Enthusiast comic dub",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000520",
+  "transcript": "While I haven't been gay, I have experienced a ton of homophobia because I have a bidet. Yeah, my straight guy friends would be like, can't do it, bro. Can't have water shooting up my ass. I'm like, are you worried about... Look, if the only thing keeping you from being gay is water hitting your ass, you are gay. Just be gay. Come on over, take a ride on the pony, start your new life.",
+  "acoustic_features": {
+    "mean_loudness": 0.6325,
+    "loudness_variability": 0.575,
+    "mean_pitch": 31.0743,
+    "pitch_variability": 0.209,
+    "spectral_flux": 0.2064,
+    "sound_level_db": -25.6279
+  },
+  "metadata_caption": "Straight Man Fears Bidet",
+  "caption_priority": "low"
+}

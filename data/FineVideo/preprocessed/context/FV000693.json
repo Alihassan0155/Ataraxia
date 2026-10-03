@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000693",
+  "transcript": "Friday night, party night. We are going to the club! Sweet! Let me put on a little Spotify, get us in the mood. So won't the real Slim Shady please stand up, please stand up, please stand up. Where did these girls come from? New neighbors!",
+  "acoustic_features": {
+    "mean_loudness": 1.7822,
+    "loudness_variability": 0.4404,
+    "mean_pitch": 31.234,
+    "pitch_variability": 0.4241,
+    "spectral_flux": 1.1772,
+    "sound_level_db": -13.9464
+  },
+  "metadata_caption": "Allison Raskin - Spotify - AdolescentTV",
+  "caption_priority": "low"
+}

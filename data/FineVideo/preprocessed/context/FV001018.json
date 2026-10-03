@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001018",
+  "transcript": "Trevor Lawrence's entire career, except he switches teams every season. In his opening season, the Jaguars just barely missed the playoffs, going 9-8. So he heads to the San Francisco 49ers, where they make it all the way to the NFC Championship, but lose to the Philadelphia Eagles, who went on to play the Kansas City Chiefs in the Super Bowl. Next, he heads to the Raiders for a quick first-round exit to the Cincinnati Bengals. And in 2025, he heads to the Kansas City Chiefs, where they head to the Super Bowl versus the Green Bay Packers, and smoke them! Trevor Lawrence wins Super Bowl MVP. In 2026, he joins the Cincinnati Bengals, but barely misses the playoffs once again. In 2027, he's a Green Bay Packer and loses in the NFC Championship. Shocker. And 2028 was a miraculous season with the Houston Texans. T-Law wins NFL MVP, Super Bowl MVP, and gets another ring against the Falcons.",
+  "acoustic_features": {
+    "mean_loudness": 1.168,
+    "loudness_variability": 0.4244,
+    "mean_pitch": 38.9818,
+    "pitch_variability": 0.1497,
+    "spectral_flux": 0.6561,
+    "sound_level_db": -18.2697
+  },
+  "metadata_caption": "trevor lawrence's entire career BUT he switches teams every season...",
+  "caption_priority": "low"
+}

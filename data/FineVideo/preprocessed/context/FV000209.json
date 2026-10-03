@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000209",
+  "transcript": "We have rods of different metals attached to a central hub. On each of the rods is a small amount of butter. The metal rods have different specific heats and will heat up at different rates. We will watch the order in which the butter melts. The aluminum melts first. The brass melts second. The iron melts third. The nickel melts fourth. The copper melts fifth. The stainless steel melts sixth. The ruins first. The bronze buckets iowa bright wood fold city animals first. job vacuum Pink loops Room",
+  "acoustic_features": {
+    "mean_loudness": 0.2249,
+    "loudness_variability": 1.2935,
+    "mean_pitch": 26.6226,
+    "pitch_variability": 0.1068,
+    "spectral_flux": 0.0812,
+    "sound_level_db": -29.9667
+  },
+  "metadata_caption": "Heat Conductivity Metals",
+  "caption_priority": "low"
+}

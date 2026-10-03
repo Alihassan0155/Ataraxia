@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000940",
+  "transcript": "In the world of lies, you are the truth And baby, every time you touch me, I become a hero I make you safe no matter where you are And bring you everything you ask for Nothing is above me I'm shining like a candle in the dark When you tell me that you love me",
+  "acoustic_features": {
+    "mean_loudness": 0.8258,
+    "loudness_variability": 0.741,
+    "mean_pitch": 44.0985,
+    "pitch_variability": 0.0646,
+    "spectral_flux": 0.18,
+    "sound_level_db": -20.7948
+  },
+  "metadata_caption": "WHEN YOU TELL ME THAT YOU LOVE ME (COVER)",
+  "caption_priority": "low"
+}

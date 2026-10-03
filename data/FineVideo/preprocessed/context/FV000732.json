@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000732",
+  "transcript": "We made a pledge. We made a pledge. We made a pledge. We made a pledge. We made a pledge. A pledge to ourselves. To our campus. We made a pledge. To reduce our impact on the climate. To neutralize our campus carbon emissions by 2040. To use technology and innovation to explore clean energy. We made a pledge. To find a better way. To evolve past the use of landfills. To reach 90% diversion by 2021. We made a pledge. To foster a new way of thinking. To promote the advancement of education. To create an interdisciplinary learning environment. We made a pledge. To come together as a community. To overcome doubt and skepticism. To create a movement of positive action instead of drowning in the negative.",
+  "acoustic_features": {
+    "mean_loudness": 0.8525,
+    "loudness_variability": 0.3093,
+    "mean_pitch": 30.37,
+    "pitch_variability": 0.2759,
+    "spectral_flux": 0.2936,
+    "sound_level_db": -26.3973
+  },
+  "metadata_caption": "University of Arkansas Sustainability Pledge",
+  "caption_priority": "low"
+}

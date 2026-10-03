@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000740",
+  "transcript": "For the next 30 days I'm going to be inside this VR headset without taking it off Starting now This is what I see guys from inside the VR The people in the cafeteria, this is the videographer It's not that bad, it's close to my vision Every day we're going to be making a short for the next 30 days And I'm going to be live streaming the whole thing for you guys to see",
+  "acoustic_features": {
+    "mean_loudness": 1.816,
+    "loudness_variability": 0.3755,
+    "mean_pitch": 31.3516,
+    "pitch_variability": 0.1247,
+    "spectral_flux": 1.1767,
+    "sound_level_db": -13.0471
+  },
+  "metadata_caption": "Day 1 Of Wearing A VR Headset",
+  "caption_priority": "low"
+}

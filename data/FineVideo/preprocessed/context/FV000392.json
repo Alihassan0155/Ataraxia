@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000392",
+  "transcript": "Do you have more physical ailments than Ben? I have eczema. I have... I'm fat. My nose hole is so big that sometimes it gets really dry and it just hurts to move. I have wonky teeth. That's just for fun. The doctors came in and you said, yeah, you got wonky teeth. All my nails are like ingrown. Oh no, please. Look, I see. I don't want to see. I don't want to see. You got to cramp because you're being dumb. You see how small my toenail is? I have autism. I like how so far it's like that I'm fat and I'm... You too. What's wrong with your body, y'all? I'm just a fat...",
+  "acoustic_features": {
+    "mean_loudness": 1.303,
+    "loudness_variability": 0.4705,
+    "mean_pitch": 29.9754,
+    "pitch_variability": 0.3069,
+    "spectral_flux": 0.6612,
+    "sound_level_db": -18.0018
+  },
+  "metadata_caption": "Your Body Is Falling Apart. You Are 27 Years Old.",
+  "caption_priority": "low"
+}

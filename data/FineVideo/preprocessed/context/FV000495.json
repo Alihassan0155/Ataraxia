@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000495",
+  "transcript": "Lines are autonomous non-LTR retrotransposons. They encode enzymes needed for transposition, and like other transposons, generate target site direct repeats flanking the inserted element. But they don't have long terminal repeats. Instead, flanking the open reading frames, those ORFs, are 5' and 3' untranslated regions, or UTRs. The reverse transcribed transposition-ready line retrotransposon will consist only of the DNA region symbolized here in yellow, I guess that's yellow, including the 5' and 3' untranslated regions, or UTRs.",
+  "acoustic_features": {
+    "mean_loudness": 0.5534,
+    "loudness_variability": 0.6671,
+    "mean_pitch": 29.0543,
+    "pitch_variability": 0.1508,
+    "spectral_flux": 0.2408,
+    "sound_level_db": -26.5671
+  },
+  "metadata_caption": "251 LINEs (Long Interspersed Nuclear Elements): LTR Retrotransposons",
+  "caption_priority": "low"
+}

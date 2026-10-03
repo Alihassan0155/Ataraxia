@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001037",
+  "transcript": "Patrick Mahomes' entire career, but he switches teams every season. In season one with the Chiefs, Mahomes struggled and lost in the AFC Championship. So he packed his bag and headed to the Raiders, but fell to Buffalo. In year three, he headed to Baltimore, where they barely missed the playoffs. The Lions won the Super Bowl, though. In year four, Mahomes is headed to Washington, where he took the number one seed, only to be upset by the Cowboys. Year five, he's a Detroit Lion, made the Super Bowl, but lost to the Steelers. In year six, Mahomes heads to Houston, but gets whomped in the wild card. In year seven, he becomes a Denver Bronco, loses again in the wild card to his former team, the Ravens. In year eight, he goes to the New York Giants to lose again in the wild card. In year nine, he pairs up with Justin Jefferson to make a Super Bowl run, and falls short to the Panthers dynasty. He did finally win MVP, though. Now, for a long career, he played his final season with the Saints, but fell to Trey Lance and the Niners in the playoffs.",
+  "acoustic_features": {
+    "mean_loudness": 1.0957,
+    "loudness_variability": 0.4031,
+    "mean_pitch": 39.8227,
+    "pitch_variability": 0.1599,
+    "spectral_flux": 0.5313,
+    "sound_level_db": -19.9045
+  },
+  "metadata_caption": "mahomes entire career but he switches teams every year...",
+  "caption_priority": "low"
+}

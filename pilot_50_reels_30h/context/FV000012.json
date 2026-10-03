@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000012",
+  "transcript": "People keep getting this wrong. You know, the easy thing is just to make an inkblot and see what it looks like and draw something that looks like that. Well, if I do like this and decide beforehand that it's going to be a troll, then I need to be really lucky to get an inkblot that looks like, uh, oh, it actually looks like a troll. Hmm.",
+  "acoustic_features": {
+    "mean_loudness": 0.3755,
+    "loudness_variability": 0.727,
+    "mean_pitch": 27.8307,
+    "pitch_variability": 0.1669,
+    "spectral_flux": 0.1494,
+    "sound_level_db": -27.1369
+  },
+  "metadata_caption": "Daily Inkmonster: Another Troll?",
+  "caption_priority": "low"
+}

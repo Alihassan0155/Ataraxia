@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000594",
+  "transcript": "This Pokemon could have ruined competitive Pokemon. Machamp is a Gen 1 Pokemon with some still pretty impressive stats. Back in its original generation, it got access to a move called Fissure. This is a one-hit KO move which had a 30% chance to succeed if used against a Pokemon at an equal level to Machamp. In modern generations, Machamp has access to an ability called No Guard which allows for it to bypass accuracy checks entirely. So hypothetically, this could have been a busted combo. We narrowly avoided this disaster as the only way to get Fissure Machamp was via the Virtual Console. Pokemon obtained via the Virtual Console are actually locked to their hidden abilities, which in Machamp's case is steadfast. The ability patch now allows you to change the ability of the Pokemon back to a non-hidden ability, hypothetically opening the door for 100% accurate Fissure Machamps. But this once again was thwarted as Pokemon Home has been updated so that if a Pokemon is transferred into a game, it will lose its transfer moves and gain the learned set of the Pokemon from that game. So while we almost had an overpowered Pokemon a few times, we always managed to avoid it, which is great because…",
+  "acoustic_features": {
+    "mean_loudness": 0.9431,
+    "loudness_variability": 0.5045,
+    "mean_pitch": 26.8607,
+    "pitch_variability": 0.1941,
+    "spectral_flux": 0.5357,
+    "sound_level_db": -19.2647
+  },
+  "metadata_caption": "This Pokemon Almost Ruined Competitive Pokemon #shorts",
+  "caption_priority": "low"
+}

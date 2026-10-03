@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000592",
+  "transcript": "The coroner is still trying to determine the cause of death and whether she was already dead when the truck hit her. We have new information now also on the plane crash. KTVU has just learned the names of the four pilots who were on board the flight. They are Captain Sum Ting Wong, Wee Tu Lo, Ho Li Fook, and Bang Ding Au. The NTSB has confirmed these are the names of the pilots on board flight 214 when it crashed. We are working to determine exactly what roles each of them played during the landing on Saturday.",
+  "acoustic_features": {
+    "mean_loudness": 0.4625,
+    "loudness_variability": 0.5441,
+    "mean_pitch": 32.7683,
+    "pitch_variability": 0.109,
+    "spectral_flux": 0.1409,
+    "sound_level_db": -30.4838
+  },
+  "metadata_caption": "Captain Sum Ting Wong (Captain Something Wrong)",
+  "caption_priority": "low"
+}

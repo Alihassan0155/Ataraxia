@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000190",
+  "transcript": "What is eutrophication? It's a problem that should matter to you whether you live near the ocean or not. That's because it begins wherever people live and ends with damage to resources we all use and enjoy. It all starts when nutrients get into lakes and oceans. Remember, what's waste to humans can be food to plants and other creatures. Nutrients feed algae like they do other plants. Algae grows and blocks sunlight. Plants die without sunlight. Eventually, the algae dies too. Bacteria digest the dead plants, using up remaining oxygen and giving off carbon dioxide. If they can't swim away, fish and other wildlife become unhealthy or die without oxygen. But it doesn't have to be this way. Protecting marine resources starts with sound agricultural and waste management practices. GettingShalled LakeTech",
+  "acoustic_features": {
+    "mean_loudness": 0.7513,
+    "loudness_variability": 0.5764,
+    "mean_pitch": 31.7771,
+    "pitch_variability": 0.2007,
+    "spectral_flux": 0.4714,
+    "sound_level_db": -19.3738
+  },
+  "metadata_caption": "What is eutrophication?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000927",
+  "transcript": "I have a letter. For me? Yes. Should I open it now? You can. I will open it after you leave. Okay. What's your name? Gunner. These guys came to support me. Yup. It's time to open the letter. But before I open the letter, this is day 22 of living outside SpaceX until Elon Musk is me a hug. Dear Fideon, I like your videos. I respect your determination in everything you do. Wow. I like your personality and how grateful you are for the small things. Oh. I really hope Elon gives you a hug and I believe in you. And in the bag it's saying you can do it. Thank you. Honestly guys, all your support through this series keeps me going. I love you.",
+  "acoustic_features": {
+    "mean_loudness": 1.0415,
+    "loudness_variability": 0.5983,
+    "mean_pitch": 28.854,
+    "pitch_variability": 0.1879,
+    "spectral_flux": 0.6242,
+    "sound_level_db": -18.619
+  },
+  "metadata_caption": "Day 22 of trying to hug Elon musk",
+  "caption_priority": "low"
+}

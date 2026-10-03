@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000212",
+  "transcript": "Spartan Push-up This exercise is a very advanced variant of the push-up. Your chest slightly off the ground. One hand in a vertical line with the elbow, so that the arm forms a right angle. The other hand is slightly behind the pectoral. Give yourself an explosive push upwards, and invert the position of the hands before they touch the ground again.",
+  "acoustic_features": {
+    "mean_loudness": 0.4279,
+    "loudness_variability": 1.0344,
+    "mean_pitch": 22.2442,
+    "pitch_variability": 0.4122,
+    "spectral_flux": 0.3258,
+    "sound_level_db": -21.7065
+  },
+  "metadata_caption": "300 Spartan Workout Exercises - Spartans Push Up Exercise",
+  "caption_priority": "low"
+}

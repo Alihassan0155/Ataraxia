@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000465",
+  "transcript": "Last Christmas, I gave you my heart But the very next day, you gave it away This year, to save me from tears I gave it to someone special Last Christmas, I gave you my heart But the very next day, you gave it away This year, to save me from tears I gave it to someone special",
+  "acoustic_features": {
+    "mean_loudness": 1.5601,
+    "loudness_variability": 0.3744,
+    "mean_pitch": 25.3839,
+    "pitch_variability": 0.4349,
+    "spectral_flux": 1.1528,
+    "sound_level_db": -11.1507
+  },
+  "metadata_caption": "[크리스마스 캐롤 시리즈]  Wham - Last Christmas",
+  "caption_priority": "low"
+}

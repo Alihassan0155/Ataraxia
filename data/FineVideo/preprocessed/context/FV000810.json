@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000810",
+  "transcript": "We're engaged! Of course everyone is asking if they're invited to the wedding. We're engaged. Of course the only thing I did was book a DJ. Of course I show my ring off everywhere we go. Of course I got jewelry insurance. Of course we booked our dream venue. Of course we already went over our budget. Of course I have our entire wedding party picked out. Of course I'm gonna let her plan the whole wedding.",
+  "acoustic_features": {
+    "mean_loudness": 0.4565,
+    "loudness_variability": 0.5472,
+    "mean_pitch": 35.796,
+    "pitch_variability": 0.18,
+    "spectral_flux": 0.1969,
+    "sound_level_db": -29.3624
+  },
+  "metadata_caption": "We're engaged, of course...",
+  "caption_priority": "low"
+}

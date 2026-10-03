@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000122",
+  "transcript": "Today we will be recreating the iconic drum intro, When the Levee Breaks, here in my home studio. So I don't have the same exact equipment that John Bonham used, and I'm not in the same type of room that he was in, but I'm going to try to emulate the sound and the effects and the type of room that I'm in by using plugins, and you can do this too. So for the recording, Bonham used two Biodynamic M160 microphones as room mics. Now I don't have those microphones, so I'm going to be using an SM57 as a wall mic and a Neumann 102 as a room mic.romeda amp가�hat!!! Mass Maria conteúdos conteúdos休息",
+  "acoustic_features": {
+    "mean_loudness": 1.3283,
+    "loudness_variability": 0.716,
+    "mean_pitch": 28.5477,
+    "pitch_variability": 0.207,
+    "spectral_flux": 0.762,
+    "sound_level_db": -16.1578
+  },
+  "metadata_caption": "Recreating the ICONIC drum intro \"When The Levee Breaks\"",
+  "caption_priority": "low"
+}

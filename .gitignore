@@ -1,0 +1,62 @@
+# Credentials and browser authentication
+.env
+.env.*
+!.env.example
+cookies*.txt
+*cookies*.txt
+cookies*.json
+*.pem
+*.key
+.aws/
+
+# Local Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.huggingface/
+*.egg-info/
+build/
+dist/
+
+# Local editor / OS files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Media must be transferred separately; preserve metadata and evidence JSON/TXT
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.opus
+
+# Download fragments, model weights, temporary files and run logs
+*.part
+*.ytdl
+*.tmp
+*.log
+run_log.txt
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+models/
+checkpoints/

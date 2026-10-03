@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000413",
+  "transcript": "You're allergic to vodka? Yeah, like I can't drink it. But like gluten or whatever it's called? So what do you drink? Mmm, I mainly drink gin or like light lagers usually. Those both have gluten. I know, but like they're less gluten-y so it's fine. Vodka crayon is fine too because the crayon water is down the gluten. Would vodka water work too? Oh yeah, totally. Hey, what are you doing? You're allergic. Proving a point. I'm not going to drink it. Wow, I wish I'd known that word sooner.",
+  "acoustic_features": {
+    "mean_loudness": 0.2892,
+    "loudness_variability": 0.848,
+    "mean_pitch": 27.079,
+    "pitch_variability": 0.3073,
+    "spectral_flux": 0.0963,
+    "sound_level_db": -32.3139
+  },
+  "metadata_caption": "Achoo-choo (All Aboard the Allergy Train)",
+  "caption_priority": "low"
+}

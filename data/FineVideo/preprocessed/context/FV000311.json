@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000311",
+  "transcript": "Are you ready Matthew? Ready to wave those arms like a crazy? Hang on. Wait for him to get in line with the cones. Wow. That wasn't very far as well. Wow. What a bad guess. Are you ready there Matthew? Are you ready with your arm waving? Alright, put him away quick.",
+  "acoustic_features": {
+    "mean_loudness": 1.0965,
+    "loudness_variability": 0.4284,
+    "mean_pitch": 35.3352,
+    "pitch_variability": 0.1087,
+    "spectral_flux": 0.8285,
+    "sound_level_db": -17.6305
+  },
+  "metadata_caption": "Act one: Stopping distance",
+  "caption_priority": "low"
+}

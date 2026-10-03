@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001020",
+  "transcript": "Back to Ryan Tannehill. Okay, the Falcons should just line up for the field goal here. Todd Gurley should not score a touchdown. He should not. And they told him to. He broke the play, didn't he? Didn't he break the play? Oh, boy, a mental mistake. And Todd Gurley is the guy who has stopped at the goal line before. A mental mistake there gives Detroit the football back with a minute and four seconds. Oh, they talked about it in the huddle, too. This was Penn State and Indiana yesterday. If you're a college football fan, you want to get the first down, wind the clock down, and then kick your game-winning field goal. Instead, Todd Gurley accidentally scores a touchdown. My goodness. And you know they talked about that in the huddle after the Lions' last time out.",
+  "acoustic_features": {
+    "mean_loudness": 0.4186,
+    "loudness_variability": 0.2805,
+    "mean_pitch": 38.4008,
+    "pitch_variability": 0.1425,
+    "spectral_flux": 0.0901,
+    "sound_level_db": -37.1079
+  },
+  "metadata_caption": "Todd Gurley Accidentally Scores a Touchdown | NFL Week 7",
+  "caption_priority": "low"
+}

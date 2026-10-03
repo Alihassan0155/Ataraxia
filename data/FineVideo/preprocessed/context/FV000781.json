@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000781",
+  "transcript": "That's it. And why exactly? What happened with Jackie? Because that was kind of, you know, I was young at the time, so, like, I know he left. He, I mean, to be honest with you, he was kind of, he wasn't really that funny tonight. Jackie made the biggest blunder in show business history. He decided to enter. That's a joke. Did you get it? Of course, of course, it's funny. No, Jackie's biggest.",
+  "acoustic_features": {
+    "mean_loudness": 0.2436,
+    "loudness_variability": 0.6543,
+    "mean_pitch": 30.8687,
+    "pitch_variability": 0.3241,
+    "spectral_flux": 0.0603,
+    "sound_level_db": -36.9876
+  },
+  "metadata_caption": "Stuttering John Tries To Deliver a Joke To Pauly D, Fails Miserably",
+  "caption_priority": "low"
+}

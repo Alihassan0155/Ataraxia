@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000498",
+  "transcript": "Cell walls are a structure that are found in plants and it's the outermost structure surrounding a plant cell. One of the jobs of a cell wall is to maintain the shape of the cell. In plant cells, cell walls are filled with cellulose. Cellulose is a rigid structure that provides protection for the cell from the external environment. Not only is the cell wall in a plant protecting the cell from the external environment, it's also holding the structure of the internal environment. Cells tend to contain a lot of water and so what this cell wall does is it's kind of like a container to hold all of the contents of the plant cell in.",
+  "acoustic_features": {
+    "mean_loudness": 0.418,
+    "loudness_variability": 1.0368,
+    "mean_pitch": 27.3942,
+    "pitch_variability": 0.2112,
+    "spectral_flux": 0.1569,
+    "sound_level_db": -26.7297
+  },
+  "metadata_caption": "Cell Wall",
+  "caption_priority": "low"
+}

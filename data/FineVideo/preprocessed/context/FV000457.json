@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000457",
+  "transcript": "The reason you would need to learn speed flips, number one, you're losing kickoffs consistently, and number two, you can't counter your opponent's kickoffs with anything other than a speed flip. Let's say you're a plat player watching, and you're losing all your kickoffs, and you think to yourself, I need to learn how to speed flip. No, we just need to hit the ball. Let's say you're champ three, you're doing your diagonal kickoff, you're landing it, you're always consistent with where you land, you're always consistent with the flip timing, but no matter what you do, you're just getting beat to every kickoff. If this is a clear problem, you're losing almost every kickoff, and it's leading to goals against you, maybe it would just be worth it to sink some time in and learn the speed flip. I would recommend you start considering learning the speed flip between the ranks of diamond three and champ three.",
+  "acoustic_features": {
+    "mean_loudness": 0.6464,
+    "loudness_variability": 0.6482,
+    "mean_pitch": 27.0905,
+    "pitch_variability": 0.3099,
+    "spectral_flux": 0.4011,
+    "sound_level_db": -20.5381
+  },
+  "metadata_caption": "\"Should I Learn Speed Flips?\"",
+  "caption_priority": "low"
+}

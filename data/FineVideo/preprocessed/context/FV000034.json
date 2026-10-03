@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000034",
+  "transcript": "Before you press the button, you can wish for anything you wanted whenever you want. But someone will die after every wish is granted. Is this just make a wish in reverse? Wait, chat, I have an idea! Hear me out! I press the button, someone dies. So I press the button again and wishes they come back to life. No one dies and I get infinite wishes! Someone else dies, or then I press it again, idiot!",
+  "acoustic_features": {
+    "mean_loudness": 0.8793,
+    "loudness_variability": 0.6171,
+    "mean_pitch": 45.1183,
+    "pitch_variability": 0.1328,
+    "spectral_flux": 0.3881,
+    "sound_level_db": -23.9004
+  },
+  "metadata_caption": "the SMARTEST vtuber alive",
+  "caption_priority": "low"
+}

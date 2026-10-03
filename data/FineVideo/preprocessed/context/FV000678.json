@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000678",
+  "transcript": "Riot has been using AI to ban players that use naughty words. You've probably noticed people getting automatically muted in-game now, and the occasional notification from Riot telling you someone's been reported and you did nothing about it. That's because Riot's new Game Agnostic Text Evaluation Service, or Gates, is an AI that reads all your chat messages in-game in real time, and either blocks your chat before you say something bad, or analyzes chat history after the game to decide whether to ban you or not. Riot claims that it's improved the speed of disruptive text disruptions 15 times, and increased your enjoyment of the game by 7%. How do you feel about being banned by a bot?",
+  "acoustic_features": {
+    "mean_loudness": 1.4522,
+    "loudness_variability": 0.4361,
+    "mean_pitch": 35.6885,
+    "pitch_variability": 0.2108,
+    "spectral_flux": 0.7045,
+    "sound_level_db": -16.9244
+  },
+  "metadata_caption": "Riot's Mind-Blowing Weapon Against Toxicity Unveiled! 😱🤯 #LeagueOfLegends #PositiveGaming #lol",
+  "caption_priority": "low"
+}

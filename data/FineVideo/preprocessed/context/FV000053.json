@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000053",
+  "transcript": "Star Chase It's called Star Chase A laser guided dart designed to stick to a vehicle and send a GPS tracking signal back to police Senior police officer Marcus Davis showed us how it works All they really have to do is turn the system on and hit the arm button, which is this button right here Candy cigarettes? I didn't know they made these I can quit anytime I want",
+  "acoustic_features": {
+    "mean_loudness": 0.8113,
+    "loudness_variability": 0.8463,
+    "mean_pitch": 32.9927,
+    "pitch_variability": 0.4035,
+    "spectral_flux": 0.6371,
+    "sound_level_db": -17.7644
+  },
+  "metadata_caption": "REMEMBER CANDY CIGARETTES",
+  "caption_priority": "low"
+}

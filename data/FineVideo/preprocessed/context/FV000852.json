@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000852",
+  "transcript": "If you're new to the gym and confused about gym terminology, comment below, we'll answer it. But part one is going to be going over sets and reps. I know it can be kind of confusing if you are new. So an easy way to think about it is to think about an egg carton. The egg carton itself are going to be your sets. Then think about the eggs inside, that's going to be your reps. So if you have three sets of 12, think about having three egg cartons. Again, the carton itself is the set and then the eggs inside are the reps. So you're doing three sets of 12 reps as you go through the exercise and then resting at the end of each set before you pick up the next carton of eggs.",
+  "acoustic_features": {
+    "mean_loudness": 0.8236,
+    "loudness_variability": 0.5633,
+    "mean_pitch": 35.3854,
+    "pitch_variability": 0.0736,
+    "spectral_flux": 0.3456,
+    "sound_level_db": -23.0768
+  },
+  "metadata_caption": "Sets & Reps Explained | PD #shorts",
+  "caption_priority": "low"
+}

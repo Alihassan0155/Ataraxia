@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000532",
+  "transcript": "Look at them. What are they doing? You could say they're doing nothing at all. Then again, you could also say that they're technically sitting. Perhaps by merely existing, they're in constant action. That of simply being. But the most important thing they are doing is their best. And who could ask for anything more?",
+  "acoustic_features": {
+    "mean_loudness": 0.3131,
+    "loudness_variability": 1.1088,
+    "mean_pitch": 24.2277,
+    "pitch_variability": 0.2881,
+    "spectral_flux": 0.1544,
+    "sound_level_db": -28.1956
+  },
+  "metadata_caption": "what are they doing?",
+  "caption_priority": "low"
+}

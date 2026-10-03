@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000084",
+  "transcript": "Say my name. My name is Tom Shelby. My name is Maximus Decimus Meridius. King Ragnar. That is my name. My name is Asak Schrader. My name is Paul. James Paul. I am Pablo Emilio Escobar Gaviria. My name is Walter Hartwell White. My name is Gustavo, but you can call me Gus. My name is Patrick Payton. My name is... My real name is Aegon Targaryen. My name is Jeff.",
+  "acoustic_features": {
+    "mean_loudness": 1.2598,
+    "loudness_variability": 0.3725,
+    "mean_pitch": 25.6521,
+    "pitch_variability": 0.288,
+    "spectral_flux": 0.7791,
+    "sound_level_db": -16.9986
+  },
+  "metadata_caption": "My name is Sigma male 😜 #cinematic #sigma #sigmamale",
+  "caption_priority": "low"
+}

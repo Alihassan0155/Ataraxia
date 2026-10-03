@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000889",
+  "transcript": "Hello everyone, my name is Cheyenne Corrito, product support expert on Bejeweled Blitz, and thanks for joining us. Today let's talk about our newly launched boost, Color Blast. Unlike the classic boost, Color Blast will need to be unlocked before it can be used. Color Blast introduces a unique mechanic, which if used smartly can drastically improve your scores. Here is how it works. With the Color Blast equipped, you'll need to make a certain number of matches to make it active. Once active, tapping it transforms a bunch of gems into the color of your previous match. Because I have the Citrine Rare Gem equipped, I'm going to ensure my last match was an orange gem before triggering the Color Blast to allow for tons of matches. As you can imagine, used in combination with classic boosts, Color Blast unlocks fresh strategies for achieving huge scores. We can't wait for you to share your favorite combinations with Color Blast. See you soon!",
+  "acoustic_features": {
+    "mean_loudness": 1.5478,
+    "loudness_variability": 0.4183,
+    "mean_pitch": 35.8873,
+    "pitch_variability": 0.2232,
+    "spectral_flux": 0.8211,
+    "sound_level_db": -16.2306
+  },
+  "metadata_caption": "The Blazing Feed: Tips & Tricks | Introducing Brand-New Color Blast Boost",
+  "caption_priority": "low"
+}

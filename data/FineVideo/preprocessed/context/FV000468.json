@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000468",
+  "transcript": "Which gel blaster hurts the most? This one or this one? Blaster number one. Let's go. Woo! Ah... Alright. Blaster number two. Let's go. Woo! Oh, okay, okay, okay. Orange is the winner. It definitely hurts more by a long shot. This is day 139 of getting shot every day until Mr. Beast notices me and invites me to a challenge.",
+  "acoustic_features": {
+    "mean_loudness": 1.1578,
+    "loudness_variability": 0.4128,
+    "mean_pitch": 38.4316,
+    "pitch_variability": 0.1927,
+    "spectral_flux": 0.5912,
+    "sound_level_db": -18.7643
+  },
+  "metadata_caption": "Day 139 Which Gel Blaster Hurts The Most",
+  "caption_priority": "low"
+}

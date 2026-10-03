@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000145",
+  "transcript": "Like my last boss was too bossy. You get me? Like too, too bossy? Like the too bossy boss? Like my boss wanted me to show up the whole week. The whole week? I have sick days. What are you talking about? The whole week? Here's the straw that broke the camel's back. I showed up to work one day. I swiped my little key card. Beep. The door opens. My boss is waiting for me on the other side. Welcome, Orlando. Happy Monday. We really need to meet our quota this week, so I'm going to need you to give me 110%. 110%. I don't think I can do that. I don't think I can do that. Technically, I wasted 50% in the parking lot talking myself into coming in today. You get me? Just starting the car, turning it off. Looking at my sick days. Do I have enough sick days now?",
+  "acoustic_features": {
+    "mean_loudness": 1.2234,
+    "loudness_variability": 0.5532,
+    "mean_pitch": 33.7765,
+    "pitch_variability": 0.1689,
+    "spectral_flux": 0.5959,
+    "sound_level_db": -18.6772
+  },
+  "metadata_caption": "My boss is too bossy. | Orlando Leyba",
+  "caption_priority": "low"
+}

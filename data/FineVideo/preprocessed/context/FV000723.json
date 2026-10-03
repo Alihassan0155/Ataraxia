@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000723",
+  "transcript": "Oh We're gonna win the round I think this is by far the most fair face-it match I think that has ever been played Yes!",
+  "acoustic_features": {
+    "mean_loudness": 0.4871,
+    "loudness_variability": 0.6972,
+    "mean_pitch": 38.3223,
+    "pitch_variability": 0.2044,
+    "spectral_flux": 0.1793,
+    "sound_level_db": -29.688
+  },
+  "metadata_caption": "CS2 streamer using this GAME BREAKING BUG to CHEAT... 🤯",
+  "caption_priority": "low"
+}

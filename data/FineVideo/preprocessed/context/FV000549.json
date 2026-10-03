@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000549",
+  "transcript": "As we migrate into the future, we are just, I mean, damn, we're just like a worm. You know, worms just eat the dirt. Did you know that? A lot of people are like, well, how does dirt get from the front of the worm to the back of the worm? The worm eats the dirt and duties the dirt through the back. And that's what we're doing, baby. We're those fucking time worms, baby. We're just cruising, baby.",
+  "acoustic_features": {
+    "mean_loudness": 0.748,
+    "loudness_variability": 0.9367,
+    "mean_pitch": 26.4332,
+    "pitch_variability": 0.1529,
+    "spectral_flux": 0.4059,
+    "sound_level_db": -18.2561
+  },
+  "metadata_caption": "Time Worms #Theovon",
+  "caption_priority": "low"
+}

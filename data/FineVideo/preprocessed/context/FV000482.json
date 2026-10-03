@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000482",
+  "transcript": "North Pole Holiday North Pole Holiday started. Let's do spa first. Cool! What kind of makeup can help me be more charming under the Northern Lights? Perfect! Ha! What's the best choice for such a big holiday? Nail makeup is important. Let's design our nails. The Northern Lights is the most beautiful thing I've ever seen. North Pole Holiday",
+  "acoustic_features": {
+    "mean_loudness": 1.2333,
+    "loudness_variability": 0.4042,
+    "mean_pitch": 40.4493,
+    "pitch_variability": 0.2003,
+    "spectral_flux": 0.6979,
+    "sound_level_db": -18.4336
+  },
+  "metadata_caption": "North Pole Holiday!",
+  "caption_priority": "low"
+}

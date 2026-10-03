@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001015",
+  "transcript": "Rumor has it that Eddie Van Halen once drove a military tank through the streets of Beverly Hills to Fred Durst's house and held a gun on him. Eddie got talked into jamming with Durst, the lead singer of the band Limp Bizkit, at his house. He and his band were auditioning guitarists to replace their guitarist Wes Borland, who left the band. Eddie said it felt like being a scholar amongst kindergartners. When the group brought out weed and started smoking, Eddie bounced, leaving his gear behind. He called Durst the next day to get his gear back and was ghosted. After a couple days, Eddie got in a tank he owned and drove it to Fred's house. He got out wearing no shirt, his hair in a samurai bun on top of his head, his jeans held up with a strand of rope and combat boots held together by duct tape, and he had a gun in his hand. Needless to say, Eddie got his gear back.",
+  "acoustic_features": {
+    "mean_loudness": 0.4125,
+    "loudness_variability": 0.7002,
+    "mean_pitch": 25.61,
+    "pitch_variability": 0.1175,
+    "spectral_flux": 0.1273,
+    "sound_level_db": -30.1441
+  },
+  "metadata_caption": "Eddie Drove A Tank Through Beverly Hills?",
+  "caption_priority": "low"
+}

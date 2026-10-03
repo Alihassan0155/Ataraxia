@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000275",
+  "transcript": "Five unexpected details. Travel wallet. Comes with a handy micropack and built-in slot for filling out forms on the fly. A secret compartment behind the regular notes section to hide your extra cash away. Three hidden card slots for any cards you want to keep out of sight. A slot to store an extra SIM card and ejector pin. And it fits in your pocket. Happy travels!",
+  "acoustic_features": {
+    "mean_loudness": 1.4403,
+    "loudness_variability": 0.5147,
+    "mean_pitch": 28.1146,
+    "pitch_variability": 0.5622,
+    "spectral_flux": 1.0152,
+    "sound_level_db": -11.8155
+  },
+  "metadata_caption": "5 Unexpected Details | Bellroy Travel Wallet",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000231",
+  "transcript": "Okay. What are you drinking? What am I drinking? Good man. This is scotch. Are you a scotch man? No. Uh, I'm gonna... So, here's what I'm gonna do for you. I'm gonna invite you to a little party I like to call and I'm gonna mind your fucking business. Not the one we're in the top stuff. Nah, I'm joking, man. So, you're a wine guy. I am also a wine guy. Are you? Yeah, I'm an alcoholic.",
+  "acoustic_features": {
+    "mean_loudness": 0.5943,
+    "loudness_variability": 0.6251,
+    "mean_pitch": 36.4727,
+    "pitch_variability": 0.2623,
+    "spectral_flux": 0.2102,
+    "sound_level_db": -27.5265
+  },
+  "metadata_caption": "Scotch Beats Wine",
+  "caption_priority": "low"
+}

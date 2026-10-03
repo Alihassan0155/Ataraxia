@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000095",
+  "transcript": "Sickle cell disease or sickle cell anemia is an autosomal recessive disorder and affects mostly descendants from tropical Africa and to a lesser degree also patients who have Mediterranean or Middle Eastern roots. And this autosomal recessive disorder when two patients or a man and a woman with that sickle cell trait come together their chances of having offspring with actual sickle cell disease is 25% where 50% might be only carriers and another 25% of their offspring might be unaffected. Which is why it is so important for us to educate our patients who have sickle cell trait and send them, refer them to genetic counseling so that they make the best decision for them regarding starting a family.",
+  "acoustic_features": {
+    "mean_loudness": 0.2944,
+    "loudness_variability": 0.6715,
+    "mean_pitch": 35.5227,
+    "pitch_variability": 0.0737,
+    "spectral_flux": 0.0947,
+    "sound_level_db": -31.3947
+  },
+  "metadata_caption": "Genetics of Sickle Cell Anemia/Disease",
+  "caption_priority": "low"
+}

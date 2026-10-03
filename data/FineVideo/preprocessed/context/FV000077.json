@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000077",
+  "transcript": "Oh, pirates, yes, they rob I, sold I to the merchant ships, minutes after they took I from the bottomless pit. But my hand was made strong by the hand of the almighty, we forward in this generation triumphantly. Won't you help to sing these songs of freedom, cause all I've ever done. Redemption songs, all I ever had. Redemption songs, redemption songs, redemption songs.",
+  "acoustic_features": {
+    "mean_loudness": 0.9446,
+    "loudness_variability": 0.7917,
+    "mean_pitch": 36.6061,
+    "pitch_variability": 0.1347,
+    "spectral_flux": 0.2065,
+    "sound_level_db": -21.7853
+  },
+  "metadata_caption": "Bono - Cover of Redemption Song by Bob Marley",
+  "caption_priority": "low"
+}

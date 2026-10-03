@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000421",
+  "transcript": "Because every movie you see is when aliens come here, they want to kill us. Why? Because every time white people go somewhere they kill everybody. And I get it because you all feel the same way about aliens the way I feel about cops. I understand. You did nothing wrong, they show up and you dead. I get it. Oh, let's go here. Oh shit, humans. Oh, let's go. Oh shit, humans. Be still. Institutional racism. We should probably fix that. But for all the rich people, please. And I think one of the things you must really try to understand is that how after all of these years of white people invading countries full of rich food and beautiful dancing, y'all can't do either one.",
+  "acoustic_features": {
+    "mean_loudness": 0.8726,
+    "loudness_variability": 0.5973,
+    "mean_pitch": 36.6646,
+    "pitch_variability": 0.1594,
+    "spectral_flux": 0.3274,
+    "sound_level_db": -25.1377
+  },
+  "metadata_caption": "Dulcé Sloan - TheMelbComedyFest",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000376",
+  "transcript": "You laugh, you lose, episode 29. Let's go. Let me, let me just... She's in the back rooms, man. She's in the back rooms. We tried to give Alexa a bit of a sense of humor and a personality. Alexa, tell me a Thanksgiving joke. For Thanksgiving, can you let this Amazon worker have a day off? Oh, yeah. Who's driving this bug? I'm just trying to... That was though.",
+  "acoustic_features": {
+    "mean_loudness": 0.6084,
+    "loudness_variability": 0.6956,
+    "mean_pitch": 29.5014,
+    "pitch_variability": 0.3658,
+    "spectral_flux": 0.3011,
+    "sound_level_db": -23.8637
+  },
+  "metadata_caption": "YOU LAUGH YOU LOSE! - #29",
+  "caption_priority": "low"
+}

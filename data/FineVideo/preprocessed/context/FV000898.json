@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000898",
+  "transcript": "There's no such thing as being big boned and here's why. Here we have a full body x-ray of a morbidly obese patient. As you can see, there is a normal size skeleton beneath an enormous amount of soft tissue. Therefore, the patient's big size is not due to their bones, rather their large amount of soft tissue or fat. This is why there is no such thing as being big boned.",
+  "acoustic_features": {
+    "mean_loudness": 1.0049,
+    "loudness_variability": 0.6,
+    "mean_pitch": 29.3103,
+    "pitch_variability": 0.1645,
+    "spectral_flux": 0.4782,
+    "sound_level_db": -20.6119
+  },
+  "metadata_caption": "'BIG BONED' Myth DEBUNKED",
+  "caption_priority": "low"
+}

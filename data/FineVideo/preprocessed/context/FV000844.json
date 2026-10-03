@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000844",
+  "transcript": "Hey, where did the lights go? Is anyone there? Hello? Who is that in the distance? Wait, Jeff, is that you? Okay then, can you turn on the lights? Oh, Jeff wants you to like, subscribe, and comment for him to turn the lights on. Could you do it please? You have 5 seconds. Thank you. Because of you, the lights are on again, and Jeff is back to normal.",
+  "acoustic_features": {
+    "mean_loudness": 0.9066,
+    "loudness_variability": 0.8208,
+    "mean_pitch": 32.8372,
+    "pitch_variability": 0.4233,
+    "spectral_flux": 0.4596,
+    "sound_level_db": -18.7192
+  },
+  "metadata_caption": "DON’T Touch this Switch!",
+  "caption_priority": "low"
+}

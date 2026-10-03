@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000384",
+  "transcript": "Lumbar scoliosis is a condition where there is a sideway curvature of the lower back spine. Sit on the chair with cross left leg on right leg and back straight. Place your hands on your hips and gently squeeze upper body to the left. Hold this position for 5 to 10 seconds and feeling the stretch in right lower back. Slowly return to the starting position. Repeat the exercise for 5 to 10 repetitions depending on your comfort level. Be sure to breathe deeply throughout the exercise to help relax your muscles and increase blood flow to the affected area.",
+  "acoustic_features": {
+    "mean_loudness": 1.2868,
+    "loudness_variability": 0.5772,
+    "mean_pitch": 21.3354,
+    "pitch_variability": 0.2376,
+    "spectral_flux": 0.925,
+    "sound_level_db": -15.3019
+  },
+  "metadata_caption": "Simple Scoliosis Correction Exercise (Lower Back)",
+  "caption_priority": "low"
+}

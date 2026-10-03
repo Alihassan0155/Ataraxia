@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000363",
+  "transcript": "Oh, it's November 7th already again. That's my girl's birthday. Joni, happy birthday, darling. Gosh, they come so fast. I know that even your birthdays are coming fast for me. I say, no, they're flying. But I know you're having a great year, and next year's going to be even better. God bless you, darling. I know that I love you, and happy, happy birthday.",
+  "acoustic_features": {
+    "mean_loudness": 0.5245,
+    "loudness_variability": 0.8047,
+    "mean_pitch": 28.3748,
+    "pitch_variability": 0.4137,
+    "spectral_flux": 0.4007,
+    "sound_level_db": -21.7446
+  },
+  "metadata_caption": "Happy 80th Birthday to Joni Mitchell!",
+  "caption_priority": "low"
+}

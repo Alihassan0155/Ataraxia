@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000518",
+  "transcript": "Let's use Kermit the Frog as a resistor. So, let me pull up Kermit the Frog. I gotta zoom in for this. This is me doing physics. I'm so high right now. I'm not admitting to doing drugs. I don't do illicit drugs. Yeah, this looks like him. This looks like him. What did I just make? This looks like him, doesn't it? Yeah? I'm doing this freehand. Yeah, let's make that white. Like Walter. Yeah. That looks disgusting. But whatever. So, Kermit the Frog is our resistor.",
+  "acoustic_features": {
+    "mean_loudness": 0.4195,
+    "loudness_variability": 0.9616,
+    "mean_pitch": 31.5315,
+    "pitch_variability": 0.3476,
+    "spectral_flux": 0.2111,
+    "sound_level_db": -25.887
+  },
+  "metadata_caption": "Kermit Resists",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000285",
+  "transcript": "I'm two years out of college and I still feel left behind There's this guy, let's name him Colin, we've been doing quite alright And he doesn't always like the things I like But we find a few new ways to make it right At least I finally stopped looking myself out of the house in the middle of the night My sleep schedule is worse now, I don't seem to find the time And there's still so much to do, how did it all got left behind? See, I still don't like the rules, but yet I still do follow them And I go task to task, keep my head down, just watch my life unfold And everybody always told me I'm doing so well I used to trust them honestly, it's still so hard to tell Now I have work, now I have plans, I'll try my best, I'll try my best How did my life unfold so fast, I thought I'd figure it all out I think I forgot, I'm still only quite young But in a way, this life of mine has already begun Do I have time? Do I have time?",
+  "acoustic_features": {
+    "mean_loudness": 0.6409,
+    "loudness_variability": 0.5289,
+    "mean_pitch": 33.9946,
+    "pitch_variability": 0.2787,
+    "spectral_flux": 0.2329,
+    "sound_level_db": -22.1291
+  },
+  "metadata_caption": "[Cover - My Version] 2 years out of college - Original: Aimee Carty",
+  "caption_priority": "low"
+}

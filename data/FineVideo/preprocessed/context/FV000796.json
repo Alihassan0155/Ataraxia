@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000796",
+  "transcript": "Can you starve the tumor cell of their fermentable fuels and kill them? And the answer is absolutely. And then your question is, well, if that's so simple, how come no one's doing it? And the answer is because everybody thinks cancer is a genetic disease. They're not thinking about what's keeping the cells alive.",
+  "acoustic_features": {
+    "mean_loudness": 0.8362,
+    "loudness_variability": 0.7019,
+    "mean_pitch": 30.8419,
+    "pitch_variability": 0.2603,
+    "spectral_flux": 0.5305,
+    "sound_level_db": -17.7747
+  },
+  "metadata_caption": "Can you kill a tumor cell?",
+  "caption_priority": "low"
+}

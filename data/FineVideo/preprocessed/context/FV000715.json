@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000715",
+  "transcript": "True love got a ring ring ring Church bells that'll ring ring ring You're the queen, I'll be the king king king For life, for life, for life Marry me, marry me, say yes Marry me, marry me, say yes Marry me, marry me, say yes For the rest, the rest of your life I'm a fly out to Vegas We could tie it up tonight, no patience Take my last name, put it where your name is Have they ever seen a love this famous? They never, no, they never It's forever, ever, ever, ever, ever Ain't nobody do it better, better, better And it's only getting better True love got a ring ring ring Church bells that'll ring ring ring",
+  "acoustic_features": {
+    "mean_loudness": 0.811,
+    "loudness_variability": 0.316,
+    "mean_pitch": 34.8521,
+    "pitch_variability": 0.1988,
+    "spectral_flux": 0.2401,
+    "sound_level_db": -27.0547
+  },
+  "metadata_caption": "Jennifer Lopez Maluma Marry Me The Tonight Show Starring Jimmy Fallon",
+  "caption_priority": "low"
+}

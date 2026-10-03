@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000986",
+  "transcript": "I decided to leave SpaceX. This is day 33 of me living outside SpaceX until Elon Musk gives me a hug. So I came here before Elon bought Twitter and since then Elon was not here. This was a very difficult decision for me to leave from here. I want to move and stay outside Twitter headquarters and hopefully I will have better luck there. I'm not trying to be disrespectful to him, I just want to give him a big hug because I love him and I want to finish what I started. Curious to see what you guys think. Is this the right decision? Yes or not? Type in the comments.",
+  "acoustic_features": {
+    "mean_loudness": 0.8884,
+    "loudness_variability": 0.6332,
+    "mean_pitch": 25.7723,
+    "pitch_variability": 0.2409,
+    "spectral_flux": 0.5382,
+    "sound_level_db": -18.883
+  },
+  "metadata_caption": "day 33 of trying to hug Elon musk",
+  "caption_priority": "low"
+}

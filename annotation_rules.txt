@@ -1,0 +1,67 @@
+ATARAXIA HUMAN ANNOTATION — QUICK GUIDE
+
+Goal: Judge the likely immediate emotional effect of the COMPLETE video on a
+typical adult viewer. Do not label only the creator's emotion, one scene, or
+your personal reaction.
+
+IMPORTANT
+
+- Watch the full video with sound, then replay unclear parts if needed.
+- Do not view Gemini or Qwen results before submitting your labels.
+- Direct video/audio evidence has highest priority.
+- Transcripts may contain errors. Metadata captions have LOW importance.
+- Never assign a label from the caption alone.
+
+FIELDS TO SCORE
+
+1. Valence (0 to 10)
+   0 = extremely unpleasant, 5 = neutral, 10 = extremely pleasant.
+
+2. Arousal (0 to 10)
+   0 = very calm/unstimulating, 5 = moderate, 10 = extremely intense.
+   Arousal is separate from valence: intense content can be pleasant or
+   unpleasant.
+
+3. Emotion weights (must total 10)
+   Divide exactly 10 points among ALL eight emotions below. Use 0 when an
+   emotion is absent. More than one emotion can receive points.
+
+   joy                 ___  happiness, amusement, delight
+   sadness             ___  sorrow, grief, disappointment
+   anger               ___  irritation, frustration, hostility
+   fear_anxiety        ___  fear, worry, tension, unease
+   surprise            ___  shock, startle, unexpectedness
+   disgust             ___  revulsion, aversion, strong distaste
+   calm_contentment    ___  peace, comfort, gentle satisfaction
+   neutral             ___  little or no clear emotional effect
+                       ---
+   TOTAL               10
+
+   Example: joy 6 + surprise 2 + neutral 2 + all other emotions 0 = 10.
+
+4. Dominant emotion
+   Select the emotion with the highest weight.
+
+5. Recovery suitability (0 to 10)
+   Would this be a good video after several intense or overstimulating videos?
+   0 = unsuitable, 5 = mixed, 10 = highly soothing/restorative.
+   This is not simply 10 minus arousal.
+
+6. Confidence (0 to 10)
+   0 = very uncertain, 5 = moderately certain, 10 = very certain.
+
+7. Evidence and notes
+   Briefly record observable visual, audio, speech/text, and motion evidence.
+   Note mixed emotions, unclear language, missing audio, or other ambiguity.
+
+FINAL CHECK
+
+- You watched the complete video.
+- All scores are between 0 and 10.
+- The eight emotion weights total exactly 10.
+- Dominant emotion has the highest weight.
+- No unavailable evidence was invented.
+- Model predictions were not viewed.
+
+If multiple people annotate, work independently and discuss disagreements only
+after everyone has submitted their original labels.
