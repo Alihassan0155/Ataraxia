@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7496978497190038814",
+  "transcript": "Damn.",
+  "acoustic_features": {
+    "mean_loudness": 0.9432,
+    "loudness_variability": 0.3532,
+    "mean_pitch": 38.8679,
+    "pitch_variability": 0.3176,
+    "spectral_flux": 0.8763,
+    "sound_level_db": -17.1661
+  },
+  "metadata_caption": "DC: @Eldonjcl #dance #trend #nyc #weather ",
+  "caption_priority": "low"
+}

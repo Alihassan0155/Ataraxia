@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_6806924351645011201",
+  "transcript": "क्या हुआ? गाओं में कोई नहीं है ठाकूर साब. क्या? गाओं में कोई भी नहीं? जी हाँ, पूरा गाओं खाली है. कहां मर गए सब गाओं वाले? ठाकूर दुर्जन...",
+  "acoustic_features": {
+    "mean_loudness": 1.222,
+    "loudness_variability": 0.9157,
+    "mean_pitch": 37.0775,
+    "pitch_variability": 0.1563,
+    "spectral_flux": 0.7034,
+    "sound_level_db": -17.1815
+  },
+  "metadata_caption": "Rajasthan lock down #jantacurfew #narendramodi",
+  "caption_priority": "low"
+}

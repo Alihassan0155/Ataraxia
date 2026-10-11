@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Ha3B3gqsPrk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.6333,
+    "loudness_variability": 0.2469,
+    "mean_pitch": 28.8951,
+    "pitch_variability": 0.401,
+    "spectral_flux": 1.8143,
+    "sound_level_db": -9.0164
+  },
+  "metadata_caption": "summer fun 😂",
+  "caption_priority": "low"
+}

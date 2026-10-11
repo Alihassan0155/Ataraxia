@@ -1,0 +1,1 @@
+{"video_id": "FV000662", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, Emotion probabilities must sum to approximately 1.00; got 0.7000 [type=value_error, input_value={'video_id': 'FV000662', ...ot joyful or arousing.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}

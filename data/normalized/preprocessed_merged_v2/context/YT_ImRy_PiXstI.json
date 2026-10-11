@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ImRy_PiXstI",
+  "transcript": "When you're in the race, it's basically like you have $100 in your tires that you have to spend between the start of the race to the first stop. That's a good analogy. How do you want to spend it? Sometimes you undershoot it and don't realize you're undershooting. Underspending. Because you don't know how much degradation there is. But you don't want to end with $10 left over on the tires. But you also don't want to go bust. You don't want to overspend. You've got a lap left, no money left on the tire. Yeah, so that balance is really, really hard. and to have that fully on feel is like... Yeah, it's very, very hard to.",
+  "acoustic_features": {
+    "mean_loudness": 1.2472,
+    "loudness_variability": 0.7096,
+    "mean_pitch": 26.9701,
+    "pitch_variability": 0.1436,
+    "spectral_flux": 0.7194,
+    "sound_level_db": -16.0388
+  },
+  "metadata_caption": "Lewis Hamilton Explains F1 Tire Strategy",
+  "caption_priority": "low"
+}

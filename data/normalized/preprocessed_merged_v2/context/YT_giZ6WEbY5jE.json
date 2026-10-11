@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_giZ6WEbY5jE",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5297,
+    "loudness_variability": 0.9558,
+    "mean_pitch": 33.399,
+    "pitch_variability": 0.6564,
+    "spectral_flux": 0.3117,
+    "sound_level_db": -23.7482
+  },
+  "metadata_caption": "Mac n Cheeseburger #shorts #asmr #cooking",
+  "caption_priority": "low"
+}

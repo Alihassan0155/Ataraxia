@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_74HZmTp-IVs",
+  "transcript": "Oh",
+  "acoustic_features": {
+    "mean_loudness": 0.7157,
+    "loudness_variability": 0.7657,
+    "mean_pitch": 30.4784,
+    "pitch_variability": 0.3637,
+    "spectral_flux": 0.4138,
+    "sound_level_db": -18.8309
+  },
+  "metadata_caption": "NEW FILM ALERT 🍿",
+  "caption_priority": "low"
+}

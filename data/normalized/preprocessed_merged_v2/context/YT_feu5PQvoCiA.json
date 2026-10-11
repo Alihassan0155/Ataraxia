@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_feu5PQvoCiA",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.6633,
+    "loudness_variability": 0.2079,
+    "mean_pitch": 20.3114,
+    "pitch_variability": 0.2574,
+    "spectral_flux": 1.153,
+    "sound_level_db": -13.9721
+  },
+  "metadata_caption": "Asking My Fiancée on a Date",
+  "caption_priority": "low"
+}

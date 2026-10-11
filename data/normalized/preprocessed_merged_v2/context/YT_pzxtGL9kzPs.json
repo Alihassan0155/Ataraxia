@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pzxtGL9kzPs",
+  "transcript": "Oh gosh. Oh, what is this? Eww! What is that? Whoa, whoa, whoa, what? Are you done? Yeah, go away. All right, ugh, that's disgusting. Ah. Oh, what is this? Oh my god. Oh, boy. Oh my god. Oh, it feels so nasty, bro. Keep pouring. All right, here we go. Ugh. Ugh! It's so gloopy!",
+  "acoustic_features": {
+    "mean_loudness": 1.4084,
+    "loudness_variability": 0.5651,
+    "mean_pitch": 42.6296,
+    "pitch_variability": 0.1305,
+    "spectral_flux": 0.8061,
+    "sound_level_db": -15.4063
+  },
+  "metadata_caption": "Try Not To Get Slimed",
+  "caption_priority": "low"
+}

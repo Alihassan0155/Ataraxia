@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_EJOJcaoQubk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.9519,
+    "loudness_variability": 0.1284,
+    "mean_pitch": 16.4642,
+    "pitch_variability": 0.2512,
+    "spectral_flux": 2.6276,
+    "sound_level_db": -7.3714
+  },
+  "metadata_caption": "Impress bathroom guests—subscribe @pepperell.craftsfor creative hacks! 🚽",
+  "caption_priority": "low"
+}

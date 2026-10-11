@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7400214714048875807",
+  "transcript": "Oh, don't use wooden cutting boards. They're a food safety hazard. Don't use glass cutting boards. They dull your knives. Don't use plastic cutting boards. You're going to get microplastics. How about I just die? How about I just die instead?",
+  "acoustic_features": {
+    "mean_loudness": 0.6329,
+    "loudness_variability": 0.6579,
+    "mean_pitch": 35.7633,
+    "pitch_variability": 0.1006,
+    "spectral_flux": 0.2907,
+    "sound_level_db": -24.4152
+  },
+  "metadata_caption": "#microplastics #foodsafety #cooking ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_EDUqT2cZ1nY",
+  "transcript": "So this is the new iOS 26 home screen, and this is what it looks like with the all clear icons turned on. All clear everything, coming to an iPhone near you this fall. I have a lot of thoughts that I'm putting into a video, so subscribe for that, but yeah, this is the beginning of what Apple's calling liquid glass. You'll notice with the glass elements, every time the background is dark, it makes the UI light, and every time the background's light, it makes the UI dark. even as you're scrolling. There's just a lot going on with readability here. Stay tuned",
+  "acoustic_features": {
+    "mean_loudness": 0.7931,
+    "loudness_variability": 0.6991,
+    "mean_pitch": 25.5672,
+    "pitch_variability": 0.1661,
+    "spectral_flux": 0.3845,
+    "sound_level_db": -20.4123
+  },
+  "metadata_caption": "iOS 26 Liquid Glass",
+  "caption_priority": "low"
+}

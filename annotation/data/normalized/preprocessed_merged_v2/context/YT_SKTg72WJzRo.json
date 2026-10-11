@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SKTg72WJzRo",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 3.3168,
+    "loudness_variability": 0.2555,
+    "mean_pitch": 27.4143,
+    "pitch_variability": 0.7104,
+    "spectral_flux": 4.6119,
+    "sound_level_db": -4.3956
+  },
+  "metadata_caption": "WE CAUGHT A MASSIVE FISH 😱",
+  "caption_priority": "low"
+}

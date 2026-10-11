@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ScjQAcbA9e4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.3028,
+    "loudness_variability": 0.24,
+    "mean_pitch": 30.1269,
+    "pitch_variability": 0.4557,
+    "spectral_flux": 0.7085,
+    "sound_level_db": -17.9756
+  },
+  "metadata_caption": "Important Announcement From The Grocery Store",
+  "caption_priority": "low"
+}

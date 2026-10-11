@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000094",
+  "transcript": "This video shows the resulting PTV equilibrium surface for a van der Waals substance in reduced coordinates. The steep region corresponds to liquid phase states, while the shallow region corresponds to gas phase states. The cyan region is the saturation dome, which ends on the critical point indicated by the white dot. The saturation dome is obtained from the van der Waals equation by a procedure called Maxwell construction.",
+  "acoustic_features": {
+    "mean_loudness": 0.5708,
+    "loudness_variability": 0.83,
+    "mean_pitch": 23.381,
+    "pitch_variability": 0.2496,
+    "spectral_flux": 0.3188,
+    "sound_level_db": -19.191
+  },
+  "metadata_caption": "P(T, v) surface for a van-der-Waals substance",
+  "caption_priority": "low"
+}

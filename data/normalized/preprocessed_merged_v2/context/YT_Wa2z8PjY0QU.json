@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Wa2z8PjY0QU",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.4477,
+    "loudness_variability": 0.3446,
+    "mean_pitch": 13.1447,
+    "pitch_variability": 0.0501,
+    "spectral_flux": 0.329,
+    "sound_level_db": -23.4164
+  },
+  "metadata_caption": "A Whole Lot of Nothing 😭",
+  "caption_priority": "low"
+}

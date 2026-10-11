@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7357890933834140970",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.3255,
+    "loudness_variability": 0.438,
+    "mean_pitch": 40.0544,
+    "pitch_variability": 0.3286,
+    "spectral_flux": 1.5645,
+    "sound_level_db": -14.0046
+  },
+  "metadata_caption": "I made some beautiful birds,and I like the blue one! How about you? #birds #nature #aiart #art ",
+  "caption_priority": "low"
+}

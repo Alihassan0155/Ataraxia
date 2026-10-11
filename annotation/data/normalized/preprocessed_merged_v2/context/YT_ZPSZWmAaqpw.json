@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ZPSZWmAaqpw",
+  "transcript": "Hmm.",
+  "acoustic_features": {
+    "mean_loudness": 0.6829,
+    "loudness_variability": 1.3506,
+    "mean_pitch": 32.9178,
+    "pitch_variability": 0.4577,
+    "spectral_flux": 0.432,
+    "sound_level_db": -20.0959
+  },
+  "metadata_caption": "This is a good day #marinebiology #leafsheep #ocean #cute #cutenessoverload #cuteanimals",
+  "caption_priority": "low"
+}

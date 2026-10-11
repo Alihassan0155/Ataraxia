@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_cqEUQy8qH8I",
+  "transcript": "E aí",
+  "acoustic_features": {
+    "mean_loudness": 1.1974,
+    "loudness_variability": 0.6134,
+    "mean_pitch": 36.1667,
+    "pitch_variability": 0.2608,
+    "spectral_flux": 1.1288,
+    "sound_level_db": -9.9875
+  },
+  "metadata_caption": "Off to discover a new destination to recommend to our customers, travel is our life.",
+  "caption_priority": "low"
+}

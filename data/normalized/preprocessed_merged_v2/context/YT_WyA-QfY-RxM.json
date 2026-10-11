@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_WyA-QfY-RxM",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.9412,
+    "loudness_variability": 0.3746,
+    "mean_pitch": 33.2927,
+    "pitch_variability": 0.374,
+    "spectral_flux": 1.3376,
+    "sound_level_db": -8.73
+  },
+  "metadata_caption": "iPhone Duo early look. Go check the channel for full video.",
+  "caption_priority": "low"
+}

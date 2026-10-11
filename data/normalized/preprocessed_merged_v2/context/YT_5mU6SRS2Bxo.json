@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_5mU6SRS2Bxo",
+  "transcript": "Giant tennis! Best of three wins. Good hit. That's all you got, Tariq? Go, go, go! Hit it, hit it! No, no, no! What are you doing? Not too bad, not too bad. Next round is ours. Guys, guys, hit that! Get it! Yeah! Lock in, lock in. No! Wait for it. Here it comes, here it comes. Let it bounce. Oh, no! Really good lob. Here's the tiebreaker. Good, good, good. Good hit! This is it. I lost my teammate. Yeah! Go watch it!",
+  "acoustic_features": {
+    "mean_loudness": 2.6141,
+    "loudness_variability": 0.3676,
+    "mean_pitch": 40.8495,
+    "pitch_variability": 0.2061,
+    "spectral_flux": 1.9859,
+    "sound_level_db": -10.7637
+  },
+  "metadata_caption": "World’s Largest Tennis Match",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_B9LizOAAoLg",
+  "transcript": "To celebrate my birthday, I want to grant your biggest wish, like going to the World Cup, paying off your college tuition, maybe giving you gear to start a YouTube career, whatever it is, comment down below your biggest wish and subscribe for a chance to win it, because I want to give back to you guys like you've given to me. Dude, I'm going to the World Cup!",
+  "acoustic_features": {
+    "mean_loudness": 1.4188,
+    "loudness_variability": 0.5432,
+    "mean_pitch": 33.2747,
+    "pitch_variability": 0.16,
+    "spectral_flux": 0.7179,
+    "sound_level_db": -17.0024
+  },
+  "metadata_caption": "I’m Granting Wishes For My Subscribers",
+  "caption_priority": "low"
+}

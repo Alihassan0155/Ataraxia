@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000052",
+  "transcript": "The best way to tackle rumination is to take action. So I want you to get up right now and I want you to engage in life. It can be something as simple as calling a friend, it can be doing a dish, it can be going to the store. Whatever it is, when you're staying static, your mind tends to wander. So get up and live life.",
+  "acoustic_features": {
+    "mean_loudness": 0.6278,
+    "loudness_variability": 0.5249,
+    "mean_pitch": 32.9195,
+    "pitch_variability": 0.0614,
+    "spectral_flux": 0.238,
+    "sound_level_db": -26.7388
+  },
+  "metadata_caption": "Tackle Rumination",
+  "caption_priority": "low"
+}

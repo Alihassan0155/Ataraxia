@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YA_kX8hu1gg",
+  "transcript": "Looking for something fun to do this weekend? Check out my exclusive Lowe's builder kits that drop every month. You can build them in store at home. Like this cannon that shoots for, this Ferris wheel that fires for. Ah! I just wanted you to keep watching. Anyways, go check out these builder kits at your local Lowe's. They're a lot of fun. Here's a link for more information.",
+  "acoustic_features": {
+    "mean_loudness": 1.9844,
+    "loudness_variability": 0.4794,
+    "mean_pitch": 36.5393,
+    "pitch_variability": 0.2536,
+    "spectral_flux": 1.5431,
+    "sound_level_db": -12.3648
+  },
+  "metadata_caption": "This Plane Takes Off in 12 Seconds",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_niRWyd5jr08",
+  "transcript": "I wanna be a goody",
+  "acoustic_features": {
+    "mean_loudness": 2.5378,
+    "loudness_variability": 0.4666,
+    "mean_pitch": 33.3224,
+    "pitch_variability": 0.4302,
+    "spectral_flux": 1.7286,
+    "sound_level_db": -8.8582
+  },
+  "metadata_caption": "Fun and helpful gadgets for parents 😍👶 Stress-free parenting!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-11",
+  "tests": {
+    "root": 43,
+    "heldout_workflow": 5,
+    "reliability": 9,
+    "valid_fields": 2,
+    "total": 59
+  },
+  "preserved_artifact_count": 21695,
+  "preservation_errors": [],
+  "inference_rerun": false,
+  "calibration_refitted": false,
+  "original_results_modified": false,
+  "powershell_launcher": "syntax passed; runtime blocked by host execution policy",
+  "dependency_checks": "both environments passed",
+  "branch": "refactor/modular-annotation-20261011",
+  "baseline_head": "7a398df450889c684d02bd0d7788f721c9686780",
+  "commit_status": "approval_declined_no_commit_created",
+  "staged_refactor_files_at_review": 202
+}

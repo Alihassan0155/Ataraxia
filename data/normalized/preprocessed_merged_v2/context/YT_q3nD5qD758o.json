@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_q3nD5qD758o",
+  "transcript": "Two planes glided over a lake. One of them plummeted into the water, ever to be seen again. 60 years later, using some insane sonar technology, we detected something on the bottom of the lake that looked like the plane. So I got into the submarine to try and find it, but as we descended into the lake, stuff started taking on a terrifying amount of water. Topside, we have a severe hatch leak. This is a failed dive. The hatch failure meant that we couldn't dive again, but it was time for my secret weapon of last resort. Essentially, an underwater remote-controlled robot scuba diver and could visit the plane for me, sending back a live video feed in the process. And after what seemed like hours of searching, we finally found something. What is that? Are you kidding me? That's the propeller! Unfortunately, after some scanning, we realized this was a completely different plane that sank a few years later, which means the real mystery plane is still down there waiting to be found.",
+  "acoustic_features": {
+    "mean_loudness": 1.7537,
+    "loudness_variability": 0.4331,
+    "mean_pitch": 32.6474,
+    "pitch_variability": 0.2236,
+    "spectral_flux": 1.2414,
+    "sound_level_db": -13.3272
+  },
+  "metadata_caption": "I Discovered a Lost Plane",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pF_6ZWf4fB8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.4356,
+    "loudness_variability": 0.4646,
+    "mean_pitch": 19.6188,
+    "pitch_variability": 0.2621,
+    "spectral_flux": 0.5004,
+    "sound_level_db": -20.5522
+  },
+  "metadata_caption": "#franticbeetle #americancarrionbeetle #sandylynnnaturephotography",
+  "caption_priority": "low"
+}

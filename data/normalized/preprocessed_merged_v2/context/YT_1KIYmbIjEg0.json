@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1KIYmbIjEg0",
+  "transcript": "So this is the new DJI Romo, and I've got the transparent version. This one's called the Romo P, and it's kind of the top end. And not only is the robot itself transparent, but the base station is also transparent. This makes the whole thing look very futuristic and quite different from the other devices that are on the market. So all you need to do to get this thing running is pop it open, fill up your detergent, as well as your water, because this thing is going to both mop and vacuum. Apparently, this device has millimeter-level obstacle sensing. Now DJ claims this is going to be good for your typical dirt, but it will also handle the messiest of pets. It's also got strong suction with a rating of 25,000 PA. It's also got dual robotic arms for better coverage when it heads into the edges. DJI claims you're going to get 200 days of maintenance free cleaning. It's using a powerful jet in order to clean out the mop itself. So when it heads back out to start cleaning again, you're not bringing that dirt from the previous clean with you. So as mentioned that obstacle avoidance is being pulled from DJI's expertise in drones. And a quick note, the camera and microphone are completely optional, so you choose whether to activate them. The full control is yours and it's right in the app. However, it is important to note that the camera is core to some of the functionality, including the obstacle avoidance, dirt detection, and even remote calling if you choose.",
+  "acoustic_features": {
+    "mean_loudness": 1.3114,
+    "loudness_variability": 0.4675,
+    "mean_pitch": 25.3438,
+    "pitch_variability": 0.1516,
+    "spectral_flux": 0.8634,
+    "sound_level_db": -15.4739
+  },
+  "metadata_caption": "This Design Shouldn’t Exist...",
+  "caption_priority": "low"
+}

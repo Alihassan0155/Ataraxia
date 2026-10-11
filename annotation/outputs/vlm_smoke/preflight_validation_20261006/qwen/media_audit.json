@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "FV000662",
+    "decoded_frames": 461,
+    "original_fps": 23.976023976023978,
+    "sample_frames": 18,
+    "sample_fps": 0.9361571183696998,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000012",
+    "decoded_frames": 701,
+    "original_fps": 30.0,
+    "sample_frames": 22,
+    "sample_fps": 0.94151212553495,
+    "height": 640,
+    "width": 360
+  }
+]

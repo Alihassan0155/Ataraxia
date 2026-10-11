@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_GViV8D301n8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0875,
+    "loudness_variability": 0.2789,
+    "mean_pitch": 16.7724,
+    "pitch_variability": 0.3122,
+    "spectral_flux": 1.9075,
+    "sound_level_db": -9.928
+  },
+  "metadata_caption": "WowCube Art Time 🎨 Let’s Paint! #wowcube",
+  "caption_priority": "low"
+}

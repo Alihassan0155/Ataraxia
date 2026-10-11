@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000665",
+  "transcript": "The other day I played hooky and I went out sketching at Fisherman's Terminal in Seattle with a bunch of friends. We started off doing some sketching on the dock and then we got on board an ice cream boat, which was wonderful. Ice cream, water and sketching. Sounds like a really good combination on a sunny day. And this whole group of artists, I think there were 28 or 30 of us, not sure exactly how many, but everybody just sketched wherever they were, whatever they were seeing out the window, inside, outside, whatever medium, whatever style. It was so cool to be able to just kind of walk around and engage with everybody. It looks like we were just working the whole time, but we were actually chatting and laughing quite a bit of it. This is what I worked on. I sketched one of the other sketchers.",
+  "acoustic_features": {
+    "mean_loudness": 0.7373,
+    "loudness_variability": 0.7693,
+    "mean_pitch": 36.2304,
+    "pitch_variability": 0.2116,
+    "spectral_flux": 0.3058,
+    "sound_level_db": -21.912
+  },
+  "metadata_caption": "I PLAYED ARTIST HOOKEY! :)",
+  "caption_priority": "low"
+}

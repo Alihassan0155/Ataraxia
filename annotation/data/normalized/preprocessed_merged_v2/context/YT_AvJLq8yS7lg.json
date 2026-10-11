@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_AvJLq8yS7lg",
+  "transcript": "Can he catch a basketball? Oh has he got it? Well done young man! Gym ball! Good! Australian footy! Footy out, footy out! Soccer! Vortex! Foxtail! Baseball! I'm under it, I'm under it! I'm good.",
+  "acoustic_features": {
+    "mean_loudness": 1.0204,
+    "loudness_variability": 0.6764,
+    "mean_pitch": 40.9759,
+    "pitch_variability": 0.2173,
+    "spectral_flux": 0.4504,
+    "sound_level_db": -17.2852
+  },
+  "metadata_caption": "BOWLING BALL CATCH? 🎳",
+  "caption_priority": "low"
+}

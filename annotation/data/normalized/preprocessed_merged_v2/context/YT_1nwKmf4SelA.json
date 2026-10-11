@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1nwKmf4SelA",
+  "transcript": "O-o-o-oh O-o-o-oh O-o-o-oh",
+  "acoustic_features": {
+    "mean_loudness": 1.0414,
+    "loudness_variability": 0.6915,
+    "mean_pitch": 40.2092,
+    "pitch_variability": 0.2434,
+    "spectral_flux": 0.4487,
+    "sound_level_db": -20.7801
+  },
+  "metadata_caption": "Self Care for Cats",
+  "caption_priority": "low"
+}

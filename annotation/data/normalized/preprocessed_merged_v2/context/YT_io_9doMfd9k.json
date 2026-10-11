@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_io_9doMfd9k",
+  "transcript": "Can I do some tests on you? Thank you so much. Let me just start off with a little preliminary Preliminary test. Take a look at this cup. Can you see that dot? You can? Okay. Follow the dot with your eyes. Just follow the light. Good. tell me when you can see the light good, good okay, what color would you call this? what color is this? this? this? how about this? What color is this? How about that? Okay, very good.",
+  "acoustic_features": {
+    "mean_loudness": 0.2295,
+    "loudness_variability": 0.9083,
+    "mean_pitch": 36.7673,
+    "pitch_variability": 0.1957,
+    "spectral_flux": 0.1023,
+    "sound_level_db": -29.5757
+  },
+  "metadata_caption": "ASMR | Can I do some tests on you?",
+  "caption_priority": "low"
+}

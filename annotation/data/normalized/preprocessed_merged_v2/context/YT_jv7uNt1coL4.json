@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_jv7uNt1coL4",
+  "transcript": "We're at a school in Nepal and we're gonna inflate this giant balloon to the pops and see what happens. Hold on to it Aaron! Flip! That's massive!",
+  "acoustic_features": {
+    "mean_loudness": 1.4937,
+    "loudness_variability": 0.4645,
+    "mean_pitch": 43.387,
+    "pitch_variability": 0.1613,
+    "spectral_flux": 0.5619,
+    "sound_level_db": -18.7559
+  },
+  "metadata_caption": "Giant Balloon Pop at a School in Nepal! 🎈",
+  "caption_priority": "low"
+}

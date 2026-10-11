@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7313441231105723679",
+  "transcript": "Take a big deep breath in. Feel that force.",
+  "acoustic_features": {
+    "mean_loudness": 0.5175,
+    "loudness_variability": 0.4737,
+    "mean_pitch": 35.5429,
+    "pitch_variability": 0.2743,
+    "spectral_flux": 0.1996,
+    "sound_level_db": -29.5844
+  },
+  "metadata_caption": "Building a lightsaber #starwars #disneyland #happiness ",
+  "caption_priority": "low"
+}

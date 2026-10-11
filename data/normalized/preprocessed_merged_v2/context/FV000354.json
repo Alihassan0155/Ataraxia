@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000354",
+  "transcript": "Take two. Here you go. Thanks, George. This one's for you. If you growl at it hard enough, it'll go away. Really? Yeah, I try that on people. Really? It works every time. There's a carnivorous planet. I hope something more morbid comes to mind. You don't get to use it. Sorry. Did I hit you in the face right now? Hold on. Are you okay? This is the most aggressive plane.",
+  "acoustic_features": {
+    "mean_loudness": 0.9838,
+    "loudness_variability": 0.4241,
+    "mean_pitch": 35.2009,
+    "pitch_variability": 0.2841,
+    "spectral_flux": 0.498,
+    "sound_level_db": -21.2502
+  },
+  "metadata_caption": "Wednesday Addams Bloopers| Jenna Ortega BTS",
+  "caption_priority": "low"
+}

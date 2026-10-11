@@ -1,0 +1,11 @@
+# Shared Windows CUDA environment. Torch is installed from the cu128 index separately.
+# Existing Qwen deployment versions; InternVL HF inference still requires a live smoke test.
+transformers==5.18.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+qwen-vl-utils==0.0.14
+av==19.0.1
+pydantic==2.13.5
+huggingface-hub==1.33.0
+pillow==12.3.0
+psutil==7.2.2

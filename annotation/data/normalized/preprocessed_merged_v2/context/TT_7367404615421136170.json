@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7367404615421136170",
+  "transcript": "Excuse me. Are you supposed to be on? Oh look these good kitties. Look these good kitties. They can sleep on chair, but not supposed to be on table. I need to get down. This is my body.",
+  "acoustic_features": {
+    "mean_loudness": 0.1901,
+    "loudness_variability": 0.8012,
+    "mean_pitch": 43.6716,
+    "pitch_variability": 0.3114,
+    "spectral_flux": 0.0794,
+    "sound_level_db": -32.335
+  },
+  "metadata_caption": "",
+  "caption_priority": "low"
+}

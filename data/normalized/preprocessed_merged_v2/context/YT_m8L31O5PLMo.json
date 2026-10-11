@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_m8L31O5PLMo",
+  "transcript": "Oh, that sounds dry. These are capers. I'm impressed by this one.",
+  "acoustic_features": {
+    "mean_loudness": 0.2381,
+    "loudness_variability": 0.7497,
+    "mean_pitch": 35.6331,
+    "pitch_variability": 0.2372,
+    "spectral_flux": 0.0695,
+    "sound_level_db": -36.5297
+  },
+  "metadata_caption": "ASMR - Do I keep or leave these ASMR triggers?",
+  "caption_priority": "low"
+}

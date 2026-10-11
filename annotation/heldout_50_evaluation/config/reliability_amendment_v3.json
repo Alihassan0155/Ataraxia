@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "authorization": "User explicitly requested proportional normalization if the total remains below/above 10 after two repair attempts",
+  "previous_amendment": "config/reliability_amendment_v2.json",
+  "InternVL_policy": {
+    "initial_attempts": 1,
+    "repair_attempts": 2,
+    "fallback": "Proportional scaling to exactly 1000 hundredths via largest-remainder allocation; only positive finite eight-score vectors in [0,10] with incorrect totals",
+    "original_scores_preserved": true,
+    "normalized_results_flagged": true,
+    "derived_dominant_checked": true,
+    "other_schema_errors_remain_fatal": true
+  },
+  "changed_files": {
+    "components/schema_repair.py": {
+      "before_sha256": "70efd2976ea01148d7bb1daf8cf5117a4b5f071977d05bf301ffe87193223d99",
+      "after_sha256": "91217ffeec04faa74b212aaff0b8403792d1ee586466eb1dc5bca9db367f6cb9"
+    },
+    "components/annotate_internvl_cuda.py": {
+      "before_sha256": "75fa586539d70c43a96d27e3ba64da1e34f958029106233f18a01b1f967dd429",
+      "after_sha256": "d6c010883a63af7a6da21142e912a6752708c3bc7ed6be205f9d0e9b92091531"
+    },
+    "scripts/evaluate.py": {
+      "before_sha256": "f2d95edf6dee08929bea8ac6d5673810560cd94fe7e41651a90ceaae750402d2",
+      "after_sha256": "713812c19e3b742fe0bd266e7693426edc55b549da3d6c920659b64240876e66"
+    },
+    "scripts/test_reliability.py": {
+      "before_sha256": "4fbe8bf60730b6ef44ca18759d1a7c8a9193175fbea694bf7d53797f550c9378",
+      "after_sha256": "33143a3cdcb4f58d9a151a0034a0f289c59c6396b5e3c73512a4207cc796b56d"
+    }
+  },
+  "saved_predictions_modified": false,
+  "original_pilot_modified": false,
+  "calibration_modified": false,
+  "research_limit": "This post-failure normalization differs from the original pilot policy; mixed-policy saved results are preserved and disclosed, not presented as unchanged frozen inference."
+}

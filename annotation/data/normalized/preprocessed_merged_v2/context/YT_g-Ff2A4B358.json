@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_g-Ff2A4B358",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0958,
+    "loudness_variability": 0.4592,
+    "mean_pitch": 21.7566,
+    "pitch_variability": 0.6093,
+    "spectral_flux": 1.433,
+    "sound_level_db": -11.9118
+  },
+  "metadata_caption": "Behind-the-scenes look at illustrator Senne Trip creating the art of Pandora’s Legacy",
+  "caption_priority": "low"
+}

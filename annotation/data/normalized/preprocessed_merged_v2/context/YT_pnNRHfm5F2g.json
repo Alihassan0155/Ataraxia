@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pnNRHfm5F2g",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0184,
+    "loudness_variability": 0.4221,
+    "mean_pitch": 23.6036,
+    "pitch_variability": 0.4521,
+    "spectral_flux": 1.9327,
+    "sound_level_db": -8.9913
+  },
+  "metadata_caption": "Smart Dad Hacks for Everyday Parenting Chaos 🍼😅",
+  "caption_priority": "low"
+}

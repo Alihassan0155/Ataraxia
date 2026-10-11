@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_VPTozzO002I",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5372,
+    "loudness_variability": 0.3909,
+    "mean_pitch": 19.7889,
+    "pitch_variability": 0.4928,
+    "spectral_flux": 0.974,
+    "sound_level_db": -15.1757
+  },
+  "metadata_caption": "Easy to make chocolate boxes 🧊🍫",
+  "caption_priority": "low"
+}

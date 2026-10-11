@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7434676512583994666",
+  "transcript": "What time is it? It's 4.15pm.",
+  "acoustic_features": {
+    "mean_loudness": 0.1105,
+    "loudness_variability": 1.0335,
+    "mean_pitch": 28.4361,
+    "pitch_variability": 0.2047,
+    "spectral_flux": 0.0261,
+    "sound_level_db": -41.4584
+  },
+  "metadata_caption": "rise and shine!  #agingmillennials #viral #funny #sketch #daylightsavings #naptime ",
+  "caption_priority": "low"
+}

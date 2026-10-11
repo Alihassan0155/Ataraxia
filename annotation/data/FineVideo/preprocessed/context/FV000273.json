@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000273",
+  "transcript": "Showing the cat arteries, flipping the organs to the side so that we can trace the aorta. Up in the top of the cat, this is the thoracic aorta. Where it crosses the diaphragm, it becomes the abdominal aorta. The first main branch you see from the abdominal aorta goes to the stomach and the spleen. This is called the celiac, or the celiac trunk. The next one down is the superior mesenteric, which goes to the mesentery, which is part of the intestines. Traveling down, we see the kidney and the two renal vessels. The blue one would be the renal vein, and the smaller one would be the renal artery. Traveling down the abdominal aorta, notice the inferior vena cava runs parallel to the abdominal aorta. Once we get into the groin area, we have a lower vessel, which matches this one. This is the inferior mesenteric, and also goes to the intestines. That one is the large intestine, and here is the small intestine. Where it branches at the bottom, where it whys, are the iliacs. You have the external iliac, internal iliac on both sides. The vein is the same format. We just have one iliac vein. Follow this down into the leg. We have the femoral artery and the femoral vein running side by side. And then you have a branch here, which goes down into the saphenous vein. I think that's...",
+  "acoustic_features": {
+    "mean_loudness": 1.1709,
+    "loudness_variability": 0.5294,
+    "mean_pitch": 31.1221,
+    "pitch_variability": 0.1375,
+    "spectral_flux": 0.7312,
+    "sound_level_db": -17.856
+  },
+  "metadata_caption": "Cat Vessels, Lower Body",
+  "caption_priority": "low"
+}

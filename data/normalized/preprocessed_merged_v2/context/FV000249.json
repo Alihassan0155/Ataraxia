@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000249",
+  "transcript": "Here's a tip on what you need to remember on using the hip swivel while you're dribbling the basketball. Alright, when you're dribbling the basketball, whether you're going left or right, the key to the hip swivel is to sail as if you're doing a crossover, but not swiveling the hips and you're continuing in whatever direction that you was going. Quick tip.",
+  "acoustic_features": {
+    "mean_loudness": 1.2336,
+    "loudness_variability": 0.4216,
+    "mean_pitch": 23.9953,
+    "pitch_variability": 0.4216,
+    "spectral_flux": 0.8401,
+    "sound_level_db": -15.7574
+  },
+  "metadata_caption": "Tuesday Tip",
+  "caption_priority": "low"
+}

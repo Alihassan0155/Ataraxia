@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_KSEToGqbiu0",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.4196,
+    "loudness_variability": 1.536,
+    "mean_pitch": 37.0884,
+    "pitch_variability": 0.2199,
+    "spectral_flux": 0.2201,
+    "sound_level_db": -23.8405
+  },
+  "metadata_caption": "Happy Halloween! | #shorts",
+  "caption_priority": "low"
+}

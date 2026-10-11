@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_TN8191lSNaI",
+  "transcript": "Oh, wherever you go",
+  "acoustic_features": {
+    "mean_loudness": 2.8929,
+    "loudness_variability": 0.2871,
+    "mean_pitch": 36.3162,
+    "pitch_variability": 0.3795,
+    "spectral_flux": 1.8285,
+    "sound_level_db": -10.4011
+  },
+  "metadata_caption": "We Adopted a Son!",
+  "caption_priority": "low"
+}

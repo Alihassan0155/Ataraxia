@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_mFWpUx3FiyU",
+  "transcript": "What is that sound watch out watch out watch out oh Wait, it's up. I think it licked me beaver. No Well be careful be careful Yes I'm scared Chevy scared. Yes. Oh, okay. It's Part Just sniff me now didn't a beaver no skunk. Oh you got it Baby gorilla",
+  "acoustic_features": {
+    "mean_loudness": 0.9944,
+    "loudness_variability": 0.5581,
+    "mean_pitch": 37.5912,
+    "pitch_variability": 0.2642,
+    "spectral_flux": 0.5842,
+    "sound_level_db": -20.0106
+  },
+  "metadata_caption": "Guess The Animal",
+  "caption_priority": "low"
+}

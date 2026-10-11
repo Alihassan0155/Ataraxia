@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_5raBg2Ch-do",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.2413,
+    "loudness_variability": 0.5713,
+    "mean_pitch": 35.4401,
+    "pitch_variability": 0.2973,
+    "spectral_flux": 0.1198,
+    "sound_level_db": -36.0337
+  },
+  "metadata_caption": "ASMR - 2 Minutes of Birkin Bag Sounds (No Talking)",
+  "caption_priority": "low"
+}

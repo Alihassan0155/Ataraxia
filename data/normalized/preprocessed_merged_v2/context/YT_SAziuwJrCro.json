@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SAziuwJrCro",
+  "transcript": "You can't make your favorite foods low calorie and still good, or can you? A cup of zero fat yogurt. This is the secret. Silken tofu, a 10.8 ounce container, the whole thing. dangerously close to the real thing. With macros like these, I'm not complaining.",
+  "acoustic_features": {
+    "mean_loudness": 0.8715,
+    "loudness_variability": 0.6889,
+    "mean_pitch": 27.9766,
+    "pitch_variability": 0.3616,
+    "spectral_flux": 0.4911,
+    "sound_level_db": -19.5515
+  },
+  "metadata_caption": "370 Calorie Butter Chicken (61g protein)",
+  "caption_priority": "low"
+}

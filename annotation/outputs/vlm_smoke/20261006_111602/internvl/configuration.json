@@ -1,0 +1,31 @@
+{
+  "model": "OpenGVLab/InternVL3_5-8B-HF",
+  "revision_requested": "main",
+  "video_ids": [
+    "FV000662",
+    "FV000012"
+  ],
+  "fps": 1.0,
+  "quantization": "NF4",
+  "double_quantization": true,
+  "quantization_skip_modules": [
+    "vision_tower",
+    "multi_modal_projector"
+  ],
+  "compute_dtype": "bfloat16",
+  "batch_size": 1,
+  "temperature": 0,
+  "do_sample": false,
+  "thinking": false,
+  "max_new_tokens": 1200,
+  "schema_repair_attempts": 1,
+  "max_device_gib": 15.0,
+  "gpu": "NVIDIA RTX A4000",
+  "cuda": "12.8",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.18.0",
+    "bitsandbytes": "0.50.2",
+    "av": "19.0.1"
+  }
+}

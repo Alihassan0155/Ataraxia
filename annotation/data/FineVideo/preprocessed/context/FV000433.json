@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000433",
+  "transcript": "I have an empty plastic bottle and I've made two holes on its sides. One is over here and the other is a little above over here. Now I will pour water into this bottle. We know that streams of water will come out from both its holes, right? But I want you to predict which stream of water will cover a greater horizontal distance. Will the stream of water from the hole at the top cover a greater horizontal distance or will the stream of water from the hole below cover a greater horizontal distance? Alright let's see. So we see that the stream of water from the hole below covers a greater horizontal distance, right? Let's look at it again. I have used food color in the water now so that the streams are clearly visible. Again the stream of water from the hole below covers a greater horizontal distance. Why do you think that happens? Think about it.",
+  "acoustic_features": {
+    "mean_loudness": 0.4359,
+    "loudness_variability": 0.7527,
+    "mean_pitch": 26.062,
+    "pitch_variability": 0.1802,
+    "spectral_flux": 0.2473,
+    "sound_level_db": -21.815
+  },
+  "metadata_caption": "Activity: Liquid pressure increases with height | Middle school physics | Khan Academy",
+  "caption_priority": "low"
+}

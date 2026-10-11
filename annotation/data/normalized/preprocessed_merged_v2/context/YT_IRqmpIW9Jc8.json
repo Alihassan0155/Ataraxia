@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_IRqmpIW9Jc8",
+  "transcript": "3, 2, 1",
+  "acoustic_features": {
+    "mean_loudness": 2.1194,
+    "loudness_variability": 0.4483,
+    "mean_pitch": 47.2501,
+    "pitch_variability": 0.1609,
+    "spectral_flux": 1.2395,
+    "sound_level_db": -9.8693
+  },
+  "metadata_caption": "Giant Paper Plane vs CANYON",
+  "caption_priority": "low"
+}

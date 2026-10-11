@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_LpkkkpsxZhw",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.7154,
+    "loudness_variability": 0.5452,
+    "mean_pitch": 42.7945,
+    "pitch_variability": 0.0012,
+    "spectral_flux": 0.6885,
+    "sound_level_db": -19.2323
+  },
+  "metadata_caption": "Food hack",
+  "caption_priority": "low"
+}

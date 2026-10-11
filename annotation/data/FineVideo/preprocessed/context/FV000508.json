@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000508",
+  "transcript": "Hello, it's me Ruben and my friend Monster Rocky. Hello. So Rocky, how was your day? It was good. And? I want to tell you a story. What is it? Knock knock. Who's there? Chicken. Chicken who? Chicken. Chicken. Fries. Really? Chicken fries? Yes. Excuse you. Say excuse me. Excuse me. So Rocky, turn this way. Oh, oh, okay. So Rocky, um. Did you hear me? Me? Me? Me? Me? Me? Me? Me? Me?",
+  "acoustic_features": {
+    "mean_loudness": 0.2072,
+    "loudness_variability": 1.2492,
+    "mean_pitch": 28.6233,
+    "pitch_variability": 0.2685,
+    "spectral_flux": 0.0597,
+    "sound_level_db": -34.6682
+  },
+  "metadata_caption": "Ruben Escobar is going to do ventriloquism",
+  "caption_priority": "low"
+}

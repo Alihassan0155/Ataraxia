@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_yqTbBXXi5Us",
+  "transcript": "I'm gonna use these masks to see how many free samples I can get at Costco before I get kicked out. For the first sample, I just walked up in my regular clothes. Oh my god, this looks so good. Sample number one was easy, but now it was time to put on my first disguise. I call this one Mr. Queen. So I walked up to get my second sample, and the other people started getting a little suspicious. That's two. But I was on a mission, baby, so I put on the next disguise and made my way back to get another. Can't wait for these samples. I secured the third sample and immediately changed to go back for the four. But this time, things were different. At this point, everyone was staring at me and the staff was walking towards me, so I grabbed sample number four and got out of there. Oh, boy. The worst example is how many you can get.",
+  "acoustic_features": {
+    "mean_loudness": 1.8382,
+    "loudness_variability": 0.2975,
+    "mean_pitch": 28.8562,
+    "pitch_variability": 0.1903,
+    "spectral_flux": 1.2255,
+    "sound_level_db": -14.644
+  },
+  "metadata_caption": "How many free samples can you get from Costco?",
+  "caption_priority": "low"
+}

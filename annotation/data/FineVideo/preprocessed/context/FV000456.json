@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000456",
+  "transcript": "Loki, I could give my verdict in two words or less, but as you would put it, you stand here accused of tampering with the sacred timeline, philosophically opposing predeterminism, crossing over into forbidden areas of Disney+, taking two spots in the goofy parking lot, being more popular than all the heroes, having a British accent when you're actually supposed to be from Norway, promising to be good, then breaking your promise like a zillion times, making us sit through numerous mid-credit scenes, hoping they advance the story. And will you please wash your nasty hair? Guilty as charged. Get out of my face.",
+  "acoustic_features": {
+    "mean_loudness": 0.2332,
+    "loudness_variability": 0.8504,
+    "mean_pitch": 39.9856,
+    "pitch_variability": 0.1426,
+    "spectral_flux": 0.07,
+    "sound_level_db": -37.5916
+  },
+  "metadata_caption": "The Simpsons - Loki's TVA court trial.",
+  "caption_priority": "low"
+}

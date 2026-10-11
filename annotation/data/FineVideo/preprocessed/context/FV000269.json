@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000269",
+  "transcript": "So that's pretty much the end of my talk. I mean, I really am just saying this is how we think, this is what's motivating our decisions. Time? Dr. Freeman? Is it really that time again?",
+  "acoustic_features": {
+    "mean_loudness": 1.1444,
+    "loudness_variability": 0.7803,
+    "mean_pitch": 24.1485,
+    "pitch_variability": 0.2054,
+    "spectral_flux": 0.5295,
+    "sound_level_db": -16.3936
+  },
+  "metadata_caption": "What the Half Life 3 announcement would look like",
+  "caption_priority": "low"
+}

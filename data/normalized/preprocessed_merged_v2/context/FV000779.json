@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000779",
+  "transcript": "A young woman comes to a gynecologist and she says Doctor, I have a problem but you know I'm really shy and I don't think if I can tell you about it It's really really embarrassing Doctor says, don't worry I know what your problem is I saw the video",
+  "acoustic_features": {
+    "mean_loudness": 0.6817,
+    "loudness_variability": 0.5327,
+    "mean_pitch": 24.171,
+    "pitch_variability": 0.1439,
+    "spectral_flux": 0.2859,
+    "sound_level_db": -24.2875
+  },
+  "metadata_caption": "Embarrassing Visit to a Doctor Joke",
+  "caption_priority": "low"
+}

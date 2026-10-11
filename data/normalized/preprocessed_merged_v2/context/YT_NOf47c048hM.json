@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NOf47c048hM",
+  "transcript": "This guy's doing the moment. Hey, I can fold it.",
+  "acoustic_features": {
+    "mean_loudness": 1.945,
+    "loudness_variability": 0.2568,
+    "mean_pitch": 49.7223,
+    "pitch_variability": 0.2216,
+    "spectral_flux": 0.962,
+    "sound_level_db": -14.2821
+  },
+  "metadata_caption": "Stop ruining the movies 🍿",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7434476662760164640",
+  "transcript": "Do you remember the day we met? Yeah, I wish you could go back.",
+  "acoustic_features": {
+    "mean_loudness": 1.1216,
+    "loudness_variability": 0.2879,
+    "mean_pitch": 26.1552,
+    "pitch_variability": 0.3611,
+    "spectral_flux": 0.5942,
+    "sound_level_db": -20.0375
+  },
+  "metadata_caption": "The night we met  #travel #smiths #cinematic ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1yM-r-M7pQE",
+  "transcript": "We're going to do the heart test and that is with this right here so each face Appears a different color depending on the angle where you're viewing and the lights of the room just do your best would you say? Do you see the dot? I've spun it around. What color is this? What color is this? How many colors do you see? You can name them out loud. What color is the light? Good. I'm going to change the light color now, okay? the color is... the light now",
+  "acoustic_features": {
+    "mean_loudness": 0.2346,
+    "loudness_variability": 0.7865,
+    "mean_pitch": 32.7088,
+    "pitch_variability": 0.0842,
+    "spectral_flux": 0.0849,
+    "sound_level_db": -29.7731
+  },
+  "metadata_caption": "ASMR | HARD MODE: Prism Light Test",
+  "caption_priority": "low"
+}

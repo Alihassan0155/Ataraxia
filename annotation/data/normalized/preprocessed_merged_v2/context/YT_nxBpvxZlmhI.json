@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_nxBpvxZlmhI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.2382,
+    "loudness_variability": 0.4753,
+    "mean_pitch": 24.8409,
+    "pitch_variability": 0.5204,
+    "spectral_flux": 1.8676,
+    "sound_level_db": -8.4976
+  },
+  "metadata_caption": "Homemade herbal body scrub for circulation and dry skin",
+  "caption_priority": "low"
+}

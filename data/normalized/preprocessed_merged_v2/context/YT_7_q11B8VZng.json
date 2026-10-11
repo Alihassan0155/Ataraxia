@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_7_q11B8VZng",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.8771,
+    "loudness_variability": 0.5812,
+    "mean_pitch": 20.1359,
+    "pitch_variability": 0.4387,
+    "spectral_flux": 1.0181,
+    "sound_level_db": -13.573
+  },
+  "metadata_caption": "iPhone Duo",
+  "caption_priority": "low"
+}

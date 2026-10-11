@@ -1,0 +1,6 @@
+{
+  "completed": 0,
+  "passed": false,
+  "aborted": true,
+  "reason": "Near-full GPU memory persisted with 19/23 frames; user-authorized retry caps at 16 uniformly sampled frames."
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_4PyxwTS72vo",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5012,
+    "loudness_variability": 0.3243,
+    "mean_pitch": 18.3009,
+    "pitch_variability": 0.1373,
+    "spectral_flux": 1.5656,
+    "sound_level_db": -10.5125
+  },
+  "metadata_caption": "Add a personal touch to your favorite jean jacket! ✨🧵",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_I8l8FDbhwZE",
+  "transcript": "Don't you get in there. You're supposed to be up on my shelf. You wanna do yoga on the couch? That's really cute. It should be over in there. Maybe to the Yeti. Oh, this was supposed to be a spas- Oh yeah, okay, like that А я вот так подожду.",
+  "acoustic_features": {
+    "mean_loudness": 0.2507,
+    "loudness_variability": 0.5367,
+    "mean_pitch": 38.4481,
+    "pitch_variability": 0.2112,
+    "spectral_flux": 0.0865,
+    "sound_level_db": -34.3785
+  },
+  "metadata_caption": "ASMR - Extremely Random ASMR items",
+  "caption_priority": "low"
+}

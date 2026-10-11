@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_wIQkX8xJc9Y",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.1382,
+    "loudness_variability": 0.6259,
+    "mean_pitch": 13.9418,
+    "pitch_variability": 0.0879,
+    "spectral_flux": 0.1823,
+    "sound_level_db": -27.4707
+  },
+  "metadata_caption": "ASMR | Angel Gently Brushes your Face",
+  "caption_priority": "low"
+}

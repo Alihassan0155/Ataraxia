@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000591",
+  "transcript": "Last weekend we had Tentbox Ambassadors Jamie Lee and Lewis organise an epic Tentbox takeover up in Glencoe, Scotland. With a huge turnout, cosy campfires, open air cinema and snow-capped mountains, it's fair to say this one was a hit. Check out the full highlights in our latest YouTube video.",
+  "acoustic_features": {
+    "mean_loudness": 0.5019,
+    "loudness_variability": 0.6243,
+    "mean_pitch": 35.7314,
+    "pitch_variability": 0.2458,
+    "spectral_flux": 0.1937,
+    "sound_level_db": -27.1455
+  },
+  "metadata_caption": "TentBox Takeovers | Campfire Chronicles",
+  "caption_priority": "low"
+}

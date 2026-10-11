@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2Zkg0-p2kvU",
+  "transcript": "Here we go! 3, 2, 1, drop! Drop! Draws here, here it is! Woah!",
+  "acoustic_features": {
+    "mean_loudness": 0.8505,
+    "loudness_variability": 1.1241,
+    "mean_pitch": 44.8458,
+    "pitch_variability": 0.1109,
+    "spectral_flux": 0.4282,
+    "sound_level_db": -17.1774
+  },
+  "metadata_caption": "Didn't see that coming 🏀",
+  "caption_priority": "low"
+}

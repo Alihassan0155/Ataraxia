@@ -1,0 +1,8 @@
+{
+  "expected": 2,
+  "completed": 0,
+  "passed": false,
+  "aborted": true,
+  "reason": "Observed total-device memory about 15.65 GiB exceeded configured 15 GiB headroom gate during first video. Native processor geometry/token checks passed; full generation not verified.",
+  "processor_preflight_passed": true
+}

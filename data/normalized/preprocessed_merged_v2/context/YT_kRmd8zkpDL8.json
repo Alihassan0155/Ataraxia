@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_kRmd8zkpDL8",
+  "transcript": "And I think I just died, I think I just died",
+  "acoustic_features": {
+    "mean_loudness": 3.1938,
+    "loudness_variability": 0.2656,
+    "mean_pitch": 35.1083,
+    "pitch_variability": 0.2259,
+    "spectral_flux": 2.5173,
+    "sound_level_db": -7.3933
+  },
+  "metadata_caption": "stuck in the sand 😂",
+  "caption_priority": "low"
+}

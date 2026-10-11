@@ -1,0 +1,29 @@
+# Live package sources use stable portable line endings.
+src/** text eol=lf
+scripts/** text eol=lf
+docs/** text eol=lf
+configs/** text eol=lf
+dependencies/** text eol=lf
+tests/** text eol=lf
+README.md text eol=lf
+pyproject.toml text eol=lf
+
+# Exact rollback snapshots and hash-locked study evidence must retain their bytes.
+research/migration/source_snapshots/** -text
+heldout_50_evaluation/** -text
+data/** -text
+outputs/** -text
+human_annotation/** -text
+pilot_50_reels_30h/** -text
+"held out/**" -text
+
+# Relocated annotation project: preserve frozen evidence bytes.
+annotation/src/** text eol=lf
+annotation/commands/** text eol=lf
+annotation/research/migration/source_snapshots/** -text
+annotation/heldout_50_evaluation/** -text
+annotation/data/** -text
+annotation/outputs/** -text
+annotation/human_annotation/** -text
+annotation/pilot_50_reels_30h/** -text
+"annotation/held out/**" -text

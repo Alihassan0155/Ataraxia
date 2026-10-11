@@ -1,0 +1,979 @@
+{
+  "schema_version": "three-human-soft-reference-v1",
+  "annotators": [
+    "ali",
+    "ghayas",
+    "zara"
+  ],
+  "human_source_validation": {
+    "ali": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": [
+        {
+          "video_id": "FV000079",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000131",
+          "occurrence": 1,
+          "errors": {
+            "emotion_distribution": "emotion points must total 10; got 9.0",
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000134",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000151",
+          "occurrence": 1,
+          "errors": {
+            "emotion_distribution": "emotion points must total 10; got 11.0",
+            "dominant_emotion": "cannot validate maximum against invalid emotion scores"
+          }
+        },
+        {
+          "video_id": "FV000275",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000304",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000308",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000320",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000359",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000363",
+          "occurrence": 1,
+          "errors": {
+            "emotion_distribution": "emotion points must total 10; got 11.0",
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000366",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000367",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000380",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000393",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000472",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000537",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000544",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000650",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000662",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000674",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000744",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000770",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000776",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000811",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000814",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000849",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000895",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000942",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000954",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000978",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000983",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000998",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV001003",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV001015",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        }
+      ]
+    },
+    "ghayas": {
+      "row_count": 50,
+      "missing_ids": [
+        "FV000131"
+      ],
+      "unexpected_ids": [
+        "FV000037"
+      ],
+      "issues": [
+        {
+          "row": 41,
+          "video_id": "FV000037",
+          "kind": "unexpected_id"
+        }
+      ],
+      "field_validation_issues": []
+    },
+    "zara": {
+      "row_count": 49,
+      "missing_ids": [
+        "FV000131"
+      ],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": []
+    }
+  },
+  "model_validation": {
+    "Gemini": {
+      "n": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicates": []
+    },
+    "Qwen": {
+      "n": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicates": []
+    },
+    "InternVL": {
+      "n": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicates": []
+    }
+  },
+  "sources": {
+    "human_annotation/ali_annotation.json": "ad92064bee27602b73b138f7adb0e8b8820d2e9dfbb9e777d3b3172b51b725f6",
+    "human_annotation/ghayas_annotation.csv": "755ef00dc57580365d30db169bc761e6733a348d78a42b0301387a786eaa4b0b",
+    "human_annotation/zara_annotation.txt": "041c3da49acee41e4aad806a0daacd55df6d58525e10a7cffafa143c50056cec",
+    "outputs/reels_30h/gemini/annotations.jsonl": "661b115a050a2af03e303938507ee803666dc004f79be186f545eec7d810199e",
+    "pilot_50_reels_30h/results/pilot50_qwen_nf4_max32_limit15p8_v5/qwen/pilot/annotations.jsonl": "1a0bbb237a95bbbcc408109f53c9e044c577d3fed707a44bd29d8c4218df8935",
+    "pilot_50_reels_30h/results/pilot50_cuda_nf4_qwen32_intern16_limit15p8_v5/internvl/pilot/annotations.jsonl": "e963fab2f8d3d35bf5a9c8ad6ae8e559d18088fccd8d3b37038d2acb921b074e"
+  },
+  "expected_n": 50,
+  "complete_uncertainty_n": 47,
+  "field_eligible_counts": {
+    "valence": 49,
+    "arousal": 49,
+    "recovery_suitability": 49
+  },
+  "distribution_eligible_n": 47,
+  "average_human_disagreement": {
+    "valence": 1.183673469387755,
+    "arousal": 1.6598639455782314,
+    "recovery_suitability": 1.564625850340136,
+    "emotion_tv": 0.4574468085106383,
+    "emotion_jsd": 0.32928724266473175,
+    "dominant_pairwise_disagreement": 0.41666666666666663
+  },
+  "uncertainty_formula": "mean(mean_pairwise_abs_valence/10, mean_pairwise_abs_arousal/10, mean_pairwise_abs_recovery/10, mean_pairwise_emotion_TV); declared dominant disagreement is reported separately",
+  "tertile_cutpoints": [
+    0.19999999999999998,
+    0.25
+  ],
+  "bin_counts": {
+    "low": 19,
+    "high": 15,
+    "medium": 13
+  },
+  "pairwise_agreement": [
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "valence",
+      "n": 49,
+      "mae": 1.4081632653061225,
+      "rmse": 1.8238779049719578,
+      "signed_bias": 0.2653061224489796,
+      "pearson": 0.16451355012757157,
+      "spearman": 0.13591994453312972
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "arousal",
+      "n": 49,
+      "mae": 2.061224489795918,
+      "rmse": 2.543499116394979,
+      "signed_bias": 1.4489795918367347,
+      "pearson": 0.19841317521084223,
+      "spearman": 0.19011143854047383
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "recovery_suitability",
+      "n": 49,
+      "mae": 1.8979591836734695,
+      "rmse": 2.411706145162019,
+      "signed_bias": 0.22448979591836735,
+      "pearson": -0.011047641077072673,
+      "spearman": -0.02601248732240827
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "dominant_emotion",
+      "n": 16,
+      "agreement": 0.625,
+      "cohen_kappa": 0.43859649122807015
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "emotion_distribution",
+      "n": 47,
+      "mean_tv": 0.5021276595744681,
+      "median_tv": 0.49999999999999994,
+      "mean_jsd": 0.3878609503543242
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "valence",
+      "n": 49,
+      "mae": 1.1224489795918366,
+      "rmse": 1.5319721849662298,
+      "signed_bias": -0.1836734693877551,
+      "pearson": 0.2612363106931113,
+      "spearman": 0.17123146672756706
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "arousal",
+      "n": 49,
+      "mae": 1.9795918367346939,
+      "rmse": 2.369017707396714,
+      "signed_bias": 1.3673469387755102,
+      "pearson": 0.31179215179773756,
+      "spearman": 0.2970835012628284
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "recovery_suitability",
+      "n": 49,
+      "mae": 1.7959183673469388,
+      "rmse": 2.2677868380553634,
+      "signed_bias": 0.0,
+      "pearson": 0.11903527345165554,
+      "spearman": 0.11451631037777851
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "dominant_emotion",
+      "n": 16,
+      "agreement": 0.5625,
+      "cohen_kappa": 0.3
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "emotion_distribution",
+      "n": 47,
+      "mean_tv": 0.425531914893617,
+      "median_tv": 0.4,
+      "mean_jsd": 0.3003180952928948
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "valence",
+      "n": 49,
+      "mae": 1.0204081632653061,
+      "rmse": 1.2936264483053452,
+      "signed_bias": -0.4489795918367347,
+      "pearson": 0.5013506841657871,
+      "spearman": 0.4686961963866196
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "arousal",
+      "n": 49,
+      "mae": 0.9387755102040817,
+      "rmse": 1.4568627181693672,
+      "signed_bias": -0.08163265306122448,
+      "pearson": 0.5059556799967864,
+      "spearman": 0.5135179856232412
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "recovery_suitability",
+      "n": 49,
+      "mae": 1.0,
+      "rmse": 1.406979685970872,
+      "signed_bias": -0.22448979591836735,
+      "pearson": 0.6212756970847239,
+      "spearman": 0.6346022149608276
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "dominant_emotion",
+      "n": 49,
+      "agreement": 0.5102040816326531,
+      "cohen_kappa": 0.3186558516801854
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "emotion_distribution",
+      "n": 49,
+      "mean_tv": 0.45102040816326533,
+      "median_tv": 0.4,
+      "mean_jsd": 0.30742067537070067
+    }
+  ],
+  "three_rater_dominant_agreement": {
+    "n": 16,
+    "all_three_agreement": 0.4375,
+    "fleiss_kappa": 0.3625498007968128
+  },
+  "aggregated_model_metrics": [
+    {
+      "model": "Gemini",
+      "uncertainty_bin": "overall",
+      "video_rows": 50,
+      "valence_n": 49,
+      "valence_mae": 0.25170068027210885,
+      "valence_rmse": 0.28936242369198173,
+      "valence_signed_bias": 0.2091156462585034,
+      "valence_pearson": 0.64064610024339,
+      "valence_spearman": 0.6538173246524397,
+      "arousal_n": 49,
+      "arousal_mae": 0.08612244897959183,
+      "arousal_rmse": 0.10291664945330214,
+      "arousal_signed_bias": -0.023673469387755098,
+      "arousal_pearson": 0.7253296104218936,
+      "arousal_spearman": 0.6979692807864958,
+      "recovery_suitability_n": 49,
+      "recovery_suitability_mae": 0.14748299319727892,
+      "recovery_suitability_rmse": 0.16842339478022955,
+      "recovery_suitability_signed_bias": 0.023401360544217695,
+      "recovery_suitability_pearson": 0.6066632110148713,
+      "recovery_suitability_spearman": 0.6376247708543304,
+      "emotion_tv_mean": 0.27886524822695036,
+      "emotion_tv_n": 47,
+      "emotion_jsd_mean": 0.11198779642376493,
+      "emotion_jsd_n": 47,
+      "dominant_agrees_ali_mean": 0.625,
+      "dominant_agrees_ali_n": 16,
+      "dominant_agrees_ghayas_mean": 0.5714285714285714,
+      "dominant_agrees_ghayas_n": 49,
+      "dominant_agrees_zara_mean": 0.6326530612244898,
+      "dominant_agrees_zara_n": 49,
+      "dominant_agrees_pool_mean": 0.6170212765957447,
+      "dominant_agrees_pool_n": 47,
+      "dominant_agrees_pool_tie_aware_mean": 0.6595744680851063,
+      "dominant_agrees_pool_tie_aware_n": 47,
+      "mixture_closer_than_all_humans_tv_mean": 0.2553191489361702,
+      "mixture_closer_than_all_humans_tv_n": 47,
+      "mixture_closer_than_all_humans_jsd_mean": 0.3829787234042553,
+      "mixture_closer_than_all_humans_jsd_n": 47
+    },
+    {
+      "model": "Gemini",
+      "uncertainty_bin": "low",
+      "video_rows": 19,
+      "valence_n": 19,
+      "valence_mae": 0.24473684210526314,
+      "valence_rmse": 0.2718369394277145,
+      "valence_signed_bias": 0.24473684210526314,
+      "valence_pearson": 0.849744195542301,
+      "valence_spearman": 0.8037343427361844,
+      "arousal_n": 19,
+      "arousal_mae": 0.07859649122807016,
+      "arousal_rmse": 0.09085043296314356,
+      "arousal_signed_bias": -0.02105263157894737,
+      "arousal_pearson": 0.8017478006011503,
+      "arousal_spearman": 0.7775845993763502,
+      "recovery_suitability_n": 19,
+      "recovery_suitability_mae": 0.12789473684210528,
+      "recovery_suitability_rmse": 0.14955880534863183,
+      "recovery_suitability_signed_bias": 0.009298245614035104,
+      "recovery_suitability_pearson": 0.631025660222166,
+      "recovery_suitability_spearman": 0.6318226207589032,
+      "emotion_tv_mean": 0.24087719298245613,
+      "emotion_tv_n": 19,
+      "emotion_jsd_mean": 0.08595523786417526,
+      "emotion_jsd_n": 19,
+      "dominant_agrees_ali_mean": 0.75,
+      "dominant_agrees_ali_n": 4,
+      "dominant_agrees_ghayas_mean": 0.6842105263157895,
+      "dominant_agrees_ghayas_n": 19,
+      "dominant_agrees_zara_mean": 0.6842105263157895,
+      "dominant_agrees_zara_n": 19,
+      "dominant_agrees_pool_mean": 0.6842105263157895,
+      "dominant_agrees_pool_n": 19,
+      "dominant_agrees_pool_tie_aware_mean": 0.6842105263157895,
+      "dominant_agrees_pool_tie_aware_n": 19,
+      "mixture_closer_than_all_humans_tv_mean": 0.15789473684210525,
+      "mixture_closer_than_all_humans_tv_n": 19,
+      "mixture_closer_than_all_humans_jsd_mean": 0.5263157894736842,
+      "mixture_closer_than_all_humans_jsd_n": 19
+    },
+    {
+      "model": "Gemini",
+      "uncertainty_bin": "medium",
+      "video_rows": 13,
+      "valence_n": 13,
+      "valence_mae": 0.23846153846153845,
+      "valence_rmse": 0.2917468754181256,
+      "valence_signed_bias": 0.10564102564102565,
+      "valence_pearson": 0.44034558885312347,
+      "valence_spearman": 0.7374330445151641,
+      "arousal_n": 13,
+      "arousal_mae": 0.09487179487179485,
+      "arousal_rmse": 0.10830472995171783,
+      "arousal_signed_bias": -0.001538461538461527,
+      "arousal_pearson": 0.6343925484450211,
+      "arousal_spearman": 0.6425746473722441,
+      "recovery_suitability_n": 13,
+      "recovery_suitability_mae": 0.14384615384615385,
+      "recovery_suitability_rmse": 0.16020553038460303,
+      "recovery_suitability_signed_bias": 0.04384615384615385,
+      "recovery_suitability_pearson": 0.7498130145773821,
+      "recovery_suitability_spearman": 0.754178305310566,
+      "emotion_tv_mean": 0.2884615384615385,
+      "emotion_tv_n": 13,
+      "emotion_jsd_mean": 0.1227757964303899,
+      "emotion_jsd_n": 13,
+      "dominant_agrees_ali_mean": 0.6,
+      "dominant_agrees_ali_n": 5,
+      "dominant_agrees_ghayas_mean": 0.6153846153846154,
+      "dominant_agrees_ghayas_n": 13,
+      "dominant_agrees_zara_mean": 0.6153846153846154,
+      "dominant_agrees_zara_n": 13,
+      "dominant_agrees_pool_mean": 0.6153846153846154,
+      "dominant_agrees_pool_n": 13,
+      "dominant_agrees_pool_tie_aware_mean": 0.6153846153846154,
+      "dominant_agrees_pool_tie_aware_n": 13,
+      "mixture_closer_than_all_humans_tv_mean": 0.46153846153846156,
+      "mixture_closer_than_all_humans_tv_n": 13,
+      "mixture_closer_than_all_humans_jsd_mean": 0.38461538461538464,
+      "mixture_closer_than_all_humans_jsd_n": 13
+    },
+    {
+      "model": "Gemini",
+      "uncertainty_bin": "high",
+      "video_rows": 15,
+      "valence_n": 15,
+      "valence_mae": 0.25755555555555554,
+      "valence_rmse": 0.296679150798499,
+      "valence_signed_bias": 0.23355555555555554,
+      "valence_pearson": 0.47105527026037286,
+      "valence_spearman": 0.4050944727111094,
+      "arousal_n": 15,
+      "arousal_mae": 0.08955555555555555,
+      "arousal_rmse": 0.11302900316093897,
+      "arousal_signed_bias": -0.057111111111111106,
+      "arousal_pearson": 0.7494035171243716,
+      "arousal_spearman": 0.6483342695035098,
+      "recovery_suitability_n": 15,
+      "recovery_suitability_mae": 0.16755555555555554,
+      "recovery_suitability_rmse": 0.1905197569224194,
+      "recovery_suitability_signed_bias": 0.02311111111111112,
+      "recovery_suitability_pearson": 0.45961617011954964,
+      "recovery_suitability_spearman": 0.587231165622316,
+      "emotion_tv_mean": 0.31866666666666665,
+      "emotion_tv_n": 15,
+      "emotion_jsd_mean": 0.13561277059350352,
+      "emotion_jsd_n": 15,
+      "dominant_agrees_ali_mean": 0.5714285714285714,
+      "dominant_agrees_ali_n": 7,
+      "dominant_agrees_ghayas_mean": 0.4,
+      "dominant_agrees_ghayas_n": 15,
+      "dominant_agrees_zara_mean": 0.5333333333333333,
+      "dominant_agrees_zara_n": 15,
+      "dominant_agrees_pool_mean": 0.5333333333333333,
+      "dominant_agrees_pool_n": 15,
+      "dominant_agrees_pool_tie_aware_mean": 0.6666666666666666,
+      "dominant_agrees_pool_tie_aware_n": 15,
+      "mixture_closer_than_all_humans_tv_mean": 0.2,
+      "mixture_closer_than_all_humans_tv_n": 15,
+      "mixture_closer_than_all_humans_jsd_mean": 0.2,
+      "mixture_closer_than_all_humans_jsd_n": 15
+    },
+    {
+      "model": "Qwen",
+      "uncertainty_bin": "overall",
+      "video_rows": 50,
+      "valence_n": 49,
+      "valence_mae": 0.42108843537414964,
+      "valence_rmse": 0.48704300051816934,
+      "valence_signed_bias": 0.33809523809523806,
+      "valence_pearson": 0.5603697314754735,
+      "valence_spearman": 0.3974645593577582,
+      "arousal_n": 49,
+      "arousal_mae": 0.17857142857142858,
+      "arousal_rmse": 0.2306822180279306,
+      "arousal_signed_bias": 0.02959183673469388,
+      "arousal_pearson": 0.41574924416802306,
+      "arousal_spearman": 0.4317687172072098,
+      "recovery_suitability_n": 49,
+      "recovery_suitability_mae": 0.3782312925170068,
+      "recovery_suitability_rmse": 0.40975906863798117,
+      "recovery_suitability_signed_bias": -0.28435374149659864,
+      "recovery_suitability_pearson": 0.31430194006199946,
+      "recovery_suitability_spearman": 0.3041351499510389,
+      "emotion_tv_mean": 0.4836879432624114,
+      "emotion_tv_n": 47,
+      "emotion_jsd_mean": 0.3140837121824501,
+      "emotion_jsd_n": 47,
+      "dominant_agrees_ali_mean": 0.4375,
+      "dominant_agrees_ali_n": 16,
+      "dominant_agrees_ghayas_mean": 0.2857142857142857,
+      "dominant_agrees_ghayas_n": 49,
+      "dominant_agrees_zara_mean": 0.5510204081632653,
+      "dominant_agrees_zara_n": 49,
+      "dominant_agrees_pool_mean": 0.44680851063829785,
+      "dominant_agrees_pool_n": 47,
+      "dominant_agrees_pool_tie_aware_mean": 0.48936170212765956,
+      "dominant_agrees_pool_tie_aware_n": 47,
+      "mixture_closer_than_all_humans_tv_mean": 0.02127659574468085,
+      "mixture_closer_than_all_humans_tv_n": 47,
+      "mixture_closer_than_all_humans_jsd_mean": 0.06382978723404255,
+      "mixture_closer_than_all_humans_jsd_n": 47
+    },
+    {
+      "model": "Qwen",
+      "uncertainty_bin": "low",
+      "video_rows": 19,
+      "valence_n": 19,
+      "valence_mae": 0.4087719298245614,
+      "valence_rmse": 0.45889518990902206,
+      "valence_signed_bias": 0.38421052631578945,
+      "valence_pearson": 0.5068082498886396,
+      "valence_spearman": 0.3047560448597195,
+      "arousal_n": 19,
+      "arousal_mae": 0.1543859649122807,
+      "arousal_rmse": 0.2048391181573612,
+      "arousal_signed_bias": -0.021052631578947368,
+      "arousal_pearson": 0.5481369862605917,
+      "arousal_spearman": 0.5976863359898369,
+      "recovery_suitability_n": 19,
+      "recovery_suitability_mae": 0.38859649122807016,
+      "recovery_suitability_rmse": 0.42009119032316605,
+      "recovery_suitability_signed_bias": -0.2675438596491228,
+      "recovery_suitability_pearson": 0.2588235989271975,
+      "recovery_suitability_spearman": 0.1754073948785199,
+      "emotion_tv_mean": 0.46842105263157896,
+      "emotion_tv_n": 19,
+      "emotion_jsd_mean": 0.2995013781523704,
+      "emotion_jsd_n": 19,
+      "dominant_agrees_ali_mean": 0.5,
+      "dominant_agrees_ali_n": 4,
+      "dominant_agrees_ghayas_mean": 0.3157894736842105,
+      "dominant_agrees_ghayas_n": 19,
+      "dominant_agrees_zara_mean": 0.47368421052631576,
+      "dominant_agrees_zara_n": 19,
+      "dominant_agrees_pool_mean": 0.42105263157894735,
+      "dominant_agrees_pool_n": 19,
+      "dominant_agrees_pool_tie_aware_mean": 0.42105263157894735,
+      "dominant_agrees_pool_tie_aware_n": 19,
+      "mixture_closer_than_all_humans_tv_mean": 0.05263157894736842,
+      "mixture_closer_than_all_humans_tv_n": 19,
+      "mixture_closer_than_all_humans_jsd_mean": 0,
+      "mixture_closer_than_all_humans_jsd_n": 19
+    },
+    {
+      "model": "Qwen",
+      "uncertainty_bin": "medium",
+      "video_rows": 13,
+      "valence_n": 13,
+      "valence_mae": 0.41025641025641024,
+      "valence_rmse": 0.4886751669600357,
+      "valence_signed_bias": 0.1487179487179487,
+      "valence_pearson": 0.7041168596489471,
+      "valence_spearman": 0.7201189278973551,
+      "arousal_n": 13,
+      "arousal_mae": 0.23974358974358972,
+      "arousal_rmse": 0.2904093780124995,
+      "arousal_signed_bias": 0.14230769230769233,
+      "arousal_pearson": 0.3696745790663189,
+      "arousal_spearman": 0.4152921978961139,
+      "recovery_suitability_n": 13,
+      "recovery_suitability_mae": 0.3294871794871795,
+      "recovery_suitability_rmse": 0.36176797588519133,
+      "recovery_suitability_signed_bias": -0.23461538461538461,
+      "recovery_suitability_pearson": 0.4544463173053249,
+      "recovery_suitability_spearman": 0.4816696859391853,
+      "emotion_tv_mean": 0.4871794871794872,
+      "emotion_tv_n": 13,
+      "emotion_jsd_mean": 0.3065793112991114,
+      "emotion_jsd_n": 13,
+      "dominant_agrees_ali_mean": 0.4,
+      "dominant_agrees_ali_n": 5,
+      "dominant_agrees_ghayas_mean": 0.38461538461538464,
+      "dominant_agrees_ghayas_n": 13,
+      "dominant_agrees_zara_mean": 0.6153846153846154,
+      "dominant_agrees_zara_n": 13,
+      "dominant_agrees_pool_mean": 0.46153846153846156,
+      "dominant_agrees_pool_n": 13,
+      "dominant_agrees_pool_tie_aware_mean": 0.46153846153846156,
+      "dominant_agrees_pool_tie_aware_n": 13,
+      "mixture_closer_than_all_humans_tv_mean": 0,
+      "mixture_closer_than_all_humans_tv_n": 13,
+      "mixture_closer_than_all_humans_jsd_mean": 0.15384615384615385,
+      "mixture_closer_than_all_humans_jsd_n": 13
+    },
+    {
+      "model": "Qwen",
+      "uncertainty_bin": "high",
+      "video_rows": 15,
+      "valence_n": 15,
+      "valence_mae": 0.41555555555555557,
+      "valence_rmse": 0.4944881378946501,
+      "valence_signed_bias": 0.4022222222222222,
+      "valence_pearson": 0.15505639107727018,
+      "valence_spearman": 0.20854656606521124,
+      "arousal_n": 15,
+      "arousal_mae": 0.1711111111111111,
+      "arousal_rmse": 0.216794833886788,
+      "arousal_signed_bias": 0.008888888888888887,
+      "arousal_pearson": 0.47137447399467325,
+      "arousal_spearman": 0.34250703300506546,
+      "recovery_suitability_n": 15,
+      "recovery_suitability_mae": 0.41555555555555557,
+      "recovery_suitability_rmse": 0.44409708648247426,
+      "recovery_suitability_signed_bias": -0.37555555555555553,
+      "recovery_suitability_pearson": 0.3782430631176755,
+      "recovery_suitability_spearman": 0.43625012554732906,
+      "emotion_tv_mean": 0.5,
+      "emotion_tv_n": 15,
+      "emotion_jsd_mean": 0.3390584827194447,
+      "emotion_jsd_n": 15,
+      "dominant_agrees_ali_mean": 0.42857142857142855,
+      "dominant_agrees_ali_n": 7,
+      "dominant_agrees_ghayas_mean": 0.13333333333333333,
+      "dominant_agrees_ghayas_n": 15,
+      "dominant_agrees_zara_mean": 0.5333333333333333,
+      "dominant_agrees_zara_n": 15,
+      "dominant_agrees_pool_mean": 0.4666666666666667,
+      "dominant_agrees_pool_n": 15,
+      "dominant_agrees_pool_tie_aware_mean": 0.6,
+      "dominant_agrees_pool_tie_aware_n": 15,
+      "mixture_closer_than_all_humans_tv_mean": 0,
+      "mixture_closer_than_all_humans_tv_n": 15,
+      "mixture_closer_than_all_humans_jsd_mean": 0.06666666666666667,
+      "mixture_closer_than_all_humans_jsd_n": 15
+    },
+    {
+      "model": "InternVL",
+      "uncertainty_bin": "overall",
+      "video_rows": 50,
+      "valence_n": 49,
+      "valence_mae": 0.322108843537415,
+      "valence_rmse": 0.37888576348116787,
+      "valence_signed_bias": 0.14523809523809522,
+      "valence_pearson": 0.5531657062453025,
+      "valence_spearman": 0.46837540655324894,
+      "arousal_n": 49,
+      "arousal_mae": 0.20544217687074828,
+      "arousal_rmse": 0.2396851676508931,
+      "arousal_signed_bias": 0.17755102040816326,
+      "arousal_pearson": 0.3043240858802394,
+      "arousal_spearman": 0.27161185686164757,
+      "recovery_suitability_n": 49,
+      "recovery_suitability_mae": 0.21972789115646257,
+      "recovery_suitability_rmse": 0.24787075119314128,
+      "recovery_suitability_signed_bias": -0.07619047619047618,
+      "recovery_suitability_pearson": 0.47895898669478215,
+      "recovery_suitability_spearman": 0.40855457820690344,
+      "emotion_tv_mean": 0.47588652482269506,
+      "emotion_tv_n": 47,
+      "emotion_jsd_mean": 0.2891662537619527,
+      "emotion_jsd_n": 47,
+      "dominant_agrees_ali_mean": 0.125,
+      "dominant_agrees_ali_n": 16,
+      "dominant_agrees_ghayas_mean": 0.12244897959183673,
+      "dominant_agrees_ghayas_n": 49,
+      "dominant_agrees_zara_mean": 0.2857142857142857,
+      "dominant_agrees_zara_n": 49,
+      "dominant_agrees_pool_mean": 0.19148936170212766,
+      "dominant_agrees_pool_n": 47,
+      "dominant_agrees_pool_tie_aware_mean": 0.19148936170212766,
+      "dominant_agrees_pool_tie_aware_n": 47,
+      "mixture_closer_than_all_humans_tv_mean": 0.14893617021276595,
+      "mixture_closer_than_all_humans_tv_n": 47,
+      "mixture_closer_than_all_humans_jsd_mean": 0.14893617021276595,
+      "mixture_closer_than_all_humans_jsd_n": 47
+    },
+    {
+      "model": "InternVL",
+      "uncertainty_bin": "low",
+      "video_rows": 19,
+      "valence_n": 19,
+      "valence_mae": 0.3157894736842105,
+      "valence_rmse": 0.3785552714825821,
+      "valence_signed_bias": 0.16842105263157894,
+      "valence_pearson": 0.5553204419217266,
+      "valence_spearman": 0.3274039502752112,
+      "arousal_n": 19,
+      "arousal_mae": 0.22894736842105262,
+      "arousal_rmse": 0.2561238278737032,
+      "arousal_signed_bias": 0.18157894736842103,
+      "arousal_pearson": 0.0381570466857175,
+      "arousal_spearman": -0.008997514779765733,
+      "recovery_suitability_n": 19,
+      "recovery_suitability_mae": 0.24210526315789474,
+      "recovery_suitability_rmse": 0.26759706114698445,
+      "recovery_suitability_signed_bias": -0.06491228070175437,
+      "recovery_suitability_pearson": 0.46233344931396314,
+      "recovery_suitability_spearman": 0.36103431802071856,
+      "emotion_tv_mean": 0.4605263157894737,
+      "emotion_tv_n": 19,
+      "emotion_jsd_mean": 0.28187232017617053,
+      "emotion_jsd_n": 19,
+      "dominant_agrees_ali_mean": 0.25,
+      "dominant_agrees_ali_n": 4,
+      "dominant_agrees_ghayas_mean": 0.15789473684210525,
+      "dominant_agrees_ghayas_n": 19,
+      "dominant_agrees_zara_mean": 0.3157894736842105,
+      "dominant_agrees_zara_n": 19,
+      "dominant_agrees_pool_mean": 0.21052631578947367,
+      "dominant_agrees_pool_n": 19,
+      "dominant_agrees_pool_tie_aware_mean": 0.21052631578947367,
+      "dominant_agrees_pool_tie_aware_n": 19,
+      "mixture_closer_than_all_humans_tv_mean": 0.05263157894736842,
+      "mixture_closer_than_all_humans_tv_n": 19,
+      "mixture_closer_than_all_humans_jsd_mean": 0.10526315789473684,
+      "mixture_closer_than_all_humans_jsd_n": 19
+    },
+    {
+      "model": "InternVL",
+      "uncertainty_bin": "medium",
+      "video_rows": 13,
+      "valence_n": 13,
+      "valence_mae": 0.3243589743589744,
+      "valence_rmse": 0.3950278579379036,
+      "valence_signed_bias": 0.09871794871794873,
+      "valence_pearson": 0.6089915703896678,
+      "valence_spearman": 0.5220550248891751,
+      "arousal_n": 13,
+      "arousal_mae": 0.2282051282051282,
+      "arousal_rmse": 0.26993193190737524,
+      "arousal_signed_bias": 0.2230769230769231,
+      "arousal_pearson": 0.3958287387176223,
+      "arousal_spearman": 0.4102252668097291,
+      "recovery_suitability_n": 13,
+      "recovery_suitability_mae": 0.21666666666666665,
+      "recovery_suitability_rmse": 0.245950102645746,
+      "recovery_suitability_signed_bias": -0.049999999999999996,
+      "recovery_suitability_pearson": 0.4781339993493181,
+      "recovery_suitability_spearman": 0.4347864573719439,
+      "emotion_tv_mean": 0.508974358974359,
+      "emotion_tv_n": 13,
+      "emotion_jsd_mean": 0.2850284311121792,
+      "emotion_jsd_n": 13,
+      "dominant_agrees_ali_mean": 0.2,
+      "dominant_agrees_ali_n": 5,
+      "dominant_agrees_ghayas_mean": 0.07692307692307693,
+      "dominant_agrees_ghayas_n": 13,
+      "dominant_agrees_zara_mean": 0.3076923076923077,
+      "dominant_agrees_zara_n": 13,
+      "dominant_agrees_pool_mean": 0.15384615384615385,
+      "dominant_agrees_pool_n": 13,
+      "dominant_agrees_pool_tie_aware_mean": 0.15384615384615385,
+      "dominant_agrees_pool_tie_aware_n": 13,
+      "mixture_closer_than_all_humans_tv_mean": 0.15384615384615385,
+      "mixture_closer_than_all_humans_tv_n": 13,
+      "mixture_closer_than_all_humans_jsd_mean": 0.15384615384615385,
+      "mixture_closer_than_all_humans_jsd_n": 13
+    },
+    {
+      "model": "InternVL",
+      "uncertainty_bin": "high",
+      "video_rows": 15,
+      "valence_n": 15,
+      "valence_mae": 0.3144444444444444,
+      "valence_rmse": 0.3549908710354655,
+      "valence_signed_bias": 0.11888888888888889,
+      "valence_pearson": 0.4193090224500107,
+      "valence_spearman": 0.5604250456582589,
+      "arousal_n": 15,
+      "arousal_mae": 0.16333333333333333,
+      "arousal_rmse": 0.19364916731037085,
+      "arousal_signed_bias": 0.14555555555555555,
+      "arousal_pearson": 0.5018396845932775,
+      "arousal_spearman": 0.2958049007839151,
+      "recovery_suitability_n": 15,
+      "recovery_suitability_mae": 0.18777777777777777,
+      "recovery_suitability_rmse": 0.21794494717703367,
+      "recovery_suitability_signed_bias": -0.1322222222222222,
+      "recovery_suitability_pearson": 0.6291764480096793,
+      "recovery_suitability_spearman": 0.6816708894454175,
+      "emotion_tv_mean": 0.4666666666666667,
+      "emotion_tv_n": 15,
+      "emotion_jsd_mean": 0.3019913492670805,
+      "emotion_jsd_n": 15,
+      "dominant_agrees_ali_mean": 0,
+      "dominant_agrees_ali_n": 7,
+      "dominant_agrees_ghayas_mean": 0.06666666666666667,
+      "dominant_agrees_ghayas_n": 15,
+      "dominant_agrees_zara_mean": 0.13333333333333333,
+      "dominant_agrees_zara_n": 15,
+      "dominant_agrees_pool_mean": 0.2,
+      "dominant_agrees_pool_n": 15,
+      "dominant_agrees_pool_tie_aware_mean": 0.2,
+      "dominant_agrees_pool_tie_aware_n": 15,
+      "mixture_closer_than_all_humans_tv_mean": 0.26666666666666666,
+      "mixture_closer_than_all_humans_tv_n": 15,
+      "mixture_closer_than_all_humans_jsd_mean": 0.2,
+      "mixture_closer_than_all_humans_jsd_n": 15
+    }
+  ],
+  "independence": "user_confirmed",
+  "blindness": "unverified",
+  "pooling_policy": "Require three valid values per field; never silently fall back to two annotators. Invalid distributions do not discard scalar values. Raw labels preserved."
+}

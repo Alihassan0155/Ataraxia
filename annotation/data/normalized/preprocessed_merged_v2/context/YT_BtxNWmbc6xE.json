@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_BtxNWmbc6xE",
+  "transcript": "오 오 오 Oh",
+  "acoustic_features": {
+    "mean_loudness": 0.8002,
+    "loudness_variability": 0.7749,
+    "mean_pitch": 40.1355,
+    "pitch_variability": 0.1887,
+    "spectral_flux": 0.3643,
+    "sound_level_db": -20.766
+  },
+  "metadata_caption": "COIN ROLL CHALLENGE 😂",
+  "caption_priority": "low"
+}

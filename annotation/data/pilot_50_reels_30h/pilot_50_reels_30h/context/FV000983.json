@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000983",
+  "transcript": "Thank you for calling eBay customer service. This is Wendy. Thank you for calling eBay customer service. For English, press 1. This call may be monitored and recorded for quality assurance. To confirm your purchase of 9 cards at $200, press 55. Your confirmation number is 4084654. To confirm, please press 2. Please collect your payment at the nearest Budweiser factory. To accept, press 1.",
+  "acoustic_features": {
+    "mean_loudness": 0.3629,
+    "loudness_variability": 1.1565,
+    "mean_pitch": 40.8441,
+    "pitch_variability": 0.1936,
+    "spectral_flux": 0.2252,
+    "sound_level_db": -22.9821
+  },
+  "metadata_caption": "Rosie the human robot vs. fake eBay SCAMMER (part 2)",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_OiY5cv5rEvE",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.8403,
+    "loudness_variability": 0.2827,
+    "mean_pitch": 23.4202,
+    "pitch_variability": 0.3323,
+    "spectral_flux": 0.9889,
+    "sound_level_db": -16.6905
+  },
+  "metadata_caption": "Carrying heavy loads just got easy—subscribe @pepperell.crafts for the trick! 💪",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000409",
+  "transcript": "This test will show to you, if you use half your right brain, or half your left brain. If you see the horse walking forward, you're an intelligent, rational, analyzed human being, and you think a lot, and you see everything through numbers and analyzes, because half your left brain is in control of you. But if you see the horse walking back, you're an emotional, creative, and an artist, and you see everything through emotion, because half your right brain is in control of you. But if you see the horse walking forward and then walking back, you have high intelligence quotient.",
+  "acoustic_features": {
+    "mean_loudness": 0.5464,
+    "loudness_variability": 0.6735,
+    "mean_pitch": 24.15,
+    "pitch_variability": 0.2519,
+    "spectral_flux": 0.2361,
+    "sound_level_db": -23.1467
+  },
+  "metadata_caption": "Test your brain-The horse illusion",
+  "caption_priority": "low"
+}

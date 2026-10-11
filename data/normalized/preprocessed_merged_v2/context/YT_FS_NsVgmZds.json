@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_FS_NsVgmZds",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.6815,
+    "loudness_variability": 0.581,
+    "mean_pitch": 25.5341,
+    "pitch_variability": 0.6197,
+    "spectral_flux": 1.1566,
+    "sound_level_db": -14.1685
+  },
+  "metadata_caption": "Comfort food the whole family will love starts with everyday staples from ShopRite 🥘✨",
+  "caption_priority": "low"
+}

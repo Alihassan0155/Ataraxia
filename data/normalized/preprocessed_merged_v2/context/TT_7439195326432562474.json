@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7439195326432562474",
+  "transcript": "Tell me why it ain't nothing but a heart. Tell me why it ain't nothing but a mistake. Tell me why I never want to hear you say.",
+  "acoustic_features": {
+    "mean_loudness": 0.7845,
+    "loudness_variability": 0.6791,
+    "mean_pitch": 36.124,
+    "pitch_variability": 0.1412,
+    "spectral_flux": 0.3034,
+    "sound_level_db": -24.0847
+  },
+  "metadata_caption": "hows our singing? #choir #college #prank",
+  "caption_priority": "low"
+}

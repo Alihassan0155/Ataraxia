@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_-3PQGSSVvX4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.8929,
+    "loudness_variability": 0.4859,
+    "mean_pitch": 23.2479,
+    "pitch_variability": 0.535,
+    "spectral_flux": 2.2495,
+    "sound_level_db": -7.6412
+  },
+  "metadata_caption": "उंगलियों को चटकाने का मतलब जोड़ो से हवा के बुलबुले फूटने की वजह से आवाज़ आना होता है। यह आमतौर पर हानिकारक नहीं होता, लेकिन बार-बार करने से जोड़ों पर दबाव पड़ सकता है। कुछ लोग इसे तनाव दूर करने या आदतन करते हैं।",
+  "caption_priority": "low"
+}

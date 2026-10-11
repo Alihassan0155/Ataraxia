@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YUY3EM4PtaI",
+  "transcript": "This is just a regular piece of paper and this is what it looks like under UV light. What I want to try now though is to see what happens if I add a bit of sunscreen to it. Then I can flip the UV back on and the sunscreen turns completely black. This is because it contains chemicals like octyl salicylate or octocrylene which are able to absorb the UV light. This means that very little of the UV is getting reflected back, which makes it appear black, and I think that's pretty cool.",
+  "acoustic_features": {
+    "mean_loudness": 0.7448,
+    "loudness_variability": 1.093,
+    "mean_pitch": 30.8515,
+    "pitch_variability": 0.1828,
+    "spectral_flux": 0.478,
+    "sound_level_db": -18.0527
+  },
+  "metadata_caption": "Sunscreen vs UV light",
+  "caption_priority": "low"
+}

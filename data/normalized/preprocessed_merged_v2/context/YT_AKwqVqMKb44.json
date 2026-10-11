@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_AKwqVqMKb44",
+  "transcript": "I can like watch.",
+  "acoustic_features": {
+    "mean_loudness": 0.368,
+    "loudness_variability": 0.6518,
+    "mean_pitch": 43.7438,
+    "pitch_variability": 0.1408,
+    "spectral_flux": 0.1673,
+    "sound_level_db": -33.6997
+  },
+  "metadata_caption": "ASMR - You can have too many vitamins?!",
+  "caption_priority": "low"
+}

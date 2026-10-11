@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_3Y7o9IgliYk",
+  "transcript": "Why is the 600-ton steel ball hanging from the ceiling in Taipei 101, Taiwan's tallest building? It's because Taiwan sits right on the ring of fire, home of 90% of the world's earthquakes. When you build one of the tallest buildings on earth here, shaking isn't a rare emergency, it's a weekly occurrence. Which is why the solution wasn't to fight the movement, it was to work with it. Because normally if you were to add a fixed weight to the top of something, you would just increase its instability, making it way more top-heavy. However, this weight isn't fixed. it's suspended allowing essentially 100 elephants to swing freely perfectly counteracting the natural sway of the building to keep it in place in hurricanes and earthquakes",
+  "acoustic_features": {
+    "mean_loudness": 1.5765,
+    "loudness_variability": 0.4269,
+    "mean_pitch": 32.3532,
+    "pitch_variability": 0.1987,
+    "spectral_flux": 1.1347,
+    "sound_level_db": -13.9856
+  },
+  "metadata_caption": "How To Keep a Skyscraper From Falling Over",
+  "caption_priority": "low"
+}

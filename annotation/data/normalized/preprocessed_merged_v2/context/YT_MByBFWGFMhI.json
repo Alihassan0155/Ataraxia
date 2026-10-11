@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_MByBFWGFMhI",
+  "transcript": "famous actor episode.",
+  "acoustic_features": {
+    "mean_loudness": 2.9541,
+    "loudness_variability": 0.2654,
+    "mean_pitch": 40.2451,
+    "pitch_variability": 0.2772,
+    "spectral_flux": 2.5375,
+    "sound_level_db": -8.7024
+  },
+  "metadata_caption": "New FAMOUS ACTOR Episode Incoming ‼️",
+  "caption_priority": "low"
+}

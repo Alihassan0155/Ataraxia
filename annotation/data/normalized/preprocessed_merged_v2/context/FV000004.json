@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000004",
+  "transcript": "And then he would do shit like he would be like, I'd be like, hey, rent's due. And he'd be like, yeah. And he would throw a bag of weed at my face. He'd be like, there's your rent right there. And he would just turn around. We didn't even talk about it. I was like, all right. And I'd go to my other roommate. I'm like, Tony just threw me this like half ounce for rent. And he's like, all right, I guess that's good. This shit is big time. Who is rent? Don't bring anyone mother into this. Yo mama in the fucking sand.",
+  "acoustic_features": {
+    "mean_loudness": 0.6124,
+    "loudness_variability": 0.7453,
+    "mean_pitch": 27.4503,
+    "pitch_variability": 0.3226,
+    "spectral_flux": 0.301,
+    "sound_level_db": -22.1641
+  },
+  "metadata_caption": "Roommate pays rent with weed",
+  "caption_priority": "low"
+}

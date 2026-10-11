@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000742",
+  "transcript": "I'm Latino, I promise. A lot of people don't believe me. It's fine though, you know. Both my parents are from the Dominican Republic. Thank you. Thank you. I'm Dominican and they named me Ian. It's not a Dominican name. I don't got Ian face. I know that because I told a girl my name one that she got upset. She was like, Ian? That's a Scottish name. I was like, yeah. I was like, oh, let me guess. Was your mom really into Scottish culture as a child? I was like, nah. She was just really into me getting job interviews as an adult.",
+  "acoustic_features": {
+    "mean_loudness": 1.4956,
+    "loudness_variability": 0.6482,
+    "mean_pitch": 35.8767,
+    "pitch_variability": 0.1695,
+    "spectral_flux": 0.8215,
+    "sound_level_db": -16.0459
+  },
+  "metadata_caption": "I'm Latino, I promise.",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000625",
+  "transcript": "So I hope that other people will learn that sustainable living isn't too far out of reach. And that by using all these passive systems that we have, so all like, you know, solar gain, passive heat transfer, water recycling, that through those systems you can really reduce your carbon footprint and then you can see, I mean, you can just reduce your impact on the environment and it's not too far out of reach.",
+  "acoustic_features": {
+    "mean_loudness": 0.869,
+    "loudness_variability": 0.4493,
+    "mean_pitch": 34.709,
+    "pitch_variability": 0.1036,
+    "spectral_flux": 0.3428,
+    "sound_level_db": -24.663
+  },
+  "metadata_caption": "Benefits of sustainable living",
+  "caption_priority": "low"
+}

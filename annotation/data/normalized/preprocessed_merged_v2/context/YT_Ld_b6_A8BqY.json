@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Ld_b6_A8BqY",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.9284,
+    "loudness_variability": 0.4269,
+    "mean_pitch": 24.811,
+    "pitch_variability": 0.404,
+    "spectral_flux": 1.4705,
+    "sound_level_db": -9.2334
+  },
+  "metadata_caption": "Start your morning in sweet style with a Cookie Butter Latte! 🍪☕",
+  "caption_priority": "low"
+}

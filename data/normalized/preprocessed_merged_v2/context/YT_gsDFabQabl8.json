@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_gsDFabQabl8",
+  "transcript": "you",
+  "acoustic_features": {
+    "mean_loudness": 1.1913,
+    "loudness_variability": 0.1557,
+    "mean_pitch": 22.6494,
+    "pitch_variability": 0.2266,
+    "spectral_flux": 1.161,
+    "sound_level_db": -13.0603
+  },
+  "metadata_caption": "Fall calls for pumpkin bread pudding 🎃🍂",
+  "caption_priority": "low"
+}

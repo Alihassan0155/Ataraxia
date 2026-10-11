@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_89Qlyy-wf68",
+  "transcript": "For this video, I'm just gonna be doing something that I find fun, and all I need is some ammonium dichromate. Now, I just need to pour some into a dish, and light it on fire. It's sometimes a bit hard to get started, but it's eventually able to keep going on its own. What's happening here is a decomposition reaction where the ammonium dichromate is chemically falling apart. As it does this, it turns into green chromium oxide, and it produces a bunch of nitrogen gas and water vapor. At some point, it kind of starts looking like a little volcano, and it also lets off a lot of heat. It then keeps going like this, until all of the ammonium dichromate has reacted. It eventually finished, and I now have a super puffy pile of chromium oxide, which isn't very useful. Well, it's kind of f***ed up. The fun though is to take a small amount of it, and heat it using a blowtorch. Then if I drop it into a flask full of ammonia gas, it makes a bunch of sparks, which kind of look like fireflies.",
+  "acoustic_features": {
+    "mean_loudness": 0.6747,
+    "loudness_variability": 0.7899,
+    "mean_pitch": 31.5452,
+    "pitch_variability": 0.2029,
+    "spectral_flux": 0.2947,
+    "sound_level_db": -22.8191
+  },
+  "metadata_caption": "Making chemical fireflies",
+  "caption_priority": "low"
+}

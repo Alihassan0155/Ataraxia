@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_nk7Tm5uzcWQ",
+  "transcript": "No.",
+  "acoustic_features": {
+    "mean_loudness": 0.3666,
+    "loudness_variability": 1.1034,
+    "mean_pitch": 35.5653,
+    "pitch_variability": 0.3653,
+    "spectral_flux": 0.1624,
+    "sound_level_db": -28.223
+  },
+  "metadata_caption": "His Greed Sickens Me | Simon's Cat Extra",
+  "caption_priority": "low"
+}

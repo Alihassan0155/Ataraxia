@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_CUSUTkTRHzc",
+  "transcript": "Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Hmm. Oh What?",
+  "acoustic_features": {
+    "mean_loudness": 0.4646,
+    "loudness_variability": 1.2509,
+    "mean_pitch": 39.1307,
+    "pitch_variability": 0.2465,
+    "spectral_flux": 0.2653,
+    "sound_level_db": -19.011
+  },
+  "metadata_caption": "Cat & Kitten learn what 'The Snip' means 👀",
+  "caption_priority": "low"
+}

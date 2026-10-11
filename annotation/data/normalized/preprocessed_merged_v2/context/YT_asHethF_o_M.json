@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_asHethF_o_M",
+  "transcript": "What I have here is a bunch of sulfur, and there's something I've been really wanting to try with it. Before I do that though, I first have to blast it with a blowtorch. This causes it to almost immediately start melting, and it's kind of hard to see, but it also lights on fire. If I then keep shooting it, it eventually completely melts, and the flame becomes much more obvious. It still isn't very bright though, and what I've been really wanting to do... do. to try lowering it into pure oxygen. In theory, this should make it burn a lot better, and it definitely seems to be working. In fact, unlike before, it might even be too bright, and it's probably not a good idea to look directly at it. But anyway, the only unfortunate part is that it doesn't last for very long, and within about 20 seconds, all of the sulfur had been completely vaporized.",
+  "acoustic_features": {
+    "mean_loudness": 0.9779,
+    "loudness_variability": 0.7785,
+    "mean_pitch": 31.1617,
+    "pitch_variability": 0.2115,
+    "spectral_flux": 0.6637,
+    "sound_level_db": -16.6331
+  },
+  "metadata_caption": "Burning sulfur singes what's left of my eyeballs",
+  "caption_priority": "low"
+}

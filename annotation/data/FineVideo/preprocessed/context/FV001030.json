@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001030",
+  "transcript": "Happy Valentine's Day everyone. When your heart has butterflies inside it, then your heart is full of love. When your heart feels just like overflowing, then your heart is full of love. Love is fragile as your tears. Love is stronger than your fears. When your heart beats for a special someone, then your heart is full of love. When your heart has room for everybody, then your heart is full of love. Good night. Good night. Good night. Good night.",
+  "acoustic_features": {
+    "mean_loudness": 0.8416,
+    "loudness_variability": 0.3777,
+    "mean_pitch": 29.6463,
+    "pitch_variability": 0.2159,
+    "spectral_flux": 0.4572,
+    "sound_level_db": -20.5649
+  },
+  "metadata_caption": "Then Your Heart Is Full of Love (Mister Rogers Cover)",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000035",
+  "transcript": "Looking quite sexy today. Very sexy. And the boat is just so comfortable. Oh happy days. This is nice. I don't like sliding up wind. I don't see the point of daggerboards. I literally just don't see the point of them. We've discovered that above 30 degrees the boat can point surprisingly and she does particularly well above kind of 34 35 degrees. As soon as you get over 35 it really picks up. Yeah that's right. I'm absolutely shocked at that. That's insane. That makes me very very happy.",
+  "acoustic_features": {
+    "mean_loudness": 0.8109,
+    "loudness_variability": 0.8704,
+    "mean_pitch": 34.8881,
+    "pitch_variability": 0.1437,
+    "spectral_flux": 0.4581,
+    "sound_level_db": -20.4151
+  },
+  "metadata_caption": "Why you don't need daggerboards on a cruising catamaran",
+  "caption_priority": "low"
+}

@@ -1,0 +1,41 @@
+{
+  "total": 50,
+  "pilot_overlap": 0,
+  "seed": 20261008,
+  "duplicate_ids": 0,
+  "exact_byte_pilot_overlap": 0,
+  "candidate_pool_size": 2202,
+  "shared_evidence_required_before_model_inference": true,
+  "pending_evidence_allowed_for_selection": true,
+  "selected_metadata_sha256": "673bd7e81cb7e7d8f38bb5ff3792bfd861e387ab20d4ec5438cb7cacc3e0b8ef",
+  "orientations": {
+    "vertical": 44,
+    "horizontal": 6
+  },
+  "categories": {
+    "Entertainment & Animation": 3,
+    "Religion & Spirituality": 3,
+    "Nature, Animals & Conservation": 3,
+    "Gaming": 3,
+    "Lifestyle, Vlogs & Relationships": 3,
+    "Vehicles": 3,
+    "ASMR": 3,
+    "Food & Cooking": 3,
+    "Music & Dance": 3,
+    "News, Politics & Social Issues": 3,
+    "Sports & Fitness": 3,
+    "Travel & Adventure": 3,
+    "Education": 3,
+    "Comedy": 3,
+    "DIY, Crafts & Outdoor Hobbies": 2,
+    "Science & Technology": 2,
+    "Beauty & Style": 2,
+    "Mental Health & Motivation": 2
+  },
+  "source_composition": {
+    "youtube": 19,
+    "tiktok": 16,
+    "finevideo": 15
+  },
+  "note": "Category-balanced, not source-balanced; exact-byte duplicates removed upstream. Repost/creator leakage still requires review."
+}

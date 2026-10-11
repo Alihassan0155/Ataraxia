@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000403",
+  "transcript": "Welcome recruit! Get yourself acquainted with the layout of the Toppat airship. Enough slacking, go do your tasks! You may need to take a ladder to get to certain areas. Or maybe just take a nice shortcut. Quit grouping up! Choose a room to start in after a meeting. Someone keeps trying to sabotage us! Stop their plan! Keep your eyes peeled. We definitely have an imposter here. Underdog",
+  "acoustic_features": {
+    "mean_loudness": 0.8671,
+    "loudness_variability": 0.751,
+    "mean_pitch": 35.2258,
+    "pitch_variability": 0.4661,
+    "spectral_flux": 0.5603,
+    "sound_level_db": -19.666
+  },
+  "metadata_caption": "The Airship - Among Us & Henry Stickmin Comparison",
+  "caption_priority": "low"
+}

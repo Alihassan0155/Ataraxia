@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Q0UByRtQRO0",
+  "transcript": "Can he catch the ball? Oh, mannequin head! Sub-Tac! Bubble wrap! Toilet paper! Basketball! Gooch on Supreme! Boxing glove! Ropey! Knitty! Zip-ball! Spongy! Blazer gone! Oh no, tennis ball! Blazer gone in! And the ghost sling is... Good luck!",
+  "acoustic_features": {
+    "mean_loudness": 0.6782,
+    "loudness_variability": 0.8195,
+    "mean_pitch": 45.6229,
+    "pitch_variability": 0.0982,
+    "spectral_flux": 0.2595,
+    "sound_level_db": -22.2374
+  },
+  "metadata_caption": "Can he catch them all?? #ad #GooJitzu #MeteorMadness #GooJitziMeteorMadness",
+  "caption_priority": "low"
+}

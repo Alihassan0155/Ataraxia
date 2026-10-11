@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1c2P_7DowPk",
+  "transcript": "I like my acquit.",
+  "acoustic_features": {
+    "mean_loudness": 0.9097,
+    "loudness_variability": 0.7379,
+    "mean_pitch": 28.9871,
+    "pitch_variability": 0.2578,
+    "spectral_flux": 0.5748,
+    "sound_level_db": -16.1916
+  },
+  "metadata_caption": "BACK TO THE VET - Colour Special OUT NOW",
+  "caption_priority": "low"
+}

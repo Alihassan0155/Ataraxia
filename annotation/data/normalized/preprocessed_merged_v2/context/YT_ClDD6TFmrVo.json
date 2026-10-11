@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ClDD6TFmrVo",
+  "transcript": "The sandwich is called Fool's Gold and it's Italian white bread. You coat in butter, bake it, then you hollow out both halves, fill it with an entire jar of peanut butter, then an entire jar of jam, and then you stuff it with a pound of crispy bacon. Way too much peanut butter? I'll give it a 7.5 out of 10.",
+  "acoustic_features": {
+    "mean_loudness": 1.109,
+    "loudness_variability": 0.5289,
+    "mean_pitch": 26.5752,
+    "pitch_variability": 0.21,
+    "spectral_flux": 0.5824,
+    "sound_level_db": -18.6696
+  },
+  "metadata_caption": "Fools Gold Sandwich",
+  "caption_priority": "low"
+}

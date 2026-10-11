@@ -1,0 +1,1 @@
+Both models completed FV000662 and FV000012. Results are in qwen/smoke/annotations.jsonl and internvl/smoke/annotations.jsonl. Qwen used uncapped 1 FPS; InternVL used 16 uniform full-clip frames and vision microbatch 1. InternVL completed valid annotations but exceeded the 15 GiB device-memory gate. Earlier aborted InternVL attempts are preserved in its attempt folders.

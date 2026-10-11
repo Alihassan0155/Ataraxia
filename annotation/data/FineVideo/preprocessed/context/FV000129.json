@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000129",
+  "transcript": "Hey guys, it's me, Kelsey, and I'm about to go to a fish hospital. Come on, let's go. It's right here at Atlantis Paradise Island. If you know me, you know I love animals and conservation. Today, I got a behind-the-scenes tour of how they take care of hundreds of rescued sea turtles, sharks, coral reefs, and more. In this experience, you get to see the fish hospital and the lab, where they make sure all the animals are safe and, of course, healthy. I love my tour guide and she answered all the questions I had. This amazing program and tour is possible through the Atlantis Blue Project Foundation. What did you guys think? Let us know in the comments.",
+  "acoustic_features": {
+    "mean_loudness": 1.387,
+    "loudness_variability": 0.5107,
+    "mean_pitch": 40.1057,
+    "pitch_variability": 0.1283,
+    "spectral_flux": 0.9004,
+    "sound_level_db": -14.9055
+  },
+  "metadata_caption": "Nassau Paradise Island | Atlantis Bahamas Blue Project Foundation's Fish Hospital",
+  "caption_priority": "low"
+}

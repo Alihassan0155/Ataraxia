@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000476",
+  "transcript": "Hi, it's Nikki Sixx. About 80% of people who use heroin first misuse prescription opioids. So let's stop the stigma and work towards recovery. It can start with a few easy words to join the movement and start a conversation. Find out more at findyourwords.org. Brought to you by Kaiser Permanente.",
+  "acoustic_features": {
+    "mean_loudness": 2.1114,
+    "loudness_variability": 0.3007,
+    "mean_pitch": 29.8182,
+    "pitch_variability": 0.2367,
+    "spectral_flux": 1.3158,
+    "sound_level_db": -12.9229
+  },
+  "metadata_caption": "Help Nikki Sixx fight stigma, raise awareness, and spread hope | Kaiser Permanente",
+  "caption_priority": "low"
+}

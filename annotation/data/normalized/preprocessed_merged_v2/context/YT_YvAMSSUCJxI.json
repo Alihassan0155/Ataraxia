@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YvAMSSUCJxI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 3.0032,
+    "loudness_variability": 0.3212,
+    "mean_pitch": 34.061,
+    "pitch_variability": 0.3771,
+    "spectral_flux": 1.9745,
+    "sound_level_db": -9.7807
+  },
+  "metadata_caption": "We Helped Him Reach His Dream!",
+  "caption_priority": "low"
+}

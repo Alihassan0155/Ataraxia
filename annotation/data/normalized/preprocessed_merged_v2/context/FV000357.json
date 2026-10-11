@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000357",
+  "transcript": "G'day all. This year, everybody going on the fire ground, operational or any sort of support role at all, are to do two things. You're to do the entrapment drill and you're to do the hazardous tree awareness package as well. So I'm doing it, all our staff are doing it, we are all doing the entrapment drill. We've identified that the two biggest risks we face are falling trees or burn overs or burn under. So it is imperative that everybody does it and record the fact that you've done the entrapment drill and the hazardous tree awareness package. I'm doing it, my expectation is you do it. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.8013,
+    "loudness_variability": 0.8876,
+    "mean_pitch": 27.4417,
+    "pitch_variability": 0.1197,
+    "spectral_flux": 0.4652,
+    "sound_level_db": -16.9943
+  },
+  "metadata_caption": "Entrapment Drill and Hazardous Trees Awareness Program",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000959",
+  "transcript": "Leg curl machine. Lie down on the machine, with your ankles under the cushion. Hold a position, where your legs are slightly bent. This will keep your femoral muscles tensed, during the entire exercise. Bend your knees, stopping before your legs reach a vertical position. Pay attention, that the weights used never rest on the holders.",
+  "acoustic_features": {
+    "mean_loudness": 0.3913,
+    "loudness_variability": 0.9946,
+    "mean_pitch": 19.1291,
+    "pitch_variability": 0.2374,
+    "spectral_flux": 0.2989,
+    "sound_level_db": -22.72
+  },
+  "metadata_caption": "Hamstring exercises: Leg Curl Machine Exercise",
+  "caption_priority": "low"
+}

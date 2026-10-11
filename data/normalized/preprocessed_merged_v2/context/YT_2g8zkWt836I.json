@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2g8zkWt836I",
+  "transcript": "Let's cook for my baby. Eh. Eh. Ow. Yes, Chef. Two minutes, Chef. two out of three.",
+  "acoustic_features": {
+    "mean_loudness": 1.2302,
+    "loudness_variability": 0.5727,
+    "mean_pitch": 33.2825,
+    "pitch_variability": 0.4062,
+    "spectral_flux": 0.8475,
+    "sound_level_db": -18.6006
+  },
+  "metadata_caption": "I Cook For a Baby",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_WiBhWcqrhF0",
+  "transcript": "Why are you here if you don't feel good you're gonna get me sick? No you do not. West Nile Virus. There's no way you're- That like doesn't even exist around here. Like when you see that there's an outbreak of something. What are your symptoms? You're really tired? You had a fever? You're sweating a lot? What else? But it's not like you spent a ton of time outside near stagnant water recently. You did. Well, if it is West Nile Virus, you're not contagious, so come on in. What did you talk- Let me see what I can get.",
+  "acoustic_features": {
+    "mean_loudness": 0.366,
+    "loudness_variability": 0.668,
+    "mean_pitch": 43.4848,
+    "pitch_variability": 0.239,
+    "spectral_flux": 0.1539,
+    "sound_level_db": -33.7644
+  },
+  "metadata_caption": "ASMR | Why are you here if you're sick?!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_dqpCvSU-ECE",
+  "transcript": "MrBeast is about to hit 500 million subscribers. If Juan hits this, y'all have to subscribe. Yeah!",
+  "acoustic_features": {
+    "mean_loudness": 2.3279,
+    "loudness_variability": 0.4741,
+    "mean_pitch": 40.5286,
+    "pitch_variability": 0.143,
+    "spectral_flux": 1.5416,
+    "sound_level_db": -11.5328
+  },
+  "metadata_caption": "Can He Make This Shot?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_EB9VT3hcETE",
+  "transcript": "Today, I'm going to be using this cabbage to do some chemistry. The first step is to cut off a small piece of it. Now, I can carefully chop it up. I'll then grab a bunch- of it, and I'll drop it into a beaker. On top of this, I'll dump in some boiling hot water, and I'll let it soak for a while. At this point, it's been about 20 minutes, and I think it looks ready. What I have to do next, is carefully pour everything out, into some more water. I did my best to keep all the solid stuff in the beaker, and now, I have a bunch of dilute ca- juice. On its own, this isn't very impressive though, and the magic only happens when I add it to these vials. The color changes almost immediately, and this is because red cabbage has natural pH indicators in it. Each of these vials has been set to a different pH, and I've always thought that this was pretty cool.",
+  "acoustic_features": {
+    "mean_loudness": 0.5888,
+    "loudness_variability": 1.1028,
+    "mean_pitch": 32.1394,
+    "pitch_variability": 0.2313,
+    "spectral_flux": 0.2962,
+    "sound_level_db": -23.156
+  },
+  "metadata_caption": "Using a cabbage to do some chemistry",
+  "caption_priority": "low"
+}

@@ -1,0 +1,28 @@
+{
+  "video_ids": [
+    "FV000662",
+    "FV000012"
+  ],
+  "annotations_complete": true,
+  "headroom_passed": false,
+  "qwen_status": {
+    "expected": 2,
+    "completed": 2,
+    "failed_this_run": [],
+    "headroom_failures": [],
+    "passed": true
+  },
+  "internvl_status": {
+    "expected": 2,
+    "completed": 2,
+    "failed_this_run": [],
+    "headroom_failures": [
+      "FV000662",
+      "FV000012"
+    ],
+    "passed": false
+  },
+  "internvl_max_frames": 16,
+  "internvl_vision_microbatch": 1,
+  "passed": false
+}

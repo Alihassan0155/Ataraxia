@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7179791683159067910",
+  "transcript": "Hey",
+  "acoustic_features": {
+    "mean_loudness": 2.0444,
+    "loudness_variability": 0.2576,
+    "mean_pitch": 17.5614,
+    "pitch_variability": 0.0176,
+    "spectral_flux": 2.3384,
+    "sound_level_db": -8.4573
+  },
+  "metadata_caption": "",
+  "caption_priority": "low"
+}

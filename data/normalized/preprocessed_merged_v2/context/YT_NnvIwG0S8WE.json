@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NnvIwG0S8WE",
+  "transcript": "Is it easier to shoot or throw a tennis ball into the $10,000 cash bullseye? Now if you think the cannon's gonna win, hit that subscribe button. Oh, this is gonna be even easier. Someone call Duke Perfect. Oh, come on. Why is it so hard?",
+  "acoustic_features": {
+    "mean_loudness": 2.1019,
+    "loudness_variability": 0.5254,
+    "mean_pitch": 37.5344,
+    "pitch_variability": 0.3264,
+    "spectral_flux": 1.7663,
+    "sound_level_db": -10.2924
+  },
+  "metadata_caption": "Tennis Ball Cannon vs Human Strength",
+  "caption_priority": "low"
+}

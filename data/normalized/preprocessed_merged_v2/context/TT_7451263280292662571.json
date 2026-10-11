@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7451263280292662571",
+  "transcript": "She says",
+  "acoustic_features": {
+    "mean_loudness": 1.0915,
+    "loudness_variability": 0.2397,
+    "mean_pitch": 20.571,
+    "pitch_variability": 0.2718,
+    "spectral_flux": 0.709,
+    "sound_level_db": -19.253
+  },
+  "metadata_caption": "#nyc #darkacademia #love #hopelessromantic #library ",
+  "caption_priority": "low"
+}

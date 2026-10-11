@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000114",
+  "transcript": "Yes! It worked! Sweetie, dinner's ready. It's your favorite! Ugh, damn it, Grandma! Why you always gotta breathe down my neck? Get alive! Jeez, kill me already! Uh-oh. I'm sorry, dearie. I couldn't hear you. Where are you, child? Oh, there you are. You can come upstairs. Dinner is ready. I cannot obey. You must speak the words. You're always so creative. Are you playing Robin Hood? Alright, I'll play along. Where's my script? Azerath Metreon Zinthus. I am at your command. Oh, wonderful young Robin. I bid thine tush upstairs for dinner. Yes, master. Now, now. You're the hero of Sherwood Forest. You can call me Gran Gran. Yes, Gran Gran. We're having soft tacos. Okay.",
+  "acoustic_features": {
+    "mean_loudness": 0.7915,
+    "loudness_variability": 0.6916,
+    "mean_pitch": 35.4194,
+    "pitch_variability": 0.2572,
+    "spectral_flux": 0.3862,
+    "sound_level_db": -22.6394
+  },
+  "metadata_caption": "so, my Grandma owns a Demon....",
+  "caption_priority": "low"
+}

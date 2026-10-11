@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SllXaJiQjBA",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.6874,
+    "loudness_variability": 0.3134,
+    "mean_pitch": 37.7432,
+    "pitch_variability": 0.2008,
+    "spectral_flux": 1.648,
+    "sound_level_db": -11.0928
+  },
+  "metadata_caption": "Every Youtube Play Button",
+  "caption_priority": "low"
+}

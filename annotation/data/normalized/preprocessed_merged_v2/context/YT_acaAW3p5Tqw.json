@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_acaAW3p5Tqw",
+  "transcript": "Okay, I didn't know this was real. So I opened this flashlight and inside I found this rechargeable AA battery. But it's rechargeable via USB Type-C. It has a USB-C port on it. So instead of one of those clunky chargers, I mean you always have your phone charger on you, so boom. 1000 mAh USB Type-C rechargeable AA battery. I'm glad this exists.",
+  "acoustic_features": {
+    "mean_loudness": 0.7651,
+    "loudness_variability": 0.8199,
+    "mean_pitch": 23.8704,
+    "pitch_variability": 0.1862,
+    "spectral_flux": 0.4462,
+    "sound_level_db": -17.6687
+  },
+  "metadata_caption": "USB-C ALL the things!",
+  "caption_priority": "low"
+}

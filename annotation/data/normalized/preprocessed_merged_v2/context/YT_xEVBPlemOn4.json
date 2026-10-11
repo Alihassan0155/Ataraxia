@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xEVBPlemOn4",
+  "transcript": "Best clothing ever. Three, two, one. Here we go!",
+  "acoustic_features": {
+    "mean_loudness": 2.4025,
+    "loudness_variability": 0.4425,
+    "mean_pitch": 31.2278,
+    "pitch_variability": 0.4502,
+    "spectral_flux": 1.8316,
+    "sound_level_db": -11.6628
+  },
+  "metadata_caption": "Our best clothing EVER??",
+  "caption_priority": "low"
+}

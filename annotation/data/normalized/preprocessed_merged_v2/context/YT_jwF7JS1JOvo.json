@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_jwF7JS1JOvo",
+  "transcript": "Yeah, can't believe we finished. Yeah What do I do my leg go without me promise I'll rebuild you",
+  "acoustic_features": {
+    "mean_loudness": 1.0163,
+    "loudness_variability": 0.4799,
+    "mean_pitch": 42.5859,
+    "pitch_variability": 0.1936,
+    "spectral_flux": 0.5532,
+    "sound_level_db": -21.386
+  },
+  "metadata_caption": "Star Wars Lego Build Goes Wrong",
+  "caption_priority": "low"
+}

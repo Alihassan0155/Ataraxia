@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_McHs1eI-h78",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6528,
+    "loudness_variability": 0.7476,
+    "mean_pitch": 35.1555,
+    "pitch_variability": 0.3277,
+    "spectral_flux": 0.78,
+    "sound_level_db": -16.7002
+  },
+  "metadata_caption": "Dance with A-School Teachers!",
+  "caption_priority": "low"
+}

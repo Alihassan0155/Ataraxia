@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_i13h9MO4Zuk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5245,
+    "loudness_variability": 0.676,
+    "mean_pitch": 36.8321,
+    "pitch_variability": 0.3271,
+    "spectral_flux": 0.2241,
+    "sound_level_db": -25.8054
+  },
+  "metadata_caption": "It’s not your typical jigsaw puzzle — it’s your next great adventure",
+  "caption_priority": "low"
+}

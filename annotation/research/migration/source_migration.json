@@ -1,0 +1,408 @@
+[
+  {
+    "old": "src/analyze_model_calibration.py",
+    "new": "src/ataraxia/evaluation/development/calibration.py",
+    "module": "ataraxia.evaluation.development.calibration",
+    "original_sha256": "9c44e61c425cf529bf2c5ef42dec2023a6788dc04f4ec700596277cf45f795e7",
+    "snapshot": "research/migration/source_snapshots/analyze_model_calibration.py",
+    "new_sha256": "19eec55badfb909617f587ae0de900319cd21076ca0adcff7f1009b59ee6c955",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/analyze_three_human_calibration.py",
+    "new": "src/ataraxia/evaluation/development/three_human_calibration.py",
+    "module": "ataraxia.evaluation.development.three_human_calibration",
+    "original_sha256": "d39c35a083919cbe67d38d3df9e0193109c9d03b285cd070e2765620014a3659",
+    "snapshot": "research/migration/source_snapshots/analyze_three_human_calibration.py",
+    "new_sha256": "32b67042416e2491d688bbb0dc655e56a6eb7618a625261d9b28fdef48793ef9",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/annotate_gemini.py",
+    "new": "src/ataraxia/research/pipelines/gemini.py",
+    "module": "ataraxia.research.pipelines.gemini",
+    "original_sha256": "35c1198fde396a25709d8025cae303a91a63bd10d9f9b2d176feb03945a400cb",
+    "snapshot": "research/migration/source_snapshots/annotate_gemini.py",
+    "new_sha256": "4226696080ba980353275ca1ee8ba15fcf32bd534db31db7b4aec2d7d8ba5b76",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/annotate_internvl_cuda.py",
+    "new": "src/ataraxia/research/pipelines/internvl_cuda.py",
+    "module": "ataraxia.research.pipelines.internvl_cuda",
+    "original_sha256": "0e178e867c7069381a635da8a2d8dc754c88d42cf379f63c3fe646c24f749af6",
+    "snapshot": "research/migration/source_snapshots/annotate_internvl_cuda.py",
+    "new_sha256": "0ce9ed4dd55ae7964df2b838153fba1d3b47732bc9c03ea7ebd862b63b16d4ee",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/annotate_qwen.py",
+    "new": "src/ataraxia/research/pipelines/qwen_mlx.py",
+    "module": "ataraxia.research.pipelines.qwen_mlx",
+    "original_sha256": "7003a117cc4cf38f7d78dacf525b0e2a32cfa9609a0577fd5f6986c69c31fd86",
+    "snapshot": "research/migration/source_snapshots/annotate_qwen.py",
+    "new_sha256": "a82aacadd02dd60626e6d7f5343a65d4272ba0b3c77997b6ddb90a266be936ec",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/annotate_qwen_cuda.py",
+    "new": "src/ataraxia/research/pipelines/qwen_cuda.py",
+    "module": "ataraxia.research.pipelines.qwen_cuda",
+    "original_sha256": "219cddb33f81323ae96b658cad390eaa97a1f617f1a2b5f729b7f6e917399295",
+    "snapshot": "research/migration/source_snapshots/annotate_qwen_cuda.py",
+    "new_sha256": "8d3d24dba5e48bf809398b9ef4c509b0a165d7dce0fdfe7e0f60bb65a9e4971d",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/apply_language_filter.py",
+    "new": "src/ataraxia/research/collection/apply_language_filter.py",
+    "module": "ataraxia.research.collection.apply_language_filter",
+    "original_sha256": "c4640db48818045b67a83836776b4cd64ef3c86ae9c3bf9ed8e854bd9d9d19ed",
+    "snapshot": "research/migration/source_snapshots/apply_language_filter.py",
+    "new_sha256": "acaf2acd33f02451785b651230051646514dda37d799d35550f785f72c4353d1",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/apply_orientation_filter.py",
+    "new": "src/ataraxia/research/collection/apply_orientation_filter.py",
+    "module": "ataraxia.research.collection.apply_orientation_filter",
+    "original_sha256": "26f410f0e5ae80390b187644aa5833c71e4d6b8b66f62c0d615a67e64d26d7f6",
+    "snapshot": "research/migration/source_snapshots/apply_orientation_filter.py",
+    "new_sha256": "ac0378ccc8720f2f29a69108766c49d8a5925250113591fbf521dc2dcb120996",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/audit_drive_dataset.py",
+    "new": "src/ataraxia/research/collection/audit_drive_dataset.py",
+    "module": "ataraxia.research.collection.audit_drive_dataset",
+    "original_sha256": "d894389e8e1523e59882ee164a40fefc8ad2cbe5ae3e8a5520cc5324ecbd7d42",
+    "snapshot": "research/migration/source_snapshots/audit_drive_dataset.py",
+    "new_sha256": "8526a866a3b5bb669f8862c7db86610aab89b8371765f5260ae557e79216923c",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/audit_languages.py",
+    "new": "src/ataraxia/research/collection/audit_languages.py",
+    "module": "ataraxia.research.collection.audit_languages",
+    "original_sha256": "d40ce5c5dec03a14d4b9df43e6e7bc33ea1d43907ff11a150b18988d79d00462",
+    "snapshot": "research/migration/source_snapshots/audit_languages.py",
+    "new_sha256": "977aca240dd8b0087187fc1e7d54b3c5295ac183c102813bcb541576b4323e76",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/audit_youtube_languages.py",
+    "new": "src/ataraxia/research/collection/audit_youtube_languages.py",
+    "module": "ataraxia.research.collection.audit_youtube_languages",
+    "original_sha256": "b7247d04f35675ff8c63add9d56a329a8d833aae3c3dc3e584e666888ed2781c",
+    "snapshot": "research/migration/source_snapshots/audit_youtube_languages.py",
+    "new_sha256": "2edf7c69118590030692bf6a0b4dc9bd11d7d42d17df80ed1f80ac0c7a00a0ce",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/build_human_fieldwise_consensus.py",
+    "new": "src/ataraxia/evaluation/development/fieldwise.py",
+    "module": "ataraxia.evaluation.development.fieldwise",
+    "original_sha256": "5b2d7b09e94f30d085ff0d1ad8baaba883fb8996c037a2ae879720e58338a3b9",
+    "snapshot": "research/migration/source_snapshots/build_human_fieldwise_consensus.py",
+    "new_sha256": "32fd9a4b4ae49808bc314ad21201194582940e011836458a3fa0a843675ced57",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/build_human_soft_reference.py",
+    "new": "src/ataraxia/evaluation/development/soft_reference.py",
+    "module": "ataraxia.evaluation.development.soft_reference",
+    "original_sha256": "8e8a327ae07fd85885b4f79c1f4a27d298f946f8db58a8535752162bd37d9cd1",
+    "snapshot": "research/migration/source_snapshots/build_human_soft_reference.py",
+    "new_sha256": "8dd49f5881222115fd82119228e85adb1b969159625cf31d66eac4dc63fecb5a",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/build_normalized_dataset.py",
+    "new": "src/ataraxia/datasets/normalization.py",
+    "module": "ataraxia.datasets.normalization",
+    "original_sha256": "ed6dd39460ba91fc761617cb9869addc64929f4d75d97723a25fe96da39fa208",
+    "snapshot": "research/migration/source_snapshots/build_normalized_dataset.py",
+    "new_sha256": "d6c7ad3cab7e9bdea43ee9d64748dd85364d2ac7b5d6f26c56af6858257f4388",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/build_reels_pilot.py",
+    "new": "src/ataraxia/research/selection/reels.py",
+    "module": "ataraxia.research.selection.reels",
+    "original_sha256": "710fb391dbb22ffe3b97c4a8a81c3b0c24e83d8e8bfe0fcaa9467e7780270dcb",
+    "snapshot": "research/migration/source_snapshots/build_reels_pilot.py",
+    "new_sha256": "ed2c322911a1eadd85bae1d0fc9ee86440019afe4e4ff0d25712983815c5bee4",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/build_three_human_reference.py",
+    "new": "src/ataraxia/evaluation/development/three_human_reference.py",
+    "module": "ataraxia.evaluation.development.three_human_reference",
+    "original_sha256": "7fb1c62dba6668aead797a15cc1a1dbf44888c07a53bc69032d01117d458509f",
+    "snapshot": "research/migration/source_snapshots/build_three_human_reference.py",
+    "new_sha256": "e325eae2698ce8463b7c61bf9af37ba9cf3c539cb2284fd2da9296e400b1c28e",
+    "compatibility": "same old path retained as thin module alias/CLI launcher",
+    "path_update": "Development human defaults now point to actual human_annotation/pilot files; numeric/evaluation logic unchanged."
+  },
+  {
+    "old": "src/build_youtube_language_sample.py",
+    "new": "src/ataraxia/research/collection/build_youtube_language_sample.py",
+    "module": "ataraxia.research.collection.build_youtube_language_sample",
+    "original_sha256": "e4db1c077640acdb3011ce6d196c968bbfb8b2afeb6763c904044a582ee8ef0b",
+    "snapshot": "research/migration/source_snapshots/build_youtube_language_sample.py",
+    "new_sha256": "ab663497dce7b358303cd4ad3c8eb264cc76f8c5d75d3d09c8385b15886c7f48",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/check_vlm_cuda.py",
+    "new": "src/ataraxia/annotation/diagnostics.py",
+    "module": "ataraxia.annotation.diagnostics",
+    "original_sha256": "6bd1c83c933eda2ccc1be4c297eb9ee94dc566a136798549c24bb47da617785e",
+    "snapshot": "research/migration/source_snapshots/check_vlm_cuda.py",
+    "new_sha256": "a034d0b55cba27ff9ab7bcb2c8ca043548650e5fbc5bdaa91aff0b084fd78dd4",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/common_annotation.py",
+    "new": "src/ataraxia/annotation/common.py",
+    "module": "ataraxia.annotation.common",
+    "original_sha256": "b12f00025d26787d82d59024f54212db377707ed4ab09a5b52415cb863c09d62",
+    "snapshot": "research/migration/source_snapshots/common_annotation.py",
+    "new_sha256": "9fb1817926ae4d6fc36b9dd39ff1ca4fe21e8766aaa48eca71a331ab068c15b4",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/compare_human_annotations.py",
+    "new": "src/ataraxia/evaluation/development/two_human_comparison.py",
+    "module": "ataraxia.evaluation.development.two_human_comparison",
+    "original_sha256": "a5c5c88d79efba28d07fb9f3d4547fddb034aa10b9848e87c7902ad7e9f4bc28",
+    "snapshot": "research/migration/source_snapshots/compare_human_annotations.py",
+    "new_sha256": "f800fe62a36d27ea7064903ca7b46bba7dee07baeb2943d5110a1568dd53e766",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/compare_pilot_models.py",
+    "new": "src/ataraxia/evaluation/development/model_comparison.py",
+    "module": "ataraxia.evaluation.development.model_comparison",
+    "original_sha256": "ba2a5a6ba6fcb0db0a63b2566f25b4d218d93404ac33062851536b8ca2afae8c",
+    "snapshot": "research/migration/source_snapshots/compare_pilot_models.py",
+    "new_sha256": "6cc909c2d677a03e99f2db68f5400f29e58df77ea05d35b2e11e085f13f3c3d2",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/download_youtube_english_500.py",
+    "new": "src/ataraxia/research/collection/download_youtube_english_500.py",
+    "module": "ataraxia.research.collection.download_youtube_english_500",
+    "original_sha256": "77d6144fa3f6235b322cd1a00f4a56ba259a7e3df3c58484cca319f86f2fdea0",
+    "snapshot": "research/migration/source_snapshots/download_youtube_english_500.py",
+    "new_sha256": "b43242e3399df9f592c378d62f8e2d940392e871bf834f81d80a27b9dabc74f4",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/download_youtube_metadata_shortlist.py",
+    "new": "src/ataraxia/research/collection/download_youtube_metadata_shortlist.py",
+    "module": "ataraxia.research.collection.download_youtube_metadata_shortlist",
+    "original_sha256": "944b5b70642f03e957433c556731e00201ee52286f720a35b5f9fe602fd7c85f",
+    "snapshot": "research/migration/source_snapshots/download_youtube_metadata_shortlist.py",
+    "new_sha256": "abdf3b452c65e29375956284a24238a1c82d703538a17e2a403621c8cb314371",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/drive_download_worker.py",
+    "new": "src/ataraxia/research/collection/drive_download_worker.py",
+    "module": "ataraxia.research.collection.drive_download_worker",
+    "original_sha256": "567f37598da6c4513080dcc3a05799717b67e5819af6894525e83d2cc69fe7a9",
+    "snapshot": "research/migration/source_snapshots/drive_download_worker.py",
+    "new_sha256": "91859a078826955ab38e2488d013aff69dd34fd4acf48ba89d95d43246617936",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/extract_youtube_video_info.py",
+    "new": "src/ataraxia/research/collection/extract_youtube_video_info.py",
+    "module": "ataraxia.research.collection.extract_youtube_video_info",
+    "original_sha256": "51d54f46ead02449e885d6a60c975ab14fc4e69c33ab0f9d674f845d393dfecf",
+    "snapshot": "research/migration/source_snapshots/extract_youtube_video_info.py",
+    "new_sha256": "b43ccb0436e24c578fbd0857d9bc0e42e78f57ff0c60e74f75388fa80be85e72",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/filter_youtube_english_500.py",
+    "new": "src/ataraxia/research/collection/filter_youtube_english_500.py",
+    "module": "ataraxia.research.collection.filter_youtube_english_500",
+    "original_sha256": "a3ed457de21f3d4b56fdc5565502ce367dcf8dd26f994856df8e7b0a7132e2df",
+    "snapshot": "research/migration/source_snapshots/filter_youtube_english_500.py",
+    "new_sha256": "3fc530a184b2dc6d1ffc26de679025b39adc37872e096335e4930b2c5216dfba",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/filter_youtube_metadata_candidates.py",
+    "new": "src/ataraxia/research/collection/filter_youtube_metadata_candidates.py",
+    "module": "ataraxia.research.collection.filter_youtube_metadata_candidates",
+    "original_sha256": "efbd1d9055e8917745bdd4dcda97b4b60c5241754fe88f7deb7332a7e96641d2",
+    "snapshot": "research/migration/source_snapshots/filter_youtube_metadata_candidates.py",
+    "new_sha256": "7edb4de71ec24ec345fa93763ef46d8fb4d046b35edc2aa4240d4468fc83f7f0",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/load_youtube_english_500_streaming.py",
+    "new": "src/ataraxia/research/collection/load_youtube_english_500_streaming.py",
+    "module": "ataraxia.research.collection.load_youtube_english_500_streaming",
+    "original_sha256": "69e187cf99cea2b96eacebf92e04e4e83b86d6d529a27a5b2db3c8ef8d6b2539",
+    "snapshot": "research/migration/source_snapshots/load_youtube_english_500_streaming.py",
+    "new_sha256": "3559713b94fea924bd3f56c55ce4d86797752012db9f2d9dd6e36d9ebc6a3e20",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/load_youtube_shorts.py",
+    "new": "src/ataraxia/research/collection/load_youtube_shorts.py",
+    "module": "ataraxia.research.collection.load_youtube_shorts",
+    "original_sha256": "dbe590cd95922a56b8fad35a15c5f9be135adc07c39a086c89e94d6dd50240fa",
+    "snapshot": "research/migration/source_snapshots/load_youtube_shorts.py",
+    "new_sha256": "c2b60bd7834870f679e776968f2348ca830d9e34031d2e826e449cb9c4d81dd0",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/materialize_drive_downloads.py",
+    "new": "src/ataraxia/research/collection/materialize_drive_downloads.py",
+    "module": "ataraxia.research.collection.materialize_drive_downloads",
+    "original_sha256": "4965087f64702ee0c78aa7941279549ef5447efe58760d3687020a2ead599228",
+    "snapshot": "research/migration/source_snapshots/materialize_drive_downloads.py",
+    "new_sha256": "642fc4fd35777b6ac1dde523b4fd0808c99a56ff8a2e380863058e2a65d00c7e",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/merge_normalized_audits.py",
+    "new": "src/ataraxia/datasets/audit_merge.py",
+    "module": "ataraxia.datasets.audit_merge",
+    "original_sha256": "14689afadd182bcff2973a02d47c357a4a9b2eecfb8d8e9adcc23a46f3e1154f",
+    "snapshot": "research/migration/source_snapshots/merge_normalized_audits.py",
+    "new_sha256": "5275ec737dd64b2949b6ecb623cd57994b5d2a13c50e9025bf30665e8efd0cdd",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/normalized_paths.py",
+    "new": "src/ataraxia/datasets/paths.py",
+    "module": "ataraxia.datasets.paths",
+    "original_sha256": "eaebbe7d43ff9eed4be16e1c0ad3260c4ced0c85be8b862b1a15f6c7f821bff2",
+    "snapshot": "research/migration/source_snapshots/normalized_paths.py",
+    "new_sha256": "9394ecef2691a643f7aad7a33287fc3345a82933826ee996648a66a4dd6e1b47",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/prefilter_youtube_languages.py",
+    "new": "src/ataraxia/research/collection/prefilter_youtube_languages.py",
+    "module": "ataraxia.research.collection.prefilter_youtube_languages",
+    "original_sha256": "09272b1053025191fb8ae7833328b04550ccb17b309ddd7471aff54bf57a31dd",
+    "snapshot": "research/migration/source_snapshots/prefilter_youtube_languages.py",
+    "new_sha256": "233a64ef51d75850ca67f5c76666756450b056f56c313974b0f528688a609ffc",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/prepare_normalized_dataset.py",
+    "new": "src/ataraxia/datasets/selection.py",
+    "module": "ataraxia.datasets.selection",
+    "original_sha256": "7f67890c2b2d960ab534c31862a411d118b346b8e42ce18058628885c9fbba9d",
+    "snapshot": "research/migration/source_snapshots/prepare_normalized_dataset.py",
+    "new_sha256": "a7d953ca7830455b7b9bb0c4bfde151f3e8a521deb8b4457fc104b7432f64e3a",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/preprocess_full_dataset.py",
+    "new": "src/ataraxia/research/preprocessing/finevideo_mlx.py",
+    "module": "ataraxia.research.preprocessing.finevideo_mlx",
+    "original_sha256": "a3dd00fc863b1c1183ccc4929b0a8684eea31a721f2e9649bd286f3b939dfdbf",
+    "snapshot": "research/migration/source_snapshots/preprocess_full_dataset.py",
+    "new_sha256": "c222cfec1381e022f2b9be061c1ce58c371dbeeefcff989bb211e3d500a1c364",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/preprocess_normalized_dataset.py",
+    "new": "src/ataraxia/datasets/preprocessing.py",
+    "module": "ataraxia.datasets.preprocessing",
+    "original_sha256": "c510c86ef597fa11c6f87f6a82bfde5f5e9e448b2cce888e15feaeb17365e4f3",
+    "snapshot": "research/migration/source_snapshots/preprocess_normalized_dataset.py",
+    "new_sha256": "7b40fe5786aa2eeee9dc473f99bf15bc96bcef95be4e7aebaddaed601e9de642",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/preprocess_pilot.py",
+    "new": "src/ataraxia/research/preprocessing/pilot_mlx.py",
+    "module": "ataraxia.research.preprocessing.pilot_mlx",
+    "original_sha256": "6533a4919c17a138e8cd8729954ba865acd413f64ceed6578668f64ba016f708",
+    "snapshot": "research/migration/source_snapshots/preprocess_pilot.py",
+    "new_sha256": "f7b56bd36a8c1216f91d77d7b0e8420dc4945216697bcd6f79744b86c5c32c51",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/prompts.py",
+    "new": "src/ataraxia/annotation/prompts.py",
+    "module": "ataraxia.annotation.prompts",
+    "original_sha256": "fcdbf7eb1dfcf55508cae62e2b7c1117b86f7104e5adef2e33e33f7ab071c019",
+    "snapshot": "research/migration/source_snapshots/prompts.py",
+    "new_sha256": "fcdbf7eb1dfcf55508cae62e2b7c1117b86f7104e5adef2e33e33f7ab071c019",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/quarantine_resolved_language.py",
+    "new": "src/ataraxia/research/collection/quarantine_resolved_language.py",
+    "module": "ataraxia.research.collection.quarantine_resolved_language",
+    "original_sha256": "f94efad706d2b5178c4e35768718a5ab522e2f7791d5234bb6c1209362e40c5a",
+    "snapshot": "research/migration/source_snapshots/quarantine_resolved_language.py",
+    "new_sha256": "ef902716a16d67122cd1293e123e9c10af515c09746fd98adda9ffef80ba9e2a",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/run_all_parallel.py",
+    "new": "src/ataraxia/research/pipelines/parallel_legacy.py",
+    "module": "ataraxia.research.pipelines.parallel_legacy",
+    "original_sha256": "2180833c8491abfd563a64192c597bec24142d1dfb0eadd87599b3c3f7e955ff",
+    "snapshot": "research/migration/source_snapshots/run_all_parallel.py",
+    "new_sha256": "38a91bc336390ad32e38f0eee0ec12f8aa2e976acb9084c367373001365ed0f3",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/schema.py",
+    "new": "src/ataraxia/annotation/legacy_schema.py",
+    "module": "ataraxia.annotation.legacy_schema",
+    "original_sha256": "4ce4c6112bfe5407a6d104b553d167731cda2fc25f610c3d2a78e995bead6790",
+    "snapshot": "research/migration/source_snapshots/schema.py",
+    "new_sha256": "4ce4c6112bfe5407a6d104b553d167731cda2fc25f610c3d2a78e995bead6790",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/select_held_out.py",
+    "new": "src/ataraxia/research/selection/heldout.py",
+    "module": "ataraxia.research.selection.heldout",
+    "original_sha256": "6f4de968157974bb703490b09b366fc4ceb2e83ebcee566834c2f167ae31ba45",
+    "snapshot": "research/migration/source_snapshots/select_held_out.py",
+    "new_sha256": "e488af8094a7065ccaa354fe13d5e991b04e34f2b00e41556c2866bce1c8b02d",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/select_pilot_50.py",
+    "new": "src/ataraxia/research/selection/pilot.py",
+    "module": "ataraxia.research.selection.pilot",
+    "original_sha256": "be92ec74d64c8cd2dc1ea4bf018459ec50873b0c889d510737a6a9375ad68db2",
+    "snapshot": "research/migration/source_snapshots/select_pilot_50.py",
+    "new_sha256": "b37ebe39a1b76db5c17e6225aff0c150a8f0a010f9aef5e0ced673d783f308a4",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/summarize_human_model_means.py",
+    "new": "src/ataraxia/evaluation/development/field_means.py",
+    "module": "ataraxia.evaluation.development.field_means",
+    "original_sha256": "3b8b2196be44f123863efe4a24b431b659f6f929f355bad7f6a4c377c8f34b76",
+    "snapshot": "research/migration/source_snapshots/summarize_human_model_means.py",
+    "new_sha256": "5317c01ef3273515d36f66ffaa656e2571a4de849e9d2459503e0c5ade1fe103",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  },
+  {
+    "old": "src/validate_normalized_dataset.py",
+    "new": "src/ataraxia/datasets/validation.py",
+    "module": "ataraxia.datasets.validation",
+    "original_sha256": "f4159befc62580e4e58e34240b0c8c99181ce8006f2531188a0e78ae3c1d80c6",
+    "snapshot": "research/migration/source_snapshots/validate_normalized_dataset.py",
+    "new_sha256": "06e6fdb968a6f14e9cbc8b5d65fae60e6131783184b29aa4e74cfa44fa492c53",
+    "compatibility": "same old path retained as thin module alias/CLI launcher"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000135",
+  "transcript": "Crowded streets all cleared away one by one Hollow heroes separate as they run You're so cold, keep your hands in mine Wise men wonder while strong may die Show me how it ends, it's alright Show me how defenseless you really are Satisfied and empty inside Well that's alright, let's give this another try",
+  "acoustic_features": {
+    "mean_loudness": 2.2232,
+    "loudness_variability": 0.3727,
+    "mean_pitch": 35.6692,
+    "pitch_variability": 0.2914,
+    "spectral_flux": 1.2268,
+    "sound_level_db": -13.1418
+  },
+  "metadata_caption": "SO COLD - Breaking Benjamin (cover)",
+  "caption_priority": "low"
+}

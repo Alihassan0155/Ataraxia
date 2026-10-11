@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Pti27NIzuIg",
+  "transcript": "Listen to the smooth sounds of the new Mic Mini 2S.",
+  "acoustic_features": {
+    "mean_loudness": 0.4522,
+    "loudness_variability": 1.082,
+    "mean_pitch": 18.4714,
+    "pitch_variability": 0.4418,
+    "spectral_flux": 0.3431,
+    "sound_level_db": -22.4395
+  },
+  "metadata_caption": "Listen To This...(SOUND ON)",
+  "caption_priority": "low"
+}

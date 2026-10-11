@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000643",
+  "transcript": "So I watched this video where this guy says, I have not shampooed my hair for five years. And his hair looked great. I decided to give it a try, so I did not shampoo from April 4th. I just washed and rubbed my hair and scalp with water. It does look greasy, but it's not as bad as I feared. Two weeks later, on April 19th, I went for a haircut. When I walked in, she said my hair looked great. She had permed it a month ago. It was only when I sat down and she felt my hair that she said, let's wash before we cut. Fast forward another two weeks today, May 5th, and my hair is not looking as good, probably because the perm is wearing out. Side note, during no poo, I noticed that a lot of hair was falling out when I shower. I think I'm going to go back on shampoo and conditioner.",
+  "acoustic_features": {
+    "mean_loudness": 0.6054,
+    "loudness_variability": 0.7665,
+    "mean_pitch": 26.3299,
+    "pitch_variability": 0.1243,
+    "spectral_flux": 0.3763,
+    "sound_level_db": -21.5765
+  },
+  "metadata_caption": "I tried no shampoo \"no poo\"",
+  "caption_priority": "low"
+}

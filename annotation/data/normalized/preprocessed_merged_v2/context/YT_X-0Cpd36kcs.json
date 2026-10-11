@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_X-0Cpd36kcs",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0008,
+    "loudness_variability": 0.5075,
+    "mean_pitch": 24.0882,
+    "pitch_variability": 0.3677,
+    "spectral_flux": 1.5803,
+    "sound_level_db": -10.7767
+  },
+  "metadata_caption": "Simon's Cat Plushie Charm Bundle",
+  "caption_priority": "low"
+}

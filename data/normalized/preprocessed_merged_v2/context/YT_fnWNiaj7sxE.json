@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_fnWNiaj7sxE",
+  "transcript": "Here's a Netflix demo on the new iPhone Duo. You can watch and scroll between content on the front, and then, when you open, get a full-screen experience playing it. Then, if you place it partially folded on your desk, you can have an entirely new viewing experience. What do you think?",
+  "acoustic_features": {
+    "mean_loudness": 1.0825,
+    "loudness_variability": 0.4776,
+    "mean_pitch": 36.3817,
+    "pitch_variability": 0.1526,
+    "spectral_flux": 0.5725,
+    "sound_level_db": -19.5889
+  },
+  "metadata_caption": "Netflix on the iPhone Duo 👀",
+  "caption_priority": "low"
+}

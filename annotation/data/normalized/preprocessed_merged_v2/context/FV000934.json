@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000934",
+  "transcript": "If you want to grow your legs, you have to build your quads, inner thigh, outer thigh, glutes, hamstrings, and calves. The AF app offers a free workout plan that helps you do exactly that. Dumbbell squat, keeping your back straight. Leg press, exhaling as you push. Glute kickback, pushing with your heels. Leg extension, slowly lowering the weight. Leg curl, keeping the movement slow and controlled. Hip adduction, hip abduction, and calf raise. Download the AF app, join the fitness community discussions, and start training with us today.",
+  "acoustic_features": {
+    "mean_loudness": 0.5181,
+    "loudness_variability": 0.5926,
+    "mean_pitch": 28.3415,
+    "pitch_variability": 0.206,
+    "spectral_flux": 0.2106,
+    "sound_level_db": -27.1745
+  },
+  "metadata_caption": "GROW Your Legs (DO THESE!)",
+  "caption_priority": "low"
+}

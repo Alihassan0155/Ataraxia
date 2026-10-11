@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pWsFlzkUCw4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.2932,
+    "loudness_variability": 0.5299,
+    "mean_pitch": 29.4928,
+    "pitch_variability": 0.5143,
+    "spectral_flux": 2.385,
+    "sound_level_db": -7.3213
+  },
+  "metadata_caption": "It’s really that simple 🙂",
+  "caption_priority": "low"
+}

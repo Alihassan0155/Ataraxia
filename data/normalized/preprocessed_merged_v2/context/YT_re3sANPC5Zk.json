@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_re3sANPC5Zk",
+  "transcript": "our twin sister episode.",
+  "acoustic_features": {
+    "mean_loudness": 1.2942,
+    "loudness_variability": 0.3842,
+    "mean_pitch": 33.5289,
+    "pitch_variability": 0.3246,
+    "spectral_flux": 2.1224,
+    "sound_level_db": -10.2768
+  },
+  "metadata_caption": "If Alan’s Universe Was a Reality Show",
+  "caption_priority": "low"
+}

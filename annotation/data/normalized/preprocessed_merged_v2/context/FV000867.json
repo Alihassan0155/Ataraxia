@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000867",
+  "transcript": "Do you know the lyrics to the Big Bang Theory theme song? I...I... After 200-something episodes, do you? I think I do. Would you sing it? Could you sing it for everyone? Yeah! I could try. Me, me, me, me, me. Our whole universe was in a hot, dense state than nearly 14 billion years ago. Expansion started. Wait! The Earth began to cool. The autotrophes began to drool. Neanderthals developed tools we built a wall. We built the pyramids. Mass, science, history, unraveling the mystery that all started with the Big Bang. Big! Oh! Holy Coco!",
+  "acoustic_features": {
+    "mean_loudness": 1.0705,
+    "loudness_variability": 0.4914,
+    "mean_pitch": 38.5134,
+    "pitch_variability": 0.2183,
+    "spectral_flux": 0.4443,
+    "sound_level_db": -22.067
+  },
+  "metadata_caption": "Kaley Cuoco cantando a abertura de TBBT",
+  "caption_priority": "low"
+}

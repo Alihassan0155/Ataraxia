@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000261",
+  "transcript": "You're just really ugly. Thanks. Well, they say it's beauties on the inside and inside you is just awful. It's lucky you're beautiful because there's nothing up here. What? That's mean. Did you just call me dumb? Your hammer got bigger? How did your hammer grow, Chris? Because I used my friend's arm for it. Ew. For the handle. What?",
+  "acoustic_features": {
+    "mean_loudness": 0.693,
+    "loudness_variability": 0.8637,
+    "mean_pitch": 30.7039,
+    "pitch_variability": 0.3307,
+    "spectral_flux": 0.3566,
+    "sound_level_db": -22.2288
+  },
+  "metadata_caption": "Don't Miss the Hilarious Finale of Chris Hemsworth and Scarlett Johansson's battle",
+  "caption_priority": "low"
+}

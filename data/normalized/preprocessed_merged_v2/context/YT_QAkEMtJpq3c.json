@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_QAkEMtJpq3c",
+  "transcript": "We're about to hit half a billion subscribers and to celebrate when I press this button It's gonna pick ten random subscribers or to give them $1,000 each. That's our subscribers right back there Boom, let's see who it is who just won $1,000 each. I'm gonna be doing this every single day So if you haven't already subscribed because you guys gave me the life of my dreams I want to give back to you. So hopefully you can win some money and I appreciate you",
+  "acoustic_features": {
+    "mean_loudness": 1.5503,
+    "loudness_variability": 0.547,
+    "mean_pitch": 32.6182,
+    "pitch_variability": 0.2295,
+    "spectral_flux": 1.2283,
+    "sound_level_db": -12.0187
+  },
+  "metadata_caption": "Hit The Button, Win $1,000",
+  "caption_priority": "low"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "frozen_source": "heldout_50_evaluation/components/annotate_qwen_cuda.py",
+    "active_worker": "src/ataraxia/annotation/backends/qwen.py",
+    "changes": "qualified imports and explicit workspace/input-cardinality plumbing only; inference and repair functions preserved"
+  },
+  {
+    "frozen_source": "heldout_50_evaluation/components/annotate_internvl_cuda.py",
+    "active_worker": "src/ataraxia/annotation/backends/internvl.py",
+    "changes": "qualified imports and explicit workspace/input-cardinality plumbing only; inference and repair functions preserved"
+  },
+  {
+    "frozen_source": "heldout_50_evaluation/components/annotate_gemini.py",
+    "active_worker": "src/ataraxia/annotation/backends/gemini.py",
+    "changes": "qualified imports and explicit workspace/input-cardinality plumbing only; inference and repair functions preserved"
+  },
+  {
+    "frozen_source": "heldout_50_evaluation/components/schema_repair.py",
+    "active_worker": "src/ataraxia/annotation/backends/schema_repair.py",
+    "changes": "qualified imports and explicit workspace/input-cardinality plumbing only; inference and repair functions preserved"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Ol078aiRoOs",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5006,
+    "loudness_variability": 1.0506,
+    "mean_pitch": 15.4197,
+    "pitch_variability": 0.6104,
+    "spectral_flux": 0.4688,
+    "sound_level_db": -20.7508
+  },
+  "metadata_caption": "meatball parm sando #shorts",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Vd8hXpePdkE",
+  "transcript": "I think this one is called the",
+  "acoustic_features": {
+    "mean_loudness": 0.1512,
+    "loudness_variability": 0.6554,
+    "mean_pitch": 22.369,
+    "pitch_variability": 0.2423,
+    "spectral_flux": 0.0463,
+    "sound_level_db": -42.7373
+  },
+  "metadata_caption": "ASMR | This trigger changes when you touch it?",
+  "caption_priority": "low"
+}

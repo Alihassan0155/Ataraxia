@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000348",
+  "transcript": "Behind every 21st century woman are those who travel the journey before her. Behind every confident woman is the support of mothers, friends and sisters. Behind every woman who wants to be fearless is First For Women. Because with us, behind every woman is herself. To our nation's women, we know you're tougher than the tough times. So let's take back the last 21 weeks of 2021 together. First For Women. Fearless.",
+  "acoustic_features": {
+    "mean_loudness": 1.9096,
+    "loudness_variability": 0.3468,
+    "mean_pitch": 29.179,
+    "pitch_variability": 0.2938,
+    "spectral_flux": 1.3201,
+    "sound_level_db": -11.3596
+  },
+  "metadata_caption": "2021st For Women",
+  "caption_priority": "low"
+}

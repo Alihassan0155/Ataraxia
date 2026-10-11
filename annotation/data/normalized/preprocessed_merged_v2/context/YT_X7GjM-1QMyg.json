@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_X7GjM-1QMyg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0886,
+    "loudness_variability": 0.4204,
+    "mean_pitch": 27.0846,
+    "pitch_variability": 0.5152,
+    "spectral_flux": 2.1094,
+    "sound_level_db": -6.8044
+  },
+  "metadata_caption": "just keep swimming",
+  "caption_priority": "low"
+}

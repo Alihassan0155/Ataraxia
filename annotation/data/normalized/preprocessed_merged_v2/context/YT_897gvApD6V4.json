@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_897gvApD6V4",
+  "transcript": "This is Prada the zebra, and if she can subscribe, so can you. That's one step closer to 500 million. Come on, hit the subscribe button.",
+  "acoustic_features": {
+    "mean_loudness": 1.7965,
+    "loudness_variability": 0.5226,
+    "mean_pitch": 34.7582,
+    "pitch_variability": 0.2317,
+    "spectral_flux": 1.2093,
+    "sound_level_db": -13.9818
+  },
+  "metadata_caption": "Will a Zebra Subscribe to me?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "ataraxia-normalized-v1",
+  "source_sha256": {
+    "data/FineVideo/metadata.csv": "cd7072b39e7dc44f455d82ac2e21cbd4f6011ee46a819c36aaee80a11345c874",
+    "data/fyp_videos_1250/fyp_videos_1250_metadata.csv": "861595bbef2bd2c48812d66b6be14235c04dc25716b919c2a0ae780ff8de7823",
+    "data/youtube_shorts/metadata.csv": "400914045a0e16fa2243d97a32c6d9f1cef818222fad9abe175cbfc2084a4a0f",
+    "data/youtube_shorts/metadata_candidate_download_manifest.csv": "dcc664da2b19368cac047c7eaddb1ea70f7c3554f72bb58830869e211cfd77ef",
+    "data/youtube_shorts/english_500/metadata_downloaded.csv": "1d5af56b558df7223f539b7ab297ca6692f46348a2ff63ed2c6019c95f577f9a",
+    "data/yt_shorts_master/youtube_shorts_master.csv": "42a1d9237385a4f17903b76a7994eca10487bebb8f2d6e0942524021166fe9f3"
+  },
+  "source_records": 63552,
+  "unique_videos": 61732,
+  "local_unique_candidates": 3696,
+  "media_available": 3696,
+  "exact_content_duplicate_groups": 0,
+  "original_pilot_count": 50,
+  "category_conflicts": 3,
+  "validation_issues": 0,
+  "by_platform": {
+    "finevideo": 858,
+    "tiktok": 1250,
+    "youtube": 59624
+  },
+  "local_categories": {
+    "ASMR": 6,
+    "Beauty & Style": 153,
+    "Comedy": 541,
+    "DIY, Crafts & Outdoor Hobbies": 18,
+    "Education": 155,
+    "Entertainment & Animation": 504,
+    "Food & Cooking": 99,
+    "Gaming": 193,
+    "Lifestyle, Vlogs & Relationships": 524,
+    "Mental Health & Motivation": 54,
+    "Music & Dance": 299,
+    "Nature, Animals & Conservation": 105,
+    "News, Politics & Social Issues": 139,
+    "Religion & Spirituality": 100,
+    "Science & Technology": 151,
+    "Sports & Fitness": 340,
+    "Travel & Adventure": 204,
+    "Unmapped / Needs Review": 82,
+    "Vehicles": 29
+  },
+  "language_status": {
+    "historical_target_approved": 858,
+    "pending_audio_audit": 2838
+  },
+  "preprocessing_status": {
+    "existing_context_and_transcript": 858,
+    "pending": 2838
+  },
+  "limitations": [
+    "Available does not mean fully decodable or language eligible",
+    "Historical language audit may inspect only initial speech",
+    "Different hashes do not rule out reposts",
+    "External media paths require restoration for portability",
+    "Broad source categories are metadata groupings, not content-verified labels",
+    "No final selection or new study splits frozen; horizontal cap must be enforced after eligibility",
+    "Existing FineVideo-only held out selection is provisional and unchanged"
+  ]
+}

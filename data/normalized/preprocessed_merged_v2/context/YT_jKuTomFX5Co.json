@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_jKuTomFX5Co",
+  "transcript": "Have you seen this trend where people paint themselves to match the background? This is so cool. Could you stop? I'm trying to focus here. Oh, this is this is tough. Sorry. Work. Okay. It's good. That's good.",
+  "acoustic_features": {
+    "mean_loudness": 0.8189,
+    "loudness_variability": 0.8529,
+    "mean_pitch": 30.4397,
+    "pitch_variability": 0.1905,
+    "spectral_flux": 0.5489,
+    "sound_level_db": -18.4114
+  },
+  "metadata_caption": "Meccha Chameleon In Real Life",
+  "caption_priority": "low"
+}

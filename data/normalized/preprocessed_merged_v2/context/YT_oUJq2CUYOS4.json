@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_oUJq2CUYOS4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.9552,
+    "loudness_variability": 0.3705,
+    "mean_pitch": 17.4751,
+    "pitch_variability": 0.3466,
+    "spectral_flux": 0.9671,
+    "sound_level_db": -14.9134
+  },
+  "metadata_caption": "Not your typical tomato soup and grilled cheese combo 🥣🥪",
+  "caption_priority": "low"
+}

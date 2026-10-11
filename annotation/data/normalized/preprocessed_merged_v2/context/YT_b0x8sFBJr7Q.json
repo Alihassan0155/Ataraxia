@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_b0x8sFBJr7Q",
+  "transcript": "So in front of me I have some extremely light laptops and you already knew that because you saw the LG logo and you saw the name Gram. The world's lightest 17-inch laptop. There's actually a couple of Gram variants here including one with an RTX card that you can do a little bit of gaming on. And then I've got a 16-inch as well so I'm excited to check it out. Not just light but very thin. Whoa. So this is a huge screen. Like look at this thing. 1,539 grams. Hence the gram name. You've got Intel Arc graphics, so integrated, but you've got a WQXGA display, 2560 by 1600. 26.5 hours of battery life is bananas. Also, the display is now touch, which I did not know. A big touchscreen in this case.",
+  "acoustic_features": {
+    "mean_loudness": 1.3082,
+    "loudness_variability": 0.6474,
+    "mean_pitch": 26.4847,
+    "pitch_variability": 0.1765,
+    "spectral_flux": 0.6932,
+    "sound_level_db": -16.911
+  },
+  "metadata_caption": "World’s Lightest 17” Laptop With RTX...",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_p2drBsaqMAI",
+  "transcript": "Hey buddy, low on health? Try eating a nutritious apple. Sweet! Wait, I just read that sugar is bad. Oh, but they're healthy sugar. Whoops, this is from 30 years ago. But fruit has fiber. When pesticides... But the vitamin C boost your immune system, which is a myth. I don't care!",
+  "acoustic_features": {
+    "mean_loudness": 1.3204,
+    "loudness_variability": 0.7115,
+    "mean_pitch": 41.2169,
+    "pitch_variability": 0.2105,
+    "spectral_flux": 0.8139,
+    "sound_level_db": -16.4001
+  },
+  "metadata_caption": "health is wealth? \n#Shorts #TheLandofBoggs #LandofBoggs #Animation #BuzzFeed",
+  "caption_priority": "low"
+}

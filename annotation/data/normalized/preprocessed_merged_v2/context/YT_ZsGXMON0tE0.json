@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ZsGXMON0tE0",
+  "transcript": "Next, this is the...  Queen's",
+  "acoustic_features": {
+    "mean_loudness": 0.1241,
+    "loudness_variability": 0.7392,
+    "mean_pitch": 49.6998,
+    "pitch_variability": 0.1846,
+    "spectral_flux": 0.0278,
+    "sound_level_db": -46.3378
+  },
+  "metadata_caption": "ASMR - I adore this grabber tool!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_bYD4PpxI9w4",
+  "transcript": "I'm a big pirate! Alright, should we go watch a movie? Yeah! Let's go. Time to get back! Okay, let's do it.",
+  "acoustic_features": {
+    "mean_loudness": 0.9413,
+    "loudness_variability": 0.3879,
+    "mean_pitch": 43.4296,
+    "pitch_variability": 0.1616,
+    "spectral_flux": 0.5036,
+    "sound_level_db": -22.9772
+  },
+  "metadata_caption": "Pirates of the Caribbathtub",
+  "caption_priority": "low"
+}

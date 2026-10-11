@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_oZHtciPKRPE",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.001,
+    "loudness_variability": 0.0,
+    "mean_pitch": 0.0,
+    "pitch_variability": 0.0,
+    "spectral_flux": 0.0,
+    "sound_level_db": -120.0
+  },
+  "metadata_caption": "Make faux stoneware candle holders using air dry clay and pepper",
+  "caption_priority": "low"
+}

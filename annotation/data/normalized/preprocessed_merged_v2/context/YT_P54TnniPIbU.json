@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_P54TnniPIbU",
+  "transcript": "I just entered a country where gas is cheaper than water. Watch until the end to see how much we paid for a full tank. That's too much bro! Libya is rich in oil so the government keeps the price extremely low. So how much could it be? We are on our way to find out. As soon as we arrived, I was shocked to see the inside of the gas pump. You can get three liters of gas by half a bottle of water. Good deal, yeah? Pretty good. We only paid one dollar to fill up the entire car. And that is the cheapest gas in the world.",
+  "acoustic_features": {
+    "mean_loudness": 1.4225,
+    "loudness_variability": 0.5349,
+    "mean_pitch": 30.4763,
+    "pitch_variability": 0.1899,
+    "spectral_flux": 0.824,
+    "sound_level_db": -15.7857
+  },
+  "metadata_caption": "Here Gas Is Cheaper Than Water",
+  "caption_priority": "low"
+}

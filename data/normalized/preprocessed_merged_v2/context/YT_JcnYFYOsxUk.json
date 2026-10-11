@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_JcnYFYOsxUk",
+  "transcript": "Ah.",
+  "acoustic_features": {
+    "mean_loudness": 1.0011,
+    "loudness_variability": 0.3664,
+    "mean_pitch": 21.9917,
+    "pitch_variability": 0.5038,
+    "spectral_flux": 0.6696,
+    "sound_level_db": -19.6774
+  },
+  "metadata_caption": "elite morning routine 😂",
+  "caption_priority": "low"
+}

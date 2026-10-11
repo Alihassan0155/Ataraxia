@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000115",
+  "transcript": "Okay, starting now. One, two, three, four, five. Now listen beautiful people. I just want to make it very clear. That professor you see here and me, we are twins. So, whatever he does, it's nothing to do with me. It's none of my beeswax. Beeswax? Yes. No. Yeah. What? What? What? What? What? What? What? What? The end.",
+  "acoustic_features": {
+    "mean_loudness": 0.9632,
+    "loudness_variability": 0.7952,
+    "mean_pitch": 30.3756,
+    "pitch_variability": 0.4215,
+    "spectral_flux": 0.5393,
+    "sound_level_db": -18.7447
+  },
+  "metadata_caption": "Funny Professor's Brother Making a Diclaimer and Finds Bees Wax Hilarious!",
+  "caption_priority": "low"
+}

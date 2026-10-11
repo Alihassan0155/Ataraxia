@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NWG2-PEbVL0",
+  "transcript": "Hey science lovers! Ever wondered why the sky is blue? It's all about sunlight and our atmosphere. Sunlight looks white, but it's actually a mix of all colors. When sunlight hits the atmosphere, it scatters in all directions. Blue light scatters more than other colors because it travels in shorter, smaller waves. That's why we see a blue sky, so next time you look up, you'll know the secret behind that beautiful blue color. Stay curious!",
+  "acoustic_features": {
+    "mean_loudness": 1.0273,
+    "loudness_variability": 0.8195,
+    "mean_pitch": 35.8055,
+    "pitch_variability": 0.2344,
+    "spectral_flux": 0.7718,
+    "sound_level_db": -15.5641
+  },
+  "metadata_caption": "#bluesky  #rayleighscattering #physicsfacts #naturewonders #skyphenomenon  \n#earthscience #whyblue #lightphysics #scienceexplained #amazingnature",
+  "caption_priority": "low"
+}

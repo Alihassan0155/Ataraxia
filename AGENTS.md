@@ -3,7 +3,10 @@
 ## Goal
 
 Build and compare a multimodal affective-video annotation pipeline using the
-same evidence bundle for Gemini and Qwen3-VL. Molmo is intentionally excluded.
+same evidence bundle for Gemini, Qwen3-VL, and InternVL3.5-8B on the human-labeled
+50-video pilot. Select two deployments using predefined development-set criteria,
+evaluate the frozen choice on held-out pilot videos, and use that pair for the
+full dataset. Molmo is intentionally excluded.
 
 ## Active structure
 
@@ -37,8 +40,18 @@ features, metadata caption, and evidence-priority rules for both models.
 ## Next study step
 
 Collect independent human labels for all 50 pilot videos without exposing
-annotators to model predictions. Compare Gemini and Qwen against those labels,
-then define the primary/verifier workflow for the full dataset.
+annotators to model predictions. Compare all three candidates under the protocol
+in `plan_annotation.md` section 9, then select the full-dataset pair.
+Qwen's user-selected CUDA configuration is NF4, 1 FPS, batch size 1,
+1,200 output tokens, greedy generation, full-clip timeline coverage, and the
+original transcript/eGeMAPS/caption. Do not reduce FPS to 0.5 silently.
+The 1 FPS uncapped benchmark exceeded the headroom target; deployment feasibility
+must be resolved before bulk inference. The InternVL smoke adapter uses
+`OpenGVLab/InternVL3_5-8B-HF`; full GPU inference has not yet been validated.
+See `vlm_cuda_setup.md` for setup and sequential two-video smoke-test scripts.
+Approximately 4,000 videos is a target, not a verified eligible count. Agreement
+from the selected pair yields provisional silver labels; disagreement enters
+reason-coded human review.
 
 ## Verified repository state (2026-10-04)
 

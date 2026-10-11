@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_u1BLG336qag",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.9292,
+    "loudness_variability": 0.3377,
+    "mean_pitch": 29.2619,
+    "pitch_variability": 0.429,
+    "spectral_flux": 0.4408,
+    "sound_level_db": -22.5473
+  },
+  "metadata_caption": "A simple yet stylish way to keep your desk organized. I designed and 3D printed this pencil holder in a vibrant pink color—perfect for adding a pop of color to your workspace! 🎨🖊\n\nWant to print one for yourself? Download the model here: \n\nhttps://cults3d.com/en/3d-model/home/pink-pencil-holder\n\nLet me know what you think in the comments! Would you print it in pink or another color? 💡👇\n\n#3DPrinting #DeskSetup #MakersGonnaMake #Organization",
+  "caption_priority": "low"
+}

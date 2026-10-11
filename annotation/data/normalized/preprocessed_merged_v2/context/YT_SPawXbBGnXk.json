@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SPawXbBGnXk",
+  "transcript": "Meep! Meep! Hmm... Huh? Whoa!",
+  "acoustic_features": {
+    "mean_loudness": 0.1841,
+    "loudness_variability": 1.0885,
+    "mean_pitch": 32.9661,
+    "pitch_variability": 0.2934,
+    "spectral_flux": 0.066,
+    "sound_level_db": -35.7113
+  },
+  "metadata_caption": "Muddy Paws on the Clean Floor",
+  "caption_priority": "low"
+}

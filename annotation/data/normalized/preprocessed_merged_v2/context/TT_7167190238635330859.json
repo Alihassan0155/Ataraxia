@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7167190238635330859",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.4914,
+    "loudness_variability": 0.4664,
+    "mean_pitch": 35.3697,
+    "pitch_variability": 0.1499,
+    "spectral_flux": 0.2238,
+    "sound_level_db": -28.0232
+  },
+  "metadata_caption": "Moody moments by water are a place where I see most clearly. #travel #adventure",
+  "caption_priority": "low"
+}

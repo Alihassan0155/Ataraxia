@@ -1,0 +1,38 @@
+{
+  "selected": 4226,
+  "horizontal": 286,
+  "excluded_or_pending": 94,
+  "policy": "non_target_only",
+  "language_statuses_retained": {
+    "target_language_candidate": 2345,
+    "review_low_confidence": 968,
+    "review_no_detected_speech": 905,
+    "review_mixed_language": 8
+  },
+  "exclusion_reasons": {
+    "non_target_language_flag": 94
+  },
+  "seed": 20261008,
+  "categories": {
+    "DIY, Crafts & Outdoor Hobbies": 22,
+    "Comedy": 535,
+    "Lifestyle, Vlogs & Relationships": 513,
+    "Mental Health & Motivation": 54,
+    "Science & Technology": 279,
+    "Sports & Fitness": 407,
+    "Gaming": 202,
+    "Travel & Adventure": 233,
+    "Nature, Animals & Conservation": 103,
+    "Music & Dance": 295,
+    "Beauty & Style": 146,
+    "Religion & Spirituality": 93,
+    "News, Politics & Social Issues": 133,
+    "Entertainment & Animation": 557,
+    "Food & Cooking": 112,
+    "Education": 164,
+    "Unmapped / Needs Review": 305,
+    "Vehicles": 29,
+    "ASMR": 44
+  },
+  "note": "Dataset selection follows the recorded user policy, not verified language ground truth. Original language/category uncertainty is retained. Native media unchanged; historical pilot records preserved. Held-out 50 stays fixed."
+}

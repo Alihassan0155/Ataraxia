@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_PCPncJcucw0",
+  "transcript": "Noodles! Baguette! Nachos! Rainbow? Egg! Salami Pizza! Cheerios! Rock? Capsicum Apple Tommy Sauce Rockmelon Surely",
+  "acoustic_features": {
+    "mean_loudness": 1.2696,
+    "loudness_variability": 0.7478,
+    "mean_pitch": 46.29,
+    "pitch_variability": 0.1523,
+    "spectral_flux": 0.7644,
+    "sound_level_db": -16.864
+  },
+  "metadata_caption": "What Smashes The Window??",
+  "caption_priority": "low"
+}

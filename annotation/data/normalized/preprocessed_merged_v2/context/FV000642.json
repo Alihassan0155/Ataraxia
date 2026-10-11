@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000642",
+  "transcript": "Everybody thinks they're a therapist now and everything on TikTok is like, you have this. It's like therapy is now astrology. I think it's an insult to astrology. Almost everyone thinks astrology is stupid, but almost no one thinks. Some women think astrology is real. Almost everyone. You can't get insurance to cover your astrology. Although in California, I got to think it's got to be.",
+  "acoustic_features": {
+    "mean_loudness": 0.8594,
+    "loudness_variability": 0.7821,
+    "mean_pitch": 28.2341,
+    "pitch_variability": 0.2564,
+    "spectral_flux": 0.4418,
+    "sound_level_db": -19.8458
+  },
+  "metadata_caption": "Psychology vs. Astrology: Who You Got?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7311619676528708907",
+  "transcript": "That's me.",
+  "acoustic_features": {
+    "mean_loudness": 0.7442,
+    "loudness_variability": 0.3697,
+    "mean_pitch": 16.9569,
+    "pitch_variability": 0.5507,
+    "spectral_flux": 0.7938,
+    "sound_level_db": -14.052
+  },
+  "metadata_caption": "Kanye West’s daughter, North, debuts her verse off of Kanye’s new album, Vultures #music #miami #kanyewest ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000843",
+  "transcript": "A homeless person stole my bag while I was sleeping outside Twitter headquarters. I'm so stupid of sleeping in the streets. They stole my bag. There's a lot of homeless people here. Inside that bag I had my laptop, $600, passport that I'm not going to be able to travel. Day 35 of living outside Twitter until Elon Musk gives me a hug. Always I say people are good, but this time people were bad.",
+  "acoustic_features": {
+    "mean_loudness": 0.9451,
+    "loudness_variability": 0.6044,
+    "mean_pitch": 28.1407,
+    "pitch_variability": 0.1616,
+    "spectral_flux": 0.5983,
+    "sound_level_db": -17.8554
+  },
+  "metadata_caption": "A Homeless Person Stole My Bag",
+  "caption_priority": "low"
+}

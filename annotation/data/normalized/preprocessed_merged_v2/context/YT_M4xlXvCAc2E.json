@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_M4xlXvCAc2E",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.2524,
+    "loudness_variability": 0.2134,
+    "mean_pitch": 13.4006,
+    "pitch_variability": 0.0922,
+    "spectral_flux": 1.6397,
+    "sound_level_db": -10.5107
+  },
+  "metadata_caption": "ELITE Camera Work",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_j0yl75LCfes",
+  "transcript": "Oh",
+  "acoustic_features": {
+    "mean_loudness": 0.9217,
+    "loudness_variability": 0.7999,
+    "mean_pitch": 33.47,
+    "pitch_variability": 0.2987,
+    "spectral_flux": 0.5868,
+    "sound_level_db": -16.1829
+  },
+  "metadata_caption": "Fight and Flight 💉 Back to the Vet Pt2 - New Film OUT NOW!",
+  "caption_priority": "low"
+}

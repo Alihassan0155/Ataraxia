@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_cGJPmW2CDuU",
+  "transcript": "I always wanted",
+  "acoustic_features": {
+    "mean_loudness": 2.7611,
+    "loudness_variability": 0.3565,
+    "mean_pitch": 41.7278,
+    "pitch_variability": 0.1649,
+    "spectral_flux": 1.9583,
+    "sound_level_db": -10.1204
+  },
+  "metadata_caption": "Recreating Our Movie Posters! 🎬",
+  "caption_priority": "low"
+}

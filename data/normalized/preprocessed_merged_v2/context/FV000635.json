@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000635",
+  "transcript": "Uh, well listen, Xtremes, I'd like to welcome you to the show. I'm sure you're feeling a little bit shy, but don't worry. Uh, how's everything so far? Well, you know, it makes me wanna... Shout again, shout again, shout again, shout again, shout again. You know, I feel... You know, I think you're gonna fit right in. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.1052,
+    "loudness_variability": 0.5052,
+    "mean_pitch": 42.1812,
+    "pitch_variability": 0.1942,
+    "spectral_flux": 0.3308,
+    "sound_level_db": -24.046
+  },
+  "metadata_caption": "The Jim Henson Hour - Extremes ruin Kermit's part of the day",
+  "caption_priority": "low"
+}

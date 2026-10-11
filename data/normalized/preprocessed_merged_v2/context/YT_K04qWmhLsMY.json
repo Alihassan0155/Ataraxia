@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_K04qWmhLsMY",
+  "transcript": "Rubber band one! Let's smash a mirror! Hopefully soon the top part's just gonna fold. Fold like a bag.",
+  "acoustic_features": {
+    "mean_loudness": 0.8897,
+    "loudness_variability": 0.7559,
+    "mean_pitch": 41.9555,
+    "pitch_variability": 0.1834,
+    "spectral_flux": 0.364,
+    "sound_level_db": -21.4964
+  },
+  "metadata_caption": "Safety Never Takes a Holiday",
+  "caption_priority": "low"
+}

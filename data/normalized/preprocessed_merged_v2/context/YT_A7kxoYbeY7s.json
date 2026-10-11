@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_A7kxoYbeY7s",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.9561,
+    "loudness_variability": 0.4997,
+    "mean_pitch": 23.374,
+    "pitch_variability": 0.3482,
+    "spectral_flux": 2.0612,
+    "sound_level_db": -9.2238
+  },
+  "metadata_caption": "Oh no! Be careful, Cat! 🙀 #diy",
+  "caption_priority": "low"
+}

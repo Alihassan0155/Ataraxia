@@ -1,0 +1,11 @@
+{
+  "metadata": "data/normalized/merged/local_candidates.csv",
+  "audit": "data/normalized/audit_merged",
+  "selected": "data/normalized/selected_merged_v2",
+  "preprocessed": "data/normalized/preprocessed_merged_v2",
+  "heldout": "held out/merged_50",
+  "total": 4320,
+  "selected_count": 4226,
+  "selection_policy": "non_target_only",
+  "excluded_non_target_count": 94
+}

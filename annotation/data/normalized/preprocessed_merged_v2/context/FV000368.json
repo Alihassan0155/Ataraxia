@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000368",
+  "transcript": "Hello there! Welcome to Dutz Outdoors. Let's take a look around camp. Want to? We got shelter going on here. Got my hammock. All my goodies. Got my mat set down in there so I don't catch the hypothermia disease I heard about. Got my tarp set up so I don't get rained on. I don't like getting rained on. Got my fire going. Got me a little water so I can get me some coffee going. It's in the afternoon. I've been drinking beer all day. It's time to drink coffee now. Got great lakeside view. Look at that. There's the potty right over yonder there. Great place. You'll have to come visit me. Uncle Dutz Backwoods. See ya.",
+  "acoustic_features": {
+    "mean_loudness": 0.7589,
+    "loudness_variability": 0.8784,
+    "mean_pitch": 27.3218,
+    "pitch_variability": 0.1708,
+    "spectral_flux": 0.3265,
+    "sound_level_db": -20.4602
+  },
+  "metadata_caption": "20150318 155423",
+  "caption_priority": "low"
+}

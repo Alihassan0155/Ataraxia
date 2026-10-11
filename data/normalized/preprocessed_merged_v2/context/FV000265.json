@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000265",
+  "transcript": "So I'm gonna do a little bit of like a draw my life except it's gonna be about Bacillus bacteria and how they can do this cool thing called sporulating And so bacillus when they have low nutrients, that's when they start to form spores and they do this by this kind of Whack but cool process where they make a copy of their DNA They form a septum in their cytoplasm and then form a membrane around that mature immature spore and then release it as a mature spore And these spores are really resilient. They can resist like pH changes. They can resist heat They can resist cold and they can even resist osmotic pressure and sometimes antibiotics They can also eventually return to their regular cell state spores actually help the human immune system Because they can bind to immune lymphocytes and cause them to actually reproduce and then bolster the immune system But they're also kind of dangerous because some most antibiotics actually Target the living cells and they don't really know what to do with spores Most of them are harmless But just like watch out if you get food poisoning It might be bacillus cereus and watch out when you're opening your mail because someone might send you bacillus anthracis Which gives you anthrax poisoning. So be bad voiceover dad songs Mm heroes Week",
+  "acoustic_features": {
+    "mean_loudness": 0.2596,
+    "loudness_variability": 0.6587,
+    "mean_pitch": 25.8472,
+    "pitch_variability": 0.1688,
+    "spectral_flux": 0.0689,
+    "sound_level_db": -34.7844
+  },
+  "metadata_caption": "\"Draw My Life\": How Bacillus sporulates",
+  "caption_priority": "low"
+}

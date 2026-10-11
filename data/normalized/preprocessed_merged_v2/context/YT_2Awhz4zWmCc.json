@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2Awhz4zWmCc",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.8577,
+    "loudness_variability": 0.3059,
+    "mean_pitch": 23.1347,
+    "pitch_variability": 0.1616,
+    "spectral_flux": 0.4187,
+    "sound_level_db": -24.0294
+  },
+  "metadata_caption": "THIS IS AWESOME! 🤖💰 DIY Cardboard Coin Bank",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_V7XYQxdrB0Y",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.2763,
+    "loudness_variability": 0.3348,
+    "mean_pitch": 16.8972,
+    "pitch_variability": 0.1932,
+    "spectral_flux": 1.7703,
+    "sound_level_db": -9.0606
+  },
+  "metadata_caption": "Add a cinnamon roll twist to your apple pie 🥧",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000855",
+  "transcript": "Sit down and relax at Small Worlds Tokyo. Not only do they have working space stations, but they also have a working airport where planes can take off at one runway and land on the opposite runway. And it was at this point that I realized that watching miniature airplanes take off was just as satisfying as watching the real ones. The airport itself is filled with a ton of detail, and even cars drive around the airport as if they're performing their daily tasks. And once you've watched a few take off...",
+  "acoustic_features": {
+    "mean_loudness": 1.1633,
+    "loudness_variability": 0.5112,
+    "mean_pitch": 33.5339,
+    "pitch_variability": 0.241,
+    "spectral_flux": 0.695,
+    "sound_level_db": -18.2141
+  },
+  "metadata_caption": "THIS TINY AIRPORT HAS PLANES THAT FLY!!!",
+  "caption_priority": "low"
+}

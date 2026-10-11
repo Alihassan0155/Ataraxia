@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7581560457291517202",
+  "transcript": "Sure they are Steffi",
+  "acoustic_features": {
+    "mean_loudness": 0.3488,
+    "loudness_variability": 1.3416,
+    "mean_pitch": 26.3855,
+    "pitch_variability": 0.3839,
+    "spectral_flux": 0.2068,
+    "sound_level_db": -23.3245
+  },
+  "metadata_caption": "When need Power hitting #cricket ",
+  "caption_priority": "low"
+}

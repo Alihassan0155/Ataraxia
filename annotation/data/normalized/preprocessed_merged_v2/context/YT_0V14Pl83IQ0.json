@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0V14Pl83IQ0",
+  "transcript": "No! No! No! No! Huh? Huh? Mmm! Hee hee! Here you go! Do it! Do it! Do it! Do it! Do it! Do it!",
+  "acoustic_features": {
+    "mean_loudness": 0.513,
+    "loudness_variability": 1.0245,
+    "mean_pitch": 36.6486,
+    "pitch_variability": 0.2134,
+    "spectral_flux": 0.2854,
+    "sound_level_db": -19.9777
+  },
+  "metadata_caption": "Your Lunch is My Lunch",
+  "caption_priority": "low"
+}

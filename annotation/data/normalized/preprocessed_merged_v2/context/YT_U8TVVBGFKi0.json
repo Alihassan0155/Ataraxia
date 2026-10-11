@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_U8TVVBGFKi0",
+  "transcript": "So much for magic.",
+  "acoustic_features": {
+    "mean_loudness": 1.4267,
+    "loudness_variability": 0.4061,
+    "mean_pitch": 42.3766,
+    "pitch_variability": 0.2853,
+    "spectral_flux": 0.9307,
+    "sound_level_db": -16.7383
+  },
+  "metadata_caption": "Think they'll let me on the team?",
+  "caption_priority": "low"
+}

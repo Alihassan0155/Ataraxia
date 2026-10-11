@@ -1,0 +1,65 @@
+{
+  "drive_video_files": 762,
+  "downloaded_video_files": 762,
+  "unique_video_filenames": 760,
+  "metadata_rows": 760,
+  "mapped_metadata_rows": 760,
+  "missing_metadata_videos": 0,
+  "unmapped_drive_filenames": [],
+  "duplicate_filename_groups": {
+    "p0fJtA8tJQs.mp4": [
+      {
+        "drive_file_id": "1Jdl4bGkMsEVSf5BLcAjKgBYTvmlOO4yl",
+        "filename": "p0fJtA8tJQs.mp4",
+        "file_path": "data/youtube_shorts_drive/videos/p0fJtA8tJQs.mp4",
+        "size_bytes": 5643580,
+        "sha256": "73c340d5f5827112c54108e00c23d21f099f1929a8b9dde307854ea948fb0be1",
+        "first_video_frame_decoded": true
+      },
+      {
+        "drive_file_id": "15z0mtmCPZ0LlWWxsO8xzKBVKekyeOzAE",
+        "filename": "p0fJtA8tJQs.mp4",
+        "file_path": "data/youtube_shorts_drive/videos/duplicate_drive_files/15z0mtmCPZ0LlWWxsO8xzKBVKekyeOzAE/p0fJtA8tJQs.mp4",
+        "size_bytes": 5643580,
+        "sha256": "73c340d5f5827112c54108e00c23d21f099f1929a8b9dde307854ea948fb0be1",
+        "first_video_frame_decoded": true
+      }
+    ],
+    "AyFgFQQ9APQ.mp4": [
+      {
+        "drive_file_id": "1SIzHc5VcenYL6EB-HL-g16ymUwHd5Ofe",
+        "filename": "AyFgFQQ9APQ.mp4",
+        "file_path": "data/youtube_shorts_drive/videos/AyFgFQQ9APQ.mp4",
+        "size_bytes": 8198070,
+        "sha256": "d1668ff8a64e7540e60c74f715849ee7df3f7657d0e7c387140ba9f47353ef17",
+        "first_video_frame_decoded": true
+      },
+      {
+        "drive_file_id": "1P20iQto312taqP4n0FkwJALat5ZTUk3T",
+        "filename": "AyFgFQQ9APQ.mp4",
+        "file_path": "data/youtube_shorts_drive/videos/duplicate_drive_files/1P20iQto312taqP4n0FkwJALat5ZTUk3T/AyFgFQQ9APQ.mp4",
+        "size_bytes": 8198070,
+        "sha256": "d1668ff8a64e7540e60c74f715849ee7df3f7657d0e7c387140ba9f47353ef17",
+        "first_video_frame_decoded": true
+      }
+    ]
+  },
+  "total_downloaded_bytes": 12579125266,
+  "first_frame_decode_passed": 762,
+  "metadata_sha256": "42a1d9237385a4f17903b76a7994eca10487bebb8f2d6e0942524021166fe9f3",
+  "category_distribution": {
+    "high_speed_science": 72,
+    "travel_adventure": 35,
+    "Unassigned": 307,
+    "sports_trick_shots": 72,
+    "tech_review": 68,
+    "cooking_food": 43,
+    "asmr": 44,
+    "challenge_stunts": 57,
+    "gaming": 20,
+    "vfx_magic": 25,
+    "animation_edu": 10,
+    "diy_crafts": 7
+  },
+  "note": "All individual Drive files preserved, including identical duplicate-name copies. No ZIP used. First-frame verification is not full decoding or language validation. Historical transfer failures remain in the append-only log; the latest result for every video is successful."
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7427538265210752302",
+  "transcript": "Can I call you Rose?",
+  "acoustic_features": {
+    "mean_loudness": 1.1923,
+    "loudness_variability": 0.4337,
+    "mean_pitch": 27.7676,
+    "pitch_variability": 0.4047,
+    "spectral_flux": 0.839,
+    "sound_level_db": -16.8287
+  },
+  "metadata_caption": "Testing the lowlight on Sony FX3 at the Golden Gate Bridge. What is the best ISO? #sonyfx3 #sony #goldengatebridge #california #film #colorgrade #travel #lowlight ",
+  "caption_priority": "low"
+}

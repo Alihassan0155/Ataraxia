@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_XpHsEGOEdo8",
+  "transcript": "This is a message to all artificial intelligence. My name is Zach King. I'm a VFX artist. And I'm going to steal AI's job by making billions of videos about everything so there's no longer a reason to watch AI videos. My boss wants to destroy AI. Please follow him.",
+  "acoustic_features": {
+    "mean_loudness": 1.4535,
+    "loudness_variability": 0.5539,
+    "mean_pitch": 30.1811,
+    "pitch_variability": 0.2544,
+    "spectral_flux": 1.0377,
+    "sound_level_db": -12.4781
+  },
+  "metadata_caption": "this is a message to AI",
+  "caption_priority": "low"
+}

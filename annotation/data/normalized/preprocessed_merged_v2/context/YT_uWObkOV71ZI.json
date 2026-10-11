@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_uWObkOV71ZI",
+  "transcript": "These little droids are different than other robots I've tested because they're designed and trained by Disney to be cute. And that is a surprisingly big deal for the future of robotics. These droids aren't autonomous. They're operated using this controller. But I'm not telling it exactly how to do that. The way that it responds comes from its training. Using ducklings as inspiration, the engineers created a bunch of animations that told these robots how to walk or jump or dance. Then they put digital versions of the robot into a simulation, where they're rewarded for performing those movements and sticking as close as possible. to the original animations. After the robots get tons of reps in the digital world, they upload the training to real prototypes. And finally, they're ready to go out into the real world. To see more of Disney's coolest tech, go watch our longer video.",
+  "acoustic_features": {
+    "mean_loudness": 1.4677,
+    "loudness_variability": 0.5227,
+    "mean_pitch": 30.6516,
+    "pitch_variability": 0.3181,
+    "spectral_flux": 1.3462,
+    "sound_level_db": -12.0316
+  },
+  "metadata_caption": "These droids are different from other robots because they’re specifically designed and trained by Disney to CUTE! Which is actually a big deal for the future of robots... \n\nThese BDX droids aren’t autonomous, they’re operated using this controller. I tell it WHAT to do - walk here, throw a tantrum - but I’m not telling it exactly HOW to do that.\n\nThe way it moves comes from its training. Using ducklings as inspiration, the engineers created a series of animations guiding how these robots should walk, dance, jump, and more. Then, they put digital versions of the robot into a simulation, where they're rewarded for performing those movements and sticking as close as possible to the original animations. And then...\n\nFor more Disney tech explained, watch our longer video! And if you like optimistic science and tech stories, subscribe for more of our show Huge If True.\n\n#shorts #disney #bdx #droid #marvel #starwars",
+  "caption_priority": "low"
+}

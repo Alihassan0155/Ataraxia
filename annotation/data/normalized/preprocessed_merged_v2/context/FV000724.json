@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000724",
+  "transcript": "Not every rock guitar player is a shredder. Jerry Cantrell, the guitarist for Alice in Chains, uses heavy tones and blues-inspired riffs combined with wah effects to achieve a bold sound. David Gilmour, most famously of Pink Floyd, pairs his tone with lush delays and reverbs, long bends, and slow blues licks. John Frishanti of the Red Hot Chili Peppers blends his style with blues, funk, and rock melodies and fast, repetitive picking. Tom Petty and the Heartbreakers guitarist Mike Campbell includes the use of slide guitar, long bends, and bluesy phrases. The Edge of U2 developed his sound by using multiple delay effects and electronic sustainers. Tom Morello of Rage Against the Machine uses heavy rock tones with lots of effects and aggressive strumming and picking to produce loud and edgy sounds. And finally, this list isn't complete without mentioning the legendary B.B. King. The Blues Master used very few notes, but combined his pristine tones with lots of tremolo, bends, and sustain.",
+  "acoustic_features": {
+    "mean_loudness": 0.3698,
+    "loudness_variability": 0.6539,
+    "mean_pitch": 25.4934,
+    "pitch_variability": 0.1353,
+    "spectral_flux": 0.1071,
+    "sound_level_db": -31.3984
+  },
+  "metadata_caption": "Guitarists Who Don't Shred!",
+  "caption_priority": "low"
+}

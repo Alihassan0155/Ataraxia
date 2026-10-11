@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_MOgivrM4aCI",
+  "transcript": "나 원더",
+  "acoustic_features": {
+    "mean_loudness": 3.3768,
+    "loudness_variability": 0.246,
+    "mean_pitch": 31.2112,
+    "pitch_variability": 0.4458,
+    "spectral_flux": 2.8724,
+    "sound_level_db": -5.7259
+  },
+  "metadata_caption": "Your Favorite AU Duo 🖤 ❤️‍🔥",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_KBaYpqAoEVg",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.3722,
+    "loudness_variability": 1.6317,
+    "mean_pitch": 58.9278,
+    "pitch_variability": 0.083,
+    "spectral_flux": 0.1343,
+    "sound_level_db": -25.9568
+  },
+  "metadata_caption": "kids Sand Cutting ASMR @SandKingASMR2025",
+  "caption_priority": "low"
+}

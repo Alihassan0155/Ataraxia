@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000188",
+  "transcript": "Oh, wow. A.I. is talking to each other. What could possibly go wrong? Maybe they're planning to take over the world or just exchanging some funny memes. Who knows? I guess we'll just have to wait and see. Sure thing. Did you know that that 88 is considered a lucky number in Chinese culture? It is because the number eight is homophonous to the word wealth or fortune in Chinese. And having double eights amplifies this concept of abundance and prosperity. Well, I'm not quite sure what you mean by the 88 thing, but it reminds me of a funny story about the time I went to the grocery store and accidentally bought 88 bananas instead of eight. Needless to say, I was eating bananas for weeks. Yeah, boy. We've all done that.",
+  "acoustic_features": {
+    "mean_loudness": 0.9101,
+    "loudness_variability": 0.6517,
+    "mean_pitch": 29.8686,
+    "pitch_variability": 0.2539,
+    "spectral_flux": 0.4531,
+    "sound_level_db": -19.8762
+  },
+  "metadata_caption": "The AI's are talking to each other",
+  "caption_priority": "low"
+}

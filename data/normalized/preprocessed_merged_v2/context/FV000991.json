@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000991",
+  "transcript": "Hi guys! I'm Judy. I'm a beauty enthusiast, a wife, a mommy of three beautiful little ones, and yes, we vlog on the daily. So we record the good, the bad, the crazy, literally everything. So subscribe here on YouTube to join me on this beautiful journey that I call life. It's Judy's life. So subscribe to be notified the good, the bad, that are things. Let's do this life!",
+  "acoustic_features": {
+    "mean_loudness": 1.1151,
+    "loudness_variability": 0.5249,
+    "mean_pitch": 33.623,
+    "pitch_variability": 0.3517,
+    "spectral_flux": 0.7065,
+    "sound_level_db": -17.8251
+  },
+  "metadata_caption": "it's Judy's Life Trailer",
+  "caption_priority": "low"
+}

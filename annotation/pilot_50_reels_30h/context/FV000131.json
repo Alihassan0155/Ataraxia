@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000131",
+  "transcript": "I'm Darren. I deal with depression, and I'm not alone. Depression sucks away all my energy, leaving me no desire to do anything, even things I usually love doing. I just want to lay down and sleep. How does depression challenge or frustrate you? Make your own video, and visit darknesschallenge.com for free help in dealing with depression. And if you can, make a donation to help those who are still stuck in the dark. Learn more at darknesschallenge.com.",
+  "acoustic_features": {
+    "mean_loudness": 0.3065,
+    "loudness_variability": 1.0052,
+    "mean_pitch": 26.0875,
+    "pitch_variability": 0.1508,
+    "spectral_flux": 0.1316,
+    "sound_level_db": -28.475
+  },
+  "metadata_caption": "#DarknessChallenge - Darren Marlar",
+  "caption_priority": "low"
+}

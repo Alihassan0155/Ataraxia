@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hUIyLyjCV18",
+  "transcript": "The Famous Actor Episode",
+  "acoustic_features": {
+    "mean_loudness": 2.6141,
+    "loudness_variability": 0.3564,
+    "mean_pitch": 35.0591,
+    "pitch_variability": 0.3909,
+    "spectral_flux": 1.8571,
+    "sound_level_db": -9.9259
+  },
+  "metadata_caption": "Who's Stalking Us?!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_C52SZiC2rlc",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0145,
+    "loudness_variability": 0.3782,
+    "mean_pitch": 21.2997,
+    "pitch_variability": 0.5505,
+    "spectral_flux": 2.5757,
+    "sound_level_db": -6.318
+  },
+  "metadata_caption": "Turn a 5L bottle into genius storage—subscribe @pepperell.crafts! ♻️",
+  "caption_priority": "low"
+}

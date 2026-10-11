@@ -1,0 +1,758 @@
+{
+  "schema": "heldout-frozen-v1",
+  "expected_n": 50,
+  "original_pilot_ids": [
+    "FV000012",
+    "FV000776",
+    "FV000380",
+    "FV000363",
+    "FV000537",
+    "FV000198",
+    "FV000073",
+    "FV000770",
+    "FV000942",
+    "FV000978",
+    "FV000134",
+    "FV000472",
+    "FV000304",
+    "FV000254",
+    "FV000650",
+    "FV000275",
+    "FV000954",
+    "FV000087",
+    "FV000359",
+    "FV000004",
+    "FV000367",
+    "FV000151",
+    "FV000308",
+    "FV000131",
+    "FV000814",
+    "FV000081",
+    "FV000662",
+    "FV000895",
+    "FV001003",
+    "FV000097",
+    "FV000393",
+    "FV000998",
+    "FV000366",
+    "FV000849",
+    "FV000983",
+    "FV000674",
+    "FV000013",
+    "FV000079",
+    "FV000133",
+    "FV001015",
+    "FV000033",
+    "FV000811",
+    "FV000120",
+    "FV000744",
+    "FV000544",
+    "FV000031",
+    "FV000320",
+    "FV000241",
+    "FV000015",
+    "FV000001"
+  ],
+  "heldout_ids": [
+    "YT_7FaYGOH-l38",
+    "TT_7476413217913326894",
+    "FV000192",
+    "FV000576",
+    "TT_7286566536716897579",
+    "YT_fcqOTqR91zc",
+    "YT_WiBhWcqrhF0",
+    "YT_4wKlFrCQqsY",
+    "FV000751",
+    "TT_7666318750701899026",
+    "FV000713",
+    "YT_Qhe6NwhxzR0",
+    "YT_JNKTrpGZuRE",
+    "FV000017",
+    "FV000710",
+    "FV000754",
+    "TT_7412881020309097771",
+    "FV000487",
+    "TT_7440201647755644182",
+    "TT_6830845109714603266",
+    "TT_7334130117947510059",
+    "FV000968",
+    "TT_7452563112156335390",
+    "YT_fFxsSEPMChw",
+    "YT_ZsGXMON0tE0",
+    "YT_jwPOnQyd-KI",
+    "FV000950",
+    "YT_qsB6qe88agI",
+    "TT_7230453591952166149",
+    "TT_7399699023999028526",
+    "YT_n_7u6j-hL4Q",
+    "FV000982",
+    "FV000494",
+    "YT_yG34VsS6a0M",
+    "TT_7349704177645489454",
+    "FV000348",
+    "YT_tNVWGck2h3s",
+    "TT_7642012710061772063",
+    "TT_7339185620016713003",
+    "FV000833",
+    "YT_cZwZ00JgFTA",
+    "YT_fS-kTUefLNs",
+    "YT_bczqDcxThT0",
+    "YT_qPkMqHlWBZk",
+    "TT_7217108611061812506",
+    "YT_QgKtTppkEXM",
+    "TT_7454613224718077227",
+    "TT_7494798372763716906",
+    "YT_vJ_2PVStNHY",
+    "FV000089"
+  ],
+  "models": {
+    "qwen": {
+      "checkpoint": "Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "revision_source": "current local cache refs/main; not proof of historical pilot revision",
+      "pilot_configuration": {
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision_requested": "main",
+        "quantization": "NF4",
+        "double_quantization": true,
+        "compute_dtype": "bfloat16",
+        "batch_size": 1,
+        "fps": 1.0,
+        "max_pixels": 262144,
+        "total_pixels": 0,
+        "max_new_tokens": 1200,
+        "do_sample": false,
+        "attention": "sdpa",
+        "gpu": "NVIDIA RTX A4000",
+        "cuda": "12.8",
+        "video_backend": "pyav",
+        "schema_repair_attempts": 1,
+        "emotion_output_scale": "points10",
+        "emotion_total": 10,
+        "cap_pixels_per_frame": false,
+        "max_device_gib": 15.8,
+        "packages": {
+          "torch": "2.11.0+cu128",
+          "transformers": "5.18.0",
+          "bitsandbytes": "0.50.2",
+          "accelerate": "1.15.0",
+          "qwen-vl-utils": "0.0.14",
+          "av": "19.0.1"
+        },
+        "max_frames": 32,
+        "sampling_policy": "fps_capped_uniform_full_clip"
+      },
+      "prompt_version": "v1.1-points10",
+      "native_raw_audio": false
+    },
+    "internvl": {
+      "checkpoint": "OpenGVLab/InternVL3_5-8B-HF",
+      "revision": "741a7d03020411e666c6109218ab71e08151ef86",
+      "revision_source": "current local cache refs/main; not proof of historical pilot revision",
+      "pilot_configuration": {
+        "model": "OpenGVLab/InternVL3_5-8B-HF",
+        "revision_requested": "main",
+        "video_ids": [
+          "FV000012",
+          "FV000776",
+          "FV000380",
+          "FV000363",
+          "FV000537",
+          "FV000198",
+          "FV000073",
+          "FV000770",
+          "FV000942",
+          "FV000978",
+          "FV000134",
+          "FV000472",
+          "FV000304",
+          "FV000254",
+          "FV000650",
+          "FV000275",
+          "FV000954",
+          "FV000087",
+          "FV000359",
+          "FV000004",
+          "FV000367",
+          "FV000151",
+          "FV000308",
+          "FV000131",
+          "FV000814",
+          "FV000081",
+          "FV000662",
+          "FV000895",
+          "FV001003",
+          "FV000097",
+          "FV000393",
+          "FV000998",
+          "FV000366",
+          "FV000849",
+          "FV000983",
+          "FV000674",
+          "FV000013",
+          "FV000079",
+          "FV000133",
+          "FV001015",
+          "FV000033",
+          "FV000811",
+          "FV000120",
+          "FV000744",
+          "FV000544",
+          "FV000031",
+          "FV000320",
+          "FV000241",
+          "FV000015",
+          "FV000001"
+        ],
+        "processor_path": "native_chat_template_pyav_v2",
+        "vision_microbatch": 1,
+        "max_frames": 16,
+        "video_size": {
+          "height": 448,
+          "width": 448
+        },
+        "fps": 1.0,
+        "quantization": "NF4",
+        "double_quantization": true,
+        "quantization_skip_modules": [
+          "vision_tower",
+          "multi_modal_projector"
+        ],
+        "compute_dtype": "bfloat16",
+        "batch_size": 1,
+        "temperature": 0,
+        "do_sample": false,
+        "thinking": false,
+        "max_new_tokens": 1200,
+        "schema_repair_attempts": 1,
+        "max_device_gib": 15.8,
+        "emotion_output_scale": "points10",
+        "emotion_total": 10,
+        "gpu": "NVIDIA RTX A4000",
+        "cuda": "12.8",
+        "packages": {
+          "torch": "2.11.0+cu128",
+          "transformers": "5.18.0",
+          "bitsandbytes": "0.50.2",
+          "av": "19.0.1"
+        }
+      },
+      "prompt_version": "v1.1-points10",
+      "native_raw_audio": false
+    },
+    "gemini": {
+      "checkpoint": "gemini-3.8-flash",
+      "immutable_provider_revision": null,
+      "generation_settings": null,
+      "provider_sampling": null,
+      "request_api": "google.genai.Client.interactions.create",
+      "processing": "static",
+      "response_format": "application/json with VideoAnnotation schema",
+      "prompt_version": "v1.0",
+      "native_raw_audio": true,
+      "defaults_policy": "Reuse existing SDK call without inventing temperature/token/FPS defaults; record full response and package versions for each request"
+    }
+  },
+  "calibration_source_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619",
+  "calibration_policy": "Only retained pilot full_pilot_fit_parameters; no fitting, selection or tuning on held-out labels",
+  "uncertainty_cutpoints": [
+    0.19999999999999998,
+    0.25
+  ],
+  "uncertainty_formula": "mean(mean_pairwise_abs_valence/10, mean_pairwise_abs_arousal/10, mean_pairwise_abs_recovery/10, mean_pairwise_emotion_TV); declared dominant disagreement is reported separately",
+  "ranking_weights": {
+    "scalar_alignment_mean": 0.4,
+    "emotion_tv": 0.25,
+    "high_uncertainty_composite": 0.15,
+    "mean_absolute_scalar_bias": 0.1,
+    "worst_scalar_normalized_mae": 0.1
+  },
+  "evaluation_metrics": [
+    "MAE",
+    "RMSE",
+    "Pearson",
+    "Spearman",
+    "emotion TV",
+    "emotion JSD bits",
+    "dominant agreement per human and pooled/tie-aware"
+  ],
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 20261009,
+    "confidence": 0.95,
+    "method": "paired video-level percentile; identical sampled IDs for model/variant differences; fixed frozen calibration; no refitting",
+    "undefined_correlations": "omit degenerate bootstrap draws and report valid draw count"
+  },
+  "gaps": [
+    "qwen: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "internvl: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "Gemini: historical provider revision and video sampling/generation defaults unlogged; matching the historical deployment cannot be proven",
+    "Shared context does not mean identical direct modality access: Gemini hears raw audio, CUDA models do not",
+    "No ID or exact-byte overlap; creator/repost/near-duplicate leakage is not certified by byte hashing"
+  ],
+  "scope": "prospective held-out validation; no full-dataset annotation",
+  "source_code": [
+    {
+      "file": "prompts.py",
+      "original_sha256": "fcdbf7eb1dfcf55508cae62e2b7c1117b86f7104e5adef2e33e33f7ab071c019",
+      "snapshot_sha256": "1e10217df0455439ab7c5faa360ed686827a9043fb78fb9f5445744e279cf150",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "common_annotation.py",
+      "original_sha256": "b12f00025d26787d82d59024f54212db377707ed4ab09a5b52415cb863c09d62",
+      "snapshot_sha256": "ade73be98c9c860cdfc810c80b54777c0ee96e76c6b447de7135c0868f8831ad",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "annotate_qwen_cuda.py",
+      "original_sha256": "219cddb33f81323ae96b658cad390eaa97a1f617f1a2b5f729b7f6e917399295",
+      "snapshot_sha256": "870b0d9580cce0874b90e853b02f4c184ff51c07f6393418e8c6b3d7ad09f9c1",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "annotate_internvl_cuda.py",
+      "original_sha256": "0e178e867c7069381a635da8a2d8dc754c88d42cf379f63c3fe646c24f749af6",
+      "snapshot_sha256": "9425c6528ef46a9c8afa8bcd853993b33180f37598ecc0e8dd150c01f23965ee",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "annotate_gemini.py",
+      "original_sha256": "35c1198fde396a25709d8025cae303a91a63bd10d9f9b2d176feb03945a400cb",
+      "snapshot_sha256": "e3a752d6266d68c185daa509e4c558c5f43e5a4dcb878b4a827527af331feaf8",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "build_human_fieldwise_consensus.py",
+      "original_sha256": "5b2d7b09e94f30d085ff0d1ad8baaba883fb8996c037a2ae879720e58338a3b9",
+      "snapshot_sha256": "b2af4e345c97d932a109b44a46d2b7d7bf5704d7eeecdd8671f758f67e1efecb",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "build_human_soft_reference.py",
+      "original_sha256": "8e8a327ae07fd85885b4f79c1f4a27d298f946f8db58a8535752162bd37d9cd1",
+      "snapshot_sha256": "8e8a327ae07fd85885b4f79c1f4a27d298f946f8db58a8535752162bd37d9cd1",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "build_three_human_reference.py",
+      "original_sha256": "7fb1c62dba6668aead797a15cc1a1dbf44888c07a53bc69032d01117d458509f",
+      "snapshot_sha256": "7fb1c62dba6668aead797a15cc1a1dbf44888c07a53bc69032d01117d458509f",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "compare_pilot_models.py",
+      "original_sha256": "ba2a5a6ba6fcb0db0a63b2566f25b4d218d93404ac33062851536b8ca2afae8c",
+      "snapshot_sha256": "ba2a5a6ba6fcb0db0a63b2566f25b4d218d93404ac33062851536b8ca2afae8c",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    },
+    {
+      "file": "analyze_model_calibration.py",
+      "original_sha256": "9c44e61c425cf529bf2c5ef42dec2023a6788dc04f4ec700596277cf45f795e7",
+      "snapshot_sha256": "9c44e61c425cf529bf2c5ef42dec2023a6788dc04f4ec700596277cf45f795e7",
+      "adaptation": "CUDA input paths redirected; pinned requested revision logged when HF omits commit hash; human YT/TT grammar enabled; Gemini adds strict ID check and raw/full response logging. Inference/preprocessing otherwise preserved."
+    }
+  ],
+  "assets": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "media_sha256": "00566a42b79a7c5bb64b9731bc6125208811f942617607cd8b4835edd0bd2629",
+      "context_file_sha256": "902b04f60d490934fd7daf393ec9a281de5fab9d46454e4dc478ee9029e3231a",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_7FaYGOH-l38.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_7FaYGOH-l38.json",
+      "category": "Entertainment & Animation"
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "media_sha256": "6ec0d83e2f6794290c13cae76724be763c719331d15aea210492bb5fb27db514",
+      "context_file_sha256": "68084f72889121b6baad18a95b457b907be93b6e2aa0a6cd037d2df4222569a8",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7476413217913326894.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7476413217913326894.json",
+      "category": "Religion & Spirituality"
+    },
+    {
+      "video_id": "FV000192",
+      "media_sha256": "2ae9c18fc66480f14e36d4d926dd2a13d36104171cef142e7722a2227b4c2df1",
+      "context_file_sha256": "31eb282524efe623ddf1f0f7f48edabef12947feed4d048a4c1513a219f79263",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000192.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000192.json",
+      "category": "Nature, Animals & Conservation"
+    },
+    {
+      "video_id": "FV000576",
+      "media_sha256": "9122d9e26afc94e72c734dc1811b307645cc7ffc9bfe4ba142d60074d9818780",
+      "context_file_sha256": "e35a8b12faf4b2ee1d57a6713499508ae08df4761c88347d80cb86d12d209e3a",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000576.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000576.json",
+      "category": "Gaming"
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "media_sha256": "d348c83bbe0a12665c859cee9c16a97b2741a367987395af304fc6854c025cf0",
+      "context_file_sha256": "0044112cc0afba4a6fca690e2e070aa7098c7ee45f695c25d0d0962fa07aa89f",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7286566536716897579.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7286566536716897579.json",
+      "category": "Lifestyle, Vlogs & Relationships"
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "media_sha256": "6212a020bec954839074ab9de875838ff746b33dbebfc8728d51ba233db9d883",
+      "context_file_sha256": "a1acb1b8d64ec561cc5916a6f7bfb4d603df14674ec5cc0f0062a22f6a783bef",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_fcqOTqR91zc.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_fcqOTqR91zc.json",
+      "category": "Vehicles"
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "media_sha256": "7e564f8c125d365ba11404f749bdae361ea8fbe027a34b5283bd22b2e9496cbc",
+      "context_file_sha256": "fa9bba148619bfdbfda1acc266af6ad6298d0d2eadc1deb6a349c1047ddbb8a1",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_WiBhWcqrhF0.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_WiBhWcqrhF0.json",
+      "category": "ASMR"
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "media_sha256": "bfabac390a9b3f275d59c38199559c782f3034cde9da5c1994c284bc50d322d9",
+      "context_file_sha256": "aeb1c748147ba1a51fcfd0e388a84e2008ae3fb8d8e68946c0abb6314fe13a28",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_4wKlFrCQqsY.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_4wKlFrCQqsY.json",
+      "category": "Food & Cooking"
+    },
+    {
+      "video_id": "FV000751",
+      "media_sha256": "2670d5704118759246311acefee19cb8768d41d0e8f92c2264f9c1d59b4b8798",
+      "context_file_sha256": "2c477b48d68e05d2207119f85c4a9a8d21571b4ab0d9a0dce1d6337266b4c1e2",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000751.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000751.json",
+      "category": "Music & Dance"
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "media_sha256": "760001ed7c4f83694eb11abd87e9466513c2c4328843be2af7f0552bf2ad525e",
+      "context_file_sha256": "a0f5fd432b8f4f2b2ed95b3a6d0a43ace087b0120674b7aa3382b5328101e8ae",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7666318750701899026.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7666318750701899026.json",
+      "category": "News, Politics & Social Issues"
+    },
+    {
+      "video_id": "FV000713",
+      "media_sha256": "77706bc690ce60eb637ac113fead2325960f4b6764f09a8e542d7d583627e444",
+      "context_file_sha256": "26e22df53110e6fc455e52237934dc8541811b2189948852a878a8d26d082a0d",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000713.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000713.json",
+      "category": "Sports & Fitness"
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "media_sha256": "817d1b31c62283c0ca4ba0199fb3c64f97e8a3a6df3280795c2cdb5404496984",
+      "context_file_sha256": "4d99698a7ba0c3f1a189d5309226e163c3626f1068bb0ae3cbc7486a6ff0f227",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_Qhe6NwhxzR0.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_Qhe6NwhxzR0.json",
+      "category": "Travel & Adventure"
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "media_sha256": "8301e0bcb759938d2ac4bcd386489fb2da638c3ba6305c85f1a789f6fff4a5a3",
+      "context_file_sha256": "2169d4d3cfda0bf5cfdf3203ddedf8c7bf4fc2968b0d5858f04291bc06984593",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_JNKTrpGZuRE.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_JNKTrpGZuRE.json",
+      "category": "Education"
+    },
+    {
+      "video_id": "FV000017",
+      "media_sha256": "38ffffe0d42c4768937e7c6996c09f7b4250fc194c3df6763bd29655322adf16",
+      "context_file_sha256": "585878cf384bf785f3322f281d50ac74eea5c0387cd89e9eced4a782202dc13b",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000017.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000017.json",
+      "category": "Comedy"
+    },
+    {
+      "video_id": "FV000710",
+      "media_sha256": "dc33f62f0ea89cd1dbedc18de9e861f56708ff76fe942dd2e192ca44667a478a",
+      "context_file_sha256": "6481d5aa7a002bb0b3e14f46a069ee53755fb1281c28e40e95f755029ef8c3eb",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000710.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000710.json",
+      "category": "DIY, Crafts & Outdoor Hobbies"
+    },
+    {
+      "video_id": "FV000754",
+      "media_sha256": "6a0e9d9de5b38f169bd4073c1df03863b7e947539a59503188870d6ddf692514",
+      "context_file_sha256": "6d087ea41069508a034457f0da96e7fa52ec68298daaef95e26427e5b0caba79",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000754.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000754.json",
+      "category": "Science & Technology"
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "media_sha256": "865d591960e61ca127acc0aa09cfb8b51158c46a1c9069a02c5ad4e45497e12f",
+      "context_file_sha256": "be3887111387c82059a2c0d6d398ec3c89b198b3308f965fe549029e09283de9",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7412881020309097771.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7412881020309097771.json",
+      "category": "Beauty & Style"
+    },
+    {
+      "video_id": "FV000487",
+      "media_sha256": "de42a4a2f0394627ec86efbfeaa661576e85ba6c7ad7e3d75d121e09d04aca26",
+      "context_file_sha256": "e72ca00fbc1d508230279c1cbc0f258b902e6a9a6312f00305e6588f83a1f2e6",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000487.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000487.json",
+      "category": "Mental Health & Motivation"
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "media_sha256": "0385f8ad2fb51a500badcade255a4a1b6a3f31c300ef56ed422014942ec7fe8c",
+      "context_file_sha256": "ad18ccd3d205abee5556fca806b0f83579ea32fc27a81c2b269c8d9430dfaae9",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7440201647755644182.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7440201647755644182.json",
+      "category": "Entertainment & Animation"
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "media_sha256": "32196d3906a47933b188a856fa7b3ac69e621f77403b6f81f15f95dabe5db30e",
+      "context_file_sha256": "d756aeeaf6b525f9f4f0b5246e2a54768b29b94f870973cdb1050b89911d0101",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_6830845109714603266.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_6830845109714603266.json",
+      "category": "Religion & Spirituality"
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "media_sha256": "74005fa014c2a62ccb85b8ef79b0cc7b0c90724c3ea26c0b35ad8c03db9e669f",
+      "context_file_sha256": "83caf098e16a92468e0a05db74e14572315a448f2f2d639d003a42234b2c343a",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7334130117947510059.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7334130117947510059.json",
+      "category": "Nature, Animals & Conservation"
+    },
+    {
+      "video_id": "FV000968",
+      "media_sha256": "a2525ca0250a18be1b91c9a13f9fe9019786b8efa58d8a424437cb3f0f118e7e",
+      "context_file_sha256": "1e5f8a4a38c789c05cbc6d8050800e1ce00f72e6106704a1bb052bc1586987aa",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000968.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000968.json",
+      "category": "Gaming"
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "media_sha256": "fafcd2f35457667890b65e6d418b27daac0153510f196d546dbcdf81658fdab1",
+      "context_file_sha256": "1cdc50af679738537d88a3cf8d55dedcafdc21199b62beb28c5c8101f7d7a952",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7452563112156335390.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7452563112156335390.json",
+      "category": "Lifestyle, Vlogs & Relationships"
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "media_sha256": "b18ef9dac07b98b9ffce95aebb9b17a6b443f4c05e4a01a16260c7f1d2a9d608",
+      "context_file_sha256": "72b7e3f9770e004b58ce5feef7737556964a123a1b322e8d408a43d2660f3c7e",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_fFxsSEPMChw.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_fFxsSEPMChw.json",
+      "category": "Vehicles"
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "media_sha256": "1caa336761fbe959684912713e01b185d77bb8b3b965c97d972ea94993e847da",
+      "context_file_sha256": "47bd8a089fe1c194d6754af0df4bea6a0b4f8ce3b2d8fae9c9de8a30c8a63a71",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_ZsGXMON0tE0.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_ZsGXMON0tE0.json",
+      "category": "ASMR"
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "media_sha256": "a27be5467ac5b1ca41825631cb2f7d8f66f8746e56981df19155e2065a4dd1f5",
+      "context_file_sha256": "c42f20bd3daf71f775c916da6f0e220038622d58a6dac2e8764da4a8b1e4f514",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_jwPOnQyd-KI.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_jwPOnQyd-KI.json",
+      "category": "Food & Cooking"
+    },
+    {
+      "video_id": "FV000950",
+      "media_sha256": "73d51fae3fdc562ffc523df7006ffccce32c061c2731b9c09134f65ad5e586e5",
+      "context_file_sha256": "3ee32f165a8b9009e8cff17390d375bd17e8758278413af37e01921c3b4b73d9",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000950.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000950.json",
+      "category": "Music & Dance"
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "media_sha256": "6faaf91b54d5fa3474c136615645356aac8ff3715f61d23a05de5cfbe7aed35b",
+      "context_file_sha256": "2456538ae879226127e1c3f0c07a243660fe5586e46a45bf58ded884a6696e78",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_qsB6qe88agI.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_qsB6qe88agI.json",
+      "category": "News, Politics & Social Issues"
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "media_sha256": "cefc51467fd3b92a88e8b0cf296055ac46f48ed4ae288af45b7f038b906a6313",
+      "context_file_sha256": "b68a66dd3293464d8b5df87aeddbc3e4e9acd63397313791d2dfa52332509647",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7230453591952166149.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7230453591952166149.json",
+      "category": "Sports & Fitness"
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "media_sha256": "8f64a04d3dba36dfc71a5ce483fc7dd996a51f96e88f72f1c8a949adf1606f22",
+      "context_file_sha256": "fd2fcb1e6efa7b267a464a90847000ceeaaed9aa23bb5c331f34eb5e3c83a6d1",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7399699023999028526.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7399699023999028526.json",
+      "category": "Travel & Adventure"
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "media_sha256": "d347799752d511c04f3c2b2b4520c57dd5df28ab2ebc5fb334c0afc8f7df65df",
+      "context_file_sha256": "c0c0b9194bf1f1e45611e8219f9de3f8ae15b3cecd71bb25c78be3878feb65f1",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_n_7u6j-hL4Q.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_n_7u6j-hL4Q.json",
+      "category": "Education"
+    },
+    {
+      "video_id": "FV000982",
+      "media_sha256": "dec82a1fdf8527640453cd50a67de82304d462d03fda48b85063e6e2cfde41b9",
+      "context_file_sha256": "035716edf46a79d9e1d305bb8f6acb022e9fc8b924b3376db261f0fc8b5e5ad0",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000982.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000982.json",
+      "category": "Comedy"
+    },
+    {
+      "video_id": "FV000494",
+      "media_sha256": "fe87b7ff3025926a31c5cf3cb4c1e10338f01118da65ebbabfaae12d851cbe10",
+      "context_file_sha256": "5a9e78ed8479d5e6ac3f34cf4612d1658ef0922372c64462eece181ffe557e33",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000494.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000494.json",
+      "category": "DIY, Crafts & Outdoor Hobbies"
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "media_sha256": "5f61a3190c14de63ee456f5ea9024f4d90d864eb7205322e1d6ed63d4190f92a",
+      "context_file_sha256": "ddabab5686b64104964e5b74bb5dd80f179b6606eb272ac01bfe8418be7e840b",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_yG34VsS6a0M.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_yG34VsS6a0M.json",
+      "category": "Science & Technology"
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "media_sha256": "6a5918157609d69d05fab9400b8264421a0ecdd7f32a0a4031a633e74d705608",
+      "context_file_sha256": "d6f36beb22cdb550f2525b254fdf035de9539a130ce7a843a6f2912f566eaf40",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7349704177645489454.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7349704177645489454.json",
+      "category": "Beauty & Style"
+    },
+    {
+      "video_id": "FV000348",
+      "media_sha256": "e65cb0a7954b6e2671612855371fe2edcd2049ee1e74cf9e43ab01cfef2d0835",
+      "context_file_sha256": "dc633c86286719110502ed1e2807fb42fb015b6ee61ba8398b0dca95120db518",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000348.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000348.json",
+      "category": "Mental Health & Motivation"
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "media_sha256": "75273de5b0e6baab452ba8d65fff82c9a41ef91110043de757befec38aa2bef7",
+      "context_file_sha256": "0e2186444445c8e2ed9e0b11549c7b94d48e05a8a722e54c701a7585fe6f79e3",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_tNVWGck2h3s.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_tNVWGck2h3s.json",
+      "category": "Entertainment & Animation"
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "media_sha256": "f725d8c94f0878f47004a2e7486866e49ed8cadfce0a512f20eafec91c615a73",
+      "context_file_sha256": "ea4404a0a83cd094cc12d74f7c7d3d6655a66ecaa27dd79eacc3f857e8d2ebca",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7642012710061772063.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7642012710061772063.json",
+      "category": "Religion & Spirituality"
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "media_sha256": "6726db049b273c597eee8aeeaf5c39d11f632fcf22570a8cbe340acdbe88eca3",
+      "context_file_sha256": "c55c9889c65d5be5c1d0d699633ef0d69f3f37f87e70aefb73c3d7327476caf3",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7339185620016713003.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7339185620016713003.json",
+      "category": "Nature, Animals & Conservation"
+    },
+    {
+      "video_id": "FV000833",
+      "media_sha256": "d3c30b22e2ac7891a79fd1ec99f09babc41b7e993637bd91ab6ea5e8dad843d8",
+      "context_file_sha256": "16c7bc96f9038bd57ed2c591ee4c43494b0c29091c34e09acbdad549de5b65e5",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000833.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000833.json",
+      "category": "Gaming"
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "media_sha256": "2995c067e542ed34fbcc6f5e5a96dc4d13dc2afd800ba72dc81d9c5732372fb7",
+      "context_file_sha256": "eda453b645496b8e36a809b4a0a2b6b00a854cd1a41e11eae962a9ad52c07bef",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_cZwZ00JgFTA.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_cZwZ00JgFTA.json",
+      "category": "Lifestyle, Vlogs & Relationships"
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "media_sha256": "ad3d4eb3d1132e6cf495a8d12c314f1ccb3a495531d5142a86b85c08d958ed75",
+      "context_file_sha256": "85957b72cee555a102890160aa831a541177888ee5c605353f10672de7c771bc",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_fS-kTUefLNs.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_fS-kTUefLNs.json",
+      "category": "Vehicles"
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "media_sha256": "884b21c896a0fcb8aab88d847c20795c34ea7ae862675fbf06f159cee76f2ef1",
+      "context_file_sha256": "9bfe3b0b17970fe5438ac0fe65cb8db647b118f2150c3c9e40d28838844414ee",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_bczqDcxThT0.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_bczqDcxThT0.json",
+      "category": "ASMR"
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "media_sha256": "9025ee2b1d611fc2fe11829737b72ddb8670f261514c05a220f1a4c2f2713606",
+      "context_file_sha256": "71ef9adbb79d4351eed50506064d055a9d3cb63d93cc278df274be3e210bda8c",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_qPkMqHlWBZk.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_qPkMqHlWBZk.json",
+      "category": "Food & Cooking"
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "media_sha256": "742ad84c4553419db8075d74e58ecc0ab1970d2ba476d977ac1038be364e945e",
+      "context_file_sha256": "ed7cef1b8a0d22faf20dce3824c234f0ab3ceaaf35cb0fd5c7ffd42e3c9583a1",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7217108611061812506.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7217108611061812506.json",
+      "category": "Music & Dance"
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "media_sha256": "1f64eefb27ea4f65e40bfc6824b677e8cdae1399b69eb2f9f61f1fd4dfa3048c",
+      "context_file_sha256": "e7ed7596cd6b392cfa628fdb7b3ed211a3fe1f1a554868a2e48cf8316aff7c59",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_QgKtTppkEXM.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_QgKtTppkEXM.json",
+      "category": "News, Politics & Social Issues"
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "media_sha256": "8ba46e2549ba331d6866c4fb1d38b397a8080237cd93c155e543a67f780cb516",
+      "context_file_sha256": "600c02dc78efe6c33c358ea87e107ef23d9db4fae3a820fedb3e764b27d7c211",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7454613224718077227.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7454613224718077227.json",
+      "category": "Sports & Fitness"
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "media_sha256": "42d124ff6c6e0590709493362e222d3da90b7825999e68e62ae14b48fa471310",
+      "context_file_sha256": "17a8b3ae1ef97726fea881d3b7f07eeb2c99cc66f0c2d64e2c3fd2fadc25b4b8",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\TT_7494798372763716906.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\TT_7494798372763716906.json",
+      "category": "Travel & Adventure"
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "media_sha256": "571d4204d90a66646e544752eb07d9d8214586e0da8a03d9b4eabd2e2f486d32",
+      "context_file_sha256": "d82ee17f86a55c1d8c1cc305775a4d649ac5bb185c6576c1cede35f0d66262e2",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\YT_vJ_2PVStNHY.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\YT_vJ_2PVStNHY.json",
+      "category": "Education"
+    },
+    {
+      "video_id": "FV000089",
+      "media_sha256": "082281427025943908425525989b6dc6c4149a70d9f2fe6cfca27b3b357af677",
+      "context_file_sha256": "41652da48f260394928f27836652d0065a610f1a00170296b4e0985b0c91c2c6",
+      "source_video": "E:\\ALI\\Ataraxia\\held out\\merged_50\\video\\FV000089.mp4",
+      "source_context": "E:\\ALI\\Ataraxia\\data\\normalized\\preprocessed_merged_v2\\context\\FV000089.json",
+      "category": "Comedy"
+    }
+  ]
+}

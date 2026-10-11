@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_mnXxbkoAl5c",
+  "transcript": "I think I want McDonald's. Should we go get one? Yeah. Yeah.",
+  "acoustic_features": {
+    "mean_loudness": 0.9913,
+    "loudness_variability": 0.2912,
+    "mean_pitch": 26.4793,
+    "pitch_variability": 0.2597,
+    "spectral_flux": 0.8256,
+    "sound_level_db": -17.6302
+  },
+  "metadata_caption": "Gav and Dan visit the billboard",
+  "caption_priority": "low"
+}

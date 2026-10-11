@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-10",
+  "authorization": "User requested Gemini error handling and strict InternVL total-10 repair",
+  "operational_changes": {
+    "Gemini": {
+      "http_timeout_seconds": 120,
+      "generation_timeout_seconds": 180,
+      "processing_timeout_seconds": 180,
+      "hard_video_deadline_seconds": 600,
+      "heartbeat_seconds": 15,
+      "stage_log": "predictions/gemini/events.jsonl"
+    },
+    "InternVL": {
+      "repair_attempts": 3,
+      "total_generation_attempts": 4,
+      "policy": "Arithmetic-guided model regeneration; never normalize or overwrite invalid scores; reject any final total other than exactly 10.00"
+    }
+  },
+  "changed_files": {
+    "components/annotate_gemini.py": {
+      "before_sha256": "e3a752d6266d68c185daa509e4c558c5f43e5a4dcb878b4a827527af331feaf8",
+      "after_sha256": "269af06cc99cdc0981df887da0ca41ed117fb15d87a81701e1d9d062c26ccd48"
+    },
+    "components/annotate_internvl_cuda.py": {
+      "before_sha256": "9425c6528ef46a9c8afa8bcd853993b33180f37598ecc0e8dd150c01f23965ee",
+      "after_sha256": "75fa586539d70c43a96d27e3ba64da1e34f958029106233f18a01b1f967dd429"
+    },
+    "scripts/run_gemini.py": {
+      "before_sha256": "78da81340a64bb3854d5fce35d41ad34fb12be1022789ba5b68115799d814296",
+      "after_sha256": "5f7a098b202c434529e23e399e44c572ceff921068dfd1cafc7114a645eac7b8"
+    },
+    "scripts/evaluate.py": {
+      "before_sha256": "add04c8f0ef15bc8b506958c8f73a9e00bcef1cca61737dc5a2a9c1d5a097eca",
+      "after_sha256": "f2d95edf6dee08929bea8ac6d5673810560cd94fe7e41651a90ceaae750402d2"
+    }
+  },
+  "new_files": {
+    "components/schema_repair.py": "70efd2976ea01148d7bb1daf8cf5117a4b5f071977d05bf301ffe87193223d99",
+    "scripts/test_reliability.py": "4fbe8bf60730b6ef44ca18759d1a7c8a9193175fbea694bf7d53797f550c9378"
+  },
+  "saved_predictions_preserved": true,
+  "original_pilot_unchanged": true,
+  "calibration_changed": false,
+  "research_limit": "Reliability/schema-repair protocol changed after observed held-out output failures; earlier records retain their original policy; no held-out human labels were used for fitting or tuning."
+}

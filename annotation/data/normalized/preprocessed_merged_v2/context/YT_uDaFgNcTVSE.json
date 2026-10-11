@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_uDaFgNcTVSE",
+  "transcript": "Ah, summer. A time for fun in the sun. With so many options available, how do you choose the right sunscreen? There are three things to keep in mind. SPF, ingredients, and application. Let's start with SPF. Make sure to opt for at least 15, which blocks 93% of UVB rays. SPF 30 blocks 97%, and 50 blocks 98%. Next, ingredients. If you're concerned about irritants, look for mineral-based formulas with zinc oxide and titanium dioxide. And don't worry if they go on a little bit thick. Lastly, application. Sprays can be convenient to put on, but make sure you're applying a thick enough layer for full protection. Most people don't. Whichever you choose, remember to lather up and keep your skin healthy.",
+  "acoustic_features": {
+    "mean_loudness": 0.4861,
+    "loudness_variability": 0.6667,
+    "mean_pitch": 31.1266,
+    "pitch_variability": 0.2713,
+    "spectral_flux": 0.2325,
+    "sound_level_db": -24.7544
+  },
+  "metadata_caption": "3 ways to choose a sunscreen #shorts",
+  "caption_priority": "low"
+}

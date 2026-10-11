@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Pw40-IoL5kY",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.4808,
+    "loudness_variability": 0.3481,
+    "mean_pitch": 27.5475,
+    "pitch_variability": 0.4146,
+    "spectral_flux": 0.1619,
+    "sound_level_db": -29.1986
+  },
+  "metadata_caption": "Trust the process #shorts",
+  "caption_priority": "low"
+}

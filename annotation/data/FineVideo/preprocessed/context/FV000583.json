@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000583",
+  "transcript": "Is this the Huffington Post? Like, oh my god, did you not hear Primal's new record? It was so misogynistic, bigoted. Who does he think he is to express his views and opinions so freely? We gotta cancel him. I'm gonna contact BuzzFeed, the Huffington Post, John Travolta, my mom, and her pet pillow. Because this is not acceptable behavior. It's not? Who does he think he is? Who does he... Oh my god, he's coming in! He's gonna... Bye.",
+  "acoustic_features": {
+    "mean_loudness": 0.7365,
+    "loudness_variability": 0.6702,
+    "mean_pitch": 32.0665,
+    "pitch_variability": 0.2008,
+    "spectral_flux": 0.5614,
+    "sound_level_db": -16.336
+  },
+  "metadata_caption": "Prymal - Prymal Kills Karen (Skit)",
+  "caption_priority": "low"
+}

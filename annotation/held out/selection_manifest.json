@@ -1,0 +1,46 @@
+{
+  "seed": 20261008,
+  "total": 50,
+  "pilot_overlap": 0,
+  "duplicate_ids": 0,
+  "scope": "Validated FineVideo metadata; unverified newer collections excluded",
+  "algorithm": "Balanced round-robin quotas in seeded category order; sorted-ID random sampling",
+  "category_distribution": {
+    "Biology": 2,
+    "Camping": 2,
+    "Conservation Efforts": 2,
+    "Covers": 2,
+    "Daily Vlogs": 2,
+    "Destination Guides": 3,
+    "Game Commentary": 2,
+    "Game Highlights": 2,
+    "Gameplay Tutorials": 2,
+    "Makeup Tutorials": 2,
+    "Mental Health Tips": 2,
+    "Motivational Talks": 2,
+    "Music Videos": 2,
+    "Parodies": 2,
+    "Physics": 2,
+    "Pranks": 2,
+    "Science Explainers": 2,
+    "Sketches": 3,
+    "Stand-up": 2,
+    "Storytime": 2,
+    "Training Techniques": 3,
+    "Travel Vlogs": 2,
+    "Workout Routines": 3
+  },
+  "eligible_candidates": 808,
+  "selected_local_media_available": 0,
+  "media_note": "Selection is metadata-based; recorded media paths must be restored when absent",
+  "exclusions": {
+    "original_pilot": 50,
+    "eligible_metadata_with_missing_or_empty_media": 808
+  },
+  "source_sha256": {
+    "data\\FineVideo\\metadata.csv": "cd7072b39e7dc44f455d82ac2e21cbd4f6011ee46a819c36aaee80a11345c874",
+    "pilot_50_reels_30h\\pilot_metadata.csv": "d2537299ccfd043782d1c1c8b0724624ee5c66d45fde7aeeac3bf6224f04cbca"
+  },
+  "paths": "Project-root-relative; original source metadata unchanged",
+  "interpretation": "New pilot-independent holdout; no labels or model predictions used in selection"
+}

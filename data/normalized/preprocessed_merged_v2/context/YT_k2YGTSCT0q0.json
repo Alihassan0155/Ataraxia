@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_k2YGTSCT0q0",
+  "transcript": "This is just a regular light bulb, but I'm only interested in its insides. This is because I've been curious to see what happens if I plug it in without the bulb. It actually lasted a lot longer than I expected, but it basically just burned. There's one other thing that I've been really wanting to try though, and for that, I had to sacrifice another bulb. Then I got some liquid nitrogen, and I carefully lowered it in. Now if I turn it on, it doesn't just immediately burn. This is because the liquid nitrogen is surrounding the filament with nitrogen gas, and protecting it from air and oxygen. It's actually kind of acting like the bulb, which is often just filled with nitrogen gas, and I think this is pretty cool.",
+  "acoustic_features": {
+    "mean_loudness": 0.7567,
+    "loudness_variability": 0.8765,
+    "mean_pitch": 32.6768,
+    "pitch_variability": 0.2691,
+    "spectral_flux": 0.4177,
+    "sound_level_db": -20.2226
+  },
+  "metadata_caption": "Light bulb vs liquid nitrogen",
+  "caption_priority": "low"
+}

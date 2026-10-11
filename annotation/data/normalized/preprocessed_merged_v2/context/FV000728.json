@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000728",
+  "transcript": "This is horsehair worm, a parasite that takes over the brains of its hosts. These thin and wiry worms are found all over the world, and they have a remarkable life cycle that's both fascinating and terrifying. Horsehair worms start their lives as tiny eggs, which hatch into larvae that live in water. These larvae are eaten by insects like crickets and grasshoppers, which become the worm's host. The worm grows inside the host, feeding on its body fluids and eventually taking over its brain. Once the worm is fully grown, it forces the host to seek out water, where it can emerge and continue its life cycle. The host is often driven to suicide by the worm's control, jumping into water or drowning themselves. Despite their gruesome behavior, horsehair worms are not harmful to humans. They're actually a vital part of many ecosystems, controlling the population of their insect hosts.",
+  "acoustic_features": {
+    "mean_loudness": 0.9756,
+    "loudness_variability": 0.6047,
+    "mean_pitch": 26.5387,
+    "pitch_variability": 0.3388,
+    "spectral_flux": 0.4775,
+    "sound_level_db": -18.5759
+  },
+  "metadata_caption": "Mind-Blowing🤯 Discovery | Horsehair Worm🪱 Takes Over the Brains of Its Hosts!",
+  "caption_priority": "low"
+}

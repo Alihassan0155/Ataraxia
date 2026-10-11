@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_6Mz9Poqd8jM",
+  "transcript": "There's no way that works. All right, so supposedly, whenever you're cooking, you got a lot of oil, make a circle, place a small bowl in the circle, cover with a lid, wait a few minutes, remove all the food, and suddenly when you... What is this? What is this bull ? You put a bowl in there and then the oil just magically is like, yeah. Here's a hack, try doing this. There you go. You gotta wash one more thing.",
+  "acoustic_features": {
+    "mean_loudness": 1.223,
+    "loudness_variability": 0.6094,
+    "mean_pitch": 32.7777,
+    "pitch_variability": 0.301,
+    "spectral_flux": 0.7609,
+    "sound_level_db": -14.9725
+  },
+  "metadata_caption": "Oil hack",
+  "caption_priority": "low"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "annotator_count":  3,
+    "status":  "active_available_field_evaluation",
+    "full_50_video_reference_complete":  false,
+    "report":  "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/final_calibration_report.md",
+    "human_report":  "pilot_50_reels_30h/results/three_human_evaluation/reference/human_soft_reference_report.md",
+    "selection":  "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/selected_final_models.json",
+    "supersedes":  "all deleted two-human reference/calibration reports",
+    "full_dataset_annotation_started":  false
+}

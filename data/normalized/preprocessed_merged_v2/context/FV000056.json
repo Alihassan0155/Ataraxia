@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000056",
+  "transcript": "My husband and I decided we would retire and he died at 94. I didn't know what to do with myself. I met a lady in the church and she said, why don't you join us? I work for the police department. I said, I'm in my 70s. I'm too old for this. She said, so am I. You get a patrol car, 68,000 miles on it, slightly worn seats for somebody else. I had to go to school for 90 days. That's where I first got my physical therapy. It was very interesting. Interesting.",
+  "acoustic_features": {
+    "mean_loudness": 0.994,
+    "loudness_variability": 0.7045,
+    "mean_pitch": 31.2866,
+    "pitch_variability": 0.1568,
+    "spectral_flux": 0.6548,
+    "sound_level_db": -16.2532
+  },
+  "metadata_caption": "Never Too Old",
+  "caption_priority": "low"
+}

@@ -1,0 +1,3482 @@
+{
+  "status": "waiting_for_complete_valid_three_human_annotations",
+  "human_source_validation": {
+    "ali": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": [
+        {
+          "video_id": "YT_7FaYGOH-l38",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7476413217913326894",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000192",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000576",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7286566536716897579",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fcqOTqR91zc",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_WiBhWcqrhF0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_4wKlFrCQqsY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000751",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7666318750701899026",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000713",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_Qhe6NwhxzR0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_JNKTrpGZuRE",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000017",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000710",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000754",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7412881020309097771",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000487",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7440201647755644182",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_6830845109714603266",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7334130117947510059",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000968",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7452563112156335390",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fFxsSEPMChw",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_ZsGXMON0tE0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_jwPOnQyd-KI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000950",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qsB6qe88agI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7230453591952166149",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7399699023999028526",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_n_7u6j-hL4Q",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000982",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000494",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_yG34VsS6a0M",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7349704177645489454",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000348",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_tNVWGck2h3s",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7642012710061772063",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7339185620016713003",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000833",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_cZwZ00JgFTA",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fS-kTUefLNs",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_bczqDcxThT0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qPkMqHlWBZk",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7217108611061812506",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_QgKtTppkEXM",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7454613224718077227",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7494798372763716906",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_vJ_2PVStNHY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000089",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        }
+      ]
+    },
+    "ghayas": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": [
+        {
+          "video_id": "YT_7FaYGOH-l38",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7476413217913326894",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000192",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000576",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7286566536716897579",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fcqOTqR91zc",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_WiBhWcqrhF0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_4wKlFrCQqsY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000751",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7666318750701899026",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000713",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_Qhe6NwhxzR0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_JNKTrpGZuRE",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000017",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000710",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000754",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7412881020309097771",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000487",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7440201647755644182",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_6830845109714603266",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7334130117947510059",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000968",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7452563112156335390",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fFxsSEPMChw",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_ZsGXMON0tE0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_jwPOnQyd-KI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000950",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qsB6qe88agI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7230453591952166149",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7399699023999028526",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_n_7u6j-hL4Q",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000982",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000494",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_yG34VsS6a0M",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7349704177645489454",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000348",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_tNVWGck2h3s",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7642012710061772063",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7339185620016713003",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000833",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_cZwZ00JgFTA",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fS-kTUefLNs",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_bczqDcxThT0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qPkMqHlWBZk",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7217108611061812506",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_QgKtTppkEXM",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7454613224718077227",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7494798372763716906",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_vJ_2PVStNHY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000089",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        }
+      ]
+    },
+    "zara": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": [
+        {
+          "video_id": "YT_7FaYGOH-l38",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7476413217913326894",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000192",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000576",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7286566536716897579",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fcqOTqR91zc",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_WiBhWcqrhF0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_4wKlFrCQqsY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000751",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7666318750701899026",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000713",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_Qhe6NwhxzR0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_JNKTrpGZuRE",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000017",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000710",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000754",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7412881020309097771",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000487",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7440201647755644182",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_6830845109714603266",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7334130117947510059",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000968",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7452563112156335390",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fFxsSEPMChw",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_ZsGXMON0tE0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_jwPOnQyd-KI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000950",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qsB6qe88agI",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7230453591952166149",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7399699023999028526",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_n_7u6j-hL4Q",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000982",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000494",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_yG34VsS6a0M",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7349704177645489454",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000348",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_tNVWGck2h3s",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7642012710061772063",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7339185620016713003",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000833",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_cZwZ00JgFTA",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_fS-kTUefLNs",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_bczqDcxThT0",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_qPkMqHlWBZk",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7217108611061812506",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_QgKtTppkEXM",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7454613224718077227",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7494798372763716906",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_vJ_2PVStNHY",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "FV000089",
+          "occurrence": 1,
+          "errors": {
+            "valence": "missing or nonnumeric score",
+            "arousal": "missing or nonnumeric score",
+            "recovery": "missing or nonnumeric score",
+            "emotion_distribution": "missing or nonnumeric score",
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        }
+      ]
+    }
+  },
+  "field_errors": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000192",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000192",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000192",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000576",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000576",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000576",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000751",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000751",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000751",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000713",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000713",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000713",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000017",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000017",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000017",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000710",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000710",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000710",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000754",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000754",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000754",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000487",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000487",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000487",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000968",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000968",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000968",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000950",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000950",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000950",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000982",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000982",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000982",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000494",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000494",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000494",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000348",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000348",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000348",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000833",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000833",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000833",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000089",
+      "annotator": "ali",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000089",
+      "annotator": "ghayas",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    },
+    {
+      "video_id": "FV000089",
+      "annotator": "zara",
+      "errors": {
+        "valence": "missing or nonnumeric score",
+        "arousal": "missing or nonnumeric score",
+        "recovery": "missing or nonnumeric score",
+        "emotion_distribution": "missing or nonnumeric score",
+        "dominant_emotion": "unknown/missing dominant emotion"
+      }
+    }
+  ],
+  "evaluation_performed": false
+}

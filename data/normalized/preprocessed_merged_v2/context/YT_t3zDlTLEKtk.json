@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_t3zDlTLEKtk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.6452,
+    "loudness_variability": 0.5684,
+    "mean_pitch": 26.1424,
+    "pitch_variability": 0.4584,
+    "spectral_flux": 1.7805,
+    "sound_level_db": -9.5261
+  },
+  "metadata_caption": "Tackle every game day craving with a tailgate spread made with ShopRite favorites 🏈✨",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7600487145706392840",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.3205,
+    "loudness_variability": 0.4994,
+    "mean_pitch": 39.8863,
+    "pitch_variability": 0.1337,
+    "spectral_flux": 0.7854,
+    "sound_level_db": -17.8633
+  },
+  "metadata_caption": "In-swing magic from the attack bowler! 😎 #cricket ",
+  "caption_priority": "low"
+}

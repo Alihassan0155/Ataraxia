@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2l7WcKalmwE",
+  "transcript": "Donc...",
+  "acoustic_features": {
+    "mean_loudness": 0.0706,
+    "loudness_variability": 0.816,
+    "mean_pitch": 59.1098,
+    "pitch_variability": 0.0001,
+    "spectral_flux": 0.0128,
+    "sound_level_db": -52.2482
+  },
+  "metadata_caption": "ASMR | Super soft stretchy dough!",
+  "caption_priority": "low"
+}

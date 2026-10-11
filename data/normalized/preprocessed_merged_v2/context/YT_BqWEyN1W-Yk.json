@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_BqWEyN1W-Yk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.2327,
+    "loudness_variability": 1.6139,
+    "mean_pitch": 45.0241,
+    "pitch_variability": 0.1508,
+    "spectral_flux": 0.1327,
+    "sound_level_db": -28.8933
+  },
+  "metadata_caption": "Simon's Cat Vs Boxes",
+  "caption_priority": "low"
+}

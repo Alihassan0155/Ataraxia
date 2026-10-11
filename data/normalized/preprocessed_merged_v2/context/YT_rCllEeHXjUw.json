@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_rCllEeHXjUw",
+  "transcript": "Okay, they finally did it. I have a new feature enabled on my YouTube account that is like early access beta basically, but I think a lot of other creators will be very excited about this. Because two years ago we first saw thumbnail A-B testing, which is super useful. You can see which image works best, and it's why you might log in two different times and see two different thumbnails for the same new YouTube video. But the thing is, some thumbnails are so different from each other that you might actually use a different title to work with them, and so that's why we've been asking for title and thumbnail A-B testing, It's actually here. And so it looks like this you can actually try three different thumbnails and three different titles ABC testing and so you're testing each of them in pairs so you can see which pair of title and thumbnail works best Thank you YouTube",
+  "acoustic_features": {
+    "mean_loudness": 0.6668,
+    "loudness_variability": 0.7401,
+    "mean_pitch": 25.2368,
+    "pitch_variability": 0.1753,
+    "spectral_flux": 0.317,
+    "sound_level_db": -21.9078
+  },
+  "metadata_caption": "🚨 New YouTube Feature Alert 🚨",
+  "caption_priority": "low"
+}

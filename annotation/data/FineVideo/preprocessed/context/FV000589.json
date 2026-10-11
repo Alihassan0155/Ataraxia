@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000589",
+  "transcript": "Water survival training that we conducted, we implemented some of our simultaneous membership programs which is our 09 Romeo, our ROTC cadets and they give them some leadership opportunities so they became officers in charge of that program and then getting troops off-site to experience something that's just different. Even though it is water and I joined the army to specifically keep my boots dry, there are moments that you never know what you're going to be engaged with and the kind of operations and it's also the high stress get them to continue to operate in different stressful environments. You might find yourself in a situation that you need to know how to swim and you might be wearing all your tactical gear or something of that nature or help somebody out, you never know when that time will arise but we want to make sure that they have the training and ready to always be prepared.",
+  "acoustic_features": {
+    "mean_loudness": 0.7399,
+    "loudness_variability": 0.4574,
+    "mean_pitch": 22.7705,
+    "pitch_variability": 0.3064,
+    "spectral_flux": 0.4056,
+    "sound_level_db": -21.6238
+  },
+  "metadata_caption": "Water Survival Training in ROTC",
+  "caption_priority": "low"
+}

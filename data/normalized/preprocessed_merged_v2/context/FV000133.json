@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000133",
+  "transcript": "How far $10 will take us to India with this taxi? Ready? Ready. This is India. Hello. Hello, how are you? Very good. I love Indian people. They were so excited to see me in the richa. It's been almost an hour that we are in this richa and we only spent $3. It's so cheap, right? In the United States for one hour, $100. $100? We kept going for another 30 minutes, but then... Look guys, we are stuck in traffic. Hello friend. Hello. I'm a subscriber. He's taking a picture in the middle of the traffic, guys. I love you. Have a great day. The traffic started to move and I asked the driver if I could drive. I was so excited that I kissed him. So after three hours, we finally traveled 80 kilometers for $10. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.6614,
+    "loudness_variability": 0.3954,
+    "mean_pitch": 33.3878,
+    "pitch_variability": 0.2141,
+    "spectral_flux": 1.0734,
+    "sound_level_db": -13.8947
+  },
+  "metadata_caption": "I Traveled In India With Only $10",
+  "caption_priority": "low"
+}

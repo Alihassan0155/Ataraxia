@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__LEvy4A72Rk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.4163,
+    "loudness_variability": 0.224,
+    "mean_pitch": 27.8908,
+    "pitch_variability": 0.3044,
+    "spectral_flux": 1.4969,
+    "sound_level_db": -13.5891
+  },
+  "metadata_caption": "We want brain (cupcakes)! 🧟‍♂️🧁",
+  "caption_priority": "low"
+}

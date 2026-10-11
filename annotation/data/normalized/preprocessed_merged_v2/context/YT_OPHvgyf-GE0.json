@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_OPHvgyf-GE0",
+  "transcript": "Let's try out this giant fidget board.",
+  "acoustic_features": {
+    "mean_loudness": 0.3544,
+    "loudness_variability": 1.3351,
+    "mean_pitch": 26.1447,
+    "pitch_variability": 0.6625,
+    "spectral_flux": 0.1697,
+    "sound_level_db": -27.4823
+  },
+  "metadata_caption": "Let’s try this fidget board! #asmr #fidgetboard #busyboard #asmrsounds",
+  "caption_priority": "low"
+}

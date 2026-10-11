@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_McE6el9mn_I",
+  "transcript": "So you probably know those privacy screen protectors that are supposed to black out your screen from the side so no one can spy on you. Well this S26 Ultra obviously doesn't have a screen protector on it. But if I just turn on privacy screen, it turns off individual pixels to achieve the exact same effect, which is pretty sick. But not only that, since it's built into the display, you can have it turn on only when opening certain apps. like your banking app or messages or photos. But what's sick is you can have it just block out notifications as they come in or just the password field when entering a password. Honestly unreal levels of display innovation so that you can hide whatever you're hiding.",
+  "acoustic_features": {
+    "mean_loudness": 0.8257,
+    "loudness_variability": 0.81,
+    "mean_pitch": 24.2974,
+    "pitch_variability": 0.2108,
+    "spectral_flux": 0.4824,
+    "sound_level_db": -17.6165
+  },
+  "metadata_caption": "Samsung's Secret Screen Feature",
+  "caption_priority": "low"
+}

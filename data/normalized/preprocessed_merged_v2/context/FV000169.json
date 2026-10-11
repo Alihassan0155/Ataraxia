@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000169",
+  "transcript": "Who is the worst FNAF animatronic? Well, we can't decide who the worst is because everyone has their own personal opinions, but Google thinks that these are the worst ever. Now, you might be asking what animatronics are those? Well, according to Google, the worst animatronic is from Ultimate Custom Night. And the crazy thing is that this animatronic can't even kill you in the game, but it's just used as a distraction. And the only purpose of this animatronic is to add in new animatronics throughout the nights without telling the player what animatronic was added. So, with that information, everyone should know what the animatronic is, and it's obviously DB's nuts.",
+  "acoustic_features": {
+    "mean_loudness": 0.7972,
+    "loudness_variability": 0.4482,
+    "mean_pitch": 34.6614,
+    "pitch_variability": 0.1572,
+    "spectral_flux": 0.3913,
+    "sound_level_db": -22.0157
+  },
+  "metadata_caption": "Who Is The WORST FNAF Animatronic?",
+  "caption_priority": "low"
+}

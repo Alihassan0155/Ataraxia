@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pZYOl89mOLM",
+  "transcript": "Make it pop, make that pistol pop Bad boy finished, shot it from up, I didn't get it",
+  "acoustic_features": {
+    "mean_loudness": 2.2315,
+    "loudness_variability": 0.5187,
+    "mean_pitch": 18.7593,
+    "pitch_variability": 0.5131,
+    "spectral_flux": 2.6249,
+    "sound_level_db": -5.204
+  },
+  "metadata_caption": "backflip family",
+  "caption_priority": "low"
+}

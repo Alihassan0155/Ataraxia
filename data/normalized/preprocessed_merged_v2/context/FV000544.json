@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000544",
+  "transcript": "Oh, if I take care of everybody else, I'm a good person. You know what I mean? I put myself last. A lot of women are in my family. That's how we were raised. Especially Latinos. Like, you know, everybody comes before you. I'm last. I'll eat last. I'll get dressed last. I didn't even take a shower. It's fine. You know? Like, that's how you're raised. And you need, you come to the realization that, oh, it's not that. Like, I actually have to take care of myself so I can take care of everybody else better.",
+  "acoustic_features": {
+    "mean_loudness": 1.3754,
+    "loudness_variability": 0.5219,
+    "mean_pitch": 35.2914,
+    "pitch_variability": 0.1586,
+    "spectral_flux": 0.6989,
+    "sound_level_db": -18.1983
+  },
+  "metadata_caption": "You have to take care of yourself, otherwise you can’t take care of others.",
+  "caption_priority": "low"
+}

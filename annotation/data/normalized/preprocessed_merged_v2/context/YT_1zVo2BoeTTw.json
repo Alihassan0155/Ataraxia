@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1zVo2BoeTTw",
+  "transcript": "And then I go and spoil it all by saying something stupid like Where's the lamb sauce? Come on, man. I just need a... Where's the lamb sauce? Right here, chef. Lamb sauce is coming up. There's just nothing coming together. Right here, chef.",
+  "acoustic_features": {
+    "mean_loudness": 1.0578,
+    "loudness_variability": 0.4007,
+    "mean_pitch": 37.8127,
+    "pitch_variability": 0.1496,
+    "spectral_flux": 0.4084,
+    "sound_level_db": -22.6695
+  },
+  "metadata_caption": "I’m still looking for the lamb sauce….",
+  "caption_priority": "low"
+}

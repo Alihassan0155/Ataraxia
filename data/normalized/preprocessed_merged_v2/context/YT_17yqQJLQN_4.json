@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_17yqQJLQN_4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.1159,
+    "loudness_variability": 0.7442,
+    "mean_pitch": 18.0015,
+    "pitch_variability": 0.2839,
+    "spectral_flux": 1.0116,
+    "sound_level_db": -14.2252
+  },
+  "metadata_caption": "Do you dare open Pandora’s box?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,2380 @@
+{
+  "n": 50,
+  "sources": {
+    "Gemini": {
+      "path": "outputs/reels_30h/gemini/annotations.jsonl",
+      "sha256": "661b115a050a2af03e303938507ee803666dc004f79be186f545eec7d810199e"
+    },
+    "Qwen": {
+      "path": "pilot_50_reels_30h/results/pilot50_qwen_nf4_max32_limit15p8_v5/qwen/pilot/annotations.jsonl",
+      "sha256": "1a0bbb237a95bbbcc408109f53c9e044c577d3fed707a44bd29d8c4218df8935"
+    },
+    "InternVL": {
+      "path": "pilot_50_reels_30h/results/pilot50_cuda_nf4_qwen32_intern16_limit15p8_v5/internvl/pilot/annotations.jsonl",
+      "sha256": "e963fab2f8d3d35bf5a9c8ad6ae8e559d18088fccd8d3b37038d2acb921b074e"
+    }
+  },
+  "strong_limits": {
+    "valence": 0.2,
+    "arousal": 0.15,
+    "recovery_suitability": 0.15,
+    "emotion_tv": 0.2
+  },
+  "substantial_limits": {
+    "valence": 0.4,
+    "arousal": 0.3,
+    "recovery_suitability": 0.3,
+    "emotion_tv": 0.4
+  },
+  "distribution_normalization": {
+    "Gemini": [],
+    "Qwen": [],
+    "InternVL": []
+  },
+  "evidence_audit": {
+    "Gemini vs Qwen": {
+      "context_hash_matches": 50,
+      "prompt_hash_matches": 0
+    },
+    "Gemini vs InternVL": {
+      "context_hash_matches": 50,
+      "prompt_hash_matches": 0
+    },
+    "Qwen vs InternVL": {
+      "context_hash_matches": 50,
+      "prompt_hash_matches": 50
+    }
+  },
+  "categories": {
+    "all_three_substantially_disagree": 20,
+    "mixed_or_borderline": 25,
+    "two_agree_one_outlier": 5
+  },
+  "outlier_counts": {
+    "Gemini": 4,
+    "Qwen": 0,
+    "InternVL": 1
+  },
+  "pairs": {
+    "Gemini vs Qwen": {
+      "scalars": {
+        "valence": {
+          "mae": 0.2656,
+          "rmse": 0.31908619525137716,
+          "signed_bias_first_minus_second": -0.11839999999999999,
+          "within_threshold_count": 21,
+          "pearson_r": 0.7692111262681293,
+          "concordance_ccc": 0.6529225600335977
+        },
+        "arousal": {
+          "mae": 0.1396,
+          "rmse": 0.18738196284594735,
+          "signed_bias_first_minus_second": -0.052,
+          "within_threshold_count": 30,
+          "pearson_r": 0.7079219309281175,
+          "concordance_ccc": 0.5938555499005229
+        },
+        "recovery_suitability": {
+          "mae": 0.3456,
+          "rmse": 0.4086269692519083,
+          "signed_bias_first_minus_second": 0.3072,
+          "within_threshold_count": 12,
+          "pearson_r": 0.5139898272189513,
+          "concordance_ccc": 0.2848258493378334
+        }
+      },
+      "dominant_agreement_count": 28,
+      "dominant_agreement_fraction": 0.56,
+      "dominant_cohen_kappa": 0.312070043777361,
+      "mean_emotion_tv": 0.4546,
+      "mean_emotion_jsd_bits": 0.29317549966124157,
+      "strong_agreement_count": 1,
+      "substantial_disagreement_count": 40,
+      "emotion_mean_absolute_differences": {
+        "joy": 0.2402,
+        "sadness": 0.0428,
+        "anger": 0.0536,
+        "fear_anxiety": 0.0436,
+        "surprise": 0.08800000000000001,
+        "disgust": 0.0336,
+        "calm_contentment": 0.2212,
+        "neutral": 0.1862
+      },
+      "dominant_confusion_matrix": {
+        "joy": {
+          "joy": 20,
+          "neutral": 1,
+          "sadness": 1,
+          "anger": 1,
+          "disgust": 1
+        },
+        "sadness": {
+          "sadness": 1
+        },
+        "anger": {},
+        "fear_anxiety": {
+          "fear_anxiety": 1
+        },
+        "surprise": {
+          "anger": 1
+        },
+        "disgust": {},
+        "calm_contentment": {
+          "neutral": 1,
+          "joy": 8,
+          "sadness": 1
+        },
+        "neutral": {
+          "neutral": 6,
+          "joy": 5,
+          "anger": 1,
+          "fear_anxiety": 1
+        }
+      }
+    },
+    "Gemini vs InternVL": {
+      "scalars": {
+        "valence": {
+          "mae": 0.2364,
+          "rmse": 0.33183730953586277,
+          "signed_bias_first_minus_second": 0.0656,
+          "within_threshold_count": 30,
+          "pearson_r": 0.6493366595138255,
+          "concordance_ccc": 0.5823009332946927
+        },
+        "arousal": {
+          "mae": 0.21239999999999998,
+          "rmse": 0.2434584153402794,
+          "signed_bias_first_minus_second": -0.19799999999999998,
+          "within_threshold_count": 20,
+          "pearson_r": 0.5608234298364043,
+          "concordance_ccc": 0.30031164415903294
+        },
+        "recovery_suitability": {
+          "mae": 0.2108,
+          "rmse": 0.2696219575628068,
+          "signed_bias_first_minus_second": 0.1032,
+          "within_threshold_count": 23,
+          "pearson_r": 0.48967960044195064,
+          "concordance_ccc": 0.4344413809414152
+        }
+      },
+      "dominant_agreement_count": 13,
+      "dominant_agreement_fraction": 0.26,
+      "dominant_cohen_kappa": 0.05612244897959185,
+      "mean_emotion_tv": 0.4692,
+      "mean_emotion_jsd_bits": 0.26444644055861066,
+      "strong_agreement_count": 1,
+      "substantial_disagreement_count": 33,
+      "emotion_mean_absolute_differences": {
+        "joy": 0.2064,
+        "sadness": 0.0576,
+        "anger": 0.0996,
+        "fear_anxiety": 0.0662,
+        "surprise": 0.12240000000000001,
+        "disgust": 0.0546,
+        "calm_contentment": 0.1584,
+        "neutral": 0.1732
+      },
+      "dominant_confusion_matrix": {
+        "joy": {
+          "disgust": 3,
+          "joy": 11,
+          "anger": 4,
+          "surprise": 3,
+          "fear_anxiety": 2,
+          "sadness": 1
+        },
+        "sadness": {
+          "sadness": 1
+        },
+        "anger": {},
+        "fear_anxiety": {
+          "anger": 1
+        },
+        "surprise": {
+          "anger": 1
+        },
+        "disgust": {},
+        "calm_contentment": {
+          "sadness": 2,
+          "joy": 7,
+          "calm_contentment": 1
+        },
+        "neutral": {
+          "disgust": 1,
+          "joy": 3,
+          "surprise": 4,
+          "calm_contentment": 1,
+          "fear_anxiety": 2,
+          "anger": 1,
+          "sadness": 1
+        }
+      }
+    },
+    "Qwen vs InternVL": {
+      "scalars": {
+        "valence": {
+          "mae": 0.24,
+          "rmse": 0.3351119216023208,
+          "signed_bias_first_minus_second": 0.184,
+          "within_threshold_count": 28,
+          "pearson_r": 0.7978032207741748,
+          "concordance_ccc": 0.7324699951877951
+        },
+        "arousal": {
+          "mae": 0.172,
+          "rmse": 0.2395829710142188,
+          "signed_bias_first_minus_second": -0.146,
+          "within_threshold_count": 34,
+          "pearson_r": 0.6529265854132584,
+          "concordance_ccc": 0.4719799830739228
+        },
+        "recovery_suitability": {
+          "mae": 0.234,
+          "rmse": 0.3152776554086889,
+          "signed_bias_first_minus_second": -0.20400000000000001,
+          "within_threshold_count": 19,
+          "pearson_r": 0.6632989858634659,
+          "concordance_ccc": 0.5280151946818613
+        }
+      },
+      "dominant_agreement_count": 26,
+      "dominant_agreement_fraction": 0.52,
+      "dominant_cohen_kappa": 0.3177942012507107,
+      "mean_emotion_tv": 0.436,
+      "mean_emotion_jsd_bits": 0.3044554975773763,
+      "strong_agreement_count": 7,
+      "substantial_disagreement_count": 32,
+      "emotion_mean_absolute_differences": {
+        "joy": 0.197,
+        "sadness": 0.052000000000000005,
+        "anger": 0.098,
+        "fear_anxiety": 0.083,
+        "surprise": 0.088,
+        "disgust": 0.061000000000000006,
+        "calm_contentment": 0.08800000000000001,
+        "neutral": 0.20500000000000002
+      },
+      "dominant_confusion_matrix": {
+        "joy": {
+          "disgust": 2,
+          "joy": 21,
+          "surprise": 4,
+          "fear_anxiety": 2,
+          "sadness": 1,
+          "anger": 2,
+          "calm_contentment": 1
+        },
+        "sadness": {
+          "surprise": 1,
+          "sadness": 2
+        },
+        "anger": {
+          "disgust": 1,
+          "anger": 2
+        },
+        "fear_anxiety": {
+          "anger": 1,
+          "fear_anxiety": 1
+        },
+        "surprise": {},
+        "disgust": {
+          "anger": 1
+        },
+        "calm_contentment": {},
+        "neutral": {
+          "disgust": 1,
+          "anger": 1,
+          "sadness": 2,
+          "calm_contentment": 1,
+          "fear_anxiety": 1,
+          "surprise": 2
+        }
+      }
+    }
+  },
+  "models": {
+    "Gemini": {
+      "scalar_means": {
+        "valence": 0.3646,
+        "arousal": 0.42,
+        "recovery_suitability": 0.5072
+      },
+      "zero_recovery_count": 0,
+      "dominant_counts": {
+        "joy": 24,
+        "neutral": 13,
+        "calm_contentment": 10,
+        "fear_anxiety": 1,
+        "sadness": 1,
+        "surprise": 1
+      },
+      "mean_emotions": {
+        "joy": 0.3466,
+        "sadness": 0.0208,
+        "anger": 0.0188,
+        "fear_anxiety": 0.032,
+        "surprise": 0.0824,
+        "disgust": 0.0156,
+        "calm_contentment": 0.2372,
+        "neutral": 0.2466
+      }
+    },
+    "Qwen": {
+      "scalar_means": {
+        "valence": 0.483,
+        "arousal": 0.472,
+        "recovery_suitability": 0.2
+      },
+      "zero_recovery_count": 32,
+      "dominant_counts": {
+        "joy": 33,
+        "neutral": 8,
+        "sadness": 3,
+        "anger": 3,
+        "fear_anxiety": 2,
+        "disgust": 1
+      },
+      "mean_emotions": {
+        "joy": 0.46599999999999997,
+        "sadness": 0.044000000000000004,
+        "anger": 0.048,
+        "fear_anxiety": 0.034,
+        "surprise": 0.10200000000000001,
+        "disgust": 0.02,
+        "calm_contentment": 0.016,
+        "neutral": 0.27
+      }
+    },
+    "InternVL": {
+      "scalar_means": {
+        "valence": 0.299,
+        "arousal": 0.618,
+        "recovery_suitability": 0.404
+      },
+      "zero_recovery_count": 3,
+      "dominant_counts": {
+        "disgust": 4,
+        "joy": 21,
+        "anger": 7,
+        "sadness": 5,
+        "surprise": 7,
+        "calm_contentment": 2,
+        "fear_anxiety": 4
+      },
+      "mean_emotions": {
+        "joy": 0.317,
+        "sadness": 0.068,
+        "anger": 0.11,
+        "fear_anxiety": 0.07100000000000001,
+        "surprise": 0.184,
+        "disgust": 0.053000000000000005,
+        "calm_contentment": 0.10400000000000001,
+        "neutral": 0.093
+      }
+    }
+  },
+  "videos": [
+    {
+      "video_id": "FV000012",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.020000000000000018,
+          "arousal": 0.08000000000000002,
+          "recovery_suitability": 0.76,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.177794633471327,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2875
+        },
+        "Gemini vs InternVL": {
+          "valence": 1.08,
+          "arousal": 0.43,
+          "recovery_suitability": 0.51,
+          "emotion_tv": 0.8,
+          "emotion_jsd_bits": 0.6427376486136671,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.5700000000000001
+        },
+        "Qwen vs InternVL": {
+          "valence": 1.1,
+          "arousal": 0.35,
+          "recovery_suitability": 0.25,
+          "emotion_tv": 0.7,
+          "emotion_jsd_bits": 0.5501768788825183,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4625
+        }
+      }
+    },
+    {
+      "video_id": "FV000776",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.12,
+          "arousal": 0.05999999999999994,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.18999999999999997,
+          "emotion_jsd_bits": 0.10758291724092235,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.1475
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.17000000000000004,
+          "arousal": 0.10999999999999999,
+          "recovery_suitability": 0.21999999999999997,
+          "emotion_tv": 0.07,
+          "emotion_jsd_bits": 0.02486777810139558,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.12125
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.050000000000000044,
+          "arousal": 0.050000000000000044,
+          "recovery_suitability": 0.5,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.11553900857950047,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.19375000000000003
+        }
+      }
+    },
+    {
+      "video_id": "FV000380",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.05,
+          "arousal": 0.18,
+          "recovery_suitability": 0.65,
+          "emotion_tv": 0.4,
+          "emotion_jsd_bits": 0.23645279766002797,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.31375000000000003
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.45,
+          "arousal": 0.5700000000000001,
+          "recovery_suitability": 0.65,
+          "emotion_tv": 0.74,
+          "emotion_jsd_bits": 0.4975254702334131,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.54625
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.5,
+          "arousal": 0.75,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.9,
+          "emotion_jsd_bits": 0.7582766571931676,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.475
+        }
+      }
+    },
+    {
+      "video_id": "FV000363",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.26,
+          "arousal": 0.04999999999999999,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.46,
+          "emotion_jsd_bits": 0.2826672564437823,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.16
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.10999999999999999,
+          "arousal": 0.04999999999999999,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.33,
+          "emotion_jsd_bits": 0.11770272011859337,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.13375000000000004
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.15000000000000002,
+          "arousal": 0.0,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.20000000000000007,
+          "emotion_jsd_bits": 0.11466190090559905,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.09375000000000004
+        }
+      }
+    },
+    {
+      "video_id": "FV000537",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.35,
+          "arousal": 0.58,
+          "recovery_suitability": 0.22,
+          "emotion_tv": 0.86,
+          "emotion_jsd_bits": 0.6936956313574918,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.45875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.04999999999999999,
+          "arousal": 0.12,
+          "recovery_suitability": 0.01999999999999999,
+          "emotion_tv": 0.36,
+          "emotion_jsd_bits": 0.15021261331636393,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.13124999999999998
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.7,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.9,
+          "emotion_jsd_bits": 0.7582766571931676,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4875
+        }
+      }
+    },
+    {
+      "video_id": "FV000198",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.21,
+          "arousal": 0.28,
+          "recovery_suitability": 0.58,
+          "emotion_tv": 0.72,
+          "emotion_jsd_bits": 0.5149577839754269,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.42125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.51,
+          "arousal": 0.12,
+          "recovery_suitability": 0.37999999999999995,
+          "emotion_tv": 0.7,
+          "emotion_jsd_bits": 0.5135538700274364,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.36374999999999996
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.4,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 1.0,
+          "emotion_jsd_bits": 1.0,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4375
+        }
+      }
+    },
+    {
+      "video_id": "FV000073",
+      "classification": "two_agree_one_outlier",
+      "outlier": "Gemini",
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.13,
+          "arousal": 0.03,
+          "recovery_suitability": 0.09999999999999998,
+          "emotion_tv": 0.62,
+          "emotion_jsd_bits": 0.32481484978367703,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.20375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.13,
+          "arousal": 0.18000000000000002,
+          "recovery_suitability": 0.04999999999999993,
+          "emotion_tv": 0.52,
+          "emotion_jsd_bits": 0.2470320566830107,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.20375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.15000000000000002,
+          "recovery_suitability": 0.050000000000000044,
+          "emotion_tv": 0.09999999999999998,
+          "emotion_jsd_bits": 0.010545735074006746,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.07500000000000001
+        }
+      }
+    },
+    {
+      "video_id": "FV000770",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.25,
+          "arousal": 0.020000000000000018,
+          "recovery_suitability": 0.65,
+          "emotion_tv": 0.63,
+          "emotion_jsd_bits": 0.391522512784538,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.35625
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.30000000000000004,
+          "arousal": 0.43,
+          "recovery_suitability": 0.15000000000000002,
+          "emotion_tv": 0.33,
+          "emotion_jsd_bits": 0.1025198149290377,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.265
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.050000000000000044,
+          "arousal": 0.45,
+          "recovery_suitability": 0.8,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.17678032766449223,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.39375000000000004
+        }
+      }
+    },
+    {
+      "video_id": "FV000942",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.04999999999999999,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.58,
+          "emotion_jsd_bits": 0.44685653939128955,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.04999999999999999,
+          "arousal": 0.19999999999999996,
+          "recovery_suitability": 0.09999999999999998,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.10946488067035504,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.15624999999999997
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.3929145274961855,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2
+        }
+      }
+    },
+    {
+      "video_id": "FV000978",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.6699999999999999,
+          "arousal": 0.35000000000000003,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.63,
+          "emotion_jsd_bits": 0.3409862685976275,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.39875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.12,
+          "arousal": 0.35000000000000003,
+          "recovery_suitability": 0.18,
+          "emotion_tv": 0.42,
+          "emotion_jsd_bits": 0.15766349406857394,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2525
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.55,
+          "arousal": 0.0,
+          "recovery_suitability": 0.1,
+          "emotion_tv": 0.49999999999999994,
+          "emotion_jsd_bits": 0.2511146985656271,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.21875
+        }
+      }
+    },
+    {
+      "video_id": "FV000134",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.10999999999999999,
+          "arousal": 0.08000000000000002,
+          "recovery_suitability": 0.020000000000000018,
+          "emotion_tv": 0.34,
+          "emotion_jsd_bits": 0.2231647932328284,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.12375000000000001
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.010000000000000009,
+          "arousal": 0.21999999999999997,
+          "recovery_suitability": 0.08000000000000007,
+          "emotion_tv": 0.24000000000000002,
+          "emotion_jsd_bits": 0.11475207775314886,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.13625
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.3,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.07728840592845163,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.16250000000000003
+        }
+      }
+    },
+    {
+      "video_id": "FV000472",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.07999999999999999,
+          "arousal": 0.08000000000000002,
+          "recovery_suitability": 0.68,
+          "emotion_tv": 0.44,
+          "emotion_jsd_bits": 0.2653737423509377,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.31
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.07999999999999999,
+          "arousal": 0.31999999999999995,
+          "recovery_suitability": 0.019999999999999907,
+          "emotion_tv": 0.36000000000000004,
+          "emotion_jsd_bits": 0.1492204119578231,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.18499999999999997
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.39999999999999997,
+          "recovery_suitability": 0.7,
+          "emotion_tv": 0.8,
+          "emotion_jsd_bits": 0.6099865470109875,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.475
+        }
+      }
+    },
+    {
+      "video_id": "FV000304",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.31999999999999995,
+          "arousal": 0.03999999999999998,
+          "recovery_suitability": 0.68,
+          "emotion_tv": 0.65,
+          "emotion_jsd_bits": 0.43223409871561114,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3825
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.37,
+          "arousal": 0.49,
+          "recovery_suitability": 0.18000000000000005,
+          "emotion_tv": 0.55,
+          "emotion_jsd_bits": 0.25304498241720735,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.35125
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.050000000000000044,
+          "arousal": 0.45,
+          "recovery_suitability": 0.5,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.1340426790508251,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.31875
+        }
+      }
+    },
+    {
+      "video_id": "FV000254",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.47,
+          "arousal": 0.13,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.35,
+          "emotion_jsd_bits": 0.1636487309981967,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.22875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.08000000000000002,
+          "arousal": 0.13,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.22,
+          "emotion_jsd_bits": 0.06896285374855282,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.0975
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.55,
+          "arousal": 0.0,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.28386580016830676,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.24375000000000002
+        }
+      }
+    },
+    {
+      "video_id": "FV000650",
+      "classification": "two_agree_one_outlier",
+      "outlier": "Gemini",
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.22999999999999998,
+          "arousal": 0.06999999999999995,
+          "recovery_suitability": 0.06999999999999995,
+          "emotion_tv": 0.6,
+          "emotion_jsd_bits": 0.41540217734798435,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.21374999999999997
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.030000000000000027,
+          "arousal": 0.21999999999999997,
+          "recovery_suitability": 0.06999999999999995,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.22909200563747728,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.20124999999999998
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.19999999999999996,
+          "arousal": 0.15000000000000002,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.10000000000000005,
+          "emotion_jsd_bits": 0.052406276013772485,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.08750000000000001
+        }
+      }
+    },
+    {
+      "video_id": "FV000275",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.44999999999999996,
+          "arousal": 0.02999999999999997,
+          "recovery_suitability": 0.04999999999999993,
+          "emotion_tv": 0.6,
+          "emotion_jsd_bits": 0.3954809979608194,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.22624999999999995
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.35,
+          "arousal": 0.27999999999999997,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.6,
+          "emotion_jsd_bits": 0.28678517748004523,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.28875
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.25,
+          "recovery_suitability": 0.15000000000000002,
+          "emotion_tv": 0.1,
+          "emotion_jsd_bits": 0.062255624891826566,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.1375
+        }
+      }
+    },
+    {
+      "video_id": "FV000954",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.2699999999999999,
+          "arousal": 0.16000000000000003,
+          "recovery_suitability": 0.22,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.0903656750674448,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.17875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.06999999999999995,
+          "arousal": 0.16000000000000003,
+          "recovery_suitability": 0.07999999999999999,
+          "emotion_tv": 0.20000000000000004,
+          "emotion_jsd_bits": 0.11306560433608462,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.11875000000000001
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.19999999999999996,
+          "arousal": 0.0,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.20000000000000004,
+          "emotion_jsd_bits": 0.03485155455967723,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.15
+        }
+      }
+    },
+    {
+      "video_id": "FV000087",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.37,
+          "arousal": 0.010000000000000009,
+          "recovery_suitability": 0.22000000000000003,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.1662306645131119,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.17875000000000002
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.27,
+          "arousal": 0.13999999999999996,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.09116796579371994,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.21375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.14999999999999997,
+          "recovery_suitability": 0.5,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.07728840592845163,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.22499999999999998
+        }
+      }
+    },
+    {
+      "video_id": "FV000359",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.07999999999999996,
+          "arousal": 0.0,
+          "recovery_suitability": 0.08000000000000007,
+          "emotion_tv": 0.44999999999999996,
+          "emotion_jsd_bits": 0.20489410195100594,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.14250000000000002
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.13,
+          "arousal": 0.10000000000000003,
+          "recovery_suitability": 0.08000000000000007,
+          "emotion_tv": 0.35,
+          "emotion_jsd_bits": 0.1166643242981095,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.14875000000000002
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.050000000000000044,
+          "arousal": 0.10000000000000003,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.09999999999999999,
+          "emotion_jsd_bits": 0.05328338368767391,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.05625000000000001
+        }
+      }
+    },
+    {
+      "video_id": "FV000004",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.27999999999999997,
+          "arousal": 0.18,
+          "recovery_suitability": 0.55,
+          "emotion_tv": 0.88,
+          "emotion_jsd_bits": 0.8472905595320057,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.37999999999999995,
+          "arousal": 0.27999999999999997,
+          "recovery_suitability": 0.45000000000000007,
+          "emotion_tv": 0.8200000000000001,
+          "emotion_jsd_bits": 0.6698873808457386,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.435
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.1,
+          "emotion_tv": 0.7000000000000001,
+          "emotion_jsd_bits": 0.5350569848576601,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.23750000000000002
+        }
+      }
+    },
+    {
+      "video_id": "FV000367",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.07999999999999999,
+          "arousal": 0.15999999999999998,
+          "recovery_suitability": 0.58,
+          "emotion_tv": 0.36000000000000004,
+          "emotion_jsd_bits": 0.20887600542705528,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.285
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.07999999999999999,
+          "arousal": 0.25999999999999995,
+          "recovery_suitability": 0.37999999999999995,
+          "emotion_tv": 0.6000000000000001,
+          "emotion_jsd_bits": 0.32896228634830793,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.32
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.7000000000000001,
+          "emotion_jsd_bits": 0.5735337493509595,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25
+        }
+      }
+    },
+    {
+      "video_id": "FV000151",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.31999999999999995,
+          "arousal": 0.19999999999999996,
+          "recovery_suitability": 0.22,
+          "emotion_tv": 0.20999999999999996,
+          "emotion_jsd_bits": 0.0936020861386288,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.19749999999999998
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.019999999999999962,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.01999999999999999,
+          "emotion_tv": 0.33,
+          "emotion_jsd_bits": 0.18633728647212677,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.11499999999999999
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.29999999999999993,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.17678032766449223,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.2375
+        }
+      }
+    },
+    {
+      "video_id": "FV000308",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.32000000000000006,
+          "arousal": 0.37,
+          "recovery_suitability": 0.08,
+          "emotion_tv": 0.39,
+          "emotion_jsd_bits": 0.20945789349596156,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.020000000000000018,
+          "arousal": 0.27,
+          "recovery_suitability": 0.020000000000000004,
+          "emotion_tv": 0.64,
+          "emotion_jsd_bits": 0.3550221147464239,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.23500000000000001
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.30000000000000004,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.1,
+          "emotion_tv": 0.7999999999999999,
+          "emotion_jsd_bits": 0.6204996036901914,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2875
+        }
+      }
+    },
+    {
+      "video_id": "FV000131",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.4,
+          "arousal": 0.010000000000000009,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.32,
+          "emotion_jsd_bits": 0.17950586688332165,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.2025
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.15000000000000002,
+          "arousal": 0.03999999999999998,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.1288050993068058,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.17375000000000002
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.25,
+          "arousal": 0.04999999999999999,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.20000000000000007,
+          "emotion_jsd_bits": 0.11466190090559905,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.09375000000000001
+        }
+      }
+    },
+    {
+      "video_id": "FV000814",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.27,
+          "arousal": 0.27,
+          "recovery_suitability": 0.49999999999999994,
+          "emotion_tv": 0.54,
+          "emotion_jsd_bits": 0.35060134575837976,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.36125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.17000000000000004,
+          "arousal": 0.21999999999999997,
+          "recovery_suitability": 0.29999999999999993,
+          "emotion_tv": 0.32,
+          "emotion_jsd_bits": 0.1230139878364234,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.23124999999999998
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.050000000000000044,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.39999999999999997,
+          "emotion_jsd_bits": 0.20439808225330097,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.175
+        }
+      }
+    },
+    {
+      "video_id": "FV000081",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.17000000000000004,
+          "arousal": 0.14999999999999997,
+          "recovery_suitability": 0.6,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.10239117611181317,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.27999999999999997,
+          "arousal": 0.24999999999999994,
+          "recovery_suitability": 0.39999999999999997,
+          "emotion_tv": 0.53,
+          "emotion_jsd_bits": 0.3163695378984236,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.32999999999999996
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.45,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.23505698485765988,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25625
+        }
+      }
+    },
+    {
+      "video_id": "FV000662",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.12,
+          "arousal": 0.16000000000000003,
+          "recovery_suitability": 0.42,
+          "emotion_tv": 0.28,
+          "emotion_jsd_bits": 0.11965259866476502,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.23
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.06999999999999995,
+          "arousal": 0.11000000000000004,
+          "recovery_suitability": 0.33,
+          "emotion_tv": 0.38,
+          "emotion_jsd_bits": 0.14998917411884694,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.21375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.050000000000000044,
+          "arousal": 0.04999999999999999,
+          "recovery_suitability": 0.75,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.17678032766449225,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.28125
+        }
+      }
+    },
+    {
+      "video_id": "FV000895",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.21999999999999997,
+          "arousal": 0.12,
+          "recovery_suitability": 0.42,
+          "emotion_tv": 0.3,
+          "emotion_jsd_bits": 0.1782697288954393,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.08000000000000002,
+          "arousal": 0.21999999999999997,
+          "recovery_suitability": 0.21999999999999997,
+          "emotion_tv": 0.65,
+          "emotion_jsd_bits": 0.4185898450658738,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2825
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.6,
+          "emotion_jsd_bits": 0.4754887502163468,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2625
+        }
+      }
+    },
+    {
+      "video_id": "FV001003",
+      "classification": "two_agree_one_outlier",
+      "outlier": "Gemini",
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.65,
+          "arousal": 0.43,
+          "recovery_suitability": 0.52,
+          "emotion_tv": 0.75,
+          "emotion_jsd_bits": 0.5873395422522589,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.50625
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.65,
+          "arousal": 0.43,
+          "recovery_suitability": 0.52,
+          "emotion_tv": 0.8200000000000001,
+          "emotion_jsd_bits": 0.6489374277200999,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.52375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.0,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.15000000000000002,
+          "emotion_jsd_bits": 0.10975898813907972,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.037500000000000006
+        }
+      }
+    },
+    {
+      "video_id": "FV000097",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.13,
+          "arousal": 0.16999999999999993,
+          "recovery_suitability": 0.24,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.07039374035788612,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.16874999999999998
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.32,
+          "arousal": 0.06999999999999995,
+          "recovery_suitability": 0.03999999999999998,
+          "emotion_tv": 0.55,
+          "emotion_jsd_bits": 0.3286463377189171,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.205
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.45,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.38676687467547977,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25625
+        }
+      }
+    },
+    {
+      "video_id": "FV000393",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.31999999999999995,
+          "arousal": 0.010000000000000009,
+          "recovery_suitability": 0.58,
+          "emotion_tv": 0.26999999999999996,
+          "emotion_jsd_bits": 0.12291449095669776,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.255
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.019999999999999962,
+          "arousal": 0.29,
+          "recovery_suitability": 0.37999999999999995,
+          "emotion_tv": 0.52,
+          "emotion_jsd_bits": 0.27772776086150114,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.3,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.2950067264945062,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2875
+        }
+      }
+    },
+    {
+      "video_id": "FV000998",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.10999999999999999,
+          "arousal": 0.27,
+          "recovery_suitability": 0.48000000000000004,
+          "emotion_tv": 0.46,
+          "emotion_jsd_bits": 0.28266725644378227,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.31625000000000003
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.10999999999999999,
+          "arousal": 0.37,
+          "recovery_suitability": 0.18000000000000005,
+          "emotion_tv": 0.31,
+          "emotion_jsd_bits": 0.10278192783590465,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.22875
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.20000000000000007,
+          "emotion_jsd_bits": 0.11466190090559905,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.15000000000000002
+        }
+      }
+    },
+    {
+      "video_id": "FV000366",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.13,
+          "arousal": 0.02999999999999997,
+          "recovery_suitability": 0.17000000000000004,
+          "emotion_tv": 0.14000000000000004,
+          "emotion_jsd_bits": 0.07813390643458798,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.10125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.06999999999999995,
+          "arousal": 0.07999999999999996,
+          "recovery_suitability": 0.12,
+          "emotion_tv": 0.12999999999999998,
+          "emotion_jsd_bits": 0.033024974199293386,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.09124999999999997
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.19999999999999996,
+          "arousal": 0.04999999999999999,
+          "recovery_suitability": 0.050000000000000044,
+          "emotion_tv": 0.15000000000000002,
+          "emotion_jsd_bits": 0.08060668692836509,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.08750000000000001
+        }
+      }
+    },
+    {
+      "video_id": "FV000849",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.22000000000000003,
+          "arousal": 0.040000000000000036,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.12000000000000001,
+          "emotion_jsd_bits": 0.05962500814509714,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.1375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.8200000000000001,
+          "arousal": 0.10999999999999999,
+          "recovery_suitability": 0.08000000000000002,
+          "emotion_tv": 0.67,
+          "emotion_jsd_bits": 0.49120001062561114,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3175
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.6,
+          "arousal": 0.15000000000000002,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.7,
+          "emotion_jsd_bits": 0.5929145274961856,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3375
+        }
+      }
+    },
+    {
+      "video_id": "FV000983",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.16999999999999993,
+          "arousal": 0.17000000000000004,
+          "recovery_suitability": 0.38,
+          "emotion_tv": 0.08000000000000002,
+          "emotion_jsd_bits": 0.044015242116956586,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.17875000000000002
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.38000000000000006,
+          "arousal": 0.12,
+          "recovery_suitability": 0.18,
+          "emotion_tv": 0.72,
+          "emotion_jsd_bits": 0.4746528176957178,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3025
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.55,
+          "arousal": 0.050000000000000044,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.7000000000000001,
+          "emotion_jsd_bits": 0.47678032766449224,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.30625
+        }
+      }
+    },
+    {
+      "video_id": "FV000674",
+      "classification": "two_agree_one_outlier",
+      "outlier": "Gemini",
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.17000000000000004,
+          "arousal": 0.030000000000000027,
+          "recovery_suitability": 0.050000000000000044,
+          "emotion_tv": 0.56,
+          "emotion_jsd_bits": 0.2610350839736679,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.18125000000000002
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.07000000000000006,
+          "arousal": 0.12,
+          "recovery_suitability": 0.050000000000000044,
+          "emotion_tv": 0.46,
+          "emotion_jsd_bits": 0.18980675878728914,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.16625
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.15000000000000002,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.09999999999999998,
+          "emotion_jsd_bits": 0.010545735074006746,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.075
+        }
+      }
+    },
+    {
+      "video_id": "FV000013",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.3,
+          "arousal": 0.020000000000000018,
+          "recovery_suitability": 0.68,
+          "emotion_tv": 0.35,
+          "emotion_jsd_bits": 0.21033165571585888,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.21999999999999997,
+          "recovery_suitability": 0.28,
+          "emotion_tv": 0.35,
+          "emotion_jsd_bits": 0.1643098320630909,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.2125
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.19999999999999996,
+          "recovery_suitability": 0.4,
+          "emotion_tv": 0.4,
+          "emotion_jsd_bits": 0.2062848509536391,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2875
+        }
+      }
+    },
+    {
+      "video_id": "FV000079",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.48,
+          "arousal": 0.08000000000000002,
+          "recovery_suitability": 0.32000000000000006,
+          "emotion_tv": 0.48,
+          "emotion_jsd_bits": 0.2626681896435982,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.28
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.48,
+          "arousal": 0.12,
+          "recovery_suitability": 0.21999999999999997,
+          "emotion_tv": 0.6000000000000001,
+          "emotion_jsd_bits": 0.3601767917711872,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.29500000000000004
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.2,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.4,
+          "emotion_jsd_bits": 0.1991993784498246,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.17500000000000004
+        }
+      }
+    },
+    {
+      "video_id": "FV000133",
+      "classification": "two_agree_one_outlier",
+      "outlier": "InternVL",
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.16999999999999993,
+          "arousal": 0.030000000000000027,
+          "recovery_suitability": 0.15,
+          "emotion_tv": 0.10000000000000002,
+          "emotion_jsd_bits": 0.04736632198681417,
+          "dominant_match": true,
+          "strong": true,
+          "substantial": false,
+          "composite_distance": 0.09125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.06999999999999995,
+          "arousal": 0.12,
+          "recovery_suitability": 0.44999999999999996,
+          "emotion_tv": 0.09000000000000002,
+          "emotion_jsd_bits": 0.021051743555316974,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.17375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.15000000000000002,
+          "recovery_suitability": 0.6,
+          "emotion_tv": 0.10000000000000005,
+          "emotion_jsd_bits": 0.052406276013772485,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.225
+        }
+      }
+    },
+    {
+      "video_id": "FV001015",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.32999999999999996,
+          "arousal": 0.27,
+          "recovery_suitability": 0.35,
+          "emotion_tv": 0.17999999999999997,
+          "emotion_jsd_bits": 0.0806139122268956,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.24125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.32,
+          "arousal": 0.31999999999999995,
+          "recovery_suitability": 0.24999999999999997,
+          "emotion_tv": 0.52,
+          "emotion_jsd_bits": 0.3124397341785288,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3125
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.6499999999999999,
+          "arousal": 0.04999999999999993,
+          "recovery_suitability": 0.1,
+          "emotion_tv": 0.6,
+          "emotion_jsd_bits": 0.4825742227201614,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.26875
+        }
+      }
+    },
+    {
+      "video_id": "FV000033",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.019999999999999962,
+          "arousal": 0.019999999999999962,
+          "recovery_suitability": 0.45,
+          "emotion_tv": 0.78,
+          "emotion_jsd_bits": 0.6509535281138752,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.315
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.5800000000000001,
+          "arousal": 0.18,
+          "recovery_suitability": 0.25,
+          "emotion_tv": 0.75,
+          "emotion_jsd_bits": 0.5263255172471129,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3675
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.6,
+          "arousal": 0.19999999999999996,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.7000000000000001,
+          "emotion_jsd_bits": 0.5012915774481455,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.35
+        }
+      }
+    },
+    {
+      "video_id": "FV000811",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.62,
+          "arousal": 0.32000000000000006,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.92,
+          "emotion_jsd_bits": 0.7985859145216029,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4625
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.62,
+          "arousal": 0.27,
+          "recovery_suitability": 0.04999999999999999,
+          "emotion_tv": 0.6900000000000001,
+          "emotion_jsd_bits": 0.5202260152039153,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.33
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.050000000000000044,
+          "recovery_suitability": 0.25,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.31127812445913283,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2
+        }
+      }
+    },
+    {
+      "video_id": "FV000120",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.53,
+          "arousal": 0.32999999999999996,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.47,
+          "emotion_jsd_bits": 0.20584007939547685,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.34125
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.43000000000000005,
+          "arousal": 0.22999999999999998,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.48000000000000004,
+          "emotion_jsd_bits": 0.21528792481581172,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.23125
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.09999999999999998,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.3,
+          "emotion_tv": 0.2,
+          "emotion_jsd_bits": 0.11553900857950047,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.16249999999999998
+        }
+      }
+    },
+    {
+      "video_id": "FV000744",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.73,
+          "arousal": 0.07,
+          "recovery_suitability": 0.37,
+          "emotion_tv": 0.57,
+          "emotion_jsd_bits": 0.3001338948667211,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.34375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.53,
+          "arousal": 0.18,
+          "recovery_suitability": 0.42000000000000004,
+          "emotion_tv": 0.4699999999999999,
+          "emotion_jsd_bits": 0.21369981713187025,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.33375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.19999999999999996,
+          "arousal": 0.25,
+          "recovery_suitability": 0.050000000000000044,
+          "emotion_tv": 0.10000000000000005,
+          "emotion_jsd_bits": 0.052406276013772485,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.12500000000000003
+        }
+      }
+    },
+    {
+      "video_id": "FV000544",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.12,
+          "arousal": 0.040000000000000036,
+          "recovery_suitability": 0.7,
+          "emotion_tv": 0.75,
+          "emotion_jsd_bits": 0.6628282924686058,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.12,
+          "arousal": 0.14,
+          "recovery_suitability": 0.49999999999999994,
+          "emotion_tv": 0.72,
+          "emotion_jsd_bits": 0.5474481006209195,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.355
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.2,
+          "emotion_tv": 0.20000000000000007,
+          "emotion_jsd_bits": 0.11466190090559905,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.125
+        }
+      }
+    },
+    {
+      "video_id": "FV000031",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.22,
+          "arousal": 0.2,
+          "recovery_suitability": 0.72,
+          "emotion_tv": 0.52,
+          "emotion_jsd_bits": 0.327323604495017,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.3875
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.07999999999999999,
+          "arousal": 0.2,
+          "recovery_suitability": 0.020000000000000018,
+          "emotion_tv": 0.48000000000000004,
+          "emotion_jsd_bits": 0.23815036236262555,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.18500000000000003
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.4,
+          "recovery_suitability": 0.7,
+          "emotion_tv": 0.9,
+          "emotion_jsd_bits": 0.7582766571931676,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.5375
+        }
+      }
+    },
+    {
+      "video_id": "FV000320",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.12,
+          "arousal": 0.13,
+          "recovery_suitability": 0.15,
+          "emotion_tv": 0.67,
+          "emotion_jsd_bits": 0.46392066401381615,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.2525
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.12,
+          "arousal": 0.13,
+          "recovery_suitability": 0.1,
+          "emotion_tv": 0.38,
+          "emotion_jsd_bits": 0.15021601457269057,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.1675
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.0,
+          "arousal": 0.0,
+          "recovery_suitability": 0.25,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.31127812445913283,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.1875
+        }
+      }
+    },
+    {
+      "video_id": "FV000241",
+      "classification": "all_three_substantially_disagree",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.15,
+          "arousal": 0.06,
+          "recovery_suitability": 0.10000000000000009,
+          "emotion_tv": 0.51,
+          "emotion_jsd_bits": 0.319251458951278,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.18625000000000003
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.35,
+          "arousal": 0.03999999999999998,
+          "recovery_suitability": 0.49999999999999994,
+          "emotion_tv": 0.66,
+          "emotion_jsd_bits": 0.38914284224254314,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.34375
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.5,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.6000000000000001,
+          "emotion_tv": 0.9,
+          "emotion_jsd_bits": 0.7582766571931677,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.4625
+        }
+      }
+    },
+    {
+      "video_id": "FV000015",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.57,
+          "arousal": 0.19,
+          "recovery_suitability": 0.21999999999999997,
+          "emotion_tv": 0.32,
+          "emotion_jsd_bits": 0.1548581562515834,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.25375
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.019999999999999962,
+          "arousal": 0.29,
+          "recovery_suitability": 0.21999999999999997,
+          "emotion_tv": 0.39999999999999997,
+          "emotion_jsd_bits": 0.27289284799263624,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.22999999999999998
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.55,
+          "arousal": 0.09999999999999998,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.34902249956730624,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.21875
+        }
+      }
+    },
+    {
+      "video_id": "FV000001",
+      "classification": "mixed_or_borderline",
+      "outlier": null,
+      "pairs": {
+        "Gemini vs Qwen": {
+          "valence": 0.35,
+          "arousal": 0.12,
+          "recovery_suitability": 0.08000000000000007,
+          "emotion_tv": 0.73,
+          "emotion_jsd_bits": 0.5042016059785808,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.27625
+        },
+        "Gemini vs InternVL": {
+          "valence": 0.04999999999999999,
+          "arousal": 0.22000000000000003,
+          "recovery_suitability": 0.08000000000000007,
+          "emotion_tv": 0.23000000000000004,
+          "emotion_jsd_bits": 0.08116400590496241,
+          "dominant_match": true,
+          "strong": false,
+          "substantial": false,
+          "composite_distance": 0.13875000000000004
+        },
+        "Qwen vs InternVL": {
+          "valence": 0.3,
+          "arousal": 0.10000000000000003,
+          "recovery_suitability": 0.0,
+          "emotion_tv": 0.5,
+          "emotion_jsd_bits": 0.3174257772798386,
+          "dominant_match": false,
+          "strong": false,
+          "substantial": true,
+          "composite_distance": 0.1875
+        }
+      }
+    }
+  ]
+}

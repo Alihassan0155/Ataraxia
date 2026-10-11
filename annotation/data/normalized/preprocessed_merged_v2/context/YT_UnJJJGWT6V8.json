@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_UnJJJGWT6V8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 3.1492,
+    "loudness_variability": 0.2889,
+    "mean_pitch": 32.6452,
+    "pitch_variability": 0.4631,
+    "spectral_flux": 2.3403,
+    "sound_level_db": -8.6349
+  },
+  "metadata_caption": "#fun #family #shorts",
+  "caption_priority": "low"
+}

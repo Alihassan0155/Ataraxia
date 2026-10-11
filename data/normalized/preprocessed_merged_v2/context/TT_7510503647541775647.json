@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7510503647541775647",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.2977,
+    "loudness_variability": 0.3311,
+    "mean_pitch": 17.6134,
+    "pitch_variability": 0.2108,
+    "spectral_flux": 0.9512,
+    "sound_level_db": -16.7849
+  },
+  "metadata_caption": "#fyp #nyc #travel ",
+  "caption_priority": "low"
+}

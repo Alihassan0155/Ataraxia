@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Pe4Uh74Ef7U",
+  "transcript": "Bye.",
+  "acoustic_features": {
+    "mean_loudness": 0.3719,
+    "loudness_variability": 1.1263,
+    "mean_pitch": 45.5048,
+    "pitch_variability": 0.1989,
+    "spectral_flux": 0.1768,
+    "sound_level_db": -28.0806
+  },
+  "metadata_caption": "Cats in Summer  #shortsfeed",
+  "caption_priority": "low"
+}

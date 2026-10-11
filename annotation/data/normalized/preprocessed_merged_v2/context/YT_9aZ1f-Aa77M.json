@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_9aZ1f-Aa77M",
+  "transcript": "I can mix you up a little. Is this expired? This might even seem early. That's supposed to make you...",
+  "acoustic_features": {
+    "mean_loudness": 0.4012,
+    "loudness_variability": 0.5855,
+    "mean_pitch": 50.4402,
+    "pitch_variability": 0.1661,
+    "spectral_flux": 0.1595,
+    "sound_level_db": -33.8931
+  },
+  "metadata_caption": "ASMR - This will concoction will cure you (allegedly)",
+  "caption_priority": "low"
+}

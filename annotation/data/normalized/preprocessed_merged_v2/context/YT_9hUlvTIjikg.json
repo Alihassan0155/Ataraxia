@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_9hUlvTIjikg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.842,
+    "loudness_variability": 0.5302,
+    "mean_pitch": 19.4796,
+    "pitch_variability": 0.2384,
+    "spectral_flux": 0.5594,
+    "sound_level_db": -17.9125
+  },
+  "metadata_caption": "Customize your balloons using a glue stick and glitter 🎈✨",
+  "caption_priority": "low"
+}

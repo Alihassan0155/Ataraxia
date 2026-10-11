@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_IQGz8W4tbPc",
+  "transcript": "I want you to just follow the light. Keep following it. I'm going to erase these now. Just follow the light with your eyes. Okay.",
+  "acoustic_features": {
+    "mean_loudness": 0.1305,
+    "loudness_variability": 0.8477,
+    "mean_pitch": 32.8866,
+    "pitch_variability": 0.1049,
+    "spectral_flux": 0.0368,
+    "sound_level_db": -36.2151
+  },
+  "metadata_caption": "ASMR - Follow the Light!",
+  "caption_priority": "low"
+}

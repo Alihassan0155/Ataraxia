@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_s8qxN-pScHc",
+  "transcript": "1000 exercise balls!",
+  "acoustic_features": {
+    "mean_loudness": 1.0809,
+    "loudness_variability": 0.7136,
+    "mean_pitch": 47.6296,
+    "pitch_variability": 0.2215,
+    "spectral_flux": 0.9557,
+    "sound_level_db": -13.2939
+  },
+  "metadata_caption": "Things Vs Exercise Ball Pit 🟢",
+  "caption_priority": "low"
+}

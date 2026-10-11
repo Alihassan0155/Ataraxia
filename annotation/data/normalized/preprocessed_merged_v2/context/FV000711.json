@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000711",
+  "transcript": "On my wedding day, I asked my dad, right? And we've all heard this one. I was like, Dad, what can you tell me? He said, mijo, happy wife, happy life. Right? I was like, what about happy husband? He laughed his balls off during the whole ceremony. Every time the priest said something, he's like, ha, ha, ha, ha, ha, ha.",
+  "acoustic_features": {
+    "mean_loudness": 1.1414,
+    "loudness_variability": 0.5424,
+    "mean_pitch": 31.7062,
+    "pitch_variability": 0.2212,
+    "spectral_flux": 0.5809,
+    "sound_level_db": -18.4033
+  },
+  "metadata_caption": "On My wedding day  | Erik Rivera",
+  "caption_priority": "low"
+}

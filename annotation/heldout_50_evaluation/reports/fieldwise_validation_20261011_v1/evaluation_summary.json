@@ -1,0 +1,426 @@
+{
+  "status": "qualified_evaluation_incomplete_human_fields",
+  "coverage": {
+    "valence": 50,
+    "arousal": 50,
+    "recovery_suitability": 50,
+    "emotion_distribution": 48,
+    "dominant_ali": 0,
+    "dominant_ghayas": 50,
+    "dominant_zara": 50,
+    "pooled_dominant": 48,
+    "joint_ranking": 48
+  },
+  "raw_ranking": [
+    "gemini",
+    "internvl",
+    "qwen"
+  ],
+  "frozen_calibrated_ranking": [
+    "internvl",
+    "gemini",
+    "qwen"
+  ],
+  "nominal_recommended_pair": [
+    "internvl",
+    "gemini"
+  ],
+  "pair_status": "qualified pending human corrections",
+  "inconclusive_calibrated_pairs": [
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "calibrated",
+      "metric": "scalar_plus_tv_composite",
+      "difference_first_minus_second": 0.0006542564404621587,
+      "ci_lower": -0.020003981455345977,
+      "ci_upper": 0.022093048164725477,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    }
+  ],
+  "ranking_weights": {
+    "scalar_alignment_mean": 0.4,
+    "emotion_tv": 0.25,
+    "high_uncertainty_composite": 0.15,
+    "mean_absolute_scalar_bias": 0.1,
+    "worst_scalar_normalized_mae": 0.1
+  },
+  "ranking_subset_n": 48,
+  "calibration_changes": [
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "valence_mae",
+      "difference_first_minus_second": -0.28618011105502283,
+      "ci_lower": -0.35491253575635195,
+      "ci_upper": -0.21416153962645132,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "arousal_mae",
+      "difference_first_minus_second": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "recovery_suitability_mae",
+      "difference_first_minus_second": -0.2775358674135873,
+      "ci_lower": -0.33336556712267296,
+      "ci_upper": -0.21900623101643715,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "emotion_tv",
+      "difference_first_minus_second": -0.11105601342851779,
+      "ci_lower": -0.12934766446070292,
+      "ci_upper": -0.09025428841798101,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "emotion_jsd",
+      "difference_first_minus_second": -0.11620724450119146,
+      "ci_lower": -0.13883124913140607,
+      "ci_upper": -0.09132224830500754,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "qwen",
+      "first_variant": "calibrated",
+      "second_model": "qwen",
+      "second_variant": "raw",
+      "metric": "scalar_plus_tv_composite",
+      "difference_first_minus_second": -0.13222463124921974,
+      "ci_lower": -0.14836584044976991,
+      "ci_upper": -0.11488945169550357,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "valence_mae",
+      "difference_first_minus_second": -0.22301183017506093,
+      "ci_lower": -0.2780969935553306,
+      "ci_upper": -0.16302142372099582,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "arousal_mae",
+      "difference_first_minus_second": -0.13342684164479443,
+      "ci_lower": -0.16842269641294835,
+      "ci_upper": -0.09830012073490817,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "recovery_suitability_mae",
+      "difference_first_minus_second": -0.11949963278730406,
+      "ci_lower": -0.1551908305925429,
+      "ci_upper": -0.08130531021489934,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "emotion_tv",
+      "difference_first_minus_second": -0.09287634888779317,
+      "ci_lower": -0.11859217837782694,
+      "ci_upper": -0.06542785090957291,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "emotion_jsd",
+      "difference_first_minus_second": -0.07974434567943661,
+      "ci_lower": -0.10385136427306983,
+      "ci_upper": -0.05583970861087911,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "internvl",
+      "first_variant": "calibrated",
+      "second_model": "internvl",
+      "second_variant": "raw",
+      "metric": "scalar_plus_tv_composite",
+      "difference_first_minus_second": -0.11262049091449261,
+      "ci_lower": -0.1320511299832871,
+      "ci_upper": -0.09259265250182012,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "valence_mae",
+      "difference_first_minus_second": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "arousal_mae",
+      "difference_first_minus_second": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "recovery_suitability_mae",
+      "difference_first_minus_second": -0.058251741055369136,
+      "ci_lower": -0.08742945742578272,
+      "ci_upper": -0.027387582374167694,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "emotion_tv",
+      "difference_first_minus_second": 0.0,
+      "ci_lower": -5.551115123125783e-17,
+      "ci_upper": 0.0,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "emotion_jsd",
+      "difference_first_minus_second": 0.0,
+      "ci_lower": -2.7755575615628914e-17,
+      "ci_upper": 2.7755575615628914e-17,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": true,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    },
+    {
+      "first_model": "gemini",
+      "first_variant": "calibrated",
+      "second_model": "gemini",
+      "second_variant": "raw",
+      "metric": "scalar_plus_tv_composite",
+      "difference_first_minus_second": -0.014348815699289252,
+      "ci_lower": -0.02182773590439096,
+      "ci_upper": -0.006634651676426543,
+      "valid_bootstrap_draws": 5000,
+      "higher_is_better": false,
+      "interval_includes_zero": false,
+      "interpretation": "Paired percentile CI conditional on fixed pilot calibration and held-out sample; excludes refitting and model-selection uncertainty"
+    }
+  ],
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 20261009,
+    "confidence": 0.95,
+    "method": "paired video-level percentile; identical sampled IDs for model/variant differences; fixed frozen calibration; no refitting",
+    "undefined_correlations": "omit degenerate bootstrap draws and report valid draw count"
+  },
+  "source_hashes": {
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ali_annotation.json": "d9709189ed7380aeb968da405339d0168ff56ca605047227ac0264f28fb3e920",
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ghayas_annotation.csv": "40cb1156ba36b43fa6b6f9d60aa919c675be2b723060c90895258b4506b34597",
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\zara_annotation.txt": "3d5512fd0a6e5edcaefc5a2b7040c912b0b504ce15c79bb18126abe06b2f7da6",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\qwen\\pilot\\annotations.jsonl": "926bea10fa022783a9d95d1cdbe8878e87a73ca303002c2b26216e59eaa521b9",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\internvl\\pilot\\annotations.jsonl": "0d1842e42da1baf1d8e68f9bc6ddeefaac781ab99d1e0c0de66be2e5adb902a1",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\gemini\\annotations.jsonl": "26c33e4c2a6a304608a63ea35f33ef75ed8bc88bdd8a5cca92475ac710dcf2d1",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\config\\frozen_config.json": "a7b03955c8490aa687751af8b41bc894f94df484edb33988ec41f8d7e3f40280",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\config\\pilot_calibration_and_selection.json": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\config\\freeze_manifest.json": "04dc193903268c03b32405a036a7725a0eb3587729ae273c10b8e279c8d36e62"
+  },
+  "evaluation_script_sha256": "b626d3564f341a2149479aa59dcef10dcbb707cd6ec6b67404613fe03b74bb2d",
+  "calibration_refitted": false,
+  "uncertainty_bins": {
+    "medium": 19,
+    "low": 18,
+    "high": 11,
+    "null": 2
+  },
+  "configuration_gaps": [
+    "qwen: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "internvl: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "Gemini: historical provider revision and video sampling/generation defaults unlogged; matching the historical deployment cannot be proven",
+    "Shared context does not mean identical direct modality access: Gemini hears raw audio, CUDA models do not",
+    "No ID or exact-byte overlap; creator/repost/near-duplicate leakage is not certified by byte hashing"
+  ],
+  "runtime": [
+    {
+      "model": "qwen",
+      "timing_n": 50,
+      "sum_seconds": 15543.607837199994,
+      "median_seconds": 85.6585564500001,
+      "max_seconds": 1488.462893,
+      "normalized_records": 0,
+      "reliability_versions": {
+        "not_logged": 50
+      },
+      "repair_versions": {
+        "not_logged": 50
+      },
+      "timing_limit": "Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries."
+    },
+    {
+      "model": "internvl",
+      "timing_n": 50,
+      "sum_seconds": 35120.25491039999,
+      "median_seconds": 478.6660384000006,
+      "max_seconds": 1993.9778800000004,
+      "normalized_records": 0,
+      "reliability_versions": {
+        "not_logged": 50
+      },
+      "repair_versions": {
+        "not_logged": 49,
+        "normalize_after_two_repairs_v3": 1
+      },
+      "timing_limit": "Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries."
+    },
+    {
+      "model": "gemini",
+      "timing_n": 50,
+      "sum_seconds": 3304.471534199997,
+      "median_seconds": 39.62275559999989,
+      "max_seconds": 320.2092912999942,
+      "normalized_records": 0,
+      "reliability_versions": {
+        "not_logged": 14,
+        "hard_per_key_failover_v4": 35,
+        "timeouts_and_stage_logs_v2": 1
+      },
+      "repair_versions": {
+        "not_logged": 50
+      },
+      "timing_limit": "Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries."
+    }
+  ],
+  "full_dataset_annotation_started": false,
+  "ready_for_full_dataset": false,
+  "reference": "Three independent human perceptions, not perfect ground truth.",
+  "deviations": [
+    "Field-specific exclusions for invalid human labels; no two-human fallback.",
+    "Joint ranking uses complete three-human scalar/distribution subset, matching development convention.",
+    "Ghayas nine IDs corrected with user authorization; original backup and correction mapping retained.",
+    "Reliability amendments v2/v3/v4 changed timeout/key-failover and InternVL repair policy after failures."
+  ],
+  "frozen_calibration_methods": {
+    "qwen": {
+      "valence": "linear",
+      "arousal": "raw",
+      "recovery_suitability": "linear",
+      "emotions": "offset"
+    },
+    "internvl": {
+      "valence": "linear",
+      "arousal": "linear",
+      "recovery_suitability": "linear",
+      "emotions": "offset"
+    },
+    "gemini": {
+      "valence": "raw",
+      "arousal": "raw",
+      "recovery_suitability": "linear",
+      "emotions": "raw"
+    }
+  },
+  "mean_human_uncertainty": {
+    "valence_uncertainty": 1.1333333333333333,
+    "arousal_uncertainty": 1.5599999999999996,
+    "recovery_suitability_uncertainty": 1.3866666666666665,
+    "emotion_tv": 0.49444444444444446,
+    "emotion_jsd": 0.356447376553844
+  }
+}

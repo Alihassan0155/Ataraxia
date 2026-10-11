@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_HG7THSOVw_s",
+  "transcript": "You",
+  "acoustic_features": {
+    "mean_loudness": 2.3237,
+    "loudness_variability": 0.3523,
+    "mean_pitch": 20.2396,
+    "pitch_variability": 0.4635,
+    "spectral_flux": 2.5941,
+    "sound_level_db": -6.7486
+  },
+  "metadata_caption": "Learn these camping knots—subscribe @pepperell.crafts to master the outdoors! ⛺",
+  "caption_priority": "low"
+}

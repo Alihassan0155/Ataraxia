@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000919",
+  "transcript": "Have you ever thought about where the fat goes when you lose weight? And no, you don't poop it out. Because that's definitely what I thought. So, recap. For the most part, when we gain weight, it's our body storing excess fuel as fat so we can use it as energy later. Well, when you eventually burn that fat for energy, there are two byproducts, water and carbon dioxide. The water is sweated or peed out, but 84% of it is breathed out. What? I know.",
+  "acoustic_features": {
+    "mean_loudness": 0.6302,
+    "loudness_variability": 0.6868,
+    "mean_pitch": 28.8784,
+    "pitch_variability": 0.1948,
+    "spectral_flux": 0.3309,
+    "sound_level_db": -23.7655
+  },
+  "metadata_caption": "What happens to fat when you lose weight is pretty wild.",
+  "caption_priority": "low"
+}

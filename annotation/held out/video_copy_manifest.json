@@ -1,0 +1,355 @@
+{
+  "copied_and_verified": 50,
+  "files": [
+    {
+      "video_id": "FV000028",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000028.mp4",
+      "destination": "held out/video/FV000028.mp4",
+      "size_bytes": 2143691,
+      "sha256": "e98ce7d87adb020473f711bdbeb08ec71d9f7bba91ebbd00df02d61de5d40acb"
+    },
+    {
+      "video_id": "FV000498",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000498.mp4",
+      "destination": "held out/video/FV000498.mp4",
+      "size_bytes": 805548,
+      "sha256": "5b92f7ec63f9661ac8175c329e3ac89c5c77a37810947d8f5a92ab3bf5729fce"
+    },
+    {
+      "video_id": "FV000118",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000118.mp4",
+      "destination": "held out/video/FV000118.mp4",
+      "size_bytes": 7959803,
+      "sha256": "d173f03ff6cca57b8f1963e69457d9d948ec7bb9635a5c082d1ed1abbf1058c7"
+    },
+    {
+      "video_id": "FV000368",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000368.mp4",
+      "destination": "held out/video/FV000368.mp4",
+      "size_bytes": 1409460,
+      "sha256": "99f1673621f94612100afd74611a1e3ec45c2128a98b052c973366243ca740d2"
+    },
+    {
+      "video_id": "FV000386",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000386.mp4",
+      "destination": "held out/video/FV000386.mp4",
+      "size_bytes": 4349633,
+      "sha256": "2277f71347c8f5ae8ca8687aeacb76303efb2faee9ba20f90d97d20c586dbeaa"
+    },
+    {
+      "video_id": "FV000552",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000552.mp4",
+      "destination": "held out/video/FV000552.mp4",
+      "size_bytes": 7127651,
+      "sha256": "8f8fe9ded3f1aa9eeeace00839f47b042b81e7b1ab10a1d4e03279eab572bae5"
+    },
+    {
+      "video_id": "FV000800",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000800.mp4",
+      "destination": "held out/video/FV000800.mp4",
+      "size_bytes": 5903731,
+      "sha256": "f6ca365e9a5e34fba6cbac9f89218ecbfe2a89c3a207256e46b2a36ce9ec7d64"
+    },
+    {
+      "video_id": "FV001024",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV001024.mp4",
+      "destination": "held out/video/FV001024.mp4",
+      "size_bytes": 930014,
+      "sha256": "e162e9819f0b84aa343720c0730b45b9581ade4f2a0b203964fec2f338120996"
+    },
+    {
+      "video_id": "FV000808",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000808.mp4",
+      "destination": "held out/video/FV000808.mp4",
+      "size_bytes": 3863986,
+      "sha256": "ef08347381ca0ae0f2dda6e02763012cbd8dab6f645b6c356e6dde2f3096a78e"
+    },
+    {
+      "video_id": "FV001019",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV001019.mp4",
+      "destination": "held out/video/FV001019.mp4",
+      "size_bytes": 2228504,
+      "sha256": "67d9eceb881322cc0c0ca98aa7da6b853ca36a3c1ee884808451a5d695f08581"
+    },
+    {
+      "video_id": "FV000035",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000035.mp4",
+      "destination": "held out/video/FV000035.mp4",
+      "size_bytes": 2233687,
+      "sha256": "e74b4cf10c941bface68491eb0535c435531e422747f18491359b3037d663d94"
+    },
+    {
+      "video_id": "FV000158",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000158.mp4",
+      "destination": "held out/video/FV000158.mp4",
+      "size_bytes": 578059,
+      "sha256": "12cc460861dfa4af7c39e87fc600e5f18128cd36a4b5caeaf42535425ec7d7d9"
+    },
+    {
+      "video_id": "FV000865",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000865.mp4",
+      "destination": "held out/video/FV000865.mp4",
+      "size_bytes": 2150328,
+      "sha256": "e3c3600a7c5659f4a41b90a1fcb42da59d69fa923893eed9218ce7648a792f23"
+    },
+    {
+      "video_id": "FV000474",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000474.mp4",
+      "destination": "held out/video/FV000474.mp4",
+      "size_bytes": 1275082,
+      "sha256": "ac5c116bf33b65855a6df312e9657bc40a035e4b36461e7fa5053465a523a3aa"
+    },
+    {
+      "video_id": "FV000821",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000821.mp4",
+      "destination": "held out/video/FV000821.mp4",
+      "size_bytes": 2352375,
+      "sha256": "71e541f1821f3623a817ff96c8b089f9df5aabfd89d0f95af6e4f83f8544edbf"
+    },
+    {
+      "video_id": "FV000126",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000126.mp4",
+      "destination": "held out/video/FV000126.mp4",
+      "size_bytes": 1136043,
+      "sha256": "b0e241b5a19129ccf436806620c882b6a9bd3b0445bd1e3f5e73dab193206e17"
+    },
+    {
+      "video_id": "FV001009",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV001009.mp4",
+      "destination": "held out/video/FV001009.mp4",
+      "size_bytes": 3219444,
+      "sha256": "ae9dbcec76e80b84988a984474bf080ff170c197b7a664287a7e30c557ade831"
+    },
+    {
+      "video_id": "FV000213",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000213.mp4",
+      "destination": "held out/video/FV000213.mp4",
+      "size_bytes": 3714403,
+      "sha256": "a5c4c4dbbe16208dabda7c8aaae5a811b1ebdf2380b4c57f54c3ddd134186d38"
+    },
+    {
+      "video_id": "FV001002",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV001002.mp4",
+      "destination": "held out/video/FV001002.mp4",
+      "size_bytes": 4117953,
+      "sha256": "600f55cd66ec0ac65efccc259c13f644d1d3c2e1502735e9e1754bb7e838d182"
+    },
+    {
+      "video_id": "FV000659",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000659.mp4",
+      "destination": "held out/video/FV000659.mp4",
+      "size_bytes": 2414652,
+      "sha256": "1efb4ebfaea4c39c71ce2a135fbd783dde41ec132d821a7f388b528c0669343b"
+    },
+    {
+      "video_id": "FV000943",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000943.mp4",
+      "destination": "held out/video/FV000943.mp4",
+      "size_bytes": 3003574,
+      "sha256": "d2289ed223eddc1d2bb0d141e27812ed40a58bf75277eb51170a7dade1916173"
+    },
+    {
+      "video_id": "FV000091",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000091.mp4",
+      "destination": "held out/video/FV000091.mp4",
+      "size_bytes": 3183337,
+      "sha256": "1c7096fad340001e892e8f38aeb05d1760af6e384aee5c1ab353a417d92f6cac"
+    },
+    {
+      "video_id": "FV000123",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000123.mp4",
+      "destination": "held out/video/FV000123.mp4",
+      "size_bytes": 3909735,
+      "sha256": "1b714bb37b77d59aec0246490ce52132344dd70951642e1409fd52130da96377"
+    },
+    {
+      "video_id": "FV000111",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000111.mp4",
+      "destination": "held out/video/FV000111.mp4",
+      "size_bytes": 1983734,
+      "sha256": "f61fafbc0e0ee52596369cc2a8132a8c226869ace1dd4aa829064e14e6f972b8"
+    },
+    {
+      "video_id": "FV000423",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000423.mp4",
+      "destination": "held out/video/FV000423.mp4",
+      "size_bytes": 1935306,
+      "sha256": "5fcfc0e54856f482daa299db7cd358fc41b82b1ffb4c19700ae3ce00e99003df"
+    },
+    {
+      "video_id": "FV000130",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000130.mp4",
+      "destination": "held out/video/FV000130.mp4",
+      "size_bytes": 2910712,
+      "sha256": "05e1cae13e17d096ae1c58913b7dc2fb75135f29ac825245b2aeba3fc4334350"
+    },
+    {
+      "video_id": "FV000156",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000156.mp4",
+      "destination": "held out/video/FV000156.mp4",
+      "size_bytes": 2568575,
+      "sha256": "2d309eef9cc8ed87f413bd1c0d62d569aef6feb0aff923988aa36b8409539ffb"
+    },
+    {
+      "video_id": "FV000114",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000114.mp4",
+      "destination": "held out/video/FV000114.mp4",
+      "size_bytes": 4439803,
+      "sha256": "06c16484201e0e9185ec226f6b175e323e723de7cab497a5fafae531d9c12ee3"
+    },
+    {
+      "video_id": "FV000215",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000215.mp4",
+      "destination": "held out/video/FV000215.mp4",
+      "size_bytes": 4452643,
+      "sha256": "00112b7fc84dd796919f969418f2407f5ec000745443b51173adc3e411fd3da6"
+    },
+    {
+      "video_id": "FV000211",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000211.mp4",
+      "destination": "held out/video/FV000211.mp4",
+      "size_bytes": 1888628,
+      "sha256": "0acfc22ad74c25a8b727ff3bbeb9f7055ad17cef88084879f5e1e4eac18acdfd"
+    },
+    {
+      "video_id": "FV000216",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000216.mp4",
+      "destination": "held out/video/FV000216.mp4",
+      "size_bytes": 4987253,
+      "sha256": "0aad4ec8dd6c7b510940373e533cdad9a7d671c69570ebb3aa8b9c60910c9222"
+    },
+    {
+      "video_id": "FV000312",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000312.mp4",
+      "destination": "held out/video/FV000312.mp4",
+      "size_bytes": 4506565,
+      "sha256": "4d3e6ce4598162b3584f2276670dbd14fa59ebdf254301db3c55f656d116a944"
+    },
+    {
+      "video_id": "FV000543",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000543.mp4",
+      "destination": "held out/video/FV000543.mp4",
+      "size_bytes": 7210603,
+      "sha256": "6691403d7fc20992b1ae0da72748e9683de09fb0557e13edaf47fe397e38979e"
+    },
+    {
+      "video_id": "FV000569",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000569.mp4",
+      "destination": "held out/video/FV000569.mp4",
+      "size_bytes": 2160213,
+      "sha256": "3c81caeefed815b4d9f81326e5669f3ff04b682e5e9195ec2ffb860287acb500"
+    },
+    {
+      "video_id": "FV000919",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000919.mp4",
+      "destination": "held out/video/FV000919.mp4",
+      "size_bytes": 1239723,
+      "sha256": "a6ef69b145f92b442d2510c758d4e0cca1ec5d65e96583ed11dc7aa105fa3b5d"
+    },
+    {
+      "video_id": "FV000003",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000003.mp4",
+      "destination": "held out/video/FV000003.mp4",
+      "size_bytes": 2982976,
+      "sha256": "37cc695d8c084e1881385e120495dedd4b3cc17e2aa449bfb7c6256d039fd359"
+    },
+    {
+      "video_id": "FV000153",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000153.mp4",
+      "destination": "held out/video/FV000153.mp4",
+      "size_bytes": 4258912,
+      "sha256": "cb1105017cd6257648133c31b5a715b2cda8beb4cdd8aab6817cfa1ec72e5dfd"
+    },
+    {
+      "video_id": "FV000516",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000516.mp4",
+      "destination": "held out/video/FV000516.mp4",
+      "size_bytes": 5143263,
+      "sha256": "4f472ea96df09d7aee6ccd63353ab91a82a7f1e88c31da7379a645b228ebd209"
+    },
+    {
+      "video_id": "FV000008",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000008.mp4",
+      "destination": "held out/video/FV000008.mp4",
+      "size_bytes": 1605052,
+      "sha256": "dac5ecf1a5d881765f998d9f3c26ef374d97859f1a63c9a4d231e7c569f0850e"
+    },
+    {
+      "video_id": "FV000057",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000057.mp4",
+      "destination": "held out/video/FV000057.mp4",
+      "size_bytes": 2655556,
+      "sha256": "7ac77dcbbeb03b17a8780830bc26fad2d9a63f7bfab01c92541af57f7b5378a5"
+    },
+    {
+      "video_id": "FV000750",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000750.mp4",
+      "destination": "held out/video/FV000750.mp4",
+      "size_bytes": 2993799,
+      "sha256": "9671af38a4637c1e2700e0e8f72b8883e67e60d46cd621094e6ec7aaf7d2b629"
+    },
+    {
+      "video_id": "FV000829",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000829.mp4",
+      "destination": "held out/video/FV000829.mp4",
+      "size_bytes": 4385726,
+      "sha256": "34b803865abf1050378cbdf1084f6a0f9729790396c1379c24bd9509221e37e8"
+    },
+    {
+      "video_id": "FV000039",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000039.mp4",
+      "destination": "held out/video/FV000039.mp4",
+      "size_bytes": 1464283,
+      "sha256": "35cecaf2a6e98cef69fb76f90c54f3e651e89ac8a2f82f0abfe8bca5b5ea7d18"
+    },
+    {
+      "video_id": "FV000051",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000051.mp4",
+      "destination": "held out/video/FV000051.mp4",
+      "size_bytes": 1821237,
+      "sha256": "d6bdffd6c1bc0f2174ab9535bd29ad504312badd8be318d0b9a2368ec1b9c9ab"
+    },
+    {
+      "video_id": "FV000825",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000825.mp4",
+      "destination": "held out/video/FV000825.mp4",
+      "size_bytes": 3317137,
+      "sha256": "bab6bf08ae6d6d5a5ee82e686dfa05b654c27d298fdbc71b0ddeda02b655b2ce"
+    },
+    {
+      "video_id": "FV000315",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000315.mp4",
+      "destination": "held out/video/FV000315.mp4",
+      "size_bytes": 2556515,
+      "sha256": "b830858ce073108305e60461fd21df736657d0d714484dcc820d5e1393eb48d5"
+    },
+    {
+      "video_id": "FV000657",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000657.mp4",
+      "destination": "held out/video/FV000657.mp4",
+      "size_bytes": 1725598,
+      "sha256": "dca1eb79a053171721ab28e7ab32921a9adf3597a4d978fa482ed44759058a0e"
+    },
+    {
+      "video_id": "FV000112",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000112.mp4",
+      "destination": "held out/video/FV000112.mp4",
+      "size_bytes": 2376192,
+      "sha256": "facc9d64dbd394643c6df15f192ae03033a4dabac135da1efa0903eee23fa509"
+    },
+    {
+      "video_id": "FV000242",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000242.mp4",
+      "destination": "held out/video/FV000242.mp4",
+      "size_bytes": 7091261,
+      "sha256": "2ca8e743dadc08beb54b0e7a8e72de879dcf861eb8be98a134cb6a9ff09c7968"
+    },
+    {
+      "video_id": "FV000886",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000886.mp4",
+      "destination": "held out/video/FV000886.mp4",
+      "size_bytes": 2743768,
+      "sha256": "cab8053cdb69d69ed2bf4cdc9e5ccc5463347fefd3b36a7139b0ab614e0fe7c8"
+    }
+  ]
+}

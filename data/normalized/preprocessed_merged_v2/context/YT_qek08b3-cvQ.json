@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qek08b3-cvQ",
+  "transcript": "We are... Skydive! That's unreal!",
+  "acoustic_features": {
+    "mean_loudness": 2.3178,
+    "loudness_variability": 0.3963,
+    "mean_pitch": 41.9999,
+    "pitch_variability": 0.2225,
+    "spectral_flux": 1.3202,
+    "sound_level_db": -10.952
+  },
+  "metadata_caption": "POV you’re a basketball 🏀",
+  "caption_priority": "low"
+}

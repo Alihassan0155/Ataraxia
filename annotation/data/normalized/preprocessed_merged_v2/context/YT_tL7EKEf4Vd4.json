@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_tL7EKEf4Vd4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.4574,
+    "loudness_variability": 0.5304,
+    "mean_pitch": 22.2855,
+    "pitch_variability": 0.6104,
+    "spectral_flux": 2.07,
+    "sound_level_db": -10.7113
+  },
+  "metadata_caption": "Overreaction? 🏀",
+  "caption_priority": "low"
+}

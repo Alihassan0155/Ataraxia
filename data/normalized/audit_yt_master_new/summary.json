@@ -1,0 +1,27 @@
+{
+  "total": 624,
+  "media": {
+    "full_video_decode_passed": 624
+  },
+  "language": {
+    "target_language_candidate": 396,
+    "review_low_confidence": 77,
+    "review_no_detected_speech": 149,
+    "review_non_target_language": 2
+  },
+  "provisional_selected": 396,
+  "orientation_status": "provisional_cap_passed",
+  "horizontal_selected": 0,
+  "categories": {
+    "Science & Technology": 125,
+    "Travel & Adventure": 31,
+    "Sports & Fitness": 46,
+    "Unmapped / Needs Review": 61,
+    "Food & Cooking": 14,
+    "ASMR": 30,
+    "Entertainment & Animation": 66,
+    "Gaming": 17,
+    "Education": 6
+  },
+  "note": "Model language decisions are provisional, not verified truth. Non-target, mixed, uncertain and speechless clips are retained for review. No files deleted; no annotation started. Resume with identical settings. Failure records are retained; use a new output to retry failures."
+}

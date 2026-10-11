@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7478527715151269151",
+  "transcript": "Good morning, San Diego. Good morning, San Diego. Good morning, San Diego. Good morning, San Diego. Good morning, San Diego. Today we have sunny skies. It is a great day for a nap today.",
+  "acoustic_features": {
+    "mean_loudness": 0.7081,
+    "loudness_variability": 0.6787,
+    "mean_pitch": 34.6746,
+    "pitch_variability": 0.1076,
+    "spectral_flux": 0.3084,
+    "sound_level_db": -24.2523
+  },
+  "metadata_caption": "Good morning San Diego😄👬 #weather #college ",
+  "caption_priority": "low"
+}

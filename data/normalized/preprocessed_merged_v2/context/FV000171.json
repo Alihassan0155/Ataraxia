@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000171",
+  "transcript": "Something I've always found very weird about being a prosthetics user is I am literally a walking advertisement for a number of different companies. We got Oser up here, on the back of my ankle is a giant blue logo for Folaua who makes my ankle. We got more writing on the side, and while I absolutely understand there is a need for labeling medical devices, these are also our body parts, and it seems very weird that there isn't an opt-out or advertising other people's companies. It's like a tattoo you didn't agree to.",
+  "acoustic_features": {
+    "mean_loudness": 0.6143,
+    "loudness_variability": 0.7003,
+    "mean_pitch": 33.4376,
+    "pitch_variability": 0.1212,
+    "spectral_flux": 0.2704,
+    "sound_level_db": -23.79
+  },
+  "metadata_caption": "WHY does my prosthetic leg do this…??",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Y4bwBqlgJcQ",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.9343,
+    "loudness_variability": 0.3803,
+    "mean_pitch": 20.3434,
+    "pitch_variability": 0.2653,
+    "spectral_flux": 0.7036,
+    "sound_level_db": -19.4566
+  },
+  "metadata_caption": "Get a load of these cheeseburger fries 🍔🍟",
+  "caption_priority": "low"
+}

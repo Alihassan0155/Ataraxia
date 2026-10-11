@@ -1,0 +1,3158 @@
+{
+  "qwen": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5529007284879665
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.25,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000192",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.3,
+        "recovery_suitability": 0.5529007284879665
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000576",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.9,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0018270401948842808,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010962241169305718,
+        "disgust": 0.014007308160779533,
+        "calm_contentment": 0.11449451887941536,
+        "neutral": 0.8587088915956151
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "scalars": {
+        "valence": 0.2869678613494867,
+        "arousal": 0.45,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.3,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.0,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0018270401948842808,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010962241169305718,
+        "disgust": 0.014007308160779533,
+        "calm_contentment": 0.11449451887941536,
+        "neutral": 0.8587088915956151
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.45,
+        "recovery_suitability": 0.54052925572412
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307265,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.2430167597765364
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000751",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.65,
+        "recovery_suitability": 0.49104336466873433
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "scalars": {
+        "valence": -0.07837455830388679,
+        "arousal": 0.8,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.7447306791569086,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010538641686182664,
+        "disgust": 0.013466042154566742,
+        "calm_contentment": 0.11007025761124124,
+        "neutral": 0.1211943793911007
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000713",
+      "scalars": {
+        "valence": 0.12319367322900893,
+        "arousal": 0.2,
+        "recovery_suitability": 0.5652722012518129
+      },
+      "emotions": {
+        "joy": 0.004189944134078191,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.7220670391061453,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.0,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.001780415430267056,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010682492581602369,
+        "disgust": 0.8367952522255193,
+        "calm_contentment": 0.11157270029673594,
+        "neutral": 0.039169139465875365
+      },
+      "dominant_emotion": "disgust",
+      "original_declared_dominant": "disgust",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.65,
+        "recovery_suitability": 0.4848576282868111
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307265,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.2430167597765364
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000017",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000710",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.3,
+        "recovery_suitability": 0.5529007284879665
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.3282122905027934,
+        "neutral": 0.04608938547486032
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000754",
+      "scalars": {
+        "valence": 0.12319367322900893,
+        "arousal": 0.6,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0018270401948842808,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010962241169305718,
+        "disgust": 0.014007308160779533,
+        "calm_contentment": 0.11449451887941536,
+        "neutral": 0.8587088915956151
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.75,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307265,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.2430167597765364
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000487",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000968",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.8,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.001780415430267056,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010682492581602369,
+        "disgust": 0.8367952522255193,
+        "calm_contentment": 0.11157270029673594,
+        "neutral": 0.039169139465875365
+      },
+      "dominant_emotion": "disgust",
+      "original_declared_dominant": "disgust",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "scalars": {
+        "valence": 0.23657580346626275,
+        "arousal": 0.6,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "scalars": {
+        "valence": -0.002786471479050895,
+        "arousal": 0.6,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.6631079478054567,
+        "anger": 0.0017793594306049756,
+        "fear_anxiety": 0.07651245551601424,
+        "surprise": 0.010676156583629887,
+        "disgust": 0.013641755634638193,
+        "calm_contentment": 0.11150652431791223,
+        "neutral": 0.12277580071174375
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5467149921060432
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307265,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.2430167597765364
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.65,
+        "recovery_suitability": 0.5034148374325808
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000950",
+      "scalars": {
+        "valence": -0.10357058724549875,
+        "arousal": 0.6,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.7414605418138988,
+        "anger": 0.0017667844522968135,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010600706713780914,
+        "disgust": 0.013545347467608949,
+        "calm_contentment": 0.11071849234393408,
+        "neutral": 0.12190812720848057
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "scalars": {
+        "valence": 0.23657580346626275,
+        "arousal": 0.65,
+        "recovery_suitability": 0.49104336466873433
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391067,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.14455307262569836
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.25,
+        "recovery_suitability": 0.5714579376337361
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.01256983240223463,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.22974860335195535,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.0,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0018270401948842808,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010962241169305718,
+        "disgust": 0.014007308160779533,
+        "calm_contentment": 0.11449451887941536,
+        "neutral": 0.8587088915956151
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000982",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.8,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.6621779859484778,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010538641686182664,
+        "disgust": 0.013466042154566742,
+        "calm_contentment": 0.11007025761124124,
+        "neutral": 0.20374707259953162
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000494",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.2,
+        "recovery_suitability": 0.5652722012518129
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.3282122905027934,
+        "neutral": 0.04608938547486032
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "scalars": {
+        "valence": 0.12319367322900893,
+        "arousal": 0.8,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.004189944134078191,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.40642458100558665,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.4399441340782123
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "scalars": {
+        "valence": 0.12319367322900893,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.2011173184357542,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.3079608938547486,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.34148044692737434
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000348",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.54052925572412
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "scalars": {
+        "valence": 0.047605586404173034,
+        "arousal": 0.0,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0018270401948842808,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010962241169305718,
+        "disgust": 0.014007308160779533,
+        "calm_contentment": 0.11449451887941536,
+        "neutral": 0.8587088915956151
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000833",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "scalars": {
+        "valence": 0.23657580346626275,
+        "arousal": 0.65,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "scalars": {
+        "valence": 0.23657580346626275,
+        "arousal": 0.85,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.4965083798882682,
+        "sadness": 0.0,
+        "anger": 0.002094972067039099,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391067,
+        "disgust": 0.01606145251396648,
+        "calm_contentment": 0.13128491620111737,
+        "neutral": 0.14455307262569836
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "scalars": {
+        "valence": 0.2617718324078747,
+        "arousal": 0.45,
+        "recovery_suitability": 0.5590864648698897
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "scalars": {
+        "valence": 0.24917381793706875,
+        "arousal": 0.4,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.5949720670391062,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.14455307262569833
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "scalars": {
+        "valence": -0.07837455830388679,
+        "arousal": 0.8,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.6621779859484778,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010538641686182664,
+        "disgust": 0.013466042154566742,
+        "calm_contentment": 0.11007025761124124,
+        "neutral": 0.20374707259953162
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "scalars": {
+        "valence": -0.07837455830388679,
+        "arousal": 0.7,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.6584216725559483,
+        "anger": 0.0017667844522968135,
+        "fear_anxiety": 0.0,
+        "surprise": 0.010600706713780914,
+        "disgust": 0.013545347467608949,
+        "calm_contentment": 0.11071849234393408,
+        "neutral": 0.2049469964664311
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "scalars": {
+        "valence": 0.19878176005384482,
+        "arousal": 0.3,
+        "recovery_suitability": 0.5529007284879665
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.3282122905027934,
+        "neutral": 0.04608938547486032
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "scalars": {
+        "valence": 0.23657580346626275,
+        "arousal": 0.9,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.3980446927374301,
+        "sadness": 0.0,
+        "anger": 0.0020949720670390987,
+        "fear_anxiety": 0.0,
+        "surprise": 0.20949720670391064,
+        "disgust": 0.016061452513966477,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.24301675977653633
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000089",
+      "scalars": {
+        "valence": 0.12319367322900893,
+        "arousal": 0.6,
+        "recovery_suitability": 0.4663004191410415
+      },
+      "emotions": {
+        "joy": 0.004189944134078191,
+        "sadness": 0.0,
+        "anger": 0.592877094972067,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11103351955307263,
+        "disgust": 0.11452513966480449,
+        "calm_contentment": 0.13128491620111735,
+        "neutral": 0.04608938547486032
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    }
+  ],
+  "internvl": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.3182393920202661,
+        "sadness": 0.23685877137428754,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.024699176694110186,
+        "disgust": 0.0,
+        "calm_contentment": 0.12666244458518053,
+        "neutral": 0.29354021532615576
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000192",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.40609098862642173,
+        "recovery_suitability": 0.5646166618769359
+      },
+      "emotions": {
+        "joy": 0.22205159705159708,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.3826781326781327,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000576",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.4998372703412075,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.0533378061053338,
+        "sadness": 0.0,
+        "anger": 0.6018114726601811,
+        "fear_anxiety": 0.059376048305937616,
+        "surprise": 0.0,
+        "disgust": 0.029520295202952032,
+        "calm_contentment": 0.039584032203958404,
+        "neutral": 0.21637034552163692
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "scalars": {
+        "valence": 0.3082324351796096,
+        "arousal": 0.4529641294838146,
+        "recovery_suitability": 0.5646166618769359
+      },
+      "emotions": {
+        "joy": 0.6550982800982801,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02395577395577394,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078624,
+        "neutral": 0.28470515970515964
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.41780927384076993,
+        "recovery_suitability": 0.5646166618769359
+      },
+      "emotions": {
+        "joy": 0.30866093366093367,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.19717444717444713,
+        "disgust": 0.0,
+        "calm_contentment": 0.20945945945945946,
+        "neutral": 0.28470515970515964
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4565071154112251
+      },
+      "emotions": {
+        "joy": 0.05638297872340427,
+        "sadness": 0.16524822695035463,
+        "anger": 0.23617021276595743,
+        "fear_anxiety": 0.16276595744680852,
+        "surprise": 0.02765957446808509,
+        "disgust": 0.08120567375886525,
+        "calm_contentment": 0.04184397163120568,
+        "neutral": 0.22872340425531906
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.3086609336609337,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.2960687960687961,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000751",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4673180700577962
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.3713144963144963
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4565071154112251
+      },
+      "emotions": {
+        "joy": 0.05638297872340427,
+        "sadness": 0.16524822695035463,
+        "anger": 0.3361702127659575,
+        "fear_anxiety": 0.06276595744680852,
+        "surprise": 0.02765957446808509,
+        "disgust": 0.08120567375886525,
+        "calm_contentment": 0.04184397163120568,
+        "neutral": 0.22872340425531906
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000713",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.39437270341207353,
+        "recovery_suitability": 0.5538057072303648
+      },
+      "emotions": {
+        "joy": 0.1354422604422605,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.3826781326781327,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4565071154112251
+      },
+      "emotions": {
+        "joy": 0.054489376285126824,
+        "sadness": 0.0,
+        "anger": 0.22823851953392738,
+        "fear_anxiety": 0.15729952021932836,
+        "surprise": 0.026730637422892382,
+        "disgust": 0.2717614804660727,
+        "calm_contentment": 0.04043865661411927,
+        "neutral": 0.22104180945853322
+      },
+      "dominant_emotion": "disgust",
+      "original_declared_dominant": "disgust",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.4818796068796069,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000017",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.14588157459477344,
+        "sadness": 0.0,
+        "anger": 0.5001653986106517,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02580218326166059,
+        "disgust": 0.07575256367846511,
+        "calm_contentment": 0.039034072113794255,
+        "neutral": 0.21336420774065493
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000710",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.39437270341207353,
+        "recovery_suitability": 0.5646166618769359
+      },
+      "emotions": {
+        "joy": 0.39527027027027034,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.2960687960687961,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000754",
+      "scalars": {
+        "valence": 0.022258666564166987,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.056382978723404274,
+        "sadness": 0.16524822695035465,
+        "anger": 0.23617021276595745,
+        "fear_anxiety": 0.06276595744680853,
+        "surprise": 0.12765957446808512,
+        "disgust": 0.08120567375886527,
+        "calm_contentment": 0.041843971631205686,
+        "neutral": 0.2287234042553191
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4673180700577962
+      },
+      "emotions": {
+        "joy": 0.3086609336609337,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.19717444717444715,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000487",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.1423499031633312,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.23918657198192383,
+        "surprise": 0.11620400258231116,
+        "disgust": 0.07391865719819239,
+        "calm_contentment": 0.1291155584247902,
+        "neutral": 0.29922530664945124
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "fear_anxiety",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22205159705159708,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.2837837837837838,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.48811898512685925,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22945096794668365,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.32465883846397975,
+        "surprise": 0.024754046334496977,
+        "disgust": 0.0,
+        "calm_contentment": 0.12694382735639484,
+        "neutral": 0.29419231989844496
+      },
+      "dominant_emotion": "fear_anxiety",
+      "original_declared_dominant": "fear_anxiety",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.3713144963144963
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000968",
+      "scalars": {
+        "valence": 0.022258666564166987,
+        "arousal": 0.4998372703412075,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.05169050715214566,
+        "sadness": 0.0,
+        "anger": 0.5832249674902471,
+        "fear_anxiety": 0.0,
+        "surprise": 0.025357607282184644,
+        "disgust": 0.0,
+        "calm_contentment": 0.03836150845253577,
+        "neutral": 0.3013654096228868
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22205159705159708,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.2837837837837838,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "scalars": {
+        "valence": 0.022258666564166987,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.05415531335149865,
+        "sadness": 0.35081743869209814,
+        "anger": 0.13079019073569484,
+        "fear_anxiety": 0.15633514986376024,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "calm_contentment": 0.04019073569482289,
+        "neutral": 0.26771117166212527
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.39437270341207353,
+        "recovery_suitability": 0.5538057072303648
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000950",
+      "scalars": {
+        "valence": 0.022258666564166987,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.049363551692021126,
+        "sadness": 0.6699782676187521,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "calm_contentment": 0.03663458553244335,
+        "neutral": 0.24402359515678357
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.4818796068796069,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.19717444717444715,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.318946366232942,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.05617264360520471,
+        "surprise": 0.02475404633449697,
+        "disgust": 0.0,
+        "calm_contentment": 0.30593462392891146,
+        "neutral": 0.2941923198984449
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "scalars": {
+        "valence": 0.3082324351796096,
+        "arousal": 0.4529641294838146,
+        "recovery_suitability": 0.5646166618769359
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4565071154112251
+      },
+      "emotions": {
+        "joy": 0.05448937628512681,
+        "sadness": 0.0,
+        "anger": 0.3248800548320768,
+        "fear_anxiety": 0.25394105551747775,
+        "surprise": 0.026730637422892375,
+        "disgust": 0.07847840986977382,
+        "calm_contentment": 0.040438656614119266,
+        "neutral": 0.22104180945853316
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000982",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.1458815745947734,
+        "sadness": 0.0,
+        "anger": 0.40688058220310946,
+        "fear_anxiety": 0.0,
+        "surprise": 0.025802183261660585,
+        "disgust": 0.0757525636784651,
+        "calm_contentment": 0.03903407211379424,
+        "neutral": 0.30664902414819706
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000494",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.39437270341207353,
+        "recovery_suitability": 0.5538057072303648
+      },
+      "emotions": {
+        "joy": 0.22205159705159708,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.20945945945945948,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22205159705159705,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.28378378378378377,
+        "disgust": 0.0,
+        "calm_contentment": 0.20945945945945946,
+        "neutral": 0.28470515970515964
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.39437270341207353,
+        "recovery_suitability": 0.5538057072303648
+      },
+      "emotions": {
+        "joy": 0.22205159705159705,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.28378378378378377,
+        "disgust": 0.0,
+        "calm_contentment": 0.20945945945945946,
+        "neutral": 0.28470515970515964
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000348",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.4818796068796069,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.318946366232942,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.05617264360520471,
+        "surprise": 0.2037448429070136,
+        "disgust": 0.0,
+        "calm_contentment": 0.1269438273563948,
+        "neutral": 0.2941923198984449
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.05046017137416695,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.14566804189146307,
+        "surprise": 0.20374484290701367,
+        "disgust": 0.0,
+        "calm_contentment": 0.2164392256426532,
+        "neutral": 0.38368771818470326
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.023955773955773946,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000833",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22945096794668365,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.14566804189146307,
+        "surprise": 0.20374484290701367,
+        "disgust": 0.0,
+        "calm_contentment": 0.12694382735639484,
+        "neutral": 0.29419231989844496
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.30866093366093367,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.19717444717444713,
+        "disgust": 0.0,
+        "calm_contentment": 0.20945945945945946,
+        "neutral": 0.28470515970515964
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.4998372703412075,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.054489376285126824,
+        "sadness": 0.0,
+        "anger": 0.13159698423577795,
+        "fear_anxiety": 0.2539410555174778,
+        "surprise": 0.12337217272104183,
+        "disgust": 0.07847840986977384,
+        "calm_contentment": 0.04043865661411927,
+        "neutral": 0.3176833447566827
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "fear_anxiety",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "scalars": {
+        "valence": 0.2833651509521798,
+        "arousal": 0.4412458442694664,
+        "recovery_suitability": 0.575427616523507
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.06726044226044224,
+        "disgust": 0.0,
+        "calm_contentment": 0.12285012285012287,
+        "neutral": 0.24140049140049133
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "scalars": {
+        "valence": 0.25849786672475,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.5105618886440805
+      },
+      "emotions": {
+        "joy": 0.5684889434889435,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.46468241469816285,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.3086609336609337,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.19717444717444715,
+        "disgust": 0.0,
+        "calm_contentment": 0.03624078624078625,
+        "neutral": 0.4579238329238329
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.48811898512685925,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.053212851405622506,
+        "sadness": 0.1559571619812584,
+        "anger": 0.5060240963855422,
+        "fear_anxiety": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.02945113788487283,
+        "calm_contentment": 0.03949129852744312,
+        "neutral": 0.21586345381526098
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "scalars": {
+        "valence": -0.0274759018906926,
+        "arousal": 0.47640069991251105,
+        "recovery_suitability": 0.4565071154112251
+      },
+      "emotions": {
+        "joy": 0.05102695763799746,
+        "sadness": 0.6020539152759949,
+        "anger": 0.0,
+        "fear_anxiety": 0.05680359435173302,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "calm_contentment": 0.03786906290115533,
+        "neutral": 0.2522464698331193
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "scalars": {
+        "valence": 0.1963296561561755,
+        "arousal": 0.41780927384076993,
+        "recovery_suitability": 0.5538057072303648
+      },
+      "emotions": {
+        "joy": 0.22205159705159708,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.11056511056511056,
+        "disgust": 0.0,
+        "calm_contentment": 0.3826781326781327,
+        "neutral": 0.2847051597051597
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "scalars": {
+        "valence": 0.1714623719287457,
+        "arousal": 0.4998372703412075,
+        "recovery_suitability": 0.445696160764654
+      },
+      "emotions": {
+        "joy": 0.22945096794668365,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.32465883846397975,
+        "surprise": 0.11424944462075533,
+        "disgust": 0.0,
+        "calm_contentment": 0.03744842907013648,
+        "neutral": 0.29419231989844496
+      },
+      "dominant_emotion": "fear_anxiety",
+      "original_declared_dominant": "fear_anxiety",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000089",
+      "scalars": {
+        "valence": 0.022258666564166987,
+        "arousal": 0.4998372703412075,
+        "recovery_suitability": 0.42407425147151184
+      },
+      "emotions": {
+        "joy": 0.051523007128969546,
+        "sadness": 0.0,
+        "anger": 0.6270252754374595,
+        "fear_anxiety": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.07420609202851587,
+        "calm_contentment": 0.03823720025923526,
+        "neutral": 0.20900842514581974
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    }
+  ],
+  "gemini": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "scalars": {
+        "valence": 0.48,
+        "arousal": 0.32,
+        "recovery_suitability": 0.5480787992547833
+      },
+      "emotions": {
+        "joy": 0.28,
+        "sadness": 0.05,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.46,
+        "neutral": 0.16
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "scalars": {
+        "valence": 0.65,
+        "arousal": 0.35,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.35,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "calm_contentment": 0.55,
+        "neutral": 0.1
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000192",
+      "scalars": {
+        "valence": 0.28,
+        "arousal": 0.38,
+        "recovery_suitability": 0.4928370167253854
+      },
+      "emotions": {
+        "joy": 0.15,
+        "sadness": 0.0,
+        "anger": 0.02,
+        "fear_anxiety": 0.03,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.3,
+        "neutral": 0.45
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000576",
+      "scalars": {
+        "valence": 0.38,
+        "arousal": 0.78,
+        "recovery_suitability": 0.34782733758571605
+      },
+      "emotions": {
+        "joy": 0.36,
+        "sadness": 0.01,
+        "anger": 0.05,
+        "fear_anxiety": 0.06,
+        "surprise": 0.42,
+        "disgust": 0.02,
+        "calm_contentment": 0.02,
+        "neutral": 0.06
+      },
+      "dominant_emotion": "surprise",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "scalars": {
+        "valence": 0.82,
+        "arousal": 0.48,
+        "recovery_suitability": 0.5480787992547833
+      },
+      "emotions": {
+        "joy": 0.72,
+        "sadness": 0.03,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.1,
+        "disgust": 0.0,
+        "calm_contentment": 0.15,
+        "neutral": 0.0
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "scalars": {
+        "valence": 0.22,
+        "arousal": 0.28,
+        "recovery_suitability": 0.5480787992547833
+      },
+      "emotions": {
+        "joy": 0.1,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.03,
+        "disgust": 0.02,
+        "calm_contentment": 0.35,
+        "neutral": 0.5
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "scalars": {
+        "valence": 0.38,
+        "arousal": 0.22,
+        "recovery_suitability": 0.582604913335657
+      },
+      "emotions": {
+        "joy": 0.16,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.04,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.55,
+        "neutral": 0.2
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "scalars": {
+        "valence": 0.46,
+        "arousal": 0.32,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.18,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.03,
+        "disgust": 0.02,
+        "calm_contentment": 0.52,
+        "neutral": 0.25
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000751",
+      "scalars": {
+        "valence": 0.52,
+        "arousal": 0.45,
+        "recovery_suitability": 0.5377209650305211
+      },
+      "emotions": {
+        "joy": 0.55,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.28,
+        "neutral": 0.12
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "scalars": {
+        "valence": -0.22,
+        "arousal": 0.52,
+        "recovery_suitability": 0.3858060630746771
+      },
+      "emotions": {
+        "joy": 0.08,
+        "sadness": 0.07,
+        "anger": 0.28,
+        "fear_anxiety": 0.05,
+        "surprise": 0.04,
+        "disgust": 0.12,
+        "calm_contentment": 0.03,
+        "neutral": 0.33
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000713",
+      "scalars": {
+        "valence": 0.2,
+        "arousal": 0.25,
+        "recovery_suitability": 0.554984022070958
+      },
+      "emotions": {
+        "joy": 0.05,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02,
+        "disgust": 0.0,
+        "calm_contentment": 0.33,
+        "neutral": 0.6
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "scalars": {
+        "valence": 0.42,
+        "arousal": 0.58,
+        "recovery_suitability": 0.40997434293128865
+      },
+      "emotions": {
+        "joy": 0.52,
+        "sadness": 0.01,
+        "anger": 0.02,
+        "fear_anxiety": 0.03,
+        "surprise": 0.12,
+        "disgust": 0.16,
+        "calm_contentment": 0.04,
+        "neutral": 0.1
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "scalars": {
+        "valence": 0.42,
+        "arousal": 0.52,
+        "recovery_suitability": 0.4445004570121623
+      },
+      "emotions": {
+        "joy": 0.46,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.01,
+        "surprise": 0.18,
+        "disgust": 0.0,
+        "calm_contentment": 0.08,
+        "neutral": 0.27
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000017",
+      "scalars": {
+        "valence": 0.48,
+        "arousal": 0.44,
+        "recovery_suitability": 0.4790265710930359
+      },
+      "emotions": {
+        "joy": 0.62,
+        "sadness": 0.01,
+        "anger": 0.03,
+        "fear_anxiety": 0.01,
+        "surprise": 0.08,
+        "disgust": 0.02,
+        "calm_contentment": 0.12,
+        "neutral": 0.11
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000710",
+      "scalars": {
+        "valence": 0.28,
+        "arousal": 0.22,
+        "recovery_suitability": 0.5756996905194822
+      },
+      "emotions": {
+        "joy": 0.08,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.02,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "calm_contentment": 0.58,
+        "neutral": 0.32
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000754",
+      "scalars": {
+        "valence": 0.42,
+        "arousal": 0.48,
+        "recovery_suitability": 0.4790265710930359
+      },
+      "emotions": {
+        "joy": 0.4,
+        "sadness": 0.0,
+        "anger": 0.02,
+        "fear_anxiety": 0.03,
+        "surprise": 0.15,
+        "disgust": 0.0,
+        "calm_contentment": 0.15,
+        "neutral": 0.25
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "scalars": {
+        "valence": 0.42,
+        "arousal": 0.58,
+        "recovery_suitability": 0.40997434293128865
+      },
+      "emotions": {
+        "joy": 0.45544554455445546,
+        "sadness": 0.009900990099009901,
+        "anger": 0.019801980198019802,
+        "fear_anxiety": 0.009900990099009901,
+        "surprise": 0.1188118811881188,
+        "disgust": 0.009900990099009901,
+        "calm_contentment": 0.0594059405940594,
+        "neutral": 0.31683168316831684
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000487",
+      "scalars": {
+        "valence": 0.2,
+        "arousal": 0.38,
+        "recovery_suitability": 0.4790265710930359
+      },
+      "emotions": {
+        "joy": 0.12,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.02,
+        "surprise": 0.08,
+        "disgust": 0.03,
+        "calm_contentment": 0.25,
+        "neutral": 0.5
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "scalars": {
+        "valence": 0.62,
+        "arousal": 0.48,
+        "recovery_suitability": 0.5135526851739096
+      },
+      "emotions": {
+        "joy": 0.65,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.12,
+        "disgust": 0.0,
+        "calm_contentment": 0.15,
+        "neutral": 0.08
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "scalars": {
+        "valence": 0.46,
+        "arousal": 0.28,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.22,
+        "sadness": 0.03,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02,
+        "disgust": 0.0,
+        "calm_contentment": 0.6,
+        "neutral": 0.13
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "scalars": {
+        "valence": 0.72,
+        "arousal": 0.5,
+        "recovery_suitability": 0.554984022070958
+      },
+      "emotions": {
+        "joy": 0.7,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.18,
+        "neutral": 0.07
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000968",
+      "scalars": {
+        "valence": 0.18,
+        "arousal": 0.45,
+        "recovery_suitability": 0.43414262278790017
+      },
+      "emotions": {
+        "joy": 0.38,
+        "sadness": 0.02,
+        "anger": 0.03,
+        "fear_anxiety": 0.01,
+        "surprise": 0.12,
+        "disgust": 0.06,
+        "calm_contentment": 0.06,
+        "neutral": 0.32
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "scalars": {
+        "valence": 0.68,
+        "arousal": 0.48,
+        "recovery_suitability": 0.5377209650305211
+      },
+      "emotions": {
+        "joy": 0.72,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.15,
+        "neutral": 0.08
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "scalars": {
+        "valence": 0.05,
+        "arousal": 0.36,
+        "recovery_suitability": 0.46866873686877386
+      },
+      "emotions": {
+        "joy": 0.04,
+        "sadness": 0.11999999999999998,
+        "anger": 0.02,
+        "fear_anxiety": 0.15,
+        "surprise": 0.049999999999999996,
+        "disgust": 0.02,
+        "calm_contentment": 0.21999999999999997,
+        "neutral": 0.37999999999999995
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "scalars": {
+        "valence": 0.58,
+        "arousal": 0.22,
+        "recovery_suitability": 0.6067731931922684
+      },
+      "emotions": {
+        "joy": 0.28,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.05,
+        "disgust": 0.0,
+        "calm_contentment": 0.55,
+        "neutral": 0.12
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "scalars": {
+        "valence": 0.62,
+        "arousal": 0.48,
+        "recovery_suitability": 0.4928370167253854
+      },
+      "emotions": {
+        "joy": 0.52,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.04,
+        "disgust": 0.0,
+        "calm_contentment": 0.28,
+        "neutral": 0.16
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000950",
+      "scalars": {
+        "valence": -0.42,
+        "arousal": 0.54,
+        "recovery_suitability": 0.38925867448276447
+      },
+      "emotions": {
+        "joy": 0.02,
+        "sadness": 0.65,
+        "anger": 0.03,
+        "fear_anxiety": 0.15,
+        "surprise": 0.01,
+        "disgust": 0.01,
+        "calm_contentment": 0.08,
+        "neutral": 0.05
+      },
+      "dominant_emotion": "sadness",
+      "original_declared_dominant": "sadness",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "scalars": {
+        "valence": 0.45,
+        "arousal": 0.52,
+        "recovery_suitability": 0.4445004570121623
+      },
+      "emotions": {
+        "joy": 0.38,
+        "sadness": 0.02,
+        "anger": 0.01,
+        "fear_anxiety": 0.03,
+        "surprise": 0.36,
+        "disgust": 0.02,
+        "calm_contentment": 0.06,
+        "neutral": 0.12
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "scalars": {
+        "valence": 0.18,
+        "arousal": 0.42,
+        "recovery_suitability": 0.46866873686877386
+      },
+      "emotions": {
+        "joy": 0.22,
+        "sadness": 0.03,
+        "anger": 0.02,
+        "fear_anxiety": 0.08,
+        "surprise": 0.05,
+        "disgust": 0.02,
+        "calm_contentment": 0.18,
+        "neutral": 0.4
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "scalars": {
+        "valence": 0.76,
+        "arousal": 0.24,
+        "recovery_suitability": 0.6171310274165306
+      },
+      "emotions": {
+        "joy": 0.28,
+        "sadness": 0.02,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02,
+        "disgust": 0.0,
+        "calm_contentment": 0.65,
+        "neutral": 0.03
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "scalars": {
+        "valence": 0.18,
+        "arousal": 0.54,
+        "recovery_suitability": 0.39961650870702653
+      },
+      "emotions": {
+        "joy": 0.28,
+        "sadness": 0.02,
+        "anger": 0.02,
+        "fear_anxiety": 0.04,
+        "surprise": 0.16,
+        "disgust": 0.02,
+        "calm_contentment": 0.1,
+        "neutral": 0.36
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000982",
+      "scalars": {
+        "valence": 0.48,
+        "arousal": 0.62,
+        "recovery_suitability": 0.40997434293128865
+      },
+      "emotions": {
+        "joy": 0.58,
+        "sadness": 0.0,
+        "anger": 0.03,
+        "fear_anxiety": 0.02,
+        "surprise": 0.15,
+        "disgust": 0.02,
+        "calm_contentment": 0.05,
+        "neutral": 0.15
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000494",
+      "scalars": {
+        "valence": 0.48,
+        "arousal": 0.22,
+        "recovery_suitability": 0.582604913335657
+      },
+      "emotions": {
+        "joy": 0.12,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.02,
+        "disgust": 0.0,
+        "calm_contentment": 0.62,
+        "neutral": 0.24
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "scalars": {
+        "valence": 0.52,
+        "arousal": 0.32,
+        "recovery_suitability": 0.5687944677033074
+      },
+      "emotions": {
+        "joy": 0.16,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.28,
+        "disgust": 0.0,
+        "calm_contentment": 0.44,
+        "neutral": 0.12
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "scalars": {
+        "valence": -0.25,
+        "arousal": 0.45,
+        "recovery_suitability": 0.4237847885636381
+      },
+      "emotions": {
+        "joy": 0.05000000000000001,
+        "sadness": 0.12000000000000001,
+        "anger": 0.05000000000000001,
+        "fear_anxiety": 0.42000000000000004,
+        "surprise": 0.16000000000000003,
+        "disgust": 0.030000000000000002,
+        "calm_contentment": 0.05000000000000001,
+        "neutral": 0.12000000000000001
+      },
+      "dominant_emotion": "fear_anxiety",
+      "original_declared_dominant": "fear_anxiety",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000348",
+      "scalars": {
+        "valence": 0.58,
+        "arousal": 0.38,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.28,
+        "sadness": 0.02,
+        "anger": 0.0,
+        "fear_anxiety": 0.02,
+        "surprise": 0.04,
+        "disgust": 0.0,
+        "calm_contentment": 0.44,
+        "neutral": 0.2
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "scalars": {
+        "valence": 0.28,
+        "arousal": 0.52,
+        "recovery_suitability": 0.4237847885636381
+      },
+      "emotions": {
+        "joy": 0.42,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.03,
+        "surprise": 0.18,
+        "disgust": 0.0,
+        "calm_contentment": 0.07,
+        "neutral": 0.3
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "scalars": {
+        "valence": 0.28,
+        "arousal": 0.22,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.1,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.03,
+        "disgust": 0.0,
+        "calm_contentment": 0.39,
+        "neutral": 0.48
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "scalars": {
+        "valence": 0.76,
+        "arousal": 0.58,
+        "recovery_suitability": 0.5066474623577348
+      },
+      "emotions": {
+        "joy": 0.78,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.01,
+        "surprise": 0.12,
+        "disgust": 0.0,
+        "calm_contentment": 0.06,
+        "neutral": 0.03
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000833",
+      "scalars": {
+        "valence": 0.28,
+        "arousal": 0.42,
+        "recovery_suitability": 0.4790265710930359
+      },
+      "emotions": {
+        "joy": 0.32,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.049999999999999996,
+        "surprise": 0.18,
+        "disgust": 0.0,
+        "calm_contentment": 0.15,
+        "neutral": 0.3
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "scalars": {
+        "valence": 0.45,
+        "arousal": 0.42,
+        "recovery_suitability": 0.4790265710930359
+      },
+      "emotions": {
+        "joy": 0.42,
+        "sadness": 0.0,
+        "anger": 0.02,
+        "fear_anxiety": 0.03,
+        "surprise": 0.08,
+        "disgust": 0.0,
+        "calm_contentment": 0.25,
+        "neutral": 0.2
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "scalars": {
+        "valence": -0.15,
+        "arousal": 0.76,
+        "recovery_suitability": 0.34782733758571605
+      },
+      "emotions": {
+        "joy": 0.08,
+        "sadness": 0.05,
+        "anger": 0.02,
+        "fear_anxiety": 0.22,
+        "surprise": 0.45,
+        "disgust": 0.01,
+        "calm_contentment": 0.02,
+        "neutral": 0.15
+      },
+      "dominant_emotion": "surprise",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "scalars": {
+        "valence": 0.58,
+        "arousal": 0.22,
+        "recovery_suitability": 0.6102258046003558
+      },
+      "emotions": {
+        "joy": 0.25,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.04,
+        "disgust": 0.0,
+        "calm_contentment": 0.61,
+        "neutral": 0.1
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "scalars": {
+        "valence": 0.68,
+        "arousal": 0.38,
+        "recovery_suitability": 0.5618892448871327
+      },
+      "emotions": {
+        "joy": 0.52,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.0,
+        "surprise": 0.1,
+        "disgust": 0.02,
+        "calm_contentment": 0.31,
+        "neutral": 0.05
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "scalars": {
+        "valence": 0.48,
+        "arousal": 0.52,
+        "recovery_suitability": 0.46521612546068647
+      },
+      "emotions": {
+        "joy": 0.58,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.02,
+        "surprise": 0.22,
+        "disgust": 0.0,
+        "calm_contentment": 0.05,
+        "neutral": 0.13
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "scalars": {
+        "valence": -0.6,
+        "arousal": 0.56,
+        "recovery_suitability": 0.34782733758571605
+      },
+      "emotions": {
+        "joy": 0.0,
+        "sadness": 0.15,
+        "anger": 0.46,
+        "fear_anxiety": 0.24,
+        "surprise": 0.05,
+        "disgust": 0.05,
+        "calm_contentment": 0.0,
+        "neutral": 0.05
+      },
+      "dominant_emotion": "anger",
+      "original_declared_dominant": "anger",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "scalars": {
+        "valence": 0.05,
+        "arousal": 0.32,
+        "recovery_suitability": 0.5031948509496476
+      },
+      "emotions": {
+        "joy": 0.1,
+        "sadness": 0.22,
+        "anger": 0.0,
+        "fear_anxiety": 0.08,
+        "surprise": 0.0,
+        "disgust": 0.02,
+        "calm_contentment": 0.28,
+        "neutral": 0.3
+      },
+      "dominant_emotion": "neutral",
+      "original_declared_dominant": "neutral",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "scalars": {
+        "valence": 0.62,
+        "arousal": 0.28,
+        "recovery_suitability": 0.5964153589680063
+      },
+      "emotions": {
+        "joy": 0.22,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.03,
+        "surprise": 0.02,
+        "disgust": 0.0,
+        "calm_contentment": 0.65,
+        "neutral": 0.08
+      },
+      "dominant_emotion": "calm_contentment",
+      "original_declared_dominant": "calm_contentment",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "scalars": {
+        "valence": 0.25,
+        "arousal": 0.7,
+        "recovery_suitability": 0.37544822885041496
+      },
+      "emotions": {
+        "joy": 0.2,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear_anxiety": 0.15,
+        "surprise": 0.45,
+        "disgust": 0.0,
+        "calm_contentment": 0.05,
+        "neutral": 0.15
+      },
+      "dominant_emotion": "surprise",
+      "original_declared_dominant": "surprise",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    },
+    {
+      "video_id": "FV000089",
+      "scalars": {
+        "valence": 0.58,
+        "arousal": 0.59,
+        "recovery_suitability": 0.39961650870702653
+      },
+      "emotions": {
+        "joy": 0.67,
+        "sadness": 0.0,
+        "anger": 0.02,
+        "fear_anxiety": 0.01,
+        "surprise": 0.14,
+        "disgust": 0.02,
+        "calm_contentment": 0.04,
+        "neutral": 0.1
+      },
+      "dominant_emotion": "joy",
+      "original_declared_dominant": "joy",
+      "pilot_calibration_sha256": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "video_id": "FV000012",
+    "decoded_frames": 701,
+    "original_fps": 30.0,
+    "sample_frames": 22,
+    "sample_fps": 0.94151212553495,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000776",
+    "decoded_frames": 1343,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 44,
+    "sample_fps": 0.981892270053104,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000380",
+    "decoded_frames": 228,
+    "original_fps": 6.0,
+    "sample_frames": 38,
+    "sample_fps": 1.0,
+    "height": 360,
+    "width": 622
+  },
+  {
+    "video_id": "FV000363",
+    "decoded_frames": 837,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 26,
+    "sample_fps": 0.9309686729041567,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000537",
+    "decoded_frames": 1696,
+    "original_fps": 24.0,
+    "sample_frames": 70,
+    "sample_fps": 0.990566037735849,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000198",
+    "decoded_frames": 1003,
+    "original_fps": 30.0,
+    "sample_frames": 32,
+    "sample_fps": 0.9571286141575274,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000073",
+    "decoded_frames": 1247,
+    "original_fps": 30.0,
+    "sample_frames": 40,
+    "sample_fps": 0.9623095429029671,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000770",
+    "decoded_frames": 1523,
+    "original_fps": 29.915,
+    "sample_frames": 50,
+    "sample_fps": 0.9821076822061721,
+    "height": 360,
+    "width": 632
+  },
+  {
+    "video_id": "FV000942",
+    "decoded_frames": 1079,
+    "original_fps": 29.97,
+    "sample_frames": 36,
+    "sample_fps": 0.9999258572752548,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000978",
+    "decoded_frames": 1757,
+    "original_fps": 29.97,
+    "sample_frames": 58,
+    "sample_fps": 0.9893340922026181,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000134",
+    "decoded_frames": 2284,
+    "original_fps": 30.0,
+    "sample_frames": 76,
+    "sample_fps": 0.9982486865148862,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000472",
+    "decoded_frames": 1886,
+    "original_fps": 25.0,
+    "sample_frames": 74,
+    "sample_fps": 0.9809119830328737,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000304",
+    "decoded_frames": 1513,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 50,
+    "sample_fps": 0.9904173816929931,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000254",
+    "decoded_frames": 1267,
+    "original_fps": 30.0,
+    "sample_frames": 42,
+    "sample_fps": 0.9944751381215469,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000650",
+    "decoded_frames": 1790,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 58,
+    "sample_fps": 0.9710959431629823,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000275",
+    "decoded_frames": 1247,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 40,
+    "sample_fps": 0.9613481947082588,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000954",
+    "decoded_frames": 1276,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 42,
+    "sample_fps": 0.9864743407063156,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000087",
+    "decoded_frames": 832,
+    "original_fps": 30.0,
+    "sample_frames": 26,
+    "sample_fps": 0.9375,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000359",
+    "decoded_frames": 2369,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 78,
+    "sample_fps": 0.9867717761343764,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000004",
+    "decoded_frames": 914,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 30,
+    "sample_fps": 0.9836990143335875,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000367",
+    "decoded_frames": 1426,
+    "original_fps": 30.0,
+    "sample_frames": 46,
+    "sample_fps": 0.967741935483871,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000151",
+    "decoded_frames": 1590,
+    "original_fps": 30.0,
+    "sample_frames": 52,
+    "sample_fps": 0.9811320754716981,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000308",
+    "decoded_frames": 1185,
+    "original_fps": 29.97,
+    "sample_frames": 38,
+    "sample_fps": 0.9610632911392405,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000131",
+    "decoded_frames": 1215,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 40,
+    "sample_fps": 0.98666765333432,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000814",
+    "decoded_frames": 2008,
+    "original_fps": 30.0,
+    "sample_frames": 66,
+    "sample_fps": 0.9860557768924303,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000081",
+    "decoded_frames": 1778,
+    "original_fps": 30.0,
+    "sample_frames": 58,
+    "sample_fps": 0.9786276715410573,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000662",
+    "decoded_frames": 461,
+    "original_fps": 23.976023976023978,
+    "sample_frames": 18,
+    "sample_fps": 0.9361571183696998,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000895",
+    "decoded_frames": 2646,
+    "original_fps": 30.0,
+    "sample_frames": 88,
+    "sample_fps": 0.9977324263038548,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV001003",
+    "decoded_frames": 2544,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 84,
+    "sample_fps": 0.9895764612745744,
+    "height": 360,
+    "width": 486
+  },
+  {
+    "video_id": "FV000097",
+    "decoded_frames": 1073,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 34,
+    "sample_fps": 0.9496561220699152,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000393",
+    "decoded_frames": 2043,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 68,
+    "sample_fps": 0.9975340371816143,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000998",
+    "decoded_frames": 1795,
+    "original_fps": 30.0,
+    "sample_frames": 58,
+    "sample_fps": 0.9693593314763231,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000366",
+    "decoded_frames": 1042,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 34,
+    "sample_fps": 0.9779088473906131,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000849",
+    "decoded_frames": 1636,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 54,
+    "sample_fps": 0.9892308180816738,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000983",
+    "decoded_frames": 1730,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 56,
+    "sample_fps": 0.9701281377581955,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000674",
+    "decoded_frames": 1702,
+    "original_fps": 30.0,
+    "sample_frames": 56,
+    "sample_fps": 0.9870740305522915,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000013",
+    "decoded_frames": 1527,
+    "original_fps": 30.0,
+    "sample_frames": 50,
+    "sample_fps": 0.9823182711198429,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000079",
+    "decoded_frames": 1201,
+    "original_fps": 30.0,
+    "sample_frames": 40,
+    "sample_fps": 0.9991673605328892,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000133",
+    "decoded_frames": 1698,
+    "original_fps": 29.97002997002997,
+    "sample_frames": 56,
+    "sample_fps": 0.9884108824038152,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV001015",
+    "decoded_frames": 1414,
+    "original_fps": 30.0,
+    "sample_frames": 46,
+    "sample_fps": 0.9759547383309759,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000033",
+    "decoded_frames": 927,
+    "original_fps": 30.0,
+    "sample_frames": 30,
+    "sample_fps": 0.9708737864077669,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000811",
+    "decoded_frames": 2389,
+    "original_fps": 27.425,
+    "sample_frames": 86,
+    "sample_fps": 0.9872540812055254,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000120",
+    "decoded_frames": 1628,
+    "original_fps": 30.0,
+    "sample_frames": 54,
+    "sample_fps": 0.9950859950859949,
+    "height": 360,
+    "width": 202
+  },
+  {
+    "video_id": "FV000744",
+    "decoded_frames": 792,
+    "original_fps": 24.0,
+    "sample_frames": 32,
+    "sample_fps": 0.9696969696969697,
+    "height": 360,
+    "width": 640
+  },
+  {
+    "video_id": "FV000544",
+    "decoded_frames": 833,
+    "original_fps": 29.296600234466588,
+    "sample_frames": 28,
+    "sample_fps": 0.984759671746776,
+    "height": 576,
+    "width": 360
+  },
+  {
+    "video_id": "FV000031",
+    "decoded_frames": 1638,
+    "original_fps": 30.0,
+    "sample_frames": 54,
+    "sample_fps": 0.989010989010989,
+    "height": 360,
+    "width": 204
+  },
+  {
+    "video_id": "FV000320",
+    "decoded_frames": 1715,
+    "original_fps": 30.0,
+    "sample_frames": 56,
+    "sample_fps": 0.979591836734694,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000241",
+    "decoded_frames": 1438,
+    "original_fps": 30.0,
+    "sample_frames": 46,
+    "sample_fps": 0.9596662030598053,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000015",
+    "decoded_frames": 1799,
+    "original_fps": 30.0,
+    "sample_frames": 58,
+    "sample_fps": 0.9672040022234576,
+    "height": 640,
+    "width": 360
+  },
+  {
+    "video_id": "FV000001",
+    "decoded_frames": 2403,
+    "original_fps": 29.97,
+    "sample_frames": 80,
+    "sample_fps": 0.9977528089887641,
+    "height": 360,
+    "width": 640
+  }
+]

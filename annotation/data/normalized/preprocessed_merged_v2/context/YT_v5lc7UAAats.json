@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_v5lc7UAAats",
+  "transcript": "So it's been almost two years since Apple Vision Pro came out and now we have Samsung's Vision Pro competitor and maybe it was worth the wait. Because see, Apple just refreshed the new Vision Pro and turns out they addressed almost nothing that people were complaining about with the first one. They added an M5 chip and a new band. That's about it. So while Vision Pro is still very heavy and uncomfortable to wear for a long time, Samsung's Galaxy XR headset is is dramatically lighter and way better to wear for long sessions. And then while Vision Pro is still kind of lacking... as far as content goes. The Samsung one comes out the box with Android, so it works with a ton of Android apps, and it has a YouTube app. The Vision Pro still doesn't have a YouTube app. And then Vision Pro's AI features are still pretty much useless with the just little things like writing tools and image playground. Meanwhile, Samsung's runs Android XR, and the Gemini Assistant can reorganize Windows, launch you into apps and experiences, and literally see what you can see and answer questions about it. And Vision Pro still costs $3,500. Samsung's coming in at around half that, $1799. So if the Apple Vision Pro didn't convince you to buy a super premium VR headset, Samsung's hoping maybe this one will.",
+  "acoustic_features": {
+    "mean_loudness": 0.9026,
+    "loudness_variability": 0.6654,
+    "mean_pitch": 26.2964,
+    "pitch_variability": 0.184,
+    "spectral_flux": 0.4575,
+    "sound_level_db": -18.9965
+  },
+  "metadata_caption": "This or Apple Vision Pro?",
+  "caption_priority": "low"
+}

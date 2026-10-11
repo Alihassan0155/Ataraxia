@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001024",
+  "transcript": "The scars of your love remind me of us. They keep me thinking that we almost had it all. The scars of your love remind me breathless. I can't help feeling we could have had it all. Rolling in the deep. You wear my heart inside of your hands and you played it to the deep.",
+  "acoustic_features": {
+    "mean_loudness": 0.4409,
+    "loudness_variability": 0.6013,
+    "mean_pitch": 43.8724,
+    "pitch_variability": 0.0798,
+    "spectral_flux": 0.0801,
+    "sound_level_db": -30.8326
+  },
+  "metadata_caption": "Rolling in the deep [SOMI COVER SONG]",
+  "caption_priority": "low"
+}

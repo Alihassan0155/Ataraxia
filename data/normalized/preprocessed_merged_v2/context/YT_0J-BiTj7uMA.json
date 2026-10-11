@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0J-BiTj7uMA",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5866,
+    "loudness_variability": 0.5547,
+    "mean_pitch": 16.747,
+    "pitch_variability": 0.3026,
+    "spectral_flux": 1.3936,
+    "sound_level_db": -11.5323
+  },
+  "metadata_caption": "who did it better? 😂",
+  "caption_priority": "low"
+}

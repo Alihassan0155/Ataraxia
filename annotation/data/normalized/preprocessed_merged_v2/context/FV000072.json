@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000072",
+  "transcript": "Hey everybody, I'm Little Suzy and I will be performing in Chicago June 10th at the Freestyle Fiesta Puerto Rican Fest at Humboldt Park. Get your tickets at eventbrite.com. I'm going to be there with all of my freestyle friends and family. It's going to be a great time. It's all ages. Get your tickets at eventbrite.com. June 10th, Chicago, Humboldt Park. Hope to see you there. Bye! Bye!",
+  "acoustic_features": {
+    "mean_loudness": 0.4057,
+    "loudness_variability": 0.4853,
+    "mean_pitch": 36.1323,
+    "pitch_variability": 0.1385,
+    "spectral_flux": 0.1286,
+    "sound_level_db": -30.8572
+  },
+  "metadata_caption": "Lil' Suzy LIVE at the Puerto Rican Freestyle Fest in Chicago",
+  "caption_priority": "low"
+}

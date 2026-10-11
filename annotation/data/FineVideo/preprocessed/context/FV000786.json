@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000786",
+  "transcript": "Blackbird singing in the dead of night Take those broken wings and learn to fly All your life You were only waiting for this moment to arrive Blackbird singing in the dead of night Take those sunken eyes and learn to see All your life You were only waiting for this moment to be free",
+  "acoustic_features": {
+    "mean_loudness": 0.5547,
+    "loudness_variability": 0.756,
+    "mean_pitch": 30.8145,
+    "pitch_variability": 0.2644,
+    "spectral_flux": 0.2613,
+    "sound_level_db": -23.1466
+  },
+  "metadata_caption": "BLACK BIRD || COVER #acousticcover #beatles #blackbird #cover #beatlescover #music #song",
+  "caption_priority": "low"
+}

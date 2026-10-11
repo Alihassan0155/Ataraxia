@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_RKMtT6QDq94",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5669,
+    "loudness_variability": 0.4941,
+    "mean_pitch": 35.1966,
+    "pitch_variability": 0.2814,
+    "spectral_flux": 1.5569,
+    "sound_level_db": -13.2431
+  },
+  "metadata_caption": "YOU DO NOT RECOGNIZE THE BODIES IN THE WORMHOLE",
+  "caption_priority": "low"
+}

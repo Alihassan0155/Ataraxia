@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_JUeov7o2X3A",
+  "transcript": "Alan, do your best vampire impression. Yeah! Mark, do your best vampire impression. I can't do it. Dylan, do your best vampire impression. Blah, blah, blah. Luca, do your best vampire impression. Chelsea, do your best vampire impression. Yeah!",
+  "acoustic_features": {
+    "mean_loudness": 1.4005,
+    "loudness_variability": 0.5451,
+    "mean_pitch": 34.7358,
+    "pitch_variability": 0.19,
+    "spectral_flux": 0.7535,
+    "sound_level_db": -17.4418
+  },
+  "metadata_caption": "Who Has the Best Vampire Impression? 🧛",
+  "caption_priority": "low"
+}

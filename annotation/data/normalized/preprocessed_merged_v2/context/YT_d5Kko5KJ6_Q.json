@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_d5Kko5KJ6_Q",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0782,
+    "loudness_variability": 0.5529,
+    "mean_pitch": 42.7277,
+    "pitch_variability": 0.2941,
+    "spectral_flux": 0.6692,
+    "sound_level_db": -17.343
+  },
+  "metadata_caption": "Meet Your A-School Teachers! 📚",
+  "caption_priority": "low"
+}

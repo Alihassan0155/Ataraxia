@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0YbiiBmYlXs",
+  "transcript": "So much noise.",
+  "acoustic_features": {
+    "mean_loudness": 0.82,
+    "loudness_variability": 1.216,
+    "mean_pitch": 38.3655,
+    "pitch_variability": 0.2829,
+    "spectral_flux": 0.3475,
+    "sound_level_db": -20.8182
+  },
+  "metadata_caption": "WHAT A CRUNCH 🖨️",
+  "caption_priority": "low"
+}

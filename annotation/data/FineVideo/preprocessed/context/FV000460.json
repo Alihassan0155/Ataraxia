@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000460",
+  "transcript": "Now I want you to describe what the doll looks like to our sketch artist, Kenny. She has curly blonde hair. And a red dress. And a torn-up nose. And a blue bow in her hair. You got it, Ken? Alright, let's see. Dammit, Kenny, that's not what she said! Put that away, dude. Don't worry, ma'am. We'll find your doll.",
+  "acoustic_features": {
+    "mean_loudness": 0.3161,
+    "loudness_variability": 1.1532,
+    "mean_pitch": 33.444,
+    "pitch_variability": 0.3493,
+    "spectral_flux": 0.0889,
+    "sound_level_db": -31.7144
+  },
+  "metadata_caption": "My favorite Kenny McCormick moment",
+  "caption_priority": "low"
+}

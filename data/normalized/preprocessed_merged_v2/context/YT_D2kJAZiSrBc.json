@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_D2kJAZiSrBc",
+  "transcript": "3, 2, 1 It's all done Doing something Bang Big bump Big bounce Hang on What's it doing? What is it doing? Is it getting driven up? What the heck is this?",
+  "acoustic_features": {
+    "mean_loudness": 1.7726,
+    "loudness_variability": 0.4052,
+    "mean_pitch": 41.8495,
+    "pitch_variability": 0.2709,
+    "spectral_flux": 1.583,
+    "sound_level_db": -12.3807
+  },
+  "metadata_caption": "IT IS ALIVE",
+  "caption_priority": "low"
+}

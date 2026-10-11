@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Qr4anBkL2_A",
+  "transcript": "So this is an iPhone 17 Pro Max, but this is not an iPhone 17 Pro Max. This is the Honor Power 2, and if you want an Android phone, but you don't want your friends to know you have an Android phone, well, this might be tempting. So why would you want an Android phone? For the battery, of course. This Pro Max iPhone has a roughly 5,000 mAh battery and 40-watt charging. This is not an iPhone, which means it's thinner and has a 10,000 milliamp hour battery and 80 watt charge. And 27 watt reverse wireless charging because the battery is so big. It's basically a power bank that you can use to wirelessly charge other phones and accessories. But the best part is your friends don't have to know it's not an iPhone. It's the exact same color orange. It's the exact same design style. There's transparency mode in the software so it can look like liquid glass. The camera bump shape on the back is the same. Even the triple cameras, which is hilarious because this phone only has dual cameras. There's the primary camera, 50 megapixels, the 5 megapixel Ultra. wide and I haven't been able to get that camera to do anything other than make it look like an iPhone.",
+  "acoustic_features": {
+    "mean_loudness": 0.701,
+    "loudness_variability": 0.7694,
+    "mean_pitch": 25.4364,
+    "pitch_variability": 0.1984,
+    "spectral_flux": 0.3415,
+    "sound_level_db": -21.1594
+  },
+  "metadata_caption": "This is NOT an iPhone",
+  "caption_priority": "low"
+}

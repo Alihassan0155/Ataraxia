@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ggH3dvtWOXY",
+  "transcript": "Bye.",
+  "acoustic_features": {
+    "mean_loudness": 1.055,
+    "loudness_variability": 0.6925,
+    "mean_pitch": 33.8365,
+    "pitch_variability": 0.3156,
+    "spectral_flux": 0.7689,
+    "sound_level_db": -17.0741
+  },
+  "metadata_caption": "Gaming on the iPhone Duo!",
+  "caption_priority": "low"
+}

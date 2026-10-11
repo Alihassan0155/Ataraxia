@@ -1,0 +1,442 @@
+{
+  "status": "blocked_by_annotation_validation",
+  "heldout_count": 50,
+  "original_pilot_id_overlap": [],
+  "human_sources": {
+    "ali": "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ali_annotation.json",
+    "ghayas": "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ghayas_annotation.csv",
+    "zara": "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\zara_annotation.txt"
+  },
+  "source_sha256": {
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ali_annotation.json": "d9709189ed7380aeb968da405339d0168ff56ca605047227ac0264f28fb3e920",
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\ghayas_annotation.csv": "40cb1156ba36b43fa6b6f9d60aa919c675be2b723060c90895258b4506b34597",
+    "E:\\ALI\\Ataraxia\\human_annotation\\held_out\\zara_annotation.txt": "3d5512fd0a6e5edcaefc5a2b7040c912b0b504ce15c79bb18126abe06b2f7da6",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\qwen\\pilot\\annotations.jsonl": "926bea10fa022783a9d95d1cdbe8878e87a73ca303002c2b26216e59eaa521b9",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\internvl\\pilot\\annotations.jsonl": "0d1842e42da1baf1d8e68f9bc6ddeefaac781ab99d1e0c0de66be2e5adb902a1",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\predictions\\gemini\\annotations.jsonl": "26c33e4c2a6a304608a63ea35f33ef75ed8bc88bdd8a5cca92475ac710dcf2d1",
+    "E:\\ALI\\Ataraxia\\heldout_50_evaluation\\config\\pilot_calibration_and_selection.json": "7c5b3755ee5cdda4421bde0788d0ae39956d5007db7e6f04429d32152c567619"
+  },
+  "human_validation": {
+    "ali": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": [
+        {
+          "video_id": "FV000017",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000089",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000192",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000348",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000487",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000494",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000576",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000710",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000713",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000751",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000754",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000833",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000950",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000968",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "FV000982",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_6830845109714603266",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7217108611061812506",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7230453591952166149",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7286566536716897579",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7334130117947510059",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7339185620016713003",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7349704177645489454",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7399699023999028526",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7412881020309097771",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7440201647755644182",
+          "occurrence": 1,
+          "errors": {
+            "emotion_distribution": "emotion points must total 10; got 11.0",
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7452563112156335390",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7454613224718077227",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7476413217913326894",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "TT_7494798372763716906",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7642012710061772063",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "TT_7666318750701899026",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion",
+            "confidence": "missing or nonnumeric score"
+          }
+        },
+        {
+          "video_id": "YT_4wKlFrCQqsY",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_7FaYGOH-l38",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_bczqDcxThT0",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_cZwZ00JgFTA",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_fcqOTqR91zc",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_fFxsSEPMChw",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_fS-kTUefLNs",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_JNKTrpGZuRE",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_jwPOnQyd-KI",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_n_7u6j-hL4Q",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_QgKtTppkEXM",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_Qhe6NwhxzR0",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_qPkMqHlWBZk",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_qsB6qe88agI",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_tNVWGck2h3s",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_vJ_2PVStNHY",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_WiBhWcqrhF0",
+          "occurrence": 1,
+          "errors": {
+            "emotion_distribution": "emotion points must total 10; got 14.0",
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_yG34VsS6a0M",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        },
+        {
+          "video_id": "YT_ZsGXMON0tE0",
+          "occurrence": 1,
+          "errors": {
+            "dominant_emotion": "unknown/missing dominant emotion"
+          }
+        }
+      ]
+    },
+    "ghayas": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": []
+    },
+    "zara": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "issues": [],
+      "field_validation_issues": []
+    }
+  },
+  "model_validation": {
+    "qwen": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicate_ids": {},
+      "validated_count": 50,
+      "validation_error": null
+    },
+    "internvl": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicate_ids": {},
+      "validated_count": 50,
+      "validation_error": null
+    },
+    "gemini": {
+      "row_count": 50,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "duplicate_ids": {},
+      "validated_count": 50,
+      "validation_error": null
+    }
+  },
+  "three_human_valid_scalar_counts": {
+    "valence": 50,
+    "arousal": 50,
+    "recovery_suitability": 50
+  },
+  "three_human_valid_distribution_count": 48,
+  "three_human_valid_declared_dominant_count": 0,
+  "configuration_gaps": [
+    "qwen: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "internvl: historical pilot immutable revision was not logged; prospective held-out revision is pinned to the current cache",
+    "Gemini: historical provider revision and video sampling/generation defaults unlogged; matching the historical deployment cannot be proven",
+    "Shared context does not mean identical direct modality access: Gemini hears raw audio, CUDA models do not",
+    "No ID or exact-byte overlap; creator/repost/near-duplicate leakage is not certified by byte hashing"
+  ],
+  "calibration_refitted": false,
+  "final_evaluation_performed": false,
+  "full_dataset_annotation_started": false
+}

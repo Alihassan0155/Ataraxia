@@ -1,0 +1,145 @@
+{
+  "pairwise": [
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "valence",
+      "n": 50,
+      "mae": 1.22,
+      "rmse": 1.6186414056238645,
+      "signed_bias": -0.14,
+      "pearson": 0.2876808999884888,
+      "spearman": 0.31009718340237974
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "arousal",
+      "n": 50,
+      "mae": 1.96,
+      "rmse": 2.3579652245103193,
+      "signed_bias": 1.48,
+      "pearson": 0.2086296312898892,
+      "spearman": 0.20688324171415629
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "recovery_suitability",
+      "n": 50,
+      "mae": 1.26,
+      "rmse": 1.7146428199482247,
+      "signed_bias": 0.22,
+      "pearson": 0.4376785038124994,
+      "spearman": 0.4098396034145654
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "dominant_emotion",
+      "n": 0,
+      "agreement": null,
+      "cohen_kappa": null
+    },
+    {
+      "pair": "ali_vs_ghayas",
+      "field": "emotion_distribution",
+      "n": 48,
+      "mean_tv": 0.5354166666666667,
+      "median_tv": 0.5,
+      "mean_jsd": 0.3974691765188912
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "valence",
+      "n": 50,
+      "mae": 1.0,
+      "rmse": 1.296148139681572,
+      "signed_bias": -0.28,
+      "pearson": 0.6010966294937693,
+      "spearman": 0.5743670229369656
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "arousal",
+      "n": 50,
+      "mae": 1.84,
+      "rmse": 2.262741699796952,
+      "signed_bias": 1.56,
+      "pearson": 0.350506214336671,
+      "spearman": 0.3157913974314312
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "recovery_suitability",
+      "n": 50,
+      "mae": 1.62,
+      "rmse": 1.9544820285692064,
+      "signed_bias": -0.14,
+      "pearson": 0.3377384705626756,
+      "spearman": 0.3059096873740931
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "dominant_emotion",
+      "n": 0,
+      "agreement": null,
+      "cohen_kappa": null
+    },
+    {
+      "pair": "ali_vs_zara",
+      "field": "emotion_distribution",
+      "n": 48,
+      "mean_tv": 0.5,
+      "median_tv": 0.5,
+      "mean_jsd": 0.3662624428112564
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "valence",
+      "n": 50,
+      "mae": 1.18,
+      "rmse": 1.5427248620541512,
+      "signed_bias": -0.14,
+      "pearson": 0.3205594371693848,
+      "spearman": 0.29023255215044197
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "arousal",
+      "n": 50,
+      "mae": 0.88,
+      "rmse": 1.2806248474865698,
+      "signed_bias": 0.08,
+      "pearson": 0.5561867080633887,
+      "spearman": 0.5132270121077182
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "recovery_suitability",
+      "n": 50,
+      "mae": 1.28,
+      "rmse": 1.624807680927192,
+      "signed_bias": -0.36,
+      "pearson": 0.4601564384874453,
+      "spearman": 0.4325350849329242
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "dominant_emotion",
+      "n": 50,
+      "agreement": 0.42,
+      "cohen_kappa": 0.23482849604221634
+    },
+    {
+      "pair": "ghayas_vs_zara",
+      "field": "emotion_distribution",
+      "n": 50,
+      "mean_tv": 0.45,
+      "median_tv": 0.4,
+      "mean_jsd": 0.30759289601364936
+    }
+  ],
+  "three_rater": {
+    "n": 0,
+    "all_three_agreement": null,
+    "fleiss_kappa": null
+  },
+  "qualification": "Metric-specific valid subsets only; incomplete final validation."
+}

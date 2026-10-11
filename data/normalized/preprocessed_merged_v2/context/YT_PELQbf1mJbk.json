@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_PELQbf1mJbk",
+  "transcript": "Me at the Grammy, got my name She my hitter for a reason Oh All my secrets Oh, oh, oh Cause I know she gon' keep em Oh",
+  "acoustic_features": {
+    "mean_loudness": 2.1724,
+    "loudness_variability": 0.3338,
+    "mean_pitch": 29.4162,
+    "pitch_variability": 0.4842,
+    "spectral_flux": 2.6423,
+    "sound_level_db": -6.7327
+  },
+  "metadata_caption": "Who Did it Best?",
+  "caption_priority": "low"
+}

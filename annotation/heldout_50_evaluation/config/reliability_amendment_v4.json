@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-10",
+  "authorization": "User requested key rotation on quota exhaustion and Gemini failures",
+  "policy": "180-second hard per-key attempt; 600-second per-video budget; same-video failover on returned key errors or hangs; skip disabled keys; preserve validation failures",
+  "changes": {
+    "scripts/evaluate.py": {
+      "before": "713812c19e3b742fe0bd266e7693426edc55b549da3d6c920659b64240876e66",
+      "after": "0acaaf2fb28812222d9e9c805d09724c68b7272b6470a240c3973d535cbc1614"
+    },
+    "scripts/run_gemini.py": {
+      "before": "5f7a098b202c434529e23e399e44c572ceff921068dfd1cafc7114a645eac7b8",
+      "after": "ec3311230779d81da6e9bcf616a0b51260b0b7b255e7f4ae678b966e47689b84"
+    },
+    "scripts/test_reliability.py": {
+      "before": "33143a3cdcb4f58d9a151a0034a0f289c59c6396b5e3c73512a4207cc796b56d",
+      "after": "d77519901230357117a482ae4a086a3c8b6f3cf33e4e85bc915653086a71ef0e"
+    }
+  },
+  "pilot_calibration_modified": false,
+  "saved_predictions_modified": false,
+  "previous_amendment": "config/reliability_amendment_v3.json",
+  "limitation": "Operational protocol changed after observed failures; same-project keys may share quotas."
+}

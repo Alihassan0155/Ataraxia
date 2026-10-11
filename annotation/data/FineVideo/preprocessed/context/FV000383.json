@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000383",
+  "transcript": "mermaids would actually look like in real life. First off, they probably wouldn't be the size of a human. Sorry, Ariel. They'd need to be smaller and stronger to make it in the deep sea, though they would have a strong muscular tail. And to keep warm, mermaids would need a thick skin, possibly with a layer of blubber. Also, despite what trolls might say on the internet, they would be more likely to have darker skin, well, either dark or transparent, to aid with camouflage in low light conditions. Also, imagine large glowing eyes, gills, and sharp teeth. And because of sonar like hearing, they wouldn't really need human-like ears. So yeah, a real-life mermaid would probably look less like this, or this, and more like this.",
+  "acoustic_features": {
+    "mean_loudness": 0.5548,
+    "loudness_variability": 0.6324,
+    "mean_pitch": 28.0535,
+    "pitch_variability": 0.2375,
+    "spectral_flux": 0.2298,
+    "sound_level_db": -25.8943
+  },
+  "metadata_caption": "What \"real\" mermaids would look like?",
+  "caption_priority": "low"
+}

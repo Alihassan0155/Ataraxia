@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000666",
+  "transcript": "This is a reverse grip dumbbell row or a row where the palms are facing away. So like a regular bent over row we want to hinge at the waist with a slight bend in the knees, good flat back and a neutral neck looking down at the floor. And we're just going to bring those dumbbells straight up and into the abdomen and squeeze those shoulder blades together. Remember we're trying to work the upper back here. So we want to squeeze those shoulder blades together. Try to do the work with the upper back instead of the arms. Exhale as you pull up, deep breath in on the way down.",
+  "acoustic_features": {
+    "mean_loudness": 0.3762,
+    "loudness_variability": 0.7727,
+    "mean_pitch": 26.4303,
+    "pitch_variability": 0.1146,
+    "spectral_flux": 0.1669,
+    "sound_level_db": -26.3489
+  },
+  "metadata_caption": "Reverse Grip Dumbbell Row",
+  "caption_priority": "low"
+}

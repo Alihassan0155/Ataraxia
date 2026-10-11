@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000287",
+  "transcript": "Okay, Chris, your mom and I want to help you get out some of that aggression, so I thought you and me could huck rotten apples at passing cash. Oh, I didn't know we had brown apple in the forecast. Well, we needed it. Wow, can I have a turn? Hey, which one of you threw that apple at my car? He did it. He dragged me out here. I wanted to be in school, sir. Where'd you get a cannon like that, kid? I work out my right arm three times a day. Hmm, free weights? No, mostly JPEGs of Helen Hunt on my hard drive. Well, I'm Coach Doyle, and I head up the baseball team at James Woods High. What fake class did I also make you teach? Driver's Ed, right? No woodshop. Ah, that was my second guess. Tell me, son, how would you like to pitch for the high school team? Baseball's the sport people play while eating, right? Oh, yeah.",
+  "acoustic_features": {
+    "mean_loudness": 0.4706,
+    "loudness_variability": 0.911,
+    "mean_pitch": 33.1909,
+    "pitch_variability": 0.2092,
+    "spectral_flux": 0.1744,
+    "sound_level_db": -29.4843
+  },
+  "metadata_caption": "Chris Make Something Dumb - Family Guy S15 Ep2",
+  "caption_priority": "low"
+}

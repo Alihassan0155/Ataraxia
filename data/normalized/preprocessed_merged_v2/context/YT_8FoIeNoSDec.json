@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_8FoIeNoSDec",
+  "transcript": "Let's try out this silent fidget board.",
+  "acoustic_features": {
+    "mean_loudness": 0.1552,
+    "loudness_variability": 1.276,
+    "mean_pitch": 23.2955,
+    "pitch_variability": 0.4651,
+    "spectral_flux": 0.0607,
+    "sound_level_db": -37.1632
+  },
+  "metadata_caption": "Another fidget board (or busy board) ✨#fidget #asmr #asmrsounds #busyboard",
+  "caption_priority": "low"
+}

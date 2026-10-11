@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_nyyl_wrrsz8",
+  "transcript": "Oh, my God. No, no, no.",
+  "acoustic_features": {
+    "mean_loudness": 0.7129,
+    "loudness_variability": 0.9468,
+    "mean_pitch": 39.1108,
+    "pitch_variability": 0.2029,
+    "spectral_flux": 0.387,
+    "sound_level_db": -19.6077
+  },
+  "metadata_caption": "Oh Deer! | Simon's Cat Extra",
+  "caption_priority": "low"
+}

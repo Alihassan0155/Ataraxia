@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000845",
+  "transcript": "We asked parents what words they would teach their children. Arousal? No. Desire? Are you mad? Pleasure? What's wrong with you? Murder? Yeah. Rape? Well, that's not a bad word. That's just real life. Femicide? Oh, that's a big word. That'll be good for essays. Definitely. The words that we use define our culture. They define our actions. You are responsible for the world that your kids are growing up in.",
+  "acoustic_features": {
+    "mean_loudness": 0.3677,
+    "loudness_variability": 0.9542,
+    "mean_pitch": 35.6886,
+    "pitch_variability": 0.1413,
+    "spectral_flux": 0.1809,
+    "sound_level_db": -26.74
+  },
+  "metadata_caption": "The words we teach our kids - Seema Anand Storytelling",
+  "caption_priority": "low"
+}

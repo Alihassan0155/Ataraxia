@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__yOTYsFlRQY",
+  "transcript": "Here's everything that's technically worse about the new iPhone Air that makes it so incredibly thin. So eSIM only globally, no room in there for a SIM card. Cooling, this has the new A19 Pro chip with one less GPU core, but thermally, this will be way more limited than the Pros. Battery has to be worse. Apple still said all day battery life in the keynote, but there's just way less room in the phone, so I'll believe it when I see it. There's only a single camera. Speakers are also definitely smaller, you can tell by the grills. There's no millimeter wave 5G, and it does wobble just a little bit on a table because that big single camera in the corner. But all of that adds up to a razor-thin 5.6 millimeter phone and holding it it's ridiculously light and super cool and made of titanium. But will that titanium be bend proof? I don't have it here yet so I can't tell you the answer that yet but get subscribed to make sure you see the full review and all of my testing when that comes out.",
+  "acoustic_features": {
+    "mean_loudness": 0.7239,
+    "loudness_variability": 0.653,
+    "mean_pitch": 25.3604,
+    "pitch_variability": 0.1563,
+    "spectral_flux": 0.4043,
+    "sound_level_db": -19.8809
+  },
+  "metadata_caption": "The iPhone AIR",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000420",
+  "transcript": "Hey, what are you drinking? I've never seen such a drink anywhere before. Can you give me a try? It's nothing special. Do you really think he's really capable of drinking something strong? I'm sure this is just some kind of juice. Damn! Oh, please! What a cheap joke! Give it to me! Don't! My throat! Twelve seconds later. Mama, I don't feel so good. I feel nothing. Call the doctor.",
+  "acoustic_features": {
+    "mean_loudness": 0.6519,
+    "loudness_variability": 0.7825,
+    "mean_pitch": 27.7504,
+    "pitch_variability": 0.3065,
+    "spectral_flux": 0.2804,
+    "sound_level_db": -23.4998
+  },
+  "metadata_caption": "Aphelios drink - League of Legends comic dub",
+  "caption_priority": "low"
+}

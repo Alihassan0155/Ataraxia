@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_bxsHsXbaw64",
+  "transcript": "What I have here is a chunk of indium, and I think it's pretty cool. This is because, even though it's a metal, it's extremely soft. To test this, I can just push on it with my nail, and it easily sinks in. The only metals that are softer than this are the alkali metals, like potassium and sodium, but those are extremely reactive. Indium on the other hand is pretty much inert and it's non-toxic, so I should be able to try biting through it. it. That was so much harder than I thought.",
+  "acoustic_features": {
+    "mean_loudness": 0.4442,
+    "loudness_variability": 1.3185,
+    "mean_pitch": 30.0271,
+    "pitch_variability": 0.1986,
+    "spectral_flux": 0.2264,
+    "sound_level_db": -23.1594
+  },
+  "metadata_caption": "Biting through metal (Indium)",
+  "caption_priority": "low"
+}

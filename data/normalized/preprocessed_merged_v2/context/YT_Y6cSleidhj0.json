@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Y6cSleidhj0",
+  "transcript": "Somebody catch the ball! Oh, air right catch, you loser! Oh, beans coming to you! Beans, what's wrong? Man, I can't play right now. Those wings gave me heartburn. I have just the ball you need to catch. Sorry. Sorry. Sorry. Thanks Uncle Eric. Don't let friends put up with heartburn. Pass the Tums!",
+  "acoustic_features": {
+    "mean_loudness": 2.263,
+    "loudness_variability": 0.6502,
+    "mean_pitch": 35.8488,
+    "pitch_variability": 0.3825,
+    "spectral_flux": 1.8972,
+    "sound_level_db": -9.8201
+  },
+  "metadata_caption": "SUPERBOWL PARTY",
+  "caption_priority": "low"
+}

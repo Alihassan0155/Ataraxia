@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_aQ5fUkNFx_8",
+  "transcript": "I'm a police officer. LinkinBio!",
+  "acoustic_features": {
+    "mean_loudness": 2.5397,
+    "loudness_variability": 0.3789,
+    "mean_pitch": 30.1228,
+    "pitch_variability": 0.3342,
+    "spectral_flux": 1.9545,
+    "sound_level_db": -10.229
+  },
+  "metadata_caption": "Help Me Stop these Bullies! 🙏",
+  "caption_priority": "low"
+}

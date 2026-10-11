@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_FHa4ODq0ZVs",
+  "transcript": "Oh? Oh! Oh! Oh! Oh! Oh! Oh! Oh! Oh! Boop.",
+  "acoustic_features": {
+    "mean_loudness": 0.2747,
+    "loudness_variability": 1.0174,
+    "mean_pitch": 42.6523,
+    "pitch_variability": 0.0683,
+    "spectral_flux": 0.1124,
+    "sound_level_db": -31.8074
+  },
+  "metadata_caption": "This cat finds himself in a sticky situation",
+  "caption_priority": "low"
+}

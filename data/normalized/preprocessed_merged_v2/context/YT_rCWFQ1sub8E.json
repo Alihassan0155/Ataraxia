@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_rCWFQ1sub8E",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.6182,
+    "loudness_variability": 0.4188,
+    "mean_pitch": 16.0929,
+    "pitch_variability": 0.2603,
+    "spectral_flux": 1.2845,
+    "sound_level_db": -14.3536
+  },
+  "metadata_caption": "MATH IS FINALLY FUN! 🤓 Learning With The WOW Cube! ➕",
+  "caption_priority": "low"
+}

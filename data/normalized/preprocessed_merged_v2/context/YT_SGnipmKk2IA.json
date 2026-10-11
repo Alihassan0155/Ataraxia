@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SGnipmKk2IA",
+  "transcript": "Right, Sucker World Cup 2026 has kicked off and we are here inside Grimsey Burger in Boston. And trust me, the fans are going wild. As are the motorbikes. Right, you guys ready? Not just to eat a delicious burger, but to see some fantastic keepy-uppies? What's the number? 100, coming now. Let's go.",
+  "acoustic_features": {
+    "mean_loudness": 1.1679,
+    "loudness_variability": 0.5087,
+    "mean_pitch": 46.1046,
+    "pitch_variability": 0.2216,
+    "spectral_flux": 0.676,
+    "sound_level_db": -17.5552
+  },
+  "metadata_caption": "I think I’m ready for the World Cup pitch ⚽️ 😂",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vdFxk-zMwlg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.299,
+    "loudness_variability": 0.2487,
+    "mean_pitch": 18.0937,
+    "pitch_variability": 0.2018,
+    "spectral_flux": 1.2767,
+    "sound_level_db": -14.6538
+  },
+  "metadata_caption": "Grilling season calls for stuffed hot dogs 🌭🧀",
+  "caption_priority": "low"
+}

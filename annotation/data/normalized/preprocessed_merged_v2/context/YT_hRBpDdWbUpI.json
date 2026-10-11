@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hRBpDdWbUpI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5282,
+    "loudness_variability": 0.5146,
+    "mean_pitch": 27.956,
+    "pitch_variability": 0.3179,
+    "spectral_flux": 0.2241,
+    "sound_level_db": -25.7733
+  },
+  "metadata_caption": "Can My Fiancée Lift Me?",
+  "caption_priority": "low"
+}

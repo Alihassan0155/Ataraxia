@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000968",
+  "transcript": "Truthfully, I don't give a fuck about Tim Tebow, but he just threw the worst block I've ever seen in my life. And the announcers are going crazy about it. Seriously, I definitely have to say that Tebow can't block for shit. I mean, the Browns number 59 doesn't even know he got blocked. This type of play will never get Tebow on a starting roster. Tim Tebow did his job. Yeah, Tim Tebow, he used it at the H-back position, had an opportunity to show some of his blocking skill. He's going to come right back across the formation. He's going to try and pin it inside.",
+  "acoustic_features": {
+    "mean_loudness": 0.6782,
+    "loudness_variability": 1.0897,
+    "mean_pitch": 33.3493,
+    "pitch_variability": 0.1424,
+    "spectral_flux": 0.2972,
+    "sound_level_db": -22.9204
+  },
+  "metadata_caption": "Tim Tebow throws the weakest block in history on a defender during a run Play",
+  "caption_priority": "low"
+}

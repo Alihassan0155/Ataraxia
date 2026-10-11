@@ -1,0 +1,4 @@
+model,timing_n,sum_seconds,median_seconds,max_seconds,normalized_records,reliability_versions,repair_versions,timing_limit
+qwen,50,15543.607837199994,85.6585564500001,1488.462893,0,"{""not_logged"": 50}","{""not_logged"": 50}",Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries.
+internvl,50,35120.25491039999,478.6660384000006,1993.9778800000004,0,"{""not_logged"": 50}","{""not_logged"": 49, ""normalize_after_two_repairs_v3"": 1}",Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries.
+gemini,50,3304.471534199997,39.62275559999989,320.2092912999942,0,"{""not_logged"": 14, ""hard_per_key_failover_v4"": 35, ""timeouts_and_stage_logs_v2"": 1}","{""not_logged"": 50}",Saved successful per-video times; excludes model loading and may exclude failed attempts/key retries.

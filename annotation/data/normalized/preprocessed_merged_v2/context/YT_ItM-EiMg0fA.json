@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ItM-EiMg0fA",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.1155,
+    "loudness_variability": 1.247,
+    "mean_pitch": 56.2235,
+    "pitch_variability": 0.0811,
+    "spectral_flux": 0.0728,
+    "sound_level_db": -36.9784
+  },
+  "metadata_caption": "ASMR - An Angelic Pampering",
+  "caption_priority": "low"
+}

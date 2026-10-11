@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000835",
+  "transcript": "Let's see what $10 can buy you in India. Let's get a drink for everyone. $2 for four fresh juices. This is cheap. This is peacock feathers, guys. $100. Expensive. $200. $100. This is for $1. Sir, for you. Thank you, sir. So we got two ice creams for $0.50. While I was walking, this guy kept following me to sell me this woman dress. I'm not a girl. I don't need a dress. Because I appreciated his persistence, I decided to finally buy it. Thank you so much. Congratulations, sir.",
+  "acoustic_features": {
+    "mean_loudness": 1.1307,
+    "loudness_variability": 0.7006,
+    "mean_pitch": 33.7013,
+    "pitch_variability": 0.166,
+    "spectral_flux": 0.56,
+    "sound_level_db": -17.2638
+  },
+  "metadata_caption": "What Can I Buy With $10 In India",
+  "caption_priority": "low"
+}

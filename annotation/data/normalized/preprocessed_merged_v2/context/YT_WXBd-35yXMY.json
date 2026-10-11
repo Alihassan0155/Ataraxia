@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_WXBd-35yXMY",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.2125,
+    "loudness_variability": 0.4083,
+    "mean_pitch": 18.0745,
+    "pitch_variability": 0.4452,
+    "spectral_flux": 2.2252,
+    "sound_level_db": -8.0898
+  },
+  "metadata_caption": "Transform forgotten items—subscribe @pepperell.crafts now! 🎸",
+  "caption_priority": "low"
+}

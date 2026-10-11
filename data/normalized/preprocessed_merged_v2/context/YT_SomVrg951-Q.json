@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SomVrg951-Q",
+  "transcript": "Okay, so today, I've decided to dissolve my wiener in acid. I'm not just going to be using any acid though, and I'm going to be using something special called piranha solution. It's a hot and angry mixture of sulfuric acid and hydrogen peroxide, and I basically just have to drop it in. It almost immediately turns black, and this is all carbon. Now, if I add some more peroxide... Thank you. I can vaporize the carbon and turn it into CO2 gas. I think it's pretty obvious, but I'm still going to mention that this is extremely dangerous. If any of this splashed on me, it would do something very similar, which wouldn't be super pleasant. It eventually looked like there was barely any of it left, and it was just a sad little meat noodle. Then, over the next 30 seconds or so, it calmed down, and it was ready for another wiener.",
+  "acoustic_features": {
+    "mean_loudness": 1.1506,
+    "loudness_variability": 0.6814,
+    "mean_pitch": 30.3028,
+    "pitch_variability": 0.2023,
+    "spectral_flux": 0.5547,
+    "sound_level_db": -18.502
+  },
+  "metadata_caption": "Vaporizing a hot dog in acid",
+  "caption_priority": "low"
+}

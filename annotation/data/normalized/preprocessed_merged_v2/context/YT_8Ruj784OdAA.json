@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_8Ruj784OdAA",
+  "transcript": "Roll out of the",
+  "acoustic_features": {
+    "mean_loudness": 3.1093,
+    "loudness_variability": 0.2765,
+    "mean_pitch": 38.6698,
+    "pitch_variability": 0.3929,
+    "spectral_flux": 2.1469,
+    "sound_level_db": -7.8694
+  },
+  "metadata_caption": "Help Me Win the Talent Show! 🎤",
+  "caption_priority": "low"
+}

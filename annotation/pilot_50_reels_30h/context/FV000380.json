@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000380",
+  "transcript": "Animal sexual behavior takes many different forms, including within the same species. Common mating or reproductively motivated systems include monogamy, polygyny, polyandry, polygamy and promiscuity. Other sexual behavior may be reproductively motivated e.g. sex apparently, due to duress or coercion and situational sexual behavior or non-reproductively motivated e.g. inter-specific sexuality, sexual arousal from objects or places, sex with dead animals, homosexual sexual behavior, and bisexual sexual behavior.",
+  "acoustic_features": {
+    "mean_loudness": 0.6749,
+    "loudness_variability": 0.6487,
+    "mean_pitch": 34.4249,
+    "pitch_variability": 0.1415,
+    "spectral_flux": 0.2763,
+    "sound_level_db": -22.8739
+  },
+  "metadata_caption": "Animal sexual behaviour",
+  "caption_priority": "low"
+}

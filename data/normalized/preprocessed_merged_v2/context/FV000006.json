@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000006",
+  "transcript": "Oh no way! A keyboard? I have an idea. You know how there's copy and paste shortcuts? When do I do this? Control C. Control Z. Oh look at that! It worked! Unfortunately there can only be one vanilla so you're gonna have to uh... Hey come back! I just want to talk to you!",
+  "acoustic_features": {
+    "mean_loudness": 0.4104,
+    "loudness_variability": 1.4713,
+    "mean_pitch": 29.4805,
+    "pitch_variability": 0.1762,
+    "spectral_flux": 0.2538,
+    "sound_level_db": -19.0051
+  },
+  "metadata_caption": "Keyboard #shorts",
+  "caption_priority": "low"
+}

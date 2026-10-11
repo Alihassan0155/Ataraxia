@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_diDmkTa5w2w",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.2114,
+    "loudness_variability": 0.3363,
+    "mean_pitch": 23.2318,
+    "pitch_variability": 0.481,
+    "spectral_flux": 1.312,
+    "sound_level_db": -12.6867
+  },
+  "metadata_caption": "Carve oranges to make jack-o-lantern candles 🎃🕯️",
+  "caption_priority": "low"
+}

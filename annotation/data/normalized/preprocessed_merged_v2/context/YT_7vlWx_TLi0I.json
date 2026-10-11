@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_7vlWx_TLi0I",
+  "transcript": "These are the...",
+  "acoustic_features": {
+    "mean_loudness": 0.1305,
+    "loudness_variability": 0.7289,
+    "mean_pitch": 46.7346,
+    "pitch_variability": 0.2119,
+    "spectral_flux": 0.0534,
+    "sound_level_db": -39.9898
+  },
+  "metadata_caption": "ASMR - Calming Body Tappers",
+  "caption_priority": "low"
+}

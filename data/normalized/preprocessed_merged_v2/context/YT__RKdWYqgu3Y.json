@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__RKdWYqgu3Y",
+  "transcript": "A few months ago, I filled a balloon with hydrogen gas and lit it on fire… and it made a nice little pop. What I've been really wanting to do though, is to try it with this… which should be a lot more exciting. This is because, instead of just being pure hydrogen… I've replaced a third of it with oxygen. With this new mixture, all of the hydrogen should be able to react almost instantly… and it's honestly kind of scary. But anyway, I guess now all I need to do is light it on fire, and I'm pretty sure it shook the entire building.",
+  "acoustic_features": {
+    "mean_loudness": 0.8431,
+    "loudness_variability": 1.0407,
+    "mean_pitch": 29.5113,
+    "pitch_variability": 0.2098,
+    "spectral_flux": 0.5838,
+    "sound_level_db": -16.5392
+  },
+  "metadata_caption": "This balloon shook the entire room",
+  "caption_priority": "low"
+}

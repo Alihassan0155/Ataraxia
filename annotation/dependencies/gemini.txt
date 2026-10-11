@@ -1,0 +1,2 @@
+# Exact existing SDK dependency specification, retained for reproducibility.
+-r ../heldout_50_evaluation/requirements-gemini.txt

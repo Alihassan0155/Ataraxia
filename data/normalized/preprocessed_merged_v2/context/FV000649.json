@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000649",
+  "transcript": "Panglao Island is a paradise in the central Versailles region known for its stunning beaches. Including Dojo, Bolod, Dumaluan and Ilona, these beaches offer relaxation, adventure and exploration with their beautiful seashells, diving sites, clean sand and coral reefs. Panglao is the perfect place to unwind and find inner peace.",
+  "acoustic_features": {
+    "mean_loudness": 1.5773,
+    "loudness_variability": 0.4631,
+    "mean_pitch": 36.9242,
+    "pitch_variability": 0.2071,
+    "spectral_flux": 0.7994,
+    "sound_level_db": -14.9055
+  },
+  "metadata_caption": "\"Panglao Island's Must-Visit Beaches\" #bohol",
+  "caption_priority": "low"
+}

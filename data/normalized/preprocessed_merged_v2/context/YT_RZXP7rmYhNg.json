@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_RZXP7rmYhNg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.051,
+    "loudness_variability": 0.3675,
+    "mean_pitch": 18.847,
+    "pitch_variability": 0.2282,
+    "spectral_flux": 2.1703,
+    "sound_level_db": -9.6032
+  },
+  "metadata_caption": "Launch your own rocket 🚀 #shorts",
+  "caption_priority": "low"
+}

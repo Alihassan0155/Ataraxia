@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_p_W3YA2DocQ",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5685,
+    "loudness_variability": 1.1656,
+    "mean_pitch": 54.3573,
+    "pitch_variability": 0.0408,
+    "spectral_flux": 0.3544,
+    "sound_level_db": -22.1578
+  },
+  "metadata_caption": "would you eat this? #shorts",
+  "caption_priority": "low"
+}

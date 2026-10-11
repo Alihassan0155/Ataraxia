@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_eTrhZmum-ek",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.9322,
+    "loudness_variability": 0.4279,
+    "mean_pitch": 24.3985,
+    "pitch_variability": 0.4563,
+    "spectral_flux": 2.3018,
+    "sound_level_db": -7.746
+  },
+  "metadata_caption": "Make your own fruity necklace—subscribe @pepperell.crafts! 🍒",
+  "caption_priority": "low"
+}

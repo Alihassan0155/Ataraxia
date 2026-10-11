@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xIFkrVU5Krk",
+  "transcript": "This is an iPhone 17 Pro Max. And this is a Xiaomi 17 Pro Max. And as a product strategy, this is kind of hilarious. But guess what? Xiaomi has been not so subtly appealing to iPhone users for a while now. This year, it's just more straightforward than ever. They literally changed the name of their phones to match the iPhone. So it's obvious, but hey, this phone is like the iPhone, but better. Like the screen is like an iPhone, but it's better because it gets so much brighter has a smaller notch and has an ultrasonic fingerprint reader. The design is very much like an iPhone, but the screen on the back, well, that's better. That you can use as a viewfinder to take actually high quality selfies or display notifications or even play whole games with this retro case. The Pro iPhones have triple 48 megapixel cameras this year. So naturally the Xiaomi has triple 50 megapixel cameras. And the Pro Max here has a 7,500 milliamp hour silicon carbon battery. So that's Like 50% more battery than the iPhone. and it charges faster. Somewhere out there, there was a customer who was about to buy an iPhone, but then they see this and it's cheaper and they may be convinced.",
+  "acoustic_features": {
+    "mean_loudness": 0.9018,
+    "loudness_variability": 0.7299,
+    "mean_pitch": 25.3032,
+    "pitch_variability": 0.2345,
+    "spectral_flux": 0.469,
+    "sound_level_db": -18.4731
+  },
+  "metadata_caption": "This or the iPhone?",
+  "caption_priority": "low"
+}

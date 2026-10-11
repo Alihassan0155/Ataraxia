@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hMf8z2Wtngs",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.8245,
+    "loudness_variability": 0.4312,
+    "mean_pitch": 20.2214,
+    "pitch_variability": 0.2844,
+    "spectral_flux": 0.691,
+    "sound_level_db": -17.8922
+  },
+  "metadata_caption": "The crunchy and cheesy goodness of a mozzarella stick combined with spinach artichoke dip 🧀✨",
+  "caption_priority": "low"
+}

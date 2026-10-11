@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000167",
+  "transcript": "Once upon a life, there was a young and proud star pretending to be the brightest. As each day passed, it witnessed the breathtaking display of deep blues, mesmerizing all cursed and fierce greens surrounding it, and so made it understand that greatness did not lie in outshining others, but enhancing them and making them even more unique.",
+  "acoustic_features": {
+    "mean_loudness": 0.9503,
+    "loudness_variability": 0.437,
+    "mean_pitch": 26.6688,
+    "pitch_variability": 0.4409,
+    "spectral_flux": 0.5779,
+    "sound_level_db": -18.4985
+  },
+  "metadata_caption": "Chapter 2 – ‘RANGI, The Colors of Ngorongoro’ - Once Upon a Life in Tanzania",
+  "caption_priority": "low"
+}

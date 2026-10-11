@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_8GCaReIUSI4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.0807,
+    "loudness_variability": 0.3701,
+    "mean_pitch": 29.2037,
+    "pitch_variability": 0.3262,
+    "spectral_flux": 1.7378,
+    "sound_level_db": -10.2723
+  },
+  "metadata_caption": "WowCube as a Night Lamp! 🌙🤩 #wowcube",
+  "caption_priority": "low"
+}

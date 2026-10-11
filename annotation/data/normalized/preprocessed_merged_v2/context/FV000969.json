@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000969",
+  "transcript": "Exercise 1 is a renegade row. You're leaning over your torso in a press-up position and rowing the dumbbell on alternate sides. Exercise 2, tricep kickbacks. You kick the dumbbells back while keeping your elbows in a fixed position. You then move on to exercise 3, a bicep curl using the resistance band. Anchor it under your feet and curl up to the top and control the lowering motion. Fourth and final exercise is the Arnold press. Seated on a Swiss ball, drive the dumbbells powerfully upwards, twisting as you do so and returning the phase on the way down. Underwater Cookies",
+  "acoustic_features": {
+    "mean_loudness": 1.1234,
+    "loudness_variability": 0.5007,
+    "mean_pitch": 24.7654,
+    "pitch_variability": 0.4289,
+    "spectral_flux": 0.6827,
+    "sound_level_db": -17.175
+  },
+  "metadata_caption": "Argos Home Workout Featuring Opti and LDN Muscle: Trade Games for Gains 8 Minutes",
+  "caption_priority": "low"
+}

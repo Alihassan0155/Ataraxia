@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7298188639891344686",
+  "transcript": "We're always right. Don't take it away.",
+  "acoustic_features": {
+    "mean_loudness": 1.4777,
+    "loudness_variability": 0.3048,
+    "mean_pitch": 40.7013,
+    "pitch_variability": 0.3905,
+    "spectral_flux": 0.7518,
+    "sound_level_db": -16.5233
+  },
+  "metadata_caption": "The 10 last runners at the NYC Marathon 🥇👏 The 2023 Marathon is officially over! Congratulations to all the runners 👏 See you next year! #nycmarathon #marathon #nyc #newyork #running #2023 ",
+  "caption_priority": "low"
+}

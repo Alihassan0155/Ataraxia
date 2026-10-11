@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YJI3h8JnT_k",
+  "transcript": "My mom sent me the paper. Oh, let's see it. Okay. Oh, yeah, that looks good. You guys make a very attractive couple. Yeah, we look great together. We really do. Okay. Wow, imagine what our kids would look like. You know, we don't have to imagine. I'm marrying her. We'll just see.",
+  "acoustic_features": {
+    "mean_loudness": 0.879,
+    "loudness_variability": 0.5947,
+    "mean_pitch": 36.751,
+    "pitch_variability": 0.2114,
+    "spectral_flux": 0.3603,
+    "sound_level_db": -24.3909
+  },
+  "metadata_caption": "This is the official FRIENDS channel! Stay up to date on the funniest, sweetest, and most awkward moments from all 10 seasons!\n\n#Friends #TV #Funny",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_DZEjiJnnDPQ",
+  "transcript": "This chip has over a hundred grams of protein. To a food processor, add one pound of boneless, skinless chicken breast. Or you could just use ground chicken. Whatever spices you like. Very important, two teaspoons of baking soda. You need to blitz this as finely as possible. Spread thin on a baking sheet lined with parchment paper. Bake at 350 Fahrenheit for 45 to 50 minutes. And out comes a sheet of chicken. My God. Obviously you can serve this with guacamole. By themselves, a little weird. With the guac, excellent.",
+  "acoustic_features": {
+    "mean_loudness": 0.7152,
+    "loudness_variability": 0.579,
+    "mean_pitch": 30.7982,
+    "pitch_variability": 0.2285,
+    "spectral_flux": 0.3786,
+    "sound_level_db": -22.2212
+  },
+  "metadata_caption": "100g Protein Chip",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Y9PEg8AzwKc",
+  "transcript": "Will this bounce? Yes! What about like a basketball? Oh yeah! Water balloon! Bleh! Oh that's good! Randy Joanie glass ball! Ready! Oh yes! Bumping! Big! Damp to kill this marvel!",
+  "acoustic_features": {
+    "mean_loudness": 1.568,
+    "loudness_variability": 0.6179,
+    "mean_pitch": 43.6585,
+    "pitch_variability": 0.231,
+    "spectral_flux": 1.0701,
+    "sound_level_db": -13.4254
+  },
+  "metadata_caption": "Will it Bounce??",
+  "caption_priority": "low"
+}

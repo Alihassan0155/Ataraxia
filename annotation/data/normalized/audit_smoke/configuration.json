@@ -1,0 +1,11 @@
+{
+  "input_sha256": "26b43b6db073ca211b1ee92a89e19e3d8dda2ad070e57ba78e4003f6ad626909",
+  "model": "Systran/faster-whisper-large-v3",
+  "device": "cuda",
+  "compute_type": "int8_float16",
+  "language_threshold": 0.8,
+  "window_seconds": 30,
+  "seed": 20261008,
+  "schema_version": "audit-v1",
+  "script_sha256": "e3cd0becd03515c05fe568ad86fc063a71b22c5a2e74ceae0ee06518ddd8e0cd"
+}

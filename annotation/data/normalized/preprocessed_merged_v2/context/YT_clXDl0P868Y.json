@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_clXDl0P868Y",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5877,
+    "loudness_variability": 0.33,
+    "mean_pitch": 18.1036,
+    "pitch_variability": 0.3297,
+    "spectral_flux": 1.5716,
+    "sound_level_db": -11.1666
+  },
+  "metadata_caption": "The secret to a seriously flavorful Carne Asada Taco Bar starts with HERDEZ® Carne Asada Marinade 🌮✨",
+  "caption_priority": "low"
+}

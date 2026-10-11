@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_FkeRzd83HXc",
+  "transcript": "This is how I make Panera Mac and Cheese the laziest way possible. Macaroni in. A little bit of salt. Heavy cream. Kraft American Singles. The white ones. Whoa. Things just got bayashi real quick. We are going to add our Kraft cheese. Add your pasta. Give that a good old mix. The sauce is going to thicken the more we cook it. Just going to finish this with a little bit of garlic powder. And salt to taste. All right, guys. Nice and cheesy. I already know I'm gonna get crucified for this recipe but I don't care.",
+  "acoustic_features": {
+    "mean_loudness": 1.4392,
+    "loudness_variability": 0.8203,
+    "mean_pitch": 25.5727,
+    "pitch_variability": 0.1521,
+    "spectral_flux": 0.9419,
+    "sound_level_db": -12.2941
+  },
+  "metadata_caption": "5-Ingredient Mac N Cheese",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7296271468185341226",
+  "transcript": "Hiya trick-or-treat",
+  "acoustic_features": {
+    "mean_loudness": 0.7586,
+    "loudness_variability": 0.8644,
+    "mean_pitch": 43.2459,
+    "pitch_variability": 0.1277,
+    "spectral_flux": 0.4797,
+    "sound_level_db": -20.0479
+  },
+  "metadata_caption": "kids these days #halloween #fyp",
+  "caption_priority": "low"
+}

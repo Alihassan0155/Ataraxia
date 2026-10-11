@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_HqX9wDes6LU",
+  "transcript": "famous actor episode!",
+  "acoustic_features": {
+    "mean_loudness": 2.8662,
+    "loudness_variability": 0.3133,
+    "mean_pitch": 36.6756,
+    "pitch_variability": 0.4396,
+    "spectral_flux": 1.8494,
+    "sound_level_db": -8.8163
+  },
+  "metadata_caption": "My Teachers Are Famous?! 🤯",
+  "caption_priority": "low"
+}

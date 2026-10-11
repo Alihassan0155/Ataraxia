@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000163",
+  "transcript": "I have this container of water and I will push this container to the left. That means I will apply a force on it to the left as a result of which it will move. And it does. Now I will pull this container to the right and the container starts moving to the right. That means I am applying a force in the right direction. Now can the container be moved to the right if I apply a force to the left? Think about it. No, right? That's not possible. So this shows that in order to move an object in a certain direction, it is necessary, it is important to apply a force on it in that direction. So this shows that force has a direction. Now look at this empty bucket. Let's say you are holding this empty bucket. So you are applying some force. And now let's say you are holding a bucket full of water. Again, you have to apply some force, right? In which case will more force be required? I am sure you will say that more force is required to lift a bucket full of water than an empty bucket. This shows that force also has a magnitude. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.4824,
+    "loudness_variability": 0.6814,
+    "mean_pitch": 26.1274,
+    "pitch_variability": 0.2128,
+    "spectral_flux": 0.2831,
+    "sound_level_db": -21.1705
+  },
+  "metadata_caption": "Force has direction and magnitude | Middle school physics | Khan Academy",
+  "caption_priority": "low"
+}

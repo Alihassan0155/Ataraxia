@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_6EYWniWuPQM",
+  "transcript": "What I have here is just a really strong neodymium magnet, and a while ago I decided to see what would happen if I blasted it with a blowtorch. It honestly didn't look like it did very much, but what was interesting was that once it had cooled down, it was no longer a magnet, and it was just a heavy piece of junk. This was all just an excuse though, to test out this really expensive and kind of scary machine that I ordered from China. In theory, it was supposed to be able to revive them. magnet, and I just had to wait for it to charge up to 2000 volts. Then after that, I just put this cloth thing over this other thing, shoved my little cube into the hole, and when I was ready, I clicked the button. After that, I pulled it out, and inside, it still looked exactly the same, but this time, when I tested it, there was definitely a big difference. In fact, it was somehow even stronger than when I started, and I had apparently accidentally upgraded it.",
+  "acoustic_features": {
+    "mean_loudness": 0.8567,
+    "loudness_variability": 0.8048,
+    "mean_pitch": 29.5455,
+    "pitch_variability": 0.172,
+    "spectral_flux": 0.5234,
+    "sound_level_db": -18.9504
+  },
+  "metadata_caption": "I accidentally killed this magnet",
+  "caption_priority": "low"
+}

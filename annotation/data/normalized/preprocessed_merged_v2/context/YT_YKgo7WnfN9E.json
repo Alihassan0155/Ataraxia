@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YKgo7WnfN9E",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.3067,
+    "loudness_variability": 0.3566,
+    "mean_pitch": 30.915,
+    "pitch_variability": 0.4342,
+    "spectral_flux": 0.8942,
+    "sound_level_db": -16.3263
+  },
+  "metadata_caption": "Fun facts are pieces of interesting and often surprising information that are not necessarily relevant or important, but can be entertaining to learn. They can be about a wide range of topics, from history and science to pop culture and everyday life. Fun facts can be useful for trivia games, ice breakers, or just for sparking conversation. Some fun facts are common knowledge, while others are obscure and require some research to discover. Regardless of their origin or subject matter, fun facts have the power to delight and entertain people of all ages and backgrounds.",
+  "caption_priority": "low"
+}

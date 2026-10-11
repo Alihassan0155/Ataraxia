@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vP-zod75Y1U",
+  "transcript": "🎵",
+  "acoustic_features": {
+    "mean_loudness": 1.8089,
+    "loudness_variability": 0.4942,
+    "mean_pitch": 27.6336,
+    "pitch_variability": 0.473,
+    "spectral_flux": 1.6601,
+    "sound_level_db": -8.3773
+  },
+  "metadata_caption": "Dial up the cozy fall feels with a coffee candle ☕️🕯️",
+  "caption_priority": "low"
+}

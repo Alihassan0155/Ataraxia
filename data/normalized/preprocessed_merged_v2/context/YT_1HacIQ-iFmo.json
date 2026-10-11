@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_1HacIQ-iFmo",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0259,
+    "loudness_variability": 0.6445,
+    "mean_pitch": 45.543,
+    "pitch_variability": 0.2718,
+    "spectral_flux": 0.7653,
+    "sound_level_db": -15.6658
+  },
+  "metadata_caption": "🌈 DIY RAINBOW Crafts for School 🖍️",
+  "caption_priority": "low"
+}

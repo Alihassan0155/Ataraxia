@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_IUoe7Ihppak",
+  "transcript": "Heyo!",
+  "acoustic_features": {
+    "mean_loudness": 0.6111,
+    "loudness_variability": 0.6502,
+    "mean_pitch": 30.3858,
+    "pitch_variability": 0.2584,
+    "spectral_flux": 0.3261,
+    "sound_level_db": -21.4966
+  },
+  "metadata_caption": "WET CAT - OUT NOW",
+  "caption_priority": "low"
+}

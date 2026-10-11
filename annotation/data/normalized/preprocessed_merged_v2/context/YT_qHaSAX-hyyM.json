@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qHaSAX-hyyM",
+  "transcript": "The audio is rolling. Ow! That's a good one guys. Very funny. Can we get a real chair? Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.8376,
+    "loudness_variability": 0.7988,
+    "mean_pitch": 33.7391,
+    "pitch_variability": 0.1521,
+    "spectral_flux": 0.3847,
+    "sound_level_db": -20.2883
+  },
+  "metadata_caption": "#behindthescenes",
+  "caption_priority": "low"
+}

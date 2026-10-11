@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7552824610761346311",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6722,
+    "loudness_variability": 0.8839,
+    "mean_pitch": 46.6206,
+    "pitch_variability": 0.1714,
+    "spectral_flux": 0.3268,
+    "sound_level_db": -23.9282
+  },
+  "metadata_caption": "Clean bowled in style | 142 km/h thunderbolt #cricket ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_A6Xq-P73MEE",
+  "transcript": "This is iPhone Duo.",
+  "acoustic_features": {
+    "mean_loudness": 2.0704,
+    "loudness_variability": 0.2442,
+    "mean_pitch": 42.5303,
+    "pitch_variability": 0.1998,
+    "spectral_flux": 0.9771,
+    "sound_level_db": -16.0261
+  },
+  "metadata_caption": "Turning the Apple Keynote day into a 2000’s emo song",
+  "caption_priority": "low"
+}

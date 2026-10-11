@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__6xrLhp1sSQ",
+  "transcript": "In this little vial is a chemical called 2-nonanal, and according to what I've read online, it's supposed to smell like old people. This is because, apparently as we age, we start letting off different chemicals and smells, and this 2-nonanal is allegedly one of the major ones. I've always found it hard to believe though that this could actually smell like old people, and I've decided to finally test it out. It kind of just smells like cucumbers. Do old people smell like cucumbers?",
+  "acoustic_features": {
+    "mean_loudness": 0.6175,
+    "loudness_variability": 1.141,
+    "mean_pitch": 29.302,
+    "pitch_variability": 0.1818,
+    "spectral_flux": 0.3637,
+    "sound_level_db": -19.9844
+  },
+  "metadata_caption": "This is the smell of old people",
+  "caption_priority": "low"
+}

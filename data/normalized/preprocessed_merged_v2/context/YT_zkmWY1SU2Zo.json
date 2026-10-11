@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_zkmWY1SU2Zo",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0407,
+    "loudness_variability": 0.2197,
+    "mean_pitch": 32.4325,
+    "pitch_variability": 0.4389,
+    "spectral_flux": 0.8111,
+    "sound_level_db": -17.2808
+  },
+  "metadata_caption": "Festive DIY Christmas cards you can make at home 🎄",
+  "caption_priority": "low"
+}

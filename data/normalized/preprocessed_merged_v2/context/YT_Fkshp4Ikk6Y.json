@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Fkshp4Ikk6Y",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6616,
+    "loudness_variability": 0.5631,
+    "mean_pitch": 25.9336,
+    "pitch_variability": 0.3888,
+    "spectral_flux": 1.2536,
+    "sound_level_db": -14.6394
+  },
+  "metadata_caption": "Degaussing a CRT at 10,000fps #shorts #slowmo #retro #crt",
+  "caption_priority": "low"
+}

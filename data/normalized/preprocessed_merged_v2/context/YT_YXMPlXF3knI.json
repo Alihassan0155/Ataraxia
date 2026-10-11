@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YXMPlXF3knI",
+  "transcript": "He will call the police. I'm a little shaken up by what just happened. I was in Dandong, China, the closest you can legally get to North Korea. I went there on a mission to find North Koreans. But an undercover cop spotted me filming and confronted me. If you don't delete it now, he will call the police. They forced me to delete everything on camera. In a city full of anti-American propaganda and eyes everywhere, I realized I was being watched the entire time.",
+  "acoustic_features": {
+    "mean_loudness": 1.2887,
+    "loudness_variability": 0.475,
+    "mean_pitch": 29.8009,
+    "pitch_variability": 0.1765,
+    "spectral_flux": 0.8441,
+    "sound_level_db": -15.0946
+  },
+  "metadata_caption": "They Forbid Me To Film Here (North Korea Border)",
+  "caption_priority": "low"
+}

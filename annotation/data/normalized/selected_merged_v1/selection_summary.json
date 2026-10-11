@@ -1,0 +1,27 @@
+{
+  "selected": 2245,
+  "horizontal": 230,
+  "excluded_or_pending": 2075,
+  "seed": 20261008,
+  "categories": {
+    "DIY, Crafts & Outdoor Hobbies": 15,
+    "Comedy": 379,
+    "Lifestyle, Vlogs & Relationships": 301,
+    "Mental Health & Motivation": 51,
+    "Science & Technology": 230,
+    "Sports & Fitness": 203,
+    "Gaming": 156,
+    "Travel & Adventure": 130,
+    "Nature, Animals & Conservation": 59,
+    "Music & Dance": 105,
+    "Beauty & Style": 73,
+    "Religion & Spirituality": 25,
+    "News, Politics & Social Issues": 33,
+    "Food & Cooking": 65,
+    "Entertainment & Animation": 268,
+    "Education": 107,
+    "Vehicles": 10,
+    "ASMR": 35
+  },
+  "note": "Snapshot of eligible screened subset, not verified language ground truth. Pending review is not permanent rejection. Native media unchanged; pilot records preserved even if not eligible here."
+}

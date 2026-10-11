@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_rLYBSSoEMt0",
+  "transcript": "Hoops! This one's for the fans! This one is to end racism. This one's for depression. If I sink this one, I'll dye my hair green.",
+  "acoustic_features": {
+    "mean_loudness": 0.7146,
+    "loudness_variability": 1.105,
+    "mean_pitch": 37.6015,
+    "pitch_variability": 0.244,
+    "spectral_flux": 0.4241,
+    "sound_level_db": -19.5763
+  },
+  "metadata_caption": "HOOPS!",
+  "caption_priority": "low"
+}

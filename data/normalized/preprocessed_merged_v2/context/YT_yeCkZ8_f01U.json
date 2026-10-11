@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_yeCkZ8_f01U",
+  "transcript": "A core memory from my childhood is using these pie irons over the bonfire to make pizza sandwiches. So I took pizza sauce, shredded mozzarella cheese, along with some thinly sliced pepperoni, and crushed red pepper flakes to make a pizza sandwich bar. I took my bread slices and cut them down to fit inside of the pie iron, saved all of the crust for future breadcrumbs, and laid out the slices alongside the toppings. And in no time, my guests were arriving and hungry, so we brought out all the food and everyone started making their own.",
+  "acoustic_features": {
+    "mean_loudness": 0.9106,
+    "loudness_variability": 0.3756,
+    "mean_pitch": 34.2982,
+    "pitch_variability": 0.1793,
+    "spectral_flux": 0.4502,
+    "sound_level_db": -19.0537
+  },
+  "metadata_caption": "These crispy, cheesy pie-iron pizza sandwiches taste like summer around the bonfire 🍕",
+  "caption_priority": "low"
+}

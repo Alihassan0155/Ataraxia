@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hL9j6CEnVnc",
+  "transcript": "A while ago I bought this little tube on the internet, and I think it's finally time to crack it open. Inside of it, besides all the sand, is some nice cesium metal. This is very similar to potassium or sodium, but it's even more reactive. It's kept in this glass ampule to protect it from air, and having it break open could be really dangerous. What's interesting though is what happens if I hold it for about 20 seconds. Just the heat from my hand was enough to melt it, and I now have some slightly golden liquid metal. The melting point of cesium is only about 28.5 C, or 83 Fahrenheit. This makes it extremely close, but not quite a liquid at room temperature. If I hold it for another minute or so, I can come back to the original. completely liquify it. I just have to be really careful though, because dropping it in its liquid form would be an absolute disaster.",
+  "acoustic_features": {
+    "mean_loudness": 0.7496,
+    "loudness_variability": 0.953,
+    "mean_pitch": 30.5857,
+    "pitch_variability": 0.1796,
+    "spectral_flux": 0.4168,
+    "sound_level_db": -19.7331
+  },
+  "metadata_caption": "Cesium is scary",
+  "caption_priority": "low"
+}

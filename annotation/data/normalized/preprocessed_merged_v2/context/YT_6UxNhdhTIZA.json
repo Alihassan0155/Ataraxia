@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_6UxNhdhTIZA",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.1594,
+    "loudness_variability": 0.6492,
+    "mean_pitch": 0.0,
+    "pitch_variability": 0.0,
+    "spectral_flux": 0.0433,
+    "sound_level_db": -44.4575
+  },
+  "metadata_caption": "World record Eating Spaghetti 🍝",
+  "caption_priority": "low"
+}

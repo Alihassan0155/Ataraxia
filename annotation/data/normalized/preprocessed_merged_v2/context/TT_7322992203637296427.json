@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7322992203637296427",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.394,
+    "loudness_variability": 0.9556,
+    "mean_pitch": 14.1091,
+    "pitch_variability": 0.0935,
+    "spectral_flux": 0.3376,
+    "sound_level_db": -25.4938
+  },
+  "metadata_caption": "#running #cowsontiktok #runway #trending ",
+  "caption_priority": "low"
+}

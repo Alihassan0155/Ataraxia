@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_KLJxCWeYGoE",
+  "transcript": "Have you ever noticed every time you see a full moon, it always looks the same? Well, what about the other side? Well, it turns out we don't see the other side because the moon is rotating perfectly in sync with its orbit around the Earth. But that's wild! Like, what are the chances that those would sync up perfectly? Well, we call this tidal locking. If the moon was perfectly spherical in balance, it would spin like this, and one side wouldn't be more likely to line up with Earth than the other. But the moon's not perfectly spherical. Over time, that constant pull of Earth's gravity has caused it to be sort of slightly oblong. But now you'll see, since the center of gravity of our moon doesn't exactly line up with the axis by which it rotates, now, no matter how I spin it, it always happens to be that the heavy side of the moon always face the strongest source of gravity, which just so happens to be the center of the Earth. Well, guess what? Out in space, the actual moon's nearest source of gravity is still the center of the Earth, which means that the real moon will always have the same side pulled towards us just like with our model. And that will never change.",
+  "acoustic_features": {
+    "mean_loudness": 1.76,
+    "loudness_variability": 0.387,
+    "mean_pitch": 33.0389,
+    "pitch_variability": 0.2177,
+    "spectral_flux": 1.1506,
+    "sound_level_db": -12.7811
+  },
+  "metadata_caption": "Why the Moon Never Changes",
+  "caption_priority": "low"
+}

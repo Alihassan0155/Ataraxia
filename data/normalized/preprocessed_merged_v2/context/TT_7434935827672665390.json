@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7434935827672665390",
+  "transcript": "Yeah, you've been staring at me",
+  "acoustic_features": {
+    "mean_loudness": 0.6976,
+    "loudness_variability": 0.4303,
+    "mean_pitch": 39.2955,
+    "pitch_variability": 0.1668,
+    "spectral_flux": 0.3994,
+    "sound_level_db": -22.0313
+  },
+  "metadata_caption": "",
+  "caption_priority": "low"
+}

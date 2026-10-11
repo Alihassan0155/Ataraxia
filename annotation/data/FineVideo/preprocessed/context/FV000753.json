@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000753",
+  "transcript": "Alright guys, it's week 4, drill number 3, PVC pipe drill. If you don't have a PVC pipe, don't worry, grab a baseball bat. What you're going to do like this is come sit, leg lift, be at 90 degrees, and we want to hold with that angle going up as long as you can.",
+  "acoustic_features": {
+    "mean_loudness": 0.3269,
+    "loudness_variability": 0.7698,
+    "mean_pitch": 34.2624,
+    "pitch_variability": 0.1797,
+    "spectral_flux": 0.0791,
+    "sound_level_db": -35.7185
+  },
+  "metadata_caption": "PVC DRILL",
+  "caption_priority": "low"
+}

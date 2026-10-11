@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_oUabUdakoh8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5956,
+    "loudness_variability": 0.3566,
+    "mean_pitch": 38.3032,
+    "pitch_variability": 0.1808,
+    "spectral_flux": 0.5731,
+    "sound_level_db": -21.0226
+  },
+  "metadata_caption": "#Woodturning #DIYProjects #WoodworkingSkills #Handcrafted #LatheTurning #CarpentryWork #WoodDesign #CreativeCrafts #FurnitureMaking #Artisan",
+  "caption_priority": "low"
+}

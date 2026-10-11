@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2eEwEK4G38o",
+  "transcript": "I went to Dunkman to arm wrestle Shaquille O'Neal. What Shaq doesn't know is I have a robotic arm designed to beat him for round two. Best two out of three though. I put the robotic arm on and went back for revenge. Oh this? This is just a little robotic arm that I built with my bare hands. Here we go. Ready, set, go! Even with the robotic arm, the chances of me winning seemed unlikely, but not impossible. All I had to do was win round three, but Shaq took my... With no remote, I put it all on the line to take down. Be sure to tune in to Duckman August 25th at 8 p.m. live.",
+  "acoustic_features": {
+    "mean_loudness": 2.3842,
+    "loudness_variability": 0.3605,
+    "mean_pitch": 32.1607,
+    "pitch_variability": 0.2095,
+    "spectral_flux": 2.1174,
+    "sound_level_db": -9.0689
+  },
+  "metadata_caption": "Bionic arm vs @SHAQ (love u Shaq) 💪",
+  "caption_priority": "low"
+}

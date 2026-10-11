@@ -1,0 +1,51 @@
+video_id,valence,arousal,joy,sadness,anger,fear_anxiety,surprise,disgust,calm_contentment,neutral,dominant_emotion,recovery_suitability,confidence,notes
+FV000472,7,2,2,0,0,0,0,0,6,2,calm_contentment,8,7,Factory process explainer. Calm clear narration. Pleasant and settling.
+FV000674,4,4,0,0,3,0,0,0,0,7,neutral,4,6,Snow shelter. Heavy background noise and the speaker was inaudible. Mildly irritating.
+FV000814,7,2,2,0,0,0,0,0,6,2,calm_contentment,8,7,Music video with no captions. Pleasant calm music, it was soothing.
+FV000133,7,6,5,0,0,0,3,0,0,2,joy,3,6,Travel vlog from a rickshaw. Busy throughout. Joy and surprise, not calm.
+FV000998,5,3,0,0,2,0,0,0,0,8,neutral,4,5,Island culture with an AI voice. Clips poorly matched to the narration. Unprofessional.
+FV000650,6,2,0,0,0,0,0,0,5,5,calm_contentment,7,5,"tie: calm_contentment / neutral. Forest revisit to see an organism grow. Captions present but the topic was unclear. Setting was somewhat calming."
+FV000081,7,7,6,0,1,0,1,0,0,2,joy,3,7,Gameplay with a shouted comedy argument about tacos. Funny and loud.
+FV000393,4,6,0,0,5,0,0,0,1,4,anger,3,5,Calm opening, then horrible audio. A joke was being told but the words were lost.
+FV000849,5,6,0,0,0,1,5,0,0,4,surprise,3,4,Hard to follow. Awkward sitting, a spook, Spider-Man talk, many cuts, rap at the end.
+FV000776,6,3,1,0,0,0,0,0,5,4,calm_contentment,6,5,Temple vlog in China, monk culture and surroundings. Accent was hard to follow. Setting was gently calm.
+FV000013,6,3,0,0,0,0,0,0,2,8,neutral,6,8,Woman explains a prosthetic leg and a running blade. Captions present. Clear and informational.
+FV000073,7,2,2,0,0,0,0,0,6,2,calm_contentment,8,7,Man in a forest exploring organisms in a decaying log. Captions. Calm bird sounds.
+FV000359,6,3,0,0,0,0,0,0,6,4,calm_contentment,7,6,Zookeeper talking about a lizard. Poor audio, but the clip still felt calming.
+FV000241,5,6,0,0,0,2,2,0,0,6,neutral,4,5,Interview with captions. Intense because of the questions and answers. Feeling itself was not clearly pleasant or unpleasant.
+FV001015,7,4,3,0,0,0,5,0,0,2,surprise,5,7,Story about an incident that happened to a singer. Clear voiceover and subtitles. Interesting and surprising.
+FV000320,4,4,0,0,0,0,4,0,0,6,neutral,4,5,Reaction to a singer saying strange religious things, then the creator talks about religion and church.
+FV000254,5,6,4,2,0,2,1,0,0,1,joy,3,6,Funny airplane workout with subtitles. Ends with passengers crying during turbulence.
+FV000954,7,7,6,0,0,0,2,0,0,2,joy,3,7,Game stream. Cheering, commenting, and shouting, then talk about how winning felt.
+FV001003,4,2,0,0,3,0,1,0,0,6,neutral,3,5,Game stuck on the opening screen. A character speaks but the words are unclear.
+FV000015,7,3,5,0,0,0,0,0,2,3,joy,6,6,Two sock bunnies talking. Funny and refreshing. Audio quality is poor.
+FV000001,7,4,5,0,0,0,3,0,0,2,joy,5,7,Trucker at night. Starts in the dark, then the truck lights come on. Felt happy and cool.
+FV000895,6,6,5,0,0,0,0,0,0,5,joy,3,6,"tie: joy / neutral. Girl singing. Good voice, audio too loud. Dislike of the song itself was not scored."
+FV000942,6,4,5,0,0,0,2,0,0,3,joy,5,6,Police help a vlogger restart a stranded car, then a gas station stop. He is waiting outside SpaceX for Elon. Wholesome and awkward.
+FV000770,6,4,3,0,0,0,0,0,2,5,neutral,6,7,Football technique tutorial. Music a little loud but manageable. Clear and well put together.
+FV000304,7,3,2,0,0,0,0,0,4,4,calm_contentment,7,6,"tie: calm_contentment / neutral. Golf tutorial with useful advice. No captions. Helpful delivery."
+FV000134,8,3,3,1,0,0,0,0,5,1,calm_contentment,8,7,Commentary on a Turkish chef. Emotional moments about respect for elders. Calming narration with hadiths and a nasheed.
+FV000097,3,7,2,0,3,0,0,3,0,2,disgust,2,7,"tie: anger / disgust. Try-not-to-laugh clip. Loud laughter and shouting. Some amusement, but swearing and derogatory remarks about women."
+FV000811,4,4,0,0,2,0,1,0,0,7,neutral,4,4,Roblox-related clip. Robotic voiceover and random background music. Could not tell what was happening.
+FV000275,5,3,0,0,2,0,0,0,0,8,neutral,4,5,Wallet advertisement. About five features shown in use. Music does not fit and the voiceover cannot be heard.
+FV000537,7,5,6,0,0,0,2,0,0,2,joy,4,6,Two animated characters slap each other in rock-paper-scissors. Funny and engaging. English dialogue is hard to hear.
+FV000087,6,3,2,0,0,0,0,0,2,6,neutral,6,7,Hair blow-dry tutorial. Genuine advice. The method shown needs two people.
+FV000983,7,4,6,0,0,0,2,0,0,2,joy,5,7,Woman pranks eBay scammers by talking like a robot. Low quality, but funny.
+FV000120,4,4,0,0,2,0,0,0,0,8,neutral,4,5,Fortnite tips. Low quality and subtitles would help. Personal lack of interest in Fortnite was not scored.
+FV000198,3,4,0,0,0,1,1,5,0,3,disgust,3,5,Anime clip with a sexualized character. Speech not understood and not wanted. Uncomfortable.
+FV000363,6,3,4,3,0,0,0,0,0,3,joy,6,5,A mother wishes her daughter a happy birthday. A little moving. Hard to hear her clearly.
+FV000544,7,4,5,0,0,0,0,0,2,3,joy,6,7,Woman talks about being raised to compromise and about women taking care of themselves. Motivating and positive.
+FV000308,3,6,0,4,0,4,0,0,0,2,sadness,2,6,"tie: sadness / fear_anxiety. Streamer threatened by a group in an Italian restaurant. Disturbing, and sad for the vlogger."
+FV000978,4,3,0,0,2,0,0,3,0,5,neutral,3,6,Poor AI ad explaining one game skill. Weird background music. Not engaging.
+FV000033,5,3,0,0,0,0,0,0,0,10,neutral,5,7,Short game review criticising a few things. No real point. Little emotional effect.
+FV000151,4,1,0,0,4,0,0,0,0,6,neutral,4,6,Roblox clips presented as ads. Irritating and confusing. Very little intensity.
+FV000037,4,7,0,0,3,0,1,0,0,6,neutral,3,5,Tamil advertisement. Language not understood. Very loud music and loud odd voices.
+FV000744,5,3,0,0,1,0,0,0,0,9,neutral,5,5,Barbie game video showing the steps of the game. Little emotional effect.
+FV000367,5,3,1,0,2,0,0,0,0,7,neutral,5,6,A famous actor demonstrates a gym exercise. A man then says better moves exist without naming them.
+FV000366,8,5,7,0,0,0,2,0,0,1,joy,5,8,Shaq parody with subtitles. Very funny. Loved it.
+FV000031,4,3,1,0,2,0,0,0,0,7,neutral,4,5,Slideshow of sample video projects. Seems helpful, but poorly shot and the speaker is hard to understand.
+FV000079,6,6,0,0,2,0,0,0,3,5,neutral,4,4,Cartoon explanation of a grade 11 idea. Very loud music and hard to follow. The child's voice is calm. Read as still a good video overall.
+FV000012,6,4,3,0,0,0,4,0,0,3,surprise,5,6,Reaction to a troll painting that turned out somewhat good. Mildly surprising and pleasant.
+FV000380,4,3,0,0,0,0,4,2,0,4,surprise,4,5,"tie: surprise / neutral. Robotic voice reads a Wikipedia page on animal sexual behavior. Odd facts, dry delivery."
+FV000004,7,4,4,0,0,0,3,0,0,3,joy,5,6,Short podcast clip. A man describes interesting traits and tells a short story.
+FV000662,6,4,4,0,0,0,1,0,0,5,neutral,5,5,Wedding speech about Nigerian stereotypes. The crowd laughs. It did not land as funny here.

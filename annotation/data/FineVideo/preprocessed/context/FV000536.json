@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000536",
+  "transcript": "Hey Melbourne, let's make every job count. By brushing your pearly whites with the tap off, by shaving a minute off your shower, and getting those water legs sorted out. Using a half flush, when you can, and going easy with the hose. Because if we each save a little, we all save a lot. Together let's target 155 litres per person per day. For tips and more information, search Target 155. Authorised by the Victorian Government, Melbourne.",
+  "acoustic_features": {
+    "mean_loudness": 0.7361,
+    "loudness_variability": 0.3926,
+    "mean_pitch": 28.4197,
+    "pitch_variability": 0.2928,
+    "spectral_flux": 0.2511,
+    "sound_level_db": -27.4781
+  },
+  "metadata_caption": "Yarra Valley Water - Water Conservation",
+  "caption_priority": "low"
+}

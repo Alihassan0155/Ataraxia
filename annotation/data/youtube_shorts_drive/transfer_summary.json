@@ -1,0 +1,15 @@
+{
+  "queued": 762,
+  "completed": 761,
+  "failed": 1,
+  "active": 0,
+  "bytes": 12568196869,
+  "errors": [
+    {
+      "id": "1V0XCfggBoNcS1vONeD_PuStFBUdeboQk",
+      "name": "Df5Y-2ndQyU.mp4",
+      "status": "failed",
+      "error_type": "ValueError"
+    }
+  ]
+}

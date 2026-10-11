@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_X0wxLr5W2X8",
+  "transcript": "Is it cake or is it fake? Let's see. Oh, well, that's not going to cut because that is paper. And this is also a fake hand. Hello? Hello? Oh, wait. Why is it cake now?",
+  "acoustic_features": {
+    "mean_loudness": 0.1923,
+    "loudness_variability": 1.1212,
+    "mean_pitch": 33.2918,
+    "pitch_variability": 0.355,
+    "spectral_flux": 0.051,
+    "sound_level_db": -36.7533
+  },
+  "metadata_caption": "Which one is cake? 🍰",
+  "caption_priority": "low"
+}

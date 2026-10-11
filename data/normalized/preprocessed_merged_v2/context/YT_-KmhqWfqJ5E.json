@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_-KmhqWfqJ5E",
+  "transcript": "Hello! Ha ha ha!",
+  "acoustic_features": {
+    "mean_loudness": 1.1999,
+    "loudness_variability": 0.4372,
+    "mean_pitch": 25.6183,
+    "pitch_variability": 0.4504,
+    "spectral_flux": 1.0423,
+    "sound_level_db": -13.6164
+  },
+  "metadata_caption": "Cat Dads are the best! ❤️ #simonscat #shortsfeed #cat",
+  "caption_priority": "low"
+}

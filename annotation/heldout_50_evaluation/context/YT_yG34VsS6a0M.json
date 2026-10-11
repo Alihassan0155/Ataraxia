@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_yG34VsS6a0M",
+  "transcript": "When it comes to fire, the most common color is probably orange or red, and this is usually from burning something like wood. What I've always found interesting though, was how many other colors are possible, and it can really depend on what's burning. For example, if I add a solution of boric acid and methanol, and light it on fire, I get a really nice green color. I can also throw some aluminum into an acidic copper solution, and get a blue flame. What I think is even cooler though, is what happens when I burn nitromethane. It actually doesn't burn on its own, and I have to give it a boost with some methanol. Now when I try it, I get a flame that has almost no color. There is a slight hint of yellow, but besides that... It almost looks like it's in black and white. In my opinion, it kind of looks fake, and I think this is better than anything with color.",
+  "acoustic_features": {
+    "mean_loudness": 0.6144,
+    "loudness_variability": 0.9921,
+    "mean_pitch": 29.7773,
+    "pitch_variability": 0.1882,
+    "spectral_flux": 0.3119,
+    "sound_level_db": -22.264
+  },
+  "metadata_caption": "This flame looks fake but is real (nitromethane)",
+  "caption_priority": "low"
+}

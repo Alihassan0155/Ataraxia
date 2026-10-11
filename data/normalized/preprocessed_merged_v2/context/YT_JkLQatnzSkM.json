@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_JkLQatnzSkM",
+  "transcript": "How is the pleasant?  kiss",
+  "acoustic_features": {
+    "mean_loudness": 0.5171,
+    "loudness_variability": 0.5638,
+    "mean_pitch": 56.7871,
+    "pitch_variability": 0.0738,
+    "spectral_flux": 0.209,
+    "sound_level_db": -32.128
+  },
+  "metadata_caption": "ASMR - This Ice Pack isn't for your head.",
+  "caption_priority": "low"
+}

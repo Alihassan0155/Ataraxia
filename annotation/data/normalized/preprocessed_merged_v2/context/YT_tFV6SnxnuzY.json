@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_tFV6SnxnuzY",
+  "transcript": "Boom!",
+  "acoustic_features": {
+    "mean_loudness": 0.8016,
+    "loudness_variability": 0.5366,
+    "mean_pitch": 23.4276,
+    "pitch_variability": 0.448,
+    "spectral_flux": 0.703,
+    "sound_level_db": -18.1857
+  },
+  "metadata_caption": "Get in the fall spirit with an iced pumpkin spice dalgona coffee",
+  "caption_priority": "low"
+}

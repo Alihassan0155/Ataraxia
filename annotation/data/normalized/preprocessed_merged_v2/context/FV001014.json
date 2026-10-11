@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001014",
+  "transcript": "Somewhere, somewhere out there There is something incredible to discover Somewhere, way way out there There is something that will bring us all together If we can just keep our shit together Long enough to see the stars There's no telling how far, how far we'll go Somewhere out there stirs Something deep inside Not so different, you and I We all smile and we all cry And I know, I know, yes I do I know that we can survive And in time we'll reach beyond the sky",
+  "acoustic_features": {
+    "mean_loudness": 1.2526,
+    "loudness_variability": 0.3951,
+    "mean_pitch": 35.1056,
+    "pitch_variability": 0.3213,
+    "spectral_flux": 0.5424,
+    "sound_level_db": -18.4304
+  },
+  "metadata_caption": "Singing practice!!!",
+  "caption_priority": "low"
+}

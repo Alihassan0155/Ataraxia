@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000736",
+  "transcript": "You heard this term called unconscious bias? You tend to hire somebody who looks like you, thinks like you, speaks like you. I just started my own company and I didn't want to become an unconscious bias person. So I hired like a white guy, you know, tall, good looking, nice head of hair. In a few weeks, I ended up working for him. So now I'm looking for someone like me, low self-esteem and does open mics. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 0.4027,
+    "loudness_variability": 1.0545,
+    "mean_pitch": 24.576,
+    "pitch_variability": 0.2001,
+    "spectral_flux": 0.2667,
+    "sound_level_db": -23.9759
+  },
+  "metadata_caption": "Unconscious Bias",
+  "caption_priority": "low"
+}

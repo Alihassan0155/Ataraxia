@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7310465135582203179",
+  "transcript": "One, two, three, four.",
+  "acoustic_features": {
+    "mean_loudness": 1.0372,
+    "loudness_variability": 0.2086,
+    "mean_pitch": 30.5095,
+    "pitch_variability": 0.3913,
+    "spectral_flux": 0.6366,
+    "sound_level_db": -20.881
+  },
+  "metadata_caption": "Returning for the Vampire bridge. @z100newyork @Olivia Rodrigo @iHeartRadio #taylorswift #cruelsummer #oliviarodrigo #vampire ",
+  "caption_priority": "low"
+}

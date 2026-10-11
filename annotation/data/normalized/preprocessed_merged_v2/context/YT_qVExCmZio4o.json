@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qVExCmZio4o",
+  "transcript": "Hey, could you fill these blanks in for me? I fought a sumo wrestler, then touched a tank, then rode a bull. Okay, thank you. I did it. I gotta fight a sumo wrestler. Bro, where am I gonna find a tank? Okay. I cannot believe I'm gonna ride a bull. Shout out to World of Tanks Blitz. Yeah, I actually have a collab with Deadmau5 which is a lightning game right now. Download it for free and check it out.",
+  "acoustic_features": {
+    "mean_loudness": 2.3697,
+    "loudness_variability": 0.3886,
+    "mean_pitch": 36.7324,
+    "pitch_variability": 0.2514,
+    "spectral_flux": 1.7523,
+    "sound_level_db": -11.627
+  },
+  "metadata_caption": "Fill in the blank and I’ll do it - Inspo: @JustinSchmidt",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_EkAHjPkvGSg",
+  "transcript": "Herbie, OK? You look a bit sad. Come on, let's cheer you up. Herb, come on, man. What are you? A delicious Herbie sandwich. Come on! Oh, no. Really? Seriously? Herbie, for goodness sake. Would you like a little sausage? No? OK. Oh, my lord. Even Herbie's turned vegan.",
+  "acoustic_features": {
+    "mean_loudness": 0.4515,
+    "loudness_variability": 0.6595,
+    "mean_pitch": 37.6729,
+    "pitch_variability": 0.2408,
+    "spectral_flux": 0.1515,
+    "sound_level_db": -29.2887
+  },
+  "metadata_caption": "Two Slices of Bread. One Robot.",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_A2NQuOfkrzo",
+  "transcript": "So because I'm Irish people always ask if I can split the G like it's bread and twist or something so let's see if I can. Oh so close. I almost did it. Anyway support local businesses.",
+  "acoustic_features": {
+    "mean_loudness": 0.7682,
+    "loudness_variability": 0.7063,
+    "mean_pitch": 32.1269,
+    "pitch_variability": 0.2083,
+    "spectral_flux": 0.41,
+    "sound_level_db": -20.289
+  },
+  "metadata_caption": "Split the G",
+  "caption_priority": "low"
+}

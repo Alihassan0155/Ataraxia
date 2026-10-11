@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_LHlvMFaaY8s",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.2968,
+    "loudness_variability": 0.4698,
+    "mean_pitch": 32.3694,
+    "pitch_variability": 0.4136,
+    "spectral_flux": 0.9648,
+    "sound_level_db": -12.621
+  },
+  "metadata_caption": "Easy DIY colourful Crafts for school! ✨",
+  "caption_priority": "low"
+}

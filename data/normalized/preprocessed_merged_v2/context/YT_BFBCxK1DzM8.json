@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_BFBCxK1DzM8",
+  "transcript": "I'm sorry, I just need one minute to make sure I look good. Do you think I look good, Mr. Armstrong?",
+  "acoustic_features": {
+    "mean_loudness": 1.0842,
+    "loudness_variability": 0.5325,
+    "mean_pitch": 29.968,
+    "pitch_variability": 0.3878,
+    "spectral_flux": 1.1146,
+    "sound_level_db": -15.4651
+  },
+  "metadata_caption": "Chelsea Got Sent to Jail? 👮‍♂️",
+  "caption_priority": "low"
+}

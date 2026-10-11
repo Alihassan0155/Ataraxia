@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vNR3noE9aCM",
+  "transcript": "Alright, I gotta go in for a pit stop real quick. Be right back. Alright, I'm back.",
+  "acoustic_features": {
+    "mean_loudness": 0.7075,
+    "loudness_variability": 0.777,
+    "mean_pitch": 36.7192,
+    "pitch_variability": 0.25,
+    "spectral_flux": 0.2674,
+    "sound_level_db": -26.0572
+  },
+  "metadata_caption": "How we smashed a car into my house #behindthescenes",
+  "caption_priority": "low"
+}

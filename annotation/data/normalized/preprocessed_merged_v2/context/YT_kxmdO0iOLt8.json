@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_kxmdO0iOLt8",
+  "transcript": "Here come the soccer balls! Woohoo!",
+  "acoustic_features": {
+    "mean_loudness": 1.9199,
+    "loudness_variability": 0.3068,
+    "mean_pitch": 47.9165,
+    "pitch_variability": 0.1857,
+    "spectral_flux": 2.2009,
+    "sound_level_db": -11.1515
+  },
+  "metadata_caption": "800 ⚽️ Nutmeg Challenge is HECTIC",
+  "caption_priority": "low"
+}

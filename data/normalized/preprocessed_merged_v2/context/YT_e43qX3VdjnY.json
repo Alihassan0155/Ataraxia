@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_e43qX3VdjnY",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.8842,
+    "loudness_variability": 0.3185,
+    "mean_pitch": 39.6834,
+    "pitch_variability": 0.1692,
+    "spectral_flux": 1.0167,
+    "sound_level_db": -14.9885
+  },
+  "metadata_caption": "A channel for all your adrenaline junkie needs, watch people doing some crazy things.",
+  "caption_priority": "low"
+}

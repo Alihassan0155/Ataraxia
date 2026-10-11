@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0BAkKJ_3Tic",
+  "transcript": "If your heart rate is 90 beats per minute, you're out! Which is going to be super hard for Preston, Brie, and all the Dude Perfect crew because we happen to be wearing heart rate monitors while riding Disneyland's Guardians of the Galaxy. Three, two, one! 너무 좋아 아 이게 원단지",
+  "acoustic_features": {
+    "mean_loudness": 2.2205,
+    "loudness_variability": 0.3159,
+    "mean_pitch": 38.6827,
+    "pitch_variability": 0.212,
+    "spectral_flux": 1.7066,
+    "sound_level_db": -12.0006
+  },
+  "metadata_caption": "Lowest Heart Rate Wins!",
+  "caption_priority": "low"
+}

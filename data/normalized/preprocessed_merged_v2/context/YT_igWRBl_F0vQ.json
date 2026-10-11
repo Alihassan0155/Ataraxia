@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_igWRBl_F0vQ",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.4825,
+    "loudness_variability": 0.2598,
+    "mean_pitch": 21.0729,
+    "pitch_variability": 0.5966,
+    "spectral_flux": 2.0974,
+    "sound_level_db": -8.9724
+  },
+  "metadata_caption": "Looks like a cinnamon roll, is not a cinnamon roll. It's soap! 🧼",
+  "caption_priority": "low"
+}

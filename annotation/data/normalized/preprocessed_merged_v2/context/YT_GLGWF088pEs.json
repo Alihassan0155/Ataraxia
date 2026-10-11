@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_GLGWF088pEs",
+  "transcript": "Will it explode? 10 psi! 20 psi! It's gonna do... 40 psi! Psycho! 50 psi! It's on it's way! 70 psi! Yes sir! Oh heck!",
+  "acoustic_features": {
+    "mean_loudness": 1.0847,
+    "loudness_variability": 0.946,
+    "mean_pitch": 41.7284,
+    "pitch_variability": 0.1734,
+    "spectral_flux": 0.5492,
+    "sound_level_db": -15.7562
+  },
+  "metadata_caption": "🛞 Wheel it explode??",
+  "caption_priority": "low"
+}

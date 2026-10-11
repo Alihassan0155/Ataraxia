@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xXOZFY8G09g",
+  "transcript": "They're my favorite! Gotham Candy! Let me try the chocolate. Mmm. I have more stuff.",
+  "acoustic_features": {
+    "mean_loudness": 0.356,
+    "loudness_variability": 0.6179,
+    "mean_pitch": 35.3044,
+    "pitch_variability": 0.3952,
+    "spectral_flux": 0.1078,
+    "sound_level_db": -31.8277
+  },
+  "metadata_caption": "Kid Taste Tests Chef’s Food | I Shop, You Cook",
+  "caption_priority": "low"
+}

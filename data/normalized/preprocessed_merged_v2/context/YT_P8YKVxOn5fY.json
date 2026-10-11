@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_P8YKVxOn5fY",
+  "transcript": "Researchers have probed deep into one of the greatest mysteries of the universe. Why, if it fits, I sits. In a study, researchers were able to get pet cats to sit on a 2D square marked on the floor like you've probably seen on the internet. But that's not all, because the cats also sat in an optical illusion of a square just as often. It's an illusion humans also see, which helps us understand cats' perception. And by the way, this was a citizen science study, meaning the researchers leveraged the power of internet cat pictures to recruit participants to do real science. They say this is a great new way to study cats because the kitties got to stay home where they're comfortable instead of being in a lab, so they probably acted more natural. So thanks internet, let's do some more science!",
+  "acoustic_features": {
+    "mean_loudness": 1.1159,
+    "loudness_variability": 0.5617,
+    "mean_pitch": 39.5319,
+    "pitch_variability": 0.1232,
+    "spectral_flux": 0.7025,
+    "sound_level_db": -16.7222
+  },
+  "metadata_caption": "This video was originally posted to TikTok in June 2021.\n\nHosted by Savannah Geary (they/them)\nAlex Billow: Writer\nKyle Nackers: Fact Checker\nSavannah Geary: Editor, Associate Producer\nSarah Suta: Producer\nNicole Sweeney: Producer\nCaitlin Hofmeister: Executive Producer\nHank Green: Executive Producer\n---------\nSources:\nhttps://doi.org/10.1016/j.applanim.2021.105338 \n\nSpecial thanks to Huck the cat!",
+  "caption_priority": "low"
+}

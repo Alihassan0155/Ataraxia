@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_XI_VXoP9C28",
+  "transcript": "Two devices here, S26 Ultra, and of course the F9 Ultra. So we're gonna do a little gaming endurance test, and we're also gonna check the thermals. And they're gonna start this test at 80% battery life. So for this test, we're gonna be playing Honkai Star Rail, and the graphics are set to maximum for both devices. It's a 30-minute test, and the actual map, the pattern that we're following through the game, is as similar as possible in order to make the conditions as similar as possible. And there's two things we're looking for here. thermal performance after a 30 minute gaming session. which first we're gonna see reflected here for the S26 Ultra. And we're also looking for battery consumption. Both of these devices are starting the test at 80% battery. And of course, Poco is gonna have an advantage here because the battery is so huge to begin with. 80, 50 milliamp hour battery, over 8,000 milliamp hours. It's got put it ahead of a lot of other devices. So here's our thermal reading on the Poco F9 Ultra. You can see you've got a slightly lower temperature reading than what we saw on the S26 Ultra. And then when we go ahead and take a look at battery life, you're gonna see some differences here as well. 73% remains on the Poco and 66% remains on the S26 Ultra. And when it comes time to put power back into the device, you can do so at 100 watts. And you can watch it go up in real time.",
+  "acoustic_features": {
+    "mean_loudness": 1.054,
+    "loudness_variability": 0.6068,
+    "mean_pitch": 26.437,
+    "pitch_variability": 0.2155,
+    "spectral_flux": 0.5206,
+    "sound_level_db": -19.3737
+  },
+  "metadata_caption": "Heat Testing Against a Flagship… 🔥",
+  "caption_priority": "low"
+}

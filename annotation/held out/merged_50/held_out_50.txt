@@ -1,0 +1,51 @@
+video_id	category	file_path
+YT_7FaYGOH-l38	Entertainment & Animation	E:/ALI/youtube_shorts/youtube_shorts/videos/YT017627.mp4
+TT_7476413217913326894	Religion & Spirituality	data/fyp_videos_1250/videos/videos/7476413217913326894.mp4
+FV000192	Nature, Animals & Conservation	E:/ALI/FineVideo/FineVideo/videos/FV000192.mp4
+FV000576	Gaming	E:/ALI/FineVideo/FineVideo/videos/FV000576.mp4
+TT_7286566536716897579	Lifestyle, Vlogs & Relationships	data/fyp_videos_1250/videos/videos/7286566536716897579.mp4
+YT_fcqOTqR91zc	Vehicles	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT012738.mp4
+YT_WiBhWcqrhF0	ASMR	data/yt_shorts_master/videos/WiBhWcqrhF0.mp4
+YT_4wKlFrCQqsY	Food & Cooking	data/yt_shorts_master/videos/4wKlFrCQqsY.mp4
+FV000751	Music & Dance	E:/ALI/FineVideo/FineVideo/videos/FV000751.mp4
+TT_7666318750701899026	News, Politics & Social Issues	data/fyp_videos_1250/videos/videos/7666318750701899026.mp4
+FV000713	Sports & Fitness	E:/ALI/FineVideo/FineVideo/videos/FV000713.mp4
+YT_Qhe6NwhxzR0	Travel & Adventure	data/yt_shorts_master/videos/Qhe6NwhxzR0.mp4
+YT_JNKTrpGZuRE	Education	E:/ALI/youtube_shorts/youtube_shorts/videos/YT038003.mp4
+FV000017	Comedy	E:/ALI/FineVideo/FineVideo/videos/FV000017.mp4
+FV000710	DIY, Crafts & Outdoor Hobbies	E:/ALI/FineVideo/FineVideo/videos/FV000710.mp4
+FV000754	Science & Technology	E:/ALI/FineVideo/FineVideo/videos/FV000754.mp4
+TT_7412881020309097771	Beauty & Style	data/fyp_videos_1250/videos/videos/7412881020309097771.mp4
+FV000487	Mental Health & Motivation	E:/ALI/FineVideo/FineVideo/videos/FV000487.mp4
+TT_7440201647755644182	Entertainment & Animation	data/fyp_videos_1250/videos/videos/7440201647755644182.mp4
+TT_6830845109714603266	Religion & Spirituality	data/fyp_videos_1250/videos/videos/6830845109714603266.mp4
+TT_7334130117947510059	Nature, Animals & Conservation	data/fyp_videos_1250/videos/videos/7334130117947510059.mp4
+FV000968	Gaming	E:/ALI/FineVideo/FineVideo/videos/FV000968.mp4
+TT_7452563112156335390	Lifestyle, Vlogs & Relationships	data/fyp_videos_1250/videos/videos/7452563112156335390.mp4
+YT_fFxsSEPMChw	Vehicles	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT056600.mp4
+YT_ZsGXMON0tE0	ASMR	data/yt_shorts_master/videos/ZsGXMON0tE0.mp4
+YT_jwPOnQyd-KI	Food & Cooking	data/yt_shorts_master/videos/jwPOnQyd-KI.mp4
+FV000950	Music & Dance	E:/ALI/FineVideo/FineVideo/videos/FV000950.mp4
+YT_qsB6qe88agI	News, Politics & Social Issues	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT053788.mp4
+TT_7230453591952166149	Sports & Fitness	data/fyp_videos_1250/videos/videos/7230453591952166149.mp4
+TT_7399699023999028526	Travel & Adventure	data/fyp_videos_1250/videos/videos/7399699023999028526.mp4
+YT_n_7u6j-hL4Q	Education	E:/ALI/youtube_shorts/youtube_shorts/videos/YT056474.mp4
+FV000982	Comedy	E:/ALI/FineVideo/FineVideo/videos/FV000982.mp4
+FV000494	DIY, Crafts & Outdoor Hobbies	E:/ALI/FineVideo/FineVideo/videos/FV000494.mp4
+YT_yG34VsS6a0M	Science & Technology	data/yt_shorts_master/videos/yG34VsS6a0M.mp4
+TT_7349704177645489454	Beauty & Style	data/fyp_videos_1250/videos/videos/7349704177645489454.mp4
+FV000348	Mental Health & Motivation	E:/ALI/FineVideo/FineVideo/videos/FV000348.mp4
+YT_tNVWGck2h3s	Entertainment & Animation	E:/ALI/youtube_shorts/youtube_shorts/videos/YT032976.mp4
+TT_7642012710061772063	Religion & Spirituality	data/fyp_videos_1250/videos/videos/7642012710061772063.mp4
+TT_7339185620016713003	Nature, Animals & Conservation	data/fyp_videos_1250/videos/videos/7339185620016713003.mp4
+FV000833	Gaming	E:/ALI/FineVideo/FineVideo/videos/FV000833.mp4
+YT_cZwZ00JgFTA	Lifestyle, Vlogs & Relationships	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT021612.mp4
+YT_fS-kTUefLNs	Vehicles	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT049310.mp4
+YT_bczqDcxThT0	ASMR	data/yt_shorts_master/videos/bczqDcxThT0.mp4
+YT_qPkMqHlWBZk	Food & Cooking	data/yt_shorts_master/videos/qPkMqHlWBZk.mp4
+TT_7217108611061812506	Music & Dance	data/fyp_videos_1250/videos/videos/7217108611061812506.mp4
+YT_QgKtTppkEXM	News, Politics & Social Issues	E:/ALI/youtube_shorts/youtube_shorts/videos/YT001128.mp4
+TT_7454613224718077227	Sports & Fitness	data/fyp_videos_1250/videos/videos/7454613224718077227.mp4
+TT_7494798372763716906	Travel & Adventure	data/fyp_videos_1250/videos/videos/7494798372763716906.mp4
+YT_vJ_2PVStNHY	Education	E:/ALI/youtube_shorts/youtube_shorts/english_500/videos/YT056394.mp4
+FV000089	Comedy	E:/ALI/FineVideo/FineVideo/videos/FV000089.mp4

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_H9gYzRqoMaI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 3.0408,
+    "loudness_variability": 0.272,
+    "mean_pitch": 19.7671,
+    "pitch_variability": 0.5809,
+    "spectral_flux": 2.8978,
+    "sound_level_db": -6.9632
+  },
+  "metadata_caption": "VEX IQ Rapid Relay Double Catapult Robot Reveal #vexiq #robotics #vexroboticscompetition",
+  "caption_priority": "low"
+}

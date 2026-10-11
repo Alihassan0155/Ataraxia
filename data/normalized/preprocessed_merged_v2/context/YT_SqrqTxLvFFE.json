@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SqrqTxLvFFE",
+  "transcript": "Three, two, one.",
+  "acoustic_features": {
+    "mean_loudness": 0.8684,
+    "loudness_variability": 1.0644,
+    "mean_pitch": 40.1641,
+    "pitch_variability": 0.171,
+    "spectral_flux": 0.6485,
+    "sound_level_db": -15.8065
+  },
+  "metadata_caption": "WHY WAS THAT SO LOUD?",
+  "caption_priority": "low"
+}

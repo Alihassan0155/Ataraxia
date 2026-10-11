@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__iQLuwtTtf0",
+  "transcript": "Can you sneak into a movie theater using the world's largest popcorn bucket? I'm going in boys. Where's the door? Ugh! This might be the dumbest way we snuck into something. Oh god. There's security coming out right now. I got you. I'm so nervous. Hey, we're with Paramount. I think we're just dropping this off in front of the theater. SpongeBob has a new movie coming out and I will do anything to see this movie. Check it out for the new SpongeBob movie. Shut up. I'm gonna eat you. Should we drop it off by 6 or 7? Alright, we're ready. Oh! It's S-E-A-Z-Y! Yeah, I'm in the theater right now. SpongeBob's Biggest Adventure Yet is in theaters December 19th. Get your tickets now!",
+  "acoustic_features": {
+    "mean_loudness": 1.661,
+    "loudness_variability": 0.3852,
+    "mean_pitch": 27.9881,
+    "pitch_variability": 0.2884,
+    "spectral_flux": 2.086,
+    "sound_level_db": -9.9069
+  },
+  "metadata_caption": "Can you sneak into a movie theatre using the world’s largest popcorn bucket?",
+  "caption_priority": "low"
+}

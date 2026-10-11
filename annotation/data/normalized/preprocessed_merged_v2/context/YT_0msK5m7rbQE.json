@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0msK5m7rbQE",
+  "transcript": "For a while now, I've been wanting to do something weird with an egg. All I'm gonna do is put it into a beaker and add some vinegar. Almost immediately, some bubbles start forming and this is because the acetic acid in the vinegar is reacting with the calcium carbonate that's in the shell. It's slowly turning it into calcium acetate which should dissolve into the water. This is gonna take a while though and I'll leave it here for a couple- days. At this point it looks like it has gotten bigger, and it's also yellow. I think it's ready, and I'll get rid of all the vinegar. Now what I'm left with… doesn't at all feel like an egg anymore. It's kind of just a firm, but squishy sack. It's only being held together by the soft membrane that's normally under the skin. the shell, and it's quite fragile.",
+  "acoustic_features": {
+    "mean_loudness": 0.5138,
+    "loudness_variability": 1.2729,
+    "mean_pitch": 31.7461,
+    "pitch_variability": 0.2488,
+    "spectral_flux": 0.2652,
+    "sound_level_db": -22.9699
+  },
+  "metadata_caption": "Making a bouncy egg by dissolving its shell",
+  "caption_priority": "low"
+}

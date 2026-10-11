@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_jru9Gsz3kJY",
+  "transcript": "All right, so this is an iPhone 17 and I'm trying to see something. So let's take this photo on every single generation of iPhone ever. you",
+  "acoustic_features": {
+    "mean_loudness": 0.6374,
+    "loudness_variability": 0.5643,
+    "mean_pitch": 30.4074,
+    "pitch_variability": 0.256,
+    "spectral_flux": 0.3667,
+    "sound_level_db": -21.4128
+  },
+  "metadata_caption": "Every iPhone Ever. SAME photo!",
+  "caption_priority": "low"
+}

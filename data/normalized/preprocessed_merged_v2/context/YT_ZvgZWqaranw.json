@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ZvgZWqaranw",
+  "transcript": "You got games on your phone? So this is the ASUS ROG Phone 9 Pro. It's the first Snapdragon 8 Elite phone I've tested. It also has a 5800 milliampere battery with fast charging and 185 hertz display on the front, but nobody cares about any of that because the screen on the back is still on show. So there's four retro games on the back here, all with really great not copyright infringing names. So Speedy Runner is an infinite horizontal scroller. You flip the phone over, the air triggers on the top of the phone are your controls, and there's a screen. and you just uh... play this game as if you were on the front of the phone. Snake Venture is exactly what it sounds like. It's Snake on the back of your phone, but with the triggers again. Now, Arrow Invaders is a pretty classic. You've probably heard of Space Invaders, but they can't call it that, but same thing. Scrolling, flying through asteroids, shooting them down, leveling up, it's great. And Bricksmasher is basically just Brick Breaker with a giant Asus logo. This is the only one I've gotten really good at though. This is peak offline gaming.",
+  "acoustic_features": {
+    "mean_loudness": 0.9261,
+    "loudness_variability": 0.635,
+    "mean_pitch": 26.5925,
+    "pitch_variability": 0.2999,
+    "spectral_flux": 0.41,
+    "sound_level_db": -20.0343
+  },
+  "metadata_caption": "Gaming on the BACK of the phone?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,317 @@
+﻿{
+    "status":  "three_human_available_field_evaluation_complete_full_pilot_incomplete",
+    "reason":  "Three-human evaluation built. 49 valid scalar references, 47 valid distributions, 16 complete valid declared-dominant sets. Original source files unchanged during analysis; no bulk annotation.",
+    "removed_files":  [
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/adjudication_template.csv",
+                              "sha256":  "a579c9adbc412b203d3a83e507a141da788d43ed59718bbd07499caccbd69ea2",
+                              "bytes":  2352
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/comparison.json",
+                              "sha256":  "f4cd9d821c3fb3adc3088e310b33968c33c95f2c133598e863c2986713988d2e",
+                              "bytes":  5643
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_adjudication_queue.csv",
+                              "sha256":  "eb6ef0d4d76bd9e4a98597e46250a64680943b2a242f1da0c06aab3f72ec4358",
+                              "bytes":  10609
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_agreement_report.md",
+                              "sha256":  "fa011177239188f685f39dcf4e036f07f99405e7bfb9dd7a537d2d6bbd87ba1b",
+                              "bytes":  5769
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_agreement_summary.json",
+                              "sha256":  "f60937e8261d180c637aebf4178d385f4ed58fe0462daf7df246a6284a7cd408",
+                              "bytes":  3692
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_fieldwise_consensus.csv",
+                              "sha256":  "6696215327d870ba331095bfbc4596d8dfeb664a0a8282c72e0d1f477e6cfac1",
+                              "bytes":  29811
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_fieldwise_consensus.json",
+                              "sha256":  "9b11ee9146759a41e845982026a8827c3cbbe3ed2d8359636e660e543751b559",
+                              "bytes":  88417
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_soft_reference.csv",
+                              "sha256":  "5831e74a7b2225f7d0b2b931586392b086ad63f828c7c4e0a117a12a99b84e23",
+                              "bytes":  91597
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_soft_reference.json",
+                              "sha256":  "8deae7a54c521d14b534117ce4a1788ecd3dd1ffc92c037e368a540392ece1d8",
+                              "bytes":  212791
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_soft_reference_report.md",
+                              "sha256":  "d6a793b8b59b4f63b425f50c3c6ff7c8c91aa1d31a761ad624e184125c552737",
+                              "bytes":  10386
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/human_uncertainty_summary.json",
+                              "sha256":  "1befacbf5166a87effa126380a6343d8dbb03e457b917cf50bd61992bbe1dfcf",
+                              "bytes":  37740
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/model_vs_soft_human_reference.csv",
+                              "sha256":  "bce71dfdb3526538d735927f3cfac8758de801fcd5e37ed015e5e14d59dc094f",
+                              "bytes":  101236
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/per_video_human_disagreement.csv",
+                              "sha256":  "c33861040a65d04997e6b1fdb31979b15fc339adc204fe1600dcd01da293b76a",
+                              "bytes":  5628
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/provisional_reference.jsonl",
+                              "sha256":  "1f8737a8cfaaee7a31b3897f443ee272f221b914c2b9df090dd890f240cf41d4",
+                              "bytes":  6428
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/human_comparison/uncertainty_stratified_model_results.csv",
+                              "sha256":  "04954bc66082dad2612f49b87a3504453ce0bcad15f96a0e77f55bfee17a23be",
+                              "bytes":  8776
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/calibration_oof_predictions.csv",
+                              "sha256":  "9b060dfa1574e68be8aa45a996e2d83caf31863dd5d27f5f4ed6fe7a268e43d4",
+                              "bytes":  76458
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/emotion_calibration_cv.csv",
+                              "sha256":  "cd7b579c1516ab76a5b506630761f2d90630d917a0a8f3d04f1b9b56b9245335",
+                              "bytes":  7632
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/model_bias_analysis.csv",
+                              "sha256":  "63bc100f6aab01297239c274612ae01d64ac404a63ec3d9600f8c6f23110083f",
+                              "bytes":  4758
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/raw_vs_calibrated_ranking.csv",
+                              "sha256":  "226b3817f84c0f95e8399a55e7d5111c9bf2155ec0a6aef6c7496b0c05a33218",
+                              "bytes":  2710
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/scalar_calibration_cv.csv",
+                              "sha256":  "e49dfc5963a8f77eb23b026b4ea908277affec1d7a0306d589f68eafe346cff1",
+                              "bytes":  39540
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis/uncertainty_stratified_calibration.csv",
+                              "sha256":  "3bcba021fc344b0732ad4c35252de3cb730070fdf558fb3b95611ef9059db74e",
+                              "bytes":  3645
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/calibration_oof_predictions.csv",
+                              "sha256":  "9b060dfa1574e68be8aa45a996e2d83caf31863dd5d27f5f4ed6fe7a268e43d4",
+                              "bytes":  76458
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/emotion_calibration_cv.csv",
+                              "sha256":  "cd7b579c1516ab76a5b506630761f2d90630d917a0a8f3d04f1b9b56b9245335",
+                              "bytes":  7632
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/final_calibration_report.md",
+                              "sha256":  "6f55697b7e6626b98a7e0e1a2ce6f0d067c60b29d93535c4b041aa96410b0420",
+                              "bytes":  10307
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/frozen_annotation_config.json",
+                              "sha256":  "0ad34903cf4714c19b767ef49f22a6619f9904333b8c14cfa6368669928ac1e1",
+                              "bytes":  9394
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/model_bias_analysis.csv",
+                              "sha256":  "63bc100f6aab01297239c274612ae01d64ac404a63ec3d9600f8c6f23110083f",
+                              "bytes":  4758
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/raw_vs_calibrated_ranking.csv",
+                              "sha256":  "226b3817f84c0f95e8399a55e7d5111c9bf2155ec0a6aef6c7496b0c05a33218",
+                              "bytes":  2710
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/scalar_calibration_cv.csv",
+                              "sha256":  "e49dfc5963a8f77eb23b026b4ea908277affec1d7a0306d589f68eafe346cff1",
+                              "bytes":  39540
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/selected_final_models.json",
+                              "sha256":  "b04102585d3fdbece187bf8ba23c009c26db2199c17984b306bfc9d62739709c",
+                              "bytes":  124292
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v2/uncertainty_stratified_calibration.csv",
+                              "sha256":  "3bcba021fc344b0732ad4c35252de3cb730070fdf558fb3b95611ef9059db74e",
+                              "bytes":  3645
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/calibration_oof_predictions.csv",
+                              "sha256":  "9b060dfa1574e68be8aa45a996e2d83caf31863dd5d27f5f4ed6fe7a268e43d4",
+                              "bytes":  76458
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/calibration_seed_sensitivity.csv",
+                              "sha256":  "63dc65a89315b9e0d4cae4ed8e69c5d7a449e7f875e405b6f5d8d9a7a08ff1e4",
+                              "bytes":  5016
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/emotion_calibration_cv.csv",
+                              "sha256":  "cd7b579c1516ab76a5b506630761f2d90630d917a0a8f3d04f1b9b56b9245335",
+                              "bytes":  7632
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/final_calibration_report.md",
+                              "sha256":  "d26e200250742111f4af5db98d16b37cbdbf92dfa1b01802bb8f1a6db4a278f7",
+                              "bytes":  12901
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/frozen_annotation_config.json",
+                              "sha256":  "7a645fb1a36e45d0c33e9f4536a9261f20c5efd4b885056f990d7d61004a0697",
+                              "bytes":  25470
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/model_bias_analysis.csv",
+                              "sha256":  "63bc100f6aab01297239c274612ae01d64ac404a63ec3d9600f8c6f23110083f",
+                              "bytes":  4758
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/paired_oof_error_uncertainty.csv",
+                              "sha256":  "279e6908c815e551da0691ae5adfce018c8e3028e777e5cba3b40938ddcd53b9",
+                              "bytes":  1888
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/raw_vs_calibrated_ranking.csv",
+                              "sha256":  "226b3817f84c0f95e8399a55e7d5111c9bf2155ec0a6aef6c7496b0c05a33218",
+                              "bytes":  2710
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/scalar_calibration_cv.csv",
+                              "sha256":  "e49dfc5963a8f77eb23b026b4ea908277affec1d7a0306d589f68eafe346cff1",
+                              "bytes":  39540
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/selected_final_models.json",
+                              "sha256":  "872f836823e0bf17e8a4f6c0055f831cd48c5c29688b7f0c616bf02191664d17",
+                              "bytes":  140472
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v3/uncertainty_stratified_calibration.csv",
+                              "sha256":  "3bcba021fc344b0732ad4c35252de3cb730070fdf558fb3b95611ef9059db74e",
+                              "bytes":  3645
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/calibration_oof_predictions.csv",
+                              "sha256":  "9b060dfa1574e68be8aa45a996e2d83caf31863dd5d27f5f4ed6fe7a268e43d4",
+                              "bytes":  76458
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/calibration_seed_sensitivity.csv",
+                              "sha256":  "63dc65a89315b9e0d4cae4ed8e69c5d7a449e7f875e405b6f5d8d9a7a08ff1e4",
+                              "bytes":  5016
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/emotion_calibration_cv.csv",
+                              "sha256":  "cd7b579c1516ab76a5b506630761f2d90630d917a0a8f3d04f1b9b56b9245335",
+                              "bytes":  7632
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/final_calibration_report.md",
+                              "sha256":  "c4b1857658893e47b3f31005e6909bbd6acf01596fe4800c65f79a44999ec1b5",
+                              "bytes":  13410
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/frozen_annotation_config.json",
+                              "sha256":  "98b7af2b8812c62b2823339e1aa8def31847197d563dc8eedefd554e55a22850",
+                              "bytes":  25239
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/model_bias_analysis.csv",
+                              "sha256":  "63bc100f6aab01297239c274612ae01d64ac404a63ec3d9600f8c6f23110083f",
+                              "bytes":  4758
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/paired_oof_error_uncertainty.csv",
+                              "sha256":  "279e6908c815e551da0691ae5adfce018c8e3028e777e5cba3b40938ddcd53b9",
+                              "bytes":  1888
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/raw_vs_calibrated_ranking.csv",
+                              "sha256":  "f8392283b48bfdda2b21ce3f8cedaf288b104fcff77bd126203c7110edbcab74",
+                              "bytes":  2680
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/scalar_calibration_cv.csv",
+                              "sha256":  "e49dfc5963a8f77eb23b026b4ea908277affec1d7a0306d589f68eafe346cff1",
+                              "bytes":  39540
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/selected_final_models.json",
+                              "sha256":  "212af7a846b4a3e1965321026838a420cb3bb6fd91135e7d58870daa6d7a47a3",
+                              "bytes":  140713
+                          },
+                          {
+                              "path":  "pilot_50_reels_30h/results/final_calibration_analysis_v4/uncertainty_stratified_calibration.csv",
+                              "sha256":  "7c12eeee1680a2842cd3e9399cf021c794286b7b112e0a76cfbff28d24556cbb",
+                              "bytes":  3644
+                          },
+                          {
+                              "path":  "human_annotation_comparison.md",
+                              "sha256":  "ee3ce9afeaf84db761b6c4e4c548373de902b19f6b6cae5900e7360b333f17ee",
+                              "bytes":  8355
+                          }
+                      ],
+    "created_files":  [
+                          "pilot_50_reels_30h/results/active_human_evaluation.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/calibration_oof_predictions.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/calibration_seed_sensitivity.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/emotion_calibration_cv.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/final_calibration_report.md",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/frozen_annotation_config.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/model_bias_analysis.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/paired_oof_error_uncertainty.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/raw_vs_calibrated_ranking.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/scalar_calibration_all_valid_fields.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/scalar_calibration_all_valid_predictions.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/scalar_calibration_cv.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/selected_final_models.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/calibration_final/uncertainty_stratified_calibration.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/migration_manifest.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/migration_report.md",
+                          "pilot_50_reels_30h/results/three_human_evaluation/README.md",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/human_pairwise_agreement.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/human_soft_reference.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/human_soft_reference.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/human_soft_reference_report.md",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/human_uncertainty_summary.json",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/model_vs_soft_human_reference.csv",
+                          "pilot_50_reels_30h/results/three_human_evaluation/reference/uncertainty_stratified_model_results.csv",
+                          "src/analyze_three_human_calibration.py",
+                          "src/build_three_human_reference.py",
+                          "tests/test_three_human_reference.py"
+                      ],
+    "preserved_human_sources":  [
+                                    {
+                                        "path":  "human_annotation/ali_annotation.json",
+                                        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                                        "bytes":  0
+                                    },
+                                    {
+                                        "path":  "human_annotation/ghayas_annotation.csv",
+                                        "sha256":  "755ef00dc57580365d30db169bc761e6733a348d78a42b0301387a786eaa4b0b",
+                                        "bytes":  7037
+                                    },
+                                    {
+                                        "path":  "human_annotation/zara_annotation.txt",
+                                        "sha256":  "041c3da49acee41e4aad806a0daacd55df6d58525e10a7cffafa143c50056cec",
+                                        "bytes":  18601
+                                    }
+                                ]
+}

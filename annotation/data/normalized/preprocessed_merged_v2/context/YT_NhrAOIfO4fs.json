@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NhrAOIfO4fs",
+  "transcript": "My wife was in the mood for a healthy snack, so I made her these cheesy air fryer sweet potato puffs. Super delicious and simple to make. Start by taking out all your angonian sweet potatoes and stabbing them with a fork. Wrap in foil and bake these until soft. Scrape out the insides and mash with a fork. Then add your flour, mozzarella cheese and cheddar cheese. Mix this together, shape into balls and air fry for around 6 minutes at 200 degrees Celsius.",
+  "acoustic_features": {
+    "mean_loudness": 1.02,
+    "loudness_variability": 0.4352,
+    "mean_pitch": 19.9442,
+    "pitch_variability": 0.1679,
+    "spectral_flux": 0.6233,
+    "sound_level_db": -18.2112
+  },
+  "metadata_caption": "Sweet Potato Puffs",
+  "caption_priority": "low"
+}

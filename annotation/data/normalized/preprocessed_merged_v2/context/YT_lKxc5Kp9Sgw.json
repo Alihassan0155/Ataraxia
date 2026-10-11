@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_lKxc5Kp9Sgw",
+  "transcript": "So DJI just came out with two new little drones. This is the DJI Lido 1 and the Lido X1. So these two are mainly differentiated by image quality, optical sensing, and of course, price. The Lido 1 comes with the drone, two flight batteries, a remote controller, which you attach your smartphone to, and two RC cables. The X1, on the other hand, includes the X1 drone, the DJI RC2 remote, which has the screen built in, three flight batteries, a two-way charger, a shoulder bag, and then just like the Lido One, you're gonna get a screwdriver and some extra propellers. They're both roughly the same weight, coming in under 249 grams, making them extremely lightweight and portable. But the X1 has a one over one three inch sensor, so it gives you a more pro level image quality. So when you look at the Lido One, you're gonna be getting a beginner friendly camera drone that still offers some omnidirectional obstacle sensing, active track, and some well-rounded features, but it's gonna be mostly about price competitiveness and getting people into. that might be beginners. Now the X1 is still beginner friendly, but a little bit more premium. With enhanced image quality, omnidirectional obstacle sensing with the forward facing lidar, active track 360 for full direction and intelligent tracking, and also coming with a more comprehensive remote with built in display.",
+  "acoustic_features": {
+    "mean_loudness": 1.4753,
+    "loudness_variability": 0.4844,
+    "mean_pitch": 28.185,
+    "pitch_variability": 0.171,
+    "spectral_flux": 0.8822,
+    "sound_level_db": -15.9418
+  },
+  "metadata_caption": "Meet The New DJI Lito & Lito X1 Drone...",
+  "caption_priority": "low"
+}

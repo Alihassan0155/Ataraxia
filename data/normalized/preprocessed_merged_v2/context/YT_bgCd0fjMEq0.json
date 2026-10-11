@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_bgCd0fjMEq0",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.8973,
+    "loudness_variability": 0.2465,
+    "mean_pitch": 19.0718,
+    "pitch_variability": 0.5345,
+    "spectral_flux": 1.417,
+    "sound_level_db": -12.4962
+  },
+  "metadata_caption": "Ironman 70.3….done ! What an amazing day to be back with @ironmantriathlon after all the work !",
+  "caption_priority": "low"
+}

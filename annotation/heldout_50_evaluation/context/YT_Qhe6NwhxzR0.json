@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Qhe6NwhxzR0",
+  "transcript": "This is the worst reviewed hot dog in New York City, and I'm about to try it with Jack's dining room Let's do it. How many stars do they have on Google Maps? All right, this hot dog is ranked a whopping 1.7 stars. I told him make me whatever's best he goes take this chili cheese, which is instant diarrhea. Two hot dogs $18. Look how it's made look at like the edge. It's like rubber man. Look at that. It's like a spear. Let's try it There we go. I'm really scared It's really bouncy. If I snap this hot dog, it would fly all the way to Drew's house in Arizona. Is it edible? Yes. Is it worth $9? It's not even worth $1.",
+  "acoustic_features": {
+    "mean_loudness": 1.2836,
+    "loudness_variability": 0.563,
+    "mean_pitch": 33.1655,
+    "pitch_variability": 0.1832,
+    "spectral_flux": 0.9069,
+    "sound_level_db": -16.9404
+  },
+  "metadata_caption": "This Is The Worst Reviewed Hot Dog In New York",
+  "caption_priority": "low"
+}

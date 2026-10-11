@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_eGKYiPA1wio",
+  "transcript": "This is officially the best video stabilization I've ever seen in a smartphone. So as long as you turn on this S26 Ultra's horizon lock right there and hit record, you can have the least steady hands in the world. You can go completely sideways. You can go totally upside down. As long as you come right back to where you started and hit that stop button and watch our clip back, it's basically erased any imperfections and kept the horizon locked. You couldn't tell I was upside down. all. That's actually kind of insane. Look at this. If that works, that's gonna be insane. It actually worked! Wait, it actually worked? That's crazy that it worked that time.",
+  "acoustic_features": {
+    "mean_loudness": 0.5736,
+    "loudness_variability": 0.9406,
+    "mean_pitch": 27.5999,
+    "pitch_variability": 0.2661,
+    "spectral_flux": 0.2799,
+    "sound_level_db": -22.2365
+  },
+  "metadata_caption": "God Tier Stabilization",
+  "caption_priority": "low"
+}

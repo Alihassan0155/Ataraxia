@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_uIR5vdg5V-M",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0931,
+    "loudness_variability": 0.2852,
+    "mean_pitch": 30.9751,
+    "pitch_variability": 0.5681,
+    "spectral_flux": 0.3753,
+    "sound_level_db": -22.5237
+  },
+  "metadata_caption": "Oops 🤷‍♂️",
+  "caption_priority": "low"
+}

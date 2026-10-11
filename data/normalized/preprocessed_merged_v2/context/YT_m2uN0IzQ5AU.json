@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_m2uN0IzQ5AU",
+  "transcript": "Just laying around. Your car is broken You can maybe see a doctor, but what are they gonna do?",
+  "acoustic_features": {
+    "mean_loudness": 0.4047,
+    "loudness_variability": 0.5114,
+    "mean_pitch": 59.7077,
+    "pitch_variability": 0.0001,
+    "spectral_flux": 0.2087,
+    "sound_level_db": -32.1266
+  },
+  "metadata_caption": "ASMR | I have no idea how to help you at this point",
+  "caption_priority": "low"
+}

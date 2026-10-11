@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qPkMqHlWBZk",
+  "transcript": "Today we're using something savory and unexpected to make. Better with fish sauce chocolate chip cookies. The fish sauce really kicks in at the end giving it a complex rich and nuanced flavor. To start choose any chocolate chip cookie recipe and simply mix fish sauce into your wet ingredients. I like to chill or freeze the dough before baking which lets the fish sauce flavor develop over time and then top the cookies with sea salt and sesame seeds. These are almost as big as my face.",
+  "acoustic_features": {
+    "mean_loudness": 0.8324,
+    "loudness_variability": 0.7228,
+    "mean_pitch": 32.9923,
+    "pitch_variability": 0.1425,
+    "spectral_flux": 0.4372,
+    "sound_level_db": -20.3683
+  },
+  "metadata_caption": "Better With Fish Sauce Chocolate Chip Cookies",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_rnzQKKGa5HQ",
+  "transcript": "Hello there. Hi, I'm Patrick.",
+  "acoustic_features": {
+    "mean_loudness": 0.7506,
+    "loudness_variability": 0.9553,
+    "mean_pitch": 33.0702,
+    "pitch_variability": 0.2675,
+    "spectral_flux": 0.429,
+    "sound_level_db": -21.2825
+  },
+  "metadata_caption": "When Your Cat Realises They're Going to the VETS!",
+  "caption_priority": "low"
+}

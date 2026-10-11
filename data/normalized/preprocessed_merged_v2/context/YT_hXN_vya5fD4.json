@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hXN_vya5fD4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.8218,
+    "loudness_variability": 0.0871,
+    "mean_pitch": 19.7965,
+    "pitch_variability": 0.2282,
+    "spectral_flux": 0.4032,
+    "sound_level_db": -22.4666
+  },
+  "metadata_caption": "Bro isn’t lying though",
+  "caption_priority": "low"
+}

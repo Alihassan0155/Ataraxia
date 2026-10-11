@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xUsqJGz5cG0",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.71,
+    "loudness_variability": 0.8624,
+    "mean_pitch": 33.3306,
+    "pitch_variability": 0.3219,
+    "spectral_flux": 0.3995,
+    "sound_level_db": -19.0371
+  },
+  "metadata_caption": "Kitten Quest Part 1! OUT NOW",
+  "caption_priority": "low"
+}

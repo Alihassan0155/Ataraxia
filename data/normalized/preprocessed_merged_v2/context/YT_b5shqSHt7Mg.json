@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_b5shqSHt7Mg",
+  "transcript": "We've got a leak! Oh no! We're gonna have to drop it! Oh here it comes. Oh yeah, come on! No!",
+  "acoustic_features": {
+    "mean_loudness": 0.9269,
+    "loudness_variability": 0.7043,
+    "mean_pitch": 43.1713,
+    "pitch_variability": 0.1902,
+    "spectral_flux": 0.7285,
+    "sound_level_db": -16.8141
+  },
+  "metadata_caption": "THE POWER OF WATER",
+  "caption_priority": "low"
+}

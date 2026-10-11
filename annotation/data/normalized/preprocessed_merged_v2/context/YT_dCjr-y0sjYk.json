@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_dCjr-y0sjYk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.4135,
+    "loudness_variability": 0.6188,
+    "mean_pitch": 31.991,
+    "pitch_variability": 0.4199,
+    "spectral_flux": 0.2242,
+    "sound_level_db": -25.0259
+  },
+  "metadata_caption": "This Dance is Contagious...",
+  "caption_priority": "low"
+}

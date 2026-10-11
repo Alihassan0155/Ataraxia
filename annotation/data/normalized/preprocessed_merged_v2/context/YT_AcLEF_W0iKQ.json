@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_AcLEF_W0iKQ",
+  "transcript": "you",
+  "acoustic_features": {
+    "mean_loudness": 0.6529,
+    "loudness_variability": 0.6187,
+    "mean_pitch": 32.0223,
+    "pitch_variability": 0.4189,
+    "spectral_flux": 0.4494,
+    "sound_level_db": -18.9899
+  },
+  "metadata_caption": "This Dance is Hypnotic...",
+  "caption_priority": "low"
+}

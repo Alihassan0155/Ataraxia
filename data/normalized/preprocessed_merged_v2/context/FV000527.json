@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000527",
+  "transcript": "This is Steph Curry, the greatest three-point shooter of all time. And this is Sabrina Inescu. Who? The best three-point shooter in the WNBA right now and current all-time world record holder for the most threes in a three-point contest ever. And since this year's 2024, All-Star Weekend's gonna have Steph and Sabrina go head-to-head in the three-point challenge. I wanna see who's the better shooter on 2K. Yeah, I love you, I want Steph to win. 17, bro. Okay, Sabrina's up next. Please don't make more than 17. Oh, last shot. No!",
+  "acoustic_features": {
+    "mean_loudness": 0.9199,
+    "loudness_variability": 0.6324,
+    "mean_pitch": 36.1931,
+    "pitch_variability": 0.3033,
+    "spectral_flux": 0.4262,
+    "sound_level_db": -19.042
+  },
+  "metadata_caption": "Steph Curry vs Sabrina Ionescu 3PT Contest!",
+  "caption_priority": "low"
+}

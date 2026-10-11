@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_fpsVgV0X6sc",
+  "transcript": "I guess I have to say that... Hey, Sofia, I gotta get to the stage here. Here, just follow me. Whoa! Here. Come on. The stage is just right through here. Watch your step. And we are live in three, two, one.",
+  "acoustic_features": {
+    "mean_loudness": 1.4133,
+    "loudness_variability": 0.3997,
+    "mean_pitch": 32.6706,
+    "pitch_variability": 0.2624,
+    "spectral_flux": 0.8513,
+    "sound_level_db": -16.9689
+  },
+  "metadata_caption": "She almost didn’t make it to the show",
+  "caption_priority": "low"
+}

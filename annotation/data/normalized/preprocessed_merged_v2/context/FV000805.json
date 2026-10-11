@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000805",
+  "transcript": ". MRIs use protons, which are abundant in the human body. All protons spin, creating a small magnetic charge. When a strong magnetic field is introduced, as is the case in an MRI machine, the protons align with that field. The MRI technician then introduces a radio frequency pulse that disrupts the proton and forces it either into a 90 degree or 180 degree realignment with the static magnetic field. Since the radio frequency pulse pushed the proton against its nature, once this pulse is turned off, the protons realign with that magnetic field, releasing electromagnetic energy along the way. The MRI is able to detect this energy and is able to differentiate various tissues based on how quickly they release energy after the pulse is turned off. Over 300usting",
+  "acoustic_features": {
+    "mean_loudness": 0.4758,
+    "loudness_variability": 0.5157,
+    "mean_pitch": 30.9863,
+    "pitch_variability": 0.3412,
+    "spectral_flux": 0.3091,
+    "sound_level_db": -24.5635
+  },
+  "metadata_caption": "How Does an MRI Scan Work?",
+  "caption_priority": "low"
+}

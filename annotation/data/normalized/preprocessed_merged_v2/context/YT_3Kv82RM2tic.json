@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_3Kv82RM2tic",
+  "transcript": "A while ago, I made some perfectly clear ice using a cooler, and I thought it was pretty cool. There were a lot of comments though that said I could have saved a lot of time and effort by just boiling the water. So, I've decided to test that out, and I'm going to boil some tap water for about 15 minutes. This should really drive out any air that's in there, and maybe prevent it from fogging up as it freezes. When it was done, I let it cool down a bit, and I poured it into an ice cube mold. I also decided to test some boiled distilled water, and as controls, I included unboiled versions of each. I then put it in the freezer, and I took it out a few days later. I was honestly really hoping to see some nice and clear ice, but that wasn't the case. Both of the tap water ones were terrible, and the only somewhat decent one was the boiled distilled water. It still wasn't anywhere close to being clear though, and they were all really ugly.",
+  "acoustic_features": {
+    "mean_loudness": 0.7425,
+    "loudness_variability": 0.9623,
+    "mean_pitch": 30.3389,
+    "pitch_variability": 0.2143,
+    "spectral_flux": 0.4811,
+    "sound_level_db": -18.864
+  },
+  "metadata_caption": "The clear ice myth",
+  "caption_priority": "low"
+}

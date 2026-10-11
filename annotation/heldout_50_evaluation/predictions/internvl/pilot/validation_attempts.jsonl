@@ -1,0 +1,27 @@
+{"video_id": "YT_fcqOTqR91zc", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'YT_fcqOTqR9...formative and neutral.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "YT_WiBhWcqrhF0", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "YT_4wKlFrCQqsY", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'YT_4wKlFrCQ...he intricacy involved.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "TT_7666318750701899026", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "YT_Qhe6NwhxzR0", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 14.0"}
+{"video_id": "FV000710", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'FV000710', ...ht element of concern.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 11.0"}
+{"video_id": "TT_7412881020309097771", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'TT_74128810...ldness of the message.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "TT_7452563112156335390", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 8.0"}
+{"video_id": "TT_7230453591952166149", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'TT_72304535...n health and wellness.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "FV000982", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 9.0"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 11.0"}
+{"video_id": "YT_tNVWGck2h3s", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'YT_tNVWGck2... a layer of curiosity.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "YT_cZwZ00JgFTA", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'YT_cZwZ00Jg...tive affective impact.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "TT_7217108611061812506", "attempt": 1, "error": "1 validation error for VideoAnnotation\n  Value error, dominant_emotion must match a highest-scoring emotion; expected one of ['joy'] [type=value_error, input_value={'video_id': 'TT_72171086...h potential amusement.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 11.0"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 11.0"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 11.0"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 12.0"}
+{"video_id": "FV000754", "attempt": 1, "error": "Emotion point scores must sum EXACTLY to 10.00; got 19.0"}
+{"video_id": "FV000754", "attempt": 2, "error": "Emotion point scores must sum EXACTLY to 10.00; got 12.0"}

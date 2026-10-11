@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_8Q99U0QK2es",
+  "transcript": "Are you alright? No, you look stressed. You don't have to lie to me. Well, I insist that you stay just a little while. I think you've overworked yourself. No, you deserve it. together",
+  "acoustic_features": {
+    "mean_loudness": 0.1834,
+    "loudness_variability": 0.7605,
+    "mean_pitch": 57.8676,
+    "pitch_variability": 0.0949,
+    "spectral_flux": 0.0685,
+    "sound_level_db": -39.5453
+  },
+  "metadata_caption": "ASMR - You look stressed...",
+  "caption_priority": "low"
+}

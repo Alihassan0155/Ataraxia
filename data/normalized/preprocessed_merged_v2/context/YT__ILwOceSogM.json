@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__ILwOceSogM",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.4608,
+    "loudness_variability": 0.4386,
+    "mean_pitch": 28.4868,
+    "pitch_variability": 0.5479,
+    "spectral_flux": 2.4677,
+    "sound_level_db": -7.6012
+  },
+  "metadata_caption": "Subscribe @pepperell.crafts for genius daily DIY tips! ☂️",
+  "caption_priority": "low"
+}

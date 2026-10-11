@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vfmifdya3dA",
+  "transcript": "This is just some regular coke, and I'm gonna try and turn it clear. To get started, the first step is to open it up. Then, I can pour in this special liquid, and very quickly, the color starts disappearing. Over the next few minutes, it got lighter and lighter, and eventually, it was technically clear. I felt that it could still be better though, so I put the cap back on. and I left it overnight. When I came back to it the next day, I was honestly pretty surprised. The color was almost completely gone, and it was only faintly yellow. Something else that I also thought was surprising, was that it was still fizzy. The only problem, was that it smelled absolutely horrible. This was because the mystery liquid that I had added, was just a bunch of bleach. It had reacted with all of the molecules that gave coke its color, but unfortunately, it also made it completely undrinkable.",
+  "acoustic_features": {
+    "mean_loudness": 0.7772,
+    "loudness_variability": 1.0166,
+    "mean_pitch": 32.3958,
+    "pitch_variability": 0.2237,
+    "spectral_flux": 0.4273,
+    "sound_level_db": -19.8564
+  },
+  "metadata_caption": "Turning coke clear",
+  "caption_priority": "low"
+}

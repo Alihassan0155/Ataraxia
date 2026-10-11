@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_eOK8gMPubug",
+  "transcript": "Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Hrm? Mm-hmm.",
+  "acoustic_features": {
+    "mean_loudness": 0.3135,
+    "loudness_variability": 1.0909,
+    "mean_pitch": 38.4687,
+    "pitch_variability": 0.1576,
+    "spectral_flux": 0.1108,
+    "sound_level_db": -30.3273
+  },
+  "metadata_caption": "Simon's Cat Gets \"Catnipped\"",
+  "caption_priority": "low"
+}

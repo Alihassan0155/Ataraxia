@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_8zT03ZWp8E0",
+  "transcript": "What I have here is a liquid metal that kind of looks like mercury, but it's actually something called NAC. I made it a while ago by combining potassium and sodium metal, and it's extremely reactive and potentially explosive. Something I've been really wanting to try, though, was to shoot it into some liquid nitrogen. It shouldn't react with it or anything, but it should be more than cold enough to freeze it and turn it back into a solid. Okay. So at this point, it's looking pretty good, and I have this nice little metal egg. Despite it being really cold though, it should still be super reactive, and I just had to see what would happen if I threw it in water.",
+  "acoustic_features": {
+    "mean_loudness": 0.6346,
+    "loudness_variability": 1.0024,
+    "mean_pitch": 31.211,
+    "pitch_variability": 0.2402,
+    "spectral_flux": 0.3385,
+    "sound_level_db": -21.3193
+  },
+  "metadata_caption": "Making an explosive metal egg",
+  "caption_priority": "low"
+}

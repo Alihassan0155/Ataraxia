@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001026",
+  "transcript": "The test is over chapters 13 through 19, and so make sure that you've got all of them. What is this? What is this? What is this? Oh my god, you've got to give me a break. No cry. I know. April Fool's.",
+  "acoustic_features": {
+    "mean_loudness": 1.124,
+    "loudness_variability": 0.5178,
+    "mean_pitch": 37.8979,
+    "pitch_variability": 0.2133,
+    "spectral_flux": 0.501,
+    "sound_level_db": -21.4718
+  },
+  "metadata_caption": "Math Professor breaks projector chasing a moth (April Fool's Prank)",
+  "caption_priority": "low"
+}

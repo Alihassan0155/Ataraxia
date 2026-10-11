@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_bhEyPqsKXiQ",
+  "transcript": "This is the world's only seven-star train, and at the end of this hallway is the room where we're going to be spending the next three nights. This is a standard suite. We've got a big cozy bed. The bathroom is massive for a train. Of course, the toilet has a bidet, and the shower is designed like a traditional Japanese onsen. And if you follow me back down the hallway, through these fancy doors, we get to the lounge car. The small room on the left is where we had a private tea ceremony. Then down at the end of the car is one of my favorite parts of the entire train. This is the open kitchen where we can watch the chefs preparing all of our our delicious meals. After going through a couple more fancy doors, we reached the final car on the train. This is the dining car, and this is where the magic happens. Everyone's setting up for dinner right now, and dinner on board this train is mind-blowing. It consists of 10 delicious courses complete with wine pairings. The only bad thing about this train is you have to enter a lottery just to buy a ticket, and we waited two years to get ours.",
+  "acoustic_features": {
+    "mean_loudness": 1.1889,
+    "loudness_variability": 0.5455,
+    "mean_pitch": 28.7814,
+    "pitch_variability": 0.1719,
+    "spectral_flux": 0.8101,
+    "sound_level_db": -16.0189
+  },
+  "metadata_caption": "Japan's best train🤩",
+  "caption_priority": "low"
+}

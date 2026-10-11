@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7379773186948435246",
+  "transcript": "You're killing me, Courtney! No, I'm telling you to get back in the house!",
+  "acoustic_features": {
+    "mean_loudness": 0.8652,
+    "loudness_variability": 0.6224,
+    "mean_pitch": 50.191,
+    "pitch_variability": 0.1188,
+    "spectral_flux": 0.4138,
+    "sound_level_db": -23.7999
+  },
+  "metadata_caption": "#coyote #runforyourlife #itsfunnynow #dogs #running",
+  "caption_priority": "low"
+}

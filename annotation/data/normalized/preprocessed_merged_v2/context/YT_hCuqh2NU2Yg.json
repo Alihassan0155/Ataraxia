@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hCuqh2NU2Yg",
+  "transcript": "ありがとうございました",
+  "acoustic_features": {
+    "mean_loudness": 0.9524,
+    "loudness_variability": 0.6703,
+    "mean_pitch": 25.0464,
+    "pitch_variability": 0.6642,
+    "spectral_flux": 0.72,
+    "sound_level_db": -17.4651
+  },
+  "metadata_caption": "World's Fastest Date",
+  "caption_priority": "low"
+}

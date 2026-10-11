@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vERxdwip4gI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.9088,
+    "loudness_variability": 0.3414,
+    "mean_pitch": 36.1324,
+    "pitch_variability": 0.4906,
+    "spectral_flux": 1.0733,
+    "sound_level_db": -13.9273
+  },
+  "metadata_caption": "AU Boys Dance Trend 🖤",
+  "caption_priority": "low"
+}

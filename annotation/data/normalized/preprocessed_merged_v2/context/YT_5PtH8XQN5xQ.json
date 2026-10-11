@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_5PtH8XQN5xQ",
+  "transcript": "I'm the youngest child. I know I'm my parents' favorite. I'm the middle child. Whenever I... I'm the oldest child. My younger brothers follow my footsteps. I'm the youngest child. I know I can get away with anything. I'm the middle child. Every time that I get to go... I'm the oldest. My parents know they can always count on me. I'm the youngest child. I always get first dibs. I'm the middle child. I always get to do the... I'm the oldest. My parents love me first.",
+  "acoustic_features": {
+    "mean_loudness": 0.3555,
+    "loudness_variability": 0.9735,
+    "mean_pitch": 25.81,
+    "pitch_variability": 0.1658,
+    "spectral_flux": 0.1292,
+    "sound_level_db": -28.8668
+  },
+  "metadata_caption": "it's rough being the middle child 😂",
+  "caption_priority": "low"
+}

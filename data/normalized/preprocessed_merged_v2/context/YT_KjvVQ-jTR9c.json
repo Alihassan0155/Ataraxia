@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_KjvVQ-jTR9c",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.4908,
+    "loudness_variability": 0.3747,
+    "mean_pitch": 44.1553,
+    "pitch_variability": 0.1268,
+    "spectral_flux": 0.6133,
+    "sound_level_db": -19.6761
+  },
+  "metadata_caption": "Psycho Kitty | #shorts  #simonscat",
+  "caption_priority": "low"
+}

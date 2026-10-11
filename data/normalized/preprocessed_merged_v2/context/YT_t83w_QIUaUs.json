@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_t83w_QIUaUs",
+  "transcript": "Welcome to the dark side of Tokyo, where thousands of people live in spaces too small to even stand. I met a homeless guy who lives in a public hallway smaller than a closet. Here, he's living here. Wow. I visited an internet cafe where people live in cramped spaces with unlimited Wi-Fi and a private booth to sleep in. It's like three feet maybe this way by six and a half feet. This tiny room never get direct sunlight and feels so isolating. So it's like 20 minutes a day of sunlight. Wow.",
+  "acoustic_features": {
+    "mean_loudness": 1.2735,
+    "loudness_variability": 0.5369,
+    "mean_pitch": 26.6177,
+    "pitch_variability": 0.1881,
+    "spectral_flux": 0.8968,
+    "sound_level_db": -14.4936
+  },
+  "metadata_caption": "3 Tiniest Spaces People Pay To Live In Tokyo",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000662",
+  "transcript": "There's a lot of parental pressure, you know, I mean as soon as like especially being Nigerians as soon as you graduate Our parents are knocking on our door and saying ah when you going to get married, huh? When are you going to have grandbabies? So that's like the that's the next thing as soon as you get your diploma, that's the next thing",
+  "acoustic_features": {
+    "mean_loudness": 0.5394,
+    "loudness_variability": 0.7486,
+    "mean_pitch": 35.1433,
+    "pitch_variability": 0.1346,
+    "spectral_flux": 0.1652,
+    "sound_level_db": -27.7725
+  },
+  "metadata_caption": "Nigerian parents be like... | Wedding speech at Nigerian wedding",
+  "caption_priority": "low"
+}

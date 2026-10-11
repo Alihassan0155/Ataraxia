@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__mwP3x7IbxY",
+  "transcript": "What I have here just looks like a generic yellow powder, but I think it's pretty cool. If I add it to some water, it all floats on top, which isn't too interesting. If I put my fingers in it though, it has a really weird effect. This is happening because all of this powder, which is something called lycopodium, is strongly hydrophobic. It really doesn't like mixing with water and instead it just forms a weird goopy looking layer around my fingers. What I think is interesting though, is that when I take my fingers out, they're still completely dry. Now something else that I want to try is burning it, and on its own, not very much happens. So instead, I've added a bunch of it to a plastic squirt bottle, and I've taped a lighter to it. This way it can be sprayed out as a dust and mixed with air, and it's Definitely a lot better",
+  "acoustic_features": {
+    "mean_loudness": 0.7405,
+    "loudness_variability": 1.1197,
+    "mean_pitch": 29.8257,
+    "pitch_variability": 0.1903,
+    "spectral_flux": 0.4119,
+    "sound_level_db": -19.8575
+  },
+  "metadata_caption": "This yellow powder can't get wet",
+  "caption_priority": "low"
+}

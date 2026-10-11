@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001012",
+  "transcript": "The person who can hold his breath longer wins $100 STUT! These are my twin brothers and this is fake $100 Oh my god, it's been 20 seconds already I'm burning the money now It's been almost a minute now And this happened And you have a winner! Good job, Daryl! You won! Yeah! You won 100 fake money!",
+  "acoustic_features": {
+    "mean_loudness": 1.2244,
+    "loudness_variability": 0.9252,
+    "mean_pitch": 31.1983,
+    "pitch_variability": 0.2957,
+    "spectral_flux": 0.5889,
+    "sound_level_db": -15.2636
+  },
+  "metadata_caption": "Who can hold his breath longer?",
+  "caption_priority": "low"
+}

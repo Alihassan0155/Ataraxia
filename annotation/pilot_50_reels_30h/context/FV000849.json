@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000849",
+  "transcript": "Yo! Yeah? Can you do a freestyle about Spiderman? Yeah, yeah, yeah, sure. Give me a minute, give me a minute. So for the melody I just sampled the old team song and remade it with a piano and a bell, mixed it with a snare, added two-step high-up pattern as basic as the average white girl in Starbucks. Oh my god, they spelled my name wrong. And last but not least, 808 at stake as Peter Parker's best friend Ned. Well it all comes down to this, I can't say something gay this time. Spider-Man, Spider-Man, he's just whatever a Spider-Man. Spider-Man in the night, I'm Peter Parker in the days. When it gets dark, right side, all shit is loaded in my face. FU-",
+  "acoustic_features": {
+    "mean_loudness": 0.5695,
+    "loudness_variability": 0.7697,
+    "mean_pitch": 29.0652,
+    "pitch_variability": 0.3101,
+    "spectral_flux": 0.3423,
+    "sound_level_db": -20.8189
+  },
+  "metadata_caption": "spiderman freestyle until i say something gay",
+  "caption_priority": "low"
+}

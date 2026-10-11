@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_KwqeKTM9M_8",
+  "transcript": "Closest to the $100 wins it. Okay, okay. Playing it safe. I'm playing it safe. Not bad, not bad. Oh! Alright, round two. Let me see this thing. Thanks, boys. Crunch Lab Slime Preen Clap, now available at Walmart, Target, and Amazon.",
+  "acoustic_features": {
+    "mean_loudness": 1.1911,
+    "loudness_variability": 0.7149,
+    "mean_pitch": 32.6403,
+    "pitch_variability": 0.3496,
+    "spectral_flux": 0.8451,
+    "sound_level_db": -14.6934
+  },
+  "metadata_caption": "$100 Slime Challenge",
+  "caption_priority": "low"
+}

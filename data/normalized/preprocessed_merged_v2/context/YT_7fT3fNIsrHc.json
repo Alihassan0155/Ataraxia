@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_7fT3fNIsrHc",
+  "transcript": "Alright, we're on a mission to find the stolen Legos. Let's go! Come on! Where are the Legos? Now I'm gonna call the cops! Huh? Quick, somebody sue that guy! Hey! Run, Isaac! This is wrong!",
+  "acoustic_features": {
+    "mean_loudness": 1.5174,
+    "loudness_variability": 0.5647,
+    "mean_pitch": 37.1464,
+    "pitch_variability": 0.2691,
+    "spectral_flux": 0.9556,
+    "sound_level_db": -16.265
+  },
+  "metadata_caption": "trying to find the stolen Legos #bricksandminifigs #recklessben",
+  "caption_priority": "low"
+}

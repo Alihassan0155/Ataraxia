@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000756",
+  "transcript": "Lindsay, um, I'm a Jew for Jesus. And before I could stop myself, I said, Do you mean Christian? She got mad at me. And she goes, Lindsay, it doesn't make me any less Jewish than I believe in Jesus. I'm like, it kind of does. It's like the main thing. I may not be the comedian you want, but I am definitely the comedian you deserve. Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.1619,
+    "loudness_variability": 0.755,
+    "mean_pitch": 34.0482,
+    "pitch_variability": 0.2033,
+    "spectral_flux": 0.7937,
+    "sound_level_db": -16.4276
+  },
+  "metadata_caption": "Wiseguys Bad Reputation Comedy Video",
+  "caption_priority": "low"
+}

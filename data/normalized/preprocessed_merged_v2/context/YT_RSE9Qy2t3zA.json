@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_RSE9Qy2t3zA",
+  "transcript": "Oh, shit.",
+  "acoustic_features": {
+    "mean_loudness": 0.8524,
+    "loudness_variability": 0.8623,
+    "mean_pitch": 44.9273,
+    "pitch_variability": 0.1787,
+    "spectral_flux": 0.4889,
+    "sound_level_db": -18.4427
+  },
+  "metadata_caption": "Meet Tom, Dick & Harry | Simon's Cat Extra  #shortsfeed",
+  "caption_priority": "low"
+}

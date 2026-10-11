@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xVuCwwOhlpU",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 3.0511,
+    "loudness_variability": 0.3057,
+    "mean_pitch": 17.093,
+    "pitch_variability": 0.4749,
+    "spectral_flux": 2.6351,
+    "sound_level_db": -7.966
+  },
+  "metadata_caption": "Turn any knife into a survival tool—subscribe @pepperell.crafts for smart hacks! 🔪",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000545",
+  "transcript": "Check that out, I like that. Have a... ...extraordinary day. That's a funny little character, I like that. Alright, let's test this out. Hey, have you seen this little guy? Which guy? Holy sh**t. What? Have you seen this little character? Look at that. No! Shut the f**k up, I've seen the egg wave guy! Look at this little fella on it. Have you seen this? He's got sunglasses on. Stop! How do you keep getting it? It's over here! Ha ha ha ha ha ha! Huh. There's a little fella on this. Shut the f**k up! Hey look, check this out. Looks like a little egg with glasses on it. They put on there. Is it in German? No, it's got a little egg on it. It's got glasses on. What?! How do you keep getting this?! Remember that, uh, that little egg character?",
+  "acoustic_features": {
+    "mean_loudness": 0.6496,
+    "loudness_variability": 0.9516,
+    "mean_pitch": 35.8497,
+    "pitch_variability": 0.2668,
+    "spectral_flux": 0.2938,
+    "sound_level_db": -23.6091
+  },
+  "metadata_caption": "Funny Little Character",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qFPJpolkE2s",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.5649,
+    "loudness_variability": 0.4271,
+    "mean_pitch": 25.4002,
+    "pitch_variability": 0.3797,
+    "spectral_flux": 1.2895,
+    "sound_level_db": -12.5562
+  },
+  "metadata_caption": "Kick off football season with hotdog footballs 🌭🏈",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7489129585808919838",
+  "transcript": "It's all good just dance",
+  "acoustic_features": {
+    "mean_loudness": 3.2363,
+    "loudness_variability": 0.2974,
+    "mean_pitch": 33.0299,
+    "pitch_variability": 0.2136,
+    "spectral_flux": 2.5128,
+    "sound_level_db": -8.5564
+  },
+  "metadata_caption": "Shake that thing 👀 #AREA54 #dance ",
+  "caption_priority": "low"
+}

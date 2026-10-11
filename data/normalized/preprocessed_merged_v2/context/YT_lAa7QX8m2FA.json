@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_lAa7QX8m2FA",
+  "transcript": "Longest Frisbee wins! 3, 2, 1, throw! Whoa!",
+  "acoustic_features": {
+    "mean_loudness": 1.9581,
+    "loudness_variability": 0.5871,
+    "mean_pitch": 41.6222,
+    "pitch_variability": 0.22,
+    "spectral_flux": 1.219,
+    "sound_level_db": -11.3165
+  },
+  "metadata_caption": "Longest Frisbee Throw Ever?",
+  "caption_priority": "low"
+}

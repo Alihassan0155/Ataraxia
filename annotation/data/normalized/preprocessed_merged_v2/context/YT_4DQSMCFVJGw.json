@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_4DQSMCFVJGw",
+  "transcript": "Have you ever wondered what happens when you disable all three safety measures of a SodaStream? As it happens I have. I've also never thought to actually do it. I think my water's too fizzy.",
+  "acoustic_features": {
+    "mean_loudness": 0.5523,
+    "loudness_variability": 0.5805,
+    "mean_pitch": 24.745,
+    "pitch_variability": 0.3494,
+    "spectral_flux": 0.6139,
+    "sound_level_db": -18.6493
+  },
+  "metadata_caption": "Too much soda in your stream #shorts #slowmo #sodastream",
+  "caption_priority": "low"
+}

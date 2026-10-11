@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_oNumgVxJifI",
+  "transcript": "🎵",
+  "acoustic_features": {
+    "mean_loudness": 2.5443,
+    "loudness_variability": 0.2332,
+    "mean_pitch": 36.5565,
+    "pitch_variability": 0.3511,
+    "spectral_flux": 1.7592,
+    "sound_level_db": -11.7778
+  },
+  "metadata_caption": "Help Me Find My Match! 🙏",
+  "caption_priority": "low"
+}

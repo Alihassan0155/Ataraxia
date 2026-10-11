@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_QWO0Y38yzUQ",
+  "transcript": "Survival smash! Three, two, one!",
+  "acoustic_features": {
+    "mean_loudness": 0.9579,
+    "loudness_variability": 1.0185,
+    "mean_pitch": 37.7988,
+    "pitch_variability": 0.255,
+    "spectral_flux": 0.5653,
+    "sound_level_db": -17.0607
+  },
+  "metadata_caption": "WATERMELON VS POOL",
+  "caption_priority": "low"
+}

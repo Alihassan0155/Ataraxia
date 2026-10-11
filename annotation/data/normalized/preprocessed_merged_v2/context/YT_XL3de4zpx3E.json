@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_XL3de4zpx3E",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6241,
+    "loudness_variability": 1.3997,
+    "mean_pitch": 55.4025,
+    "pitch_variability": 0.0044,
+    "spectral_flux": 0.2421,
+    "sound_level_db": -24.2507
+  },
+  "metadata_caption": "Flavorful Shredded Chicken Empanadas",
+  "caption_priority": "low"
+}

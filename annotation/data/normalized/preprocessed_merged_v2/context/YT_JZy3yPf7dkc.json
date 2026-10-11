@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_JZy3yPf7dkc",
+  "transcript": "You think you could make a steak sandwich but low carb? Low carb?",
+  "acoustic_features": {
+    "mean_loudness": 0.6259,
+    "loudness_variability": 0.7831,
+    "mean_pitch": 36.3818,
+    "pitch_variability": 0.3772,
+    "spectral_flux": 0.4327,
+    "sound_level_db": -20.2952
+  },
+  "metadata_caption": "Steak Sandwich w/@tomsegura",
+  "caption_priority": "low"
+}

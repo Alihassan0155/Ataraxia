@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_VIJLIo5yT1I",
+  "transcript": "Don't eat the spicy egg. I'm going to guess this isn't spicy. OK, I passed. I passed. Why are you looking at me? I don't know the answer. Mm, we're good. Oh, jeez. OK, well. Whoa, whoa, whoa. Can I take that one? Oh, you're good. This one. Oh, that was a big bite. That's good. These are Yoshi eggs that we made in collaboration with the new Super Mario Galaxy movie. This one doesn't look spicy. Are you sure? OK. OK. We're good, we're good. Just fully commit. What? There's a one in three? Oh no. Commit, commit. Yeah. What the heck? 50-50 chance. Before I bite it, if you want to try these Yoshi eggs for yourself, they're available at these retailers. Oh my god. Yes! Welcome back. Oh my god. Yes! My home bar. Hahaha.",
+  "acoustic_features": {
+    "mean_loudness": 0.8685,
+    "loudness_variability": 0.7076,
+    "mean_pitch": 33.9534,
+    "pitch_variability": 0.2351,
+    "spectral_flux": 0.451,
+    "sound_level_db": -20.0553
+  },
+  "metadata_caption": "Don’t Eat The Spicy Yoshi Egg",
+  "caption_priority": "low"
+}

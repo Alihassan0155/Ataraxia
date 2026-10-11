@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_6W_841xoprg",
+  "transcript": "Wrecking ball! Let's try wood. Drop it. Oh, that was awesome. Know what's more durable than wood? Bricks. Drop it. One, two, three, four. All of them. Subscribe if you think the next one will stop it. Drop it. Oh, right away wrecking ball.",
+  "acoustic_features": {
+    "mean_loudness": 1.8436,
+    "loudness_variability": 0.5395,
+    "mean_pitch": 42.3341,
+    "pitch_variability": 0.1574,
+    "spectral_flux": 1.2498,
+    "sound_level_db": -12.9734
+  },
+  "metadata_caption": "Can a Window Stop a Wrecking Ball?",
+  "caption_priority": "low"
+}

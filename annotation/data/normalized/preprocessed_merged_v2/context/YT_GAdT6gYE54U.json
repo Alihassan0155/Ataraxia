@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_GAdT6gYE54U",
+  "transcript": "It's a genius idea, just not great execution. So you know how the microphones on earbuds usually sound terrible? Well, Nothing had the brilliant idea in their Ear 3 Buds to build a microphone and a talk button into the case. So if I'm ever on a phone call or recording a video, this is what the audio from the Nothing Ear Buds 3 will sound like. But if I hold down that talk button and hold this about half a foot from my face, this is now what the case microphone sounds like. It's called the suit. mic. It sounds a little better. It's got that classic like hold mic up to your face look. I just wish it sounded much better. I hope someone copies this. It makes it really good.",
+  "acoustic_features": {
+    "mean_loudness": 0.6419,
+    "loudness_variability": 0.8456,
+    "mean_pitch": 28.4829,
+    "pitch_variability": 0.238,
+    "spectral_flux": 0.2835,
+    "sound_level_db": -22.9145
+  },
+  "metadata_caption": "Genius idea... Bad execution",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_t8TDozkPM0w",
+  "transcript": "Hmm?",
+  "acoustic_features": {
+    "mean_loudness": 0.2101,
+    "loudness_variability": 1.2781,
+    "mean_pitch": 34.4622,
+    "pitch_variability": 0.2821,
+    "spectral_flux": 0.1336,
+    "sound_level_db": -30.1564
+  },
+  "metadata_caption": "What time is it? CRAZY TIME!  #simonscat",
+  "caption_priority": "low"
+}

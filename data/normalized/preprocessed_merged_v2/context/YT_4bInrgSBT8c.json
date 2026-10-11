@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_4bInrgSBT8c",
+  "transcript": "Customer announcement! 5-Minute Crafts Kits are now in stock! Get your own kit from your local Walmart store or order it online!",
+  "acoustic_features": {
+    "mean_loudness": 1.4091,
+    "loudness_variability": 0.6277,
+    "mean_pitch": 38.3239,
+    "pitch_variability": 0.3271,
+    "spectral_flux": 0.8265,
+    "sound_level_db": -15.2894
+  },
+  "metadata_caption": "Urgent News at Walmart! 🚨 Crafting Starts in 3,2,1 #shorts",
+  "caption_priority": "low"
+}

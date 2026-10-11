@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_7134LjBur_s",
+  "transcript": "This is something called Danetonium Benzoate, and it's supposed to be the most bitter chemical that's known. For a while though, I've been really wanting to try it, and to see how bad it actually is. So, I'm just going to take a very small amount of it, about 25 milligrams, and drop it into some water. I'll stir it around a bit until it eventually all dissolves, and now, I guess it's time to taste it. Oh my god. It's really bitter. It's like, it's like nauseating. I kind of, I kind of don't feel good.",
+  "acoustic_features": {
+    "mean_loudness": 0.4072,
+    "loudness_variability": 1.3313,
+    "mean_pitch": 29.8401,
+    "pitch_variability": 0.3027,
+    "spectral_flux": 0.214,
+    "sound_level_db": -23.7708
+  },
+  "metadata_caption": "This is the most bitter chemical known to man",
+  "caption_priority": "low"
+}

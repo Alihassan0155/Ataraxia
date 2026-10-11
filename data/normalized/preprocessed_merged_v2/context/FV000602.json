@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000602",
+  "transcript": "Come over here really quick. So I just bought this Kryptonite coil lock a couple weeks ago. I've only used it a handful of times. We go into the grocery store, we come out and it's jammed. Like the combo doesn't work. I don't know what happened. Screw you Kryptonite. Now I'm stuck. So I call my good friend Jenny and she brings me a cordless angle grinder. I promise I'm not stealing this bike. This is how you do it. If you want to know how to steal a bike. Just like that. That's how easy it is to steal a bike. So get better locks. Yeah, make sure to have a better lock than what I use. Easy you lock.",
+  "acoustic_features": {
+    "mean_loudness": 0.8445,
+    "loudness_variability": 0.6576,
+    "mean_pitch": 31.0542,
+    "pitch_variability": 0.2442,
+    "spectral_flux": 0.3117,
+    "sound_level_db": -22.9576
+  },
+  "metadata_caption": "Cutting a Kryptonite Bike Lock in 5 Seconds",
+  "caption_priority": "low"
+}

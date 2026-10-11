@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000206",
+  "transcript": "What I want you to do now is one last drill. We're going to do this as a little 30 second drill. But I want you guys to go from 90 seconds to 2 minutes to 3 minutes. And this is a forward roll. You see what happens is instead of it being so choppy when you throw, there's a fluidity like Sugar Ray Linn at you. And what happens is that transfers onto the bag, onto the mitt, onto the power shield, onto your opponent.",
+  "acoustic_features": {
+    "mean_loudness": 0.469,
+    "loudness_variability": 0.7692,
+    "mean_pitch": 29.2436,
+    "pitch_variability": 0.1538,
+    "spectral_flux": 0.2361,
+    "sound_level_db": -24.6365
+  },
+  "metadata_caption": "Sugar Ray Leonard Flurry Drill | Heavy Bag | Boxing Tutorial",
+  "caption_priority": "low"
+}

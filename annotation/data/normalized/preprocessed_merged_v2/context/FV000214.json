@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000214",
+  "transcript": "I read about the character that Ryan... Ryan? It's Ryan. Ryan. Came to play and I said... And with great enthusiasm I called up the producers and I said, This is great, I can't wait to give blah, blah, blah. And what a great part. Why don't we see if we can get... Ryan. Ryan Gosling. And they said... Oh, I don't know how to... Did you say Gosling? Gosling. Ryan... Yes, you guys got that on tape. Ryan Gosling. Ryan Gosling. And I said, this is a great part for Ryan Gosling.",
+  "acoustic_features": {
+    "mean_loudness": 0.923,
+    "loudness_variability": 0.5959,
+    "mean_pitch": 27.211,
+    "pitch_variability": 0.1888,
+    "spectral_flux": 0.3297,
+    "sound_level_db": -24.7229
+  },
+  "metadata_caption": "Did Harrison Ford Forgot Ryan Gosling Name On The Air?",
+  "caption_priority": "low"
+}

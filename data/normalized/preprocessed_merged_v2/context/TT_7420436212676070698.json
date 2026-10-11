@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7420436212676070698",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.4733,
+    "loudness_variability": 0.2375,
+    "mean_pitch": 15.9674,
+    "pitch_variability": 0.353,
+    "spectral_flux": 1.3841,
+    "sound_level_db": -13.4762
+  },
+  "metadata_caption": "#halloween #spirithalloween ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000013",
+  "transcript": "Are running blades actually an advantage? Are amputees just dirty dirty cheaters? Science and me say no. According to a study from earlier this year it's actually 40% slower for amputees to get off of running blocks. It takes us 19% longer to reach aerobic capacity and we are 1 to 3% slower around curves. Here's the other thing just from personal experience I think people think that prosthetic limbs are maybe a lot more advanced than they actually are. Don't get me wrong incredible advancements have been made but we cannot replicate actual biological human leg movement perfectly or even that close to it. Using a running blade you can get pretty gosh darn fast but at least currently it is a substantial disadvantage. Now is it entirely possible that in some military testing facility we have prosthetic legs that are faster than human ones? Probably. Will I ever see one of those? Doubtful.",
+  "acoustic_features": {
+    "mean_loudness": 0.632,
+    "loudness_variability": 0.7168,
+    "mean_pitch": 36.3874,
+    "pitch_variability": 0.1327,
+    "spectral_flux": 0.3402,
+    "sound_level_db": -21.5767
+  },
+  "metadata_caption": "Are prosthetic running blades an ADVANTAGE?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,10 @@
+first_model,second_model,metric,signed_difference_first_minus_second,bootstrap_2p5_percentile,bootstrap_97p5_percentile,interpretation
+Qwen,InternVL,scalar_alignment,-0.0009900556849179356,-0.007211947636493533,0.005604471792708036,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Qwen,InternVL,emotion_tv,0.008599867058614536,-0.05451924125207872,0.07160331552985073,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Qwen,InternVL,scalar_plus_tv_composite,0.0014074250009651762,-0.01655660127445354,0.020531117420981886,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,Qwen,scalar_alignment,-0.014381312797314392,-0.023281985319357854,-0.005357593977157673,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,Qwen,emotion_tv,-0.1187358848632987,-0.17866299006360317,-0.06621942478389489,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,Qwen,scalar_plus_tv_composite,-0.04046995581381047,-0.05880094507681903,-0.022854640232427895,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,InternVL,scalar_alignment,-0.01537136848223233,-0.024707372549757068,-0.005781806207966954,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,InternVL,emotion_tv,-0.11013601780468417,-0.15595941357428234,-0.06601927288063036,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty
+Gemini,InternVL,scalar_plus_tv_composite,-0.03906253081284529,-0.054348197854371526,-0.02439232985536838,Fixed-OOF descriptive paired stratified bootstrap; excludes refitting/model-selection uncertainty

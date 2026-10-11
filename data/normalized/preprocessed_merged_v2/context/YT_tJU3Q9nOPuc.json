@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_tJU3Q9nOPuc",
+  "transcript": "In over 140 countries around the world, students are discovering, developing, and sharing their ideas with each other and with the world. They're asking big questions, learning to give and receive meaningful feedback, and creating their very own TED-style talks. When they're done, they'll be able to record their talks, share their messages, and their voices with their peers, their community, and maybe even from a TED stage. During their time together, students develop skills in discussion, critical thinking and listening, they learn to support their ideas through research, and above all, they gain confidence in their presentation skills. And with each shared idea, they join a curious, passionate community that stretches across the globe, ready and eager to embrace them. Imagine a world where every student has the opportunity to share their best ideas, and where those ideas are heard on a local and global level. Join us.",
+  "acoustic_features": {
+    "mean_loudness": 0.9447,
+    "loudness_variability": 0.588,
+    "mean_pitch": 30.6247,
+    "pitch_variability": 0.2186,
+    "spectral_flux": 0.4699,
+    "sound_level_db": -19.216
+  },
+  "metadata_caption": "Do your students have big ideas? #shorts",
+  "caption_priority": "low"
+}

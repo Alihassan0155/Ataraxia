@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_uJdjKOBikTE",
+  "transcript": "So it shows here, and if I open it, it also shows, right? Yes.",
+  "acoustic_features": {
+    "mean_loudness": 0.2847,
+    "loudness_variability": 0.5124,
+    "mean_pitch": 16.8741,
+    "pitch_variability": 0.2242,
+    "spectral_flux": 0.2244,
+    "sound_level_db": -29.1803
+  },
+  "metadata_caption": "This iPhone Duo Animation 👀",
+  "caption_priority": "low"
+}

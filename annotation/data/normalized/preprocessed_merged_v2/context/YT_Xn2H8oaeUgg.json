@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Xn2H8oaeUgg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.1454,
+    "loudness_variability": 0.3921,
+    "mean_pitch": 32.7833,
+    "pitch_variability": 0.3123,
+    "spectral_flux": 0.0272,
+    "sound_level_db": -41.1186
+  },
+  "metadata_caption": "Become a patron of TED-Ed! #shorts",
+  "caption_priority": "low"
+}

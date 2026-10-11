@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xqr1S9G7pwM",
+  "transcript": "Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! Hup! What? Really?",
+  "acoustic_features": {
+    "mean_loudness": 0.65,
+    "loudness_variability": 0.9988,
+    "mean_pitch": 36.0154,
+    "pitch_variability": 0.2333,
+    "spectral_flux": 0.3857,
+    "sound_level_db": -20.0846
+  },
+  "metadata_caption": "Little Angel | Simon's Cat Extra",
+  "caption_priority": "low"
+}

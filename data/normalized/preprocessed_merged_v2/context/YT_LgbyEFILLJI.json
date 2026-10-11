@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_LgbyEFILLJI",
+  "transcript": "$1 versus $10 food. Can Chandler tell the difference? Of course I can. We're gonna start off with this one. Open up. Let's see if he can tell. It melted like butter in my mouth. All right, now try this one. Oh, that's $1. Right, it's so hard to chew. You are correct. Ooh. Describe it. Chandler, don't spit it out. What is that? That's not pizza. This is gross. Wait, really? What is this? It's like, all right, the first one was the expensive. Yeah. Second one was terrible. One in your hands is holding a $10,000 cake. The other, a dollar cake. It's not bad. Oh, yeah. I mean, I want to say this is a dollar. That was part of the $10,000 cake. This is just better.",
+  "acoustic_features": {
+    "mean_loudness": 1.0837,
+    "loudness_variability": 0.6593,
+    "mean_pitch": 30.3471,
+    "pitch_variability": 0.2861,
+    "spectral_flux": 0.6493,
+    "sound_level_db": -16.8742
+  },
+  "metadata_caption": "$1 vs $10,000 Cake",
+  "caption_priority": "low"
+}

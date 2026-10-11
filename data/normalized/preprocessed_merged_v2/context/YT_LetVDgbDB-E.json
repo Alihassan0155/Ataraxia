@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_LetVDgbDB-E",
+  "transcript": "This kid speaks five languages fluently. You speak Polish? Yeah, I speak Polish. How are you? I'm good. But can't afford to buy food. His name is Cristiano. He's 11 years old and he learned all these languages from tourists. English, Italian, French, Polish. Malagasy. He gave me a present. Thank you. So what happens if you don't sell today? We don't have eating. You don't eat? Yeah. His mom left and about 10 people sleep in his house that floods every time it rains. And this is their shared bathroom, where every drop of water has to be pulled from a nearby well. This kid works at the beach every morning and still shows up to school to fulfill his dream of becoming a pilot.",
+  "acoustic_features": {
+    "mean_loudness": 1.3509,
+    "loudness_variability": 0.6262,
+    "mean_pitch": 30.0032,
+    "pitch_variability": 0.3023,
+    "spectral_flux": 0.8109,
+    "sound_level_db": -14.1644
+  },
+  "metadata_caption": "He Speaks 5 Languages But Can't Afford Food",
+  "caption_priority": "low"
+}

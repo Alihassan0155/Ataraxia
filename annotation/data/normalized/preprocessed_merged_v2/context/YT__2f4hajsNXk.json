@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__2f4hajsNXk",
+  "transcript": "Thank you.",
+  "acoustic_features": {
+    "mean_loudness": 1.1116,
+    "loudness_variability": 0.581,
+    "mean_pitch": 45.2057,
+    "pitch_variability": 0.2819,
+    "spectral_flux": 0.7346,
+    "sound_level_db": -15.9488
+  },
+  "metadata_caption": "DIY Aloe Vera Beauty hacks for your routine 🌿🌱🍃",
+  "caption_priority": "low"
+}

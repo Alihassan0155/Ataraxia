@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_yj1sA_AiQl4",
+  "transcript": "Next we did",
+  "acoustic_features": {
+    "mean_loudness": 0.1409,
+    "loudness_variability": 0.64,
+    "mean_pitch": 33.7439,
+    "pitch_variability": 0.6022,
+    "spectral_flux": 0.0496,
+    "sound_level_db": -43.1832
+  },
+  "metadata_caption": "ASMR - Sensory Objects you Chew?",
+  "caption_priority": "low"
+}

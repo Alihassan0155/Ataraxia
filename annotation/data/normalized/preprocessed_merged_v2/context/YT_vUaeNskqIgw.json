@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vUaeNskqIgw",
+  "transcript": "I have a couple of like sensory  I'll start it.",
+  "acoustic_features": {
+    "mean_loudness": 0.1741,
+    "loudness_variability": 0.5427,
+    "mean_pitch": 39.4731,
+    "pitch_variability": 0.3944,
+    "spectral_flux": 0.0517,
+    "sound_level_db": -42.5118
+  },
+  "metadata_caption": "ASMR - 3 Satisfying Sensory Discs",
+  "caption_priority": "low"
+}

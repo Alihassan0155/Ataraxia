@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000941",
+  "transcript": "Blood flow restriction is a fast-growing therapy to accelerate performance and recovery. A cuff calibrated by technology, safely applying pressure to the arm or leg, reduces the ability of blood to be pumped back to the heart from that limb. It increases muscle oxygen demand, causing the muscles to work harder to produce a contraction. BFR stresses the muscle at weights where it normally would not be stimulated, so most people can increase muscle strength using much less weights than usual or no weights at all. When administered by certified skilled providers, BFR can help post-surgical patients, return strength to the elderly, assist athletes, potentially reduce the need for knee surgery, and much more. BFR is easy to use, hard to misuse, better for results, and above all, safe. Accelerate your patient's performance and recovery with the proven therapy of blood flow restriction.",
+  "acoustic_features": {
+    "mean_loudness": 0.4095,
+    "loudness_variability": 0.5033,
+    "mean_pitch": 29.8461,
+    "pitch_variability": 0.2537,
+    "spectral_flux": 0.1855,
+    "sound_level_db": -27.8289
+  },
+  "metadata_caption": "What is BFR (Blood Flow Restriction) Training?",
+  "caption_priority": "low"
+}

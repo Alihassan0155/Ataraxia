@@ -1,0 +1,14 @@
+﻿{
+    "video_ids":  [
+                      "FV000662",
+                      "FV000012"
+                  ],
+    "fps":  1,
+    "max_new_tokens":  1200,
+    "batch_size":  1,
+    "temperature":  0,
+    "preflight_only":  true,
+    "qwen_exit":  0,
+    "internvl_exit":  0,
+    "passed":  true
+}

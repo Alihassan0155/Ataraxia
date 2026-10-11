@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_B1-A0fP_q5I",
+  "transcript": "Jace Two Cents made a really funny video recently where he used a leaf blower to blow air through a PC fan and it pretty much exploded in his hands. And I thought, we definitely gotta slow-mo that.",
+  "acoustic_features": {
+    "mean_loudness": 0.8029,
+    "loudness_variability": 0.6524,
+    "mean_pitch": 28.4785,
+    "pitch_variability": 0.361,
+    "spectral_flux": 1.076,
+    "sound_level_db": -12.6855
+  },
+  "metadata_caption": "How fast can a PC fan spin?",
+  "caption_priority": "low"
+}

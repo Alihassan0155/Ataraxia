@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_bd9oV1qmEe8",
+  "transcript": "Meow! Huh?",
+  "acoustic_features": {
+    "mean_loudness": 1.0029,
+    "loudness_variability": 0.8565,
+    "mean_pitch": 43.4919,
+    "pitch_variability": 0.2549,
+    "spectral_flux": 0.4473,
+    "sound_level_db": -21.8672
+  },
+  "metadata_caption": "It's a.... Monster!",
+  "caption_priority": "low"
+}

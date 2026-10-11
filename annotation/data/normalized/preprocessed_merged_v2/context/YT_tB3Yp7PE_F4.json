@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_tB3Yp7PE_F4",
+  "transcript": "A man wearing a blue jacket, white pants, and carrying a green parachute backpack stands on a platform at the edge of a cliff, specially designed for base jumping. In just seconds, he leaps off, diving downward and soaring through the air like a bird. Below the cliff lies a breathtaking view. Shortly after gliding through the sky, his parachute unfolds beautifully. Never attempt this without proper training.",
+  "acoustic_features": {
+    "mean_loudness": 0.6237,
+    "loudness_variability": 0.8455,
+    "mean_pitch": 24.0297,
+    "pitch_variability": 0.1665,
+    "spectral_flux": 0.3182,
+    "sound_level_db": -20.9331
+  },
+  "metadata_caption": "A man wearing a blue jacket, white pants, and carrying a green parachute backpack stands on a platform at the edge of a cliff, specially designed for base jumping. In just seconds, he leaps off, diving downward and soaring through the air like a bird. Below the cliff lies a breathtaking view. Shortly after gliding through the sky, his parachute unfolds beautifully. Never attempt this without proper training.",
+  "caption_priority": "low"
+}

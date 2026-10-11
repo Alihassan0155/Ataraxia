@@ -1,0 +1,2 @@
+# Install the package and declared lightweight API/calibration dependencies.
+-e .

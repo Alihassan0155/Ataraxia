@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000154",
+  "transcript": "Hi about Fruity. We are the Peace Tree Rascals. We'll be joining the Fruity World Festival on August 22 at 7 p.m. We're doing live performance, interviews, Q&A, and me and greet with the fans in Indonesia. So check out the Fruity Social YouTube channel and we'll see you guys then. We're here to have a good time. Nothing more, nothing less. Let's get this show on the road.",
+  "acoustic_features": {
+    "mean_loudness": 1.3747,
+    "loudness_variability": 0.5469,
+    "mean_pitch": 31.4639,
+    "pitch_variability": 0.0866,
+    "spectral_flux": 0.775,
+    "sound_level_db": -15.7373
+  },
+  "metadata_caption": "Teaser Peach Tree Rascals",
+  "caption_priority": "low"
+}

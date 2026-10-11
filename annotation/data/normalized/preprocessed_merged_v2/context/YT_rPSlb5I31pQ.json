@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_rPSlb5I31pQ",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.7066,
+    "loudness_variability": 0.4237,
+    "mean_pitch": 39.5072,
+    "pitch_variability": 0.293,
+    "spectral_flux": 0.9636,
+    "sound_level_db": -15.2945
+  },
+  "metadata_caption": "the end ❤️",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7352264890452675883",
+  "transcript": "I love emotion",
+  "acoustic_features": {
+    "mean_loudness": 3.2659,
+    "loudness_variability": 0.2573,
+    "mean_pitch": 31.2102,
+    "pitch_variability": 0.4028,
+    "spectral_flux": 2.8287,
+    "sound_level_db": -5.2248
+  },
+  "metadata_caption": "",
+  "caption_priority": "low"
+}

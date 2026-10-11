@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_IEJALLQFmDs",
+  "transcript": "Some of the air in your lungs right now was also in the lungs of every single T-Rex that ever lived. And that's because every single breath you take contains about 10 sextillion air molecules. And since molecules are made of atoms, and atoms can never be created or destroyed, we're literally just recycling all the same stuff that's been here since the beginning of the universe. So that means when I breathe, after just a year or two, the molecules from that breath will be evenly mixed across the whole planet. So every time you breathe, You're getting a little bit of T-Rex breath, a little Taylor Swift breath, even some from me. I should probably brush.",
+  "acoustic_features": {
+    "mean_loudness": 1.061,
+    "loudness_variability": 0.5978,
+    "mean_pitch": 32.6322,
+    "pitch_variability": 0.2742,
+    "spectral_flux": 0.7331,
+    "sound_level_db": -17.094
+  },
+  "metadata_caption": "You’re Breathing Dinosaur Breath!",
+  "caption_priority": "low"
+}

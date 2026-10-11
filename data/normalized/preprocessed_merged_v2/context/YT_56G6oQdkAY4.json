@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_56G6oQdkAY4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.8242,
+    "loudness_variability": 0.5829,
+    "mean_pitch": 21.8292,
+    "pitch_variability": 0.3008,
+    "spectral_flux": 0.5172,
+    "sound_level_db": -21.1302
+  },
+  "metadata_caption": "Create crazy balloon shapes with ease! 🎈",
+  "caption_priority": "low"
+}

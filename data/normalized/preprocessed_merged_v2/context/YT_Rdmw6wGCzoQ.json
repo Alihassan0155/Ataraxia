@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Rdmw6wGCzoQ",
+  "transcript": "Our eyeballs have an infrared filter over the lens which means we can't see infrared light. This Phantom doesn't have one of those so why don't we look at the Apple Vision Pro in infrared slow motion. The front of the headset is loaded with cameras and in between are infrared illuminators. Slowed down even more you can see a flash from the TrueDepth camera as well as the LiDAR scanner above the nose. You can see that after removing the light shield and the little magnetic shroud that there are loads of infrared illuminators to project patterns all over your eye. you for accurate eye tracking. I've shoved my fist into the headset to mimic it being on my face. Both screens turn on and off simultaneously, and during the off cycle, the infrared illuminators around your eye turn on. The screens draw each frame from top to bottom just like a TV, but unlike a TV, the image isn't held. There's a black frame drawn between each frame of video, which on an OLED is essentially turning it off. There's plenty of other technology in our lives throwing out invisible light. Let me know if you'd like to see a full video.",
+  "acoustic_features": {
+    "mean_loudness": 0.9277,
+    "loudness_variability": 0.5398,
+    "mean_pitch": 25.6803,
+    "pitch_variability": 0.1784,
+    "spectral_flux": 0.4991,
+    "sound_level_db": -19.7625
+  },
+  "metadata_caption": "Invisible beams shooting from Apple Vision Pro #slowmo #shorts #apple #applevisionpro",
+  "caption_priority": "low"
+}

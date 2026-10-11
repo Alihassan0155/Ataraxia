@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_JTPui4iRFTo",
+  "transcript": "This woman hasn't used a bathroom in 16 years and I had to ask why. Her name is Muluwur. She's 26. She lives in rural Ethiopia. And she hasn't eaten or drunk anything since she was 10. So I asked the obvious question. If you don't eat and you don't drink, do you ever use the bathroom? Her answer? Which actually makes sense. No food in, nothing comes out. But how is that even possible? Doctors in Dubai tested her. They couldn't explain it either. Real or fake? What is your verdict?",
+  "acoustic_features": {
+    "mean_loudness": 1.3918,
+    "loudness_variability": 0.4636,
+    "mean_pitch": 28.8586,
+    "pitch_variability": 0.1532,
+    "spectral_flux": 0.9793,
+    "sound_level_db": -14.8972
+  },
+  "metadata_caption": "She Hasn’t Used A Bathroom For 16 Years",
+  "caption_priority": "low"
+}

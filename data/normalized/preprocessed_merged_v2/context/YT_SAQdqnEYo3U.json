@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_SAQdqnEYo3U",
+  "transcript": "Will it explode? 15 psi! 20 psi! 30 psi! 40 psi! 50 psi! Go away!",
+  "acoustic_features": {
+    "mean_loudness": 0.8075,
+    "loudness_variability": 1.1387,
+    "mean_pitch": 41.6049,
+    "pitch_variability": 0.1757,
+    "spectral_flux": 0.4387,
+    "sound_level_db": -16.1947
+  },
+  "metadata_caption": "🏀 Explosion Drop Test!",
+  "caption_priority": "low"
+}

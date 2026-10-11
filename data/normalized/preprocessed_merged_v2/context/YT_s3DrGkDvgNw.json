@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_s3DrGkDvgNw",
+  "transcript": "This should be interesting. Let's take this photo from every Google phone ever made. From Pixel 10 all the way back to T-Mobile G1, the first Android phone ever. Bye.",
+  "acoustic_features": {
+    "mean_loudness": 0.6836,
+    "loudness_variability": 0.5755,
+    "mean_pitch": 30.9927,
+    "pitch_variability": 0.2667,
+    "spectral_flux": 0.4292,
+    "sound_level_db": -19.4824
+  },
+  "metadata_caption": "Every Google Phone Ever. Same Picture!",
+  "caption_priority": "low"
+}

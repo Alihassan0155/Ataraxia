@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_U5qMutFgz8A",
+  "transcript": "A few weeks ago, I made some bubbles that I'd filled with hydrogen gas, and I thought it was pretty cool. Since then though, I've built up a bit of courage, and I think I'm ready to try with this. Like before, this balloon is still filled with mostly hydrogen, however this time, about one third of it is oxygen. This new mixture is actually explosive, and I'm just gonna shoot it into some soapy water. Eventually, I'm left with a nice pile of scary bubbles, and I can very carefully scoop them out. Now, with some good hearing protection on, so I don't destroy my ears, I guess I can just try lighting them on fire. HOLD!",
+  "acoustic_features": {
+    "mean_loudness": 0.5625,
+    "loudness_variability": 1.1953,
+    "mean_pitch": 30.7614,
+    "pitch_variability": 0.2097,
+    "spectral_flux": 0.343,
+    "sound_level_db": -20.8649
+  },
+  "metadata_caption": "Making explosive hydrogen and oxygen bubbles",
+  "caption_priority": "low"
+}

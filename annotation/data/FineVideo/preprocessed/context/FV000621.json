@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000621",
+  "transcript": "Hey. Hey. What's wrong? I think I have alien hand syndrome. What's alien hand syndrome? That's where you lose conscious control of your hand and starts acting like it's got a mind of its own. Oh, like Dr. Strangelove. Yeah, exactly like Dr. Strangelove. I don't have any... How long has this been going on? Have you seen a doctor? No. Why the hell not? It's doing the best work of my life. The weird thing is, all the stories it writes are about you. I don't know. I don't know. You boxed my ear. It's ringing. Oh, no. You boxed my ear. It's ringing.",
+  "acoustic_features": {
+    "mean_loudness": 0.9613,
+    "loudness_variability": 0.8189,
+    "mean_pitch": 33.5031,
+    "pitch_variability": 0.2191,
+    "spectral_flux": 0.5533,
+    "sound_level_db": -18.96
+  },
+  "metadata_caption": "Alien Hand Syndrome",
+  "caption_priority": "low"
+}

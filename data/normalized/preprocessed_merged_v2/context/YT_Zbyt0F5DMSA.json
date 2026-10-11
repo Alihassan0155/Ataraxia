@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Zbyt0F5DMSA",
+  "transcript": "What a beautiful day we've got. The sun is shining, blue skies out there. Want to get out and enjoy it, right? Well, the weather is beautiful, but it can turn dark pretty quickly. So we want to show you some spots you may want to head to when the weather turns severe. Walk with me. Well, you may not be in the home, but maybe you're in the office. Well, you still want to be on the lowest floor of a sturdy structure. In this case, I'm going to stairwell on the lowest floor, and I'm going to get underneath the stairwell. This is a really a great place to be. You stay here until everything is. Whenever that device of your choice goes off, giving you that warning, whether that's a NOAA Weather Radio or maybe a text message alert, that's the time to get into that interior room. And what do we mean by interior room? Well, a closet. That's a great place to be. Or even in this case, a bathroom. Get into the bathroom, duck down, crouch down, and get away from any windows that may be surrounding you. Those are great places you want to be. When that bad weather threatens, make sure you keep it locked here on the Weather Channel. We'll have your back, keeping you covered.",
+  "acoustic_features": {
+    "mean_loudness": 0.8332,
+    "loudness_variability": 0.5109,
+    "mean_pitch": 34.2084,
+    "pitch_variability": 0.223,
+    "spectral_flux": 0.4692,
+    "sound_level_db": -20.3304
+  },
+  "metadata_caption": "Meteorologist Alex Wallace gives advice on how to find a safe place to shelter from a storm",
+  "caption_priority": "low"
+}

@@ -1,0 +1,542 @@
+{
+  "selected_models": {
+    "InternVL": {
+      "checkpoint": "OpenGVLab/InternVL3_5-8B-HF",
+      "checkpoint_revision": null,
+      "quantization": "NF4",
+      "quantization_skip_modules": [
+        "vision_tower",
+        "multi_modal_projector"
+      ],
+      "prompt_version": "v1.1-points10",
+      "prompt_sha256": "3931878742c1649c219393cb2e709f7942c12de6d18eee10d1b85f6f61895693",
+      "frame_sampling": "uniform full-clip, target 1 FPS with cap",
+      "fps": 1.0,
+      "max_frames": 16,
+      "max_pixels": null,
+      "video_size": {
+        "height": 448,
+        "width": 448
+      },
+      "vision_microbatch": 1,
+      "evidence_usage": {
+        "raw_video": true,
+        "raw_audio": false,
+        "whisper_transcript": true,
+        "acoustic_features": true,
+        "metadata_caption": true
+      },
+      "generation": {
+        "do_sample": false,
+        "temperature": 0,
+        "max_new_tokens": 1200,
+        "batch_size": 1
+      },
+      "calibration": {
+        "valence": {
+          "method": "linear",
+          "full_pilot_fit_parameters": {
+            "method": "linear",
+            "slope": 0.2486728422742979,
+            "intercept": 0.09686051924645635
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "linear",
+            "linear",
+            "linear",
+            "linear"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.18093255102197509,
+          "outer_fold_wins": 5,
+          "stable_same_method_4_of_5": true,
+          "all_seed_method_counts": {
+            "linear": 20
+          }
+        },
+        "arousal": {
+          "method": "linear",
+          "full_pilot_fit_parameters": {
+            "method": "linear",
+            "slope": 0.23436570428696438,
+            "intercept": 0.30062642169728776
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "linear",
+            "linear",
+            "linear",
+            "linear"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.11307424362425751,
+          "outer_fold_wins": 5,
+          "stable_same_method_4_of_5": true,
+          "all_seed_method_counts": {
+            "linear": 20
+          }
+        },
+        "recovery_suitability": {
+          "method": "linear",
+          "full_pilot_fit_parameters": {
+            "method": "linear",
+            "slope": 0.21621909293142166,
+            "intercept": 0.40245234217836967
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "linear",
+            "linear",
+            "linear",
+            "linear"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.11455184942645595,
+          "outer_fold_wins": 5,
+          "stable_same_method_4_of_5": true,
+          "all_seed_method_counts": {
+            "linear": 20
+          }
+        },
+        "emotions": {
+          "method": "offset",
+          "full_pilot_fit_parameters": {
+            "method": "offset",
+            "offsets": [
+              -0.04361702127659574,
+              -0.03475177304964539,
+              -0.06382978723404256,
+              -0.03723404255319149,
+              -0.07234042553191491,
+              -0.018794326241134755,
+              0.04184397163120568,
+              0.22872340425531906
+            ],
+            "fallback_distribution": [
+              0.2702127659574468,
+              0.022695035460992906,
+              0.053191489361702135,
+              0.027659574468085115,
+              0.11702127659574472,
+              0.03758865248226951,
+              0.15035460992907804,
+              0.3212765957446808
+            ],
+            "slopes": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "inner_choices_outer_folds": [
+            "offset",
+            "offset",
+            "offset",
+            "offset",
+            "offset"
+          ],
+          "nested_oof_tv_gain": 0.08435325601654026,
+          "nested_oof_jsd_gain": 0.08447492508499521,
+          "outer_fold_wins": 5
+        }
+      },
+      "calibration_application": {
+        "scalar_bounds": {
+          "valence": [
+            -1,
+            1
+          ],
+          "arousal": [
+            0,
+            1
+          ],
+          "recovery_suitability": [
+            0,
+            1
+          ]
+        },
+        "isotonic_interpolation": "linear between knots, endpoint clamping outside trained x range",
+        "emotion_processing": "add offsets, clip each value to [0,1], renormalize; derive new dominant maximum set separately; retain raw scores"
+      },
+      "attention": "sdpa",
+      "double_quantization": true,
+      "compute_dtype": "bfloat16",
+      "max_device_gib": 15.8,
+      "cap_pixels_per_frame": null,
+      "total_pixels": null,
+      "media_sha256_by_video": {
+        "FV000001": "26d7922e0b06c619e95006a9e96e2c68087c3005b62c8f650c3b196a2a1df424",
+        "FV000004": "b4a1fe3f84b4b611befa1e4195864e1ccc6a05757a0fd0210e8c39ca7affde1e",
+        "FV000012": "ba7f93d85f0b5f4127960782f88d870a75413b4398b8619ee4465cb78d0f61c1",
+        "FV000013": "653e2f166439639c9355894999c6dd4d858458c4deab8b77646dbf4a48d576c6",
+        "FV000015": "bc830f378e5a0c2cb97adc45cc2ad024d36518c64e288b089f97e8e6b8ea0daf",
+        "FV000031": "6188ec840b5f3d38856a12b28296d6eba742c4dccc83378a5390b1635e562bff",
+        "FV000033": "78e2e423a39f1942f3438756c978564927ce4d4aec4f11512d5d725d1a353bd6",
+        "FV000073": "6cf772480d9cf31ac74ddf8ea28bb72ce1843a8164a6c1581263e883e9908dc6",
+        "FV000079": "f7c22d8d93b50ed91184cb51df00ef605e403e856d53d5508f5777cdbea7be8e",
+        "FV000081": "860484da58a8108617f85154eac6a913c6e72664c126bbbb05ac2a1c6b5bb228",
+        "FV000087": "5755869608f72a105f500a769ef6eb4789c5c8a92304d2c28eaccaad9259a727",
+        "FV000097": "614152e3c67cc1602f117542b3c3e8df0a009e81a7c87441595eb33cff06de46",
+        "FV000120": "93ef7e65ead351f780f9950de7c14048893f39532fb424dee183936f9cb48405",
+        "FV000133": "35cd9beab9a1babb9e441c7484542dc49a71cd50ff56ef5ec81d779029075a6e",
+        "FV000134": "cc5419d6233d5dd6114dc8b103ac26dda5628d37813f132aa17ce905b84ae7d9",
+        "FV000198": "737df05d98fb4f58b08dee60d1cdb36ec79bff38b05a9260f239423d5b3deccb",
+        "FV000241": "2e90f5b14ab14c647b20e85128ba40496534a857b9a42bb4c8ad8c738239e080",
+        "FV000254": "35753eabe4f99cef86a71257464c4ca0df345c7e9f9925a10b359e924d05912d",
+        "FV000275": "3d4be6b7c3df6e16f3b4238999de4dd0d6686a80accb937b8ddbae7ccd8bc18d",
+        "FV000304": "be0f38232623e72933e4143ba4f87e4c509a53ef71b6036e37573a98530fcff5",
+        "FV000308": "344f56f78a2ab1331a53ed2d2d977c58250aa6897ca039dd040b13273dc7d9d4",
+        "FV000320": "e258cdfddc0e6b7030aaae75d3df494a4156725183b1a7569e6517d79e523de2",
+        "FV000359": "0a0cc1228aca9d5b1f64ae365bd3ee45b73adf8ce39f75a048c4470d6b12c268",
+        "FV000366": "a5fae623361e095d0c47e0d109357fd9d319c6ea17951ad077caaa2202f91be5",
+        "FV000367": "c5a603c4b8c2ebce8d00c1c8cece245a69fb68cc5f95496c09557fb514e002ca",
+        "FV000380": "839127db07e8580ce0859859158e17547e1622be81b80bb40eb48a83a9c95347",
+        "FV000393": "24f5e95c03b6e245061a1061448f354447a27c6f497b4396a0182d797a096eb0",
+        "FV000472": "f5176bf658eb3421e87afe6e67df6a36bbc7ca83798ad782c6bd70e215ea38db",
+        "FV000537": "4afd33f5969fdd38cf747e24d358fcd715e163ff5c05eac934d57af96e42e92b",
+        "FV000544": "c1e52c9ed8377f661fa0bf9179a49000bee9842a1adc2f742ceaa5022c635702",
+        "FV000650": "253aa8ee6531f6cab82e859daa93d08bdc9bdac523789a377202b42dc8a82ac3",
+        "FV000662": "a434acfe2bcc1074675add9b364b4404766b5166b2376ff6dfba58a6e159fc67",
+        "FV000674": "106e26ae87713addb3505e640b516c17a513713645246032bda00d2e68230751",
+        "FV000744": "408c65598fd92796599f42f16d6ae99b3cc2161580e93d84127a0b4de11b6772",
+        "FV000770": "89882246af2e1c8a5f0a251408bee56f011014683d9020587bd74581ba78a128",
+        "FV000776": "c588ae94f63d454ccde6a7d1c56160befcad789c56077f3c831d643eb23b3d40",
+        "FV000811": "0b19db8cc479647861557d10a9fd986be3e9592fb18984412e476ddcfe8e1a53",
+        "FV000814": "8c99f3bfc4029a52b24a2b38871556e008fd7ac113eada32f1b13a5eb3d7ccec",
+        "FV000849": "388c08751d07613b1019aba191ae7635db730dcc74ec0038e841a96134765836",
+        "FV000895": "ac27c45dd3176003be48fd62bf25486e2df146ce8aed203c88081fdefcb6e1b1",
+        "FV000942": "de071665f2cea1a648633f29adc6f7f8aad3ed0770cdaf709a6db1591363ba29",
+        "FV000954": "137146165afcbb814572f7779794e37bb19356b75c4f37fc3a46d1f3d67c77a9",
+        "FV000978": "f49cdc94e978f2e665f769ced51ef0ec200126e473ce853e6da20a474f410804",
+        "FV000983": "628009f1a72b3c2350cd6756c990daac77467b2acb7ed0baf85b6ea084ec7cb3",
+        "FV000998": "4f4573b78e50dd5ab127826eba96910f122438b4966cd43ab84a4e93e8c344dd",
+        "FV001003": "9f7831ee400761508d43204373ccb86c7241b6a2e3e3759dab91aceaa5aaf413",
+        "FV001015": "a5823dfbe1da7b0e57a56c109433a35e83e5cd2f036bfae753325e1f293a2d7e"
+      },
+      "context_sha256_by_video": {
+        "FV000001": "e373c38f82cd6dd189d41045d54973a2b7a5e938892731bd19ebcfcd7017136d",
+        "FV000004": "e8654453680508b65f9929d5731d0a07a1bb6ccab0630752dd2c3f9ad34db4f1",
+        "FV000012": "fc19d58bdbdc09bfbcd894519269dfd1bb4e63a99e0ddb0e2b3250367d6b2c0c",
+        "FV000013": "76a768cf34e1b495003d58129de5a443545960a724fee67c1a146183458a4fd5",
+        "FV000015": "4fad153be765cab1b81a6d7797041340fe924ebd5cda6b5b49a9fea06018f050",
+        "FV000031": "02546a727b21ea341a685ad54e614d9f358dbfcf7d05d4c622fcdb18a30ad769",
+        "FV000033": "ef6098a6826b26f9a2f2571849720627cd509773c79dcf65cc0ca9a58c579970",
+        "FV000073": "892feebfcff546bc568da4ee30617f34ce03bc581ae9712217c21d40a7925b7f",
+        "FV000079": "27633496a737a30ff8e1ac299720194dae5396cbfd5bf41879945e580bb0ff03",
+        "FV000081": "a49fc2b7c72ce74d0b3a5623f2e1773df22cf3db49745e7c6299d2447ce90c64",
+        "FV000087": "681349af046cf31eaaaa0b96023b5263e403127c86116158ccde026cfaae0a8a",
+        "FV000097": "dd9be75bcd7e76a352a2ee59e86b38e05b9c15ebf6900136c21a6478ba19030e",
+        "FV000120": "049ba1ef3ff2fa98638627366a6250c733e4360f1d4208c5887c190033300de8",
+        "FV000133": "a1bb8ecebb5795b1888e097958c75878587ce4f0f2bf29506063ebce049e4d4d",
+        "FV000134": "9af9c249e4e380235ff1f68a881657beec7f009e3dca3c7bf5cee7fe1e689578",
+        "FV000198": "db2e1b395314fbfe873bdba01281ba59bc05d7b0d013b2489c023884235022c7",
+        "FV000241": "ecffc1d41fc44645825b566cafa88b809268d81acbb3869f92ac78078a790cb7",
+        "FV000254": "d45b43e0b8c0adeaaac56c2db11da0e74350f960e27592d654ad2d23cd270317",
+        "FV000275": "ad96fcc73df5d24f9b3a2a81b269a1a64aa6707b023b8c15bfd6a67bf35c806d",
+        "FV000304": "de16013d4fc9d3799f993b3a5f572a5c2ed10127a48cea6a8434b168a8a19ea5",
+        "FV000308": "eef7769d1c1aabf2fa06066093bf6b687a016a8338d23d31f2197dcba1efced6",
+        "FV000320": "42be40755f4567ee390a1f0604051c32aac97e9158bf3e50b8dc46526bfe85ff",
+        "FV000359": "0fc7d39babb391468ad7934d6005a9979e660b03a39f45ea6f75aeb20e926e60",
+        "FV000366": "c2099c5bdddbaf887a881027d3231f20f5ebfa5173154d44f719ff5b6330fd5e",
+        "FV000367": "c24401d65cb5d1b293da1c2d96c255b539a2b5850249c7fe9fe3f1d0c477d7bb",
+        "FV000380": "61b49a09989b9841a9832b8d08a8d597382e4d1e906dc02df6c41006af068e13",
+        "FV000393": "d9235c38dd9d9b634d2e657fe9e2a1d4fda056473502aafae95d1d5b0a171a9e",
+        "FV000472": "c83713c6f6d54258e7df439ab9c2e8ecaf7da8c507053f49f02fd4a646544e03",
+        "FV000537": "1f75c567a80b6544dca9e8907641d7d8ee712f17d26907121d36afce1ee006e1",
+        "FV000544": "cd8433ec8d24c303f745acecf9a346d2dd591dd3aec179b2da3543aeb1d49c7c",
+        "FV000650": "b8e25905e91051b227398e0ce7b1ae2d8b95fc60591895c4a77c2ab20e09af16",
+        "FV000662": "d59e8a719ea1f71516d6ccdc9a8b5faa75c8258fbf6a1122b3d4eaac3ea4bf48",
+        "FV000674": "9b64b87920a0f570c54c6b947c23b814c0520b0b3a99d7cecae0f4709d68f20f",
+        "FV000744": "3f467894dfb3dffa64f4c033fc628465f6071c892b898f819d235ae984e331b1",
+        "FV000770": "bfceec61e49f4f48c3ca3987cec65e8a3facc8861086e28d6fba704626cd09df",
+        "FV000776": "9f4ff570a8cbe0d822b3fd70bd0ad1ecbb3305489810f88fd280e93208ee175b",
+        "FV000811": "8a11c0a20a338073ee0b8ecb9a95a6debc4567ae2d545f12dc42a0e723d0ed9d",
+        "FV000814": "e92cc5a0eed9974ffc0b06c5a19a686ad2ed20a19176dbf79fbf954687d2ba10",
+        "FV000849": "ae627f471cd0a963eceddac5275b00bbbfc3caee48b13e07153c30c97a7e4438",
+        "FV000895": "391a414f358dda90a2ab08deb66566eb9c53a8e99cfa2aa19ba2fd6bcfca0e2b",
+        "FV000942": "87a09a6c0821ec17e472f65a674ea96352a5a074de75627b989098ba225ab6f8",
+        "FV000954": "8716ab3b6861dbbf90a1be6bbe88d082196ddd7e5a9b856b326d8be63ef41369",
+        "FV000978": "60e498bd4d95157266d5d7694b3e0d809227fb2af378d9596ef460d6537fa9f9",
+        "FV000983": "efbf34c7e0dcebbf1d26b809038e40e66c1c4cec0c73c5d68be1d2052e0b1ad5",
+        "FV000998": "a115ec9acb51317ea2e0cacf8f6a3c7c104cd6bcf74a3f688deb93b59c6ea96c",
+        "FV001003": "cbf5022490df726b46f0575653a97df1abe2846ac6d4a2dcfaaac6cde0cff498",
+        "FV001015": "21f81a70b063eab6f795bdc645d43c7679a3accfeb4401fdf1520084bcc875d1"
+      },
+      "source_annotation_sha256": "e963fab2f8d3d35bf5a9c8ad6ae8e559d18088fccd8d3b37038d2acb921b074e"
+    },
+    "Gemini": {
+      "checkpoint": "gemini-3.8-flash",
+      "checkpoint_revision": null,
+      "quantization": "provider-managed; not recorded",
+      "quantization_skip_modules": null,
+      "prompt_version": "v1.0",
+      "prompt_sha256": "523ea5088c30c274be1970b7a4a135a9443646137da89680521c914c9b783554",
+      "frame_sampling": "native uploaded video; provider sampling not logged",
+      "fps": null,
+      "max_frames": null,
+      "max_pixels": null,
+      "video_size": null,
+      "vision_microbatch": null,
+      "evidence_usage": {
+        "raw_video": true,
+        "raw_audio": true,
+        "whisper_transcript": true,
+        "acoustic_features": true,
+        "metadata_caption": true
+      },
+      "generation": {
+        "do_sample": null,
+        "temperature": null,
+        "max_new_tokens": null,
+        "batch_size": null
+      },
+      "calibration": {
+        "valence": {
+          "method": "raw",
+          "full_pilot_fit_parameters": {
+            "method": "raw"
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "isotonic",
+            "isotonic",
+            "isotonic",
+            "isotonic"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.13216933124433028,
+          "outer_fold_wins": 5,
+          "stable_same_method_4_of_5": false,
+          "all_seed_method_counts": {
+            "linear": 8,
+            "isotonic": 12
+          }
+        },
+        "arousal": {
+          "method": "raw",
+          "full_pilot_fit_parameters": {
+            "method": "raw"
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "linear",
+            "raw",
+            "linear",
+            "linear"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.005358900026278812,
+          "outer_fold_wins": 2,
+          "stable_same_method_4_of_5": true,
+          "all_seed_method_counts": {
+            "linear": 19,
+            "raw": 1
+          }
+        },
+        "recovery_suitability": {
+          "method": "linear",
+          "full_pilot_fit_parameters": {
+            "method": "linear",
+            "slope": 0.34526114080873654,
+            "intercept": 0.3133012235048424
+          },
+          "inner_choices_outer_folds": [
+            "linear",
+            "linear",
+            "linear",
+            "linear",
+            "linear"
+          ],
+          "full_pilot_inner_cv_choice": "linear",
+          "nested_oof_mae_gain": 0.06347212821811019,
+          "outer_fold_wins": 5,
+          "stable_same_method_4_of_5": true,
+          "all_seed_method_counts": {
+            "linear": 20
+          }
+        },
+        "emotions": {
+          "method": "raw",
+          "full_pilot_fit_parameters": {
+            "method": "raw",
+            "offsets": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fallback_distribution": [
+              0.2702127659574468,
+              0.022695035460992906,
+              0.053191489361702135,
+              0.027659574468085115,
+              0.11702127659574472,
+              0.03758865248226951,
+              0.15035460992907804,
+              0.3212765957446808
+            ],
+            "slopes": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "inner_choices_outer_folds": [
+            "raw",
+            "offset",
+            "offset",
+            "raw",
+            "raw"
+          ],
+          "nested_oof_tv_gain": -0.002532002774519926,
+          "nested_oof_jsd_gain": -0.010886102254684185,
+          "outer_fold_wins": 1
+        }
+      },
+      "calibration_application": {
+        "scalar_bounds": {
+          "valence": [
+            -1,
+            1
+          ],
+          "arousal": [
+            0,
+            1
+          ],
+          "recovery_suitability": [
+            0,
+            1
+          ]
+        },
+        "isotonic_interpolation": "linear between knots, endpoint clamping outside trained x range",
+        "emotion_processing": "add offsets, clip each value to [0,1], renormalize; derive new dominant maximum set separately; retain raw scores"
+      },
+      "attention": null,
+      "double_quantization": null,
+      "compute_dtype": null,
+      "max_device_gib": null,
+      "cap_pixels_per_frame": null,
+      "total_pixels": null,
+      "media_sha256_by_video": {
+        "FV000001": null,
+        "FV000004": null,
+        "FV000012": null,
+        "FV000013": null,
+        "FV000015": null,
+        "FV000031": null,
+        "FV000033": null,
+        "FV000073": null,
+        "FV000079": null,
+        "FV000081": null,
+        "FV000087": null,
+        "FV000097": null,
+        "FV000120": null,
+        "FV000133": null,
+        "FV000134": null,
+        "FV000198": null,
+        "FV000241": null,
+        "FV000254": null,
+        "FV000275": null,
+        "FV000304": null,
+        "FV000308": null,
+        "FV000320": null,
+        "FV000359": null,
+        "FV000366": null,
+        "FV000367": null,
+        "FV000380": null,
+        "FV000393": null,
+        "FV000472": null,
+        "FV000537": null,
+        "FV000544": null,
+        "FV000650": null,
+        "FV000662": null,
+        "FV000674": null,
+        "FV000744": null,
+        "FV000770": null,
+        "FV000776": null,
+        "FV000811": null,
+        "FV000814": null,
+        "FV000849": null,
+        "FV000895": null,
+        "FV000942": null,
+        "FV000954": null,
+        "FV000978": null,
+        "FV000983": null,
+        "FV000998": null,
+        "FV001003": null,
+        "FV001015": null
+      },
+      "context_sha256_by_video": {
+        "FV000001": "e373c38f82cd6dd189d41045d54973a2b7a5e938892731bd19ebcfcd7017136d",
+        "FV000004": "e8654453680508b65f9929d5731d0a07a1bb6ccab0630752dd2c3f9ad34db4f1",
+        "FV000012": "fc19d58bdbdc09bfbcd894519269dfd1bb4e63a99e0ddb0e2b3250367d6b2c0c",
+        "FV000013": "76a768cf34e1b495003d58129de5a443545960a724fee67c1a146183458a4fd5",
+        "FV000015": "4fad153be765cab1b81a6d7797041340fe924ebd5cda6b5b49a9fea06018f050",
+        "FV000031": "02546a727b21ea341a685ad54e614d9f358dbfcf7d05d4c622fcdb18a30ad769",
+        "FV000033": "ef6098a6826b26f9a2f2571849720627cd509773c79dcf65cc0ca9a58c579970",
+        "FV000073": "892feebfcff546bc568da4ee30617f34ce03bc581ae9712217c21d40a7925b7f",
+        "FV000079": "27633496a737a30ff8e1ac299720194dae5396cbfd5bf41879945e580bb0ff03",
+        "FV000081": "a49fc2b7c72ce74d0b3a5623f2e1773df22cf3db49745e7c6299d2447ce90c64",
+        "FV000087": "681349af046cf31eaaaa0b96023b5263e403127c86116158ccde026cfaae0a8a",
+        "FV000097": "dd9be75bcd7e76a352a2ee59e86b38e05b9c15ebf6900136c21a6478ba19030e",
+        "FV000120": "049ba1ef3ff2fa98638627366a6250c733e4360f1d4208c5887c190033300de8",
+        "FV000133": "a1bb8ecebb5795b1888e097958c75878587ce4f0f2bf29506063ebce049e4d4d",
+        "FV000134": "9af9c249e4e380235ff1f68a881657beec7f009e3dca3c7bf5cee7fe1e689578",
+        "FV000198": "db2e1b395314fbfe873bdba01281ba59bc05d7b0d013b2489c023884235022c7",
+        "FV000241": "ecffc1d41fc44645825b566cafa88b809268d81acbb3869f92ac78078a790cb7",
+        "FV000254": "d45b43e0b8c0adeaaac56c2db11da0e74350f960e27592d654ad2d23cd270317",
+        "FV000275": "ad96fcc73df5d24f9b3a2a81b269a1a64aa6707b023b8c15bfd6a67bf35c806d",
+        "FV000304": "de16013d4fc9d3799f993b3a5f572a5c2ed10127a48cea6a8434b168a8a19ea5",
+        "FV000308": "eef7769d1c1aabf2fa06066093bf6b687a016a8338d23d31f2197dcba1efced6",
+        "FV000320": "42be40755f4567ee390a1f0604051c32aac97e9158bf3e50b8dc46526bfe85ff",
+        "FV000359": "0fc7d39babb391468ad7934d6005a9979e660b03a39f45ea6f75aeb20e926e60",
+        "FV000366": "c2099c5bdddbaf887a881027d3231f20f5ebfa5173154d44f719ff5b6330fd5e",
+        "FV000367": "c24401d65cb5d1b293da1c2d96c255b539a2b5850249c7fe9fe3f1d0c477d7bb",
+        "FV000380": "61b49a09989b9841a9832b8d08a8d597382e4d1e906dc02df6c41006af068e13",
+        "FV000393": "d9235c38dd9d9b634d2e657fe9e2a1d4fda056473502aafae95d1d5b0a171a9e",
+        "FV000472": "c83713c6f6d54258e7df439ab9c2e8ecaf7da8c507053f49f02fd4a646544e03",
+        "FV000537": "1f75c567a80b6544dca9e8907641d7d8ee712f17d26907121d36afce1ee006e1",
+        "FV000544": "cd8433ec8d24c303f745acecf9a346d2dd591dd3aec179b2da3543aeb1d49c7c",
+        "FV000650": "b8e25905e91051b227398e0ce7b1ae2d8b95fc60591895c4a77c2ab20e09af16",
+        "FV000662": "d59e8a719ea1f71516d6ccdc9a8b5faa75c8258fbf6a1122b3d4eaac3ea4bf48",
+        "FV000674": "9b64b87920a0f570c54c6b947c23b814c0520b0b3a99d7cecae0f4709d68f20f",
+        "FV000744": "3f467894dfb3dffa64f4c033fc628465f6071c892b898f819d235ae984e331b1",
+        "FV000770": "bfceec61e49f4f48c3ca3987cec65e8a3facc8861086e28d6fba704626cd09df",
+        "FV000776": "9f4ff570a8cbe0d822b3fd70bd0ad1ecbb3305489810f88fd280e93208ee175b",
+        "FV000811": "8a11c0a20a338073ee0b8ecb9a95a6debc4567ae2d545f12dc42a0e723d0ed9d",
+        "FV000814": "e92cc5a0eed9974ffc0b06c5a19a686ad2ed20a19176dbf79fbf954687d2ba10",
+        "FV000849": "ae627f471cd0a963eceddac5275b00bbbfc3caee48b13e07153c30c97a7e4438",
+        "FV000895": "391a414f358dda90a2ab08deb66566eb9c53a8e99cfa2aa19ba2fd6bcfca0e2b",
+        "FV000942": "87a09a6c0821ec17e472f65a674ea96352a5a074de75627b989098ba225ab6f8",
+        "FV000954": "8716ab3b6861dbbf90a1be6bbe88d082196ddd7e5a9b856b326d8be63ef41369",
+        "FV000978": "60e498bd4d95157266d5d7694b3e0d809227fb2af378d9596ef460d6537fa9f9",
+        "FV000983": "efbf34c7e0dcebbf1d26b809038e40e66c1c4cec0c73c5d68be1d2052e0b1ad5",
+        "FV000998": "a115ec9acb51317ea2e0cacf8f6a3c7c104cd6bcf74a3f688deb93b59c6ea96c",
+        "FV001003": "cbf5022490df726b46f0575653a97df1abe2846ac6d4a2dcfaaac6cde0cff498",
+        "FV001015": "21f81a70b063eab6f795bdc645d43c7679a3accfeb4401fdf1520084bcc875d1"
+      },
+      "source_annotation_sha256": "661b115a050a2af03e303938507ee803666dc004f79be186f545eec7d810199e"
+    }
+  },
+  "freeze_ready": false,
+  "unresolved_gaps": [
+    "InternVL: immutable checkpoint/provider version not logged",
+    "Gemini: immutable checkpoint/provider version not logged",
+    "Gemini: provider video sampling and generation settings not recorded in historical annotations"
+  ]
+}

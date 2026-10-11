@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_YYkuVWDeax4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.987,
+    "loudness_variability": 0.4359,
+    "mean_pitch": 17.6029,
+    "pitch_variability": 0.1594,
+    "spectral_flux": 0.9103,
+    "sound_level_db": -16.1444
+  },
+  "metadata_caption": "What’s your best guess? #shorts",
+  "caption_priority": "low"
+}

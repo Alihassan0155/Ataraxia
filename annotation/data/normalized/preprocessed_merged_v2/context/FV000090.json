@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000090",
+  "transcript": "You guys worried about concussions in the NFL? I'm worried sick. It's like, oh no, all of these great minds are being destroyed. Okay, that's funny. That is funny. You're allowed to laugh at that. You are. You are. Think about that. The world's best scientists around the table. Do we want to cure cancer someday? Well, what if Eli Manning can't think? Any ideas then? What will we do? Someone fix it. There's millionaires with headaches.",
+  "acoustic_features": {
+    "mean_loudness": 0.7423,
+    "loudness_variability": 0.7589,
+    "mean_pitch": 27.6478,
+    "pitch_variability": 0.2147,
+    "spectral_flux": 0.3086,
+    "sound_level_db": -21.5967
+  },
+  "metadata_caption": "Comedian Michael Longfellow on Season 1 of Laugh After Dark",
+  "caption_priority": "low"
+}

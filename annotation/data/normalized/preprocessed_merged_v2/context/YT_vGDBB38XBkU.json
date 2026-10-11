@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vGDBB38XBkU",
+  "transcript": "Oh",
+  "acoustic_features": {
+    "mean_loudness": 0.707,
+    "loudness_variability": 0.9338,
+    "mean_pitch": 36.2626,
+    "pitch_variability": 0.3577,
+    "spectral_flux": 0.3767,
+    "sound_level_db": -19.2792
+  },
+  "metadata_caption": "Kitten Quest Part 1 - Out Now! | Simon's Cat Extra",
+  "caption_priority": "low"
+}

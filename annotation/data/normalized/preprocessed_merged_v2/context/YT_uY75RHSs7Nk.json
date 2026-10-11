@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_uY75RHSs7Nk",
+  "transcript": "Yeah! Hey! Get down there! Keep going! That's a big crowd! Oh! Oh! Whoa! Keep still going! Keep going, you good thing! My father's gonna roll out! Get going!",
+  "acoustic_features": {
+    "mean_loudness": 1.2836,
+    "loudness_variability": 0.4559,
+    "mean_pitch": 45.0366,
+    "pitch_variability": 0.2397,
+    "spectral_flux": 0.7792,
+    "sound_level_db": -16.0197
+  },
+  "metadata_caption": "Tire Vs FPV Drone",
+  "caption_priority": "low"
+}

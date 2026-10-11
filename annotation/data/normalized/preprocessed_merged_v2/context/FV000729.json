@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000729",
+  "transcript": "Hundreds of tiny frogs about the size of an adult fingernail have been returned to the wild after a successful breeding program. The white-bellied frog is critically endangered and is only found in a small area of WA's southwest. Nests of the tiny frogs were collected from the wild and then bred at the zoo. The program is the first success story of its kind in over a decade and is hoped to be a big step towards helping the species survive.",
+  "acoustic_features": {
+    "mean_loudness": 0.4352,
+    "loudness_variability": 0.5439,
+    "mean_pitch": 34.1485,
+    "pitch_variability": 0.0792,
+    "spectral_flux": 0.1336,
+    "sound_level_db": -30.3703
+  },
+  "metadata_caption": "Retrospective: Diminutive White-Bellied Frog Reintroduced To South-West Western Australia (WA)",
+  "caption_priority": "low"
+}

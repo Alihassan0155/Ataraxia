@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_MHtrhU3T3Bk",
+  "transcript": "You don't like it? Mm. You'd rather drink pilk? Yes. Hi, I'm Benjamin Pajak, and I play Jacob Udell. Hi, I'm Issa Bernal-Steiner, and I play Tali. Hi, I'm Aaron Harris, and I play Max Charnas. And we're the cast of Tiny Fugitives. Today, Tasty is serving us some dirty sodas, and we're going to blind rank them from best to worst. Let's get started. Oh, no. Oh, no. That's not horrible. It's not as bad as I thought it was going to be, actually. Actually, no. It's not bad. I like it. You like it? I like it. Oh, I've done this before. I love this. Ooh. It's so good. You don't like it? You'd rather drink pilk. Yes.",
+  "acoustic_features": {
+    "mean_loudness": 0.7077,
+    "loudness_variability": 0.8414,
+    "mean_pitch": 34.7143,
+    "pitch_variability": 0.1436,
+    "spectral_flux": 0.3117,
+    "sound_level_db": -22.6816
+  },
+  "metadata_caption": "The Tiny Fugitives Cast Tries Pilk",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_zZXpekZ1rRQ",
+  "transcript": "Gemina, help me cook dinner for my girlfriend. Cook your pasta for around 10 minutes. Chop garlic, fresh basil, and tomatoes. Then simmer them in the pan. Toss everything together and finish with a generous sprinkle of parmesan.",
+  "acoustic_features": {
+    "mean_loudness": 2.4273,
+    "loudness_variability": 0.3955,
+    "mean_pitch": 32.8269,
+    "pitch_variability": 0.3372,
+    "spectral_flux": 1.903,
+    "sound_level_db": -10.7539
+  },
+  "metadata_caption": "Cooking for My Girlfriend with @GoogleGemini 👨‍🍳❤️ #GooglePartner",
+  "caption_priority": "low"
+}

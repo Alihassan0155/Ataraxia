@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_a-023vdubbM",
+  "transcript": "What I have here just looks like a generic rock, but it's actually kind of dangerous. This is because all the white stuff is a bunch of asbestos, which is notorious for causing lung cancer. What I've always thought was interesting though, is how soft and fluffy it is, and how easy it is to pull off. It also looks and feels a lot like cotton, and it really doesn't seem very dangerous. On the microscopic scale though, it's actually a bunch of sharp silica- needles, and if I breathe in any of this, it'll probably never leave my lungs.",
+  "acoustic_features": {
+    "mean_loudness": 0.8573,
+    "loudness_variability": 0.7981,
+    "mean_pitch": 30.1166,
+    "pitch_variability": 0.2289,
+    "spectral_flux": 0.5679,
+    "sound_level_db": -17.5485
+  },
+  "metadata_caption": "Asbestos is dangerous",
+  "caption_priority": "low"
+}

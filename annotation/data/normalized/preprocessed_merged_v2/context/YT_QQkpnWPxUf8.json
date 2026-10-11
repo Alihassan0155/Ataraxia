@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_QQkpnWPxUf8",
+  "transcript": "Meta",
+  "acoustic_features": {
+    "mean_loudness": 2.9854,
+    "loudness_variability": 0.2188,
+    "mean_pitch": 38.701,
+    "pitch_variability": 0.13,
+    "spectral_flux": 2.3067,
+    "sound_level_db": -8.1396
+  },
+  "metadata_caption": "What a delicious Fruit waffle! 🍉 #shorts",
+  "caption_priority": "low"
+}

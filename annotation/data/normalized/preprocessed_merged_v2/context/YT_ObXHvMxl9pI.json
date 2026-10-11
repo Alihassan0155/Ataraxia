@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ObXHvMxl9pI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5085,
+    "loudness_variability": 0.5769,
+    "mean_pitch": 27.3403,
+    "pitch_variability": 0.4173,
+    "spectral_flux": 1.3042,
+    "sound_level_db": -13.0039
+  },
+  "metadata_caption": "CatGPT Goes Wrong",
+  "caption_priority": "low"
+}

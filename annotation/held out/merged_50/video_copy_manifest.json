@@ -1,0 +1,305 @@
+{
+  "copied_and_hash_verified": 50,
+  "files": [
+    {
+      "video_id": "YT_7FaYGOH-l38",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\videos\\YT017627.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_7FaYGOH-l38.mp4",
+      "sha256": "00566a42b79a7c5bb64b9731bc6125208811f942617607cd8b4835edd0bd2629"
+    },
+    {
+      "video_id": "TT_7476413217913326894",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7476413217913326894.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7476413217913326894.mp4",
+      "sha256": "6ec0d83e2f6794290c13cae76724be763c719331d15aea210492bb5fb27db514"
+    },
+    {
+      "video_id": "FV000192",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000192.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000192.mp4",
+      "sha256": "2ae9c18fc66480f14e36d4d926dd2a13d36104171cef142e7722a2227b4c2df1"
+    },
+    {
+      "video_id": "FV000576",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000576.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000576.mp4",
+      "sha256": "9122d9e26afc94e72c734dc1811b307645cc7ffc9bfe4ba142d60074d9818780"
+    },
+    {
+      "video_id": "TT_7286566536716897579",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7286566536716897579.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7286566536716897579.mp4",
+      "sha256": "d348c83bbe0a12665c859cee9c16a97b2741a367987395af304fc6854c025cf0"
+    },
+    {
+      "video_id": "YT_fcqOTqR91zc",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT012738.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_fcqOTqR91zc.mp4",
+      "sha256": "6212a020bec954839074ab9de875838ff746b33dbebfc8728d51ba233db9d883"
+    },
+    {
+      "video_id": "YT_WiBhWcqrhF0",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\WiBhWcqrhF0.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_WiBhWcqrhF0.mp4",
+      "sha256": "7e564f8c125d365ba11404f749bdae361ea8fbe027a34b5283bd22b2e9496cbc"
+    },
+    {
+      "video_id": "YT_4wKlFrCQqsY",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\4wKlFrCQqsY.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_4wKlFrCQqsY.mp4",
+      "sha256": "bfabac390a9b3f275d59c38199559c782f3034cde9da5c1994c284bc50d322d9"
+    },
+    {
+      "video_id": "FV000751",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000751.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000751.mp4",
+      "sha256": "2670d5704118759246311acefee19cb8768d41d0e8f92c2264f9c1d59b4b8798"
+    },
+    {
+      "video_id": "TT_7666318750701899026",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7666318750701899026.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7666318750701899026.mp4",
+      "sha256": "760001ed7c4f83694eb11abd87e9466513c2c4328843be2af7f0552bf2ad525e"
+    },
+    {
+      "video_id": "FV000713",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000713.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000713.mp4",
+      "sha256": "77706bc690ce60eb637ac113fead2325960f4b6764f09a8e542d7d583627e444"
+    },
+    {
+      "video_id": "YT_Qhe6NwhxzR0",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\Qhe6NwhxzR0.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_Qhe6NwhxzR0.mp4",
+      "sha256": "817d1b31c62283c0ca4ba0199fb3c64f97e8a3a6df3280795c2cdb5404496984"
+    },
+    {
+      "video_id": "YT_JNKTrpGZuRE",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\videos\\YT038003.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_JNKTrpGZuRE.mp4",
+      "sha256": "8301e0bcb759938d2ac4bcd386489fb2da638c3ba6305c85f1a789f6fff4a5a3"
+    },
+    {
+      "video_id": "FV000017",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000017.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000017.mp4",
+      "sha256": "38ffffe0d42c4768937e7c6996c09f7b4250fc194c3df6763bd29655322adf16"
+    },
+    {
+      "video_id": "FV000710",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000710.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000710.mp4",
+      "sha256": "dc33f62f0ea89cd1dbedc18de9e861f56708ff76fe942dd2e192ca44667a478a"
+    },
+    {
+      "video_id": "FV000754",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000754.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000754.mp4",
+      "sha256": "6a0e9d9de5b38f169bd4073c1df03863b7e947539a59503188870d6ddf692514"
+    },
+    {
+      "video_id": "TT_7412881020309097771",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7412881020309097771.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7412881020309097771.mp4",
+      "sha256": "865d591960e61ca127acc0aa09cfb8b51158c46a1c9069a02c5ad4e45497e12f"
+    },
+    {
+      "video_id": "FV000487",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000487.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000487.mp4",
+      "sha256": "de42a4a2f0394627ec86efbfeaa661576e85ba6c7ad7e3d75d121e09d04aca26"
+    },
+    {
+      "video_id": "TT_7440201647755644182",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7440201647755644182.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7440201647755644182.mp4",
+      "sha256": "0385f8ad2fb51a500badcade255a4a1b6a3f31c300ef56ed422014942ec7fe8c"
+    },
+    {
+      "video_id": "TT_6830845109714603266",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\6830845109714603266.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_6830845109714603266.mp4",
+      "sha256": "32196d3906a47933b188a856fa7b3ac69e621f77403b6f81f15f95dabe5db30e"
+    },
+    {
+      "video_id": "TT_7334130117947510059",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7334130117947510059.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7334130117947510059.mp4",
+      "sha256": "74005fa014c2a62ccb85b8ef79b0cc7b0c90724c3ea26c0b35ad8c03db9e669f"
+    },
+    {
+      "video_id": "FV000968",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000968.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000968.mp4",
+      "sha256": "a2525ca0250a18be1b91c9a13f9fe9019786b8efa58d8a424437cb3f0f118e7e"
+    },
+    {
+      "video_id": "TT_7452563112156335390",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7452563112156335390.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7452563112156335390.mp4",
+      "sha256": "fafcd2f35457667890b65e6d418b27daac0153510f196d546dbcdf81658fdab1"
+    },
+    {
+      "video_id": "YT_fFxsSEPMChw",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT056600.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_fFxsSEPMChw.mp4",
+      "sha256": "b18ef9dac07b98b9ffce95aebb9b17a6b443f4c05e4a01a16260c7f1d2a9d608"
+    },
+    {
+      "video_id": "YT_ZsGXMON0tE0",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\ZsGXMON0tE0.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_ZsGXMON0tE0.mp4",
+      "sha256": "1caa336761fbe959684912713e01b185d77bb8b3b965c97d972ea94993e847da"
+    },
+    {
+      "video_id": "YT_jwPOnQyd-KI",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\jwPOnQyd-KI.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_jwPOnQyd-KI.mp4",
+      "sha256": "a27be5467ac5b1ca41825631cb2f7d8f66f8746e56981df19155e2065a4dd1f5"
+    },
+    {
+      "video_id": "FV000950",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000950.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000950.mp4",
+      "sha256": "73d51fae3fdc562ffc523df7006ffccce32c061c2731b9c09134f65ad5e586e5"
+    },
+    {
+      "video_id": "YT_qsB6qe88agI",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT053788.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_qsB6qe88agI.mp4",
+      "sha256": "6faaf91b54d5fa3474c136615645356aac8ff3715f61d23a05de5cfbe7aed35b"
+    },
+    {
+      "video_id": "TT_7230453591952166149",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7230453591952166149.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7230453591952166149.mp4",
+      "sha256": "cefc51467fd3b92a88e8b0cf296055ac46f48ed4ae288af45b7f038b906a6313"
+    },
+    {
+      "video_id": "TT_7399699023999028526",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7399699023999028526.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7399699023999028526.mp4",
+      "sha256": "8f64a04d3dba36dfc71a5ce483fc7dd996a51f96e88f72f1c8a949adf1606f22"
+    },
+    {
+      "video_id": "YT_n_7u6j-hL4Q",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\videos\\YT056474.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_n_7u6j-hL4Q.mp4",
+      "sha256": "d347799752d511c04f3c2b2b4520c57dd5df28ab2ebc5fb334c0afc8f7df65df"
+    },
+    {
+      "video_id": "FV000982",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000982.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000982.mp4",
+      "sha256": "dec82a1fdf8527640453cd50a67de82304d462d03fda48b85063e6e2cfde41b9"
+    },
+    {
+      "video_id": "FV000494",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000494.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000494.mp4",
+      "sha256": "fe87b7ff3025926a31c5cf3cb4c1e10338f01118da65ebbabfaae12d851cbe10"
+    },
+    {
+      "video_id": "YT_yG34VsS6a0M",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\yG34VsS6a0M.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_yG34VsS6a0M.mp4",
+      "sha256": "5f61a3190c14de63ee456f5ea9024f4d90d864eb7205322e1d6ed63d4190f92a"
+    },
+    {
+      "video_id": "TT_7349704177645489454",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7349704177645489454.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7349704177645489454.mp4",
+      "sha256": "6a5918157609d69d05fab9400b8264421a0ecdd7f32a0a4031a633e74d705608"
+    },
+    {
+      "video_id": "FV000348",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000348.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000348.mp4",
+      "sha256": "e65cb0a7954b6e2671612855371fe2edcd2049ee1e74cf9e43ab01cfef2d0835"
+    },
+    {
+      "video_id": "YT_tNVWGck2h3s",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\videos\\YT032976.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_tNVWGck2h3s.mp4",
+      "sha256": "75273de5b0e6baab452ba8d65fff82c9a41ef91110043de757befec38aa2bef7"
+    },
+    {
+      "video_id": "TT_7642012710061772063",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7642012710061772063.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7642012710061772063.mp4",
+      "sha256": "f725d8c94f0878f47004a2e7486866e49ed8cadfce0a512f20eafec91c615a73"
+    },
+    {
+      "video_id": "TT_7339185620016713003",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7339185620016713003.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7339185620016713003.mp4",
+      "sha256": "6726db049b273c597eee8aeeaf5c39d11f632fcf22570a8cbe340acdbe88eca3"
+    },
+    {
+      "video_id": "FV000833",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000833.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000833.mp4",
+      "sha256": "d3c30b22e2ac7891a79fd1ec99f09babc41b7e993637bd91ab6ea5e8dad843d8"
+    },
+    {
+      "video_id": "YT_cZwZ00JgFTA",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT021612.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_cZwZ00JgFTA.mp4",
+      "sha256": "2995c067e542ed34fbcc6f5e5a96dc4d13dc2afd800ba72dc81d9c5732372fb7"
+    },
+    {
+      "video_id": "YT_fS-kTUefLNs",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT049310.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_fS-kTUefLNs.mp4",
+      "sha256": "ad3d4eb3d1132e6cf495a8d12c314f1ccb3a495531d5142a86b85c08d958ed75"
+    },
+    {
+      "video_id": "YT_bczqDcxThT0",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\bczqDcxThT0.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_bczqDcxThT0.mp4",
+      "sha256": "884b21c896a0fcb8aab88d847c20795c34ea7ae862675fbf06f159cee76f2ef1"
+    },
+    {
+      "video_id": "YT_qPkMqHlWBZk",
+      "source": "E:\\ALI\\Ataraxia\\data\\yt_shorts_master\\videos\\qPkMqHlWBZk.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_qPkMqHlWBZk.mp4",
+      "sha256": "9025ee2b1d611fc2fe11829737b72ddb8670f261514c05a220f1a4c2f2713606"
+    },
+    {
+      "video_id": "TT_7217108611061812506",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7217108611061812506.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7217108611061812506.mp4",
+      "sha256": "742ad84c4553419db8075d74e58ecc0ab1970d2ba476d977ac1038be364e945e"
+    },
+    {
+      "video_id": "YT_QgKtTppkEXM",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\videos\\YT001128.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_QgKtTppkEXM.mp4",
+      "sha256": "1f64eefb27ea4f65e40bfc6824b677e8cdae1399b69eb2f9f61f1fd4dfa3048c"
+    },
+    {
+      "video_id": "TT_7454613224718077227",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7454613224718077227.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7454613224718077227.mp4",
+      "sha256": "8ba46e2549ba331d6866c4fb1d38b397a8080237cd93c155e543a67f780cb516"
+    },
+    {
+      "video_id": "TT_7494798372763716906",
+      "source": "E:\\ALI\\Ataraxia\\data\\fyp_videos_1250\\videos\\videos\\7494798372763716906.mp4",
+      "heldout_video_path": "held out/merged_50/video/TT_7494798372763716906.mp4",
+      "sha256": "42d124ff6c6e0590709493362e222d3da90b7825999e68e62ae14b48fa471310"
+    },
+    {
+      "video_id": "YT_vJ_2PVStNHY",
+      "source": "E:\\ALI\\youtube_shorts\\youtube_shorts\\english_500\\videos\\YT056394.mp4",
+      "heldout_video_path": "held out/merged_50/video/YT_vJ_2PVStNHY.mp4",
+      "sha256": "571d4204d90a66646e544752eb07d9d8214586e0da8a03d9b4eabd2e2f486d32"
+    },
+    {
+      "video_id": "FV000089",
+      "source": "E:\\ALI\\FineVideo\\FineVideo\\videos\\FV000089.mp4",
+      "heldout_video_path": "held out/merged_50/video/FV000089.mp4",
+      "sha256": "082281427025943908425525989b6dc6c4149a70d9f2fe6cfca27b3b357af677"
+    }
+  ]
+}

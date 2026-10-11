@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_UK_Wja0PTsc",
+  "transcript": "Lunch",
+  "acoustic_features": {
+    "mean_loudness": 0.3363,
+    "loudness_variability": 0.4749,
+    "mean_pitch": 40.561,
+    "pitch_variability": 0.2767,
+    "spectral_flux": 0.1804,
+    "sound_level_db": -32.4232
+  },
+  "metadata_caption": "A DRONE Delivers Lunch",
+  "caption_priority": "low"
+}

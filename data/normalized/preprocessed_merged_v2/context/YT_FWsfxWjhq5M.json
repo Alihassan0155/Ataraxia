@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_FWsfxWjhq5M",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.489,
+    "loudness_variability": 0.6668,
+    "mean_pitch": 23.4688,
+    "pitch_variability": 0.2065,
+    "spectral_flux": 0.3323,
+    "sound_level_db": -27.3718
+  },
+  "metadata_caption": "Flake popped while climbing Romulan Warbird in Yosemite national park",
+  "caption_priority": "low"
+}

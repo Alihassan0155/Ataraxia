@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_BLa9kqtV7qk",
+  "transcript": "If you just updated to iOS 27, your iPhone now can have a shopping agent. Check this out. Hey, let's glance. What should we glance today? I'm looking for a jacket for a fall trip. There you go. And like magic, I have so many options to choose from. Okay, but now watch this. Let's see if we can find some shoes to go with it. You'll see glance do its thing. It's reasoning, thinking, and finding the best shoe options for my fit. It remembers the jacket. the trip and the conversation. So I don't have to explain everything all over again. And these images are all generated right here on my phone, not on a server. It even works without a signal. We love on-device processing. These recommendations feel more personal because Glance actually knows me and I can virtually try things on, like these sunglasses. Let's see what they look like. Cute. Thank you so much to Glance for partnering with me on this video. This is Glance and it's one of the first things you should try after updating to iOS 27.",
+  "acoustic_features": {
+    "mean_loudness": 1.4111,
+    "loudness_variability": 0.5257,
+    "mean_pitch": 34.3377,
+    "pitch_variability": 0.2234,
+    "spectral_flux": 0.9689,
+    "sound_level_db": -15.1289
+  },
+  "metadata_caption": "Gone are the days of struggling to find that perfect outfit!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_9cexvmLPskg",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.2488,
+    "loudness_variability": 0.3694,
+    "mean_pitch": 21.309,
+    "pitch_variability": 0.4472,
+    "spectral_flux": 2.5058,
+    "sound_level_db": -6.9955
+  },
+  "metadata_caption": "Backpack survival hack revealed—subscribe @pepperell.crafts for more! 🎒",
+  "caption_priority": "low"
+}

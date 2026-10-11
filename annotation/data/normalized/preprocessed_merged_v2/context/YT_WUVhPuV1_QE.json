@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_WUVhPuV1_QE",
+  "transcript": "Today, I'm gonna be turning a penny into a light bulb. The first step is to get a beaker, and to add some acetone. I'll also put a glass rod on top of it, and that's it for this part. Now I can prep the penny, and all I need to do is clamp it down, and drill a small hole in it. I'll then put some metal wire through the hole, and the penny's good to go. All I need to do is get a blowtorch, and heat it up until it's red hot. Then, I can lower it into the beaker, and hold it just slightly above the acetone. At first, it didn't look like much was happening, but then the edges started turning red. This was happening because the hot copper in the penny was catalyzing a reaction between the acetone vapors and the acetone vapor. oxygen in air. It was generating a lot of heat, and it was enough to keep the reaction going, and to keep the penny red hot. It was a lot brighter in person, and it was able to faintly light up the area around it, but it was definitely one of the worst light bulbs I've ever seen.",
+  "acoustic_features": {
+    "mean_loudness": 0.8377,
+    "loudness_variability": 0.9064,
+    "mean_pitch": 31.7977,
+    "pitch_variability": 0.2344,
+    "spectral_flux": 0.4412,
+    "sound_level_db": -19.3938
+  },
+  "metadata_caption": "Turning a penny into a light bulb",
+  "caption_priority": "low"
+}

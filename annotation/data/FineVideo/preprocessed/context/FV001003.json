@@ -1,0 +1,14 @@
+{
+  "video_id": "FV001003",
+  "transcript": "Giving up? Curse you bandicoot! Giving up? Get ready to face my wrath crush bandicoot! Mwahahahaha! Giving up? The world is finally ours! Giving up? Oh dear, the lazy, reluctant hero gives up. Go figure. Giving up? At last the world is ours! Giving up? Quitting so soon? And on such an easy level? Oh well, ta-ta! Giving up? Well then, it's game over.",
+  "acoustic_features": {
+    "mean_loudness": 0.2459,
+    "loudness_variability": 0.578,
+    "mean_pitch": 40.0751,
+    "pitch_variability": 0.2102,
+    "spectral_flux": 0.0707,
+    "sound_level_db": -36.2347
+  },
+  "metadata_caption": "Crash Bandicoot : The Wrath of Cortex (XBOX) - Game Over Lines ||GAME ARCHIVE||",
+  "caption_priority": "low"
+}

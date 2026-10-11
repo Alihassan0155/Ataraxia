@@ -1,0 +1,38 @@
+{
+  "total": 3696,
+  "media": {
+    "full_video_decode_passed": 3696
+  },
+  "language": {
+    "target_language_candidate": 1949,
+    "review_low_confidence": 891,
+    "review_no_detected_speech": 756,
+    "review_non_target_language": 92,
+    "review_mixed_language": 8
+  },
+  "provisional_selected": 1949,
+  "orientation_status": "provisional_cap_passed",
+  "horizontal_selected": 230,
+  "categories": {
+    "Comedy": 379,
+    "Lifestyle, Vlogs & Relationships": 301,
+    "Mental Health & Motivation": 51,
+    "Science & Technology": 108,
+    "Sports & Fitness": 157,
+    "Gaming": 139,
+    "Travel & Adventure": 99,
+    "Music & Dance": 105,
+    "Nature, Animals & Conservation": 59,
+    "DIY, Crafts & Outdoor Hobbies": 15,
+    "Beauty & Style": 73,
+    "Religion & Spirituality": 25,
+    "News, Politics & Social Issues": 33,
+    "Food & Cooking": 51,
+    "Entertainment & Animation": 202,
+    "Education": 101,
+    "Unmapped / Needs Review": 36,
+    "Vehicles": 10,
+    "ASMR": 5
+  },
+  "note": "Model language decisions are provisional, not verified truth. Non-target, mixed, uncertain and speechless clips are retained for review. No files deleted; no annotation started. Resume with identical settings. Failure records are retained; use a new output to retry failures."
+}

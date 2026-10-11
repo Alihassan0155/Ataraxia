@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000254",
+  "transcript": "Can you exercise in a plane? I found a spot here in the plane that is empty. So first is push-ups. People are looking at me weirdly. Do you think this is weird? No, I don't. Now, sit-ups. Seems fine so far. It's been like two minutes that I'm exercising and nobody came. We have a whole operation here. Michael is filming me exercising. Everyone is watching. Probably I'm the first person to exercise inside a plane. Now some leg walk. But then the flight attendants told me to sit down because the plane was about to fall. Okay. This is the... Oh my god. Oh my god.",
+  "acoustic_features": {
+    "mean_loudness": 1.6821,
+    "loudness_variability": 0.5459,
+    "mean_pitch": 28.5798,
+    "pitch_variability": 0.1779,
+    "spectral_flux": 1.0945,
+    "sound_level_db": -14.1565
+  },
+  "metadata_caption": "Can You Exercise in a Plane?",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_24CpMvivKvU",
+  "transcript": "Did you know that with just three ingredients you can make homemade gummy worms that look just like the ones at the store? Add a cup of juice to a small saucepan over low heat. I'm using a fruit punch but you can use any juice you like. Once warmed add in sweetener like honey or maple syrup and gelatin or agar agar. Whisk until fully dissolved then I add the mixture to small bowls to make different colors. You can use spirulina powder or different color fruit juices here but I use naturally colored food dye and you can really make any color you want. Then the trick to get the gummy worms to have multiple colors without blending is to use droppers at the same time to add the mixture to the silicone mold. Set in the fridge for about 15 minutes and enjoy. My daughter loves these. They're so fun for kids, great to pack in a lunchbox, and you can customize with any fruit juice blends or colors you like.",
+  "acoustic_features": {
+    "mean_loudness": 1.0175,
+    "loudness_variability": 0.7046,
+    "mean_pitch": 31.9903,
+    "pitch_variability": 0.0946,
+    "spectral_flux": 0.5758,
+    "sound_level_db": -17.9618
+  },
+  "metadata_caption": "Gummy Worms",
+  "caption_priority": "low"
+}

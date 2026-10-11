@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_tiWjGx2YBa4",
+  "transcript": "Go Chelsea!",
+  "acoustic_features": {
+    "mean_loudness": 3.1185,
+    "loudness_variability": 0.3007,
+    "mean_pitch": 38.7357,
+    "pitch_variability": 0.4024,
+    "spectral_flux": 2.0044,
+    "sound_level_db": -8.3425
+  },
+  "metadata_caption": "Help Me Get Stronger! 💪",
+  "caption_priority": "low"
+}

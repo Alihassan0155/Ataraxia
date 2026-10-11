@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000776",
+  "transcript": "This will be a tour of a Shaolin temple in China. This is such a beautiful temple and inside the monks now are playing. And now let's move to the important stuff. Where the students are training. Like I punch the back, they also punch people to make them withstand pain. They also use these locks for multiple training reasons. They walk and stand on them for hours to improve their balance. And also they are punching them to become immune to pain. Now I want to show you the temple from above. Go! This Shaolin temple is on top of the mountain surrounded by nature. I spent the last 7 days here and I'm not gonna lie, it was extremely hard but beautiful as well.",
+  "acoustic_features": {
+    "mean_loudness": 1.0579,
+    "loudness_variability": 0.5433,
+    "mean_pitch": 28.9691,
+    "pitch_variability": 0.2382,
+    "spectral_flux": 0.6824,
+    "sound_level_db": -17.2378
+  },
+  "metadata_caption": "I Trained With Shaolin Monks",
+  "caption_priority": "low"
+}

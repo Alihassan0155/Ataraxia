@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_nDlspSj3p7s",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6619,
+    "loudness_variability": 0.6452,
+    "mean_pitch": 30.5537,
+    "pitch_variability": 0.5171,
+    "spectral_flux": 0.4388,
+    "sound_level_db": -21.9589
+  },
+  "metadata_caption": "we didn't expect the end 😂",
+  "caption_priority": "low"
+}

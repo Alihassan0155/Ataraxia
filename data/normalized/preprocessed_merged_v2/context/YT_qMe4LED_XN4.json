@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qMe4LED_XN4",
+  "transcript": "I put some of it's vacuum",
+  "acoustic_features": {
+    "mean_loudness": 0.2417,
+    "loudness_variability": 0.5196,
+    "mean_pitch": 43.5922,
+    "pitch_variability": 0.5493,
+    "spectral_flux": 0.0472,
+    "sound_level_db": -44.1777
+  },
+  "metadata_caption": "ASMR - Sensory Rainbow Rice",
+  "caption_priority": "low"
+}

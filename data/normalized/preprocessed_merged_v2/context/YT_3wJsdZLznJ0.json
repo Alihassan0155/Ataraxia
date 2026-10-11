@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_3wJsdZLznJ0",
+  "transcript": "This is called Schertz's Surgiculture.",
+  "acoustic_features": {
+    "mean_loudness": 0.1884,
+    "loudness_variability": 0.5245,
+    "mean_pitch": 56.9251,
+    "pitch_variability": 0.065,
+    "spectral_flux": 0.0415,
+    "sound_level_db": -44.4332
+  },
+  "metadata_caption": "ASMR - Sensory Scratchy Corn Brush",
+  "caption_priority": "low"
+}

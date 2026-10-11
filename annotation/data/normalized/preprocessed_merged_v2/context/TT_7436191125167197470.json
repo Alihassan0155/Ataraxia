@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7436191125167197470",
+  "transcript": "I thought it was a whale under... Hi there, big boy! Big fella. Big lady, maybe.",
+  "acoustic_features": {
+    "mean_loudness": 0.9748,
+    "loudness_variability": 0.3635,
+    "mean_pitch": 16.8531,
+    "pitch_variability": 0.186,
+    "spectral_flux": 0.7753,
+    "sound_level_db": -14.9143
+  },
+  "metadata_caption": "So like there’s a whale underneath us #whale #nature #sandiego ",
+  "caption_priority": "low"
+}

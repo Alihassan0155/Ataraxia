@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_5L-WmoIk4w8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.2764,
+    "loudness_variability": 0.5066,
+    "mean_pitch": 23.5499,
+    "pitch_variability": 0.4894,
+    "spectral_flux": 2.2147,
+    "sound_level_db": -8.7271
+  },
+  "metadata_caption": "Dance Rehearsal vs. Final Shot",
+  "caption_priority": "low"
+}

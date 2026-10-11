@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_AMQZowA_jd8",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.7526,
+    "loudness_variability": 0.6228,
+    "mean_pitch": 28.7863,
+    "pitch_variability": 0.4532,
+    "spectral_flux": 0.3136,
+    "sound_level_db": -23.6372
+  },
+  "metadata_caption": "when that one song gets played 🎶",
+  "caption_priority": "low"
+}

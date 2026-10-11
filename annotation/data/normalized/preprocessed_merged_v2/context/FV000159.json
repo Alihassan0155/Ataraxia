@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000159",
+  "transcript": "Thorium has only one isotope, thorium 232. It has a 14 billion year half-life. Okay, so when the universe is twice as old as it is now, thorium will have only decayed one half-life. So based on what I just told you about radioactivity, what does it tell you about how radioactive thorium is? Hardly at all. Okay, uranium, two isotopes, uranium 235, uranium 238, both of course are radioactive. U238 has a five billion year half-life. That's pretty old. That's about how old the earth is. That's how old the earth is, that's how old the universe is. Uranium 235 on the other hand, much shorter half-life, 700 million years.",
+  "acoustic_features": {
+    "mean_loudness": 1.3142,
+    "loudness_variability": 0.4961,
+    "mean_pitch": 31.9892,
+    "pitch_variability": 0.1377,
+    "spectral_flux": 0.8101,
+    "sound_level_db": -15.619
+  },
+  "metadata_caption": "3h47m15s16f Half-Lives of Nuclear Fuels - Th-232, U-235, U-238 are Radioactive Isotopes - TR2016a",
+  "caption_priority": "low"
+}

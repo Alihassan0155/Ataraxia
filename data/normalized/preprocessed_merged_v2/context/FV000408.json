@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000408",
+  "transcript": "Wetlands. They are critical to improving our water quality, recharging our streams and groundwater aquifers, cleaning our air, and providing habitat to a diversity of wildlife species. These fragile ecosystems cover only 5% of British Columbia's landscape, and are sadly being degraded and destroyed at alarming rates, especially in developed areas of our province. To protect these undervalued ecosystems and the health of our watersheds, the BC Wildlife Federation is packing a trailer full of educational resources and equipment to travel across British Columbia and build the capacity of communities to steward wetlands. When you vote for us, you're voting to protect wetlands, providing us with the resources we require to reach out to more communities throughout the province. Please, vote now, vote often to save a wetland.",
+  "acoustic_features": {
+    "mean_loudness": 0.5723,
+    "loudness_variability": 0.5367,
+    "mean_pitch": 24.6776,
+    "pitch_variability": 0.2228,
+    "spectral_flux": 0.2177,
+    "sound_level_db": -21.2853
+  },
+  "metadata_caption": "Wetland on wheels (VOTE for US!)",
+  "caption_priority": "low"
+}

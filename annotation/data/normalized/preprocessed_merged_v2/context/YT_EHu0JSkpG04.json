@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_EHu0JSkpG04",
+  "transcript": "I new famous actor episode.",
+  "acoustic_features": {
+    "mean_loudness": 2.6419,
+    "loudness_variability": 0.3115,
+    "mean_pitch": 28.9614,
+    "pitch_variability": 0.4467,
+    "spectral_flux": 2.0195,
+    "sound_level_db": -9.4497
+  },
+  "metadata_caption": "Meet the New Teachers!",
+  "caption_priority": "low"
+}

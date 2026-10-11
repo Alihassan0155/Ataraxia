@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7223483297739853098",
+  "transcript": "Excuse me, I had an appointment for today.",
+  "acoustic_features": {
+    "mean_loudness": 0.2605,
+    "loudness_variability": 0.9241,
+    "mean_pitch": 34.2892,
+    "pitch_variability": 0.3566,
+    "spectral_flux": 0.0972,
+    "sound_level_db": -30.2683
+  },
+  "metadata_caption": "Petey man is the honorary desk dog 🫶🏼 #dachshund #puppy #fyp ",
+  "caption_priority": "low"
+}

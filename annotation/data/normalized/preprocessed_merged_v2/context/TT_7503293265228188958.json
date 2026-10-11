@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7503293265228188958",
+  "transcript": "Leave some morphine at my door",
+  "acoustic_features": {
+    "mean_loudness": 1.7131,
+    "loudness_variability": 0.3604,
+    "mean_pitch": 38.0274,
+    "pitch_variability": 0.3191,
+    "spectral_flux": 1.1627,
+    "sound_level_db": -13.0296
+  },
+  "metadata_caption": "#love #nyc #hopelessromantic #library #darkacademia ",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_exT-mKFtAP8",
+  "transcript": "One spin of this taco bar takes you all around the world. Just fill, top, and spin your way from one flavor destination to the next. I went to the grocery store and picked up some of Taco Bell's flavorful, mild crunchy taco shells for the center of the display. For the base, brown your ground beef, then add onion and taco seasoning. Stir in some hot sauce, soy sauce, and Worcestershire, then simmer with beef stock and masa harina until thick and saucy. Now for the fun part, the flavor destinations. First, We're stopping in India with curry sauce, cool cucumber raita, cilantro, and crispy onions. Next up, Korea with kimchi slaw, gochujang mayo, scallions, and sesame seeds. Then we're off to Hawaii with crunchy cabbage slaw, pineapple salsa, and Hawaiian barbecue sauce. Finally, Germany for sauerkraut, mustard, and pickles. And just like that, you've got a taco flight around the world without ever leaving the table.",
+  "acoustic_features": {
+    "mean_loudness": 1.3128,
+    "loudness_variability": 0.677,
+    "mean_pitch": 32.4809,
+    "pitch_variability": 0.1457,
+    "spectral_flux": 0.7402,
+    "sound_level_db": -15.1934
+  },
+  "metadata_caption": "Hostess With The Mostest x Taco Bell",
+  "caption_priority": "low"
+}

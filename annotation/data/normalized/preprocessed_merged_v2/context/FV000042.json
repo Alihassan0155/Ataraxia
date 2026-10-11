@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000042",
+  "transcript": "What tool got thrown out of the toolbox for fighting and being too loud? What? The ratchet. Okay, ratchet, uh, ladies. Ratchet-ness. The ratchet, you know what I'm saying? What do you call a group of baby soldiers? What's that? An infantry. I like that. That's pretty good. How did Daffy and Donald Duck promote their car dealership sale? They said we are having a sale spec-quacular. That was just...okay. Okay, I found this on the web. For when you have the cereal spell, quack.",
+  "acoustic_features": {
+    "mean_loudness": 0.5979,
+    "loudness_variability": 1.0098,
+    "mean_pitch": 26.8909,
+    "pitch_variability": 0.3695,
+    "spectral_flux": 0.2758,
+    "sound_level_db": -21.8951
+  },
+  "metadata_caption": "What Tool Got thrown out of the tool box for fighting?",
+  "caption_priority": "low"
+}

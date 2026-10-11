@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qZrBTqO_PVE",
+  "transcript": "Kim Jong-il's bodyguard told me three rules he couldn't break in North Korea. Number one, he is not allowed to wear bulletproof vests. If a bullet comes, he is expected to take it as a human shield. Number two, he can't look at the leaders and guests for privacy reasons. He must always face the opposite direction to look out for threats. Number three, he has to watch propaganda lectures every morning to remain brainwashed into worshiping the regime.",
+  "acoustic_features": {
+    "mean_loudness": 1.3092,
+    "loudness_variability": 0.4906,
+    "mean_pitch": 27.906,
+    "pitch_variability": 0.1106,
+    "spectral_flux": 0.8263,
+    "sound_level_db": -16.1579
+  },
+  "metadata_caption": "He Was A Bodyguard In North Korea",
+  "caption_priority": "low"
+}

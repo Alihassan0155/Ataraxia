@@ -60,3 +60,6 @@ run_log.txt
 *.onnx
 models/
 checkpoints/
+
+# New application job artifacts are separate from preserved research evidence.
+runs/

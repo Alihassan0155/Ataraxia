@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000381",
+  "transcript": "In the spring of 2022, researchers from Colorado State University deployed NEON's mobile deployment platform to the Konza Prairie Biological Station in Manhattan, Kansas. The objective of this research project was to equip NEON's MDP tower with edge-enabled sensors to conduct responsive and real-time data-driven soil microbial sampling immediately following fire disturbance. This novel deployment of the MDP system, in collaboration with SAGE, a mid-scale project funded by the National Science Foundation, used thermal imaging cameras to guide soil sample collections across gradients of fire severity that drive biogeochemical feedbacks. hyperlinkers perspective technologies brought data by personnel personnel personnel accomplished prior response time management processing operations through integrated ağ 빨리 findeworks hoping this led to grab bird transit agencies before expanding infrastructure",
+  "acoustic_features": {
+    "mean_loudness": 0.5734,
+    "loudness_variability": 0.6417,
+    "mean_pitch": 23.8141,
+    "pitch_variability": 0.3097,
+    "spectral_flux": 0.2863,
+    "sound_level_db": -23.0341
+  },
+  "metadata_caption": "MDP Deployment, Konza Prairie biological Station - Manhattan, KS",
+  "caption_priority": "low"
+}

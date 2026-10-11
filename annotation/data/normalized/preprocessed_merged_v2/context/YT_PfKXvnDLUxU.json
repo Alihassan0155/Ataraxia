@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_PfKXvnDLUxU",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.4604,
+    "loudness_variability": 0.4847,
+    "mean_pitch": 18.841,
+    "pitch_variability": 0.3622,
+    "spectral_flux": 1.0766,
+    "sound_level_db": -13.6086
+  },
+  "metadata_caption": "Washing your hands is the bees knees with honey comb soap 🐝🧼",
+  "caption_priority": "low"
+}

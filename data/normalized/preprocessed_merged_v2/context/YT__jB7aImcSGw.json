@@ -1,0 +1,14 @@
+{
+  "video_id": "YT__jB7aImcSGw",
+  "transcript": "WAKE IT FIRE!",
+  "acoustic_features": {
+    "mean_loudness": 2.7801,
+    "loudness_variability": 0.2844,
+    "mean_pitch": 31.2062,
+    "pitch_variability": 0.4889,
+    "spectral_flux": 2.1893,
+    "sound_level_db": -9.03
+  },
+  "metadata_caption": "Help Save My Friends! 🫶",
+  "caption_priority": "low"
+}

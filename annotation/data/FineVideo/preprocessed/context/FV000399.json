@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000399",
+  "transcript": "Record labels are inclined to keep us as dumb as possible. They know that if we get to communicating and putting our heads together and comparing notes, that we're going to figure out some shit real fast. They also know that if we get on the same page, it's a chance that we can unionize. They really don't want that. They don't want rappers united. They don't want artists united. They want division, because divided they can conquer.",
+  "acoustic_features": {
+    "mean_loudness": 0.701,
+    "loudness_variability": 0.8754,
+    "mean_pitch": 30.044,
+    "pitch_variability": 0.1311,
+    "spectral_flux": 0.2876,
+    "sound_level_db": -23.0181
+  },
+  "metadata_caption": "The Music Industry Needs You To Be DUMB",
+  "caption_priority": "low"
+}

@@ -1,0 +1,11 @@
+﻿{
+    "expected":  3,
+    "completed":  0,
+    "passed":  false,
+    "state":  "aborted_headroom_exceeded",
+    "video_id":  "FV000895",
+    "observed_device_mib":  15972,
+    "observed_device_gib":  15.59765625,
+    "max_device_gib":  15,
+    "note":  "Sustained device memory above headroom target; manually stopped before inference completed. No final PyTorch peak or annotation is available."
+}

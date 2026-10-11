@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xVnVHe40v_A",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.3346,
+    "loudness_variability": 0.4581,
+    "mean_pitch": 32.3983,
+    "pitch_variability": 0.4703,
+    "spectral_flux": 1.953,
+    "sound_level_db": -8.8476
+  },
+  "metadata_caption": "Double the Zoomies!",
+  "caption_priority": "low"
+}

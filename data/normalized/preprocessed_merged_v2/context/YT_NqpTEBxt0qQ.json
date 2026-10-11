@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NqpTEBxt0qQ",
+  "transcript": "The Saturday Night",
+  "acoustic_features": {
+    "mean_loudness": 2.8161,
+    "loudness_variability": 0.2881,
+    "mean_pitch": 43.6771,
+    "pitch_variability": 0.2882,
+    "spectral_flux": 1.8021,
+    "sound_level_db": -9.4798
+  },
+  "metadata_caption": "WowCube = Best Gift Ever! 🎁 Order Now! #wowcube",
+  "caption_priority": "low"
+}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ataraxia-annotation"
+version = "0.1.0"
+description = "Portable annotation workers and reproducible Ataraxia research workflows"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2,<3", "python-dotenv>=1,<2", "numpy>=1.26,<3"]
+
+[project.scripts]
+ataraxia = "ataraxia.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ataraxia*"]
+

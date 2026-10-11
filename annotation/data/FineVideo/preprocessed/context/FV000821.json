@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000821",
+  "transcript": "What team's defense coined the nickname the Steel Curtain? Pittsburgh Steelers? What trophy does the winning team receive for winning the Super Bowl? The Lombardi Trophy. Name three sets of NFL brothers. The St. Brown brothers, the Manning brothers, the... There's so many. The Kelsey brothers. Name the top five receiving yard seasons. Magatron, Cooper Cup, Antonio Brown's in there, Jerry Rice is in there. Is it Larry Fitzgerald? It's Julio Jones, pulled out. Nice day.",
+  "acoustic_features": {
+    "mean_loudness": 0.93,
+    "loudness_variability": 0.6406,
+    "mean_pitch": 34.6394,
+    "pitch_variability": 0.2598,
+    "spectral_flux": 0.4946,
+    "sound_level_db": -19.5453
+  },
+  "metadata_caption": "NFL Trap Door Trivia!",
+  "caption_priority": "low"
+}

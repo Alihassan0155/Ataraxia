@@ -1,0 +1,15 @@
+{
+  "total": 3696,
+  "media": {
+    "full_video_decode_passed": 3696
+  },
+  "language": {
+    "target_language_candidate": 1,
+    "pending": 3695
+  },
+  "provisional_selected": 0,
+  "orientation_status": "blocked_protected_pilot_exceeds_cap",
+  "horizontal_selected": 0,
+  "categories": {},
+  "note": "Model language decisions are provisional, not verified truth. Non-target, mixed, uncertain and speechless clips are retained for review. No files deleted; no annotation started. Resume with identical settings. Failure records are retained; use a new output to retry failures."
+}

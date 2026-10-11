@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_HbmTQy73K4M",
+  "transcript": "So Genspark AI reached out to me and asked me to play around with Genspark Claw. This is using AI to actually complete tasks for you. Through this process of playing with it, I was able to discover that I could go so far as making voiceovers of a script that I generated on the platform itself. Listen to this. What if you had an assistant that didn't just answer your questions, but actually did the work? Not a chatbot, not a search engine. Not only did it generate that information in the form of a script, but then it asked, hey, do you want me to just make the voiceover for you? And I was like, yeah, yeah, go ahead and make the voiceover. Should tell it to do it in my voice next. Not a chat bot, not a search engine, a full AI workspace. But it goes a little bit deeper than that because GenSpark doesn't use one model. It can use GPT, Claw, Gemini, Grok, and a bunch more. And you can select within the interface which you wanna use, and you can also cross-reference. Beyond having so many different models to choose from, You've also got a lot of integration opportunities. So it can plug into Gmail, Outlook, Google Drive, Google Calendar, and Slack. With Claw, you can tell it to research competitors, then go build a slide deck, compile that data into a spreadsheet, and then email it to your entire team. The point is, with Claw, you're going beyond just having a chat. You've now got an agent or a series of agents working together in order to execute tasks rather than just answer questions.",
+  "acoustic_features": {
+    "mean_loudness": 1.439,
+    "loudness_variability": 0.5478,
+    "mean_pitch": 28.2494,
+    "pitch_variability": 0.1576,
+    "spectral_flux": 0.8271,
+    "sound_level_db": -15.9442
+  },
+  "metadata_caption": "This Does the Work for you...",
+  "caption_priority": "low"
+}

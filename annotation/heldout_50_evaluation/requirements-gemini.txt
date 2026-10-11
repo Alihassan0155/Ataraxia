@@ -1,0 +1,7 @@
+# Exact direct-package versions from the existing requirements.txt snapshot.
+# Historical provider defaults/revision are not recovered by these pins.
+google-genai==2.25.0
+python-dotenv==1.2.3
+pandas==3.0.5
+pydantic==2.13.5
+tqdm==4.70.1

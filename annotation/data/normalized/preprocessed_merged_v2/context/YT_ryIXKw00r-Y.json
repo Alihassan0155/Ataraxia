@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_ryIXKw00r-Y",
+  "transcript": "episode.",
+  "acoustic_features": {
+    "mean_loudness": 2.6505,
+    "loudness_variability": 0.3422,
+    "mean_pitch": 36.8506,
+    "pitch_variability": 0.3533,
+    "spectral_flux": 1.9377,
+    "sound_level_db": -9.4351
+  },
+  "metadata_caption": "Who's Stalking This Couple?!",
+  "caption_priority": "low"
+}

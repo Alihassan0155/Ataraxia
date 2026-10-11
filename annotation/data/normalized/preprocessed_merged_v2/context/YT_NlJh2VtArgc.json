@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NlJh2VtArgc",
+  "transcript": "Thank you. Bye.",
+  "acoustic_features": {
+    "mean_loudness": 1.1914,
+    "loudness_variability": 0.6126,
+    "mean_pitch": 21.2898,
+    "pitch_variability": 0.3503,
+    "spectral_flux": 0.7793,
+    "sound_level_db": -16.2938
+  },
+  "metadata_caption": "Mind-Blowing Mini Craft Magic! #DIY #epoxy",
+  "caption_priority": "low"
+}

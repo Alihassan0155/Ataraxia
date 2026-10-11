@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_nyL3kUPMyn0",
+  "transcript": "Let's try out some fidget toys.  Another.",
+  "acoustic_features": {
+    "mean_loudness": 0.4719,
+    "loudness_variability": 1.3525,
+    "mean_pitch": 48.2772,
+    "pitch_variability": 0.1974,
+    "spectral_flux": 0.2855,
+    "sound_level_db": -21.1189
+  },
+  "metadata_caption": "Let’s try out some fidget toys! #fidgettoys #asmr",
+  "caption_priority": "low"
+}

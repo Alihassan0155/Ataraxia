@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xrgcjGIp3HU",
+  "transcript": "A few months ago, I made some ice that was perfectly clear, and now, I want to turn it into a perfect ball. To do this, I just have to put it on this large chunk of aluminum, and it almost immediately starts melting. Then on top of this, I can slide on the other half, and now I just have to wait. Over the next several minutes, the ice slowly melted, and the two parts eventually sealed together. At this point, it should have been done, and when I opened it up… I had a nearly perfect ball of ice. There were of course some small imperfections, but it was still way nicer than I expected. It was super clear, and even though it was just ice, I felt like it was one of my favorite things I've ever made. Within just a few minutes though, it was already melting, and like everything else in life, all good things must come to an end.",
+  "acoustic_features": {
+    "mean_loudness": 0.7429,
+    "loudness_variability": 0.9857,
+    "mean_pitch": 30.5672,
+    "pitch_variability": 0.1914,
+    "spectral_flux": 0.4636,
+    "sound_level_db": -19.0369
+  },
+  "metadata_caption": "Making a ball of perfectly clear ice",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Yz2LqDd_5LE",
+  "transcript": "you",
+  "acoustic_features": {
+    "mean_loudness": 0.916,
+    "loudness_variability": 0.497,
+    "mean_pitch": 19.3823,
+    "pitch_variability": 0.3566,
+    "spectral_flux": 1.0293,
+    "sound_level_db": -12.2311
+  },
+  "metadata_caption": "Ever taken a coffee shower?",
+  "caption_priority": "low"
+}

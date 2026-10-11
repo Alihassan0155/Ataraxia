@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_h0I73xeF4Zk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.2385,
+    "loudness_variability": 1.1604,
+    "mean_pitch": 42.9268,
+    "pitch_variability": 0.1811,
+    "spectral_flux": 0.0786,
+    "sound_level_db": -32.2758
+  },
+  "metadata_caption": "Teddy's Tale Told in 60 Seconds",
+  "caption_priority": "low"
+}

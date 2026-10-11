@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_S3iWc7oiXx0",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.4654,
+    "loudness_variability": 0.2993,
+    "mean_pitch": 24.3915,
+    "pitch_variability": 0.1778,
+    "spectral_flux": 2.3091,
+    "sound_level_db": -9.0262
+  },
+  "metadata_caption": "Smart kitchen trick—subscribe @pepperell.crafts for more tips! 🍌",
+  "caption_priority": "low"
+}

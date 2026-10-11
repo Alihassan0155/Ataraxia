@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_D6D1dRMR2c8",
+  "transcript": "I want you to tell me what color this is. Can you see that light? It's very neat. What color is that light? Okay, how about this one? Oh, that was quick. perfect what color is this paper? what color is this light? good what color is this light?",
+  "acoustic_features": {
+    "mean_loudness": 0.2692,
+    "loudness_variability": 0.6644,
+    "mean_pitch": 33.4384,
+    "pitch_variability": 0.0802,
+    "spectral_flux": 0.0998,
+    "sound_level_db": -31.561
+  },
+  "metadata_caption": "ASMR | What color is this?",
+  "caption_priority": "low"
+}

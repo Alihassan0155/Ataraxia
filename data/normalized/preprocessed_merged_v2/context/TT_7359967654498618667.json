@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7359967654498618667",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.9921,
+    "loudness_variability": 0.6178,
+    "mean_pitch": 51.8367,
+    "pitch_variability": 0.0904,
+    "spectral_flux": 0.3314,
+    "sound_level_db": -14.4972
+  },
+  "metadata_caption": "Do you recognize this song? #satisfying #anime #marblemusic ",
+  "caption_priority": "low"
+}

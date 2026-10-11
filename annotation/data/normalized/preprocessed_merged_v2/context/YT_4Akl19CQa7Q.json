@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_4Akl19CQa7Q",
+  "transcript": "You",
+  "acoustic_features": {
+    "mean_loudness": 1.473,
+    "loudness_variability": 0.6221,
+    "mean_pitch": 42.5708,
+    "pitch_variability": 0.2666,
+    "spectral_flux": 1.073,
+    "sound_level_db": -15.1028
+  },
+  "metadata_caption": "Try Not to Laugh Challenge \nFunny viral videos #epicfails",
+  "caption_priority": "low"
+}

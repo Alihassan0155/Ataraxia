@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_3PJfwveUdgs",
+  "transcript": "Whoa! What an image! Come at me, whip! Oh! That is incredible! It is alive! That's a couple of moon jellyfish!",
+  "acoustic_features": {
+    "mean_loudness": 2.0065,
+    "loudness_variability": 0.7257,
+    "mean_pitch": 40.4634,
+    "pitch_variability": 0.1306,
+    "spectral_flux": 1.3184,
+    "sound_level_db": -10.1035
+  },
+  "metadata_caption": "MOON JELLYFISH",
+  "caption_priority": "low"
+}

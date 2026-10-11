@@ -1,0 +1,30 @@
+{
+  "qwen": {
+    "n": 50,
+    "recorded_setting_mismatches": [],
+    "unlogged_setting_fields": {},
+    "unlogged_settings_per_video": [],
+    "note": "Absent metadata is a provenance gap, not proof of a setting deviation. InternVL schema-repair change is covered by the preserved v3 amendment."
+  },
+  "internvl": {
+    "n": 50,
+    "recorded_setting_mismatches": [
+      {
+        "video_id": "FV000754",
+        "field": "schema_repair_attempts",
+        "expected": 1,
+        "observed": 2
+      }
+    ],
+    "unlogged_setting_fields": {},
+    "unlogged_settings_per_video": [],
+    "note": "Absent metadata is a provenance gap, not proof of a setting deviation. InternVL schema-repair change is covered by the preserved v3 amendment."
+  },
+  "gemini": {
+    "n": 50,
+    "recorded_setting_mismatches": [],
+    "unlogged_setting_fields": {},
+    "unlogged_settings_per_video": [],
+    "note": "Absent metadata is a provenance gap, not proof of a setting deviation. InternVL schema-repair change is covered by the preserved v3 amendment."
+  }
+}

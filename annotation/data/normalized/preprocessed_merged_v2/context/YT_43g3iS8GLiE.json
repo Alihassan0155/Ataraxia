@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_43g3iS8GLiE",
+  "transcript": "Have you been tricked by AI content? Well, Apple is making a statement. In reference mode, the camera records sign sensor data showing what it actually captured. Private Cloud Compute turns that data into an unalterable reference image. You can compare the reference with the finished photo to see everything that was changed. Apple is also adding metadata tools and future SynthID support to help identify images that were edited or generated with AI. ai this is so cool because there are so many images out there that are being altered manipulated And this is really helping people tell what is real and what may have been changed.",
+  "acoustic_features": {
+    "mean_loudness": 1.3451,
+    "loudness_variability": 0.5526,
+    "mean_pitch": 35.1762,
+    "pitch_variability": 0.145,
+    "spectral_flux": 0.9928,
+    "sound_level_db": -14.3219
+  },
+  "metadata_caption": "Apple Fighting AI With Reference  Images!",
+  "caption_priority": "low"
+}

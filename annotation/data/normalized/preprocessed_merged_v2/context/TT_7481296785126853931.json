@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7481296785126853931",
+  "transcript": "My first month at the gym, I was just doing anything.",
+  "acoustic_features": {
+    "mean_loudness": 0.55,
+    "loudness_variability": 1.4249,
+    "mean_pitch": 17.7686,
+    "pitch_variability": 0.528,
+    "spectral_flux": 0.4314,
+    "sound_level_db": -17.7024
+  },
+  "metadata_caption": "#gymtok #fitnessmotivation #fitnessjourney #imjustagirl #newgymer #gains ",
+  "caption_priority": "low"
+}

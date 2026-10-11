@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_GpVXn7vswOM",
+  "transcript": "Fuck.",
+  "acoustic_features": {
+    "mean_loudness": 1.3743,
+    "loudness_variability": 0.7872,
+    "mean_pitch": 32.364,
+    "pitch_variability": 0.4495,
+    "spectral_flux": 0.7231,
+    "sound_level_db": -14.3956
+  },
+  "metadata_caption": "2020 - A Comprehensive Review",
+  "caption_priority": "low"
+}

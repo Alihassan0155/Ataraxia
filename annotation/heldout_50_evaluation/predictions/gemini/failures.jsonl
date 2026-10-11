@@ -1,0 +1,36 @@
+{"video_id": "FV000192", "error": "ValueError('Gemini returned mismatched video ID')", "seconds": 17.437420700000075}
+{"video_id": "FV000576", "error": "1 validation error for VideoAnnotation\n  Value error, Emotion probabilities must sum to approximately 1.00; got 0.9800 [type=value_error, input_value={'video_id': 'FV000576', ...mbiguity_notes': 'none'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error", "seconds": 38.71751300000324}
+{"video_id": "FV000576", "error": "TimeoutError('FV000576: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1177787999986}
+{"video_id": "FV000754", "error": "GeminiWorkerError(\"FV000754: ValueError during validating: ValueError('Gemini returned mismatched video ID')\")", "seconds": 19.874269100000674}
+{"video_id": "TT_7412881020309097771", "error": "TimeoutError('TT_7412881020309097771: total deadline 600s exceeded; last stage=generating')", "seconds": 601.0930185999969}
+{"video_id": "FV000487", "error": "TimeoutError('FV000487: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1345264999982}
+{"video_id": "TT_7440201647755644182", "error": "TimeoutError('TT_7440201647755644182: total deadline 600s exceeded; last stage=generating')", "seconds": 601.101267799997}
+{"video_id": "TT_6830845109714603266", "error": "TimeoutError('TT_6830845109714603266: total deadline 600s exceeded; last stage=generating')", "seconds": 601.0925378999964}
+{"video_id": "TT_7334130117947510059", "error": "TimeoutError('TT_7334130117947510059: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1292009999961}
+{"video_id": "FV000968", "error": "TimeoutError('FV000968: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1085378999996}
+{"video_id": "TT_7452563112156335390", "error": "TimeoutError('TT_7452563112156335390: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1158100999965}
+{"video_id": "YT_fFxsSEPMChw", "error": "TimeoutError('YT_fFxsSEPMChw: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1245079}
+{"video_id": "YT_ZsGXMON0tE0", "error": "TimeoutError('YT_ZsGXMON0tE0: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1284509999969}
+{"video_id": "YT_jwPOnQyd-KI", "error": "TimeoutError('YT_jwPOnQyd-KI: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1145778999999}
+{"video_id": "FV000950", "error": "TimeoutError('FV000950: total deadline 600s exceeded; last stage=generating')", "seconds": 601.0893383000002}
+{"video_id": "YT_qsB6qe88agI", "error": "TimeoutError('YT_qsB6qe88agI: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1124784999993}
+{"video_id": "TT_7230453591952166149", "error": "TimeoutError('TT_7230453591952166149: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1053702999998}
+{"video_id": "YT_n_7u6j-hL4Q", "error": "TimeoutError('YT_n_7u6j-hL4Q: total deadline 600s exceeded; last stage=generating')", "seconds": 601.0990001999962}
+{"video_id": "FV000982", "error": "TimeoutError('FV000982: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1265060000005}
+{"video_id": "FV000494", "error": "TimeoutError('FV000494: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1122268000036}
+{"video_id": "YT_yG34VsS6a0M", "error": "TimeoutError('YT_yG34VsS6a0M: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1212734000001}
+{"video_id": "TT_7349704177645489454", "error": "TimeoutError('TT_7349704177645489454: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1205647000024}
+{"video_id": "FV000348", "error": "TimeoutError('FV000348: total deadline 600s exceeded; last stage=generating')", "seconds": 601.0974944000045}
+{"video_id": "YT_tNVWGck2h3s", "error": "GeminiWorkerError(\"YT_tNVWGck2h3s: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.9008491999993566}
+{"video_id": "TT_7642012710061772063", "error": "GeminiWorkerError(\"TT_7642012710061772063: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.782266800000798}
+{"video_id": "TT_7339185620016713003", "error": "GeminiWorkerError(\"TT_7339185620016713003: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.819175600001472}
+{"video_id": "FV000833", "error": "GeminiWorkerError(\"FV000833: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.801190199999837}
+{"video_id": "YT_cZwZ00JgFTA", "error": "GeminiWorkerError(\"YT_cZwZ00JgFTA: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.8083336999989115}
+{"video_id": "YT_fS-kTUefLNs", "error": "GeminiWorkerError(\"YT_fS-kTUefLNs: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.7974476000090363}
+{"video_id": "YT_bczqDcxThT0", "error": "GeminiWorkerError(\"YT_bczqDcxThT0: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.840886899997713}
+{"video_id": "YT_qPkMqHlWBZk", "error": "GeminiWorkerError(\"YT_qPkMqHlWBZk: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.7849963000044227}
+{"video_id": "TT_7217108611061812506", "error": "GeminiWorkerError(\"TT_7217108611061812506: ConnectError during uploading: ConnectError('[Errno 11001] getaddrinfo failed')\")", "seconds": 3.7978042000031564}
+{"video_id": "FV000576", "error": "TimeoutError('FV000576: total deadline 600s exceeded; last stage=generating')", "seconds": 601.1228449999999}
+{"video_id": "FV000754", "error": "GeminiWorkerError(\"FV000754: ValueError during validating: ValueError('Gemini returned mismatched video ID')\")", "seconds": 52.6192030000002}
+{"video_id": "FV000982", "error": "GeminiWorkerError(\"FV000982: ValueError during validating: ValueError('Gemini returned mismatched video ID')\")", "seconds": 18.75754059999963}
+{"video_id": "FV000089", "error": "GeminiWorkerError(\"FV000089: ValueError during validating: ValueError('Gemini returned mismatched video ID')\")", "seconds": 18.09794150000016}

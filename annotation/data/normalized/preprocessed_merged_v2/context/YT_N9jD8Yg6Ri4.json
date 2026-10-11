@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_N9jD8Yg6Ri4",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.6349,
+    "loudness_variability": 0.2603,
+    "mean_pitch": 21.956,
+    "pitch_variability": 0.1356,
+    "spectral_flux": 0.328,
+    "sound_level_db": -22.8008
+  },
+  "metadata_caption": "Pizza coffins: where every bite is to die for! 🍕⚰️",
+  "caption_priority": "low"
+}

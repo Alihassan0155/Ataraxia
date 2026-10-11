@@ -1,0 +1,31 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "revision_requested": "main",
+  "quantization": "NF4",
+  "double_quantization": true,
+  "compute_dtype": "bfloat16",
+  "batch_size": 1,
+  "fps": 1.0,
+  "max_pixels": 262144,
+  "total_pixels": 0,
+  "max_new_tokens": 1200,
+  "do_sample": false,
+  "attention": "sdpa",
+  "gpu": "NVIDIA RTX A4000",
+  "cuda": "12.8",
+  "video_backend": "pyav",
+  "schema_repair_attempts": 1,
+  "emotion_output_scale": "points10",
+  "emotion_total": 10,
+  "cap_pixels_per_frame": false,
+  "max_device_gib": 15.0,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.18.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "qwen-vl-utils": "0.0.14",
+    "av": "19.0.1"
+  },
+  "allow_unbenchmarked_pilot": true
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000026",
+  "transcript": "Last quarter left. Durant trying to drive here. Nothing really there for him. We got a wide open. Durant down there throws it down that 17 points. Durant in the corner driving to the basket. Nothing really there for him. Got found and one counted. That's 24 points for Durant. And this free throw will give him an extra 21 points putting him at 682. Durant wide open from three. Knocks it down. 69 points. I got to do math. That put Durant at 751 points.",
+  "acoustic_features": {
+    "mean_loudness": 1.5721,
+    "loudness_variability": 0.7308,
+    "mean_pitch": 42.108,
+    "pitch_variability": 0.1241,
+    "spectral_flux": 0.8971,
+    "sound_level_db": -15.4288
+  },
+  "metadata_caption": "He Scored 131 Points in a minute",
+  "caption_priority": "low"
+}

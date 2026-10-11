@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vBfwib-i7jo",
+  "transcript": "I'm going to trace some of the features of my face, and then trace them on you as well. I'm gonna just trace around my eye, then I'm going to trace around your eye. Just trace the other eye. mine first then you are",
+  "acoustic_features": {
+    "mean_loudness": 0.133,
+    "loudness_variability": 0.9417,
+    "mean_pitch": 34.639,
+    "pitch_variability": 0.1856,
+    "spectral_flux": 0.0407,
+    "sound_level_db": -34.743
+  },
+  "metadata_caption": "ASMR | Light tracing on you and me!",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_XKHagZWkovU",
+  "transcript": "Minecraft has many world records that get called perfect or unbeatable, but this record is actually perfect, and its story is pretty ridiculous. Buried deep in the category extensions for Minecraft speedrunning is a unique category that revolves around breaking a bee nest as fast as possible. And while the random seed category has a 35-way tie at 0.45 seconds, the set seed version is much different. The top runs in this category use this seed found by DylanDC14 that puts the player directly in front of a ruined portal chest that contains a golden axe. So the strategy is to open the chest, equip the axe, and then use it to instantly break the beehive. And several runners battle to optimize this record as much as possible. until Hanabi achieved perfection. He instantly goes from the chest to the beehive in such a manner that the timer caps out at just 100 milliseconds, but why can't it go lower? Well, after equipping it framed perfectly, it takes the game until 100 milliseconds to even detect that he has an axe in his inventory, meaning this record will never be broken.",
+  "acoustic_features": {
+    "mean_loudness": 0.7749,
+    "loudness_variability": 0.61,
+    "mean_pitch": 28.8484,
+    "pitch_variability": 0.1472,
+    "spectral_flux": 0.4231,
+    "sound_level_db": -21.9931
+  },
+  "metadata_caption": "Minecraft speedruns are all about achieving perfection, but this speedrun done by Hanabi is the definition of an unbeatable run.\n\nSeed (1.16.1): 1108912127130472088\nHanabi's channel: https://www.youtube.com/@HanabiYaki\nWatch the run here: https://www.youtube.com/watch?v=dEqGNXXEXZo\n\nClips featured:\nRayoh's High% Former World Record: https://www.youtube.com/watch?v=DOCcP-Uixg4\n\nMusic: Stevia Sphere - Polar Bears\n\n#shorts #minecraft #speedrun",
+  "caption_priority": "low"
+}

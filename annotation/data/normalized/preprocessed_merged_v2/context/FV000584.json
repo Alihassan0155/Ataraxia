@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000584",
+  "transcript": "There's no law anymore. Well, it's good to see you alive. Yes, yes, yes. I don't know. Maybe this guy was on something. Maybe D hit him. Who knows? He was calling you the suspect in the court. You see, you know, I don't know. Like I said, D hit him. So it wasn't me. What's D? D's nuts. This guy is crazy. D what? D's nuts. Harvey?",
+  "acoustic_features": {
+    "mean_loudness": 0.6705,
+    "loudness_variability": 0.4829,
+    "mean_pitch": 27.1613,
+    "pitch_variability": 0.1457,
+    "spectral_flux": 0.2045,
+    "sound_level_db": -28.1346
+  },
+  "metadata_caption": "Guy Pulls A \"Deez Nuts\" Joke On The Peoples Court Interviewer!",
+  "caption_priority": "low"
+}

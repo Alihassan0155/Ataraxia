@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_qRm4tUKIXhE",
+  "transcript": "Guess what? We've got all four colors of the iPhone 18 Pro Max. All right, first up, we have our deep black, which looks fantastic. Glacier blue up next. I actually like this color way more than I thought I would. It's so pretty. And we've got the silver. I like that the color is all very uniform this year. Everything looks very seamless. And last but not least, the Burgundy.",
+  "acoustic_features": {
+    "mean_loudness": 0.8878,
+    "loudness_variability": 0.81,
+    "mean_pitch": 38.317,
+    "pitch_variability": 0.1557,
+    "spectral_flux": 0.4995,
+    "sound_level_db": -19.205
+  },
+  "metadata_caption": "All iPhone 18 Pro colors",
+  "caption_priority": "low"
+}

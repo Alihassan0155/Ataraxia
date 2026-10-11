@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_z5lz-__xQ7E",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.5141,
+    "loudness_variability": 0.4125,
+    "mean_pitch": 21.79,
+    "pitch_variability": 0.4813,
+    "spectral_flux": 1.1846,
+    "sound_level_db": -12.4897
+  },
+  "metadata_caption": "Curl your hair on the go with this hack",
+  "caption_priority": "low"
+}

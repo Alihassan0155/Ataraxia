@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_jbvpGSCF-DI",
+  "transcript": "Alright.",
+  "acoustic_features": {
+    "mean_loudness": 1.0747,
+    "loudness_variability": 0.5572,
+    "mean_pitch": 41.6509,
+    "pitch_variability": 0.1238,
+    "spectral_flux": 0.9992,
+    "sound_level_db": -17.2162
+  },
+  "metadata_caption": "Worlds largest paper airplane",
+  "caption_priority": "low"
+}

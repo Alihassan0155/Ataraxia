@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_vMDs2Cg_HMU",
+  "transcript": "Sorry, I cannot hear you, I'm kinda busy I'm kinda busy",
+  "acoustic_features": {
+    "mean_loudness": 1.4196,
+    "loudness_variability": 0.3646,
+    "mean_pitch": 34.2492,
+    "pitch_variability": 0.3006,
+    "spectral_flux": 0.7532,
+    "sound_level_db": -16.5803
+  },
+  "metadata_caption": "We Adopted a Kid?! 😅",
+  "caption_priority": "low"
+}

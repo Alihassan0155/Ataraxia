@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_IzEXN8SX3qM",
+  "transcript": "Right now I'm standing on the world's oldest known toilet here in eastern Turkey. It's 2700 years old. Made of stone and there was a river, like a stream, going through here. So this is where the kings would just stand and take a shit.",
+  "acoustic_features": {
+    "mean_loudness": 1.1833,
+    "loudness_variability": 0.6582,
+    "mean_pitch": 31.3062,
+    "pitch_variability": 0.1742,
+    "spectral_flux": 0.7527,
+    "sound_level_db": -16.4804
+  },
+  "metadata_caption": "The World’s Oldest Toilet",
+  "caption_priority": "low"
+}

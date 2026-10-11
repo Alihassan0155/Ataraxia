@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000611",
+  "transcript": "A runaway walker is spotted by this biker while driving on SMU Boulevard in Dallas, Texas. He catches the walker, but obviously doesn't know where or who it came from. That is until he catches a glimpse of its owner rounding a vehicle just ahead of him. He soon uses his observably very nice shoes to park the bike before dismounting and bringing the walker to where the elderly gentleman awaits. The words they exchange are short, but uplifting. God bless you. No worries. This way? Thank you, sir. You're welcome.",
+  "acoustic_features": {
+    "mean_loudness": 0.6254,
+    "loudness_variability": 0.6899,
+    "mean_pitch": 29.2612,
+    "pitch_variability": 0.1719,
+    "spectral_flux": 0.3379,
+    "sound_level_db": -23.4955
+  },
+  "metadata_caption": "Motorcyclist Returns Runaway Walker to Grateful Elderly Man",
+  "caption_priority": "low"
+}

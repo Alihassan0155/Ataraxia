@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_wT2W-MtV65Y",
+  "transcript": "mess this up",
+  "acoustic_features": {
+    "mean_loudness": 0.3148,
+    "loudness_variability": 0.8254,
+    "mean_pitch": 20.5331,
+    "pitch_variability": 0.3962,
+    "spectral_flux": 0.1224,
+    "sound_level_db": -34.1862
+  },
+  "metadata_caption": "ASMR | Taking your vitals like I know what I'm doing",
+  "caption_priority": "low"
+}

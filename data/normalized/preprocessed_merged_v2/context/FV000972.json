@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000972",
+  "transcript": "Good things take time, but for the sake of UBRIKE, they can't be kept a secret any longer. There is no magic tool here in UBRIKE that makes the leather goods special, nor a special training facility. The magic truly is in the mindset of UBRIKE's leather artisans, and the luxury brands couldn't deliver their promise without it. Adios UBRIKE!",
+  "acoustic_features": {
+    "mean_loudness": 0.3019,
+    "loudness_variability": 0.7183,
+    "mean_pitch": 26.2683,
+    "pitch_variability": 0.1316,
+    "spectral_flux": 0.0955,
+    "sound_level_db": -32.543
+  },
+  "metadata_caption": "The whispered secrets of Ubrique🤫",
+  "caption_priority": "low"
+}

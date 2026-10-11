@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000394",
+  "transcript": "Oh my god, I ain't really Kansas anymore, like it's just so hard. Listen, I know he's cheating and he's lying though, but the real question is my nigga, did you die though? I got shot in the head, but did you die though? My nigga got a nigga in his bed, but did you die though? Girl, you driving too fast, did you die though? Girl, I just bailed this class, did you die though? Next time you're feeling kind of sad and you're doing kind of bad, just sit back and ask, did I die though? No, I didn't.",
+  "acoustic_features": {
+    "mean_loudness": 0.7839,
+    "loudness_variability": 0.5783,
+    "mean_pitch": 33.58,
+    "pitch_variability": 0.3276,
+    "spectral_flux": 0.4505,
+    "sound_level_db": -21.9967
+  },
+  "metadata_caption": "mike hanlon @ the population of derry",
+  "caption_priority": "low"
+}

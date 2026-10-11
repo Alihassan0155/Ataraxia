@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Juy7Qt0lmoU",
+  "transcript": "you",
+  "acoustic_features": {
+    "mean_loudness": 1.9511,
+    "loudness_variability": 0.273,
+    "mean_pitch": 19.8369,
+    "pitch_variability": 0.4359,
+    "spectral_flux": 2.385,
+    "sound_level_db": -7.904
+  },
+  "metadata_caption": "Want a quick and easy dinner idea? Try meat and veggie skewers 🍗🫑",
+  "caption_priority": "low"
+}

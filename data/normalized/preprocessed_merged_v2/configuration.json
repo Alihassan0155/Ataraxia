@@ -1,0 +1,8 @@
+{
+  "metadata_sha256": "b1e4fac666beb2eba11807da3afa1194c5f473427c9f610d83aa01ef64607371",
+  "audit_sha256": "ecdf8c6f24ce9bc6a246210a8e7bbbb14fede6ced1731ee48f271e035f8ab236",
+  "audio": "mono 16000 Hz PCM signed 16-bit WAV",
+  "acoustics": "eGeMAPSv02 Functionals",
+  "transcripts": "Reuse existing FineVideo transcripts; otherwise full-clip audit segments, no second ASR",
+  "opensmile_version": "2.6.0"
+}

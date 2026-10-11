@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_9Agqgx0ABMY",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.8475,
+    "loudness_variability": 0.2591,
+    "mean_pitch": 34.5543,
+    "pitch_variability": 0.4399,
+    "spectral_flux": 2.1082,
+    "sound_level_db": -8.5965
+  },
+  "metadata_caption": "Subscribe to @TotallySpiesChannel 💥 A must-watch blend of comedy, action, and drama",
+  "caption_priority": "low"
+}

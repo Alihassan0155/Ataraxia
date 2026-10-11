@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_hNCPw01Dzhk",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.4438,
+    "loudness_variability": 0.3305,
+    "mean_pitch": 21.2404,
+    "pitch_variability": 0.4275,
+    "spectral_flux": 2.2309,
+    "sound_level_db": -8.3652
+  },
+  "metadata_caption": "PARENTING PRO TIPS || Fun Hacks for Everyday Challenges",
+  "caption_priority": "low"
+}

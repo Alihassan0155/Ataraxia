@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000890",
+  "transcript": "Your stomach has smooth muscle that lines its sides. And when you eat something or you don't, every once in a while, your stomach cinches off at the two ends like a bag with a hose on either end, because that's essentially what your digestive system is. And if there's nothing in there, what happens is the muscles that line the sides of your stomach, they kind of extend around the stomach in these cables. Those are always there. And if you have food in your stomach, what they do is they churn your stomach. They literally turn the muscles of your stomach like a tumbler to help break up the food that presumably you didn't chew well enough because you were eating too fast. When you don't have any food in your stomach, that churning continues. And that contraction of the muscle and the turning, literally turning over of your muscles, they don't flip over completely, but the turning over the muscles, that's what causes the stomach growling. If you don't want to be the person in the meeting, chew your food better. That's the simple solution.",
+  "acoustic_features": {
+    "mean_loudness": 0.7443,
+    "loudness_variability": 0.6516,
+    "mean_pitch": 26.3327,
+    "pitch_variability": 0.2205,
+    "spectral_flux": 0.4647,
+    "sound_level_db": -17.8915
+  },
+  "metadata_caption": "Neuroscientists: Your Stomach Growling? Here's Why",
+  "caption_priority": "low"
+}

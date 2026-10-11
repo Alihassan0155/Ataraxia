@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_kDK4nbyJpzY",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.7776,
+    "loudness_variability": 0.8228,
+    "mean_pitch": 18.2888,
+    "pitch_variability": 0.2822,
+    "spectral_flux": 1.5483,
+    "sound_level_db": -8.4064
+  },
+  "metadata_caption": "In this video, we will explore the secrets behind the art of magic and unravel the mystery behind some of the most mind-boggling tricks.",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_Bd2iI1A1Ya0",
+  "transcript": "This is a nice little piece of potassium metal, which is extremely reactive, and I'm just going to throw it into some water. What I've always thought was interesting, though, is that this is sodium metal, and it's technically less reactive than potassium. However, I think its reaction with water... It's a lot more fun!",
+  "acoustic_features": {
+    "mean_loudness": 0.6142,
+    "loudness_variability": 1.1572,
+    "mean_pitch": 30.18,
+    "pitch_variability": 0.2356,
+    "spectral_flux": 0.3363,
+    "sound_level_db": -20.9305
+  },
+  "metadata_caption": "Sodium is better than potassium",
+  "caption_priority": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_BeV8qJlFwTo",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.5947,
+    "loudness_variability": 0.9301,
+    "mean_pitch": 28.6297,
+    "pitch_variability": 0.2677,
+    "spectral_flux": 0.3407,
+    "sound_level_db": -18.6845
+  },
+  "metadata_caption": "Kitten Quest - The Final Chapter OUT NOW",
+  "caption_priority": "low"
+}

@@ -1,0 +1,16 @@
+{
+  "total": 3696,
+  "media": {
+    "full_video_decode_passed": 2,
+    "available_not_decode_validated": 3694
+  },
+  "language": {
+    "historical_target_approved": 858,
+    "pending_audio_audit": 2838
+  },
+  "provisional_selected": 0,
+  "orientation_status": "provisional_cap_passed",
+  "horizontal_selected": 0,
+  "categories": {},
+  "note": "Model language decisions are provisional, not verified truth. Non-target, mixed, uncertain and speechless clips are retained for review. No files deleted; no annotation started. Resume with identical settings. Failure records are retained; use a new output to retry failures."
+}

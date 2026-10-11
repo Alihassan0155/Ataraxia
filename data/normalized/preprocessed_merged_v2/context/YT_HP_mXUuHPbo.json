@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_HP_mXUuHPbo",
+  "transcript": "Okay, Samsung kind of broke this, but there is a way to fix it. So this is how easy swiping down into quick settings on a Samsung phone used to be. Boom. One swipe, there's my quick settings. It should always be this easy. But now the latest update for One UI changed it so that one swipe down is just notifications, but swipe down from the right corner to get to quick settings, and then swipe left and right between them, which is a little crazy. I just want to swipe down and just get my quick settings. This is bad. I don't like it. I don't know anyone who likes it. Luckily, though, there's a way to fix it. So if you swipe down from that corner and hit the corner, hit the pen icon and hit panel settings, change it from separate to together. And now when you swipe down, you'll always get the quick settings every time the way you're supposed to. Other phones, please don't copy Samsung here. Also subscribe for more actually useful phone tips.",
+  "acoustic_features": {
+    "mean_loudness": 0.851,
+    "loudness_variability": 0.8062,
+    "mean_pitch": 27.0003,
+    "pitch_variability": 0.1949,
+    "spectral_flux": 0.4821,
+    "sound_level_db": -18.3896
+  },
+  "metadata_caption": "Samsung broke this",
+  "caption_priority": "low"
+}

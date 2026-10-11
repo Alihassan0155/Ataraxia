@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_mp3Kl2JSJL0",
+  "transcript": "He's training grip on the road. Look at this. Whoa. This is a sick setup, dude. Thank you, man. You have to use your whole body to it. Oh, God. That's a lot of force, bro. You're really strong. We're just right-handed? Yeah, yeah, yeah.",
+  "acoustic_features": {
+    "mean_loudness": 0.8288,
+    "loudness_variability": 0.7518,
+    "mean_pitch": 30.7203,
+    "pitch_variability": 0.2055,
+    "spectral_flux": 0.4913,
+    "sound_level_db": -18.9188
+  },
+  "metadata_caption": "@AntonFomenko shows us his on the road grip training setup.",
+  "caption_priority": "low"
+}

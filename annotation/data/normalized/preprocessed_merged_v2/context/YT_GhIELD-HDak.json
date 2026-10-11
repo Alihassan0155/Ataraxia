@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_GhIELD-HDak",
+  "transcript": "うん",
+  "acoustic_features": {
+    "mean_loudness": 0.3665,
+    "loudness_variability": 1.1062,
+    "mean_pitch": 39.383,
+    "pitch_variability": 0.2481,
+    "spectral_flux": 0.1755,
+    "sound_level_db": -29.0676
+  },
+  "metadata_caption": "Hunter - Gatherer 🐾 🐈",
+  "caption_priority": "low"
+}

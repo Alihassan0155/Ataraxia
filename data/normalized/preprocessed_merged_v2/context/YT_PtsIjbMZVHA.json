@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_PtsIjbMZVHA",
+  "transcript": "This is the second longest train journey in the entire world and down at the end of this hall is the room where we're going to be spending the next 96 hours. This is prestige class. It is the nicest room that you can book on the train. This wraparound sofa faces this huge window and at night this wall actually pulls down and becomes a bed. There's also a tv, a little closet where you can hang your clothes, and best of all your own private bathroom with a private shower. But even though this room is super nice. Let me show you. where we spend most of the day hanging out. All the drinks at this bar are included for prestige class passengers. Then at the very back of the train there's this beautiful lounge area but the best part is up these stairs. These take you to the observation deck and there's a glass dome that actually sticks up above the rest of the train so you get a top-down view of the entire journey. Also if you're curious this train is called the Canadian by Via Rail and it runs between between Vancouver and Toronto.",
+  "acoustic_features": {
+    "mean_loudness": 0.5878,
+    "loudness_variability": 0.6319,
+    "mean_pitch": 29.8639,
+    "pitch_variability": 0.1476,
+    "spectral_flux": 0.2443,
+    "sound_level_db": -24.4915
+  },
+  "metadata_caption": "Could you spend 96 hours on this train across Canada? 😍🇨🇦",
+  "caption_priority": "low"
+}

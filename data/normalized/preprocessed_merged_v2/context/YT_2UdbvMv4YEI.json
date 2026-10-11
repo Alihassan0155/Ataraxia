@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_2UdbvMv4YEI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 1.0433,
+    "loudness_variability": 0.6286,
+    "mean_pitch": 45.3195,
+    "pitch_variability": 0.2819,
+    "spectral_flux": 0.7667,
+    "sound_level_db": -15.4923
+  },
+  "metadata_caption": "School hacks for the coolest student 📚",
+  "caption_priority": "low"
+}

@@ -1,0 +1,51 @@
+video_id,category,parent_category,file_path,language,source_dataset,local_media_available
+FV000028,Biology,Science & Technology,data/FineVideo/videos/FV000028.mp4,en,HuggingFaceFV/finevideo,False
+FV000498,Biology,Science & Technology,data/FineVideo/videos/FV000498.mp4,en,HuggingFaceFV/finevideo,False
+FV000118,Camping,Hobbies & Interests,data/FineVideo/videos/FV000118.mp4,en,HuggingFaceFV/finevideo,False
+FV000368,Camping,Hobbies & Interests,data/FineVideo/videos/FV000368.mp4,en,HuggingFaceFV/finevideo,False
+FV000386,Conservation Efforts,Science & Technology,data/FineVideo/videos/FV000386.mp4,en,HuggingFaceFV/finevideo,False
+FV000552,Conservation Efforts,Science & Technology,data/FineVideo/videos/FV000552.mp4,en,HuggingFaceFV/finevideo,False
+FV000800,Covers,Entertainment,data/FineVideo/videos/FV000800.mp4,en,HuggingFaceFV/finevideo,False
+FV001024,Covers,Entertainment,data/FineVideo/videos/FV001024.mp4,en,HuggingFaceFV/finevideo,False
+FV000808,Daily Vlogs,Entertainment,data/FineVideo/videos/FV000808.mp4,en,HuggingFaceFV/finevideo,False
+FV001019,Daily Vlogs,Entertainment,data/FineVideo/videos/FV001019.mp4,en,HuggingFaceFV/finevideo,False
+FV000035,Destination Guides,Lifestyle,data/FineVideo/videos/FV000035.mp4,en,HuggingFaceFV/finevideo,False
+FV000158,Destination Guides,Lifestyle,data/FineVideo/videos/FV000158.mp4,en,HuggingFaceFV/finevideo,False
+FV000865,Destination Guides,Lifestyle,data/FineVideo/videos/FV000865.mp4,en,HuggingFaceFV/finevideo,False
+FV000474,Game Commentary,Entertainment,data/FineVideo/videos/FV000474.mp4,en,HuggingFaceFV/finevideo,False
+FV000821,Game Commentary,Entertainment,data/FineVideo/videos/FV000821.mp4,en,HuggingFaceFV/finevideo,False
+FV000126,Game Highlights,Sports,data/FineVideo/videos/FV000126.mp4,en,HuggingFaceFV/finevideo,False
+FV001009,Game Highlights,Sports,data/FineVideo/videos/FV001009.mp4,en,HuggingFaceFV/finevideo,False
+FV000213,Gameplay Tutorials,Hobbies & Interests,data/FineVideo/videos/FV000213.mp4,en,HuggingFaceFV/finevideo,False
+FV001002,Gameplay Tutorials,Hobbies & Interests,data/FineVideo/videos/FV001002.mp4,en,HuggingFaceFV/finevideo,False
+FV000659,Makeup Tutorials,Lifestyle,data/FineVideo/videos/FV000659.mp4,en,HuggingFaceFV/finevideo,False
+FV000943,Makeup Tutorials,Lifestyle,data/FineVideo/videos/FV000943.mp4,en,HuggingFaceFV/finevideo,False
+FV000091,Mental Health Tips,Lifestyle,data/FineVideo/videos/FV000091.mp4,en,HuggingFaceFV/finevideo,False
+FV000123,Mental Health Tips,Lifestyle,data/FineVideo/videos/FV000123.mp4,en,HuggingFaceFV/finevideo,False
+FV000111,Motivational Talks,Education,data/FineVideo/videos/FV000111.mp4,en,HuggingFaceFV/finevideo,False
+FV000423,Motivational Talks,Education,data/FineVideo/videos/FV000423.mp4,en,HuggingFaceFV/finevideo,False
+FV000130,Music Videos,Entertainment,data/FineVideo/videos/FV000130.mp4,en,HuggingFaceFV/finevideo,False
+FV000156,Music Videos,Entertainment,data/FineVideo/videos/FV000156.mp4,en,HuggingFaceFV/finevideo,False
+FV000114,Parodies,Entertainment,data/FineVideo/videos/FV000114.mp4,en,HuggingFaceFV/finevideo,False
+FV000215,Parodies,Entertainment,data/FineVideo/videos/FV000215.mp4,en,HuggingFaceFV/finevideo,False
+FV000211,Physics,Science & Technology,data/FineVideo/videos/FV000211.mp4,en,HuggingFaceFV/finevideo,False
+FV000216,Physics,Science & Technology,data/FineVideo/videos/FV000216.mp4,en,HuggingFaceFV/finevideo,False
+FV000312,Pranks,Hobbies & Interests,data/FineVideo/videos/FV000312.mp4,en,HuggingFaceFV/finevideo,False
+FV000543,Pranks,Hobbies & Interests,data/FineVideo/videos/FV000543.mp4,en,HuggingFaceFV/finevideo,False
+FV000569,Science Explainers,Education,data/FineVideo/videos/FV000569.mp4,en,HuggingFaceFV/finevideo,False
+FV000919,Science Explainers,Education,data/FineVideo/videos/FV000919.mp4,en,HuggingFaceFV/finevideo,False
+FV000003,Sketches,Entertainment,data/FineVideo/videos/FV000003.mp4,en,HuggingFaceFV/finevideo,False
+FV000153,Sketches,Entertainment,data/FineVideo/videos/FV000153.mp4,en,HuggingFaceFV/finevideo,False
+FV000516,Sketches,Entertainment,data/FineVideo/videos/FV000516.mp4,en,HuggingFaceFV/finevideo,False
+FV000008,Stand-up,Entertainment,data/FineVideo/videos/FV000008.mp4,en,HuggingFaceFV/finevideo,False
+FV000057,Stand-up,Entertainment,data/FineVideo/videos/FV000057.mp4,en,HuggingFaceFV/finevideo,False
+FV000750,Storytime,Entertainment,data/FineVideo/videos/FV000750.mp4,en,HuggingFaceFV/finevideo,False
+FV000829,Storytime,Entertainment,data/FineVideo/videos/FV000829.mp4,en,HuggingFaceFV/finevideo,False
+FV000039,Training Techniques,Sports,data/FineVideo/videos/FV000039.mp4,en,HuggingFaceFV/finevideo,False
+FV000051,Training Techniques,Sports,data/FineVideo/videos/FV000051.mp4,en,HuggingFaceFV/finevideo,False
+FV000825,Training Techniques,Sports,data/FineVideo/videos/FV000825.mp4,en,HuggingFaceFV/finevideo,False
+FV000315,Travel Vlogs,Entertainment,data/FineVideo/videos/FV000315.mp4,en,HuggingFaceFV/finevideo,False
+FV000657,Travel Vlogs,Entertainment,data/FineVideo/videos/FV000657.mp4,en,HuggingFaceFV/finevideo,False
+FV000112,Workout Routines,Lifestyle,data/FineVideo/videos/FV000112.mp4,en,HuggingFaceFV/finevideo,False
+FV000242,Workout Routines,Lifestyle,data/FineVideo/videos/FV000242.mp4,en,HuggingFaceFV/finevideo,False
+FV000886,Workout Routines,Lifestyle,data/FineVideo/videos/FV000886.mp4,en,HuggingFaceFV/finevideo,False

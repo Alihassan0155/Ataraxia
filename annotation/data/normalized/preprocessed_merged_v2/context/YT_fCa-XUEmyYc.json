@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_fCa-XUEmyYc",
+  "transcript": "Congratulations. By finding this video, you have survived into the second round of the program. Please go to the Space Weather Prediction Center website at swpc.noaa.gov and copy the solar wind speed along with the magnetic field and paste both into the comments below. Under no circumstances should your comment include the radio flux. Doing so or providing any other information besides the solar wind speed and magnetic field will lead to immediate termination from the program. If you are confused or have no memory of entering into the program, be advised, there is no mistake. You are a- member of the program. Knowledge of your membership or methods of survival are considered non-essential. Please listen to the following audio briefing and await further instructions.",
+  "acoustic_features": {
+    "mean_loudness": 1.9325,
+    "loudness_variability": 0.3608,
+    "mean_pitch": 24.8944,
+    "pitch_variability": 0.1782,
+    "spectral_flux": 1.8462,
+    "sound_level_db": -11.5884
+  },
+  "metadata_caption": "congratulations.",
+  "caption_priority": "low"
+}

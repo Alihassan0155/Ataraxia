@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_0-R7w6V3a0Y",
+  "transcript": "Massive news! We have launched our own ice team! And to celebrate we're gonna drop this giant can onto that exercise ball pit! Three! Two! One! Dropping! Ooooooh! We need a new fence.",
+  "acoustic_features": {
+    "mean_loudness": 1.9295,
+    "loudness_variability": 0.5862,
+    "mean_pitch": 42.1601,
+    "pitch_variability": 0.1583,
+    "spectral_flux": 1.0635,
+    "sound_level_db": -11.8045
+  },
+  "metadata_caption": "No sugar, all taste, Ridiculously Good!",
+  "caption_priority": "low"
+}

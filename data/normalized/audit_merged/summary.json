@@ -1,0 +1,97 @@
+{
+  "total": 4320,
+  "unique_ids": 4320,
+  "input_overlap": 0,
+  "media": {
+    "full_video_decode_passed": 4320
+  },
+  "language": {
+    "target_language_candidate": 2345,
+    "review_low_confidence": 968,
+    "review_no_detected_speech": 905,
+    "review_non_target_language": 94,
+    "review_mixed_language": 8
+  },
+  "provisional_selected": 2345,
+  "horizontal_selected": 230,
+  "orientation_status": "provisional_cap_passed",
+  "review_queue_rows": 2075,
+  "categories": {
+    "DIY, Crafts & Outdoor Hobbies": 15,
+    "Comedy": 379,
+    "Lifestyle, Vlogs & Relationships": 301,
+    "Mental Health & Motivation": 51,
+    "Science & Technology": 233,
+    "Sports & Fitness": 203,
+    "Gaming": 156,
+    "Travel & Adventure": 130,
+    "Nature, Animals & Conservation": 59,
+    "Music & Dance": 105,
+    "Beauty & Style": 73,
+    "Religion & Spirituality": 25,
+    "News, Politics & Social Issues": 33,
+    "Food & Cooking": 65,
+    "Entertainment & Animation": 268,
+    "Education": 107,
+    "Unmapped / Needs Review": 97,
+    "Vehicles": 10,
+    "ASMR": 35
+  },
+  "full_category_distribution": {
+    "DIY, Crafts & Outdoor Hobbies": 22,
+    "Comedy": 541,
+    "Lifestyle, Vlogs & Relationships": 524,
+    "Mental Health & Motivation": 54,
+    "Science & Technology": 283,
+    "Sports & Fitness": 411,
+    "Gaming": 213,
+    "Travel & Adventure": 235,
+    "Nature, Animals & Conservation": 105,
+    "Music & Dance": 299,
+    "Beauty & Style": 153,
+    "News, Politics & Social Issues": 139,
+    "Religion & Spirituality": 100,
+    "Entertainment & Animation": 584,
+    "Food & Cooking": 113,
+    "Education": 165,
+    "Unmapped / Needs Review": 306,
+    "Vehicles": 29,
+    "ASMR": 44
+  },
+  "orientation": {
+    "horizontal": 287,
+    "vertical": 4010,
+    "square": 23
+  },
+  "duplicate_groups": [],
+  "sources": [
+    {
+      "folder": "data\\normalized\\audit_v2",
+      "input_count": 3696,
+      "sha256": {
+        "configuration.json": "ceaf9160acf036b89c2f2a1247040d50d7603e7f9d1ca18cfc7a8238b7d580e2",
+        "checkpoint.jsonl": "1aafa68884bff80e8c80c03bb74405ec906b39178bb9c1f8a48140ff1b3cb9cf",
+        "validation_manifest.csv": "bf4c729afe7068e6ade3c664cf9b9c2e94c15afb9139d317a7e736c3546d48b5",
+        "summary.json": "c80f1cc0fc39efd075bdc09d5848a6521b5db370928300748d6ffbb3e39afa4c"
+      }
+    },
+    {
+      "folder": "data\\normalized\\audit_yt_master_new",
+      "input_count": 624,
+      "sha256": {
+        "configuration.json": "57d00e6e2bfd440f63672d80e7a32d08ad3ba12713861a301354d66de132e26b",
+        "checkpoint.jsonl": "9ce0f74053ee42ce3345bb28ad93099b970431054a9478f1c451aa045a9e80d4",
+        "validation_manifest.csv": "2d5ca61659f548d82768ca8c2120ac24d7d59e5d7d2c865946db4d39db219b16",
+        "summary.json": "9599fea5af1818dfc2fb712dd01f6ae46eb30c8e5daaac97d57373211e4a308f"
+      }
+    }
+  ],
+  "note": "Active combined audit. Language screening is provisional; unmapped/conflicting categories still need review. Provisional selection has not applied category-review decisions. Original audits and pilot evidence preserved; no preprocessing or annotation launched.",
+  "active_selection": {
+    "path": "data/normalized/selected_merged_v2/selected_metadata.csv",
+    "policy": "non_target_only",
+    "selected": 4226,
+    "excluded_non_target": 94,
+    "heldout_preserved": true
+  }
+}

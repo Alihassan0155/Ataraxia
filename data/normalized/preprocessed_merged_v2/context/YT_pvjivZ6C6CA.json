@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_pvjivZ6C6CA",
+  "transcript": "So I took the same picture from every single iPhone from the 17 to the 1 and it was in broad daylight. Turns out anything can handle broad daylight. So now, let's see about low light.",
+  "acoustic_features": {
+    "mean_loudness": 0.6329,
+    "loudness_variability": 0.6196,
+    "mean_pitch": 30.0692,
+    "pitch_variability": 0.2661,
+    "spectral_flux": 0.3843,
+    "sound_level_db": -20.8738
+  },
+  "metadata_caption": "Every iPhone Camera vs LOW Light",
+  "caption_priority": "low"
+}

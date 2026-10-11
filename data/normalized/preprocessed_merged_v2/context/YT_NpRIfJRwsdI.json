@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_NpRIfJRwsdI",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 2.1401,
+    "loudness_variability": 0.3914,
+    "mean_pitch": 29.8626,
+    "pitch_variability": 0.4412,
+    "spectral_flux": 1.7686,
+    "sound_level_db": -10.1682
+  },
+  "metadata_caption": "Coffee gummies are the new cup of coffee ☕️🧸",
+  "caption_priority": "low"
+}

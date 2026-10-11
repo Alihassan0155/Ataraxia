@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_fS-kTUefLNs",
+  "transcript": "That's right there.",
+  "acoustic_features": {
+    "mean_loudness": 0.9137,
+    "loudness_variability": 0.5789,
+    "mean_pitch": 39.4226,
+    "pitch_variability": 0.1871,
+    "spectral_flux": 0.3258,
+    "sound_level_db": -25.9333
+  },
+  "metadata_caption": "Tracktor and Truck pulling wild rides, wrecks and fires from pulls across the United States during the 2021 seasons.\n#truckpulling #tracktor #wildrides #viral",
+  "caption_priority": "low"
+}

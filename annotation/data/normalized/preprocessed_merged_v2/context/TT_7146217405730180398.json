@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7146217405730180398",
+  "transcript": "Terima kasih. Let's go.",
+  "acoustic_features": {
+    "mean_loudness": 1.6915,
+    "loudness_variability": 0.3326,
+    "mean_pitch": 39.8291,
+    "pitch_variability": 0.2311,
+    "spectral_flux": 1.0757,
+    "sound_level_db": -14.2813
+  },
+  "metadata_caption": "secret nyc show was a success #stevelacy #concert #nyc #geminirights",
+  "caption_priority": "low"
+}

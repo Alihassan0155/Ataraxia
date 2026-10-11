@@ -1,0 +1,1 @@
+Let's plug it in. It's going to say, hey, I see you've plugged in a new device. And it's going to load in the appropriate drivers. You'll notice that this scanner build... Whoa. Moving right along. That must be why we're not shipping Windows 98 yet. Absolutely. Absolutely.

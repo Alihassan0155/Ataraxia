@@ -1,0 +1,14 @@
+{
+  "video_id": "YT_xcO1yCAO-pI",
+  "transcript": "What I have here just looks like a generic little bottle of water, but it actually cost me over a hundred dollars. This is because it's a very special form of water, and instead of being the typical H2O, it's D2O. The D in this actually stands for deuterium, and it's a heavier isotope of hydrogen. This causes the D2O to be about 11% heavier than normal H2O, and it's commonly referred to as heavy water. What I really find interesting though is that besides just being heavier, it's also supposed to taste different and I've been really wanting to try it out. It's actually kind of sweet. It's like there's a little bit of sugar in it.",
+  "acoustic_features": {
+    "mean_loudness": 0.7765,
+    "loudness_variability": 1.0712,
+    "mean_pitch": 29.1605,
+    "pitch_variability": 0.1853,
+    "spectral_flux": 0.4862,
+    "sound_level_db": -17.8653
+  },
+  "metadata_caption": "Drinking heavy water",
+  "caption_priority": "low"
+}

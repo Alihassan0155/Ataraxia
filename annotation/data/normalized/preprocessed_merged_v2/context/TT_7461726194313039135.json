@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7461726194313039135",
+  "transcript": "",
+  "acoustic_features": {
+    "mean_loudness": 0.0678,
+    "loudness_variability": 0.9775,
+    "mean_pitch": 18.8432,
+    "pitch_variability": 0.6954,
+    "spectral_flux": 0.0305,
+    "sound_level_db": -43.1626
+  },
+  "metadata_caption": "",
+  "caption_priority": "low"
+}

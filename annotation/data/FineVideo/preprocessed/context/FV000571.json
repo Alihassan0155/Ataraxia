@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000571",
+  "transcript": "One time on Ayahuasca, again I don't like to talk about Ayahuasca, I had the thought, if you think you can beat this life, spin the wheel. What do you think the odds of you ending up one out of eight billion people? Like, what are the fucking odds that you will have a better day-to-day experience? Oh, that's great. Talent? Yeah, yeah, yeah. Looks? Yeah. Relationships? Yeah. Mind? Yeah. Like, what are the odds I beat this? I'd be like, get that wheel out of here.",
+  "acoustic_features": {
+    "mean_loudness": 0.3767,
+    "loudness_variability": 0.6438,
+    "mean_pitch": 28.674,
+    "pitch_variability": 0.2355,
+    "spectral_flux": 0.0971,
+    "sound_level_db": -31.7891
+  },
+  "metadata_caption": "Think you can beat this life? SPIN THE WHEEL",
+  "caption_priority": "low"
+}

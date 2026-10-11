@@ -1,0 +1,14 @@
+{
+  "video_id": "FV000041",
+  "transcript": "But on this one, Leonard Baum does, I'm sorry, I keep saying Leonard Baum. Cleveland does a good job of correcting himself. No lineman wants both his feet in line. That should never happen with the old lineman. Look at him correct himself. Correct himself, drop his hips. Drop them hips right there and stop the penetration. Got to be able to correct yourself in the middle of the play. Because if you don't correct yourself right there, he got a straight line to the quarterback. And then once he corrects his feet, drops his hips, stops the pressure, and gives him just enough room to be able to stand in there and throw it.",
+  "acoustic_features": {
+    "mean_loudness": 0.3486,
+    "loudness_variability": 1.1497,
+    "mean_pitch": 27.2806,
+    "pitch_variability": 0.134,
+    "spectral_flux": 0.1362,
+    "sound_level_db": -27.0039
+  },
+  "metadata_caption": "Mastering Lineman Techniques  Correcting Feet and Dropping Hips for Ultimate Quarterback Protection",
+  "caption_priority": "low"
+}

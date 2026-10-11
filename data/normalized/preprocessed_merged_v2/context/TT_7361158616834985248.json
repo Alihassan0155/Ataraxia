@@ -1,0 +1,14 @@
+{
+  "video_id": "TT_7361158616834985248",
+  "transcript": "Taylor Swift",
+  "acoustic_features": {
+    "mean_loudness": 0.6813,
+    "loudness_variability": 0.511,
+    "mean_pitch": 46.5752,
+    "pitch_variability": 0.1815,
+    "spectral_flux": 0.1962,
+    "sound_level_db": -29.4742
+  },
+  "metadata_caption": "we love you @Sexyy Red  #stitch #foryoupage #greenscreen #sexy #florida #taylorswift ",
+  "caption_priority": "low"
+}
