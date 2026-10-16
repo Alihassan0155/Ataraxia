@@ -19,3 +19,8 @@ Safe package check:
 ```powershell
 .\.venv-qwen-cuda\Scripts\python.exe -m ataraxia doctor
 ```
+
+Distributed GPU setup/run commands and Windows SSH/SMB configuration are in
+[the distributed guide](../docs/distributed_gpu_annotation.md).
+Use `distributed.ps1 health`, `init`, `run`, `status`, `stop`, `abort`, `resume`,
+and `verify-smoke`. Initialization and health checks do not start inference.

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "command": ".\\.venv-qwen-cuda\\Scripts\\python.exe -m unittest discover -s .\\semantic_pipeline\\tests -v",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "safe_cli_help_exit_code": 0,
+  "real_regression_source_run": "semantic_cuda_v3",
+  "live_retry_final_report": "runs/semantic_evidence_fix_v7/reports/targeted_retry.json",
+  "scope": ["FV000002", "FV000005"],
+  "model_downloads_executed": false,
+  "full_dataset_annotation_started": false
+}

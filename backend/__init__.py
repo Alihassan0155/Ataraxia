@@ -1,0 +1,1 @@
+"""Ataraxia application backend."""

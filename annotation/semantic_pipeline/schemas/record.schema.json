@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ataraxia completed semantic record v1",
+  "type": "object",
+  "required": ["schema_version", "video_id", "status", "source_fingerprint", "run_fingerprint", "semantic", "semantic_description", "source_references", "source_hashes", "extractor", "extraction_prompt_version", "definitions", "taxonomy_version", "template_version", "embedding", "embedding_input_path", "embedding_input_sha256", "semantic_metadata_path", "semantic_metadata_sha256", "extracted_at", "completed_at", "quality", "language_provenance", "transcript_budget", "gemini_prompt_provenance"],
+  "properties": {
+    "schema_version": {"const": "semantic-record-v1"},
+    "video_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
+    "status": {"const": "complete"},
+    "source_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "run_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "semantic": {"type": "object"},
+    "semantic_description": {"type": "string", "minLength": 20},
+    "source_references": {"type": "object"},
+    "source_hashes": {"type": "object"},
+    "extractor": {"type": "object"},
+    "extraction_prompt_version": {"type": "string"},
+    "definitions": {"type": "object"},
+    "taxonomy_version": {"type": "string"},
+    "template_version": {"type": "string"},
+    "quality": {"type": "object"},
+    "language_provenance": {"type": "object"},
+    "transcript_budget": {"type": "object"},
+    "gemini_prompt_provenance": {"type": "object"},
+    "embedding_input_path": {"type": "string"},
+    "embedding_input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "semantic_metadata_path": {"type": "string"},
+    "semantic_metadata_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "extracted_at": {"type": "string", "format": "date-time"},
+    "completed_at": {"type": "string", "format": "date-time"},
+    "embedding": {
+      "type": "object",
+      "required": ["checkpoint", "revision", "dimensions", "path", "sha256", "output_dtype"],
+      "properties": {
+        "checkpoint": {"const": "BAAI/bge-m3"},
+        "revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "dimensions": {"const": 1024},
+        "output_dtype": {"const": "float32"},
+        "path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}
