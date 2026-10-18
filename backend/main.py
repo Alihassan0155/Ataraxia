@@ -1,6 +1,8 @@
 import os
+import boto3
 
 from dotenv import load_dotenv
+from botocore.config import Config
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, EmailStr, Field
@@ -15,6 +17,23 @@ if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("SUPABASE_URL and SUPABASE_KEY must be set in backend/.env")
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+AWS_REGION = os.getenv("AWS_REGION")
+S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
+
+if not AWS_REGION or not S3_BUCKET_NAME:
+    raise RuntimeError("AWS_REGION and S3_BUCKET_NAME must be set in backend/.env")
+
+s3 = boto3.client(
+    "s3",
+    region_name=AWS_REGION,
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    config=Config(
+        signature_version="s3v4",
+        s3={"addressing_style": "virtual"},
+    ),
+)
 
 app = FastAPI(
     title="Ataraxia API",
@@ -54,10 +73,7 @@ def health_check():
 @app.post("/auth/signup")
 def signup(request: AuthRequest):
     try:
-        response = supabase.auth.sign_up({
-            "email": str(request.email),
-            "password": request.password
-        })
+        response = supabase.auth.sign_up({"email": str(request.email), "password": request.password })
 
         if response.user is None:
             raise HTTPException( status_code=400, detail="Signup could not be completed.")
@@ -173,3 +189,75 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
     except Exception:
         raise HTTPException( status_code=401, detail="Invalid or expired access token.")
 
+
+@app.get("/videos/{video_key}/playback")
+def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredentials = Depends(security),):
+    # Verify that the user has a valid Supabase session.
+    try:
+        response = supabase.auth.get_user(credentials.credentials)
+
+        if response.user is None:
+            raise HTTPException(status_code=401, detail="Invalid or expired access token.",)
+
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=401, detail="Invalid or expired access token.",)
+
+    # Allow only the video uploaded for our initial playback test.
+    if video_key != "_bjglEyMaeo.mp4":
+        raise HTTPException(status_code=404, detail="Video not found.",)
+
+    try:
+        playback_url = s3.generate_presigned_url(
+            "get_object",
+            Params={"Bucket": S3_BUCKET_NAME, "Key": video_key,},
+            ExpiresIn=300,
+        )
+
+        return { "video_key": video_key, "playback_url": playback_url, "expires_in": 300,}
+
+    except Exception:
+        raise HTTPException(status_code=500, detail="Could not generate video playback URL.",)
+
+
+
+@app.get("/videos/feed")
+def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security),):
+    # Verify that the user has a valid Supabase session.
+    try:
+        response = supabase.auth.get_user(credentials.credentials)
+
+        if response.user is None:
+            raise HTTPException(status_code=401, detail="Invalid or expired access token.",)
+
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=401, detail="Invalid or expired access token.",)
+
+    videos = []
+
+    try:
+        paginator = s3.get_paginator("list_objects_v2")
+
+        for page in paginator.paginate(Bucket=S3_BUCKET_NAME):
+            for item in page.get("Contents", []):
+                video_key = item["Key"]
+
+                if not video_key.lower().endswith(".mp4"):
+                    continue
+
+                playback_url = s3.generate_presigned_url(
+                    "get_object",
+                    Params={ "Bucket": S3_BUCKET_NAME, "Key": video_key,},
+                    ExpiresIn=300,
+                )
+
+                videos.append({ "video_key": video_key, "playback_url": playback_url,})
+
+        videos.sort(key=lambda video: video["video_key"].lower())
+        return {"videos": videos,"count": len(videos),}
+
+    except Exception:
+        raise HTTPException(status_code=500, detail="Could not load the video feed.",)
