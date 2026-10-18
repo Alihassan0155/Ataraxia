@@ -101,6 +101,11 @@ def complete_record(run, path, frozen):
         raise ValueError('Embedding file hash mismatch')
     validate_array(ep, emb['dimensions'], cfg['normalization_tolerance'])
     taxonomy, template = read(run/'definitions/taxonomy'), read(run/'definitions/template')
+    if frozen['config']['extractor'].get('category_policy')=='canonical-id-v1':
+        from .category_ids import validate_selection
+        validate_selection(record,taxonomy)
+        if record.get('category_selection')!=semantic.get('category_selection'):
+            raise ValueError('Completed record differs from metadata category selection')
     if record['taxonomy_version'] != taxonomy['version'] or record['template_version'] != template['version']:
         raise ValueError('Taxonomy/template version mismatch')
     data = record['semantic']

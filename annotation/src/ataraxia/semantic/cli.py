@@ -39,8 +39,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=('run', 'status', 'inspect', 'download',
                         'pause', 'resume', 'stop', 'retry-failed', 'rebuild-manifest', 'retry-cached'))
-    parser.add_argument('--run', default='semantic_v1')
-    parser.add_argument('--config', default='semantic_pipeline/configs/pipeline.json')
+    parser.add_argument('--run', default='semantic_category_ids_v13')
+    parser.add_argument('--config', default='semantic_pipeline/configs/pipeline_v13.json')
     parser.add_argument('--video-id')
     parser.add_argument('--video-ids', nargs='+')
     parser.add_argument('--source-run')

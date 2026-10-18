@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 import numpy as np
 
-from backend.video_data.artifacts import Reader, fingerprint, validate_vector, canonical, entity, context_entity, under
+from backend.video_data.artifacts import Reader, fingerprint, validate_vector, canonical, entity, context_entity, under, embedding_entity
 from backend.video_data.__main__ import synchronize
 from backend.video_data.config import DatabaseSettings, TABLES
 from backend.video_data.repository import REQUIRED, compatibility, Repository
@@ -120,6 +120,38 @@ def fixture(root, name='fixture_run', run_fingerprint='a'*64):
 
 
 class VideoDataTests(unittest.TestCase):
+    def test_embedding_identity_duplicate_import_is_idempotent(self):
+        record={'embedding':{'checkpoint':'model','revision':'rev1'},
+                'template_version':'v1','embedding_input_sha256':'a'*64}
+        vector=np.zeros(1024,dtype=np.float32);vector[0]=1
+        first=embedding_entity('FVTEST1','semantic','run',record,vector)
+        duplicate=embedding_entity('FVTEST1','semantic','run',copy.deepcopy(record),vector.copy())
+        self.assertEqual(first,duplicate)
+        self.assertNotEqual(first['key'],'semantic')
+        self.assertEqual(first['columns']['semantic_id'],'semantic')
+        repo=FakeRepository()
+        self.assertEqual(repo.put_bundle([first])['inserted'],1)
+        self.assertEqual(repo.put_bundle([duplicate])['skipped'],1)
+        self.assertEqual(len(repo.rows),1)
+
+    def test_embedding_versions_share_semantic_fk_but_have_distinct_ids(self):
+        record={'embedding':{'checkpoint':'model','revision':'rev1'},
+                'template_version':'v1','embedding_input_sha256':'a'*64}
+        vector=np.zeros(1024,dtype=np.float32);vector[0]=1
+        versions=[embedding_entity('FVTEST1','semantic','run',record,vector)]
+        for field in ('checkpoint','revision','template_version','embedding_input_sha256','run_id'):
+            changed=copy.deepcopy(record)
+            run='run2' if field=='run_id' else 'run'
+            if field in ('checkpoint','revision'):changed['embedding'][field]+='-new'
+            elif field!='run_id':changed[field]='new'
+            versions.append(embedding_entity('FVTEST1','semantic',run,changed,vector))
+        self.assertEqual(len({v['key'] for v in versions}),len(versions))
+        self.assertEqual({v['columns']['semantic_id'] for v in versions},{'semantic'})
+        repo=FakeRepository()
+        self.assertEqual(repo.put_bundle(versions)['inserted'],len(versions))
+        self.assertEqual(repo.put_bundle(versions)['skipped'],len(versions))
+        self.assertNotEqual(versions[0]['key'],embedding_entity('FVTEST1','other','run',record,vector)['key'])
+
     def test_nonfinite_acoustics_become_explicit_missing_values_only_in_import(self):
         original={'pitch':float('nan'),'loudness':1.2}
         row=context_entity('FVTEST1',{}, {},'Transcript',original)
@@ -156,6 +188,9 @@ class VideoDataTests(unittest.TestCase):
             self.assertEqual(first['failed'],0,first['issues'])
             self.assertEqual(first['valid_semantic_records'],1)
             self.assertEqual(first['models_executed'],0)
+            embedding=next(v for (t,_),v in target.rows.items() if t=='video_embeddings')
+            self.assertNotEqual(embedding['key'],embedding['columns']['semantic_id'])
+            self.assertIn(('video_semantics',embedding['columns']['semantic_id']),target.rows)
             count=len(target.rows)
             second=synchronize(root,[run],[prediction],metadata,target)
             self.assertEqual(len(target.rows),count)

@@ -80,6 +80,13 @@ class Repository:
                 raise ValueError('Invalid logical table mapping')
             self.mapping.update(mapping)
         inventory = inspect_schema(conn)
+        # The clean catalogue deliberately retains only one current version. A
+        # historical scan must never repopulate it after an approved replacement.
+        # The view is installed only by the separately reviewed catalogue SQL.
+        if any(c['schema']==schema and c['table']=='video_catalogue_current'
+               for c in inventory['columns']):
+            raise ValueError('Clean catalogue is active: legacy historical sync is disabled. '
+                             'Use sync --current-only to prepare a reviewed catalogue delta.')
         report = compatibility(inventory,schema,self.mapping)
         if not report['compatible']:
             raise ValueError('Existing database schema is incompatible; run inspect and review schema_report.json first')
@@ -122,8 +129,31 @@ class Repository:
         query = sql.SQL('INSERT INTO {} ({}) VALUES ({}) ON CONFLICT ({}) ').format(
             table,sql.SQL(',').join(map(sql.Identifier,columns)),sql.SQL(',').join(placeholders),sql.Identifier(key_name))
         if logical=='videos':
-            updates = [sql.SQL('{}=EXCLUDED.{}').format(sql.Identifier(k),sql.Identifier(k)) for k in columns if k!=key_name]
+            # Evaluate protection against the locked conflict row, not the earlier
+            # SELECT: a concurrent storage update must also survive this upsert.
+            protected = sql.SQL("({}.availability='s3_verified' AND left({}.media_uri,5)='s3://')").format(table,table)
+            updates = []
+            for k in columns:
+                if k==key_name:
+                    continue
+                if k in ('media_uri','availability'):
+                    value=sql.SQL('CASE WHEN {} THEN {}.{} ELSE EXCLUDED.{} END').format(
+                        protected,table,sql.Identifier(k),sql.Identifier(k))
+                elif k=='media_sha256':
+                    # Different bytes cannot inherit a verified object's location.
+                    value=sql.SQL('CASE WHEN {} THEN {}.{} ELSE EXCLUDED.{} END').format(
+                        protected,table,sql.Identifier(k),sql.Identifier(k))
+                else:
+                    value=sql.SQL('EXCLUDED.{}').format(sql.Identifier(k))
+                updates.append(sql.SQL('{}={}').format(sql.Identifier(k),value))
+            # A content change requires explicit storage reconciliation, not a
+            # silently stale verified location or mismatched metadata payload.
+            cursor.execute(sql.SQL('SELECT media_sha256,availability,media_uri FROM {} WHERE video_id=%s FOR UPDATE').format(table),(item['key'],))
+            storage=cursor.fetchone()
+            if storage and storage[1]=='s3_verified' and (storage[2] or '').startswith('s3://') and storage[0]!=columns.get('media_sha256'):
+                raise ValueError('Verified S3 media hash changed; reconcile storage explicitly')
             query += sql.SQL('DO UPDATE SET {}').format(sql.SQL(',').join(updates))
+            query += sql.SQL(' WHERE NOT {} OR {}.media_sha256 IS NOT DISTINCT FROM EXCLUDED.media_sha256').format(protected,table)
         else:
             query += sql.SQL('DO NOTHING')
         cursor.execute(query,values)

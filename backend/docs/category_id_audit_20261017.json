@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-17",
+  "canonical_categories": [
+    {
+      "id": "1083d497203d65e8ffe06b930f19b761070cb247e8afe448fb72f4bd8bebe42c",
+      "name": "ASMR"
+    },
+    {
+      "id": "8f879b9ccf813bc925606f3f37bef44ab3717d9d69883860ed366e0f02a1eb05",
+      "name": "Beauty & Style"
+    },
+    {
+      "id": "8a52e19efbc500941466763dc45e2d8af3115fb87cc7afb9502f4ac4dc95cb87",
+      "name": "Comedy"
+    },
+    {
+      "id": "dddcb898a35073cfc7f20c863c2cc78bc27f24f56873076037b34f8a1576e1fd",
+      "name": "DIY, Crafts & Outdoor Hobbies"
+    },
+    {
+      "id": "4ca1c5ea34037e419d49bcd9c3671cf81a64e6e12c155dfed8069b93dfac5a52",
+      "name": "Education"
+    },
+    {
+      "id": "aa77e515bf5de8ed1d33c42b20afc0a10e041c33b491282a7e36d1f015b2aee8",
+      "name": "Entertainment & Animation"
+    },
+    {
+      "id": "db190265cae025ed5ec25aa8215358300c0f7d081738f3660e1bac60104ba403",
+      "name": "Food & Cooking"
+    },
+    {
+      "id": "41fa1620b1e46fcd90cdbc87ac09cf9c0243c83fd4b6fbce220714e0ecc1b849",
+      "name": "Gaming"
+    },
+    {
+      "id": "1768e7a34ee1d67f27f9a400bdcc183538a14f9e503f3e685903bf5204efd83e",
+      "name": "Lifestyle, Vlogs & Relationships"
+    },
+    {
+      "id": "549fce1da05f2835592a8b26e4b823499cdef4e1165182516ff3abac0c6014f1",
+      "name": "Mental Health & Motivation"
+    },
+    {
+      "id": "a2e2b17677ed302f11e146eda1eb3f241f29e7c275e71cfb48879850e688f9ae",
+      "name": "Music & Dance"
+    },
+    {
+      "id": "c47f1b071e954a0fd57b3bb78617200af1ed76a16b86178e11dee58e543e3a91",
+      "name": "Nature, Animals & Conservation"
+    },
+    {
+      "id": "610f715b25c25a2fc03bc09d00fbd8e1269296915ccac46067abd2f528bd8f06",
+      "name": "News, Politics & Social Issues"
+    },
+    {
+      "id": "a8c7f0ba2c847593b25bd15d6e1227a3bdca3ef713d97ff9754a6a904b845818",
+      "name": "Religion & Spirituality"
+    },
+    {
+      "id": "0c1dd14b55d59863f76cd3ac674fec6abc60fdb4344961780bbcfadd2d238a2c",
+      "name": "Science & Technology"
+    },
+    {
+      "id": "8954269dd1fa62d1f4f2e8f66af7f37ef36a7c8aa16ab6b5dc136f8857e73bac",
+      "name": "Sports & Fitness"
+    },
+    {
+      "id": "6f097ad48cc00777b4825048c49d0c0ddcb09f2f77c9cd42d72dbc39028fe8a0",
+      "name": "Travel & Adventure"
+    },
+    {
+      "id": "40056078a33134f108cf7cb602e195df4a006c37c341a035816bdd7d5d101ab7",
+      "name": "Vehicles"
+    },
+    {
+      "id": "63e6dffd44d2c2c7e0c5c80c0c7d54735d9a0e2e62d48b3448391148d18cce4f",
+      "name": "unknown"
+    }
+  ],
+  "database_semantics_inspected": 910,
+  "database_noncanonical_labels": 0,
+  "database_review_required": 0,
+  "local_completed_records_inspected": 1019,
+  "local_mapping_status": {
+    "canonical_name": 1019
+  },
+  "local_label_distribution": {
+    "Comedy": 358,
+    "News, Politics & Social Issues": 36,
+    "Mental Health & Motivation": 55,
+    "Sports & Fitness": 131,
+    "Science & Technology": 57,
+    "Religion & Spirituality": 30,
+    "Travel & Adventure": 50,
+    "Lifestyle, Vlogs & Relationships": 53,
+    "Nature, Animals & Conservation": 43,
+    "Music & Dance": 79,
+    "Entertainment & Animation": 10,
+    "DIY, Crafts & Outdoor Hobbies": 4,
+    "Gaming": 77,
+    "Beauty & Style": 22,
+    "Education": 6,
+    "Vehicles": 3,
+    "Food & Cooking": 4,
+    "unknown": 1
+  },
+  "local_review_required": [],
+  "database_writes": 0,
+  "model_calls": 0,
+  "existing_payloads_modified": 0
+}

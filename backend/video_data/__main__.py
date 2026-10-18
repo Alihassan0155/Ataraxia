@@ -176,8 +176,25 @@ def main(argv=None):
     parser.add_argument('--apply',action='store_true',help='WRITE existing database only after explicit approval')
     parser.add_argument('--allow-live-writes',action='store_true',help='Second explicit confirmation for approved writes')
     parser.add_argument('--watch',action='store_true',help='Foreground incremental polling until Ctrl+C')
+    parser.add_argument('--current-only',action='store_true',
+                        help='READ ONLY: prepare a current catalogue delta for existing DB video IDs; no live apply')
     parser.add_argument('--poll-seconds',type=int,default=60)
     args = parser.parse_args(argv)
+    if args.current_only:
+        if args.command!='sync' or args.apply or args.allow_live_writes or args.watch or args.limit or args.run or args.affect or args.table_map or args.env_file:
+            parser.error('--current-only is a read-only, single-pass catalogue planner; apply/watch/custom-source flags are not supported')
+        from .catalogue import capture, prepare, export_sql
+        # No default-directory overwrite: each planning snapshot must be immutable.
+        target=args.report_dir
+        if target.exists():
+            parser.error('--current-only requires a new --report-dir to preserve earlier snapshots')
+        target.mkdir(parents=True,exist_ok=False)
+        capture(target/'production_snapshot')
+        result=prepare(target/'production_snapshot',target/'current_stage',args.annotation_root,'imported')
+        export_sql(target/'production_snapshot',target/'current_stage',target/'sql_review')
+        print(json.dumps(result,indent=2,ensure_ascii=False))
+        print('READ ONLY planning complete. SQL is rollback-only; no production writes executed.')
+        return 0
     if args.limit<0 or args.poll_seconds<10:
         parser.error('Limit must be nonnegative; poll interval at least 10 seconds')
     if args.apply != args.allow_live_writes:

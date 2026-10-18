@@ -1,0 +1,51 @@
+{
+  "pipeline_version": "semantic-v13-canonical-category-id",
+  "schema_version": "semantic-record-v2",
+  "extraction_prompt_version": "semantic-extraction-v6-category-ids",
+  "gemini_sources": [
+    "runs/gemini_full_remaining_20261012/predictions/gemini/annotations.jsonl"
+  ],
+  "metadata_csv": "data/normalized/preprocessed_merged_v2/ready_metadata.csv",
+  "context_dir": "data/normalized/preprocessed_merged_v2/context",
+  "transcript_dir": "data/normalized/preprocessed_merged_v2/transcripts",
+  "taxonomy": "semantic_pipeline/configs/taxonomy_category_ids_v1.json",
+  "prompt": "semantic_pipeline/configs/extraction_prompt_v6_category_ids.txt",
+  "template": "semantic_pipeline/configs/embedding_template.json",
+  "schema": "semantic_pipeline/schemas/semantic_metadata.v2.schema.json",
+  "record_schema": "semantic_pipeline/schemas/record.v2.schema.json",
+  "cache_dir": ".cache/semantic_models",
+  "gpu_lock": "C:/ProgramData/AtaraxiaWorker/gpu0.lock",
+  "extractor": {
+    "normalization_policy": "practical-v2-summary",
+    "evidence_policy": "deterministic-exact-v1",
+    "summary_repair_attempts": 0,
+    "checkpoint": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "quantization": "nf4-double",
+    "max_input_tokens": 8192,
+    "max_new_tokens": 4096,
+    "batch_size": 1,
+    "transcript_max_characters": 6000,
+    "do_sample": false,
+    "seed": 20261013,
+    "repair_attempts": 0,
+    "repair_format": "full-json",
+    "category_policy": "canonical-id-v1"
+  },
+  "embedder": {
+    "checkpoint": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "precision": "float16",
+    "batch_size": 4,
+    "max_tokens": 8192,
+    "expected_dimensions": 1024,
+    "output_dtype": "float32",
+    "normalization_tolerance": 0.0001,
+    "overlength_policy": "fail_no_silent_truncation"
+  },
+  "memory_mode": "staged",
+  "poll_seconds": 30,
+  "max_attempts": 4,
+  "retry_base_seconds": 30,
+  "retry_max_seconds": 1800
+}

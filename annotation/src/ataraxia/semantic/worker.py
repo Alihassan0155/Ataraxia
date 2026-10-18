@@ -79,6 +79,9 @@ class Worker:
                 value['run_fingerprint'] != self.frozen['fingerprint']):
             raise ValueError('Cached semantic metadata provenance mismatch')
         validate(value['semantic'], self.schema, self.taxonomy, job['sources'])
+        if self.cfg['extractor'].get('category_policy')=='canonical-id-v1':
+            from .category_ids import validate_selection
+            validate_selection(value,self.taxonomy)
         if self.cfg['extractor'].get('evidence_policy') == 'deterministic-exact-v1':
             from .provenance import validate_provenance
             validate_provenance(value['semantic'], value.get('source_provenance'),
@@ -132,18 +135,27 @@ class Worker:
                 repair_history = []
                 source_provenance = None
                 normalization_changes = []
+                category_selection = None
                 for repair_index in range(self.cfg['extractor'].get('repair_attempts', 0)+1):
                     try:
                         normalization_policy = self.cfg['extractor'].get('normalization_policy')
                         practical = normalization_policy in ('practical-v1', 'practical-v2-summary')
                         if practical:
                             from .normalization import parse_practical, normalize_semantic
+                            draft=parse_practical(output)
+                            if self.cfg['extractor'].get('category_policy')=='canonical-id-v1':
+                                from .category_ids import decode_selection
+                                draft,category_selection=decode_selection(draft,self.taxonomy)
                             value, normalization_changes = normalize_semantic(
-                                parse_practical(output), self.schema, self.taxonomy,
+                                draft, self.schema, self.taxonomy,
                                 summary_fallback=normalization_policy == 'practical-v2-summary')
                             value, blanks = normalize_missing(value, self.schema)
                         else:
-                            value, blanks = normalize_missing(parse(output), self.schema)
+                            draft=parse(output)
+                            if self.cfg['extractor'].get('category_policy')=='canonical-id-v1':
+                                from .category_ids import decode_selection
+                                draft,category_selection=decode_selection(draft,self.taxonomy)
+                            value, blanks = normalize_missing(draft, self.schema)
                         if self.cfg['extractor'].get('evidence_policy') == 'deterministic-exact-v1':
                             from .provenance import build_provenance
                             value, source_provenance = build_provenance(value, self.schema, self.taxonomy, job['sources'], ignore_invalid=practical)
@@ -222,6 +234,8 @@ class Worker:
                             'quote_repairs':quote_repairs}
                 if source_provenance is not None:
                     artifact['source_provenance'] = source_provenance
+                if category_selection is not None:
+                    artifact['category_selection'] = category_selection
                 if normalization_changes:
                     artifact['normalization_changes'] = normalization_changes
                 write(directory/'semantic_metadata.json', artifact)

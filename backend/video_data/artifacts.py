@@ -107,6 +107,16 @@ def affect(vid, item, run_id):
                   dominant_emotion=item['dominant_emotion'], confidence=item['confidence'])
 
 
+def embedding_entity(vid, semantic_id, run_id, record, vector):
+    columns = dict(video_id=vid, run_id=run_id, semantic_id=semantic_id,
+                   model=record['embedding']['checkpoint'], revision=record['embedding']['revision'],
+                   template_version=record['template_version'], input_hash=record['embedding_input_sha256'])
+    # Versioned namespace prevents accidental reuse of the old semantic-only key.
+    embedding_id = fingerprint({'identity_version':'video-embedding-v1', **columns})
+    return entity('video_embeddings',embedding_id,record['embedding'],
+                  **columns, embedding=vector.tolist())
+
+
 class Reader:
     def __init__(self, root):
         self.root = Path(root).resolve()
@@ -192,10 +202,7 @@ class Reader:
                 entity('video_semantics',sid,record, video_id=vid, run_id=run_id,
                        context_id=ctx['key'], affect_id=ann['key'], primary_category=sem['primary_category'],
                        semantic_summary=sem['semantic_summary'], topics=sem['topics'], tags=sem['tags']),
-                entity('video_embeddings',sid,record['embedding'], video_id=vid, run_id=run_id,
-                       semantic_id=sid, model=record['embedding']['checkpoint'], revision=record['embedding']['revision'],
-                       template_version=record['template_version'], input_hash=record['embedding_input_sha256'],
-                       embedding=vector.tolist())]
+                embedding_entity(vid,sid,run_id,record,vector)]
 
 
 def validate_vector(vector):

@@ -50,9 +50,21 @@ class Extractor:
             quantization_config=bnb).eval()
 
     def text(self, job, prompt, taxonomy, schema, repair=None):
+        strict=self.config.get('category_policy')=='canonical-id-v1'
+        if strict:
+            from .category_ids import wire_contract
+            allowed,schema=wire_contract(taxonomy,schema)
+            prompt += ('\nSelect primary_category as exactly ONE ID from allowed_category_choices. '
+                       'Names are display-only; aliases, synonyms, invented IDs and lists are invalid. '
+                       'Use the unknown ID when evidence is insufficient. Return secondary_categories: [].')
+            prompt += '\nallowed_category_choices:\n'+json.dumps(allowed,ensure_ascii=False)
         payload = {'video_id':job['video_id'], 'sources':job['sources'],
                    'transcript_omissions':job['transcript_budget'],
                    'taxonomy':taxonomy, 'output_schema':schema}
+        if strict:
+            # IDs appear in the system choices and wire enum; avoid a third copy
+            # in taxonomy metadata within the unchanged input-token budget.
+            payload['taxonomy']={k:v for k,v in taxonomy.items() if k not in ('category_ids','category_id_policy')}
         messages = [{'role':'system', 'content':prompt},
                     {'role':'user', 'content':json.dumps(payload, ensure_ascii=False)}]
         if repair is not None:

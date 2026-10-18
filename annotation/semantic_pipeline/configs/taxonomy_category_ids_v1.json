@@ -1,0 +1,171 @@
+{
+  "version": "ataraxia-semantic-taxonomy-v1",
+  "categories": {
+    "DIY, Crafts & Outdoor Hobbies": [
+      "Crafts",
+      "DIY Projects",
+      "Gardening",
+      "Outdoor Hobbies",
+      "Other"
+    ],
+    "Comedy": [
+      "Stand-up",
+      "Sketches",
+      "Parody",
+      "Pranks",
+      "Other"
+    ],
+    "Lifestyle, Vlogs & Relationships": [
+      "Daily Vlogs",
+      "Storytime",
+      "Relationships",
+      "Lifestyle Advice",
+      "Other"
+    ],
+    "Mental Health & Motivation": [
+      "Mental Health",
+      "Motivational Talks",
+      "Self-improvement",
+      "Other"
+    ],
+    "Science & Technology": [
+      "Science Explainers",
+      "Technology",
+      "Engineering",
+      "Other"
+    ],
+    "Sports & Fitness": [
+      "Fitness",
+      "Strength Training",
+      "Sports Analysis",
+      "Sports Highlights",
+      "Other"
+    ],
+    "Gaming": [
+      "Gameplay",
+      "Tutorials",
+      "Reviews",
+      "Esports",
+      "Other"
+    ],
+    "Travel & Adventure": [
+      "Destinations",
+      "Adventure",
+      "Travel Advice",
+      "Other"
+    ],
+    "Nature, Animals & Conservation": [
+      "Animals",
+      "Nature",
+      "Conservation",
+      "Other"
+    ],
+    "Music & Dance": [
+      "Music Performance",
+      "Dance",
+      "Music Commentary",
+      "Other"
+    ],
+    "Beauty & Style": [
+      "Fashion",
+      "Skincare",
+      "Makeup",
+      "Grooming",
+      "Other"
+    ],
+    "Religion & Spirituality": [
+      "Religious Teaching",
+      "Spirituality",
+      "Religious Practice",
+      "Other"
+    ],
+    "News, Politics & Social Issues": [
+      "News",
+      "Politics",
+      "Social Commentary",
+      "Other"
+    ],
+    "Entertainment & Animation": [
+      "Animation",
+      "Film and Television",
+      "Celebrity Content",
+      "Other"
+    ],
+    "Food & Cooking": [
+      "Recipes",
+      "Food Reviews",
+      "Cooking Techniques",
+      "Other"
+    ],
+    "Education": [
+      "Tutorials",
+      "History",
+      "Language Learning",
+      "General Knowledge",
+      "Other"
+    ],
+    "Vehicles": [
+      "Cars",
+      "Motorcycles",
+      "Vehicle Maintenance",
+      "Other"
+    ],
+    "ASMR": [
+      "Whispering",
+      "Sound-focused",
+      "Visual ASMR",
+      "Other"
+    ],
+    "unknown": []
+  },
+  "original_unmapped_label": "Unmapped / Needs Review",
+  "formats": [
+    "talking_head",
+    "tutorial",
+    "vlog",
+    "performance",
+    "sketch",
+    "compilation",
+    "gameplay",
+    "animation",
+    "demonstration",
+    "interview",
+    "news_report",
+    "other",
+    "unknown"
+  ],
+  "styles": [
+    "comedic",
+    "informational",
+    "instructional",
+    "dramatic",
+    "observational",
+    "promotional",
+    "artistic",
+    "motivational",
+    "other",
+    "unknown"
+  ],
+  "category_ids": {
+    "ASMR": "1083d497203d65e8ffe06b930f19b761070cb247e8afe448fb72f4bd8bebe42c",
+    "Beauty & Style": "8f879b9ccf813bc925606f3f37bef44ab3717d9d69883860ed366e0f02a1eb05",
+    "Comedy": "8a52e19efbc500941466763dc45e2d8af3115fb87cc7afb9502f4ac4dc95cb87",
+    "DIY, Crafts & Outdoor Hobbies": "dddcb898a35073cfc7f20c863c2cc78bc27f24f56873076037b34f8a1576e1fd",
+    "Education": "4ca1c5ea34037e419d49bcd9c3671cf81a64e6e12c155dfed8069b93dfac5a52",
+    "Entertainment & Animation": "aa77e515bf5de8ed1d33c42b20afc0a10e041c33b491282a7e36d1f015b2aee8",
+    "Food & Cooking": "db190265cae025ed5ec25aa8215358300c0f7d081738f3660e1bac60104ba403",
+    "Gaming": "41fa1620b1e46fcd90cdbc87ac09cf9c0243c83fd4b6fbce220714e0ecc1b849",
+    "Lifestyle, Vlogs & Relationships": "1768e7a34ee1d67f27f9a400bdcc183538a14f9e503f3e685903bf5204efd83e",
+    "Mental Health & Motivation": "549fce1da05f2835592a8b26e4b823499cdef4e1165182516ff3abac0c6014f1",
+    "Music & Dance": "a2e2b17677ed302f11e146eda1eb3f241f29e7c275e71cfb48879850e688f9ae",
+    "Nature, Animals & Conservation": "c47f1b071e954a0fd57b3bb78617200af1ed76a16b86178e11dee58e543e3a91",
+    "News, Politics & Social Issues": "610f715b25c25a2fc03bc09d00fbd8e1269296915ccac46067abd2f528bd8f06",
+    "Religion & Spirituality": "a8c7f0ba2c847593b25bd15d6e1227a3bdca3ef713d97ff9754a6a904b845818",
+    "Science & Technology": "0c1dd14b55d59863f76cd3ac674fec6abc60fdb4344961780bbcfadd2d238a2c",
+    "Sports & Fitness": "8954269dd1fa62d1f4f2e8f66af7f37ef36a7c8aa16ab6b5dc136f8857e73bac",
+    "Travel & Adventure": "6f097ad48cc00777b4825048c49d0c0ddcb09f2f77c9cd42d72dbc39028fe8a0",
+    "Vehicles": "40056078a33134f108cf7cb602e195df4a006c37c341a035816bdd7d5d101ab7",
+    "unknown": "63e6dffd44d2c2c7e0c5c80c0c7d54735d9a0e2e62d48b3448391148d18cce4f"
+  },
+  "category_id_policy": "canonical-id-v1"
+}

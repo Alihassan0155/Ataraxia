@@ -8,6 +8,11 @@ cookies*.json
 *.pem
 *.key
 .aws/
+.boto
+.s3cfg
+.pgpass
+pgpass.conf
+.pg_service.conf
 
 # Local Python environments and caches
 .venv*/
@@ -82,3 +87,20 @@ annotation/semantic_pipeline/runs/
 
 # Local database schema inventories and import progress reports.
 backend/reports/
+
+# Durable sync queues and database backups contain local/private runtime data.
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.sqlite.worker.lock
+*.sqlite3.worker.lock
+*.dump
+*.backup
+
+# Keep source code, migrations, docs and research metadata/evidence trackable.
+# Do not add broad JSON, JSONL, CSV, TXT or SQL exclusions here.

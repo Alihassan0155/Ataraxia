@@ -12,6 +12,14 @@ PACKAGES = ('torch', 'transformers', 'accelerate', 'bitsandbytes', 'numpy',
 
 def definitions(root, path):
     config = read(path)
+    category_policy=config['extractor'].get('category_policy')
+    if category_policy not in (None,'canonical-id-v1'):
+        raise ValueError('Unknown category selection policy')
+    if category_policy=='canonical-id-v1':
+        from .category_ids import choices
+        choices(read(resolve_path(root,config['taxonomy'])))
+        if config['extractor'].get('repair_attempts',0):
+            raise ValueError('Strict category IDs require zero legacy evidence repair attempts')
     policy = config['extractor'].get('evidence_policy', 'legacy-model-quotes')
     normalization = config['extractor'].get('normalization_policy')
     if normalization not in (None, 'practical-v1', 'practical-v2-summary'):
