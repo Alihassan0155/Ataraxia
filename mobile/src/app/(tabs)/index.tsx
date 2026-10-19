@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import {ActivityIndicator, Animated, Text, View, } from 'react-native';
 import { useVideoPlayer, VideoView } from 'expo-video';
@@ -44,14 +43,26 @@ export default function HomeScreen()
     {
       try 
       {
-        const response = await authenticatedFetch('/videos/feed');
+        let response = await authenticatedFetch('/videos/recommended-feed');
+        let data: any = null;
 
-        if (!response.ok) 
+        if (response.ok)
         {
-          throw new Error('Could not load the video feed.');
+          data = await response.json();
         }
 
-        const data = await response.json();
+        // Use the general feed if recommendations fail or are empty.
+        if (!response.ok || !Array.isArray(data?.videos) || data.videos.length === 0)
+        {
+          response = await authenticatedFetch('/videos/feed');
+
+          if (!response.ok)
+          {
+            throw new Error('Could not load the video feed.');
+          }
+
+          data = await response.json();
+        }
 
         if (!Array.isArray(data.videos) || data.videos.length === 0) 
         {
@@ -264,7 +275,7 @@ export default function HomeScreen()
 
       translateY.setValue(direction > 0 ? screenHeight : -screenHeight);
 
-      // new video into view.
+      // Move the new video into view.
       Animated.timing(translateY, {
         toValue: 0,
         duration: 170,
@@ -309,7 +320,7 @@ export default function HomeScreen()
     const differenceY = currentY - touchStartY.current;
     const differenceX = currentX - touchStartX.current;
 
-    // a vertical drag.
+    // A vertical drag.
     if (!touchMovedRef.current && Math.abs(differenceY) < 8) 
     {
       return;

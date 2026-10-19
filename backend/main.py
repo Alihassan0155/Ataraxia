@@ -197,6 +197,9 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
 
 
 from backend.onboarding.api import create_router
+from backend.onboarding.repository import PreferenceRepository
+from backend.onboarding.service import PreferenceService
+
 app.include_router(create_router(get_current_user))
 
 
@@ -271,3 +274,42 @@ def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security)
 
     except Exception:
         raise HTTPException(status_code=500, detail="Could not load the video feed.",)
+
+
+
+@app.get("/videos/recommended-feed")
+def get_recommended_video_feed(user=Depends(get_current_user),):
+    try:
+        service = PreferenceService(PreferenceRepository(), S3_BUCKET_NAME,)
+        result = service.candidates(user["id"], limit=50)
+
+        videos = []
+
+        for candidate in result["videos"]:
+            video_id = candidate["video_id"]
+
+            if video_id.startswith("FV"):
+                video_key = f"videos/finevideo/{video_id}.mp4"
+            elif video_id.startswith("TT_"):
+                video_key = f"videos/tiktok/{video_id}.mp4"
+            else:
+                continue
+
+            playback_url = s3.generate_presigned_url(
+                "get_object",
+                Params={"Bucket": S3_BUCKET_NAME, "Key": video_key,},
+                ExpiresIn=300,
+            )
+
+            videos.append({"video_key": video_key, "playback_url": playback_url,})
+
+        return {
+            "videos": videos,
+            "count": len(videos),
+            "strategy": result["strategy"],
+        }
+
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=503, detail="Could not load personalized video feed.",)
