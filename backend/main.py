@@ -1,4 +1,10 @@
 import os
+import sys
+from pathlib import Path
+
+# Support both `uvicorn backend.main:app` and the existing backend-directory launch.
+if __package__ in (None, ''):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import boto3
 
 from dotenv import load_dotenv
@@ -188,6 +194,10 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
         raise
     except Exception:
         raise HTTPException( status_code=401, detail="Invalid or expired access token.")
+
+
+from backend.onboarding.api import create_router
+app.include_router(create_router(get_current_user))
 
 
 @app.get("/videos/{video_key}/playback")
