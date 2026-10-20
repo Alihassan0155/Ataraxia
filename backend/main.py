@@ -14,6 +14,9 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, EmailStr, Field
 from supabase import create_client
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
+from backend.video_data.db_pool import open_pool, close_pool
+
 load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -41,11 +44,23 @@ s3 = boto3.client(
     ),
 )
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    open_pool()
+    try:
+        yield
+    finally:
+        close_pool()
+
+
 app = FastAPI(
     title="Ataraxia API",
     description="Backend API for the Ataraxia recommendation system",
-    version="0.2.0"
+    version="0.2.0",
+    lifespan=lifespan,
 )
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -58,6 +73,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 security = HTTPBearer()
 
 
@@ -101,7 +117,7 @@ def signup(request: AuthRequest):
 
     except HTTPException:
         raise
-   
+
     except Exception as error:
         print("Signup error:", repr(error))
 
@@ -234,7 +250,6 @@ def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredent
         raise HTTPException(status_code=500, detail="Could not generate video playback URL.",)
 
 
-
 @app.get("/videos/feed")
 def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security),):
     # Verify that the user has a valid Supabase session.
@@ -274,7 +289,6 @@ def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security)
 
     except Exception:
         raise HTTPException(status_code=500, detail="Could not load the video feed.",)
-
 
 
 @app.get("/videos/recommended-feed")

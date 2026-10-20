@@ -5,3 +5,4 @@ python-dotenv
 boto3
 psycopg[binary]>=3.2,<4
 email-validator>=2,<3
+psycopg-pool>=3.2,<4
