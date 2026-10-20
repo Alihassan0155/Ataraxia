@@ -2,8 +2,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, FlatList, Pressable, Text, View, } from 'react-native';
 import { router } from 'expo-router';
-import { authenticatedFetch } from '../../services/auth';
+import { authenticatedFetch, AuthenticationError } from '../../services/auth';
 import styles from '../../styles/onboarding.styles';
+import { confirmPreferences } from '../../services/performance';
+import { canContinue, saveSelection, loadPreferenceSelection } from '../../services/preference-flow';
+import { publicCategories } from '../../services/onboarding-data';
 
 type Interest = {
   id: string;
@@ -11,7 +14,6 @@ type Interest = {
   taxonomy_version: string;
 };
 
-type InterestsResponse = { interests: Interest[]; };
 
 function getErrorMessage(data: any, fallback: string): string 
 {
@@ -88,7 +90,6 @@ function InterestsSkeleton()
 
       <Animated.View style={[ styles.skeletonSaveButton, { opacity: shimmerOpacity },]}/>
 
-      <Animated.View style={[styles.skeletonSkipButton, { opacity: shimmerOpacity }, ]} />
     </View>
   );
 }
@@ -100,63 +101,36 @@ export default function InterestsScreen()
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
+  const [preferencesLoaded, setPreferencesLoaded] = useState(false);
+  const [reload, setReload] = useState(0);
+  const submitting = useRef(false);
+  const mounted = useRef(false);
+  useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
 
   useEffect(() => {
-    async function loadInterests() 
-    {
-      try 
-      {
-        setLoading(true);
-        setError('');
+    let active = true;
+    const controller = new AbortController();
+    setLoading(true);
+    setPreferencesLoaded(false);
+    setError('');
+    loadPreferenceSelection(path => path === '/onboarding/interests' ? publicCategories() :
+      (async () => {
+        const response = await authenticatedFetch(path, { signal: controller.signal });
 
-        const categoriesResponse = await authenticatedFetch('/onboarding/interests' );
+        return response;
+      })(), items => { if (active) setInterests(items); }).then(data => {
+      if (!active) return;
+      setInterests(data.interests);
+      setSelectedIds(data.selectedIds);
+      setPreferencesLoaded(true);
 
-        if (!categoriesResponse.ok) 
-        {
-          throw new Error('Could not load interest categories.');
-        }
-
-        const categoriesData: InterestsResponse = await categoriesResponse.json();
-
-        setInterests(categoriesData.interests);
-
-        const preferencesResponse = await authenticatedFetch('/users/me/interests');
-
-        if (!preferencesResponse.ok) 
-        {
-          throw new Error('Could not load your saved interests.');
-        }
-
-        const preferencesData: InterestsResponse = await preferencesResponse.json();
-
-        const savedIds: string[] = [];
-
-        for (const interest of preferencesData.interests) 
-        {
-          savedIds.push(interest.id);
-        }
-
-        setSelectedIds(savedIds);
-      } 
-      catch (err) 
-      {
-        if (err instanceof Error) 
-        {
-          setError(err.message);
-        } 
-        else 
-        {
-          setError('Something went wrong while loading interests.');
-        }
-      } 
-      finally 
-      {
-        setLoading(false);
-      }
-    }
-
-    loadInterests();
-  }, []);
+    }).catch(err => {
+      if (!active) return;
+      if (err instanceof AuthenticationError) { router.replace('/login'); return; }
+      setError(err instanceof Error ? err.message : 'Could not load preferences. Please retry.');
+    }).finally(() => { if (active) setLoading(false); });
+    return () => { active = false; controller.abort(); };
+  }, [reload]);
 
   function toggleInterest(id: string) 
   {
@@ -180,24 +154,21 @@ export default function InterestsScreen()
     });
   }
 
-  function skipOnboarding() 
-  {
-    router.replace('/(tabs)');
-  }
-
   async function saveInterests() 
   {
-    if (selectedIds.length === 0) 
+    if (submitting.current || !canContinue(selectedIds, preferencesLoaded, loading, saving))
     {
-      setError('Please select at least one interest, or skip for now.');
+      setError('Load your preferences and select at least one interest.');
       return;
     }
 
+    submitting.current = true;
     try 
     {
       setSaving(true);
       setError('');
 
+      await saveSelection(selectedIds, async () => {
       const response = await authenticatedFetch(
         '/users/me/interests',
         {
@@ -227,10 +198,13 @@ export default function InterestsScreen()
         throw new Error(message);
       }
 
-      router.replace('/(tabs)');
+      confirmPreferences();
+      }, () => { if (mounted.current) router.replace('/(tabs)'); });
     } 
     catch (err) 
     {
+      if (!mounted.current) return;
+      if (err instanceof AuthenticationError) { router.replace('/login'); return; }
       if (err instanceof Error) 
       {
         setError(err.message);
@@ -242,11 +216,12 @@ export default function InterestsScreen()
     } 
     finally 
     {
-      setSaving(false);
+      submitting.current = false;
+      if (mounted.current) setSaving(false);
     }
   }
 
-  if (loading) 
+  if (loading && interests.length === 0)
   {
     return <InterestsSkeleton />;
   }
@@ -260,15 +235,15 @@ export default function InterestsScreen()
       </Text>
 
       <Text style={styles.selectionCount}>
-        {selectedIds.length} selected
+        {loading ? 'Loading your saved interests…' : `${selectedIds.length} selected`}
       </Text>
 
       {error !== '' && (
         <View style={styles.errorContainer}>
           <Text style={styles.errorText}>{error}</Text>
 
-          <Pressable onPress={() => router.replace('/(onboarding)/interests')}>
-            <Text style={styles.retryText}>Reload screen</Text>
+          <Pressable disabled={saving} onPress={() => preferencesLoaded ? saveInterests() : setReload(value => value + 1)}>
+            <Text style={styles.retryText}>Retry</Text>
           </Pressable>
         </View>
       )}
@@ -284,9 +259,9 @@ export default function InterestsScreen()
 
           return (
             <Pressable style={[ styles.categoryButton, isSelected && styles.categoryButtonSelected, ]}
-              onPress={() => toggleInterest(item.id)} accessibilityRole="checkbox" accessibilityState={{ checked: isSelected }}>
+              disabled={saving || !preferencesLoaded} onPress={() => toggleInterest(item.id)} accessibilityRole="checkbox" accessibilityState={{ checked: isSelected, disabled: saving || !preferencesLoaded }}>
               <Text style={[ styles.categoryText, isSelected && styles.categoryTextSelected, ]}>
-                {isSelected ? '✓  ' : ''}
+                {isSelected ? 'âœ“  ' : ''}
                 {item.name}
               </Text>
             </Pressable>
@@ -294,18 +269,15 @@ export default function InterestsScreen()
         }}
       />
 
-      <Pressable style={[ styles.saveButton, (saving || interests.length === 0) && styles.disabledButton, ]}
-        onPress={saveInterests} disabled={saving || interests.length === 0}>
+      <Pressable style={[ styles.saveButton, !canContinue(selectedIds, preferencesLoaded, loading, saving) && styles.disabledButton, ]}
+        onPress={saveInterests} disabled={!canContinue(selectedIds, preferencesLoaded, loading, saving)}>
         {saving ? (
           <ActivityIndicator color="#071E2A" />
         ) : (
-          <Text style={styles.saveButtonText}>Save Interests</Text>
+          <Text style={styles.saveButtonText}>Continue</Text>
         )}
       </Pressable>
 
-      <Pressable style={styles.skipButton} onPress={skipOnboarding} disabled={saving}>
-        <Text style={styles.skipButtonText}>Skip for now</Text>
-      </Pressable>
     </View>
   );
 }

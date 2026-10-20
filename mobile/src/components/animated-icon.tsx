@@ -8,7 +8,8 @@ export function AnimatedSplashOverlay() {
   const opacity = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
-    let hideTimer: ReturnType<typeof setTimeout> | undefined;
+    let cancelled = false;
+    let animation: Animated.CompositeAnimation | undefined;
 
     const startSplash = async () => {
       try 
@@ -20,23 +21,21 @@ export function AnimatedSplashOverlay() {
        
       }
 
-      hideTimer = setTimeout(() => {
-        Animated.timing(opacity, { toValue: 0, duration: 500,  useNativeDriver: true, }).start(({ finished }) => {
-          if (finished) 
+      if (cancelled) return;
+      animation = Animated.timing(opacity, { toValue: 0, duration: 300, useNativeDriver: true });
+      animation.start(({ finished }) => {
+          if (finished && !cancelled)
           {
             setVisible(false);
           }
         });
-      }, 1200);
     };
 
     startSplash();
 
     return () => {
-      if (hideTimer) 
-      {
-        clearTimeout(hideTimer);
-      }
+      cancelled = true;
+      animation?.stop();
     };
   }, [opacity]);
 

@@ -44,6 +44,8 @@ class ApiTests(unittest.TestCase):
         app=FastAPI();app.include_router(create_router(authenticated));app.dependency_overrides[get_service]=lambda:PreferenceService(self.repo,BUCKET,random.Random(1));self.client=TestClient(app);self.headers={'Authorization':'Bearer valid'}
     def test_public_interests_and_stable_response(self):
         response=self.client.get('/onboarding/interests');self.assertEqual(response.status_code,200);self.assertEqual(response.json(),{'interests':[CATEGORY]})
+        self.assertNotIn('server-timing', response.headers)
+
     def test_auth_required_for_all_user_routes(self):
         for method,path in [('get','/users/me/interests'),('put','/users/me/interests'),('get','/recommendations/cold-start')]:
             self.assertEqual(getattr(self.client,method)(path).status_code,401)
@@ -56,9 +58,9 @@ class ApiTests(unittest.TestCase):
     def test_invalid_unknown_error(self):
         self.repo.replace.side_effect=InvalidInterests('Not selectable')
         self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':['unknown']}).status_code,422)
-    def test_empty_clears_and_get_uses_authenticated_user(self):
-        self.repo.replace.return_value=[]
-        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':[]}).json(),{'interests':[]})
+    def test_empty_rejected_without_changing_preferences_and_get_uses_authenticated_user(self):
+        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':[]}).status_code,422)
+        self.repo.replace.assert_not_called()
         self.client.get('/users/me/interests',headers=self.headers);self.assertEqual(str(self.repo.preferences.call_args.args[0]),self.uid)
     def test_empty_preferences_return_no_candidates(self):
         self.repo.candidate_pool.return_value=([],[])
@@ -75,7 +77,7 @@ class ApiTests(unittest.TestCase):
         self.repo.interests.side_effect=RuntimeError('secret connection string')
         response=self.client.get('/onboarding/interests');self.assertEqual(response.status_code,503);self.assertNotIn('secret',response.text)
         self.repo.replace.side_effect=RuntimeError('secret')
-        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':[]}).status_code,503)
+        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':['category-a']}).status_code,503)
 
 class MainAuthIntegrationTests(unittest.TestCase):
     def test_existing_supabase_dependency_protects_new_routes(self):
@@ -85,6 +87,7 @@ class MainAuthIntegrationTests(unittest.TestCase):
         import supabase,boto3
         uid=str(uuid4());auth=Mock()
         auth.auth.get_user.side_effect=lambda token:SimpleNamespace(user=SimpleNamespace(id=uid,email='test@example.org') if token=='valid-jwt' else None)
+        auth.auth.sign_in_with_password.return_value=SimpleNamespace(user=SimpleNamespace(id=uid,email='test@example.org'),session=SimpleNamespace(access_token='fixture-access',refresh_token='fixture-refresh'))
         repo=Mock();repo.preferences.return_value=[]
         previous=sys.modules.pop('backend.main',None)
         try:
@@ -93,7 +96,16 @@ class MainAuthIntegrationTests(unittest.TestCase):
                 main.app.dependency_overrides[get_service]=lambda:PreferenceService(repo,BUCKET)
                 with TestClient(main.app) as client:
                     self.assertEqual(client.get('/users/me/interests',headers={'Authorization':'Bearer invalid'}).status_code,401)
-                    self.assertEqual(client.get('/users/me/interests',headers={'Authorization':'Bearer valid-jwt'}).status_code,200)
+                    response=client.get('/users/me/interests',headers={'Authorization':'Bearer valid-jwt'})
+                    self.assertEqual(response.status_code,200)
+
+
+
+                    response=client.post('/auth/login',json={'email':'test@example.org','password':'fixture-password'})
+                    self.assertEqual(response.status_code,200)
+
+
+                    self.assertEqual(response.headers['cache-control'],'no-store')
                     self.assertEqual(str(repo.preferences.call_args.args[0]),uid)
                     self.assertEqual(client.get('/users/me/interests').status_code,401)
                     self.assertEqual(client.get('/health').status_code,200)

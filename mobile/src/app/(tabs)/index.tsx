@@ -1,458 +1,113 @@
-import { useEffect, useRef, useState } from 'react';
-import {ActivityIndicator, Animated, Text, View, } from 'react-native';
-import { useVideoPlayer, VideoView } from 'expo-video';
-import { authenticatedFetch } from '@/services/auth';
-import styles from '@/styles/home.styles';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, View, ViewToken } from 'react-native';
+import { router, useFocusEffect } from 'expo-router';
+import { authenticatedFetch, AuthenticationError } from '@/services/auth';
+import { Candidate, FeedClient, FeedError, mergeCandidates } from '@/services/feed';
+import { FeedVideo } from '@/components/feed-video';
+import { preferenceRevision } from '@/services/performance';
 
-type VideoItem = { video_key: string; playback_url: string;};
-
-export default function HomeScreen() 
-{
-  const [videos, setVideos] = useState<VideoItem[]>([]);
-  const [activeIndex, setActiveIndex] = useState(0);
+export default function HomeScreen() {
+  const client = useMemo(() => new FeedClient(authenticatedFetch), []);
+  const [videos, setVideos] = useState<Candidate[]>([]);
+  const [total, setTotal] = useState(0);
+  const [active, setActive] = useState(0);
+  const [height, setHeight] = useState(0);
+  const [focused, setFocused] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [screenHeight, setScreenHeight] = useState(0);
-  const [screenWidth, setScreenWidth] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
-  const [playbackFeedback, setPlaybackFeedback] = useState('');
-
-  const activeIndexRef = useRef(0);
-  const videosRef = useRef<VideoItem[]>([]);
-  const switchingRef = useRef(false);
-
-  const touchStartY = useRef(0);
-  const touchStartX = useRef(0);
-  const touchMovedRef = useRef(false);
-
-  const lastTapRef = useRef<{
-    time: number;
-    side: string;
-  } | null>(null);
-
-  const tapTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const feedbackTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const translateY = useRef(new Animated.Value(0)).current;
-  const feedbackOpacity = useRef(new Animated.Value(0)).current;
+  const [error, setError] = useState('');
+  const [expired, setExpired] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const cursor = useRef<string | null>(null);
+  const initialized = useRef(false);
+  const redirected = useRef(false);
+  const revision = useRef(preferenceRevision());
+  const viewability = useRef({ itemVisiblePercentThreshold: 80 });
+  const changed = useRef(({ viewableItems }: { viewableItems: ViewToken[] }) => {
+    if (viewableItems[0]?.index != null) setActive(viewableItems[0].index);
+  });
+  const authError = useCallback(() => {
+    if (!redirected.current) { redirected.current = true; router.replace('/login'); }
+  }, []);
+  useFocusEffect(useCallback(() => {
+    if (revision.current !== preferenceRevision()) {
+      revision.current = preferenceRevision();
+      initialized.current = false; cursor.current = null;
+      setVideos([]); setActive(0); setExpired(false);
+    }
+    setFocused(true);
+    return () => setFocused(false);
+  }, []));
 
   useEffect(() => {
+    if (!focused) return;
+    const controller = new AbortController();
     let cancelled = false;
-
-    async function loadVideos() 
-    {
-      try 
-      {
-        let response = await authenticatedFetch('/videos/recommended-feed');
-        let data: any = null;
-
-        if (response.ok)
-        {
-          data = await response.json();
-        }
-
-        // Use the general feed if recommendations fail or are empty.
-        if (!response.ok || !Array.isArray(data?.videos) || data.videos.length === 0)
-        {
-          response = await authenticatedFetch('/videos/feed');
-
-          if (!response.ok)
-          {
-            throw new Error('Could not load the video feed.');
-          }
-
-          data = await response.json();
-        }
-
-        if (!Array.isArray(data.videos) || data.videos.length === 0) 
-        {
-          throw new Error('No videos are available.');
-        }
-
-        if (!cancelled) 
-        {
-          videosRef.current = data.videos;
-          setVideos(data.videos);
-          activeIndexRef.current = 0;
-          setActiveIndex(0);
-        }
-      } 
-      catch (error) 
-      {
-        if (!cancelled) 
-        {
-          setErrorMessage(error instanceof Error ? error.message : 'Something went wrong while loading the video feed.');
-        }
-      } 
-      finally 
-      {
-        if (!cancelled) 
-        {
+    async function load() {
+      setLoading(!initialized.current); setError('');
+      const visited = new Set<string>();
+      try {
+        do {
+          const requested = cursor.current;
+          if (requested && visited.has(requested)) throw new Error('Invalid feed cursor. Please refresh.');
+          if (requested) visited.add(requested);
+          const page = await client.page(requested, controller.signal);
+          if (cancelled) return;
+          if (page.next_cursor && page.next_cursor === requested) throw new Error('Invalid feed cursor. Please refresh.');
+          initialized.current = true;
+          cursor.current = page.next_cursor;
+          setVideos(current => mergeCandidates(current, page.videos));
+          setTotal(page.total);
           setLoading(false);
+          if (!page.next_cursor) break;
+          // Yield so the first page can render before the next network request.
+          await new Promise(resolve => setTimeout(resolve, 0));
+        } while (!cancelled);
+      } catch (failure) {
+        if (cancelled) return;
+        if (failure instanceof AuthenticationError) authError();
+        else {
+          setExpired(failure instanceof FeedError && failure.status === 410);
+          setError(failure instanceof Error ? failure.message : 'Could not load videos. Please retry.');
         }
-      }
+      } finally { if (!cancelled) setLoading(false); }
     }
+    if (!initialized.current || cursor.current) void load();
+    return () => { cancelled = true; controller.abort(); };
+  }, [client, focused, retry, authError]);
 
-    loadVideos();
-
-    return () => {
-      cancelled = true;
-
-      if (tapTimeoutRef.current) 
-      {
-        clearTimeout(tapTimeoutRef.current);
-      }
-
-      if (feedbackTimeoutRef.current) 
-      {
-        clearTimeout(feedbackTimeoutRef.current);
-      }
-    };
-  }, []);
-
-  const player = useVideoPlayer( videos.length > 0 ? videos[activeIndex]?.playback_url ?? null : null,
-    (videoPlayer) => {
-      videoPlayer.loop = true;
-      videoPlayer.play();
-    }
-  );
-
-  function showFeedback(message: string) 
-  {
-    setPlaybackFeedback(message);
-    feedbackOpacity.setValue(1);
-
-    if (feedbackTimeoutRef.current) 
-    {
-      clearTimeout(feedbackTimeoutRef.current);
-    }
-
-    feedbackTimeoutRef.current = setTimeout(() => {
-      Animated.timing(feedbackOpacity, {
-        toValue: 0,
-        duration: 200,
-        useNativeDriver: true,
-      }).start(() => {
-        setPlaybackFeedback('');
-      });
-    }, 500);
+  function refresh() {
+    initialized.current = false; cursor.current = null;
+    setVideos([]); setActive(0); setExpired(false); setRetry(value => value + 1);
   }
+  const renderItem = useCallback(({ item, index }: { item: Candidate; index: number }) => (
+    <FeedVideo item={item} active={focused && index === active} enabled={focused && index >= active && index <= active + 1}
+      client={client} height={height} onAuthError={authError} />
+  ), [active, authError, client, focused, height]);
 
-  function togglePlayback() 
-  {
-    if (isPlaying) 
-    {
-      player.pause();
-      setIsPlaying(false);
-      showFeedback('Ⅱ');
-    } 
-    else 
-    {
-      player.play();
-      setIsPlaying(true);
-      showFeedback('▶');
-    }
-  }
-
-  function seekVideo(seconds: number) 
-  {
-    if (switchingRef.current) 
-    {
-      return;
-    }
-
-    player.seekBy(seconds);
-
-    if (seconds < 0) 
-    {
-      showFeedback('↶ 5 seconds');
-    } 
-    else 
-    {
-      showFeedback('5 seconds ↷');
-    }
-  }
-
-  function handleTap(side: string) 
-  {
-    const now = Date.now();
-    const lastTap = lastTapRef.current;
-
-    if (lastTap && now - lastTap.time < 280 && lastTap.side === side) 
-    {
-      if (tapTimeoutRef.current) 
-      {
-        clearTimeout(tapTimeoutRef.current);
-        tapTimeoutRef.current = null;
-      }
-
-      lastTapRef.current = null;
-
-      if (side === 'left') 
-      {
-        seekVideo(-5);
-      } 
-      else 
-      {
-        seekVideo(5);
-      }
-
-      return;
-    }
-
-    if (lastTap && tapTimeoutRef.current) 
-    {
-      clearTimeout(tapTimeoutRef.current);
-      tapTimeoutRef.current = null;
-      togglePlayback();
-    }
-
-    lastTapRef.current = {time: now, side,};
-
-    tapTimeoutRef.current = setTimeout(() => {
-      togglePlayback();
-      lastTapRef.current = null;
-      tapTimeoutRef.current = null;
-    }, 280);
-  }
-
-  function changeVideo(direction: number) 
-  {
-    const currentVideos = videosRef.current;
-
-    if (currentVideos.length === 0 || switchingRef.current || screenHeight <= 0) 
-    {
-      return;
-    }
-
-    const nextIndex = activeIndexRef.current + direction;
-
-    if (nextIndex < 0 || nextIndex >= currentVideos.length) 
-    {
-      Animated.spring(translateY, {
-        toValue: 0,
-        useNativeDriver: false,
-        speed: 20,
-        bounciness: 0,
-      }).start();
-
-      return;
-    }
-
-    switchingRef.current = true;
-
-    if (tapTimeoutRef.current) 
-    {
-      clearTimeout(tapTimeoutRef.current);
-      tapTimeoutRef.current = null;
-    }
-
-    lastTapRef.current = null;
-
-    if (feedbackTimeoutRef.current) 
-    {
-      clearTimeout(feedbackTimeoutRef.current);
-    }
-
-    setPlaybackFeedback('');
-    feedbackOpacity.setValue(0);
-
-    // Finish moving the current video off-screen.
-    Animated.timing(translateY, {
-      toValue: direction > 0 ? -screenHeight : screenHeight,
-      duration: 130,
-      useNativeDriver: false,
-    }).start(({ finished }) => {
-      if (!finished) 
-      {
-        switchingRef.current = false;
-        return;
-      }
-
-      activeIndexRef.current = nextIndex;
-      setActiveIndex(nextIndex);
-      setIsPlaying(true);
-
-      translateY.setValue(direction > 0 ? screenHeight : -screenHeight);
-
-      // Move the new video into view.
-      Animated.timing(translateY, {
-        toValue: 0,
-        duration: 170,
-        useNativeDriver: false,
-      }).start(() => {
-        switchingRef.current = false;
-      });
-    });
-  }
-
-  function returnVideoToPosition() 
-  {
-    Animated.spring(translateY, {
-      toValue: 0,
-      useNativeDriver: false,
-      speed: 20,
-      bounciness: 0,
-    }).start();
-  }
-
-  function handleTouchStart(event: any) 
-  {
-    if (switchingRef.current) 
-    {
-      return;
-    }
-
-    touchStartY.current = event.nativeEvent.pageY;
-    touchStartX.current = event.nativeEvent.pageX;
-    touchMovedRef.current = false;
-  }
-
-  function handleTouchMove(event: any) 
-  {
-    if (switchingRef.current || screenHeight <= 0) {
-      return;
-    }
-
-    const currentY = event.nativeEvent.pageY;
-    const currentX = event.nativeEvent.pageX;
-
-    const differenceY = currentY - touchStartY.current;
-    const differenceX = currentX - touchStartX.current;
-
-    // A vertical drag.
-    if (!touchMovedRef.current && Math.abs(differenceY) < 8) 
-    {
-      return;
-    }
-
-    if ( Math.abs(differenceX) > Math.abs(differenceY) * 1.2 && !touchMovedRef.current) 
-    {
-      return;
-    }
-
-    touchMovedRef.current = true;
-
-    const atFirstVideo = activeIndexRef.current === 0;
-    const atLastVideo = activeIndexRef.current === videosRef.current.length - 1;
-
-    let dragDistance = differenceY;
-
-    if ((atFirstVideo && differenceY > 0) || (atLastVideo && differenceY < 0)) 
-    {
-      dragDistance = differenceY * 0.25;
-    }
-
-    translateY.setValue(dragDistance);
-  }
-
-  function handleTouchEnd(event: any) 
-  {
-    if (switchingRef.current) 
-    {
-      return;
-    }
-
-    const endY = event.nativeEvent.pageY;
-    const endX = event.nativeEvent.pageX;
-
-    const differenceY = endY - touchStartY.current;
-    const differenceX = endX - touchStartX.current;
-
-    if (touchMovedRef.current) 
-    {
-      const threshold = Math.max(50, screenHeight * 0.12);
-
-      if (Math.abs(differenceY) >= threshold && Math.abs(differenceY) > Math.abs(differenceX)) 
-      {
-        if (differenceY < 0) 
-        {
-          changeVideo(1);
-        } 
-        else 
-        {
-          changeVideo(-1);
-        }
-      } 
-      else 
-      {
-        returnVideoToPosition();
-      }
-
-      touchMovedRef.current = false;
-      return;
-    }
-
-    if (Math.abs(differenceX) > 20 || Math.abs(differenceY) > 20) 
-    {
-      return;
-    }
-
-    if (screenWidth <= 0) 
-    {
-      return;
-    }
-
-    const side = endX < screenWidth / 2 ? 'left' : 'right';
-
-    handleTap(side);
-  }
-
-  return (
-    <View style={styles.container} onLayout={(event) => {
-        setScreenHeight(event.nativeEvent.layout.height);
-        setScreenWidth(event.nativeEvent.layout.width);
-      }}
-      onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd} onTouchCancel={() => {
-        touchMovedRef.current = false;
-
-        if (!switchingRef.current) 
-        {
-          returnVideoToPosition();
-        }
-      }}
-    >
-      {loading ? (
-        <ActivityIndicator size="large" color="#5DE5E0" />
-      ) : errorMessage ? (
-        <Text style={styles.message}>{errorMessage}</Text>
-      ) : videos.length > 0 ? (
-        <Animated.View style={[styles.videoPage,{transform: [{ translateY }],},]}>
-          <VideoView key={videos[activeIndex]?.video_key} player={player} style={styles.video} contentFit="contain" nativeControls={false}/>
-
-          <View style={styles.overlay} pointerEvents="none">
-            <Text style={styles.title}>Ataraxia</Text>
-
-            <Text style={styles.subtitle}>
-              {videos[activeIndex]?.video_key}
-            </Text>
-
-            <Text style={styles.hint}>
-              Tap to pause · Double-tap to seek 5 seconds
-            </Text>
-
-            <Text style={styles.hint}>
-              Swipe up for next video
-            </Text>
-          </View>
-
-          {playbackFeedback !== '' && (
-            <Animated.View pointerEvents="none" style={[styles.feedbackContainer, { opacity: feedbackOpacity },]}>
-              <Text style={styles.feedbackText}>
-                {playbackFeedback}
-              </Text>
-            </Animated.View>
-          )}
-
-          <View style={styles.counter} pointerEvents="none">
-            <Text style={styles.counterText}>
-              {activeIndex + 1} / {videos.length}
-            </Text>
-          </View>
-        </Animated.View>
-      ) : (
-        <Text style={styles.message}>No video available.</Text>
-      )}
-    </View>
-  );
+  return <View style={styles.container} onLayout={event => setHeight(event.nativeEvent.layout.height)}>
+    {loading ? <ActivityIndicator color="#5DE5E0" /> : videos.length > 0 && height > 0 ? <FlatList
+      key={height} data={videos} keyExtractor={item => item.video_id} renderItem={renderItem} pagingEnabled
+      initialNumToRender={2} maxToRenderPerBatch={2} windowSize={3} showsVerticalScrollIndicator={false}
+      getItemLayout={(_, index) => ({ length: height, offset: height * index, index })}
+      onViewableItemsChanged={changed.current} viewabilityConfig={viewability.current}
+    /> : !error && <View style={styles.message}>
+      <Text style={styles.text}>No matching videos. Confirm your interests to try again.</Text>
+      <Pressable onPress={() => router.push('/(onboarding)/interests')}><Text style={styles.action}>Choose interests</Text></Pressable>
+    </View>}
+    {!!error && <View style={styles.banner}>
+      <Text style={styles.text}>{error}</Text>
+      <Pressable onPress={() => expired ? refresh() : setRetry(value => value + 1)}><Text style={styles.action}>{expired ? 'Refresh feed' : 'Retry loading'}</Text></Pressable>
+    </View>}
+    {videos.length > 0 && <View pointerEvents="none" style={styles.counter}>
+      <Text style={styles.text}>{active + 1} / {total} {videos.length < total ? '(loading more)' : ''}</Text>
+    </View>}
+  </View>;
 }
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#071E2A', justifyContent: 'center' },
+  text: { color: 'white', textAlign: 'center' },
+  action: { color: '#5DE5E0', padding: 12, textAlign: 'center' },
+  message: { padding: 24 },
+  banner: { position: 'absolute', left: 12, right: 12, top: 8, padding: 12, backgroundColor: '#103B49' },
+  counter: { position: 'absolute', right: 18, bottom: 70 },
+});

@@ -1,19 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, KeyboardAvoidingView, Platform, Pressable, Text, TextInput, View,} from 'react-native';
 import { Link, router } from 'expo-router';
 
 import { authStyles as styles } from '@/styles/auth.styles';
 import { loginUser, saveSession } from '@/services/auth';
 import { Colors } from '@/constants/colors';
+import { prefetchCategories } from '@/services/onboarding-data';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const submitting = useRef(false);
+  useEffect(() => { prefetchCategories(); }, []);
 
   async function handleLogin() 
   {
+    if (submitting.current) return;
     setError('');
 
     if (!email.trim() || !password) 
@@ -21,6 +25,8 @@ export default function LoginScreen() {
       setError('Please enter your email and password.');
       return;
     }
+
+    submitting.current = true;
 
     setLoading(true);
 
@@ -52,6 +58,7 @@ export default function LoginScreen() {
     finally 
     {
       setLoading(false);
+      submitting.current = false;
     }
   }
 

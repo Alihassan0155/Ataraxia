@@ -2,14 +2,14 @@
 import os
 from typing import Annotated
 from uuid import UUID
-from fastapi import APIRouter,Depends,HTTPException,Query
+from fastapi import APIRouter,Depends,HTTPException,Query,Response
 from pydantic import BaseModel,ConfigDict,Field,field_validator
 from .repository import PreferenceRepository,InvalidInterests
 from .service import PreferenceService
 
 class InterestsRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')
-    category_ids:list[str]=Field(max_length=100)
+    category_ids:list[str]=Field(min_length=1,max_length=100)
     @field_validator('category_ids')
     @classmethod
     def distinct(cls,value):
@@ -51,14 +51,26 @@ def create_router(current_user):
         except HTTPException:raise
         except Exception:raise HTTPException(503,'Preference data is temporarily unavailable.')
     @router.get('/onboarding/interests',response_model=InterestsResponse)
-    def interests(service=Depends(get_service)):
-        return invoke(service.interests)
+    def interests(response:Response,service=Depends(get_service)):
+
+        result=invoke(service.interests)
+
+        return result
     @router.get('/users/me/interests',response_model=InterestsResponse)
-    def get_preferences(user_id=Depends(identity),service=Depends(get_service)):
-        return invoke(lambda:service.get(user_id))
+    def get_preferences(response:Response,user_id=Depends(identity),service=Depends(get_service)):
+
+        result=invoke(lambda:service.get(user_id))
+
+
+        response.headers['Cache-Control']='no-store'
+        return result
     @router.put('/users/me/interests',response_model=InterestsResponse)
-    def put_preferences(body:InterestsRequest,user_id=Depends(identity),service=Depends(get_service)):
-        return invoke(lambda:service.replace(user_id,body.category_ids))
+    def put_preferences(body:InterestsRequest,response:Response,user_id=Depends(identity),service=Depends(get_service)):
+
+        result=invoke(lambda:service.replace(user_id,body.category_ids))
+
+        response.headers['Cache-Control']='no-store'
+        return result
     @router.get('/recommendations/cold-start',response_model=CandidatesResponse)
     def cold_start(limit:Annotated[int,Query(ge=1,le=50)]=50,user_id=Depends(identity),service=Depends(get_service)):
         return invoke(lambda:service.candidates(user_id,limit))

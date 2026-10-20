@@ -32,7 +32,7 @@ class PreferenceService:
     def replace(self, user_id, ids):
         return {"interests": self.repository.replace(user_id, ids)}
 
-    def candidates(self, user_id, limit=50):
+    def candidates(self, user_id, limit=50, include_media=False):
         if not self.bucket:
             raise RuntimeError("S3 bucket configuration missing")
 
@@ -71,9 +71,15 @@ class PreferenceService:
 
         candidates = balanced_sample(groups, limit, self.rng)
 
-        return {
+        result = {
             "videos": candidates,
             "count": len(candidates),
             "limit": limit,
             "strategy": "balanced_random_metadata_v1",
         }
+        if include_media:
+            wanted = {item['video_id'] for item in candidates}
+            result['_media'] = {row['video_id']: {
+                key: row.get(key) for key in ('video_id', 'media_uri', 'availability', 'media_sha256')
+            } for row in rows if row['video_id'] in wanted}
+        return result

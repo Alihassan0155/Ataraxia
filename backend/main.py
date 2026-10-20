@@ -9,7 +9,7 @@ import boto3
 
 from dotenv import load_dotenv
 from botocore.config import Config
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Response
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, EmailStr, Field
 from supabase import create_client
@@ -36,8 +36,10 @@ if not AWS_REGION or not S3_BUCKET_NAME:
 s3 = boto3.client(
     "s3",
     region_name=AWS_REGION,
+    endpoint_url=f"https://s3.{AWS_REGION}.amazonaws.com",
     aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
     aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
     config=Config(
         signature_version="s3v4",
         s3={"addressing_style": "virtual"},
@@ -75,6 +77,8 @@ app.add_middleware(
 )
 
 security = HTTPBearer()
+
+
 
 
 class AuthRequest(BaseModel):
@@ -133,12 +137,15 @@ def signup(request: AuthRequest):
 
 
 @app.post("/auth/login")
-def login(request: AuthRequest):
+def login(request: AuthRequest, http_response: Response):
     try:
+
         response = supabase.auth.sign_in_with_password({
             "email": str(request.email),
             "password": request.password
         })
+
+        http_response.headers['Cache-Control'] = 'no-store'
 
         if response.user is None or response.session is None:
             raise HTTPException(
@@ -194,9 +201,11 @@ def refresh_session(request: dict):
 
 
 @app.get("/auth/me")
-def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
+def get_current_user(http_response: Response, credentials: HTTPAuthorizationCredentials = Depends(security)):
     try:
+
         response = supabase.auth.get_user(credentials.credentials)
+
 
         if response.user is None:
             raise HTTPException( status_code=401, detail="Invalid or expired access token.")
@@ -217,6 +226,8 @@ from backend.onboarding.repository import PreferenceRepository
 from backend.onboarding.service import PreferenceService
 
 app.include_router(create_router(get_current_user))
+from backend.onboarding.delivery import create_delivery_router
+app.include_router(create_delivery_router(get_current_user, s3, S3_BUCKET_NAME))
 
 
 @app.get("/videos/{video_key}/playback")
