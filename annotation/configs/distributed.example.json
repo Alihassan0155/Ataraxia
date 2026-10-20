@@ -1,0 +1,39 @@
+{
+  "controller_root": "E:/ALI/Ataraxia/annotation",
+  "batch_size": 2,
+  "max_attempts": 3,
+  "timeout_per_video_seconds": 2400,
+  "model_load_seconds": 300,
+  "workers": [
+    {
+      "id": "main",
+      "transport": "local",
+      "root": "E:/ALI/Ataraxia/annotation",
+      "python": "E:/ALI/Ataraxia/.venv-qwen-cuda/Scripts/python.exe",
+      "local_root": "C:/ProgramData/AtaraxiaWorker",
+      "cache": "E:/ALI/Ataraxia/.cache/huggingface"
+    },
+    {
+      "id": "gpu2",
+      "transport": "ssh-task",
+      "host": "saad@10.104.112.18",
+      "root": "\\\\LAB12-PC47\\AtaraxiaAnnotation",
+      "python": "D:/ALI/AtaraxiaWorker/venv/Scripts/python.exe",
+      "local_root": "D:/ALI/AtaraxiaWorker",
+      "cache": "D:/ALI/AtaraxiaWorker/cache/hub",
+      "ssh_auth": "interactive",
+      "task_name": "AtaraxiaGPUWorker"
+    },
+    {
+      "id": "gpu3",
+      "transport": "ssh-task",
+      "host": "lab@10.104.112.9",
+      "root": "\\\\LAB12-PC47\\AtaraxiaAnnotation",
+      "python": "D:/ALI/AtaraxiaWorker/venv/Scripts/python.exe",
+      "local_root": "D:/ALI/AtaraxiaWorker",
+      "cache": "D:/ALI/AtaraxiaWorker/cache/hub",
+      "ssh_auth": "interactive",
+      "task_name": "AtaraxiaGPUWorker"
+    }
+  ]
+}

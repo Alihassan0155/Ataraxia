@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "ssh": {
+    "gpu2": {
+      "address": "saad@10.104.112.18",
+      "expected_hostname": "DESKTOP-RM0MQ8B",
+      "reachable": true,
+      "authenticated": false
+    },
+    "gpu3": {
+      "address": "lab@10.104.112.9",
+      "expected_hostname": "LAB12-PC08",
+      "reachable": true,
+      "authenticated": false
+    }
+  },
+  "authentication_error": "Permission denied (publickey,password,keyboard-interactive)",
+  "share_exists": false,
+  "proposed_unc": "\\\\LAB12-PC47\\AtaraxiaAnnotation",
+  "local_public_keys_found": false,
+  "ssh_agent_available": false,
+  "remote_inference_started": false
+}

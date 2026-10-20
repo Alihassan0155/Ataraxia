@@ -1,0 +1,10 @@
+{
+  "videos": "videos",
+  "video_semantics": "video_semantics",
+  "video_embeddings": "video_embeddings",
+  "affect_annotations": "affect_annotations",
+  "video_context": "video_context",
+  "processing_runs": "processing_runs",
+  "processing_jobs": "processing_jobs",
+  "interest_categories": "interest_categories"
+}

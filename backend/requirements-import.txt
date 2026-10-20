@@ -1,0 +1,6 @@
+# Separate backend import environment: do not install into frozen GPU environments.
+psycopg[binary]>=3.2,<4
+python-dotenv>=1,<2
+numpy>=1.26,<3
+jsonschema>=4.23,<5
+pydantic>=2,<3

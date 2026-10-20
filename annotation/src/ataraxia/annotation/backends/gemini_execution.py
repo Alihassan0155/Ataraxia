@@ -8,6 +8,7 @@ from ataraxia.runtime.paths import evidence_root
 from ataraxia.annotation.common import OUTPUT_ROOT, load_processed_ids, save_annotation
 import json
 import csv
+import os
 
 ROOT = OUTPUT_ROOT
 
@@ -80,21 +81,27 @@ def bounded_video(keys,vid,index,disabled,cfg,deadline_seconds=600,target=video_
 
 
 def rotating_video(keys,vid,index,disabled,cfg,attempt_runner=bounded_video):
+    all_keys = os.environ.get('ATARAXIA_GEMINI_ALL_KEYS_BEFORE_STOP') == '1'
     started=time.monotonic();tried=[]
     for offset in range(len(keys)):
         slot=(index+offset)%len(keys)
         if slot in disabled:continue
-        remaining=600-(time.monotonic()-started)
+        remaining=180 if all_keys else 600-(time.monotonic()-started)
         if remaining<=0:break
         tried.append(slot)
         print(f'Gemini {vid}: trying key slot {slot+1}/{len(keys)} (maximum 180s for this key)',flush=True)
         try:return attempt_runner(keys,vid,slot,disabled,cfg,deadline_seconds=min(180,remaining))
-        except (TimeoutError,GeminiWorkerError) as exc:
-            if isinstance(exc,GeminiWorkerError) and exc.category not in ['AllGeminiKeysUnavailable','TimeoutError','ReadTimeout','ConnectTimeout']:
+        except Exception as exc:
+            if not all_keys and not isinstance(exc,(TimeoutError,GeminiWorkerError)):
                 raise
+            if not all_keys and isinstance(exc,GeminiWorkerError) and exc.category not in ['AllGeminiKeysUnavailable','TimeoutError','ReadTimeout','ConnectTimeout']:
+                raise
+            error=str(exc)
+            for key in keys:error=error.replace(key,'[REDACTED]')
             print(f'Gemini {vid}: key slot {slot+1} failed/timed out; switching to next key',flush=True)
-            append(ROOT/'gemini/events.jsonl',{'event':'key_failover','video_id':vid,'key_slot':slot+1,'reason':str(exc)})
-    raise GeminiWorkerError(f'{vid}: no result within 600s; attempted key slots {[k+1 for k in tried]}','KeyFailoverExhausted')
+            append(ROOT/'gemini/events.jsonl',{'event':'key_failover','video_id':vid,'key_slot':slot+1,'reason':error})
+    reason='all available keys failed' if all_keys else 'no result within 600s'
+    raise GeminiWorkerError(f'{vid}: {reason}; attempted key slots {[k+1 for k in tried]}','KeyFailoverExhausted')
 
 
 def main():
@@ -110,14 +117,18 @@ def main():
         if vid in done:continue
         try:
             result,index=rotating_video(keys,vid,index,disabled,cfg)
-            result['run_metadata']['reliability_policy_version']='hard_per_key_failover_v4'
+            result['run_metadata']['reliability_policy_version']=(
+                'all_keys_before_stop_v5' if os.environ.get('ATARAXIA_GEMINI_ALL_KEYS_BEFORE_STOP')=='1'
+                else 'hard_per_key_failover_v4')
             save_annotation(saved,result);done.add(vid)
         except Exception as exc:
             error=repr(exc)
             for key in keys:error=error.replace(key,'[REDACTED]')
             append(OUTPUT_ROOT/'gemini/failures.jsonl',{'video_id':vid,'error':error})
             failures.append(vid);index=(index+1)%len(keys)
-            if len(disabled)==len(keys):break
+            if os.environ.get('ATARAXIA_GEMINI_ALL_KEYS_BEFORE_STOP')=='1' or len(disabled)==len(keys):
+                print(f'STOPPED Gemini {vid}: all available keys failed; video remains pending for resume.',flush=True)
+                break
     write(OUTPUT_ROOT/'gemini/status.json',{'expected':len(rows),'completed':len(done),'failed_video_ids':failures})
     if failures or len(done)<len(rows):raise SystemExit(1)
 

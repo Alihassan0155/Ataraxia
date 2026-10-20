@@ -9,9 +9,11 @@ versioned separately. Importing the API never loads a model or calls Gemini.
 | `src/ataraxia/api.py` | Explicit annotation jobs and isolated worker execution |
 | `src/ataraxia/annotation/` | Annotation contracts, exact rubrics, active native model workers |
 | `src/ataraxia/runtime/` | Configuration, portable paths, application logging |
+| `src/ataraxia/distributed/` | Main-PC scheduler and isolated Windows/SSH GPU workers |
 | `src/ataraxia/calibration/` | Frozen calibration application without fitting |
 | `src/ataraxia/evaluation/` | Reusable metrics and development evaluation workflows |
 | `src/ataraxia/datasets/` | Normalization, validation, selection, preprocessing |
+| `src/ataraxia/semantic/`, `semantic_pipeline/` | Independent file-based semantic extraction and BGE-M3 encoding |
 | `src/ataraxia/research/` | Historical model runs, collection, sampling and MLX workflows |
 | `configs/`, `dependencies/` | Runtime policy and dependency boundaries |
 | `scripts/` | Windows launcher, artifact verification and reversible source restore |
@@ -36,5 +38,14 @@ not been authorized or started by this refactor. The software integration layer
 is implemented; the scientific/provider readiness gaps in the held-out report
 still apply.
 
+For the three-PC GPU workflow, see [distributed annotation](docs/distributed_gpu_annotation.md).
+Start with the explicit 3–6-video smoke test; full dispatch is gated on real
+three-machine validation. Gemini remains separate.
+
 See [workflows](docs/workflows.md), [application integration](docs/application_integration.md),
 [migration summary](docs/migration_summary.md), and [validation](docs/validation_report.md).
+
+For continuous encoding of completed Gemini evidence, see the
+[semantic pipeline setup and commands](semantic_pipeline/README.md).
+That implementation has not been executed; it preserves affect outputs and
+freezes each run's taxonomy, embedding template and model revisions.

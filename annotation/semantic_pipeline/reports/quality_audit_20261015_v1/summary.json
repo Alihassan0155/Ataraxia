@@ -1,0 +1,53 @@
+{
+  "run": "E:\\ALI\\Ataraxia\\annotation\\semantic_pipeline\\runs\\semantic_full_v8_r2",
+  "run_fingerprint": "ac0aae5e3bd2c97de4013f1aeb6be123ae3950b2794ebd3190fad1a4e35ef565",
+  "snapshot_record_count": 47,
+  "verified_completed": 47,
+  "artifact_errors": [],
+  "source_errors": [],
+  "repaired_records": 47,
+  "missing_field_counts": {
+    "secondary_categories": 47,
+    "topics": 6,
+    "tags": 12,
+    "activities": 15,
+    "objects": 10,
+    "dialogue_themes": 8,
+    "meaning": 45,
+    "intent": 44,
+    "humor_type": 44,
+    "educational_purpose": 41,
+    "cultural_references": 24,
+    "content_focus": 32,
+    "audience_focus": 46,
+    "subcategory": 37,
+    "content_style": 6,
+    "presentation": 10,
+    "music": 31,
+    "vocal_delivery": 13,
+    "setting": 32,
+    "temporal_context": 29,
+    "sound_effects": 31,
+    "subjects": 6,
+    "spoken_language": 5,
+    "video_format": 5,
+    "speech_summary": 1
+  },
+  "failed_records": 13,
+  "failure_categories": {
+    "incomplete_repair_decisions": 1,
+    "other_validation": 2,
+    "unsupported_or_overlong_quote": 4,
+    "malformed_or_truncated_json": 5,
+    "controlled_vocabulary": 1
+  },
+  "exhausted_failures": 13,
+  "review_flags": 131,
+  "duplicate_vectors": 0,
+  "limitations": [
+    "Structural validation does not establish semantic entailment.",
+    "Existing-video nearest neighbors are not a held-out text-query benchmark.",
+    "No raw-video viewing or human relevance judgments were performed.",
+    "Live input files may grow after this read-only snapshot."
+  ]
+}

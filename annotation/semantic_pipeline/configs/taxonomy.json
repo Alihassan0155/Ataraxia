@@ -1,0 +1,27 @@
+{
+  "version": "ataraxia-semantic-taxonomy-v1",
+  "categories": {
+    "DIY, Crafts & Outdoor Hobbies": ["Crafts", "DIY Projects", "Gardening", "Outdoor Hobbies", "Other"],
+    "Comedy": ["Stand-up", "Sketches", "Parody", "Pranks", "Other"],
+    "Lifestyle, Vlogs & Relationships": ["Daily Vlogs", "Storytime", "Relationships", "Lifestyle Advice", "Other"],
+    "Mental Health & Motivation": ["Mental Health", "Motivational Talks", "Self-improvement", "Other"],
+    "Science & Technology": ["Science Explainers", "Technology", "Engineering", "Other"],
+    "Sports & Fitness": ["Fitness", "Strength Training", "Sports Analysis", "Sports Highlights", "Other"],
+    "Gaming": ["Gameplay", "Tutorials", "Reviews", "Esports", "Other"],
+    "Travel & Adventure": ["Destinations", "Adventure", "Travel Advice", "Other"],
+    "Nature, Animals & Conservation": ["Animals", "Nature", "Conservation", "Other"],
+    "Music & Dance": ["Music Performance", "Dance", "Music Commentary", "Other"],
+    "Beauty & Style": ["Fashion", "Skincare", "Makeup", "Grooming", "Other"],
+    "Religion & Spirituality": ["Religious Teaching", "Spirituality", "Religious Practice", "Other"],
+    "News, Politics & Social Issues": ["News", "Politics", "Social Commentary", "Other"],
+    "Entertainment & Animation": ["Animation", "Film and Television", "Celebrity Content", "Other"],
+    "Food & Cooking": ["Recipes", "Food Reviews", "Cooking Techniques", "Other"],
+    "Education": ["Tutorials", "History", "Language Learning", "General Knowledge", "Other"],
+    "Vehicles": ["Cars", "Motorcycles", "Vehicle Maintenance", "Other"],
+    "ASMR": ["Whispering", "Sound-focused", "Visual ASMR", "Other"],
+    "unknown": []
+  },
+  "original_unmapped_label": "Unmapped / Needs Review",
+  "formats": ["talking_head", "tutorial", "vlog", "performance", "sketch", "compilation", "gameplay", "animation", "demonstration", "interview", "news_report", "other", "unknown"],
+  "styles": ["comedic", "informational", "instructional", "dramatic", "observational", "promotional", "artistic", "motivational", "other", "unknown"]
+}
