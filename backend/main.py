@@ -14,6 +14,9 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, EmailStr, Field
 from supabase import create_client
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
+from backend.video_data.db_pool import open_pool, close_pool
+
 load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -41,11 +44,23 @@ s3 = boto3.client(
     ),
 )
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    open_pool()
+    try:
+        yield
+    finally:
+        close_pool()
+
+
 app = FastAPI(
     title="Ataraxia API",
     description="Backend API for the Ataraxia recommendation system",
-    version="0.2.0"
+    version="0.2.0",
+    lifespan=lifespan,
 )
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -58,6 +73,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 security = HTTPBearer()
 
 
@@ -101,7 +117,7 @@ def signup(request: AuthRequest):
 
     except HTTPException:
         raise
-   
+
     except Exception as error:
         print("Signup error:", repr(error))
 
@@ -197,6 +213,9 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
 
 
 from backend.onboarding.api import create_router
+from backend.onboarding.repository import PreferenceRepository
+from backend.onboarding.service import PreferenceService
+
 app.include_router(create_router(get_current_user))
 
 
@@ -229,7 +248,6 @@ def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredent
 
     except Exception:
         raise HTTPException(status_code=500, detail="Could not generate video playback URL.",)
-
 
 
 @app.get("/videos/feed")
@@ -271,3 +289,41 @@ def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security)
 
     except Exception:
         raise HTTPException(status_code=500, detail="Could not load the video feed.",)
+
+
+@app.get("/videos/recommended-feed")
+def get_recommended_video_feed(user=Depends(get_current_user),):
+    try:
+        service = PreferenceService(PreferenceRepository(), S3_BUCKET_NAME,)
+        result = service.candidates(user["id"], limit=50)
+
+        videos = []
+
+        for candidate in result["videos"]:
+            video_id = candidate["video_id"]
+
+            if video_id.startswith("FV"):
+                video_key = f"videos/finevideo/{video_id}.mp4"
+            elif video_id.startswith("TT_"):
+                video_key = f"videos/tiktok/{video_id}.mp4"
+            else:
+                continue
+
+            playback_url = s3.generate_presigned_url(
+                "get_object",
+                Params={"Bucket": S3_BUCKET_NAME, "Key": video_key,},
+                ExpiresIn=300,
+            )
+
+            videos.append({"video_key": video_key, "playback_url": playback_url,})
+
+        return {
+            "videos": videos,
+            "count": len(videos),
+            "strategy": result["strategy"],
+        }
+
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=503, detail="Could not load personalized video feed.",)

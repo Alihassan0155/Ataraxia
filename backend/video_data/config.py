@@ -1,4 +1,4 @@
-"""Backend-only database configuration. Credentials never enter artifact reports."""
+﻿"""Backend-only database configuration. Credentials never enter artifact reports."""
 from dataclasses import dataclass, field
 import os
 from pathlib import Path
