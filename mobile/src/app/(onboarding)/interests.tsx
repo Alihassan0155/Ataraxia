@@ -88,7 +88,6 @@ function InterestsSkeleton()
 
       <Animated.View style={[ styles.skeletonSaveButton, { opacity: shimmerOpacity },]}/>
 
-      <Animated.View style={[styles.skeletonSkipButton, { opacity: shimmerOpacity }, ]} />
     </View>
   );
 }
@@ -100,6 +99,7 @@ export default function InterestsScreen()
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
     async function loadInterests() 
@@ -108,6 +108,8 @@ export default function InterestsScreen()
       {
         setLoading(true);
         setError('');
+        setInterests([]);
+        setSelectedIds([]);
 
         const categoriesResponse = await authenticatedFetch('/onboarding/interests' );
 
@@ -117,8 +119,6 @@ export default function InterestsScreen()
         }
 
         const categoriesData: InterestsResponse = await categoriesResponse.json();
-
-        setInterests(categoriesData.interests);
 
         const preferencesResponse = await authenticatedFetch('/users/me/interests');
 
@@ -136,6 +136,7 @@ export default function InterestsScreen()
           savedIds.push(interest.id);
         }
 
+        setInterests(categoriesData.interests);
         setSelectedIds(savedIds);
       } 
       catch (err) 
@@ -156,7 +157,7 @@ export default function InterestsScreen()
     }
 
     loadInterests();
-  }, []);
+  }, [reloadKey]);
 
   function toggleInterest(id: string) 
   {
@@ -180,16 +181,11 @@ export default function InterestsScreen()
     });
   }
 
-  function skipOnboarding() 
-  {
-    router.replace('/(tabs)');
-  }
-
   async function saveInterests() 
   {
     if (selectedIds.length === 0) 
     {
-      setError('Please select at least one interest, or skip for now.');
+      setError('Please select at least one interest.');
       return;
     }
 
@@ -267,7 +263,7 @@ export default function InterestsScreen()
         <View style={styles.errorContainer}>
           <Text style={styles.errorText}>{error}</Text>
 
-          <Pressable onPress={() => router.replace('/(onboarding)/interests')}>
+          <Pressable onPress={() => setReloadKey((current) => current + 1)}>
             <Text style={styles.retryText}>Reload screen</Text>
           </Pressable>
         </View>
@@ -284,7 +280,7 @@ export default function InterestsScreen()
 
           return (
             <Pressable style={[ styles.categoryButton, isSelected && styles.categoryButtonSelected, ]}
-              onPress={() => toggleInterest(item.id)} accessibilityRole="checkbox" accessibilityState={{ checked: isSelected }}>
+              onPress={() => toggleInterest(item.id)} disabled={saving} accessibilityRole="checkbox" accessibilityState={{ checked: isSelected }}>
               <Text style={[ styles.categoryText, isSelected && styles.categoryTextSelected, ]}>
                 {isSelected ? '✓  ' : ''}
                 {item.name}
@@ -294,17 +290,13 @@ export default function InterestsScreen()
         }}
       />
 
-      <Pressable style={[ styles.saveButton, (saving || interests.length === 0) && styles.disabledButton, ]}
-        onPress={saveInterests} disabled={saving || interests.length === 0}>
+      <Pressable style={[ styles.saveButton, (saving || interests.length === 0 || selectedIds.length === 0) && styles.disabledButton, ]}
+        onPress={saveInterests} disabled={saving || loading || interests.length === 0 || selectedIds.length === 0}>
         {saving ? (
           <ActivityIndicator color="#071E2A" />
         ) : (
-          <Text style={styles.saveButtonText}>Save Interests</Text>
+          <Text style={styles.saveButtonText}>Continue</Text>
         )}
-      </Pressable>
-
-      <Pressable style={styles.skipButton} onPress={skipOnboarding} disabled={saving}>
-        <Text style={styles.skipButtonText}>Skip for now</Text>
       </Pressable>
     </View>
   );
