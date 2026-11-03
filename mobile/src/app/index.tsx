@@ -1,2 +1,6 @@
-// Startup routing is owned by the mounted root navigator.
-export default function Index() { return null; }
+
+import { Redirect } from 'expo-router';
+
+export default function Index() {
+  return <Redirect href="/login" />;
+}

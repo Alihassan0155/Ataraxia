@@ -1,4 +1,3 @@
-import { apiFetch } from './request';
 import { Platform } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
 
@@ -43,14 +42,6 @@ export type RefreshResponse = {
 
 const ACCESS_TOKEN_KEY = 'ataraxia_access_token';
 const REFRESH_TOKEN_KEY = 'ataraxia_refresh_token';
-let sessionGeneration = 0;
-let refreshInFlight: Promise<string | null> | null = null;
-
-export function refreshAccessToken(): Promise<string | null> {
-  if (!refreshInFlight) refreshInFlight = performRefresh().finally(() => { refreshInFlight = null; });
-  return refreshInFlight;
-}
-
 async function saveToken(key: string, value: string) 
 {
   if (Platform.OS === 'web') 
@@ -109,7 +100,6 @@ async function getRefreshToken(): Promise<string | null>
 
 export async function clearSession() 
 {
-  sessionGeneration++;
   if (Platform.OS === 'web') 
   {
     sessionStorage.removeItem(ACCESS_TOKEN_KEY);
@@ -122,9 +112,8 @@ export async function clearSession()
   }
 }
 
-async function performRefresh(): Promise<string | null>
+export async function refreshAccessToken(): Promise<string | null>
 {
-  const generation = sessionGeneration;
   if (!API_URL) 
   {
     throw new Error('API address is not configured.');
@@ -138,7 +127,7 @@ async function performRefresh(): Promise<string | null>
     return null;
   }
 
-  const response = await apiFetch(`${API_URL}/auth/refresh`, {
+  const response = await fetch(`${API_URL}/auth/refresh`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -166,7 +155,6 @@ async function performRefresh(): Promise<string | null>
     return null;
   }
 
-  if (generation !== sessionGeneration) return null;
   await saveSession(data.access_token, data.refresh_token);
 
   return data.access_token;
@@ -193,7 +181,7 @@ async function performRestoreSession(): Promise<boolean>
     if (!accessToken) return false;
   }
 
-  const response = await apiFetch(`${API_URL}/auth/me`,
+  const response = await fetch(`${API_URL}/auth/me`,
   {
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -234,7 +222,7 @@ export async function authenticatedFetch( path: string, options: RequestInit = {
     throw new AuthenticationError('Your session has expired. Please log in again.');
   }
 
-  const response = await apiFetch(`${API_URL}${path}`, {
+  const response = await fetch(`${API_URL}${path}`, {
     ...options,
     headers: {
       ...(options.headers as Record<string, string> | undefined),
@@ -247,15 +235,14 @@ export async function authenticatedFetch( path: string, options: RequestInit = {
     return response;
   }
 
-  const latestToken = await getAccessToken();
-  accessToken = latestToken && latestToken !== accessToken ? latestToken : await refreshAccessToken();
+  accessToken = await refreshAccessToken();
 
   if (!accessToken) 
   {
     throw new AuthenticationError('Your session has expired. Please log in again.');
   }
 
-  const retried = await apiFetch(`${API_URL}${path}`,
+  const retried = await fetch(`${API_URL}${path}`,
   {
     ...options,
     headers: {
@@ -276,7 +263,7 @@ export async function signupUser( email: string, password: string ): Promise<Sig
     throw new Error('API address is not configured.');
   }
 
-  const response = await apiFetch(`${API_URL}/auth/signup`, {
+  const response = await fetch(`${API_URL}/auth/signup`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -306,7 +293,7 @@ export async function loginUser( email: string, password: string ): Promise<Logi
     throw new Error('API address is not configured.');
   }
 
-  const response = await apiFetch(`${API_URL}/auth/login`, {
+  const response = await fetch(`${API_URL}/auth/login`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -350,7 +337,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null>
     return null;
   }
 
-  let response = await apiFetch(`${API_URL}/auth/me`, {
+  let response = await fetch(`${API_URL}/auth/me`, {
     headers: {
       Authorization: `Bearer ${accessToken}`,
       Accept: 'application/json',
@@ -366,7 +353,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null>
       return null;
     }
 
-    response = await apiFetch(`${API_URL}/auth/me`, {
+    response = await fetch(`${API_URL}/auth/me`, {
       headers: {
         Authorization: `Bearer ${accessToken}`,
         Accept: 'application/json',

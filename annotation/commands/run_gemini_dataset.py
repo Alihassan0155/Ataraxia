@@ -102,6 +102,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['prepare', 'run'])
     parser.add_argument('--run', default='gemini_full_remaining_20261012')
+    parser.add_argument('--reverse-keys', action='store_true',
+                        help='Try API keys from last configured key to first')
     args = parser.parse_args()
     run = ROOT/'runs'/safe_id(args.run)
     run.mkdir(parents=True, exist_ok=True)
@@ -115,6 +117,7 @@ def main():
         settings = Settings.load(ROOT)
         env = settings.child_environment()
         env.update(ATARAXIA_PILOT_DIR=str(run/'evidence'),
+                   ATARAXIA_GEMINI_REVERSE_KEYS='1' if args.reverse_keys else '0',
                    ATARAXIA_METADATA_PATH=str(run/'metadata.csv'),
                    ATARAXIA_OUTPUT_ROOT=str(run/'predictions'),
                    ATARAXIA_GEMINI_ALL_KEYS_BEFORE_STOP='1',

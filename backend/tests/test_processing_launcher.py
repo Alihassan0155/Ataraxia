@@ -1,9 +1,18 @@
 import json,tempfile,unittest
 from pathlib import Path
 from unittest.mock import Mock
-from backend.processing.cli import run_ids,validated_ids,embedding_jobs,process_semantic_batch
+from backend.processing.cli import run_ids,validated_ids,embedding_jobs,process_semantic_batch,select_key_slots
 
 class LauncherTests(unittest.TestCase):
+    def test_key_direction_and_inclusive_bounds(self):
+        self.assertEqual(select_key_slots(21),list(range(1,22)))
+        self.assertEqual(select_key_slots(21,'reverse'),list(range(21,0,-1)))
+        self.assertEqual(select_key_slots(21,'reverse',21,18),[21,20,19,18])
+        self.assertEqual(select_key_slots(21,'forward',3,5),[3,4,5])
+        self.assertEqual(select_key_slots(21,'reverse',5,5),[5])
+    def test_invalid_key_bounds_rejected(self):
+        for order,start,end in [('forward',21,1),('reverse',1,21),('forward',0,5),('reverse',22,1)]:
+            with self.assertRaises(ValueError):select_key_slots(21,order,start,end)
     def test_full_catalogues_not_database_subset(self):
         self.assertEqual(len(run_ids('gemini')),4126)
         self.assertEqual(len(run_ids('embedder')),4226)

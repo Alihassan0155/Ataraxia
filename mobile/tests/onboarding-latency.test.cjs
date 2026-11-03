@@ -9,7 +9,7 @@ function load(name, mocks = {}) {
     compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
   }).outputText;
   const context = { exports: {}, Response, performance, process: { env: { EXPO_PUBLIC_API_URL: 'http://fixture.invalid' } },
-    require: name => {
+    fetch: mocks.fetch, require: name => {
 
       if (mocks[name]) return mocks[name];
       throw new Error('Unexpected dependency');
@@ -40,7 +40,7 @@ test('Strict Mode concurrent restoration uses one session verification', async (
   const auth = load('auth', {
     'react-native': { Platform: { OS: 'ios' } },
     'expo-secure-store': { getItemAsync: async () => 'fixture-token' },
-    './request': { apiFetch: async () => { verifies++; await new Promise(resolve => setTimeout(resolve, 10)); return new Response('{}'); } },
+    fetch: async () => { verifies++; await new Promise(resolve => setTimeout(resolve, 10)); return new Response('{}'); },
   });
   const result = await Promise.all([auth.restoreSession(), auth.restoreSession()]);
   assert.equal(result.every(Boolean), true); assert.equal(verifies, 1);

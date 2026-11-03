@@ -25,3 +25,22 @@ IMPORTANT: widening these LOCAL processing queues does not widen Supabase or S3 
 Validation after removing the artificial local scope limit: both no-inference checks passed (Gemini 4,126; embedder 4,226), frozen compatibility passed, and five launcher/runtime tests passed. No model inference was started while making this scope correction.
 
 Update: `run embedder` now authorizes both frozen Qwen semantics and BGE-M3 stages. Stop an older launcher with Ctrl+C before restarting it. `run embedder -Once` drains eligible semantic/embedding work, then exits; it can take a long time. Failed/backoff jobs retain their original retry policy. No inference was launched while implementing this change.
+
+
+## Gemini key order and bounds
+
+Reload `. .\run.ps1`, then choose:
+
+```powershell
+run gemini -KeyOrder Forward -StartKey 1 -EndKey 21
+run gemini -KeyOrder Reverse -StartKey 21 -EndKey 1
+run gemini -KeyOrder Reverse -StartKey 21 -EndKey 15 -Check
+```
+
+Bounds are inclusive 1-based positions in the existing deduplicated environment
+key list. Omit bounds to use all keys. Stop an existing Gemini worker with Ctrl+C
+before restarting; checkpoints stay intact. Only selected keys are eligible for
+failover. Successful keys remain sticky until failover, not per-video rotation.
+Worker log slots are positions within the selected order: reverse 21-to-1 means
+worker slot 1 corresponds to original key 21. Startup prints that slot mapping
+without printing credentials. `-Check` validates without running inference.

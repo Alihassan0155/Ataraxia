@@ -57,7 +57,18 @@ def process_semantic_batch(worker,batch,write,utc):
         worker.extract(missing[offset:offset+width])
     if not worker.interrupted():worker.embed(batch)
 
-def gemini(allowed,once):
+def select_key_slots(count,order='forward',start=None,end=None):
+    """Inclusive 1-based slots in the existing deduplicated environment key list."""
+    if order not in ('forward','reverse') or count < 1:
+        raise ValueError('Invalid Gemini key order/count')
+    step=1 if order=='forward' else -1
+    start=(1 if step==1 else count) if start is None else start
+    end=(count if step==1 else 1) if end is None else end
+    if not 1<=start<=count or not 1<=end<=count or (end-start)*step<0:
+        raise ValueError('Key bounds must exist and agree with the selected order')
+    return list(range(start,end+step,step))
+
+def gemini(allowed,once,key_order='forward',start_key=None,end_key=None):
     from ataraxia.runtime.config import Settings
     from ataraxia.distributed.common import lock
     source=ANNOTATION/'runs/gemini_full_remaining_20261012'
@@ -85,7 +96,12 @@ def gemini(allowed,once):
             status={'catalogue_total':len(allowed),'validated_complete':len(done),'pending':len(pending),'model':api.MODEL,'output':str(output)}
             write(target/'status.json',status);print(json.dumps(status),flush=True)
             if not pending:return
-            if keys is None:keys=api.load_api_keys()
+            if keys is None:
+                original=api.load_api_keys()
+                slots=select_key_slots(len(original),key_order,start_key,end_key)
+                keys=[original[slot-1] for slot in slots]
+                print(json.dumps({'gemini_key_order':key_order,'original_key_slots':slots,
+                    'log_slot_mapping':'worker slot 1 maps to the first original slot above; successful keys remain sticky'}),flush=True)
             for vid in pending:
                 for p in (source/'evidence/videos'/f'{vid}.mp4',source/'evidence/context'/f'{vid}.json'):
                     if not p.is_file():raise FileNotFoundError('Missing Gemini evidence: '+str(p))
@@ -147,7 +163,12 @@ def embedder(allowed,once):
             finally:worker.unload()
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('target',choices=['gemini','embedder']);p.add_argument('--once',action='store_true');p.add_argument('--check',action='store_true');args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('target',choices=['gemini','embedder']);p.add_argument('--once',action='store_true');p.add_argument('--check',action='store_true')
+    p.add_argument('--key-order',choices=['forward','reverse'],default='forward')
+    p.add_argument('--start-key',type=int);p.add_argument('--end-key',type=int)
+    args=p.parse_args()
+    if args.target!='gemini' and (args.key_order!='forward' or args.start_key is not None or args.end_key is not None):
+        p.error('Key ordering options apply only to Gemini')
     sys.path.insert(0,str(ANNOTATION/'src'))
     allowed=run_ids(args.target)
     if args.check:
@@ -157,6 +178,9 @@ def main():
             try:
                 api=importlib.import_module('ataraxia.annotation.backends.gemini')
                 importlib.import_module('ataraxia.annotation.backends.gemini_execution')
+                from ataraxia.runtime.config import Settings
+                os.environ.update(Settings.load(ANNOTATION).child_environment())
+                result['original_key_slots']=select_key_slots(len(api.load_api_keys()),args.key_order,args.start_key,args.end_key)
                 result.update(dependencies_available=True,model=api.MODEL,python=sys.executable)
             except ModuleNotFoundError as e:
                 result.update(dependencies_available=False,missing_module=e.name,python=sys.executable)
@@ -177,7 +201,7 @@ def main():
                 result['blocker']='Historical frozen definitions/packages differ; restore matching environment/code or prepare a reviewed cached-semantics migration. Frozen provenance is not bypassed.'
         print(json.dumps(result));return
     try:
-        if args.target=='gemini':gemini(allowed,args.once)
+        if args.target=='gemini':gemini(allowed,args.once,args.key_order,args.start_key,args.end_key)
         else:embedder(allowed,args.once)
     except KeyboardInterrupt:print('Stopped; validated completions preserved. Run the same command to resume.')
     except ModuleNotFoundError as e:
