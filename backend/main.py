@@ -17,7 +17,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from backend.video_data.db_pool import open_pool, close_pool
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
@@ -224,15 +224,14 @@ def get_current_user(http_response: Response, credentials: HTTPAuthorizationCred
 from backend.onboarding.api import create_router
 from backend.onboarding.repository import PreferenceRepository
 from backend.onboarding.service import PreferenceService
+from backend.onboarding.delivery import create_delivery_router
 
 app.include_router(create_router(get_current_user))
-from backend.onboarding.delivery import create_delivery_router
 app.include_router(create_delivery_router(get_current_user, s3, S3_BUCKET_NAME))
-
 
 @app.get("/videos/{video_key}/playback")
 def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredentials = Depends(security),):
-    # Verify that the user has a valid Supabase session.
+    
     try:
         response = supabase.auth.get_user(credentials.credentials)
 
@@ -244,7 +243,6 @@ def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredent
     except Exception:
         raise HTTPException(status_code=401, detail="Invalid or expired access token.",)
 
-    # Allow only the video uploaded for our initial playback test.
     if video_key != "_bjglEyMaeo.mp4":
         raise HTTPException(status_code=404, detail="Video not found.",)
 
@@ -263,7 +261,6 @@ def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredent
 
 @app.get("/videos/feed")
 def get_video_feed(credentials: HTTPAuthorizationCredentials = Depends(security),):
-    # Verify that the user has a valid Supabase session.
     try:
         response = supabase.auth.get_user(credentials.credentials)
 

@@ -1,4 +1,3 @@
-"""Bounded, user-bound feed snapshots and just-in-time private media signing."""
 from collections import OrderedDict
 from secrets import token_urlsafe
 from threading import Lock
@@ -13,7 +12,6 @@ from .sampling import valid_media
 
 
 class FeedSnapshots:
-    """One unchanged balanced sample per traversal. Restart/eviction returns 410."""
     def __init__(self, ttl=600, capacity=256, clock=monotonic):
         self.ttl, self.capacity, self.clock = ttl, capacity, clock
         self.entries, self.lock = OrderedDict(), Lock()
@@ -103,7 +101,7 @@ def create_delivery_router(current_user, s3, bucket, snapshots=None, media_looku
                     try:
                         result['initial_playback'] = sign(first_id, snapshots.media(user_id, first_id))
                     except Exception:
-                        # Deliver metadata even if first-URL signing needs retry.
+                        
                         result['initial_playback'] = None
 
             return result

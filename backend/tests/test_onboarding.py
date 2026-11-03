@@ -58,10 +58,12 @@ class ApiTests(unittest.TestCase):
     def test_invalid_unknown_error(self):
         self.repo.replace.side_effect=InvalidInterests('Not selectable')
         self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':['unknown']}).status_code,422)
-    def test_empty_rejected_without_changing_preferences_and_get_uses_authenticated_user(self):
-        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':[]}).status_code,422)
+    def test_empty_interests_are_rejected_and_get_uses_authenticated_user(self):
+        response=self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':[]})
+        self.assertEqual(response.status_code,422)
         self.repo.replace.assert_not_called()
-        self.client.get('/users/me/interests',headers=self.headers);self.assertEqual(str(self.repo.preferences.call_args.args[0]),self.uid)
+        self.client.get('/users/me/interests',headers=self.headers)
+        self.assertEqual(str(self.repo.preferences.call_args.args[0]),self.uid)
     def test_empty_preferences_return_no_candidates(self):
         self.repo.candidate_pool.return_value=([],[])
         self.assertEqual(self.client.get('/recommendations/cold-start',headers=self.headers).json()['videos'],[])
@@ -77,7 +79,7 @@ class ApiTests(unittest.TestCase):
         self.repo.interests.side_effect=RuntimeError('secret connection string')
         response=self.client.get('/onboarding/interests');self.assertEqual(response.status_code,503);self.assertNotIn('secret',response.text)
         self.repo.replace.side_effect=RuntimeError('secret')
-        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':['category-a']}).status_code,503)
+        self.assertEqual(self.client.put('/users/me/interests',headers=self.headers,json={'category_ids':['a']}).status_code,503)
 
 class MainAuthIntegrationTests(unittest.TestCase):
     def test_existing_supabase_dependency_protects_new_routes(self):
