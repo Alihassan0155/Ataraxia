@@ -1,5 +1,8 @@
-﻿import { Platform } from 'react-native';
+import { apiFetch } from './request';
+import { Platform } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
+
+export class AuthenticationError extends Error { constructor(message: string) { super(message); this.name = 'AuthenticationError'; } }
 
 const API_URL = process.env.EXPO_PUBLIC_API_URL;
 
@@ -40,6 +43,13 @@ export type RefreshResponse = {
 
 const ACCESS_TOKEN_KEY = 'ataraxia_access_token';
 const REFRESH_TOKEN_KEY = 'ataraxia_refresh_token';
+let sessionGeneration = 0;
+let refreshInFlight: Promise<string | null> | null = null;
+
+export function refreshAccessToken(): Promise<string | null> {
+  if (!refreshInFlight) refreshInFlight = performRefresh().finally(() => { refreshInFlight = null; });
+  return refreshInFlight;
+}
 
 async function saveToken(key: string, value: string) 
 {
@@ -67,8 +77,10 @@ export async function saveSession( accessToken: string, refreshToken: string)
 {
   try 
   {
-    await saveToken(ACCESS_TOKEN_KEY, accessToken);
-    await saveToken(REFRESH_TOKEN_KEY, refreshToken);
+    const results = await Promise.allSettled([
+      saveToken(ACCESS_TOKEN_KEY, accessToken), saveToken(REFRESH_TOKEN_KEY, refreshToken),
+    ]);
+    if (results.some(result => result.status === 'rejected')) throw new Error('Could not securely save your session.');
   } 
   catch (error) 
   {
@@ -97,6 +109,7 @@ async function getRefreshToken(): Promise<string | null>
 
 export async function clearSession() 
 {
+  sessionGeneration++;
   if (Platform.OS === 'web') 
   {
     sessionStorage.removeItem(ACCESS_TOKEN_KEY);
@@ -109,8 +122,9 @@ export async function clearSession()
   }
 }
 
-export async function refreshAccessToken(): Promise<string | null> 
+async function performRefresh(): Promise<string | null>
 {
+  const generation = sessionGeneration;
   if (!API_URL) 
   {
     throw new Error('API address is not configured.');
@@ -124,7 +138,7 @@ export async function refreshAccessToken(): Promise<string | null>
     return null;
   }
 
-  const response = await fetch(`${API_URL}/auth/refresh`, {
+  const response = await apiFetch(`${API_URL}/auth/refresh`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -152,12 +166,19 @@ export async function refreshAccessToken(): Promise<string | null>
     return null;
   }
 
+  if (generation !== sessionGeneration) return null;
   await saveSession(data.access_token, data.refresh_token);
 
   return data.access_token;
 }
 
-export async function restoreSession(): Promise<boolean> 
+let restoreInFlight: Promise<boolean> | null = null;
+export function restoreSession(): Promise<boolean> {
+  if (!restoreInFlight) restoreInFlight = performRestoreSession().finally(() => { restoreInFlight = null; });
+  return restoreInFlight;
+}
+
+async function performRestoreSession(): Promise<boolean>
 {
   if (!API_URL) 
   {
@@ -172,7 +193,7 @@ export async function restoreSession(): Promise<boolean>
     if (!accessToken) return false;
   }
 
-  const response = await fetch(`${API_URL}/auth/me`, 
+  const response = await apiFetch(`${API_URL}/auth/me`,
   {
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -210,10 +231,10 @@ export async function authenticatedFetch( path: string, options: RequestInit = {
 
   if (!accessToken) 
   {
-    throw new Error('Your session has expired. Please log in again.');
+    throw new AuthenticationError('Your session has expired. Please log in again.');
   }
 
-  const response = await fetch(`${API_URL}${path}`, {
+  const response = await apiFetch(`${API_URL}${path}`, {
     ...options,
     headers: {
       ...(options.headers as Record<string, string> | undefined),
@@ -226,14 +247,15 @@ export async function authenticatedFetch( path: string, options: RequestInit = {
     return response;
   }
 
-  accessToken = await refreshAccessToken();
+  const latestToken = await getAccessToken();
+  accessToken = latestToken && latestToken !== accessToken ? latestToken : await refreshAccessToken();
 
   if (!accessToken) 
   {
-    throw new Error('Your session has expired. Please log in again.');
+    throw new AuthenticationError('Your session has expired. Please log in again.');
   }
 
-  return await fetch(`${API_URL}${path}`, 
+  const retried = await apiFetch(`${API_URL}${path}`,
   {
     ...options,
     headers: {
@@ -241,6 +263,11 @@ export async function authenticatedFetch( path: string, options: RequestInit = {
       Authorization: `Bearer ${accessToken}`,
     },
   });
+  if (retried.status === 401) {
+    await clearSession();
+    throw new AuthenticationError('Your session has expired. Please log in again.');
+  }
+  return retried;
 }
 
 export async function signupUser( email: string, password: string ): Promise<SignupResponse> {
@@ -249,7 +276,7 @@ export async function signupUser( email: string, password: string ): Promise<Sig
     throw new Error('API address is not configured.');
   }
 
-  const response = await fetch(`${API_URL}/auth/signup`, {
+  const response = await apiFetch(`${API_URL}/auth/signup`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -279,7 +306,7 @@ export async function loginUser( email: string, password: string ): Promise<Logi
     throw new Error('API address is not configured.');
   }
 
-  const response = await fetch(`${API_URL}/auth/login`, {
+  const response = await apiFetch(`${API_URL}/auth/login`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -287,6 +314,7 @@ export async function loginUser( email: string, password: string ): Promise<Logi
     },
     body: JSON.stringify({ email, password }),
   });
+
 
   const data = await response.json();
 
@@ -322,7 +350,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null>
     return null;
   }
 
-  let response = await fetch(`${API_URL}/auth/me`, {
+  let response = await apiFetch(`${API_URL}/auth/me`, {
     headers: {
       Authorization: `Bearer ${accessToken}`,
       Accept: 'application/json',
@@ -338,7 +366,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null>
       return null;
     }
 
-    response = await fetch(`${API_URL}/auth/me`, {
+    response = await apiFetch(`${API_URL}/auth/me`, {
       headers: {
         Authorization: `Bearer ${accessToken}`,
         Accept: 'application/json',

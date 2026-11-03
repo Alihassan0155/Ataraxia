@@ -26,6 +26,16 @@ class PreferenceRepository:
                     (video_id,),
                 ).fetchone()
 
+    def media(self, video_id):
+        with self.connection_factory() as conn:
+            conn.row_factory = dict_row
+            with conn.transaction():
+                conn.execute('SET TRANSACTION READ ONLY')
+                return conn.execute(
+                    'SELECT video_id,media_uri,availability,media_sha256 FROM public.videos WHERE video_id=%s',
+                    (video_id,),
+                ).fetchone()
+
     @staticmethod
     def categories(conn):
         return conn.execute(
