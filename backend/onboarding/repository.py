@@ -26,6 +26,16 @@ class PreferenceRepository:
                     (video_id,),
                 ).fetchone()
 
+    def media(self, video_id):
+        with self.connection_factory() as conn:
+            conn.row_factory = dict_row
+            with conn.transaction():
+                conn.execute('SET TRANSACTION READ ONLY')
+                return conn.execute(
+                    'SELECT video_id,media_uri,availability,media_sha256 FROM public.videos WHERE video_id=%s',
+                    (video_id,),
+                ).fetchone()
+
     @staticmethod
     def categories(conn):
         return conn.execute(
@@ -79,7 +89,7 @@ class PreferenceRepository:
             conn.row_factory = dict_row
 
             with conn.transaction():
-                # Serialize replacements even when a user currently has zero rows.
+                
                 conn.execute("SELECT pg_advisory_xact_lock(hashtextextended(%s, 0))", (str(user_id),),)
                 allowed = {row["id"] for row in self.categories(conn)}
 
@@ -126,12 +136,8 @@ class PreferenceRepository:
         with self.connection_factory() as conn:
             conn.row_factory = dict_row
             with conn.transaction():
-                # Pipeline the read-only transaction setting and one joined read.
-                # LEFT JOIN retains selected categories with no eligible videos.
-                with conn.pipeline():
-                    conn.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
-                    cursor = conn.execute(CANDIDATE_POOL_SQL, (user_id,))
-                rows = cursor.fetchall()
+                conn.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
+                rows = conn.execute(CANDIDATE_POOL_SQL, (user_id,)).fetchall()
         selected = {}
         videos = []
         for row in rows:

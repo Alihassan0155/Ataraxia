@@ -50,7 +50,6 @@ class PreferenceService:
             ):
                 continue
 
-            # A valid URI must refer to this exact stable video identity.
             if row["media_uri"].rsplit("/", 1)[-1] != row["video_id"] + ".mp4":
                 continue
 
