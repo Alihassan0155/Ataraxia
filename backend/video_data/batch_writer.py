@@ -75,6 +75,9 @@ class BatchWriter:
         self.last_insertions[table]=self.last_insertions.get(table,0)+1
 
     def __call__(self,rows):
+        from .physical_writer_guard import require_legacy_disabled
+        with self.connection_factory() as guard_conn:
+            require_legacy_disabled(guard_conn, self.settings.schema)
         if len({r['video_id'] for r in rows})!=len(rows):raise ValueError('One selected version per batch video required')
         bundles=self._bundles(rows);outcomes={};self.last_insertions={}
         with self.connection_factory() as conn:
@@ -89,7 +92,7 @@ class BatchWriter:
                 for table in ORDER:
                     cur=conn.execute(sql.SQL('SELECT * FROM {}').format(sql.Identifier(self.settings.schema,table)))
                     data[table]=[dict(zip([c.name for c in cur.description],r)) for r in cur.fetchall()]
-                if {v['video_id'] for v in data['videos']}!=self.ids:raise ValueError('Live scope changed')
+                if not self.ids.issubset({v['video_id'] for v in data['videos']}):raise ValueError('Approved live videos missing')
                 validate(data,clean=False)
                 latest,ties=select_latest(data['video_semantics'])
                 for queued,bundle,item in bundles:

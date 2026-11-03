@@ -107,6 +107,8 @@ def rotating_video(keys,vid,index,disabled,cfg,attempt_runner=bounded_video):
 def main():
     from ataraxia.annotation.backends import gemini as existing
     keys=existing.load_api_keys()
+    if os.environ.get('ATARAXIA_GEMINI_REVERSE_KEYS') == '1':
+        keys.reverse()
     cfg={'models':{'gemini':{'checkpoint':existing.MODEL}}}
     with metadata_path().open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
     saved=OUTPUT_ROOT/'gemini/annotations.jsonl'

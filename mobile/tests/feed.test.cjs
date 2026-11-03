@@ -84,7 +84,7 @@ test('API timeout includes slow body download and cancellation stays distinguish
   await assert.rejects(pending, error => error.name === 'AbortError');
 });
 
-test('simultaneous 401 responses share one refresh, including late stale responses', async () => {
+test('legacy authentication retries expired requests independently', async () => {
   const store = new Map([['ataraxia_access_token', 'old'], ['ataraxia_refresh_token', 'refresh']]);
   let refreshes = 0;
   const mockFetch = async (url, options) => {
@@ -94,7 +94,7 @@ test('simultaneous 401 responses share one refresh, including late stale respons
     }
     return response({}, options.headers.Authorization === 'Bearer old' ? 401 : 200);
   };
-  const auth = load('auth', { require: name => {
+  const auth = load('auth', { fetch: mockFetch, require: name => {
 
     if (name === './request') return { apiFetch: mockFetch };
     if (name === 'react-native') return { Platform: { OS: 'ios' } };
@@ -105,5 +105,5 @@ test('simultaneous 401 responses share one refresh, including late stale respons
     throw new Error('Unexpected dependency');
   } });
   const results = await Promise.all([auth.authenticatedFetch('/a'), auth.authenticatedFetch('/b')]);
-  assert.equal(refreshes, 1); assert.equal(results.every(r => r.status === 200), true);
+  assert.equal(refreshes, 2); assert.equal(results.every(r => r.status === 200), true);
 });

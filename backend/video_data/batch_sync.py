@@ -78,12 +78,21 @@ class DurableQueue:
 
     def reconcile_existing(self,latest):
         """Local acknowledgement only, using independently verified remote rows."""
+        from .canonical_update_proposal import source_version_matches_active
         with self.transaction():
             for vid,semantic in latest.items():
                 if vid not in self.ids:raise ValueError('Remote scope mismatch')
                 stamp=timestamp(semantic['payload']['completed_at']).timestamp()
-                self.db.execute("UPDATE items SET status='synced',acknowledged_at=?,lease_until=NULL WHERE semantic_id=?",
-                                (self.clock(),semantic['id']))
+                for queued in self.db.execute('SELECT * FROM items WHERE video_id=? AND completed_at=?', (vid,stamp)).fetchall():
+                    bundle = json.loads(queued['bundle'])
+                    if fingerprint(bundle) != queued['bundle_hash']:
+                        raise ValueError('Queue bundle corruption during reconciliation')
+                    source = next(e for e in bundle if e['table']=='video_semantics')
+                    source_row = dict(source['columns'], payload=source['payload'], content_hash=source.get('content_hash'))
+                    if not source_version_matches_active(source_row,semantic):
+                        raise ValueError('Conflicting equal completion timestamps during reconciliation')
+                    self.db.execute("UPDATE items SET status='synced',acknowledged_at=?,lease_until=NULL WHERE semantic_id=?",
+                                    (self.clock(),queued['semantic_id']))
                 self.db.execute("UPDATE items SET status='superseded',acknowledged_at=?,lease_until=NULL WHERE video_id=? AND completed_at<? AND status='pending'",
                                 (self.clock(),vid,stamp))
 
@@ -206,8 +215,8 @@ def reconcile_read_only(queue):
                 cur=conn.execute(sql.SQL('SELECT * FROM {}').format(sql.Identifier('public',table)))
                 data[table]=[dict(zip([c.name for c in cur.description],row)) for row in cur.fetchall()]
             validate(data,clean=False)
-    if {r['video_id'] for r in data['videos']}!=queue.ids:raise ValueError('Live scope changed')
-    latest,ties=select_latest(data['video_semantics'])
+    if not queue.ids.issubset({r['video_id'] for r in data['videos']}):raise ValueError('Approved live videos missing')
+    latest,ties=select_latest([r for r in data['video_semantics'] if r['video_id'] in queue.ids])
     valid={v:s for v,s in latest.items() if v not in ties and
            sum(compatible(e,s) for e in data['video_embeddings'])==1}
     queue.reconcile_existing(valid)
@@ -243,8 +252,12 @@ def main(argv=None):
             queue=DurableQueue(args.queue,ids);queue.recover_inflight()
             writer=None
             if args.apply:
-                from .batch_writer import BatchWriter
-                writer=BatchWriter(args.annotation_root,ids)
+                from .canonical_update_proposal import CanonicalBatchWriterProposal
+                from .config import DatabaseSettings,connect
+                settings=DatabaseSettings.load()
+                archive=args.queue.parent/'canonical_version_archive'
+                writer=CanonicalBatchWriterProposal(args.annotation_root,ids,lambda:connect(settings),archive)
+                print(json.dumps({'event':'canonical_writer_enabled','scope':len(ids),'archive':str(archive)}),flush=True)
             def drain():
                 delivered=0
                 if writer:
@@ -257,8 +270,12 @@ def main(argv=None):
                 return delivered
             # Expired persisted batches need not wait for a potentially long rescan.
             if args.apply or args.reconcile_live:
-                try:reconcile_read_only(queue)
-                except Exception as error:queue.record_error('remote-reconciliation',error)
+                try:
+                    reconciled=reconcile_read_only(queue)
+                    print(json.dumps({'event':'startup_reconciliation_completed','videos':reconciled}),flush=True)
+                except Exception as error:
+                    queue.record_error('remote-reconciliation',error)
+                    raise
             drain()
             while True:
                 added=discover(queue,args.annotation_root)

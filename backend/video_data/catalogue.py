@@ -83,6 +83,63 @@ def load_package(path):
     return tables, manifest
 
 
+def read_snapshot(conn, schema):
+    """Read rows and the complete dependency/security inventory on the caller transaction."""
+    from psycopg import sql
+    tables = {}
+    for table in ORDER:
+        cur = conn.execute(sql.SQL('SELECT * FROM {} ORDER BY {}').format(
+            sql.Identifier(schema, table), sql.Identifier('video_id' if table=='videos' else 'id')))
+        columns = [c.name for c in cur.description]
+        rows = []
+        for values in cur.fetchall():
+            row = dict(zip(columns, values))
+            for name, value in row.items():
+                if isinstance(value, datetime):
+                    row[name] = value.isoformat()
+            rows.append(row)
+        tables[table] = rows
+    def catalog(query, params=(schema,)):
+        cur = conn.execute(query, params)
+        names = [c.name for c in cur.description]
+        return [dict(zip(names, r)) for r in cur.fetchall()]
+    inventory = {
+        'columns':catalog("""SELECT c.relname AS table_name,a.attname AS column_name,
+            format_type(a.atttypid,a.atttypmod) AS type,a.attnotnull AS not_null,
+            pg_get_expr(d.adbin,d.adrelid) AS default_expression,a.attidentity,a.attgenerated
+            FROM pg_attribute a JOIN pg_class c ON c.oid=a.attrelid
+            JOIN pg_namespace n ON n.oid=c.relnamespace
+            LEFT JOIN pg_attrdef d ON d.adrelid=a.attrelid AND d.adnum=a.attnum
+            WHERE n.nspname=%s AND c.relkind='r' AND a.attnum>0 AND NOT a.attisdropped
+            ORDER BY c.relname,a.attnum"""),
+        'constraints':catalog("""SELECT c.relname AS table_name,p.conname,p.contype,
+            p.convalidated,pg_get_constraintdef(p.oid) AS definition FROM pg_constraint p
+            JOIN pg_class c ON c.oid=p.conrelid JOIN pg_namespace n ON n.oid=c.relnamespace
+            WHERE n.nspname=%s ORDER BY c.relname,p.conname"""),
+        'indexes':catalog('SELECT tablename,indexname,indexdef FROM pg_indexes WHERE schemaname=%s ORDER BY tablename,indexname'),
+        'security':catalog("""SELECT c.relname,c.relrowsecurity,c.relforcerowsecurity,
+            pg_get_userbyid(c.relowner) AS owner,c.relacl::text AS acl FROM pg_class c
+            JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname=%s AND c.relkind='r' ORDER BY c.relname"""),
+        'policies':catalog('SELECT * FROM pg_policies WHERE schemaname=%s ORDER BY tablename,policyname'),
+        'grants':catalog('SELECT table_name,grantor,grantee,privilege_type,is_grantable FROM information_schema.role_table_grants WHERE table_schema=%s ORDER BY table_name,grantee,privilege_type'),
+        'triggers':catalog("""SELECT c.relname,t.tgname,pg_get_triggerdef(t.oid) AS definition
+            FROM pg_trigger t JOIN pg_class c ON c.oid=t.tgrelid JOIN pg_namespace n ON n.oid=c.relnamespace
+            WHERE n.nspname=%s AND NOT t.tgisinternal ORDER BY c.relname,t.tgname"""),
+        'inbound_fks':catalog("""SELECT n.nspname,c.relname,p.conname,pg_get_constraintdef(p.oid) AS definition
+            FROM pg_constraint p JOIN pg_class c ON c.oid=p.conrelid JOIN pg_namespace n ON n.oid=c.relnamespace
+            JOIN pg_class target ON target.oid=p.confrelid JOIN pg_namespace tn ON tn.oid=target.relnamespace
+            WHERE p.contype='f' AND tn.nspname=%s AND target.relname=ANY(%s) ORDER BY n.nspname,c.relname,p.conname""", (schema,list(TABLES))),
+        'extensions':catalog("SELECT e.extname,e.extversion,n.nspname FROM pg_extension e JOIN pg_namespace n ON n.oid=e.extnamespace ORDER BY e.extname", ()),
+        'activity':catalog("""SELECT pid,state,wait_event_type,
+            query ~* '(insert|update|delete|truncate|copy)' AS possible_write
+            FROM pg_stat_activity WHERE datname=current_database() AND pid<>pg_backend_pid()
+            AND query ~* '(videos|video_context|affect_annotations|video_semantics|video_embeddings|processing_jobs|processing_runs|interest_categories)'
+            ORDER BY pid""", ()),
+    }
+    schema_signature = fingerprint({k:v for k,v in inventory.items() if k!='activity'})
+    return tables, inventory, schema_signature
+
+
 def capture(destination):
     """Consistent eight-table data archive plus schema/security catalog inventory."""
     from psycopg import sql
@@ -93,57 +150,7 @@ def capture(destination):
             if conn.execute('SHOW transaction_read_only').fetchone()[0] != 'on':
                 raise ValueError('Read-only transaction required')
             schema = settings.schema
-            tables = {}
-            for table in ORDER:
-                cur = conn.execute(sql.SQL('SELECT * FROM {} ORDER BY {}').format(
-                    sql.Identifier(schema, table), sql.Identifier('video_id' if table=='videos' else 'id')))
-                columns = [c.name for c in cur.description]
-                rows = []
-                for values in cur.fetchall():
-                    row = dict(zip(columns, values))
-                    for name, value in row.items():
-                        if isinstance(value, datetime):
-                            row[name] = value.isoformat()
-                    rows.append(row)
-                tables[table] = rows
-            def catalog(query, params=(schema,)):
-                cur = conn.execute(query, params)
-                names = [c.name for c in cur.description]
-                return [dict(zip(names, r)) for r in cur.fetchall()]
-            inventory = {
-                'columns':catalog("""SELECT c.relname AS table_name,a.attname AS column_name,
-                    format_type(a.atttypid,a.atttypmod) AS type,a.attnotnull AS not_null,
-                    pg_get_expr(d.adbin,d.adrelid) AS default_expression,a.attidentity,a.attgenerated
-                    FROM pg_attribute a JOIN pg_class c ON c.oid=a.attrelid
-                    JOIN pg_namespace n ON n.oid=c.relnamespace
-                    LEFT JOIN pg_attrdef d ON d.adrelid=a.attrelid AND d.adnum=a.attnum
-                    WHERE n.nspname=%s AND c.relkind='r' AND a.attnum>0 AND NOT a.attisdropped
-                    ORDER BY c.relname,a.attnum"""),
-                'constraints':catalog("""SELECT c.relname AS table_name,p.conname,p.contype,
-                    p.convalidated,pg_get_constraintdef(p.oid) AS definition FROM pg_constraint p
-                    JOIN pg_class c ON c.oid=p.conrelid JOIN pg_namespace n ON n.oid=c.relnamespace
-                    WHERE n.nspname=%s ORDER BY c.relname,p.conname"""),
-                'indexes':catalog('SELECT tablename,indexname,indexdef FROM pg_indexes WHERE schemaname=%s ORDER BY tablename,indexname'),
-                'security':catalog("""SELECT c.relname,c.relrowsecurity,c.relforcerowsecurity,
-                    pg_get_userbyid(c.relowner) AS owner,c.relacl::text AS acl FROM pg_class c
-                    JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname=%s AND c.relkind='r' ORDER BY c.relname"""),
-                'policies':catalog('SELECT * FROM pg_policies WHERE schemaname=%s ORDER BY tablename,policyname'),
-                'grants':catalog('SELECT table_name,grantor,grantee,privilege_type,is_grantable FROM information_schema.role_table_grants WHERE table_schema=%s ORDER BY table_name,grantee,privilege_type'),
-                'triggers':catalog("""SELECT c.relname,t.tgname,pg_get_triggerdef(t.oid) AS definition
-                    FROM pg_trigger t JOIN pg_class c ON c.oid=t.tgrelid JOIN pg_namespace n ON n.oid=c.relnamespace
-                    WHERE n.nspname=%s AND NOT t.tgisinternal ORDER BY c.relname,t.tgname"""),
-                'inbound_fks':catalog("""SELECT n.nspname,c.relname,p.conname,pg_get_constraintdef(p.oid) AS definition
-                    FROM pg_constraint p JOIN pg_class c ON c.oid=p.conrelid JOIN pg_namespace n ON n.oid=c.relnamespace
-                    JOIN pg_class target ON target.oid=p.confrelid JOIN pg_namespace tn ON tn.oid=target.relnamespace
-                    WHERE p.contype='f' AND tn.nspname=%s AND target.relname=ANY(%s) ORDER BY n.nspname,c.relname,p.conname""", (schema,list(TABLES))),
-                'extensions':catalog("SELECT e.extname,e.extversion,n.nspname FROM pg_extension e JOIN pg_namespace n ON n.oid=e.extnamespace ORDER BY e.extname", ()),
-                'activity':catalog("""SELECT pid,state,wait_event_type,
-                    query ~* '(insert|update|delete|truncate|copy)' AS possible_write
-                    FROM pg_stat_activity WHERE datname=current_database() AND pid<>pg_backend_pid()
-                    AND query ~* '(videos|video_context|affect_annotations|video_semantics|video_embeddings|processing_jobs|processing_runs|interest_categories)'
-                    ORDER BY pid""", ()),
-            }
-            schema_signature = fingerprint({k:v for k,v in inventory.items() if k!='activity'})
+            tables, inventory, schema_signature = read_snapshot(conn, schema)
             report = validate(tables, clean=False)
     write_package(destination, tables, {'kind':'read-only-production-snapshot', 'schema':schema,
                   'schema_signature':schema_signature, 'validation':report,
@@ -537,6 +544,8 @@ def export_sql(snapshot, stage, destination):
     Both end in ROLLBACK. No SQL is executed. Retain the immutable packages;
     the JSONL archives, not a terminal transcript, contain the full vectors.
     """
+    from .physical_writer_guard import require_legacy_disabled
+    require_legacy_disabled()
     from psycopg import sql
     before,bm=load_package(snapshot);after,sm=load_package(stage)
     validate(before,clean=False);validate(after)

@@ -261,7 +261,7 @@ export default function InterestsScreen()
             <Pressable style={[ styles.categoryButton, isSelected && styles.categoryButtonSelected, ]}
               disabled={saving || !preferencesLoaded} onPress={() => toggleInterest(item.id)} accessibilityRole="checkbox" accessibilityState={{ checked: isSelected, disabled: saving || !preferencesLoaded }}>
               <Text style={[ styles.categoryText, isSelected && styles.categoryTextSelected, ]}>
-                {isSelected ? 'âœ“  ' : ''}
+                {isSelected ? '\u2713  ' : ''}
                 {item.name}
               </Text>
             </Pressable>

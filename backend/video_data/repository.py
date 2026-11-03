@@ -102,6 +102,8 @@ class Repository:
         return counts
 
     def _put(self, cursor, item):
+        from .physical_writer_guard import require_legacy_disabled
+        require_legacy_disabled(self.conn, self.schema)
         from psycopg import sql
         from psycopg.types.json import Jsonb
         logical = item['table']
