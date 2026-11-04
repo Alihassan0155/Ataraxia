@@ -1,56 +1,40 @@
-# Welcome to your Expo app 👋
+# Ataraxia Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Expo / React Native client for the Ataraxia short-video recommendation prototype.**
 
-## Get started
+This application contains authentication screens, an onboarding interests flow, and a tabbed video-exploration interface. It is one component of the [Ataraxia system](../README.md), not a standalone production app.
 
-1. Install dependencies
+## App modules
 
-   ```bash
-   npm install
-   ```
+| Area | Location |
+| --- | --- |
+| Routing and screens | `src/app/` |
+| Sign-in and sign-up | `src/app/(auth)/` |
+| Preference onboarding | `src/app/(onboarding)/` |
+| Home and Explore screens | `src/app/(tabs)/` |
+| Video presentation | `src/components/feed-video.tsx` |
+| API integration | `src/services/` |
+| Theme and shared components | `src/constants/`, `src/components/`, `src/styles/` |
+| Test scripts | `tests/` |
 
-2. Start the app
+## Development
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Requires Node.js and a compatible Expo environment.
 
 ```bash
-npm run reset-project
+cd mobile
+npm install
+npm run start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+To open a specific platform, see `npm run android`, `npm run ios`, or `npm run web`. Platform behavior depends on installed tooling, OS support and package versions.
 
-### Other setup steps
+## Backend dependency
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+The client expects an appropriately configured Ataraxia API and external services. Review `src/services/request.ts`, `src/services/auth.ts`, and the [backend entrypoint](../backend/main.py) before connecting to any live service. Do not embed secrets in client code or commit local credentials.
 
-## Learn more
+## Validation
 
-To learn more about developing your project with Expo, look at the following resources:
+Some test files are included under `tests/`, but this README does not claim that the application was built, launched or tested as part of the documentation refresh.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This replaces the default Expo starter README with an accurate map of the tracked Ataraxia client code.
