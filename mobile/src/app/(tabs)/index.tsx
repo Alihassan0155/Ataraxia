@@ -101,12 +101,18 @@ export default function HomeScreen()
   const completedVideosRef = useRef<Set<string>>(new Set());
   const previousActiveVideoIdRef = useRef<string | null>(null);
 
+  const playbackStatsRef = useRef<Map<string, {
+    videoDurationMs: number | null;
+    watchDurationMs: number;
+  }>>(new Map());
+
 
   const resetInteractionDetection = useCallback(() =>
   {
     impressedVideosRef.current.clear();
     completedVideosRef.current.clear();
     previousActiveVideoIdRef.current = null;
+    playbackStatsRef.current.clear();
   }, []);
 
 
@@ -124,10 +130,32 @@ export default function HomeScreen()
       return;
     }
 
+    let playbackStats = playbackStatsRef.current.get(videoId);
+
+    if (!playbackStats)
+    {
+      playbackStats = {
+        videoDurationMs: null,
+        watchDurationMs: 0,
+      };
+
+      playbackStatsRef.current.set(videoId, playbackStats);
+    }
+
+    if (typeof details.metadata?.video_duration_ms === 'number')
+    {
+      playbackStats.videoDurationMs = details.metadata.video_duration_ms;
+    }
+
+    if (eventType === 'watch' && details.watch_duration_ms !== undefined)
+    {
+      playbackStats.watchDurationMs += details.watch_duration_ms;
+    }
+
     const event = createInteractionEvent(sessionId, videoId, eventType, details);
     eventBuffer.add(event);
 
-    console.log('[Ataraxia Interaction]', event.event_type, event.video_id, event.watch_duration_ms ?? '');
+    console.log('[Ataraxia Interaction]', event.event_type, event.video_id, event.watch_duration_ms ?? '', event.metadata ?? {});
 
     if (eventType === 'impression')
     {
@@ -252,7 +280,43 @@ export default function HomeScreen()
     if ( previousVideoId !== null && previousVideoId !== currentVideoId && impressedVideosRef.current.has(previousVideoId) &&
       !completedVideosRef.current.has(previousVideoId))
     {
-      handleInteractionEvent(previousVideoId, 'skip');
+      const playbackStats = playbackStatsRef.current.get(previousVideoId);
+
+      const videoDurationMs = playbackStats?.videoDurationMs ?? null;
+      const watchDurationMs = playbackStats?.watchDurationMs ?? 0;
+
+      let watchPercentage: number | null = null;
+      let skipClassification = 'unknown';
+
+      if (videoDurationMs !== null && videoDurationMs > 0)
+      {
+        watchPercentage = Math.min(
+          100,
+          (watchDurationMs / videoDurationMs) * 100
+        );
+
+        if (watchPercentage < 25)
+        {
+          skipClassification = 'early';
+        }
+        else if (watchPercentage <= 75)
+        {
+          skipClassification = 'mid';
+        }
+        else
+        {
+          skipClassification = 'late';
+        }
+      }
+
+      handleInteractionEvent(previousVideoId, 'skip', {
+        watch_duration_ms: watchDurationMs,
+        metadata: {
+          video_duration_ms: videoDurationMs,
+          watch_percentage: watchPercentage,
+          skip_classification: skipClassification,
+        },
+      });
     }
 
     previousActiveVideoIdRef.current = currentVideoId;

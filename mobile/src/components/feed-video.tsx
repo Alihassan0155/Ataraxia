@@ -78,6 +78,18 @@ export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client
     callbackRef.current?.(item.video_id, eventType, details);
   }
 
+  function getVideoDurationMs(): number | null
+  {
+    const duration = player.duration;
+
+    if (!Number.isFinite(duration) || duration <= 0)
+    {
+      return null;
+    }
+
+    return Math.round(duration * 1000);
+  }
+
   function resetPlaybackBaseline()
   {
     lastPlaybackPositionRef.current = null;
@@ -92,7 +104,12 @@ export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client
 
     if (watchDuration > 0)
     {
-      reportInteraction('watch', {watch_duration_ms: watchDuration,});
+      reportInteraction('watch', {
+        watch_duration_ms: watchDuration,
+        metadata: {
+          video_duration_ms: getVideoDurationMs(),
+        },
+      });
     }
 
     resetPlaybackBaseline();
@@ -275,7 +292,12 @@ export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client
     if (active && enabled && appVisible && !loading && !error && playerReady && !impressionSentRef.current)
     {
       impressionSentRef.current = true;
-      reportInteraction('impression');
+
+      reportInteraction('impression', {
+        metadata: {
+          video_duration_ms: getVideoDurationMs(),
+        },
+      });
     }
   }, [active, enabled, appVisible, loading, error, playerReady]);
 
