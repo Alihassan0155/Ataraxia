@@ -224,11 +224,11 @@ export default function HomeScreen()
   }, [authError, flushInteractions, trackingRetry]);
 
 
-  const handleInteractionEvent = useCallback((
+  const handleInteractionEvent = useCallback(async(
     videoId: string,
     eventType: InteractionEventType,
     details: InteractionEventDetails = {}
-  ) =>
+  ): Promise<void> =>
   {
     const sessionId = sessionIdRef.current;
     const queue = interactionQueueRef.current;
@@ -280,21 +280,39 @@ export default function HomeScreen()
       completedVideosRef.current.add(videoId);
     }
 
-    // Persist first; upload only after the local write succeeds.
-    void queue.add(event)
-      .then(async () =>
-      {
-        const pendingCount = await queue.getSize();
+    try
+    {
+      // Wait until the event is safely persisted locally.
+      await queue.add(event);
 
-        if (pendingCount >= 10)
-        {
-          await flushInteractions();
-        }
-      })
-      .catch(failure =>
+      console.log(
+        '[Ataraxia Interaction] Event persisted:',
+        event.event_type,
+        event.event_id
+      );
+
+      const pendingCount = await queue.getSize();
+
+      // Flush immediately after completion and rewatch.
+      // Preserve the existing batch threshold for other events.
+      if (
+        pendingCount >= 10 ||
+        eventType === 'completion' ||
+        eventType === 'rewatch'
+      )
       {
-        console.error('[Ataraxia Interaction] Could not persist event:', failure);
-      });
+        await flushInteractions();
+      }
+    }
+    catch (failure)
+    {
+      console.error(
+        '[Ataraxia Interaction] Could not persist or upload event:',
+        event.event_type,
+        event.event_id,
+        failure
+      );
+    }
   }, [flushInteractions]);
 
 

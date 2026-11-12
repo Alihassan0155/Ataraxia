@@ -18,7 +18,7 @@ type Props = {
     videoId: string,
     eventType: InteractionEventType,
     details?: InteractionEventDetails
-  ) => void;
+  ) => void | Promise<void>;
 };
 
 export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client, height, onAuthError, onInteractionEvent,}: Props)
