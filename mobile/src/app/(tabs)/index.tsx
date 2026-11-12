@@ -2,12 +2,18 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, FlatList, Pressable, Text, View, ViewToken } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
-import { authenticatedFetch, AuthenticationError, clearSession } from '@/services/auth';
+import { authenticatedFetch, AuthenticationError, clearSession, getCurrentUser } from '@/services/auth';
 import { Candidate, FeedClient, FeedError, mergeCandidates } from '@/services/feed';
 import { FeedVideo } from '@/components/feed-video';
 import { preferenceRevision } from '@/services/performance';
-import { createInteractionEvent, createInteractionId, InteractionEventBuffer } from '@/services/interaction-tracking';
+import { createInteractionEvent, createInteractionId } from '@/services/interaction-tracking';
 import type { InteractionEventDetails, InteractionEventType } from '@/services/interaction-tracking';
+import { PersistentInteractionQueue } from '@/services/interaction-queue';
+import {
+  closeInteractionSession,
+  flushPendingInteractions,
+  registerInteractionSession,
+} from '@/services/interaction-uploader';
 import styles from '@/styles/home.styles';
 
 
@@ -71,6 +77,8 @@ export default function HomeScreen()
   const [error, setError] = useState('');
   const [expired, setExpired] = useState(false);
   const [retry, setRetry] = useState(0);
+  const [trackingRetry, setTrackingRetry] = useState(0);
+  const [trackingReady, setTrackingReady] = useState(false);
   const [profileMenuVisible, setProfileMenuVisible] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
 
@@ -84,21 +92,12 @@ export default function HomeScreen()
   const revisionRef = useRef(preferenceRevision());
 
   const sessionIdRef = useRef<string | null>(null);
-
-  if (sessionIdRef.current === null)
-  {
-    sessionIdRef.current = createInteractionId();
-  }
-
-  const eventBufferRef = useRef<InteractionEventBuffer | null>(null);
-
-  if (eventBufferRef.current === null)
-  {
-    eventBufferRef.current = new InteractionEventBuffer();
-  }
+  const interactionQueueRef = useRef<PersistentInteractionQueue | null>(null);
+  const flushingInteractionsRef = useRef<Promise<number> | null>(null);
 
   const impressedVideosRef = useRef<Set<string>>(new Set());
   const completedVideosRef = useRef<Set<string>>(new Set());
+  const skippedVideosRef = useRef<Set<string>>(new Set());
   const previousActiveVideoIdRef = useRef<string | null>(null);
 
   const playbackStatsRef = useRef<Map<string, {
@@ -107,13 +106,122 @@ export default function HomeScreen()
   }>>(new Map());
 
 
+  const authError = useCallback(() =>
+  {
+    if (!redirectedRef.current)
+    {
+      redirectedRef.current = true;
+      router.replace('/login');
+    }
+  }, []);
+
+
+  const flushInteractions = useCallback(async () =>
+  {
+    const queue = interactionQueueRef.current;
+
+    if (!queue)
+    {
+      return 0;
+    }
+
+    // Reuse an upload that is already in progress.
+    if (flushingInteractionsRef.current)
+    {
+      return flushingInteractionsRef.current;
+    }
+
+    const flushPromise = flushPendingInteractions(queue);
+
+    flushingInteractionsRef.current = flushPromise;
+
+    try
+    {
+      return await flushPromise;
+    }
+    finally
+    {
+      if (flushingInteractionsRef.current === flushPromise)
+      {
+        flushingInteractionsRef.current = null;
+      }
+    }
+  }, []);
+
+
   const resetInteractionDetection = useCallback(() =>
   {
     impressedVideosRef.current.clear();
     completedVideosRef.current.clear();
+    skippedVideosRef.current.clear();
     previousActiveVideoIdRef.current = null;
     playbackStatsRef.current.clear();
   }, []);
+
+
+  // Initialize the authenticated user's persistent interaction queue.
+  useEffect(() =>
+  {
+    let cancelled = false;
+
+    async function initializeTracking()
+    {
+      setTrackingReady(false);
+      setLoading(true);
+      setError('');
+
+      try
+      {
+        const user = await getCurrentUser();
+
+        if (!user)
+        {
+          if (!cancelled)
+          {
+            authError();
+          }
+
+          return;
+        }
+
+        const queue = new PersistentInteractionQueue(user.id);
+
+        await queue.initialize();
+
+        if (cancelled)
+        {
+          return;
+        }
+
+        interactionQueueRef.current = queue;
+        sessionIdRef.current = createInteractionId();
+
+        setTrackingReady(true);
+
+        // Retry events left over from previous app sessions.
+        void flushInteractions().catch(failure =>
+        {
+          console.warn('[Ataraxia Interaction] Startup flush failed:', failure);
+        });
+      }
+      catch (failure)
+      {
+        if (!cancelled)
+        {
+          console.error('[Ataraxia Interaction] Initialization failed:', failure);
+          setError('Could not initialize interaction tracking. Please retry.');
+          setLoading(false);
+        }
+      }
+    }
+
+    void initializeTracking();
+
+    return () =>
+    {
+      cancelled = true;
+    };
+  }, [authError, flushInteractions, trackingRetry]);
 
 
   const handleInteractionEvent = useCallback((
@@ -123,9 +231,9 @@ export default function HomeScreen()
   ) =>
   {
     const sessionId = sessionIdRef.current;
-    const eventBuffer = eventBufferRef.current;
+    const queue = interactionQueueRef.current;
 
-    if (!sessionId || !eventBuffer)
+    if (!sessionId || !queue)
     {
       return;
     }
@@ -153,9 +261,14 @@ export default function HomeScreen()
     }
 
     const event = createInteractionEvent(sessionId, videoId, eventType, details);
-    eventBuffer.add(event);
 
-    console.log('[Ataraxia Interaction]', event.event_type, event.video_id, event.watch_duration_ms ?? '', event.metadata ?? {});
+    console.log(
+      '[Ataraxia Interaction]',
+      event.event_type,
+      event.video_id,
+      event.watch_duration_ms ?? '',
+      event.metadata ?? {}
+    );
 
     if (eventType === 'impression')
     {
@@ -166,17 +279,23 @@ export default function HomeScreen()
     {
       completedVideosRef.current.add(videoId);
     }
-  }, []);
 
+    // Persist first; upload only after the local write succeeds.
+    void queue.add(event)
+      .then(async () =>
+      {
+        const pendingCount = await queue.getSize();
 
-  const authError = useCallback(() =>
-  {
-    if (!redirectedRef.current)
-    {
-      redirectedRef.current = true;
-      router.replace('/login');
-    }
-  }, []);
+        if (pendingCount >= 10)
+        {
+          await flushInteractions();
+        }
+      })
+      .catch(failure =>
+      {
+        console.error('[Ataraxia Interaction] Could not persist event:', failure);
+      });
+  }, [flushInteractions]);
 
 
   const handleLogout = useCallback(async () =>
@@ -190,20 +309,51 @@ export default function HomeScreen()
 
     try
     {
+      const queue = interactionQueueRef.current;
+      const sessionId = sessionIdRef.current;
+
+      if (queue)
+      {
+        try
+        {
+          await flushInteractions();
+        }
+        catch (failure)
+        {
+          console.warn('[Ataraxia Interaction] Logout flush failed:', failure);
+        }
+      }
+
+      // Close the session even if some events remain queued.
+      // The backend permits delayed uploads for ended sessions.
+      if (sessionId)
+      {
+        try
+        {
+          await registerInteractionSession(sessionId);
+          await closeInteractionSession(sessionId);
+        }
+        catch (failure)
+        {
+          console.warn('[Ataraxia Interaction] Session close failed:', failure);
+        }
+      }
+
       await clearSession();
+
       setProfileMenuVisible(false);
       router.replace('/login');
     }
-    catch (error)
+    catch (failure)
     {
-      console.error('Logout failed:', error);
+      console.error('Logout failed:', failure);
       setError('Could not log out. Please try again.');
     }
     finally
     {
       setLoggingOut(false);
     }
-  }, [loggingOut]);
+  }, [loggingOut, flushInteractions]);
 
 
   useFocusEffect(
@@ -245,7 +395,7 @@ export default function HomeScreen()
   );
 
 
-  const viewabilityConfig = useRef({itemVisiblePercentThreshold: 80,});
+  const viewabilityConfig = useRef({ itemVisiblePercentThreshold: 80 });
 
   const onViewableItemsChanged = useRef(
     ({ viewableItems }: { viewableItems: ViewToken[] }) =>
@@ -259,9 +409,10 @@ export default function HomeScreen()
     }
   );
 
+
   useEffect(() =>
   {
-    if (!focused || videos.length === 0)
+    if (!focused || !trackingReady || videos.length === 0)
     {
       previousActiveVideoIdRef.current = null;
       return;
@@ -277,8 +428,13 @@ export default function HomeScreen()
     const currentVideoId = currentVideo.video_id;
     const previousVideoId = previousActiveVideoIdRef.current;
 
-    if ( previousVideoId !== null && previousVideoId !== currentVideoId && impressedVideosRef.current.has(previousVideoId) &&
-      !completedVideosRef.current.has(previousVideoId))
+    if (
+      previousVideoId !== null &&
+      previousVideoId !== currentVideoId &&
+      impressedVideosRef.current.has(previousVideoId) &&
+      !completedVideosRef.current.has(previousVideoId) &&
+      !skippedVideosRef.current.has(previousVideoId)
+    )
     {
       const playbackStats = playbackStatsRef.current.get(previousVideoId);
 
@@ -309,6 +465,8 @@ export default function HomeScreen()
         }
       }
 
+      skippedVideosRef.current.add(previousVideoId);
+
       handleInteractionEvent(previousVideoId, 'skip', {
         watch_duration_ms: watchDurationMs,
         metadata: {
@@ -320,12 +478,13 @@ export default function HomeScreen()
     }
 
     previousActiveVideoIdRef.current = currentVideoId;
-  }, [active, focused, videos, handleInteractionEvent]);
+  }, [active, focused, trackingReady, videos, handleInteractionEvent]);
 
 
+  // Load the initial feed only after persistent tracking is ready.
   useEffect(() =>
   {
-    if (!focused || initializedRef.current)
+    if (!focused || !trackingReady || initializedRef.current)
     {
       return;
     }
@@ -397,7 +556,7 @@ export default function HomeScreen()
       cancelled = true;
       controller.abort();
     };
-  }, [client, focused, retry, authError]);
+  }, [client, focused, trackingReady, retry, authError]);
 
 
   const loadMoreVideos = useCallback(async () =>
@@ -422,7 +581,10 @@ export default function HomeScreen()
     {
       const page = await client.page(requestedCursor);
 
-      if ( page.next_cursor === requestedCursor || (page.next_cursor !== null && seenCursorsRef.current.has(page.next_cursor)))
+      if (
+        page.next_cursor === requestedCursor ||
+        (page.next_cursor !== null && seenCursorsRef.current.has(page.next_cursor))
+      )
       {
         throw new Error('The feed did not advance. Please refresh.');
       }
@@ -488,17 +650,40 @@ export default function HomeScreen()
   }, [resetInteractionDetection]);
 
 
+  const retryLoading = useCallback(() =>
+  {
+    if (!trackingReady)
+    {
+      setError('');
+      setLoading(true);
+      setTrackingRetry(value => value + 1);
+      return;
+    }
+
+    refreshFeed();
+  }, [trackingReady, refreshFeed]);
+
+
   const renderItem = useCallback(
     ({ item, index }: { item: Candidate; index: number }) => (
-      <FeedVideo item={item} active={focused && index === active} enabled={focused && index >= active && index <= active + 1}
-        client={client} height={height} onAuthError={authError} onInteractionEvent={handleInteractionEvent}/>
+      <FeedVideo
+        item={item}
+        active={focused && index === active}
+        enabled={focused && index >= active && index <= active + 1}
+        client={client}
+        height={height}
+        onAuthError={authError}
+        onInteractionEvent={handleInteractionEvent}
+      />
     ),
     [active, authError, client, focused, height, handleInteractionEvent]
   );
 
 
   return (
-    <View style={styles.container} onLayout={event =>
+    <View
+      style={styles.container}
+      onLayout={event =>
       {
         setHeight(event.nativeEvent.layout.height);
       }}
@@ -506,10 +691,20 @@ export default function HomeScreen()
       {loading && videos.length === 0 ? (
         <FeedSkeleton />
       ) : videos.length > 0 && height > 0 ? (
-        <FlatList key={height} data={videos} keyExtractor={item => item.video_id} renderItem={renderItem}
-          pagingEnabled snapToInterval={height} snapToAlignment="start" decelerationRate="fast"
-          disableIntervalMomentum initialNumToRender={2}  maxToRenderPerBatch={2} windowSize={3}
-          showsVerticalScrollIndicator={false} getItemLayout={(_, index) => ({
+        <FlatList
+          data={videos}
+          keyExtractor={item => item.video_id}
+          renderItem={renderItem}
+          pagingEnabled
+          snapToInterval={height}
+          snapToAlignment="start"
+          decelerationRate="fast"
+          disableIntervalMomentum
+          initialNumToRender={2}
+          maxToRenderPerBatch={2}
+          windowSize={3}
+          showsVerticalScrollIndicator={false}
+          getItemLayout={(_, index) => ({
             length: height,
             offset: height * index,
             index,
@@ -536,7 +731,7 @@ export default function HomeScreen()
           </Pressable>
 
           {!!error && (
-            <Pressable onPress={refreshFeed}>
+            <Pressable onPress={retryLoading}>
               <Text style={styles.retryText}>
                 Retry loading
               </Text>
@@ -555,7 +750,9 @@ export default function HomeScreen()
       )}
 
 
-      {loadingMore && (<ActivityIndicator color="#5DE5E0" style={styles.loadingMoreIndicator} />)}
+      {loadingMore && (
+        <ActivityIndicator color="#5DE5E0" style={styles.loadingMoreIndicator} />
+      )}
 
       {!!error && videos.length > 0 && (
         <View style={styles.errorBanner}>
@@ -575,7 +772,9 @@ export default function HomeScreen()
                 void loadMoreVideos();
               }
             }}
-            style={styles.errorActionText}> {expired ? 'Refresh feed' : 'Retry loading'}
+            style={styles.errorActionText}
+          >
+            {expired ? 'Refresh feed' : 'Retry loading'}
           </Text>
         </View>
       )}
@@ -589,8 +788,12 @@ export default function HomeScreen()
 
 
       <View pointerEvents="box-none" style={styles.profileMenuContainer}>
-        <Pressable accessibilityRole="button" accessibilityLabel="Open profile menu"
-          onPress={() => setProfileMenuVisible(visible => !visible)} style={styles.profileButton}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Open profile menu"
+          onPress={() => setProfileMenuVisible(visible => !visible)}
+          style={styles.profileButton}
+        >
           <Text style={styles.profileButtonText}>
             ♙
           </Text>
@@ -598,7 +801,11 @@ export default function HomeScreen()
 
         {profileMenuVisible && (
           <View style={styles.profileDropdown}>
-            <Pressable disabled={loggingOut} onPress={() => void handleLogout()} style={styles.logoutButton}>
+            <Pressable
+              disabled={loggingOut}
+              onPress={() => void handleLogout()}
+              style={styles.logoutButton}
+            >
               <Text style={styles.logoutText}>
                 {loggingOut ? 'Logging out...' : 'Log out'}
               </Text>

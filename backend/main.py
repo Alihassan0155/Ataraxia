@@ -225,9 +225,11 @@ from backend.onboarding.api import create_router
 from backend.onboarding.repository import PreferenceRepository
 from backend.onboarding.service import PreferenceService
 from backend.onboarding.delivery import create_delivery_router
+from backend.interactions.api import create_router as create_interaction_router
 
 app.include_router(create_router(get_current_user))
 app.include_router(create_delivery_router(get_current_user, s3, S3_BUCKET_NAME))
+app.include_router(create_interaction_router(get_current_user))
 
 @app.get("/videos/{video_key}/playback")
 def get_video_playback_url(video_key: str, credentials: HTTPAuthorizationCredentials = Depends(security),):
