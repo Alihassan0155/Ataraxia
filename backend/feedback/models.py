@@ -1,14 +1,6 @@
-﻿"""Pydantic models for persistent per-user video feedback."""
+"""Pydantic models for persistent per-user video feedback."""
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
-
-
-class FeedbackStateRequest(BaseModel):
-    """Set the current Like/Unlike state for one video."""
-
-    model_config = ConfigDict(extra="forbid")
-
-    is_liked: bool
 
 
 class FeedbackBatchStateRequest(BaseModel):

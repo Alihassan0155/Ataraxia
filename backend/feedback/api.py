@@ -1,16 +1,14 @@
-﻿"""FastAPI routes for authenticated persistent video feedback."""
+"""FastAPI routes for authenticated persistent video feedback."""
 
 from uuid import UUID
 
 import psycopg
-from fastapi import APIRouter, Depends, HTTPException, Path, status
+from fastapi import APIRouter, Depends, HTTPException, status
 from psycopg_pool import PoolTimeout
 
 from .models import (
     FeedbackBatchStateRequest,
     FeedbackBatchStateResponse,
-    FeedbackStateRequest,
-    FeedbackStateResponse,
 )
 from .repository import UnknownVideoError
 from .service import FeedbackService
@@ -72,26 +70,5 @@ def create_router(current_user):
             handle_repository_error(error)
 
         return FeedbackBatchStateResponse(states=states)
-
-    @router.put(
-        "/videos/{video_id}",
-        response_model=FeedbackStateResponse,
-    )
-    def set_video_state(
-        request: FeedbackStateRequest,
-        video_id: str = Path(min_length=1, max_length=128),
-        user_id: UUID = Depends(get_authenticated_user_id),
-        service: FeedbackService = Depends(get_service),
-    ):
-        try:
-            result = service.set_state(
-                user_id=user_id,
-                video_id=video_id,
-                is_liked=request.is_liked,
-            )
-        except Exception as error:
-            handle_repository_error(error)
-
-        return FeedbackStateResponse(**result)
 
     return router

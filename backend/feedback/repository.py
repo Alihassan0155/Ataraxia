@@ -1,4 +1,4 @@
-﻿"""PostgreSQL repository for persistent per-user video feedback."""
+"""PostgreSQL repository for persistent per-user video feedback."""
 
 from uuid import UUID
 
@@ -75,71 +75,3 @@ class FeedbackRepository:
             })
 
         return states
-
-    def set_state(self, user_id, video_id, is_liked):
-        """Insert or update a user's current feedback state idempotently."""
-
-        user_id = UUID(str(user_id))
-
-        if (
-            not isinstance(video_id, str)
-            or not video_id.strip()
-            or video_id != video_id.strip()
-            or len(video_id) > 128
-        ):
-            raise ValueError("Invalid video ID.")
-
-        with self.connection_factory() as conn:
-            conn.row_factory = dict_row
-
-            with conn.transaction():
-                video = conn.execute(
-                    """
-                    SELECT video_id
-                    FROM public.videos
-                    WHERE video_id = %s
-                    """,
-                    (video_id,),
-                ).fetchone()
-
-                if video is None:
-                    raise UnknownVideoError(
-                        "The requested video does not exist."
-                    )
-
-                row = conn.execute(
-                    """
-                    INSERT INTO public.user_video_feedback (
-                        user_id,
-                        video_id,
-                        is_liked
-                    )
-                    VALUES (%s, %s, %s)
-                    ON CONFLICT (user_id, video_id)
-                    DO UPDATE SET
-                        is_liked = EXCLUDED.is_liked,
-                        updated_at = CASE
-                            WHEN public.user_video_feedback.is_liked
-                                 IS DISTINCT FROM EXCLUDED.is_liked
-                            THEN now()
-                            ELSE public.user_video_feedback.updated_at
-                        END
-                    RETURNING
-                        video_id,
-                        is_liked,
-                        created_at,
-                        updated_at
-                    """,
-                    (user_id, video_id, is_liked),
-                ).fetchone()
-
-                if row is None:
-                    raise RuntimeError(
-                        "Feedback state could not be verified."
-                    )
-
-        return {
-            "video_id": row["video_id"],
-            "is_liked": row["is_liked"],
-            "has_feedback": True,
-        }

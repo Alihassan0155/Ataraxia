@@ -5,7 +5,9 @@ export type InteractionEventType =
   | 'watch'
   | 'completion'
   | 'skip'
-  | 'rewatch';
+  | 'rewatch'
+  | 'like'
+  | 'unlike';
 
 export type InteractionMetadata = {
   [key: string]: string | number | boolean | null;

@@ -1,4 +1,4 @@
-﻿import { authenticatedFetch } from '@/services/auth';
+import { authenticatedFetch } from '@/services/auth';
 
 export type FeedbackState = {
   video_id: string;
@@ -22,7 +22,7 @@ async function getErrorMessage(response: Response): Promise<string> {
     // Use the fallback message if the response is not JSON.
   }
 
-  return 'Could not save or load video feedback. Please try again.';
+  return 'Could not load video feedback. Please try again.';
 }
 
 export async function getFeedbackStates(
@@ -81,40 +81,4 @@ export async function getFeedbackStates(
   }
 
   return states;
-}
-
-export async function setVideoFeedback(
-  videoId: string,
-  isLiked: boolean
-): Promise<FeedbackState> {
-  const response = await authenticatedFetch(
-    `/feedback/videos/${encodeURIComponent(videoId)}`,
-    {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-      body: JSON.stringify({
-        is_liked: isLiked,
-      }),
-    }
-  );
-
-  if (!response.ok) {
-    throw new Error(await getErrorMessage(response));
-  }
-
-  const data = (await response.json()) as FeedbackState;
-
-  if (
-    !data ||
-    data.video_id !== videoId ||
-    typeof data.is_liked !== 'boolean' ||
-    typeof data.has_feedback !== 'boolean'
-  ) {
-    throw new Error('Invalid feedback response from the server.');
-  }
-
-  return data;
 }

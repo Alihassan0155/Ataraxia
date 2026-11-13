@@ -15,6 +15,8 @@ const ALLOWED_EVENT_TYPES: InteractionEventType[] = [
   'completion',
   'skip',
   'rewatch',
+  'like',
+  'unlike',
 ];
 
 const ALLOWED_METADATA_KEYS = [
@@ -255,6 +257,33 @@ export class PersistentInteractionQueue {
       this.ensureInitialized();
 
       return this.events.slice(0, Math.max(0, limit));
+    });
+  }
+
+  async getLatestPendingFeedbackStates(
+    videoIds: string[]
+  ): Promise<Map<string, boolean>> {
+    return this.enqueue(async () => {
+      this.ensureInitialized();
+
+      const requestedVideoIds = new Set(videoIds);
+      const latestStates = new Map<string, boolean>();
+
+      // Queue order is insertion order.
+      // Later actions overwrite earlier actions for the same video.
+      for (const event of this.events) {
+        if (
+          requestedVideoIds.has(event.video_id) &&
+          (event.event_type === 'like' || event.event_type === 'unlike')
+        ) {
+          latestStates.set(
+            event.video_id,
+            event.event_type === 'like'
+          );
+        }
+      }
+
+      return latestStates;
     });
   }
 

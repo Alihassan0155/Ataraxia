@@ -16,7 +16,6 @@ import {
 } from '@/services/interaction-uploader';
 import {
   getFeedbackStates,
-  setVideoFeedback,
 } from '@/services/feedback';
 import styles from '@/styles/home.styles';
 
@@ -86,7 +85,7 @@ export default function HomeScreen()
   const [profileMenuVisible, setProfileMenuVisible] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
   const [likedByVideo, setLikedByVideo] = useState<Record<string, boolean>>({});
-  const [feedbackPending, setFeedbackPending] = useState<Set<string>>(new Set());
+
 
 
   const videosRef = useRef<Candidate[]>([]);
@@ -147,6 +146,16 @@ export default function HomeScreen()
     {
       return await flushPromise;
     }
+    catch (failure)
+    {
+      if (failure instanceof AuthenticationError)
+      {
+        authError();
+      }
+
+      throw failure;
+    }
+
     finally
     {
       if (flushingInteractionsRef.current === flushPromise)
@@ -154,7 +163,7 @@ export default function HomeScreen()
         flushingInteractionsRef.current = null;
       }
     }
-  }, []);
+  }, [authError]);
 
 
   const resetInteractionDetection = useCallback(() =>
@@ -236,36 +245,49 @@ export default function HomeScreen()
     videoId: string,
     eventType: InteractionEventType,
     details: InteractionEventDetails = {}
-  ): Promise<void> =>
+  ): Promise<boolean> =>
   {
     const sessionId = sessionIdRef.current;
     const queue = interactionQueueRef.current;
 
     if (!sessionId || !queue)
     {
-      return;
+      console.warn(
+        '[Ataraxia Interaction] Queue is not ready:',
+        eventType,
+        videoId
+      );
+
+      return false;
     }
 
-    let playbackStats = playbackStatsRef.current.get(videoId);
+    const isFeedbackEvent =
+      eventType === 'like' || eventType === 'unlike';
 
-    if (!playbackStats)
+    // Like/Unlike actions must not affect playback-duration statistics.
+    if (!isFeedbackEvent)
     {
-      playbackStats = {
-        videoDurationMs: null,
-        watchDurationMs: 0,
-      };
+      let playbackStats = playbackStatsRef.current.get(videoId);
 
-      playbackStatsRef.current.set(videoId, playbackStats);
-    }
+      if (!playbackStats)
+      {
+        playbackStats = {
+          videoDurationMs: null,
+          watchDurationMs: 0,
+        };
 
-    if (typeof details.metadata?.video_duration_ms === 'number')
-    {
-      playbackStats.videoDurationMs = details.metadata.video_duration_ms;
-    }
+        playbackStatsRef.current.set(videoId, playbackStats);
+      }
 
-    if (eventType === 'watch' && details.watch_duration_ms !== undefined)
-    {
-      playbackStats.watchDurationMs += details.watch_duration_ms;
+      if (typeof details.metadata?.video_duration_ms === 'number')
+      {
+        playbackStats.videoDurationMs = details.metadata.video_duration_ms;
+      }
+
+      if (eventType === 'watch' && details.watch_duration_ms !== undefined)
+      {
+        playbackStats.watchDurationMs += details.watch_duration_ms;
+      }
     }
 
     const event = createInteractionEvent(sessionId, videoId, eventType, details);
@@ -288,9 +310,9 @@ export default function HomeScreen()
       completedVideosRef.current.add(videoId);
     }
 
+    // Local persistence is the boundary for optimistic UI success.
     try
     {
-      // Wait until the event is safely persisted locally.
       await queue.add(event);
 
       console.log(
@@ -298,12 +320,37 @@ export default function HomeScreen()
         event.event_type,
         event.event_id
       );
+    }
+    catch (failure)
+    {
+      console.error(
+        '[Ataraxia Interaction] Could not persist event locally:',
+        event.event_type,
+        event.event_id,
+        failure
+      );
 
+      return false;
+    }
+
+    // Upload is separate. Feedback must never wait for the network.
+    try
+    {
       const pendingCount = await queue.getSize();
 
-      // Flush immediately after completion and rewatch.
-      // Preserve the existing batch threshold for other events.
-      if (
+      if (isFeedbackEvent)
+      {
+        void flushInteractions().catch(failure =>
+        {
+          console.warn(
+            '[Ataraxia Interaction] Feedback upload deferred; event remains queued:',
+            event.event_type,
+            event.event_id,
+            failure
+          );
+        });
+      }
+      else if (
         pendingCount >= 10 ||
         eventType === 'completion' ||
         eventType === 'rewatch'
@@ -314,13 +361,15 @@ export default function HomeScreen()
     }
     catch (failure)
     {
-      console.error(
-        '[Ataraxia Interaction] Could not persist or upload event:',
+      console.warn(
+        '[Ataraxia Interaction] Upload deferred; event remains queued:',
         event.event_type,
         event.event_id,
         failure
       );
     }
+
+    return true;
   }, [flushInteractions]);
 
 
@@ -348,6 +397,14 @@ export default function HomeScreen()
 
     try
     {
+      // Snapshot queued actions before the server request.
+      // This also covers an acknowledgement during the server request.
+      const queue = interactionQueueRef.current;
+
+      const pendingFeedbackStates = queue
+        ? await queue.getLatestPendingFeedbackStates(videoIds)
+        : new Map<string, boolean>();
+
       const states = await getFeedbackStates(videoIds, signal);
 
       if (signal?.aborted)
@@ -361,6 +418,16 @@ export default function HomeScreen()
 
         for (const state of states)
         {
+          const pendingIsLiked =
+            pendingFeedbackStates.get(state.video_id);
+
+          // Pending local actions take precedence over server state.
+          if (pendingIsLiked !== undefined)
+          {
+            next[state.video_id] = pendingIsLiked;
+            continue;
+          }
+
           const currentRevision =
             feedbackRevisionRef.current.get(state.video_id) ?? 0;
 
@@ -405,11 +472,6 @@ export default function HomeScreen()
     nextIsLiked: boolean
   ): Promise<void> =>
   {
-    if (feedbackPendingRef.current.has(videoId))
-    {
-      return;
-    }
-
     const previousIsLiked = likedByVideo[videoId] ?? false;
 
     const nextRevision =
@@ -417,16 +479,11 @@ export default function HomeScreen()
 
     feedbackRevisionRef.current.set(videoId, nextRevision);
 
+    // Keep the loading guard for server-state reconciliation only.
+    // It no longer blocks another Like/Unlike tap.
     feedbackPendingRef.current.add(videoId);
 
-    setFeedbackPending(current =>
-    {
-      const next = new Set(current);
-      next.add(videoId);
-      return next;
-    });
-
-    // Update the UI immediately while the request is in progress.
+    // Update the heart immediately.
     setLikedByVideo(current => ({
       ...current,
       [videoId]: nextIsLiked,
@@ -434,42 +491,49 @@ export default function HomeScreen()
 
     try
     {
-      const saved = await setVideoFeedback(videoId, nextIsLiked);
+      const persisted = await handleInteractionEvent(
+        videoId,
+        nextIsLiked ? 'like' : 'unlike'
+      );
 
-      setLikedByVideo(current => ({
-        ...current,
-        [videoId]: saved.is_liked,
-      }));
+      if (
+        !persisted &&
+        feedbackRevisionRef.current.get(videoId) === nextRevision
+      )
+      {
+        // An older failed action must not undo a newer tap.
+        setLikedByVideo(current => ({
+          ...current,
+          [videoId]: previousIsLiked,
+        }));
+
+        console.warn(
+          '[Ataraxia Feedback] Like action could not be saved to the local queue:',
+          videoId
+        );
+      }
     }
     catch (failure)
     {
-      // Restore the previous state if the server rejects the update.
-      setLikedByVideo(current => ({
-        ...current,
-        [videoId]: previousIsLiked,
-      }));
+      if (feedbackRevisionRef.current.get(videoId) === nextRevision)
+      {
+        setLikedByVideo(current => ({
+          ...current,
+          [videoId]: previousIsLiked,
+        }));
+      }
 
-      if (failure instanceof AuthenticationError)
-      {
-        authError();
-      }
-      else
-      {
-        console.warn('[Ataraxia Feedback] Could not update Like state:', failure);
-      }
+      console.error('[Ataraxia Feedback] Like action failed:', failure);
     }
     finally
     {
-      feedbackPendingRef.current.delete(videoId);
-
-      setFeedbackPending(current =>
+      // Only the latest operation may clear the pending reconciliation guard.
+      if (feedbackRevisionRef.current.get(videoId) === nextRevision)
       {
-        const next = new Set(current);
-        next.delete(videoId);
-        return next;
-      });
+        feedbackPendingRef.current.delete(videoId);
+      }
     }
-  }, [authError, likedByVideo]);
+  }, [handleInteractionEvent, likedByVideo]);
 
   const handleLogout = useCallback(async () =>
   {
@@ -855,9 +919,12 @@ export default function HomeScreen()
         client={client}
         height={height}
         onAuthError={authError}
-        onInteractionEvent={handleInteractionEvent}
+        onInteractionEvent={(videoId, eventType, details) =>
+        {
+          void handleInteractionEvent(videoId, eventType, details);
+        }}
         isLiked={likedByVideo[item.video_id] ?? false}
-        likePending={feedbackPending.has(item.video_id)}
+
         onToggleLike={handleToggleLike}
       />
     ),
@@ -869,7 +936,7 @@ export default function HomeScreen()
       height,
       handleInteractionEvent,
       likedByVideo,
-      feedbackPending,
+
       handleToggleLike,
     ]
   );
@@ -911,7 +978,7 @@ export default function HomeScreen()
             void loadMoreVideos();
           }}
           onEndReachedThreshold={0.5}
-          extraData={{ active, focused, height, likedByVideo, feedbackPending }}
+          extraData={{ active, focused, height, likedByVideo }}
         />
       ) : (
         <View style={styles.emptyContainer}>

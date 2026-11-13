@@ -14,6 +14,8 @@ InteractionEventType = Literal[
     "completion",
     "skip",
     "rewatch",
+    "like",
+    "unlike",
 ]
 
 SkipClassification = Literal[

@@ -1,4 +1,3 @@
-
 """PostgreSQL repository for authenticated feed interaction ingestion."""
 
 from uuid import UUID
@@ -95,18 +94,16 @@ class InteractionRepository:
         return row
 
     def insert_batch(self, user_id, events):
+        """Insert events and synchronize current Like state atomically."""
+
         user_id = UUID(str(user_id))
 
         if not events:
             return []
 
         event_ids = [event.event_id for event in events]
-        session_ids = sorted(
-            {event.session_id for event in events}
-        )
-        video_ids = sorted(
-            {event.video_id for event in events}
-        )
+        session_ids = sorted({event.session_id for event in events})
+        video_ids = sorted({event.video_id for event in events})
 
         with self.connection_factory() as conn:
             conn.row_factory = dict_row
@@ -143,14 +140,15 @@ class InteractionRepository:
                 ).fetchall()
 
                 existing_videos = {
-                    row["video_id"]
-                    for row in video_rows
+                    row["video_id"] for row in video_rows
                 }
 
                 if existing_videos != set(video_ids):
                     raise UnknownVideoError(
                         "One or more submitted videos do not exist."
                     )
+
+                newly_inserted_feedback_videos = set()
 
                 for event in events:
                     inserted = conn.execute(
@@ -202,6 +200,74 @@ class InteractionRepository:
                             raise EventConflictError(
                                 "An event ID was reused with different event data."
                             )
+                    elif event.event_type in {"like", "unlike"}:
+                        newly_inserted_feedback_videos.add(event.video_id)
+
+                # Serialize feedback-state reconstruction per user/video.
+                # Sorting gives batches a consistent lock acquisition order.
+                for video_id in sorted(newly_inserted_feedback_videos):
+                    lock_key = f"{user_id}:{video_id}"
+
+                    conn.execute(
+                        """
+                        SELECT pg_advisory_xact_lock(
+                            hashtextextended(%s, 0)
+                        )
+                        """,
+                        (lock_key,),
+                    )
+
+                    latest_event = conn.execute(
+                        """
+                        SELECT i.event_type
+                        FROM public.interactions AS i
+                        INNER JOIN public.sessions AS s
+                            ON s.session_id = i.session_id
+                        WHERE s.user_id = %s
+                          AND i.video_id = %s
+                          AND i.event_type IN ('like', 'unlike')
+                        ORDER BY
+                            i.occurred_at DESC,
+                            i.received_at DESC,
+                            i.interaction_id DESC
+                        LIMIT 1
+                        """,
+                        (user_id, video_id),
+                    ).fetchone()
+
+                    if latest_event is None:
+                        raise RuntimeError(
+                            "Latest feedback event could not be verified."
+                        )
+
+                    is_liked = latest_event["event_type"] == "like"
+
+                    feedback_row = conn.execute(
+                        """
+                        INSERT INTO public.user_video_feedback (
+                            user_id,
+                            video_id,
+                            is_liked
+                        )
+                        VALUES (%s, %s, %s)
+                        ON CONFLICT (user_id, video_id)
+                        DO UPDATE SET
+                            is_liked = EXCLUDED.is_liked,
+                            updated_at = CASE
+                                WHEN public.user_video_feedback.is_liked
+                                     IS DISTINCT FROM EXCLUDED.is_liked
+                                THEN now()
+                                ELSE public.user_video_feedback.updated_at
+                            END
+                        RETURNING video_id, is_liked
+                        """,
+                        (user_id, video_id, is_liked),
+                    ).fetchone()
+
+                    if feedback_row is None:
+                        raise RuntimeError(
+                            "Current feedback state could not be verified."
+                        )
 
         return event_ids
 

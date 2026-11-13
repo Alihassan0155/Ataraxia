@@ -21,11 +21,11 @@ type Props = {
     details?: InteractionEventDetails
   ) => void | Promise<void>;
   isLiked: boolean;
-  likePending: boolean;
+
   onToggleLike: (videoId: string, isLiked: boolean) => void | Promise<void>;
 };
 
-export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client, height, onAuthError, onInteractionEvent, isLiked, likePending, onToggleLike,}: Props)
+export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client, height, onAuthError, onInteractionEvent, isLiked, onToggleLike,}: Props)
 {
   const player = useVideoPlayer(null, instance => {
     instance.loop = true;
@@ -581,15 +581,11 @@ export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client
         <Pressable
           accessibilityRole="button"
           accessibilityLabel={isLiked ? 'Unlike this video' : 'Like this video'}
-          accessibilityState={{ disabled: likePending, selected: isLiked }}
-          disabled={likePending}
+          accessibilityState={{ selected: isLiked }}
           onPress={() => {
             void onToggleLike(item.video_id, !isLiked);
           }}
-          style={[
-            styles.likeButton,
-            likePending ? styles.likeButtonPending : null,
-          ]}
+          style={styles.likeButton}
         >
           <SymbolView
             name={{
