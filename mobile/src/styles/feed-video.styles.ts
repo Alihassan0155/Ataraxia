@@ -57,6 +57,22 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
+  likeButton: {
+    position: 'absolute',
+    right: 10,
+    bottom: 105,
+    width: 70,
+    height: 70,
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+    zIndex: 20,
+    elevation: 20,
+  },
+  likeButtonPending: {
+    opacity: 0.55,
+  },
   tapZones: {
     position: 'absolute',
     top: 0,

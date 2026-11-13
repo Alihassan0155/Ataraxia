@@ -1,4 +1,4 @@
-﻿
+
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, FlatList, Pressable, Text, View, ViewToken } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
@@ -14,6 +14,10 @@ import {
   flushPendingInteractions,
   registerInteractionSession,
 } from '@/services/interaction-uploader';
+import {
+  getFeedbackStates,
+  setVideoFeedback,
+} from '@/services/feedback';
 import styles from '@/styles/home.styles';
 
 
@@ -81,6 +85,8 @@ export default function HomeScreen()
   const [trackingReady, setTrackingReady] = useState(false);
   const [profileMenuVisible, setProfileMenuVisible] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
+  const [likedByVideo, setLikedByVideo] = useState<Record<string, boolean>>({});
+  const [feedbackPending, setFeedbackPending] = useState<Set<string>>(new Set());
 
 
   const videosRef = useRef<Candidate[]>([]);
@@ -99,6 +105,8 @@ export default function HomeScreen()
   const completedVideosRef = useRef<Set<string>>(new Set());
   const skippedVideosRef = useRef<Set<string>>(new Set());
   const previousActiveVideoIdRef = useRef<string | null>(null);
+  const feedbackPendingRef = useRef<Set<string>>(new Set());
+  const feedbackRevisionRef = useRef<Map<string, number>>(new Map());
 
   const playbackStatsRef = useRef<Map<string, {
     videoDurationMs: number | null;
@@ -315,6 +323,153 @@ export default function HomeScreen()
     }
   }, [flushInteractions]);
 
+
+  const loadFeedbackForVideos = useCallback(async (
+    videoIds: string[],
+    signal?: AbortSignal
+  ) =>
+  {
+    if (videoIds.length === 0 || signal?.aborted)
+    {
+      return;
+    }
+
+    // Remember the revision before fetching so an older response cannot
+    // overwrite a Like/Unlike action performed while the request is running.
+    const requestedRevisions = new Map<string, number>();
+
+    for (const videoId of videoIds)
+    {
+      requestedRevisions.set(
+        videoId,
+        feedbackRevisionRef.current.get(videoId) ?? 0
+      );
+    }
+
+    try
+    {
+      const states = await getFeedbackStates(videoIds, signal);
+
+      if (signal?.aborted)
+      {
+        return;
+      }
+
+      setLikedByVideo(current =>
+      {
+        const next = { ...current };
+
+        for (const state of states)
+        {
+          const currentRevision =
+            feedbackRevisionRef.current.get(state.video_id) ?? 0;
+
+          const requestedRevision =
+            requestedRevisions.get(state.video_id) ?? 0;
+
+          if (
+            !feedbackPendingRef.current.has(state.video_id) &&
+            currentRevision === requestedRevision
+          )
+          {
+            next[state.video_id] = state.is_liked;
+          }
+        }
+
+        return next;
+      });
+    }
+    catch (failure)
+    {
+      if (
+        signal?.aborted ||
+        (failure instanceof Error && failure.name === 'AbortError')
+      )
+      {
+        return;
+      }
+
+      if (failure instanceof AuthenticationError)
+      {
+        authError();
+      }
+      else
+      {
+        console.warn('[Ataraxia Feedback] Could not load saved feedback:', failure);
+      }
+    }
+  }, [authError]);
+
+  const handleToggleLike = useCallback(async (
+    videoId: string,
+    nextIsLiked: boolean
+  ): Promise<void> =>
+  {
+    if (feedbackPendingRef.current.has(videoId))
+    {
+      return;
+    }
+
+    const previousIsLiked = likedByVideo[videoId] ?? false;
+
+    const nextRevision =
+      (feedbackRevisionRef.current.get(videoId) ?? 0) + 1;
+
+    feedbackRevisionRef.current.set(videoId, nextRevision);
+
+    feedbackPendingRef.current.add(videoId);
+
+    setFeedbackPending(current =>
+    {
+      const next = new Set(current);
+      next.add(videoId);
+      return next;
+    });
+
+    // Update the UI immediately while the request is in progress.
+    setLikedByVideo(current => ({
+      ...current,
+      [videoId]: nextIsLiked,
+    }));
+
+    try
+    {
+      const saved = await setVideoFeedback(videoId, nextIsLiked);
+
+      setLikedByVideo(current => ({
+        ...current,
+        [videoId]: saved.is_liked,
+      }));
+    }
+    catch (failure)
+    {
+      // Restore the previous state if the server rejects the update.
+      setLikedByVideo(current => ({
+        ...current,
+        [videoId]: previousIsLiked,
+      }));
+
+      if (failure instanceof AuthenticationError)
+      {
+        authError();
+      }
+      else
+      {
+        console.warn('[Ataraxia Feedback] Could not update Like state:', failure);
+      }
+    }
+    finally
+    {
+      feedbackPendingRef.current.delete(videoId);
+
+      setFeedbackPending(current =>
+      {
+        const next = new Set(current);
+        next.delete(videoId);
+        return next;
+      });
+    }
+  }, [authError, likedByVideo]);
 
   const handleLogout = useCallback(async () =>
   {
@@ -540,6 +695,11 @@ export default function HomeScreen()
         setTotal(page.total);
         setActive(0);
         setExpired(false);
+
+        void loadFeedbackForVideos(
+          initialVideos.map(video => video.video_id),
+          controller.signal
+        );
       }
       catch (failure)
       {
@@ -574,7 +734,7 @@ export default function HomeScreen()
       cancelled = true;
       controller.abort();
     };
-  }, [client, focused, trackingReady, retry, authError]);
+  }, [client, focused, trackingReady, retry, authError, loadFeedbackForVideos]);
 
 
   const loadMoreVideos = useCallback(async () =>
@@ -618,6 +778,10 @@ export default function HomeScreen()
       setTotal(page.total);
       setError('');
       setExpired(false);
+
+      void loadFeedbackForVideos(
+        page.videos.map(video => video.video_id)
+      );
     }
     catch (failure)
     {
@@ -636,7 +800,7 @@ export default function HomeScreen()
       loadingMoreRef.current = false;
       setLoadingMore(false);
     }
-  }, [client, authError]);
+  }, [client, authError, loadFeedbackForVideos]);
 
 
   useEffect(() =>
@@ -692,9 +856,22 @@ export default function HomeScreen()
         height={height}
         onAuthError={authError}
         onInteractionEvent={handleInteractionEvent}
+        isLiked={likedByVideo[item.video_id] ?? false}
+        likePending={feedbackPending.has(item.video_id)}
+        onToggleLike={handleToggleLike}
       />
     ),
-    [active, authError, client, focused, height, handleInteractionEvent]
+    [
+      active,
+      authError,
+      client,
+      focused,
+      height,
+      handleInteractionEvent,
+      likedByVideo,
+      feedbackPending,
+      handleToggleLike,
+    ]
   );
 
 
@@ -734,7 +911,7 @@ export default function HomeScreen()
             void loadMoreVideos();
           }}
           onEndReachedThreshold={0.5}
-          extraData={{ active, focused, height }}
+          extraData={{ active, focused, height, likedByVideo, feedbackPending }}
         />
       ) : (
         <View style={styles.emptyContainer}>

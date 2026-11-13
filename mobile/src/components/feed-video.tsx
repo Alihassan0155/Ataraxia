@@ -2,6 +2,7 @@
 import { memo, useEffect, useRef, useState } from 'react';
 import {ActivityIndicator, AppState, Pressable, Text, View,} from 'react-native';
 import { useVideoPlayer, VideoView } from 'expo-video';
+import { SymbolView } from 'expo-symbols';
 import { Candidate, FeedClient } from '@/services/feed';
 import { AuthenticationError } from '@/services/auth';
 import {InteractionEventDetails, InteractionEventType,} from '@/services/interaction-tracking';
@@ -19,9 +20,12 @@ type Props = {
     eventType: InteractionEventType,
     details?: InteractionEventDetails
   ) => void | Promise<void>;
+  isLiked: boolean;
+  likePending: boolean;
+  onToggleLike: (videoId: string, isLiked: boolean) => void | Promise<void>;
 };
 
-export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client, height, onAuthError, onInteractionEvent,}: Props)
+export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client, height, onAuthError, onInteractionEvent, isLiked, likePending, onToggleLike,}: Props)
 {
   const player = useVideoPlayer(null, instance => {
     instance.loop = true;
@@ -571,6 +575,32 @@ export const FeedVideo = memo(function FeedVideo({ item, active, enabled, client
           <Pressable style={styles.tapZone} onPress={() => handleTap('left')}/>
           <Pressable style={styles.tapZone} onPress={() => handleTap('right')}/>
         </View>
+      )}
+
+      {active && !loading && !error && (
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={isLiked ? 'Unlike this video' : 'Like this video'}
+          accessibilityState={{ disabled: likePending, selected: isLiked }}
+          disabled={likePending}
+          onPress={() => {
+            void onToggleLike(item.video_id, !isLiked);
+          }}
+          style={[
+            styles.likeButton,
+            likePending ? styles.likeButtonPending : null,
+          ]}
+        >
+          <SymbolView
+            name={{
+              ios: isLiked ? 'heart.fill' : 'heart',
+              android: isLiked ? 'favorite' : 'favorite_border',
+              web: isLiked ? 'favorite' : 'favorite_border',
+            }}
+            tintColor={isLiked ? '#FE2C55' : '#FFFFFF'}
+            size={50}
+          />
+        </Pressable>
       )}
     </View>
   );
