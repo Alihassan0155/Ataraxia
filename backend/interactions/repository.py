@@ -1,5 +1,7 @@
+
 """PostgreSQL repository for authenticated feed interaction ingestion."""
 
+from datetime import datetime
 from uuid import UUID
 
 from psycopg.rows import dict_row
@@ -92,6 +94,95 @@ class InteractionRepository:
                     )
 
         return row
+
+    def get_session_watch_ms(self, user_id, session_id):
+        """Return total watch-event duration for an owned session."""
+
+        user_id = UUID(str(user_id))
+        session_id = UUID(str(session_id))
+
+        with self.connection_factory() as conn:
+            conn.row_factory = dict_row
+
+            row = conn.execute(
+                """
+                SELECT
+                    s.session_id,
+                    COALESCE(SUM(i.watch_duration_ms), 0)
+                        AS session_watch_ms
+                FROM public.sessions AS s
+                LEFT JOIN public.interactions AS i
+                    ON i.session_id = s.session_id
+                    AND i.event_type = 'watch'
+                WHERE s.session_id = %s
+                  AND s.user_id = %s
+                GROUP BY s.session_id
+                """,
+                (session_id, user_id),
+            ).fetchone()
+
+        if row is None:
+            raise SessionNotFoundError(
+                "Session was not found or is not accessible."
+            )
+
+        return int(row["session_watch_ms"] or 0)
+
+
+    def get_recent_events(self, user_id, since, limit=5000):
+        """Return the newest matching events in chronological order."""
+
+        user_id = UUID(str(user_id))
+
+        if not isinstance(since, datetime):
+            raise ValueError("since must be a datetime.")
+
+        if since.tzinfo is None or since.utcoffset() is None:
+            raise ValueError("since must be timezone-aware.")
+
+        if isinstance(limit, bool) or not isinstance(limit, int):
+            raise ValueError("limit must be a positive integer.")
+
+        if limit <= 0:
+            raise ValueError("limit must be a positive integer.")
+
+        with self.connection_factory() as conn:
+            conn.row_factory = dict_row
+
+            rows = conn.execute(
+                """
+                SELECT *
+                FROM (
+                    SELECT
+                        i.interaction_id,
+                        i.session_id,
+                        i.video_id,
+                        i.event_type,
+                        i.occurred_at,
+                        i.received_at,
+                        i.watch_duration_ms,
+                        i.metadata
+                    FROM public.interactions AS i
+                    INNER JOIN public.sessions AS s
+                        ON s.session_id = i.session_id
+                    WHERE s.user_id = %s
+                    AND i.occurred_at >= %s
+                    ORDER BY
+                        i.occurred_at DESC,
+                        i.received_at DESC,
+                        i.interaction_id DESC
+                    LIMIT %s
+                ) AS recent_events
+                ORDER BY
+                    occurred_at ASC,
+                    received_at ASC,
+                    interaction_id ASC
+                """,
+                (user_id, since, limit),
+            ).fetchall()
+
+        return rows
+
 
     def insert_batch(self, user_id, events):
         """Insert events and synchronize current Like state atomically."""
