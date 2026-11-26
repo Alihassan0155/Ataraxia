@@ -101,6 +101,10 @@ backend/reports/
 *.sqlite3.worker.lock
 *.dump
 *.backup
+backend/backups/
 
 # Keep source code, migrations, docs and research metadata/evidence trackable.
 # Do not add broad JSON, JSONL, CSV, TXT or SQL exclusions here.
+
+# Private Stage 1 research validation details / local feature exports.
+/research/recommendation/local/

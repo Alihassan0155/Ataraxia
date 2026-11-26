@@ -1,0 +1,68 @@
+{
+  "source": "in-memory",
+  "source_counts": {
+    "videos": 4226,
+    "processing_runs": 37,
+    "video_context": 4226,
+    "affect_annotations": 2486,
+    "video_semantics": 2327,
+    "video_embeddings": 2327,
+    "interest_categories": 19
+  },
+  "eligible_videos": 2317,
+  "category_distribution": {
+    "ASMR": 17,
+    "Beauty & Style": 99,
+    "Comedy": 628,
+    "DIY, Crafts & Outdoor Hobbies": 34,
+    "Education": 20,
+    "Entertainment & Animation": 90,
+    "Food & Cooking": 80,
+    "Gaming": 90,
+    "Lifestyle, Vlogs & Relationships": 158,
+    "Mental Health & Motivation": 61,
+    "Music & Dance": 213,
+    "Nature, Animals & Conservation": 123,
+    "News, Politics & Social Issues": 82,
+    "Religion & Spirituality": 100,
+    "Science & Technology": 128,
+    "Sports & Fitness": 279,
+    "Travel & Adventure": 99,
+    "Vehicles": 16
+  },
+  "embedding_shape": [
+    2317,
+    1024
+  ],
+  "embedding_dtype": "float32",
+  "embedding_norm_range": [
+    0.9999998807907104,
+    1.0000001192092896
+  ],
+  "affect_coverage": {
+    "canonical_videos_with_annotation": 2486,
+    "canonical_videos": 4226,
+    "eligible_with_valid_annotation": 2317
+  },
+  "excluded_count": 1909,
+  "exclusion_reasons": {
+    "missing semantic record": 1899,
+    "emotion probabilities do not sum to one": 8,
+    "unresolved category assignment": 2
+  },
+  "integrity_issues": [],
+  "affect_columns": [
+    "valence",
+    "arousal",
+    "recovery_suitability",
+    "confidence",
+    "joy",
+    "sadness",
+    "anger",
+    "fear_anxiety",
+    "surprise",
+    "disgust",
+    "calm_contentment",
+    "neutral"
+  ]
+}
