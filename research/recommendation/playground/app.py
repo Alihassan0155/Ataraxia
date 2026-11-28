@@ -9,19 +9,18 @@ import streamlit as st
 
 from research.recommendation.catalogue import EMOTIONS, load_local_database
 from research.recommendation.ltm import LongTermMemory
-from research.recommendation.retrieval import CandidateRetriever
+from research.recommendation.four_pools import FourPoolRetriever, POOL_ORDER
 from research.recommendation.simulator import LikeConfig, SimulatorConfig, SyntheticSimulator
 from research.recommendation.stm import ShortTermMemory
 
 ROOT = Path(__file__).resolve().parents[3]
 MEDIA_SUFFIXES = {'.mp4', '.webm', '.mov'}
-POOLS = ('STM', 'LTM', 'Diversity', 'Recovery')
 
 
 @st.cache_resource
 def catalogue_resources():
     catalogue = load_local_database()
-    return catalogue, CandidateRetriever(catalogue)
+    return catalogue, FourPoolRetriever(catalogue)
 
 
 @st.cache_data
@@ -73,13 +72,8 @@ class Playground:
 
     def retrieve(self):
         short = self.stm.retrieval_state()
-        long = self.ltm.retrieval_state(short.watched_ids)
-        return {
-            'STM': self.retriever.retrieve_relevant(short),
-            'LTM': self.retriever.retrieve_relevant(long),
-            'Diversity': self.retriever.retrieve_diverse_alternatives(short),
-            'Recovery': self.retriever.retrieve_recovery_alternatives(short),
-        }
+        long = self.ltm.retrieval_state()
+        return self.retriever.retrieve_pools(short.interest_vector, long.interest_vector, short.watched_ids)
 
     @property
     def revision(self):
@@ -126,11 +120,15 @@ def pool_rows(catalogue, result):
 
 
 def show_pools(playground):
-    for name, tab in zip(POOLS, st.tabs(POOLS)):
+    bundle = playground.current
+    st.caption(' · '.join(f'{name} {len(pool.candidates)}/{pool.requested_k} '
+                          f'({"available" if available else "unavailable"})'
+                          for name, pool, available in
+                          zip(POOL_ORDER, bundle.pools, bundle.availability_mask)))
+    for name, result, tab in zip(POOL_ORDER, bundle.pools, st.tabs(POOL_ORDER)):
         with tab:
-            result = playground.current[name]
-            if name in ('Diversity', 'Recovery'):
-                st.caption('Uses the current STM vector and existing Stage 2 eligibility rules.')
+            if name in ('Diverse', 'Recovery'):
+                st.caption('Uses STM relevance and the Current pool as its reference.')
             if result.reason:
                 st.info(result.reason.replace('_', ' ').capitalize())
             if result.candidates:
@@ -138,7 +136,7 @@ def show_pools(playground):
 
 
 def show_video_and_feedback(playground, previews):
-    ids = list(dict.fromkeys(item.video_id for result in playground.current.values()
+    ids = list(dict.fromkeys(item.video_id for result in playground.current.pools
                             for item in result.candidates))
     if not ids:
         st.info('No candidates remain. Start a new session to clear served-video exclusions.')
@@ -153,7 +151,9 @@ def show_video_and_feedback(playground, previews):
     record = catalogue.records[catalogue.id_to_row[video_id]]
     detail, feedback = st.columns((3, 2))
     with detail:
-        st.caption(record.category)
+        membership = [name for name, pool in zip(POOL_ORDER, playground.current.pools)
+                      if any(item.video_id == video_id for item in pool.candidates)]
+        st.caption(f'{record.category} · {", ".join(membership)}')
         if video_id in previews:
             st.video(previews[video_id])
         else:
@@ -185,16 +185,19 @@ def show_video_and_feedback(playground, previews):
 
 
 def show_analysis(playground):
-    with st.expander('Previous vs updated Top-20', expanded=bool(playground.previous)):
+    with st.expander('Pairwise pool overlap'):
+        st.dataframe([{'Pools': f'{left} / {right}', 'Shared videos': count}
+                      for (left, right), count in playground.current.pairwise_overlap().items()],
+                     hide_index=True)
+    with st.expander('Previous vs updated pools', expanded=bool(playground.previous)):
         if playground.previous is None:
             st.caption('Submit feedback to compare consecutive rankings.')
         else:
-            for name, column in zip(('STM', 'LTM'), st.columns(2)):
-                before = playground.previous[name].candidates
-                after = playground.current[name].candidates
-                column.markdown(f'**{name}**')
-                column.caption(f'{len({x.video_id for x in before} & {x.video_id for x in after})} IDs retained')
-                column.dataframe([
+            for name, previous, current, tab in zip(POOL_ORDER, playground.previous.pools,
+                                                     playground.current.pools, st.tabs(POOL_ORDER)):
+                before, after = previous.candidates, current.candidates
+                tab.caption(f'{len({x.video_id for x in before} & {x.video_id for x in after})} IDs retained')
+                tab.dataframe([
                     {'Rank': rank + 1,
                      'Previous': before[rank].video_id if rank < len(before) else '',
                      'Updated': after[rank].video_id if rank < len(after) else ''}
@@ -209,13 +212,13 @@ def show_analysis(playground):
         else:
             st.caption('Feedback history is empty.')
     with st.expander('Category distribution'):
-        scope = st.selectbox('Distribution', ['Catalogue', *POOLS, 'Session feedback'])
+        scope = st.selectbox('Distribution', ['Catalogue', *POOL_ORDER, 'Session feedback'])
         if scope == 'Catalogue':
             categories = (record.category for record in playground.catalogue.records)
         elif scope == 'Session feedback':
             categories = (row['Category'] for row in playground.feedback)
         else:
-            categories = (item.category for item in playground.current[scope].candidates)
+            categories = (item.category for item in playground.current.pools[POOL_ORDER.index(scope)].candidates)
         counts = Counter(categories)
         if counts:
             st.bar_chart([{'Category': label, 'Videos': count} for label, count in sorted(counts.items())],

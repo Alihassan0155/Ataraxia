@@ -8,3 +8,7 @@ from .retrieval import (AffectFeatures, Candidate, CandidateRetriever, Retrieval
 
 __all__ += ["AffectFeatures", "Candidate", "CandidateRetriever", "RetrievalConfig",
             "RetrievalResult", "RetrievalState", "StrategyEligibility"]
+
+from .four_pools import FourPoolResult, FourPoolRetriever, POOL_ORDER
+
+__all__ += ['FourPoolResult', 'FourPoolRetriever', 'POOL_ORDER']

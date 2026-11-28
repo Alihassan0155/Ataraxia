@@ -21,10 +21,11 @@ whose public categories appear on screen. The selected onboarding categories
 initialize the recommendation memories independently.
 
 Choose a video from any of the four outputs and submit manual feedback or
-sample the simulator. STM and LTM Top-20 use their respective interest vectors
-with the same session exclusion history. Diversity and Recovery each use the
-existing Stage 2 search with the STM vector. The dashboard shows consecutive
-STM and LTM pools, session-relative drift, feedback history and category counts.
+sample the simulator. The unified adapter refreshes all four pools after each
+interaction. Current and Stable show STM and LTM Top-10 respectively, with the
+same session exclusions. Recovery and Diverse use the existing Stage 2 searches
+with Current as their reference. The dashboard shows availability, pairwise
+overlap, consecutive rankings, drift, feedback history and category counts.
 
 Memory lives in the browser's Streamlit session state across app reruns. A new
 research session resets STM and clears the current feedback history and
